@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "vanillablocksplus:block/str_crimson_hyphae_door_bottom",
+    "top": "vanillablocksplus:block/str_crimson_hyphae_door_top"
+  }
+}

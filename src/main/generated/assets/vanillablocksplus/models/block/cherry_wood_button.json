@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "vanillablocksplus:block/cherry_wood_mod"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "vanillablocksplus:block/birch_wood_mod"
+  }
+}

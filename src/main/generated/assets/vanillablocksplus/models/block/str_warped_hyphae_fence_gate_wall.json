@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fence_gate_wall",
+  "textures": {
+    "texture": "vanillablocksplus:block/str_warped_hyphae_mod"
+  }
+}

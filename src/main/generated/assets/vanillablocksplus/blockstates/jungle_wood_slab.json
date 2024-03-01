@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/jungle_wood_slab"
+    },
+    "type=double": {
+      "model": "vanillablocksplus:block/jungle_wood_mod"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/jungle_wood_slab_top"
+    }
+  }
+}

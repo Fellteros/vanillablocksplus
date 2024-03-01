@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "vanillablocksplus:block/crimson_hyphae_mod",
+    "side": "vanillablocksplus:block/crimson_hyphae_mod",
+    "top": "vanillablocksplus:block/crimson_hyphae_mod"
+  }
+}

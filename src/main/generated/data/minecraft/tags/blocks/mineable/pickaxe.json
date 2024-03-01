@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "vanillablocksplus:stone_door",
+    "vanillablocksplus:stone_trapdoor",
+    "vanillablocksplus:stone_fence_gate",
+    "vanillablocksplus:stone_fence"
+  ]
+}

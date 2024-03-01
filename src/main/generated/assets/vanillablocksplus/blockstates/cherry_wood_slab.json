@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/cherry_wood_slab"
+    },
+    "type=double": {
+      "model": "vanillablocksplus:block/cherry_wood_mod"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/cherry_wood_slab_top"
+    }
+  }
+}

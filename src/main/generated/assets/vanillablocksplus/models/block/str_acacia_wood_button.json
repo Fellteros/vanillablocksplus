@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "vanillablocksplus:block/str_acacia_wood_mod"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "vanillablocksplus:block/cherry_wood_mod"
+  }
+}

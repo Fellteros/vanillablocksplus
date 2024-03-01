@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "vanillablocksplus:block/warped_hyphae_mod",
+    "side": "vanillablocksplus:block/warped_hyphae_mod",
+    "top": "vanillablocksplus:block/warped_hyphae_mod"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "vanillablocksplus:block/spruce_wood_mod",
+    "side": "vanillablocksplus:block/spruce_wood_mod",
+    "top": "vanillablocksplus:block/spruce_wood_mod"
+  }
+}

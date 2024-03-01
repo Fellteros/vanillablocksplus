@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "vanillablocksplus:block/bamboo_block_mod",
+    "side": "vanillablocksplus:block/bamboo_block_mod",
+    "top": "vanillablocksplus:block/bamboo_block_mod"
+  }
+}

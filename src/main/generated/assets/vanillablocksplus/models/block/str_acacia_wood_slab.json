@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "vanillablocksplus:block/str_acacia_wood_mod",
+    "side": "vanillablocksplus:block/str_acacia_wood_mod",
+    "top": "vanillablocksplus:block/str_acacia_wood_mod"
+  }
+}

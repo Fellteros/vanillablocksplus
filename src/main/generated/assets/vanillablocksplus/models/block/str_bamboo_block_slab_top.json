@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "vanillablocksplus:block/str_bamboo_block_mod",
+    "side": "vanillablocksplus:block/str_bamboo_block_mod",
+    "top": "vanillablocksplus:block/str_bamboo_block_mod"
+  }
+}

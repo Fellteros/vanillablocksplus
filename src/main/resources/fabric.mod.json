@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "vanillablocksplus",
+	"version": "${version}",
+	"name": "Vanilla Blocks+",
+	"description": "Mod adding all block variants to vanilla blocks.",
+	"authors": [
+		"Fellter"
+	],
+	"contact": {
+		"sources": "https://github.com/Fellteros/vanillablocksplus-1.20.1.git"
+	},
+	"license": "CC0-1.0",
+	"environment": "*",
+	"icon": "assets/vanillablocksplus/icon.png",
+	"entrypoints": {
+		"main": [
+			"net.fellter.vanillablocksplus.VanillaBlocksPlus"
+		],
+		"client": [
+			"net.fellter.vanillablocksplus.VanillaBlocksPlusClient"
+		],
+		"fabric-datagen": [
+			"net.fellter.vanillablocksplus.VanillaBlocksPlusDataGenerator"
+		]
+	},
+	"mixins": [
+		"vanillablocksplus.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

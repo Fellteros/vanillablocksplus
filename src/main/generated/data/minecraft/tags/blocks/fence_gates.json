@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "vanillablocksplus:oak_wood_fence_gate",
+    "vanillablocksplus:str_oak_wood_fence_gate",
+    "vanillablocksplus:spruce_wood_fence_gate",
+    "vanillablocksplus:str_spruce_wood_fence_gate",
+    "vanillablocksplus:birch_wood_fence_gate",
+    "vanillablocksplus:str_birch_wood_fence_gate",
+    "vanillablocksplus:jungle_wood_fence_gate",
+    "vanillablocksplus:str_jungle_wood_fence_gate",
+    "vanillablocksplus:acacia_wood_fence_gate",
+    "vanillablocksplus:str_acacia_wood_fence_gate",
+    "vanillablocksplus:dark_oak_wood_fence_gate",
+    "vanillablocksplus:str_dark_oak_wood_fence_gate",
+    "vanillablocksplus:mangrove_wood_fence_gate",
+    "vanillablocksplus:str_mangrove_wood_fence_gate",
+    "vanillablocksplus:cherry_wood_fence_gate",
+    "vanillablocksplus:str_cherry_wood_fence_gate",
+    "vanillablocksplus:bamboo_block_fence_gate",
+    "vanillablocksplus:str_bamboo_block_fence_gate",
+    "vanillablocksplus:crimson_hyphae_fence_gate",
+    "vanillablocksplus:str_crimson_hyphae_fence_gate",
+    "vanillablocksplus:warped_hyphae_fence_gate",
+    "vanillablocksplus:str_warped_hyphae_fence_gate",
+    "vanillablocksplus:stone_fence_gate"
+  ]
+}

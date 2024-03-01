@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "vanillablocksplus:block/jungle_wood_mod"
+  }
+}

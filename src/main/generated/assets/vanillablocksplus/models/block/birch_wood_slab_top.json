@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "vanillablocksplus:block/birch_wood_mod",
+    "side": "vanillablocksplus:block/birch_wood_mod",
+    "top": "vanillablocksplus:block/birch_wood_mod"
+  }
+}
