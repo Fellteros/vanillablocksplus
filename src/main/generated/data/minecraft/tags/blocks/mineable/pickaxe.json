@@ -8,6 +8,12 @@
     "vanillablocksplus:cobblestone_door",
     "vanillablocksplus:cobblestone_trapdoor",
     "vanillablocksplus:cobblestone_fence_gate",
-    "vanillablocksplus:cobblestone_fence"
+    "vanillablocksplus:cobblestone_fence",
+    "vanillablocksplus:mossy_cobblestone_door",
+    "vanillablocksplus:mossy_cobblestone_trapdoor",
+    "vanillablocksplus:mossy_cobblestone_fence_gate",
+    "vanillablocksplus:mossy_cobblestone_fence",
+    "vanillablocksplus:mossy_cobblestone_button",
+    "vanillablocksplus:mossy_cobblestone_pressure_plate"
   ]
 }

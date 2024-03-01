@@ -215,16 +215,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STR_WARPED_HYPHAE_PRESSURE_PLATE);
                         entries.add(ModBlocks.STR_WARPED_HYPHAE_BUTTON);
                         //stone
+                        entries.add(ModBlocks.STONE_WALL);
                         entries.add(ModBlocks.STONE_FENCE);
                         entries.add(ModBlocks.STONE_FENCE_GATE);
                         entries.add(ModBlocks.STONE_DOOR);
                         entries.add(ModBlocks.STONE_TRAPDOOR);
-                        entries.add(ModBlocks.STONE_WALL);
                         //cobblestone
                         entries.add(ModBlocks.COBBLESTONE_FENCE);
                         entries.add(ModBlocks.COBBLESTONE_FENCE_GATE);
                         entries.add(ModBlocks.COBBLESTONE_DOOR);
                         entries.add(ModBlocks.COBBLESTONE_TRAPDOOR);
+                        //mossy cobblestone
+                        entries.add(ModBlocks.MOSSY_COBBLESTONE_FENCE);
+                        entries.add(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE);
+                        entries.add(ModBlocks.MOSSY_COBBLESTONE_DOOR);
+                        entries.add(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR);
+                        entries.add(ModBlocks.MOSSY_COBBLESTONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.MOSSY_COBBLESTONE_BUTTON);
 
                     }).build());
 

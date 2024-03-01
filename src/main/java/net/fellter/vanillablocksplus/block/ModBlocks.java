@@ -500,14 +500,36 @@ public class ModBlocks {
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F)));
     public static final Block COBBLESTONE_FENCE_GATE = registerBlock("cobblestone_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.WARPED_FENCE_GATE).sounds(BlockSoundGroup.STONE)
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE_GATE).sounds(BlockSoundGroup.STONE)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), WoodType.OAK));
     public static final Block COBBLESTONE_DOOR = registerBlock("cobblestone_door",
-            new DoorBlock(FabricBlockSettings.copyOf(Blocks.WARPED_DOOR)
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_DOOR)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), BlockSetType.STONE));
     public static final Block COBBLESTONE_TRAPDOOR = registerBlock("cobblestone_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.WARPED_TRAPDOOR)
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), BlockSetType.STONE));
+
+    //mossy cobblestone
+    public static final Block MOSSY_COBBLESTONE_FENCE = registerBlock("mossy_cobblestone_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.MOSSY_COBBLESTONE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F)));
+    public static final Block MOSSY_COBBLESTONE_FENCE_GATE = registerBlock("mossy_cobblestone_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE_GATE).sounds(BlockSoundGroup.STONE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), WoodType.OAK));
+    public static final Block MOSSY_COBBLESTONE_DOOR = registerBlock("mossy_cobblestone_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), BlockSetType.STONE));
+    public static final Block MOSSY_COBBLESTONE_TRAPDOOR = registerBlock("mossy_cobblestone_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), BlockSetType.STONE));
+    public static final Block MOSSY_COBBLESTONE_BUTTON = registerBlock("mossy_cobblestone_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON), BlockSetType.STONE, 10, false));
+    public static final Block MOSSY_COBBLESTONE_PRESSURE_PLATE = registerBlock("mossy_cobblestone_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE), BlockSetType.STONE));
+
+
+
 
 
 

@@ -208,6 +208,13 @@
   "block.vanillablocksplus.cobblestone_fence": "Cobblestone Fence",
   "block.vanillablocksplus.cobblestone_fence_gate": "Cobblestone Fence Gate",
 
+  "block.vanillablocksplus.mossy_cobblestone_door": "Mossy Cobblestone Door",
+  "block.vanillablocksplus.mossy_cobblestone_trapdoor": "Mossy Cobblestone Trapdoor",
+  "block.vanillablocksplus.mossy_cobblestone_fence": "Mossy Cobblestone Fence",
+  "block.vanillablocksplus.mossy_cobblestone_fence_gate": "Mossy Cobblestone Fence Gate",
+  "block.vanillablocksplus.mossy_cobblestone_pressure_plate": "Mossy Cobblestone Pressure Plate",
+  "block.vanillablocksplus.mossy_cobblestone_button": "Mossy Cobblestone Button",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

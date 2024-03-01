@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:mossy_cobblestone"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 8,
+    "item": "vanillablocksplus:mossy_cobblestone_button"
+  },
+  "show_notification": true
+}

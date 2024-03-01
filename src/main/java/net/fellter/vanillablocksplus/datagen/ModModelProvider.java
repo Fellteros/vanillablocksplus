@@ -64,6 +64,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.STONE);
         BlockStateModelGenerator.BlockTexturePool cobblestonePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COBBLESTONE);
+        BlockStateModelGenerator.BlockTexturePool mossyCobblestonePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MOSSY_COBBLESTONE);
 
         //oak
         oakWoodPool.button(ModBlocks.OAK_WOOD_BUTTON);
@@ -226,6 +228,11 @@ public class ModModelProvider extends FabricModelProvider {
         //cobblestone
         cobblestonePool.fence(ModBlocks.COBBLESTONE_FENCE);
         cobblestonePool.fenceGate(ModBlocks.COBBLESTONE_FENCE_GATE);
+        //cobblestone
+        mossyCobblestonePool.fence(ModBlocks.MOSSY_COBBLESTONE_FENCE);
+        mossyCobblestonePool.fenceGate(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE);
+        mossyCobblestonePool.button(ModBlocks.MOSSY_COBBLESTONE_BUTTON);
+        mossyCobblestonePool.pressurePlate(ModBlocks.MOSSY_COBBLESTONE_PRESSURE_PLATE);
 
 
 
@@ -301,6 +308,9 @@ public class ModModelProvider extends FabricModelProvider {
         //cobblestone
         blockStateModelGenerator.registerDoor(ModBlocks.COBBLESTONE_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.COBBLESTONE_TRAPDOOR);
+        //mossy cobblestone
+        blockStateModelGenerator.registerDoor(ModBlocks.MOSSY_COBBLESTONE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR);
 
 
 

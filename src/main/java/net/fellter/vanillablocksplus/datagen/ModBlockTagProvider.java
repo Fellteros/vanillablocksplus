@@ -24,11 +24,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STONE_TRAPDOOR)
                 .add(ModBlocks.STONE_FENCE_GATE)
                 .add(ModBlocks.STONE_FENCE)
-                //stone
+                //cobblestone
                 .add(ModBlocks.COBBLESTONE_DOOR)
                 .add(ModBlocks.COBBLESTONE_TRAPDOOR)
                 .add(ModBlocks.COBBLESTONE_FENCE_GATE)
-                .add(ModBlocks.COBBLESTONE_FENCE);
+                .add(ModBlocks.COBBLESTONE_FENCE)
+                //mossy cobblestone
+                .add(ModBlocks.MOSSY_COBBLESTONE_DOOR)
+                .add(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR)
+                .add(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE)
+                .add(ModBlocks.MOSSY_COBBLESTONE_FENCE)
+                .add(ModBlocks.MOSSY_COBBLESTONE_BUTTON)
+                .add(ModBlocks.MOSSY_COBBLESTONE_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 //oak
@@ -246,7 +253,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WARPED_HYPHAE_FENCE)
                 .add(ModBlocks.STR_WARPED_HYPHAE_FENCE)
                 .add(ModBlocks.STONE_FENCE)
-                .add(ModBlocks.COBBLESTONE_FENCE);
+                .add(ModBlocks.COBBLESTONE_FENCE)
+                .add(ModBlocks.MOSSY_COBBLESTONE_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -273,7 +281,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WARPED_HYPHAE_FENCE)
                 .add(ModBlocks.STR_WARPED_HYPHAE_FENCE)
                 .add(ModBlocks.STONE_FENCE)
-                .add(ModBlocks.COBBLESTONE_FENCE);
+                .add(ModBlocks.COBBLESTONE_FENCE)
+                .add(ModBlocks.MOSSY_COBBLESTONE_FENCE);
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.OAK_WOOD_FENCE_GATE)
@@ -299,7 +308,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WARPED_HYPHAE_FENCE_GATE)
                 .add(ModBlocks.STR_WARPED_HYPHAE_FENCE_GATE)
                 .add(ModBlocks.STONE_FENCE_GATE)
-                .add(ModBlocks.COBBLESTONE_FENCE_GATE);
+                .add(ModBlocks.COBBLESTONE_FENCE_GATE)
+                .add(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.STONE_WALL);
