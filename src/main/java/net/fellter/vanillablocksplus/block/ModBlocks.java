@@ -479,8 +479,6 @@ public class ModBlocks {
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.WARPED_TRAPDOOR), BlockSetType.WARPED));
 
     //stone
-    public static final Block STONE_MOD = registerBlock("stone_mod",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block STONE_FENCE = registerBlock("stone_fence",
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.STONE)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F)));
@@ -493,10 +491,11 @@ public class ModBlocks {
     public static final Block STONE_TRAPDOOR = registerBlock("stone_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.WARPED_TRAPDOOR)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F), BlockSetType.STONE));
+    public static final Block STONE_WALL = registerBlock("stone_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F)));
 
     //cobblestone
-    public static final Block COBBLESTONE_MOD = registerBlock("cobblestone_mod",
-            new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
     public static final Block COBBLESTONE_FENCE = registerBlock("cobblestone_fence",
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F)));
@@ -509,7 +508,6 @@ public class ModBlocks {
     public static final Block COBBLESTONE_TRAPDOOR = registerBlock("cobblestone_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.WARPED_TRAPDOOR)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), BlockSetType.STONE));
-
 
 
 

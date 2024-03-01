@@ -583,9 +583,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createNotWoodFenceGateRecipe(ModBlocks.STONE_FENCE_GATE, Ingredient.ofItems(Blocks.STONE), Ingredient.ofItems(Blocks.STONE_SLAB), 3)
                 .criterion(hasItem(Blocks.STONE), conditionsFromItem(Blocks.STONE))
                 .offerTo(exporter);
-        createTrapdoorRecipe(ModBlocks.STONE_TRAPDOOR, Ingredient.ofItems(Blocks.STONE))
+        createTrapdoorRecipe(ModBlocks.STONE_TRAPDOOR, Ingredient.ofItems(Blocks.STONE_SLAB))
                 .criterion(hasItem(Blocks.STONE), conditionsFromItem(Blocks.STONE))
                 .offerTo(exporter);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_WALL, Blocks.STONE);
 
         //cobblestone
         createDoorRecipe(ModBlocks.COBBLESTONE_DOOR, Ingredient.ofItems(Blocks.COBBLESTONE))
@@ -597,7 +598,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createNotWoodFenceGateRecipe(ModBlocks.COBBLESTONE_FENCE_GATE, Ingredient.ofItems(Blocks.COBBLESTONE), Ingredient.ofItems(Blocks.COBBLESTONE_SLAB), 3)
                 .criterion(hasItem(Blocks.COBBLESTONE), conditionsFromItem(Blocks.COBBLESTONE))
                 .offerTo(exporter);
-        createTrapdoorRecipe(ModBlocks.COBBLESTONE_TRAPDOOR, Ingredient.ofItems(Blocks.COBBLESTONE))
+        createTrapdoorRecipe(ModBlocks.COBBLESTONE_TRAPDOOR, Ingredient.ofItems(Blocks.COBBLESTONE_SLAB))
                 .criterion(hasItem(Blocks.COBBLESTONE), conditionsFromItem(Blocks.COBBLESTONE))
                 .offerTo(exporter);
 
@@ -618,10 +619,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     public static CraftingRecipeJsonBuilder createNotWoodFenceGateRecipe(ItemConvertible output, Ingredient input, Ingredient likeStickItem, int outputCount) {
         return ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output, outputCount)
-                .input('W', likeStickItem)
-                .input('#', input)
-                .pattern("W#W")
-                .pattern("W#W");
+                .input('#', likeStickItem)
+                .input('W', input)
+                .pattern("#W#")
+                .pattern("#W#");
     }
 
 

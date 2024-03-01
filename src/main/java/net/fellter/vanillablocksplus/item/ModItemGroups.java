@@ -219,6 +219,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STONE_FENCE_GATE);
                         entries.add(ModBlocks.STONE_DOOR);
                         entries.add(ModBlocks.STONE_TRAPDOOR);
+                        entries.add(ModBlocks.STONE_WALL);
                         //cobblestone
                         entries.add(ModBlocks.COBBLESTONE_FENCE);
                         entries.add(ModBlocks.COBBLESTONE_FENCE_GATE);

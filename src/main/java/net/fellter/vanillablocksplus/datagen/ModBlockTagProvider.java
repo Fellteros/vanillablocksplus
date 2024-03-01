@@ -301,6 +301,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STONE_FENCE_GATE)
                 .add(ModBlocks.COBBLESTONE_FENCE_GATE);
 
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.STONE_WALL);
 
 
 

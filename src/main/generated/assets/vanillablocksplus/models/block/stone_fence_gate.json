@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_fence_gate",
   "textures": {
-    "texture": "vanillablocksplus:block/stone_mod"
+    "texture": "minecraft:block/stone"
   }
 }

@@ -3,15 +3,15 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:stone"
+      "item": "minecraft:stone_slab"
     },
     "W": {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:stone"
     }
   },
   "pattern": [
-    "W#W",
-    "W#W"
+    "#W#",
+    "#W#"
   ],
   "result": {
     "count": 3,

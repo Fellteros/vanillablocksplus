@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
+  "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:cobblestone_slab"
+      "item": "minecraft:stone"
     }
   },
   "pattern": [
@@ -11,8 +11,8 @@
     "###"
   ],
   "result": {
-    "count": 2,
-    "item": "vanillablocksplus:cobblestone_trapdoor"
+    "count": 6,
+    "item": "vanillablocksplus:stone_wall"
   },
   "show_notification": true
 }

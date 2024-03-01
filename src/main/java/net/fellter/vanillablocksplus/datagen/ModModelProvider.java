@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.item.ModItems;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
@@ -60,9 +61,9 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool strWarpedHyphaePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STR_WARPED_HYPHAE_MOD);
         BlockStateModelGenerator.BlockTexturePool stonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STONE_MOD);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.STONE);
         BlockStateModelGenerator.BlockTexturePool cobblestonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.COBBLESTONE_MOD);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COBBLESTONE);
 
         //oak
         oakWoodPool.button(ModBlocks.OAK_WOOD_BUTTON);
@@ -221,6 +222,7 @@ public class ModModelProvider extends FabricModelProvider {
         //stone
         stonePool.fence(ModBlocks.STONE_FENCE);
         stonePool.fenceGate(ModBlocks.STONE_FENCE_GATE);
+        stonePool.wall(ModBlocks.STONE_WALL);
         //cobblestone
         cobblestonePool.fence(ModBlocks.COBBLESTONE_FENCE);
         cobblestonePool.fenceGate(ModBlocks.COBBLESTONE_FENCE_GATE);

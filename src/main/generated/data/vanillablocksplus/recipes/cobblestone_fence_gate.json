@@ -3,15 +3,15 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:cobblestone_slab"
     },
     "W": {
-      "item": "minecraft:cobblestone_slab"
+      "item": "minecraft:cobblestone"
     }
   },
   "pattern": [
-    "W#W",
-    "W#W"
+    "#W#",
+    "#W#"
   ],
   "result": {
     "count": 3,
