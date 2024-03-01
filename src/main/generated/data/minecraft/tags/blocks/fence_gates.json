@@ -23,6 +23,7 @@
     "vanillablocksplus:str_crimson_hyphae_fence_gate",
     "vanillablocksplus:warped_hyphae_fence_gate",
     "vanillablocksplus:str_warped_hyphae_fence_gate",
-    "vanillablocksplus:stone_fence_gate"
+    "vanillablocksplus:stone_fence_gate",
+    "vanillablocksplus:cobblestone_fence_gate"
   ]
 }

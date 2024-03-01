@@ -4,6 +4,10 @@
     "vanillablocksplus:stone_door",
     "vanillablocksplus:stone_trapdoor",
     "vanillablocksplus:stone_fence_gate",
-    "vanillablocksplus:stone_fence"
+    "vanillablocksplus:stone_fence",
+    "vanillablocksplus:cobblestone_door",
+    "vanillablocksplus:cobblestone_trapdoor",
+    "vanillablocksplus:cobblestone_fence_gate",
+    "vanillablocksplus:cobblestone_fence"
   ]
 }

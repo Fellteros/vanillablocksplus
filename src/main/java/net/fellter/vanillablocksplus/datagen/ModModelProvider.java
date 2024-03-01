@@ -223,8 +223,8 @@ public class ModModelProvider extends FabricModelProvider {
         stonePool.fence(ModBlocks.STONE_FENCE);
         stonePool.fenceGate(ModBlocks.STONE_FENCE_GATE);
         //cobblestone
-        stonePool.fence(ModBlocks.COBBLESTONE_FENCE);
-        stonePool.fenceGate(ModBlocks.COBBLESTONE_FENCE_GATE);
+        cobblestonePool.fence(ModBlocks.COBBLESTONE_FENCE);
+        cobblestonePool.fenceGate(ModBlocks.COBBLESTONE_FENCE_GATE);
 
 
 

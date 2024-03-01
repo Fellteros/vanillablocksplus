@@ -23,7 +23,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STONE_DOOR)
                 .add(ModBlocks.STONE_TRAPDOOR)
                 .add(ModBlocks.STONE_FENCE_GATE)
-                .add(ModBlocks.STONE_FENCE);
+                .add(ModBlocks.STONE_FENCE)
+                //stone
+                .add(ModBlocks.COBBLESTONE_DOOR)
+                .add(ModBlocks.COBBLESTONE_TRAPDOOR)
+                .add(ModBlocks.COBBLESTONE_FENCE_GATE)
+                .add(ModBlocks.COBBLESTONE_FENCE);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 //oak
@@ -240,7 +245,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STR_CRIMSON_HYPHAE_FENCE)
                 .add(ModBlocks.WARPED_HYPHAE_FENCE)
                 .add(ModBlocks.STR_WARPED_HYPHAE_FENCE)
-                .add(ModBlocks.STONE_FENCE);
+                .add(ModBlocks.STONE_FENCE)
+                .add(ModBlocks.COBBLESTONE_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -266,7 +272,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STR_CRIMSON_HYPHAE_FENCE)
                 .add(ModBlocks.WARPED_HYPHAE_FENCE)
                 .add(ModBlocks.STR_WARPED_HYPHAE_FENCE)
-                .add(ModBlocks.STONE_FENCE);
+                .add(ModBlocks.STONE_FENCE)
+                .add(ModBlocks.COBBLESTONE_FENCE);
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.OAK_WOOD_FENCE_GATE)
@@ -291,7 +298,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STR_CRIMSON_HYPHAE_FENCE_GATE)
                 .add(ModBlocks.WARPED_HYPHAE_FENCE_GATE)
                 .add(ModBlocks.STR_WARPED_HYPHAE_FENCE_GATE)
-                .add(ModBlocks.STONE_FENCE_GATE);
+                .add(ModBlocks.STONE_FENCE_GATE)
+                .add(ModBlocks.COBBLESTONE_FENCE_GATE);
 
 
 

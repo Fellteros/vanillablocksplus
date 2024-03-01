@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_inventory",
   "textures": {
-    "texture": "vanillablocksplus:block/stone_mod"
+    "texture": "vanillablocksplus:block/cobblestone_mod"
   }
 }
