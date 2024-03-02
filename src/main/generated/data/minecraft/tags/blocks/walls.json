@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "vanillablocksplus:stone_wall"
+    "vanillablocksplus:stone_wall",
+    "vanillablocksplus:smooth_stone_wall"
   ]
 }

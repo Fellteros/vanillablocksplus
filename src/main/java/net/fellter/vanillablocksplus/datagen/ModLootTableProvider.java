@@ -236,6 +236,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MOSSY_COBBLESTONE_PRESSURE_PLATE);
         addDrop(ModBlocks.MOSSY_COBBLESTONE_BUTTON);
         addDrop(ModBlocks.MOSSY_COBBLESTONE_DOOR, doorDrops(ModBlocks.MOSSY_COBBLESTONE_DOOR));
+        //smooth stone
+        addDrop(ModBlocks.SMOOTH_STONE_STAIRS);
+        addDrop(ModBlocks.SMOOTH_STONE_WALL);
+        addDrop(ModBlocks.SMOOTH_STONE_TRAPDOOR);
+        addDrop(ModBlocks.SMOOTH_STONE_FENCE);
+        addDrop(ModBlocks.SMOOTH_STONE_FENCE_GATE);
+        addDrop(ModBlocks.SMOOTH_STONE_PRESSURE_PLATE);
+        addDrop(ModBlocks.SMOOTH_STONE_BUTTON);
+        addDrop(ModBlocks.SMOOTH_STONE_DOOR, doorDrops(ModBlocks.SMOOTH_STONE_DOOR));
 
 
     }

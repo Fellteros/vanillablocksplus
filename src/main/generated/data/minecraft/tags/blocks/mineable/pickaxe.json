@@ -14,6 +14,14 @@
     "vanillablocksplus:mossy_cobblestone_fence_gate",
     "vanillablocksplus:mossy_cobblestone_fence",
     "vanillablocksplus:mossy_cobblestone_button",
-    "vanillablocksplus:mossy_cobblestone_pressure_plate"
+    "vanillablocksplus:mossy_cobblestone_pressure_plate",
+    "vanillablocksplus:smooth_stone_stairs",
+    "vanillablocksplus:smooth_stone_door",
+    "vanillablocksplus:smooth_stone_trapdoor",
+    "vanillablocksplus:smooth_stone_fence_gate",
+    "vanillablocksplus:smooth_stone_fence",
+    "vanillablocksplus:smooth_stone_button",
+    "vanillablocksplus:smooth_stone_pressure_plate",
+    "vanillablocksplus:smooth_stone_wall"
   ]
 }

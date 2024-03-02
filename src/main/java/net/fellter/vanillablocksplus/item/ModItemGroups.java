@@ -232,6 +232,15 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR);
                         entries.add(ModBlocks.MOSSY_COBBLESTONE_PRESSURE_PLATE);
                         entries.add(ModBlocks.MOSSY_COBBLESTONE_BUTTON);
+                        //smooth stone
+                        entries.add(ModBlocks.SMOOTH_STONE_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_STONE_WALL);
+                        entries.add(ModBlocks.SMOOTH_STONE_FENCE);
+                        entries.add(ModBlocks.SMOOTH_STONE_FENCE_GATE);
+                        entries.add(ModBlocks.SMOOTH_STONE_DOOR);
+                        entries.add(ModBlocks.SMOOTH_STONE_TRAPDOOR);
+                        entries.add(ModBlocks.SMOOTH_STONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SMOOTH_STONE_BUTTON);
 
                     }).build());
 

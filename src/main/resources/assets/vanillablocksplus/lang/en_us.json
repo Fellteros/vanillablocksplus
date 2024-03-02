@@ -215,6 +215,15 @@
   "block.vanillablocksplus.mossy_cobblestone_pressure_plate": "Mossy Cobblestone Pressure Plate",
   "block.vanillablocksplus.mossy_cobblestone_button": "Mossy Cobblestone Button",
 
+  "block.vanillablocksplus.smooth_stone_door": "Smooth Stone Door",
+  "block.vanillablocksplus.smooth_stone_trapdoor": "Smooth Stone Trapdoor",
+  "block.vanillablocksplus.smooth_stone_fence": "Smooth Stone Fence",
+  "block.vanillablocksplus.smooth_stone_fence_gate": "Smooth Stone Fence Gate",
+  "block.vanillablocksplus.smooth_stone_pressure_plate": "Smooth Stone Pressure Plate",
+  "block.vanillablocksplus.smooth_stone_button": "Smooth Stone Button",
+  "block.vanillablocksplus.smooth_stone_wall": "Smooth Stone Wall",
+  "block.vanillablocksplus.smooth_stone_stairs": "Smooth Stone Stairs",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

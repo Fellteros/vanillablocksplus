@@ -528,6 +528,31 @@ public class ModBlocks {
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
                     FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE), BlockSetType.STONE));
 
+    //smooth stone
+    public static final Block SMOOTH_STONE_STAIRS = registerBlock("smooth_stone_stairs",
+            new StairsBlock(Blocks.SMOOTH_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)));
+    public static final Block SMOOTH_STONE_FENCE = registerBlock("smooth_stone_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.SMOOTH_STONE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F)));
+    public static final Block SMOOTH_STONE_FENCE_GATE = registerBlock("smooth_stone_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE_GATE).sounds(BlockSoundGroup.STONE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), WoodType.OAK));
+    public static final Block SMOOTH_STONE_DOOR = registerBlock("smooth_stone_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), BlockSetType.STONE));
+    public static final Block SMOOTH_STONE_TRAPDOOR = registerBlock("smooth_stone_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), BlockSetType.STONE));
+    public static final Block SMOOTH_STONE_BUTTON = registerBlock("smooth_stone_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON), BlockSetType.STONE, 10, false));
+    public static final Block SMOOTH_STONE_PRESSURE_PLATE = registerBlock("smooth_stone_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE), BlockSetType.STONE));
+    public static final Block SMOOTH_STONE_WALL = registerBlock("smooth_stone_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F)));
+
+
 
 
 

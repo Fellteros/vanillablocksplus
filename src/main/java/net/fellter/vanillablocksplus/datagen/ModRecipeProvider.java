@@ -620,6 +620,27 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         offer2x2ButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.MOSSY_COBBLESTONE_BUTTON, Blocks.MOSSY_COBBLESTONE, 8);
 
+        //smooth stone
+        createStairsRecipe(ModBlocks.SMOOTH_STONE_STAIRS, Ingredient.ofItems(Blocks.SMOOTH_STONE))
+                .criterion(hasItem(Blocks.SMOOTH_STONE), conditionsFromItem(Blocks.SMOOTH_STONE))
+                .offerTo(exporter);
+        createDoorRecipe(ModBlocks.SMOOTH_STONE_DOOR, Ingredient.ofItems(Blocks.SMOOTH_STONE))
+                .criterion(hasItem(Blocks.SMOOTH_STONE), conditionsFromItem(Blocks.SMOOTH_STONE))
+                .offerTo(exporter);
+        createNotWoodFenceRecipe(ModBlocks.SMOOTH_STONE_FENCE, Ingredient.ofItems(Blocks.SMOOTH_STONE), Ingredient.ofItems(Blocks.SMOOTH_STONE_SLAB), 3)
+                .criterion(hasItem(Blocks.SMOOTH_STONE), conditionsFromItem(Blocks.SMOOTH_STONE))
+                .offerTo(exporter);
+        createNotWoodFenceGateRecipe(ModBlocks.SMOOTH_STONE_FENCE_GATE, Ingredient.ofItems(Blocks.SMOOTH_STONE), Ingredient.ofItems(Blocks.SMOOTH_STONE_SLAB), 1)
+                .criterion(hasItem(Blocks.SMOOTH_STONE), conditionsFromItem(Blocks.SMOOTH_STONE))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.SMOOTH_STONE_TRAPDOOR, Ingredient.ofItems(Blocks.SMOOTH_STONE_SLAB))
+                .criterion(hasItem(Blocks.SMOOTH_STONE), conditionsFromItem(Blocks.SMOOTH_STONE))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_STONE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.SMOOTH_STONE))
+                .criterion(hasItem(Blocks.SMOOTH_STONE), conditionsFromItem(Blocks.SMOOTH_STONE))
+                .offerTo(exporter);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_STONE_WALL, Blocks.SMOOTH_STONE);
+        offer2x2ButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_STONE_BUTTON, Blocks.SMOOTH_STONE, 8);
 
 
     }

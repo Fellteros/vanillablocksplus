@@ -66,6 +66,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COBBLESTONE);
         BlockStateModelGenerator.BlockTexturePool mossyCobblestonePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MOSSY_COBBLESTONE);
+        BlockStateModelGenerator.BlockTexturePool smoothStonePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_STONE);
 
         //oak
         oakWoodPool.button(ModBlocks.OAK_WOOD_BUTTON);
@@ -228,11 +230,18 @@ public class ModModelProvider extends FabricModelProvider {
         //cobblestone
         cobblestonePool.fence(ModBlocks.COBBLESTONE_FENCE);
         cobblestonePool.fenceGate(ModBlocks.COBBLESTONE_FENCE_GATE);
-        //cobblestone
+        //mossy cobblestone
         mossyCobblestonePool.fence(ModBlocks.MOSSY_COBBLESTONE_FENCE);
         mossyCobblestonePool.fenceGate(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE);
         mossyCobblestonePool.button(ModBlocks.MOSSY_COBBLESTONE_BUTTON);
         mossyCobblestonePool.pressurePlate(ModBlocks.MOSSY_COBBLESTONE_PRESSURE_PLATE);
+        //smooth stone
+        smoothStonePool.button(ModBlocks.SMOOTH_STONE_BUTTON);
+        smoothStonePool.fence(ModBlocks.SMOOTH_STONE_FENCE);
+        smoothStonePool.fenceGate(ModBlocks.SMOOTH_STONE_FENCE_GATE);
+        smoothStonePool.pressurePlate(ModBlocks.SMOOTH_STONE_PRESSURE_PLATE);
+        smoothStonePool.stairs(ModBlocks.SMOOTH_STONE_STAIRS);
+        smoothStonePool.wall(ModBlocks.SMOOTH_STONE_WALL);
 
 
 
@@ -311,6 +320,9 @@ public class ModModelProvider extends FabricModelProvider {
         //mossy cobblestone
         blockStateModelGenerator.registerDoor(ModBlocks.MOSSY_COBBLESTONE_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR);
+        //smooth stone
+        blockStateModelGenerator.registerDoor(ModBlocks.SMOOTH_STONE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SMOOTH_STONE_TRAPDOOR);
 
 
 
