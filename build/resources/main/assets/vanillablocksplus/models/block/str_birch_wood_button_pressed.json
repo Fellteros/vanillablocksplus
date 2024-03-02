@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "vanillablocksplus:block/str_birch_wood_mod"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "textures": {
+    "bottom": "vanillablocksplus:block/str_bamboo_block_door_bottom",
+    "top": "vanillablocksplus:block/str_bamboo_block_door_top"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/str_crimson_hyphae_slab"
+    },
+    "type=double": {
+      "model": "vanillablocksplus:block/str_crimson_hyphae_mod"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/str_crimson_hyphae_slab_top"
+    }
+  }
+}
