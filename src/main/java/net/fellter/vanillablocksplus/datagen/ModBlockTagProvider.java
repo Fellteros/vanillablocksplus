@@ -51,7 +51,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STONE_BRICKS_FENCE_GATE)
                 .add(ModBlocks.STONE_BRICKS_FENCE)
                 .add(ModBlocks.STONE_BRICKS_BUTTON)
-                .add(ModBlocks.STONE_BRICKS_PRESSURE_PLATE);
+                .add(ModBlocks.STONE_BRICKS_PRESSURE_PLATE)
+                //stone bricks
+                .add(ModBlocks.CRACKED_STONE_BRICKS_STAIRS)
+                .add(ModBlocks.CRACKED_STONE_BRICKS_SLAB)
+                .add(ModBlocks.CRACKED_STONE_BRICKS_WALL)
+                .add(ModBlocks.CRACKED_STONE_BRICKS_DOOR)
+                .add(ModBlocks.CRACKED_STONE_BRICKS_TRAPDOOR)
+                .add(ModBlocks.CRACKED_STONE_BRICKS_FENCE_GATE)
+                .add(ModBlocks.CRACKED_STONE_BRICKS_FENCE)
+                .add(ModBlocks.CRACKED_STONE_BRICKS_BUTTON)
+                .add(ModBlocks.CRACKED_STONE_BRICKS_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 //oak
@@ -272,7 +282,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COBBLESTONE_FENCE)
                 .add(ModBlocks.MOSSY_COBBLESTONE_FENCE)
                 .add(ModBlocks.SMOOTH_STONE_FENCE)
-                .add(ModBlocks.STONE_BRICKS_FENCE);
+                .add(ModBlocks.STONE_BRICKS_FENCE)
+                .add(ModBlocks.CRACKED_STONE_BRICKS_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -302,7 +313,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COBBLESTONE_FENCE)
                 .add(ModBlocks.MOSSY_COBBLESTONE_FENCE)
                 .add(ModBlocks.SMOOTH_STONE_FENCE)
-                .add(ModBlocks.STONE_BRICKS_FENCE);
+                .add(ModBlocks.STONE_BRICKS_FENCE)
+                .add(ModBlocks.CRACKED_STONE_BRICKS_FENCE);
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.OAK_WOOD_FENCE_GATE)
@@ -331,11 +343,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COBBLESTONE_FENCE_GATE)
                 .add(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE)
                 .add(ModBlocks.SMOOTH_STONE_FENCE_GATE)
-                .add(ModBlocks.STONE_BRICKS_FENCE_GATE);
+                .add(ModBlocks.STONE_BRICKS_FENCE_GATE)
+                .add(ModBlocks.CRACKED_STONE_BRICKS_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.STONE_WALL)
-                .add(ModBlocks.SMOOTH_STONE_WALL);
+                .add(ModBlocks.SMOOTH_STONE_WALL)
+                .add(ModBlocks.CRACKED_STONE_BRICKS_WALL);
 
 
 

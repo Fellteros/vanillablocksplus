@@ -248,6 +248,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STONE_BRICKS_TRAPDOOR);
                         entries.add(ModBlocks.STONE_BRICKS_PRESSURE_PLATE);
                         entries.add(ModBlocks.STONE_BRICKS_BUTTON);
+                        //cracked stone bricks
+                        entries.add(ModBlocks.CRACKED_STONE_BRICKS_STAIRS);
+                        entries.add(ModBlocks.CRACKED_STONE_BRICKS_SLAB);
+                        entries.add(ModBlocks.CRACKED_STONE_BRICKS_WALL);
+                        entries.add(ModBlocks.CRACKED_STONE_BRICKS_FENCE);
+                        entries.add(ModBlocks.CRACKED_STONE_BRICKS_FENCE_GATE);
+                        entries.add(ModBlocks.CRACKED_STONE_BRICKS_DOOR);
+                        entries.add(ModBlocks.CRACKED_STONE_BRICKS_TRAPDOOR);
+                        entries.add(ModBlocks.CRACKED_STONE_BRICKS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CRACKED_STONE_BRICKS_BUTTON);
 
                     }).build());
 
