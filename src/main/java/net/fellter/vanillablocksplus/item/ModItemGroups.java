@@ -280,6 +280,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DIORITE_TRAPDOOR);
                         entries.add(ModBlocks.DIORITE_PRESSURE_PLATE);
                         entries.add(ModBlocks.DIORITE_BUTTON);
+                        //polished diorite
+                        entries.add(ModBlocks.POLISHED_DIORITE_WALL);
+                        entries.add(ModBlocks.POLISHED_DIORITE_FENCE);
+                        entries.add(ModBlocks.POLISHED_DIORITE_FENCE_GATE);
+                        entries.add(ModBlocks.POLISHED_DIORITE_DOOR);
+                        entries.add(ModBlocks.POLISHED_DIORITE_TRAPDOOR);
+                        entries.add(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.POLISHED_DIORITE_BUTTON);
 
                     }).build());
 

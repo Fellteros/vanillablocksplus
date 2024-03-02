@@ -265,6 +265,14 @@
   "block.vanillablocksplus.diorite_pressure_plate": "Diorite Pressure Plate",
   "block.vanillablocksplus.diorite_button": "Diorite Button",
 
+  "block.vanillablocksplus.polished_diorite_door": "Polished Diorite Door",
+  "block.vanillablocksplus.polished_diorite_trapdoor": "Polished Diorite Trapdoor",
+  "block.vanillablocksplus.polished_diorite_fence": "Polished Diorite Fence",
+  "block.vanillablocksplus.polished_diorite_fence_gate": "Polished Diorite Fence Gate",
+  "block.vanillablocksplus.polished_diorite_pressure_plate": "Polished Diorite Pressure Plate",
+  "block.vanillablocksplus.polished_diorite_button": "Polished Diorite Button",
+  "block.vanillablocksplus.polished_diorite_wall": "Polished Diorite Wall",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

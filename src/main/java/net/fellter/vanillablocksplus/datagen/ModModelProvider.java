@@ -78,6 +78,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_GRANITE);
         BlockStateModelGenerator.BlockTexturePool dioritePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DIORITE);
+        BlockStateModelGenerator.BlockTexturePool polishedDioritePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_DIORITE);
 
         //oak
         oakWoodPool.button(ModBlocks.OAK_WOOD_BUTTON);
@@ -281,6 +283,12 @@ public class ModModelProvider extends FabricModelProvider {
         dioritePool.fence(ModBlocks.DIORITE_FENCE);
         dioritePool.fenceGate(ModBlocks.DIORITE_FENCE_GATE);
         dioritePool.pressurePlate(ModBlocks.DIORITE_PRESSURE_PLATE);
+        //polished diorite
+        polishedDioritePool.button(ModBlocks.POLISHED_DIORITE_BUTTON);
+        polishedDioritePool.wall(ModBlocks.POLISHED_DIORITE_WALL);
+        polishedDioritePool.fence(ModBlocks.POLISHED_DIORITE_FENCE);
+        polishedDioritePool.fenceGate(ModBlocks.POLISHED_DIORITE_FENCE_GATE);
+        polishedDioritePool.pressurePlate(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE);
 
 
 
@@ -377,6 +385,9 @@ public class ModModelProvider extends FabricModelProvider {
         //diorite
         blockStateModelGenerator.registerDoor(ModBlocks.DIORITE_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DIORITE_TRAPDOOR);
+        //diorite
+        blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_DIORITE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_DIORITE_TRAPDOOR);
 
 
 

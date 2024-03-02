@@ -56,6 +56,13 @@
     "vanillablocksplus:diorite_fence_gate",
     "vanillablocksplus:diorite_fence",
     "vanillablocksplus:diorite_button",
-    "vanillablocksplus:diorite_pressure_plate"
+    "vanillablocksplus:diorite_pressure_plate",
+    "vanillablocksplus:polished_diorite_door",
+    "vanillablocksplus:polished_diorite_trapdoor",
+    "vanillablocksplus:polished_diorite_fence_gate",
+    "vanillablocksplus:polished_diorite_fence",
+    "vanillablocksplus:polished_diorite_button",
+    "vanillablocksplus:polished_diorite_pressure_plate",
+    "vanillablocksplus:polished_diorite_wall"
   ]
 }
