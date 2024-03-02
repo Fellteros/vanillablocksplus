@@ -32,6 +32,8 @@
     "vanillablocksplus:granite_fence",
     "vanillablocksplus:polished_granite_fence",
     "vanillablocksplus:diorite_fence",
-    "vanillablocksplus:polished_diorite_fence"
+    "vanillablocksplus:polished_diorite_fence",
+    "vanillablocksplus:andesite_fence",
+    "vanillablocksplus:polished_andesite_fence"
   ]
 }

@@ -288,6 +288,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POLISHED_DIORITE_TRAPDOOR);
                         entries.add(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE);
                         entries.add(ModBlocks.POLISHED_DIORITE_BUTTON);
+                        //andesite
+                        entries.add(ModBlocks.ANDESITE_FENCE);
+                        entries.add(ModBlocks.ANDESITE_FENCE_GATE);
+                        entries.add(ModBlocks.ANDESITE_DOOR);
+                        entries.add(ModBlocks.ANDESITE_TRAPDOOR);
+                        entries.add(ModBlocks.ANDESITE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.ANDESITE_BUTTON);
+                        //polished andesite
+                        entries.add(ModBlocks.POLISHED_ANDESITE_WALL);
+                        entries.add(ModBlocks.POLISHED_ANDESITE_FENCE);
+                        entries.add(ModBlocks.POLISHED_ANDESITE_FENCE_GATE);
+                        entries.add(ModBlocks.POLISHED_ANDESITE_DOOR);
+                        entries.add(ModBlocks.POLISHED_ANDESITE_TRAPDOOR);
+                        entries.add(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.POLISHED_ANDESITE_BUTTON);
 
                     }).build());
 

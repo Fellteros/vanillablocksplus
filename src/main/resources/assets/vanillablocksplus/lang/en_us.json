@@ -273,6 +273,21 @@
   "block.vanillablocksplus.polished_diorite_button": "Polished Diorite Button",
   "block.vanillablocksplus.polished_diorite_wall": "Polished Diorite Wall",
 
+  "block.vanillablocksplus.andesite_door": "Andesite Door",
+  "block.vanillablocksplus.andesite_trapdoor": "Andesite Trapdoor",
+  "block.vanillablocksplus.andesite_fence": "Andesite Fence",
+  "block.vanillablocksplus.andesite_fence_gate": "Andesite Fence Gate",
+  "block.vanillablocksplus.andesite_pressure_plate": "Andesite Pressure Plate",
+  "block.vanillablocksplus.andesite_button": "Andesite Button",
+
+  "block.vanillablocksplus.polished_andesite_door": "Polished Andesite Door",
+  "block.vanillablocksplus.polished_andesite_trapdoor": "Polished Andesite Trapdoor",
+  "block.vanillablocksplus.polished_andesite_fence": "Polished Andesite Fence",
+  "block.vanillablocksplus.polished_andesite_fence_gate": "Polished Andesite Fence Gate",
+  "block.vanillablocksplus.polished_andesite_pressure_plate": "Polished Andesite Pressure Plate",
+  "block.vanillablocksplus.polished_andesite_button": "Polished Andesite Button",
+  "block.vanillablocksplus.polished_andesite_wall": "Polished Andesite Wall",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

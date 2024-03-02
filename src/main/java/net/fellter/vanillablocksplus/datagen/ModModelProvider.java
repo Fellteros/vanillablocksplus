@@ -80,6 +80,10 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DIORITE);
         BlockStateModelGenerator.BlockTexturePool polishedDioritePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_DIORITE);
+        BlockStateModelGenerator.BlockTexturePool andesitePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ANDESITE);
+        BlockStateModelGenerator.BlockTexturePool polishedAndesitePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_ANDESITE);
 
         //oak
         oakWoodPool.button(ModBlocks.OAK_WOOD_BUTTON);
@@ -278,7 +282,7 @@ public class ModModelProvider extends FabricModelProvider {
         polishedGranitePool.fence(ModBlocks.POLISHED_GRANITE_FENCE);
         polishedGranitePool.fenceGate(ModBlocks.POLISHED_GRANITE_FENCE_GATE);
         polishedGranitePool.pressurePlate(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE);
-        //granite
+        //diorite
         dioritePool.button(ModBlocks.DIORITE_BUTTON);
         dioritePool.fence(ModBlocks.DIORITE_FENCE);
         dioritePool.fenceGate(ModBlocks.DIORITE_FENCE_GATE);
@@ -289,6 +293,17 @@ public class ModModelProvider extends FabricModelProvider {
         polishedDioritePool.fence(ModBlocks.POLISHED_DIORITE_FENCE);
         polishedDioritePool.fenceGate(ModBlocks.POLISHED_DIORITE_FENCE_GATE);
         polishedDioritePool.pressurePlate(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE);
+        //andesite
+        andesitePool.button(ModBlocks.ANDESITE_BUTTON);
+        andesitePool.fence(ModBlocks.ANDESITE_FENCE);
+        andesitePool.fenceGate(ModBlocks.ANDESITE_FENCE_GATE);
+        andesitePool.pressurePlate(ModBlocks.ANDESITE_PRESSURE_PLATE);
+        //polished andesite
+        polishedAndesitePool.button(ModBlocks.POLISHED_ANDESITE_BUTTON);
+        polishedAndesitePool.wall(ModBlocks.POLISHED_ANDESITE_WALL);
+        polishedAndesitePool.fence(ModBlocks.POLISHED_ANDESITE_FENCE);
+        polishedAndesitePool.fenceGate(ModBlocks.POLISHED_ANDESITE_FENCE_GATE);
+        polishedAndesitePool.pressurePlate(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE);
 
 
 
@@ -385,9 +400,15 @@ public class ModModelProvider extends FabricModelProvider {
         //diorite
         blockStateModelGenerator.registerDoor(ModBlocks.DIORITE_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DIORITE_TRAPDOOR);
-        //diorite
+        //polished diorite
         blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_DIORITE_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_DIORITE_TRAPDOOR);
+        //andesite
+        blockStateModelGenerator.registerDoor(ModBlocks.ANDESITE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.ANDESITE_TRAPDOOR);
+        //polished andesite
+        blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_ANDESITE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_ANDESITE_TRAPDOOR);
 
 
 

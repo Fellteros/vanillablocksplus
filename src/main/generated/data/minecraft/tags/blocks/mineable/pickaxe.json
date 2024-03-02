@@ -63,6 +63,19 @@
     "vanillablocksplus:polished_diorite_fence",
     "vanillablocksplus:polished_diorite_button",
     "vanillablocksplus:polished_diorite_pressure_plate",
-    "vanillablocksplus:polished_diorite_wall"
+    "vanillablocksplus:polished_diorite_wall",
+    "vanillablocksplus:andesite_door",
+    "vanillablocksplus:andesite_trapdoor",
+    "vanillablocksplus:andesite_fence_gate",
+    "vanillablocksplus:andesite_fence",
+    "vanillablocksplus:andesite_button",
+    "vanillablocksplus:andesite_pressure_plate",
+    "vanillablocksplus:polished_andesite_door",
+    "vanillablocksplus:polished_andesite_trapdoor",
+    "vanillablocksplus:polished_andesite_fence_gate",
+    "vanillablocksplus:polished_andesite_fence",
+    "vanillablocksplus:polished_andesite_button",
+    "vanillablocksplus:polished_andesite_pressure_plate",
+    "vanillablocksplus:polished_andesite_wall"
   ]
 }
