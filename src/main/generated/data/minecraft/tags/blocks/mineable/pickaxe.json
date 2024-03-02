@@ -37,6 +37,12 @@
     "vanillablocksplus:cracked_stone_bricks_fence_gate",
     "vanillablocksplus:cracked_stone_bricks_fence",
     "vanillablocksplus:cracked_stone_bricks_button",
-    "vanillablocksplus:cracked_stone_bricks_pressure_plate"
+    "vanillablocksplus:cracked_stone_bricks_pressure_plate",
+    "vanillablocksplus:granite_door",
+    "vanillablocksplus:granite_trapdoor",
+    "vanillablocksplus:granite_fence_gate",
+    "vanillablocksplus:granite_fence",
+    "vanillablocksplus:granite_button",
+    "vanillablocksplus:granite_pressure_plate"
   ]
 }

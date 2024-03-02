@@ -7,11 +7,9 @@
     }
   },
   "pattern": [
-    "##",
-    "##"
+    " # "
   ],
   "result": {
-    "count": 8,
     "item": "vanillablocksplus:mossy_cobblestone_button"
   },
   "show_notification": true

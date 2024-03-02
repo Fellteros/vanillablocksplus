@@ -258,6 +258,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CRACKED_STONE_BRICKS_TRAPDOOR);
                         entries.add(ModBlocks.CRACKED_STONE_BRICKS_PRESSURE_PLATE);
                         entries.add(ModBlocks.CRACKED_STONE_BRICKS_BUTTON);
+                        //granite
+                        entries.add(ModBlocks.GRANITE_FENCE);
+                        entries.add(ModBlocks.GRANITE_FENCE_GATE);
+                        entries.add(ModBlocks.GRANITE_DOOR);
+                        entries.add(ModBlocks.GRANITE_TRAPDOOR);
+                        entries.add(ModBlocks.GRANITE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.GRANITE_BUTTON);
 
                     }).build());
 

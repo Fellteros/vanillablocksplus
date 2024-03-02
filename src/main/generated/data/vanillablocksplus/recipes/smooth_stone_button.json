@@ -7,11 +7,9 @@
     }
   },
   "pattern": [
-    "##",
-    "##"
+    " # "
   ],
   "result": {
-    "count": 8,
     "item": "vanillablocksplus:smooth_stone_button"
   },
   "show_notification": true

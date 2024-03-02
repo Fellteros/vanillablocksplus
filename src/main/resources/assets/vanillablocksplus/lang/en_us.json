@@ -243,6 +243,13 @@
   "block.vanillablocksplus.cracked_stone_bricks_button": "Cracked Stone Bricks Button",
   "block.vanillablocksplus.cracked_stone_bricks_wall": "Cracked Stone Bricks Wall",
 
+  "block.vanillablocksplus.granite_door": "Granite Door",
+  "block.vanillablocksplus.granite_trapdoor": "Granite Trapdoor",
+  "block.vanillablocksplus.granite_fence": "Granite Fence",
+  "block.vanillablocksplus.granite_fence_gate": "Granite Fence Gate",
+  "block.vanillablocksplus.granite_pressure_plate": "Granite Pressure Plate",
+  "block.vanillablocksplus.granite_button": "Granite Button",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }
