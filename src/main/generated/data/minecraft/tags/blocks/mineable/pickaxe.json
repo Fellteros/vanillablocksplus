@@ -22,6 +22,12 @@
     "vanillablocksplus:smooth_stone_fence",
     "vanillablocksplus:smooth_stone_button",
     "vanillablocksplus:smooth_stone_pressure_plate",
-    "vanillablocksplus:smooth_stone_wall"
+    "vanillablocksplus:smooth_stone_wall",
+    "vanillablocksplus:stone_bricks_door",
+    "vanillablocksplus:stone_bricks_trapdoor",
+    "vanillablocksplus:stone_bricks_fence_gate",
+    "vanillablocksplus:stone_bricks_fence",
+    "vanillablocksplus:stone_bricks_button",
+    "vanillablocksplus:stone_bricks_pressure_plate"
   ]
 }

@@ -642,6 +642,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_STONE_WALL, Blocks.SMOOTH_STONE);
         offer2x2ButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_STONE_BUTTON, Blocks.SMOOTH_STONE, 8);
 
+        //stone bricks
+        createDoorRecipe(ModBlocks.STONE_BRICKS_DOOR, Ingredient.ofItems(Blocks.STONE_BRICKS))
+                .criterion(hasItem(Blocks.STONE_BRICKS), conditionsFromItem(Blocks.STONE_BRICKS))
+                .offerTo(exporter);
+        createNotWoodFenceRecipe(ModBlocks.STONE_BRICKS_FENCE, Ingredient.ofItems(Blocks.STONE_BRICKS), Ingredient.ofItems(Blocks.STONE_BRICK_SLAB), 3)
+                .criterion(hasItem(Blocks.STONE_BRICKS), conditionsFromItem(Blocks.STONE_BRICKS))
+                .offerTo(exporter);
+        createNotWoodFenceGateRecipe(ModBlocks.STONE_BRICKS_FENCE_GATE, Ingredient.ofItems(Blocks.STONE_BRICKS), Ingredient.ofItems(Blocks.STONE_BRICK_SLAB), 1)
+                .criterion(hasItem(Blocks.STONE_BRICKS), conditionsFromItem(Blocks.STONE_BRICKS))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.STONE_BRICKS_TRAPDOOR, Ingredient.ofItems(Blocks.STONE_BRICK_SLAB))
+                .criterion(hasItem(Blocks.STONE_BRICKS), conditionsFromItem(Blocks.STONE_BRICKS))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.STONE_BRICKS_PRESSURE_PLATE, Ingredient.ofItems(Blocks.STONE_BRICKS))
+                .criterion(hasItem(Blocks.STONE_BRICKS), conditionsFromItem(Blocks.STONE_BRICKS))
+                .offerTo(exporter);
+        offer2x2ButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.STONE_BRICKS_BUTTON, Blocks.STONE_BRICKS, 8);
+
 
     }
 

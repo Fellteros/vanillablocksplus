@@ -523,10 +523,12 @@ public class ModBlocks {
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), BlockSetType.STONE));
     public static final Block MOSSY_COBBLESTONE_BUTTON = registerBlock("mossy_cobblestone_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON), BlockSetType.STONE, 10, false));
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), BlockSetType.STONE, 10, false));
     public static final Block MOSSY_COBBLESTONE_PRESSURE_PLATE = registerBlock("mossy_cobblestone_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE), BlockSetType.STONE));
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), BlockSetType.STONE));
 
     //smooth stone
     public static final Block SMOOTH_STONE_STAIRS = registerBlock("smooth_stone_stairs",
@@ -544,13 +546,36 @@ public class ModBlocks {
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), BlockSetType.STONE));
     public static final Block SMOOTH_STONE_BUTTON = registerBlock("smooth_stone_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON), BlockSetType.STONE, 10, false));
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), BlockSetType.STONE, 10, false));
     public static final Block SMOOTH_STONE_PRESSURE_PLATE = registerBlock("smooth_stone_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE), BlockSetType.STONE));
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), BlockSetType.STONE));
     public static final Block SMOOTH_STONE_WALL = registerBlock("smooth_stone_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F)));
+
+    //stone bricks
+    public static final Block STONE_BRICKS_FENCE = registerBlock("stone_bricks_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F)));
+    public static final Block STONE_BRICKS_FENCE_GATE = registerBlock("stone_bricks_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE_GATE).sounds(BlockSoundGroup.STONE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F), WoodType.OAK));
+    public static final Block STONE_BRICKS_DOOR = registerBlock("stone_bricks_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F), BlockSetType.STONE));
+    public static final Block STONE_BRICKS_TRAPDOOR = registerBlock("stone_bricks_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F), BlockSetType.STONE));
+    public static final Block STONE_BRICKS_BUTTON = registerBlock("stone_bricks_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F), BlockSetType.STONE, 10, false));
+    public static final Block STONE_BRICKS_PRESSURE_PLATE = registerBlock("stone_bricks_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F), BlockSetType.STONE));
 
 
 

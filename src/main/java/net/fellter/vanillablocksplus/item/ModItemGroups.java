@@ -241,6 +241,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SMOOTH_STONE_TRAPDOOR);
                         entries.add(ModBlocks.SMOOTH_STONE_PRESSURE_PLATE);
                         entries.add(ModBlocks.SMOOTH_STONE_BUTTON);
+                        //stone bricks
+                        entries.add(ModBlocks.STONE_BRICKS_FENCE);
+                        entries.add(ModBlocks.STONE_BRICKS_FENCE_GATE);
+                        entries.add(ModBlocks.STONE_BRICKS_DOOR);
+                        entries.add(ModBlocks.STONE_BRICKS_TRAPDOOR);
+                        entries.add(ModBlocks.STONE_BRICKS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.STONE_BRICKS_BUTTON);
 
                     }).build());
 

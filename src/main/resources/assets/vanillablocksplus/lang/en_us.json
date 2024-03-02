@@ -224,6 +224,15 @@
   "block.vanillablocksplus.smooth_stone_wall": "Smooth Stone Wall",
   "block.vanillablocksplus.smooth_stone_stairs": "Smooth Stone Stairs",
 
+  "block.vanillablocksplus.stone_bricks_door": "Stone Bricks Door",
+  "block.vanillablocksplus.stone_bricks_trapdoor": "Stone Bricks Trapdoor",
+  "block.vanillablocksplus.stone_bricks_fence": "Stone Bricks Fence",
+  "block.vanillablocksplus.stone_bricks_fence_gate": "Stone Bricks Fence Gate",
+  "block.vanillablocksplus.stone_bricks_pressure_plate": "Stone Bricks Pressure Plate",
+  "block.vanillablocksplus.stone_bricks_button": "Stone Bricks Button",
+  "block.vanillablocksplus.stone_bricks_wall": "Stone Bricks Wall",
+  "block.vanillablocksplus.stone_bricks_stairs": "Stone Bricks Stairs",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }
