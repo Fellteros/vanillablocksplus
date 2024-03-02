@@ -50,6 +50,12 @@
     "vanillablocksplus:polished_granite_fence",
     "vanillablocksplus:polished_granite_button",
     "vanillablocksplus:polished_granite_pressure_plate",
-    "vanillablocksplus:polished_granite_wall"
+    "vanillablocksplus:polished_granite_wall",
+    "vanillablocksplus:diorite_door",
+    "vanillablocksplus:diorite_trapdoor",
+    "vanillablocksplus:diorite_fence_gate",
+    "vanillablocksplus:diorite_fence",
+    "vanillablocksplus:diorite_button",
+    "vanillablocksplus:diorite_pressure_plate"
   ]
 }

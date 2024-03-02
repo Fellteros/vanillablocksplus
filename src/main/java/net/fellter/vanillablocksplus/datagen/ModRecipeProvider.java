@@ -720,6 +720,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.POLISHED_GRANITE_BUTTON, Blocks.POLISHED_GRANITE, 1);
         offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.POLISHED_GRANITE_WALL, Blocks.POLISHED_GRANITE);
 
+        //diorite
+        createDoorRecipe(ModBlocks.DIORITE_DOOR, Ingredient.ofItems(Blocks.DIORITE))
+                .criterion(hasItem(Blocks.DIORITE), conditionsFromItem(Blocks.DIORITE))
+                .offerTo(exporter);
+        createNotWoodFenceRecipe(ModBlocks.DIORITE_FENCE, Ingredient.ofItems(Blocks.DIORITE), Ingredient.ofItems(Blocks.DIORITE_SLAB), 3)
+                .criterion(hasItem(Blocks.GRANITE), conditionsFromItem(Blocks.DIORITE))
+                .offerTo(exporter);
+        createNotWoodFenceGateRecipe(ModBlocks.DIORITE_FENCE_GATE, Ingredient.ofItems(Blocks.DIORITE), Ingredient.ofItems(Blocks.DIORITE_SLAB), 1)
+                .criterion(hasItem(Blocks.DIORITE), conditionsFromItem(Blocks.DIORITE))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.DIORITE_TRAPDOOR, Ingredient.ofItems(Blocks.DIORITE_SLAB))
+                .criterion(hasItem(Blocks.DIORITE), conditionsFromItem(Blocks.DIORITE))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIORITE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.DIORITE))
+                .criterion(hasItem(Blocks.DIORITE), conditionsFromItem(Blocks.DIORITE))
+                .offerTo(exporter);
+        offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.DIORITE_BUTTON, Blocks.DIORITE, 1);
+
 
 
 

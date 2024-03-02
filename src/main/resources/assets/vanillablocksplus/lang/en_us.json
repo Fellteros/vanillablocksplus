@@ -258,6 +258,13 @@
   "block.vanillablocksplus.polished_granite_button": "Polished Granite Button",
   "block.vanillablocksplus.polished_granite_wall": "Polished Granite Wall",
 
+  "block.vanillablocksplus.diorite_door": "Diorite Door",
+  "block.vanillablocksplus.diorite_trapdoor": "Diorite Trapdoor",
+  "block.vanillablocksplus.diorite_fence": "Diorite Fence",
+  "block.vanillablocksplus.diorite_fence_gate": "Diorite Fence Gate",
+  "block.vanillablocksplus.diorite_pressure_plate": "Diorite Pressure Plate",
+  "block.vanillablocksplus.diorite_button": "Diorite Button",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }
