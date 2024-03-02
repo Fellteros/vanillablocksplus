@@ -250,6 +250,14 @@
   "block.vanillablocksplus.granite_pressure_plate": "Granite Pressure Plate",
   "block.vanillablocksplus.granite_button": "Granite Button",
 
+  "block.vanillablocksplus.polished_granite_door": "Polished Granite Door",
+  "block.vanillablocksplus.polished_granite_trapdoor": "Polished Granite Trapdoor",
+  "block.vanillablocksplus.polished_granite_fence": "Polished Granite Fence",
+  "block.vanillablocksplus.polished_granite_fence_gate": "Polished Granite Fence Gate",
+  "block.vanillablocksplus.polished_granite_pressure_plate": "Polished Granite Pressure Plate",
+  "block.vanillablocksplus.polished_granite_button": "Polished Granite Button",
+  "block.vanillablocksplus.polished_granite_wall": "Polished Granite Wall",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

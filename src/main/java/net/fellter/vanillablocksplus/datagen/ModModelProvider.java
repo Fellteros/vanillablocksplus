@@ -74,6 +74,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_STONE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool granitePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRANITE);
+        BlockStateModelGenerator.BlockTexturePool polishedGranitePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_GRANITE);
 
         //oak
         oakWoodPool.button(ModBlocks.OAK_WOOD_BUTTON);
@@ -266,6 +268,12 @@ public class ModModelProvider extends FabricModelProvider {
         granitePool.fence(ModBlocks.GRANITE_FENCE);
         granitePool.fenceGate(ModBlocks.GRANITE_FENCE_GATE);
         granitePool.pressurePlate(ModBlocks.GRANITE_PRESSURE_PLATE);
+        //polished granite
+        polishedGranitePool.button(ModBlocks.POLISHED_GRANITE_BUTTON);
+        polishedGranitePool.wall(ModBlocks.POLISHED_GRANITE_WALL);
+        polishedGranitePool.fence(ModBlocks.POLISHED_GRANITE_FENCE);
+        polishedGranitePool.fenceGate(ModBlocks.POLISHED_GRANITE_FENCE_GATE);
+        polishedGranitePool.pressurePlate(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE);
 
 
 
@@ -356,6 +364,9 @@ public class ModModelProvider extends FabricModelProvider {
         //granite
         blockStateModelGenerator.registerDoor(ModBlocks.GRANITE_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GRANITE_TRAPDOOR);
+        //granite
+        blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_GRANITE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_GRANITE_TRAPDOOR);
 
 
 

@@ -269,6 +269,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GRANITE_FENCE);
         addDrop(ModBlocks.GRANITE_FENCE_GATE);
         addDrop(ModBlocks.GRANITE_DOOR, doorDrops(ModBlocks.GRANITE_DOOR));
+        //polished granite
+        addDrop(ModBlocks.POLISHED_GRANITE_TRAPDOOR);
+        addDrop(ModBlocks.POLISHED_GRANITE_BUTTON);
+        addDrop(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE);
+        addDrop(ModBlocks.POLISHED_GRANITE_FENCE);
+        addDrop(ModBlocks.POLISHED_GRANITE_FENCE_GATE);
+        addDrop(ModBlocks.POLISHED_GRANITE_DOOR, doorDrops(ModBlocks.POLISHED_GRANITE_DOOR));
+        addDrop(ModBlocks.POLISHED_GRANITE_WALL);
 
 
     }

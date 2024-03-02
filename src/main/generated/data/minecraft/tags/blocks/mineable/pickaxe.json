@@ -43,6 +43,13 @@
     "vanillablocksplus:granite_fence_gate",
     "vanillablocksplus:granite_fence",
     "vanillablocksplus:granite_button",
-    "vanillablocksplus:granite_pressure_plate"
+    "vanillablocksplus:granite_pressure_plate",
+    "vanillablocksplus:polished_granite_door",
+    "vanillablocksplus:polished_granite_trapdoor",
+    "vanillablocksplus:polished_granite_fence_gate",
+    "vanillablocksplus:polished_granite_fence",
+    "vanillablocksplus:polished_granite_button",
+    "vanillablocksplus:polished_granite_pressure_plate",
+    "vanillablocksplus:polished_granite_wall"
   ]
 }

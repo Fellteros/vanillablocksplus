@@ -265,6 +265,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GRANITE_TRAPDOOR);
                         entries.add(ModBlocks.GRANITE_PRESSURE_PLATE);
                         entries.add(ModBlocks.GRANITE_BUTTON);
+                        //polished granite
+                        entries.add(ModBlocks.POLISHED_GRANITE_WALL);
+                        entries.add(ModBlocks.POLISHED_GRANITE_FENCE);
+                        entries.add(ModBlocks.POLISHED_GRANITE_FENCE_GATE);
+                        entries.add(ModBlocks.POLISHED_GRANITE_DOOR);
+                        entries.add(ModBlocks.POLISHED_GRANITE_TRAPDOOR);
+                        entries.add(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.POLISHED_GRANITE_BUTTON);
 
                     }).build());
 
