@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
     public static final ItemGroup VBP_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(VanillaBlocksPlus.MOD_ID, "vbs"),
+            new Identifier(VanillaBlocksPlus.MOD_ID, "vbp"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.vanillablocksplus"))
                     .icon(() -> new ItemStack(ModItems.VBP_TITLE)).entries((displayContext, entries) -> {
 
