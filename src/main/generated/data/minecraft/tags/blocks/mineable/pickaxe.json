@@ -76,6 +76,15 @@
     "vanillablocksplus:polished_andesite_fence",
     "vanillablocksplus:polished_andesite_button",
     "vanillablocksplus:polished_andesite_pressure_plate",
-    "vanillablocksplus:polished_andesite_wall"
+    "vanillablocksplus:polished_andesite_wall",
+    "vanillablocksplus:deepslate_stairs",
+    "vanillablocksplus:deepslate_slab",
+    "vanillablocksplus:deepslate_wall",
+    "vanillablocksplus:deepslate_door",
+    "vanillablocksplus:deepslate_trapdoor",
+    "vanillablocksplus:deepslate_fence_gate",
+    "vanillablocksplus:deepslate_fence",
+    "vanillablocksplus:deepslate_button",
+    "vanillablocksplus:deepslate_pressure_plate"
   ]
 }

@@ -106,7 +106,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POLISHED_ANDESITE_FENCE)
                 .add(ModBlocks.POLISHED_ANDESITE_BUTTON)
                 .add(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE)
-                .add(ModBlocks.POLISHED_ANDESITE_WALL);
+                .add(ModBlocks.POLISHED_ANDESITE_WALL)
+                //deepslate
+                .add(ModBlocks.DEEPSLATE_STAIRS)
+                .add(ModBlocks.DEEPSLATE_SLAB)
+                .add(ModBlocks.DEEPSLATE_WALL)
+                .add(ModBlocks.DEEPSLATE_DOOR)
+                .add(ModBlocks.DEEPSLATE_TRAPDOOR)
+                .add(ModBlocks.DEEPSLATE_FENCE_GATE)
+                .add(ModBlocks.DEEPSLATE_FENCE)
+                .add(ModBlocks.DEEPSLATE_BUTTON)
+                .add(ModBlocks.DEEPSLATE_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 //oak
@@ -334,7 +344,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DIORITE_FENCE)
                 .add(ModBlocks.POLISHED_DIORITE_FENCE)
                 .add(ModBlocks.ANDESITE_FENCE)
-                .add(ModBlocks.POLISHED_ANDESITE_FENCE);
+                .add(ModBlocks.POLISHED_ANDESITE_FENCE)
+                .add(ModBlocks.DEEPSLATE_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -371,7 +382,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DIORITE_FENCE)
                 .add(ModBlocks.POLISHED_DIORITE_FENCE)
                 .add(ModBlocks.ANDESITE_FENCE)
-                .add(ModBlocks.POLISHED_ANDESITE_FENCE);
+                .add(ModBlocks.POLISHED_ANDESITE_FENCE)
+                .add(ModBlocks.DEEPSLATE_FENCE);
+
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.OAK_WOOD_FENCE_GATE)
@@ -407,7 +420,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DIORITE_FENCE_GATE)
                 .add(ModBlocks.POLISHED_DIORITE_FENCE_GATE)
                 .add(ModBlocks.ANDESITE_FENCE_GATE)
-                .add(ModBlocks.POLISHED_ANDESITE_FENCE_GATE);
+                .add(ModBlocks.POLISHED_ANDESITE_FENCE_GATE)
+                .add(ModBlocks.DEEPSLATE_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.STONE_WALL)
@@ -415,7 +429,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_STONE_BRICKS_WALL)
                 .add(ModBlocks.POLISHED_GRANITE_WALL)
                 .add(ModBlocks.POLISHED_DIORITE_WALL)
-                .add(ModBlocks.POLISHED_ANDESITE_WALL);
+                .add(ModBlocks.POLISHED_ANDESITE_WALL)
+                .add(ModBlocks.DEEPSLATE_WALL);
 
 
 

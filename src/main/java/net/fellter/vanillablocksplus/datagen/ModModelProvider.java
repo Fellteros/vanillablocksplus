@@ -84,6 +84,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ANDESITE);
         BlockStateModelGenerator.BlockTexturePool polishedAndesitePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_ANDESITE);
+        BlockStateModelGenerator.BlockTexturePool deepslatePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DEEPSLATE);
 
         //oak
         oakWoodPool.button(ModBlocks.OAK_WOOD_BUTTON);
@@ -304,6 +306,14 @@ public class ModModelProvider extends FabricModelProvider {
         polishedAndesitePool.fence(ModBlocks.POLISHED_ANDESITE_FENCE);
         polishedAndesitePool.fenceGate(ModBlocks.POLISHED_ANDESITE_FENCE_GATE);
         polishedAndesitePool.pressurePlate(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE);
+        //deepslate
+        deepslatePool.button(ModBlocks.DEEPSLATE_BUTTON);
+        deepslatePool.wall(ModBlocks.DEEPSLATE_WALL);
+        deepslatePool.stairs(ModBlocks.DEEPSLATE_STAIRS);
+        deepslatePool.slab(ModBlocks.DEEPSLATE_SLAB);
+        deepslatePool.fence(ModBlocks.DEEPSLATE_FENCE);
+        deepslatePool.fenceGate(ModBlocks.DEEPSLATE_FENCE_GATE);
+        deepslatePool.pressurePlate(ModBlocks.DEEPSLATE_PRESSURE_PLATE);
 
 
 
@@ -409,6 +419,9 @@ public class ModModelProvider extends FabricModelProvider {
         //polished andesite
         blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_ANDESITE_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_ANDESITE_TRAPDOOR);
+        //deepslate
+        blockStateModelGenerator.registerDoor(ModBlocks.DEEPSLATE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_TRAPDOOR);
 
 
 

@@ -288,6 +288,16 @@
   "block.vanillablocksplus.polished_andesite_button": "Polished Andesite Button",
   "block.vanillablocksplus.polished_andesite_wall": "Polished Andesite Wall",
 
+  "block.vanillablocksplus.deepslate_stairs": "Deepslate Stairs",
+  "block.vanillablocksplus.deepslate_slab": "Deepslate Slab",
+  "block.vanillablocksplus.deepslate_door": "Deepslate Door",
+  "block.vanillablocksplus.deepslate_trapdoor": "Deepslate Trapdoor",
+  "block.vanillablocksplus.deepslate_fence": "Deepslate Fence",
+  "block.vanillablocksplus.deepslate_fence_gate": "Deepslate Fence Gate",
+  "block.vanillablocksplus.deepslate_pressure_plate": "Deepslate Pressure Plate",
+  "block.vanillablocksplus.deepslate_button": "Deepslate Button",
+  "block.vanillablocksplus.deepslate_wall": "Deepslate Wall",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

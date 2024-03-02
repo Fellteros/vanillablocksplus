@@ -307,6 +307,16 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.POLISHED_ANDESITE_FENCE_GATE);
         addDrop(ModBlocks.POLISHED_ANDESITE_DOOR, doorDrops(ModBlocks.POLISHED_ANDESITE_DOOR));
         addDrop(ModBlocks.POLISHED_ANDESITE_WALL);
+        //deepslate
+        addDrop(ModBlocks.DEEPSLATE_STAIRS);
+        addDrop(ModBlocks.DEEPSLATE_TRAPDOOR);
+        addDrop(ModBlocks.DEEPSLATE_BUTTON);
+        addDrop(ModBlocks.DEEPSLATE_PRESSURE_PLATE);
+        addDrop(ModBlocks.DEEPSLATE_FENCE);
+        addDrop(ModBlocks.DEEPSLATE_FENCE_GATE);
+        addDrop(ModBlocks.DEEPSLATE_DOOR, doorDrops(ModBlocks.DEEPSLATE_DOOR));
+        addDrop(ModBlocks.DEEPSLATE_SLAB, slabDrops(ModBlocks.DEEPSLATE_SLAB));
+        addDrop(ModBlocks.DEEPSLATE_WALL);
 
 
     }

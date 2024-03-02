@@ -303,6 +303,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POLISHED_ANDESITE_TRAPDOOR);
                         entries.add(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE);
                         entries.add(ModBlocks.POLISHED_ANDESITE_BUTTON);
+                        //deepslate
+                        entries.add(ModBlocks.DEEPSLATE_STAIRS);
+                        entries.add(ModBlocks.DEEPSLATE_SLAB);
+                        entries.add(ModBlocks.DEEPSLATE_WALL);
+                        entries.add(ModBlocks.DEEPSLATE_FENCE);
+                        entries.add(ModBlocks.DEEPSLATE_FENCE_GATE);
+                        entries.add(ModBlocks.DEEPSLATE_DOOR);
+                        entries.add(ModBlocks.DEEPSLATE_TRAPDOOR);
+                        entries.add(ModBlocks.DEEPSLATE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.DEEPSLATE_BUTTON);
 
                     }).build());
 
