@@ -315,6 +315,13 @@
   "block.vanillablocksplus.chiseled_deepslate_button": "Chiseled Deepslate Button",
   "block.vanillablocksplus.chiseled_deepslate_wall": "Chiseled Deepslate Wall",
 
+  "block.vanillablocksplus.polished_deepslate_door": "Polished Deepslate Door",
+  "block.vanillablocksplus.polished_deepslate_trapdoor": "Polished Deepslate Trapdoor",
+  "block.vanillablocksplus.polished_deepslate_fence": "Polished Deepslate Fence",
+  "block.vanillablocksplus.polished_deepslate_fence_gate": "Polished Deepslate Fence Gate",
+  "block.vanillablocksplus.polished_deepslate_pressure_plate": "Polished Deepslate Pressure Plate",
+  "block.vanillablocksplus.polished_deepslate_button": "Polished Deepslate Button",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

@@ -330,6 +330,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHISELED_DEEPSLATE_TRAPDOOR);
                         entries.add(ModBlocks.CHISELED_DEEPSLATE_PRESSURE_PLATE);
                         entries.add(ModBlocks.CHISELED_DEEPSLATE_BUTTON);
+                        //polished deepslate
+                        entries.add(ModBlocks.POLISHED_DEEPSLATE_FENCE);
+                        entries.add(ModBlocks.POLISHED_DEEPSLATE_FENCE_GATE);
+                        entries.add(ModBlocks.POLISHED_DEEPSLATE_DOOR);
+                        entries.add(ModBlocks.POLISHED_DEEPSLATE_TRAPDOOR);
+                        entries.add(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.POLISHED_DEEPSLATE_BUTTON);
 
                     }).build());
 
