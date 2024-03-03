@@ -298,6 +298,23 @@
   "block.vanillablocksplus.deepslate_button": "Deepslate Button",
   "block.vanillablocksplus.deepslate_wall": "Deepslate Wall",
 
+  "block.vanillablocksplus.cobbled_deepslate_door": "Cobbled Deepslate Door",
+  "block.vanillablocksplus.cobbled_deepslate_trapdoor": "Cobbled Deepslate Trapdoor",
+  "block.vanillablocksplus.cobbled_deepslate_fence": "Cobbled Deepslate Fence",
+  "block.vanillablocksplus.cobbled_deepslate_fence_gate": "Cobbled Deepslate Fence Gate",
+  "block.vanillablocksplus.cobbled_deepslate_pressure_plate": "Cobbled Deepslate Pressure Plate",
+  "block.vanillablocksplus.cobbled_deepslate_button": "Cobbled Deepslate Button",
+
+  "block.vanillablocksplus.chiseled_deepslate_stairs": "Chiseled Deepslate Stairs",
+  "block.vanillablocksplus.chiseled_deepslate_slab": "Chiseled Deepslate Slab",
+  "block.vanillablocksplus.chiseled_deepslate_door": "Chiseled Deepslate Door",
+  "block.vanillablocksplus.chiseled_deepslate_trapdoor": "Chiseled Deepslate Trapdoor",
+  "block.vanillablocksplus.chiseled_deepslate_fence": "Chiseled Deepslate Fence",
+  "block.vanillablocksplus.chiseled_deepslate_fence_gate": "Chiseled Deepslate Fence Gate",
+  "block.vanillablocksplus.chiseled_deepslate_pressure_plate": "Chiseled Deepslate Pressure Plate",
+  "block.vanillablocksplus.chiseled_deepslate_button": "Chiseled Deepslate Button",
+  "block.vanillablocksplus.chiseled_deepslate_wall": "Chiseled Deepslate Wall",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

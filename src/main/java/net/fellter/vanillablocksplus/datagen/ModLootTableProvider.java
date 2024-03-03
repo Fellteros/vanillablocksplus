@@ -317,6 +317,23 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DEEPSLATE_DOOR, doorDrops(ModBlocks.DEEPSLATE_DOOR));
         addDrop(ModBlocks.DEEPSLATE_SLAB, slabDrops(ModBlocks.DEEPSLATE_SLAB));
         addDrop(ModBlocks.DEEPSLATE_WALL);
+        //cobbled deepslate
+        addDrop(ModBlocks.COBBLED_DEEPSLATE_TRAPDOOR);
+        addDrop(ModBlocks.COBBLED_DEEPSLATE_BUTTON);
+        addDrop(ModBlocks.COBBLED_DEEPSLATE_PRESSURE_PLATE);
+        addDrop(ModBlocks.COBBLED_DEEPSLATE_FENCE);
+        addDrop(ModBlocks.COBBLED_DEEPSLATE_FENCE_GATE);
+        addDrop(ModBlocks.COBBLED_DEEPSLATE_DOOR, doorDrops(ModBlocks.COBBLED_DEEPSLATE_DOOR));
+        //chiseled deepslate
+        addDrop(ModBlocks.CHISELED_DEEPSLATE_STAIRS);
+        addDrop(ModBlocks.CHISELED_DEEPSLATE_TRAPDOOR);
+        addDrop(ModBlocks.CHISELED_DEEPSLATE_BUTTON);
+        addDrop(ModBlocks.CHISELED_DEEPSLATE_PRESSURE_PLATE);
+        addDrop(ModBlocks.CHISELED_DEEPSLATE_FENCE);
+        addDrop(ModBlocks.CHISELED_DEEPSLATE_FENCE_GATE);
+        addDrop(ModBlocks.CHISELED_DEEPSLATE_DOOR, doorDrops(ModBlocks.CHISELED_DEEPSLATE_DOOR));
+        addDrop(ModBlocks.CHISELED_DEEPSLATE_SLAB, slabDrops(ModBlocks.CHISELED_DEEPSLATE_SLAB));
+        addDrop(ModBlocks.CHISELED_DEEPSLATE_WALL);
 
 
     }

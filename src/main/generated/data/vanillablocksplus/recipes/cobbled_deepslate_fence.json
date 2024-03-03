@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:cobbled_deepslate_slab"
+    },
+    "W": {
+      "item": "minecraft:cobbled_deepslate"
+    }
+  },
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "result": {
+    "count": 3,
+    "item": "vanillablocksplus:cobbled_deepslate_fence"
+  },
+  "show_notification": true
+}

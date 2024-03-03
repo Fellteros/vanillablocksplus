@@ -86,6 +86,10 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_ANDESITE);
         BlockStateModelGenerator.BlockTexturePool deepslatePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DEEPSLATE);
+        BlockStateModelGenerator.BlockTexturePool cobbledDeepslatePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COBBLED_DEEPSLATE);
+        BlockStateModelGenerator.BlockTexturePool chiseledDeepslatePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CHISELED_DEEPSLATE);
 
         //oak
         oakWoodPool.button(ModBlocks.OAK_WOOD_BUTTON);
@@ -314,6 +318,19 @@ public class ModModelProvider extends FabricModelProvider {
         deepslatePool.fence(ModBlocks.DEEPSLATE_FENCE);
         deepslatePool.fenceGate(ModBlocks.DEEPSLATE_FENCE_GATE);
         deepslatePool.pressurePlate(ModBlocks.DEEPSLATE_PRESSURE_PLATE);
+        //cobbled deepslate
+        cobbledDeepslatePool.button(ModBlocks.COBBLED_DEEPSLATE_BUTTON);
+        cobbledDeepslatePool.fence(ModBlocks.COBBLED_DEEPSLATE_FENCE);
+        cobbledDeepslatePool.fenceGate(ModBlocks.COBBLED_DEEPSLATE_FENCE_GATE);
+        cobbledDeepslatePool.pressurePlate(ModBlocks.COBBLED_DEEPSLATE_PRESSURE_PLATE);
+        //chiseled deepslate
+        chiseledDeepslatePool.button(ModBlocks.CHISELED_DEEPSLATE_BUTTON);
+        chiseledDeepslatePool.wall(ModBlocks.CHISELED_DEEPSLATE_WALL);
+        chiseledDeepslatePool.stairs(ModBlocks.CHISELED_DEEPSLATE_STAIRS);
+        chiseledDeepslatePool.slab(ModBlocks.CHISELED_DEEPSLATE_SLAB);
+        chiseledDeepslatePool.fence(ModBlocks.CHISELED_DEEPSLATE_FENCE);
+        chiseledDeepslatePool.fenceGate(ModBlocks.CHISELED_DEEPSLATE_FENCE_GATE);
+        chiseledDeepslatePool.pressurePlate(ModBlocks.CHISELED_DEEPSLATE_PRESSURE_PLATE);
 
 
 
@@ -422,6 +439,12 @@ public class ModModelProvider extends FabricModelProvider {
         //deepslate
         blockStateModelGenerator.registerDoor(ModBlocks.DEEPSLATE_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_TRAPDOOR);
+        //cobbled deepslate
+        blockStateModelGenerator.registerDoor(ModBlocks.COBBLED_DEEPSLATE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.COBBLED_DEEPSLATE_TRAPDOOR);
+        //chiseled deepslate
+        blockStateModelGenerator.registerDoor(ModBlocks.CHISELED_DEEPSLATE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CHISELED_DEEPSLATE_TRAPDOOR);
 
 
 

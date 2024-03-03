@@ -772,6 +772,56 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(3.0f, 6.0F)));
 
+    //cobbled deepslate set
+    public static final Block COBBLED_DEEPSLATE_BUTTON = registerBlock("cobbled_deepslate_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.5F, 6.0F), BlockSetType.STONE, 10, false));
+    public static final Block COBBLED_DEEPSLATE_PRESSURE_PLATE = registerBlock("cobbled_deepslate_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(3.5F, 6.0F), BlockSetType.STONE));
+    public static final Block COBBLED_DEEPSLATE_FENCE = registerBlock("cobbled_deepslate_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_FENCE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.5F, 6.0F)));
+    public static final Block COBBLED_DEEPSLATE_FENCE_GATE = registerBlock("cobbled_deepslate_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_FENCE_GATE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.5F, 6.0F), WoodType.OAK));
+    public static final Block COBBLED_DEEPSLATE_DOOR = registerBlock("cobbled_deepslate_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.5F, 6.0F), BlockSetType.STONE));
+    public static final Block COBBLED_DEEPSLATE_TRAPDOOR = registerBlock("cobbled_deepslate_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.5F, 6.0F), BlockSetType.STONE));
+
+    //chiseled deepslate set
+    public static final Block CHISELED_DEEPSLATE_STAIRS = registerBlock("chiseled_deepslate_stairs",
+            new StairsBlock(Blocks.CHISELED_DEEPSLATE.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_STAIRS)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.5F, 6.0F)));
+    public static final Block CHISELED_DEEPSLATE_SLAB = registerBlock("chiseled_deepslate_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_SLAB)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.5F, 6.0F)));
+    public static final Block CHISELED_DEEPSLATE_BUTTON = registerBlock("chiseled_deepslate_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.5F, 6.0F), BlockSetType.STONE, 10, false));
+    public static final Block CHISELED_DEEPSLATE_PRESSURE_PLATE = registerBlock("chiseled_deepslate_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(3.5F, 6.0F), BlockSetType.STONE));
+    public static final Block CHISELED_DEEPSLATE_FENCE = registerBlock("chiseled_deepslate_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_FENCE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.5F, 6.0F)));
+    public static final Block CHISELED_DEEPSLATE_FENCE_GATE = registerBlock("chiseled_deepslate_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_FENCE_GATE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.5F, 6.0F), WoodType.OAK));
+    public static final Block CHISELED_DEEPSLATE_DOOR = registerBlock("chiseled_deepslate_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.5F, 6.0F), BlockSetType.STONE));
+    public static final Block CHISELED_DEEPSLATE_TRAPDOOR = registerBlock("chiseled_deepslate_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.5F, 6.0F), BlockSetType.STONE));
+    public static final Block CHISELED_DEEPSLATE_WALL = registerBlock("chiseled_deepslate_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_WALL)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.5f, 6.0F)));
 
 
 

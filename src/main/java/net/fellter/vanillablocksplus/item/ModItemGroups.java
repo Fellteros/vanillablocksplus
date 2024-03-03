@@ -313,6 +313,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_TRAPDOOR);
                         entries.add(ModBlocks.DEEPSLATE_PRESSURE_PLATE);
                         entries.add(ModBlocks.DEEPSLATE_BUTTON);
+                        //cobbled deepslate
+                        entries.add(ModBlocks.COBBLED_DEEPSLATE_FENCE);
+                        entries.add(ModBlocks.COBBLED_DEEPSLATE_FENCE_GATE);
+                        entries.add(ModBlocks.COBBLED_DEEPSLATE_DOOR);
+                        entries.add(ModBlocks.COBBLED_DEEPSLATE_TRAPDOOR);
+                        entries.add(ModBlocks.COBBLED_DEEPSLATE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.COBBLED_DEEPSLATE_BUTTON);
+                        //chiseled deepslate
+                        entries.add(ModBlocks.CHISELED_DEEPSLATE_STAIRS);
+                        entries.add(ModBlocks.CHISELED_DEEPSLATE_SLAB);
+                        entries.add(ModBlocks.CHISELED_DEEPSLATE_WALL);
+                        entries.add(ModBlocks.CHISELED_DEEPSLATE_FENCE);
+                        entries.add(ModBlocks.CHISELED_DEEPSLATE_FENCE_GATE);
+                        entries.add(ModBlocks.CHISELED_DEEPSLATE_DOOR);
+                        entries.add(ModBlocks.CHISELED_DEEPSLATE_TRAPDOOR);
+                        entries.add(ModBlocks.CHISELED_DEEPSLATE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CHISELED_DEEPSLATE_BUTTON);
 
                     }).build());
 

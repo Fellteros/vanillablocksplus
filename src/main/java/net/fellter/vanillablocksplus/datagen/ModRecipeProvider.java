@@ -819,6 +819,49 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_BUTTON, Blocks.DEEPSLATE, 1);
         offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_WALL, Blocks.DEEPSLATE);
 
+        //cobbled deepslate
+        createDoorRecipe(ModBlocks.COBBLED_DEEPSLATE_DOOR, Ingredient.ofItems(Blocks.COBBLED_DEEPSLATE))
+                .criterion(hasItem(Blocks.COBBLED_DEEPSLATE), conditionsFromItem(Blocks.COBBLED_DEEPSLATE))
+                .offerTo(exporter);
+        createNotWoodFenceRecipe(ModBlocks.COBBLED_DEEPSLATE_FENCE, Ingredient.ofItems(Blocks.COBBLED_DEEPSLATE), Ingredient.ofItems(Blocks.COBBLED_DEEPSLATE_SLAB), 3)
+                .criterion(hasItem(Blocks.COBBLED_DEEPSLATE), conditionsFromItem(Blocks.COBBLED_DEEPSLATE))
+                .offerTo(exporter);
+        createNotWoodFenceGateRecipe(ModBlocks.COBBLED_DEEPSLATE_FENCE_GATE, Ingredient.ofItems(Blocks.COBBLED_DEEPSLATE), Ingredient.ofItems(Blocks.COBBLED_DEEPSLATE_SLAB), 1)
+                .criterion(hasItem(Blocks.COBBLED_DEEPSLATE), conditionsFromItem(Blocks.COBBLED_DEEPSLATE))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.COBBLED_DEEPSLATE_TRAPDOOR, Ingredient.ofItems(Blocks.COBBLED_DEEPSLATE_SLAB))
+                .criterion(hasItem(Blocks.COBBLED_DEEPSLATE), conditionsFromItem(Blocks.COBBLED_DEEPSLATE))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.COBBLED_DEEPSLATE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.COBBLED_DEEPSLATE))
+                .criterion(hasItem(Blocks.COBBLED_DEEPSLATE), conditionsFromItem(Blocks.COBBLED_DEEPSLATE))
+                .offerTo(exporter);
+        offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.COBBLED_DEEPSLATE_BUTTON, Blocks.COBBLED_DEEPSLATE, 1);
+
+        //chiseled deepslate
+        createDoorRecipe(ModBlocks.CHISELED_DEEPSLATE_DOOR, Ingredient.ofItems(Blocks.CHISELED_DEEPSLATE))
+                .criterion(hasItem(Blocks.CHISELED_DEEPSLATE), conditionsFromItem(Blocks.CHISELED_DEEPSLATE))
+                .offerTo(exporter);
+        createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.CHISELED_DEEPSLATE_SLAB, Ingredient.ofItems(Blocks.CHISELED_DEEPSLATE))
+                .criterion(hasItem(Blocks.CHISELED_DEEPSLATE), conditionsFromItem(Blocks.CHISELED_DEEPSLATE))
+                .offerTo(exporter);
+        createStairsRecipe(ModBlocks.CHISELED_DEEPSLATE_STAIRS, Ingredient.ofItems(Blocks.CHISELED_DEEPSLATE))
+                .criterion(hasItem(Blocks.CHISELED_DEEPSLATE), conditionsFromItem(Blocks.CHISELED_DEEPSLATE))
+                .offerTo(exporter);
+        createNotWoodFenceRecipe(ModBlocks.CHISELED_DEEPSLATE_FENCE, Ingredient.ofItems(Blocks.CHISELED_DEEPSLATE), Ingredient.ofItems(ModBlocks.CHISELED_DEEPSLATE_SLAB), 3)
+                .criterion(hasItem(Blocks.CHISELED_DEEPSLATE), conditionsFromItem(Blocks.CHISELED_DEEPSLATE))
+                .offerTo(exporter);
+        createNotWoodFenceGateRecipe(ModBlocks.CHISELED_DEEPSLATE_FENCE_GATE, Ingredient.ofItems(Blocks.CHISELED_DEEPSLATE), Ingredient.ofItems(ModBlocks.CHISELED_DEEPSLATE_SLAB), 1)
+                .criterion(hasItem(Blocks.CHISELED_DEEPSLATE), conditionsFromItem(Blocks.CHISELED_DEEPSLATE))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.CHISELED_DEEPSLATE_TRAPDOOR, Ingredient.ofItems(ModBlocks.CHISELED_DEEPSLATE_SLAB))
+                .criterion(hasItem(Blocks.CHISELED_DEEPSLATE), conditionsFromItem(Blocks.CHISELED_DEEPSLATE))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.CHISELED_DEEPSLATE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.CHISELED_DEEPSLATE))
+                .criterion(hasItem(Blocks.CHISELED_DEEPSLATE), conditionsFromItem(Blocks.CHISELED_DEEPSLATE))
+                .offerTo(exporter);
+        offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.CHISELED_DEEPSLATE_BUTTON, Blocks.CHISELED_DEEPSLATE, 1);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.CHISELED_DEEPSLATE_WALL, Blocks.CHISELED_DEEPSLATE);
+
 
 
 

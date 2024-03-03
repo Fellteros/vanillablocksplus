@@ -85,6 +85,21 @@
     "vanillablocksplus:deepslate_fence_gate",
     "vanillablocksplus:deepslate_fence",
     "vanillablocksplus:deepslate_button",
-    "vanillablocksplus:deepslate_pressure_plate"
+    "vanillablocksplus:deepslate_pressure_plate",
+    "vanillablocksplus:cobbled_deepslate_door",
+    "vanillablocksplus:cobbled_deepslate_trapdoor",
+    "vanillablocksplus:cobbled_deepslate_fence_gate",
+    "vanillablocksplus:cobbled_deepslate_fence",
+    "vanillablocksplus:cobbled_deepslate_button",
+    "vanillablocksplus:cobbled_deepslate_pressure_plate",
+    "vanillablocksplus:chiseled_deepslate_stairs",
+    "vanillablocksplus:chiseled_deepslate_slab",
+    "vanillablocksplus:chiseled_deepslate_wall",
+    "vanillablocksplus:chiseled_deepslate_door",
+    "vanillablocksplus:chiseled_deepslate_trapdoor",
+    "vanillablocksplus:chiseled_deepslate_fence_gate",
+    "vanillablocksplus:chiseled_deepslate_fence",
+    "vanillablocksplus:chiseled_deepslate_button",
+    "vanillablocksplus:chiseled_deepslate_pressure_plate"
   ]
 }
