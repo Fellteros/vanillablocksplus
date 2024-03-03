@@ -112,6 +112,15 @@
     "vanillablocksplus:deepslate_bricks_fence_gate",
     "vanillablocksplus:deepslate_bricks_fence",
     "vanillablocksplus:deepslate_bricks_button",
-    "vanillablocksplus:deepslate_bricks_pressure_plate"
+    "vanillablocksplus:deepslate_bricks_pressure_plate",
+    "vanillablocksplus:cracked_deepslate_bricks_stairs",
+    "vanillablocksplus:cracked_deepslate_bricks_slab",
+    "vanillablocksplus:cracked_deepslate_bricks_wall",
+    "vanillablocksplus:cracked_deepslate_bricks_door",
+    "vanillablocksplus:cracked_deepslate_bricks_trapdoor",
+    "vanillablocksplus:cracked_deepslate_bricks_fence_gate",
+    "vanillablocksplus:cracked_deepslate_bricks_fence",
+    "vanillablocksplus:cracked_deepslate_bricks_button",
+    "vanillablocksplus:cracked_deepslate_bricks_pressure_plate"
   ]
 }
