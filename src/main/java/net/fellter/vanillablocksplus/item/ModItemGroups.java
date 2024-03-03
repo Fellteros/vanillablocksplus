@@ -354,6 +354,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_TRAPDOOR);
                         entries.add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_PRESSURE_PLATE);
                         entries.add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_BUTTON);
+                        //deepslate tiles
+                        entries.add(ModBlocks.DEEPSLATE_TILES_FENCE);
+                        entries.add(ModBlocks.DEEPSLATE_TILES_FENCE_GATE);
+                        entries.add(ModBlocks.DEEPSLATE_TILES_DOOR);
+                        entries.add(ModBlocks.DEEPSLATE_TILES_TRAPDOOR);
+                        entries.add(ModBlocks.DEEPSLATE_TILES_PRESSURE_PLATE);
+                        entries.add(ModBlocks.DEEPSLATE_TILES_BUTTON);
 
                     }).build());
 

@@ -923,6 +923,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.CRACKED_DEEPSLATE_BRICKS_BUTTON, Blocks.CRACKED_DEEPSLATE_BRICKS, 1);
         offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.CRACKED_DEEPSLATE_BRICKS_WALL, Blocks.CRACKED_DEEPSLATE_BRICKS);
 
+        //deepslate bricks
+        createDoorRecipe(ModBlocks.DEEPSLATE_TILES_DOOR, Ingredient.ofItems(Blocks.DEEPSLATE_TILES))
+                .criterion(hasItem(Blocks.DEEPSLATE_TILES), conditionsFromItem(Blocks.DEEPSLATE_TILES))
+                .offerTo(exporter);
+        createNotWoodFenceRecipe(ModBlocks.DEEPSLATE_TILES_FENCE, Ingredient.ofItems(Blocks.DEEPSLATE_TILES), Ingredient.ofItems(Blocks.DEEPSLATE_TILE_SLAB), 3)
+                .criterion(hasItem(Blocks.DEEPSLATE_TILES), conditionsFromItem(Blocks.DEEPSLATE_TILES))
+                .offerTo(exporter);
+        createNotWoodFenceGateRecipe(ModBlocks.DEEPSLATE_TILES_FENCE_GATE, Ingredient.ofItems(Blocks.DEEPSLATE_TILES), Ingredient.ofItems(Blocks.DEEPSLATE_TILE_SLAB), 1)
+                .criterion(hasItem(Blocks.DEEPSLATE_TILES), conditionsFromItem(Blocks.DEEPSLATE_TILES))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.DEEPSLATE_TILES_TRAPDOOR, Ingredient.ofItems(Blocks.DEEPSLATE_TILE_SLAB))
+                .criterion(hasItem(Blocks.DEEPSLATE_TILES), conditionsFromItem(Blocks.DEEPSLATE_TILES))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_TILES_PRESSURE_PLATE, Ingredient.ofItems(Blocks.DEEPSLATE_TILES))
+                .criterion(hasItem(Blocks.DEEPSLATE_TILES), conditionsFromItem(Blocks.DEEPSLATE_TILES))
+                .offerTo(exporter);
+        offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_TILES_BUTTON, Blocks.DEEPSLATE_TILES, 1);
+
 
 
 

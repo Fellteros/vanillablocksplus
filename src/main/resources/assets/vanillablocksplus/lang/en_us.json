@@ -339,6 +339,13 @@
   "block.vanillablocksplus.cracked_deepslate_bricks_button": "Cracked Deepslate Bricks Button",
   "block.vanillablocksplus.cracked_deepslate_bricks_wall": "Cracked Deepslate Bricks Wall",
 
+  "block.vanillablocksplus.deepslate_tiles_door": "Deepslate Tiles Door",
+  "block.vanillablocksplus.deepslate_tiles_trapdoor": "Deepslate Tiles Trapdoor",
+  "block.vanillablocksplus.deepslate_tiles_fence": "Deepslate Tiles Fence",
+  "block.vanillablocksplus.deepslate_tiles_fence_gate": "Deepslate Tiles Fence Gate",
+  "block.vanillablocksplus.deepslate_tiles_pressure_plate": "Deepslate Tiles Pressure Plate",
+  "block.vanillablocksplus.deepslate_tiles_button": "Deepslate Tiles Button",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }
