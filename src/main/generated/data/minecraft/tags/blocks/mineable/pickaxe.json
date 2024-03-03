@@ -106,6 +106,12 @@
     "vanillablocksplus:polished_deepslate_fence_gate",
     "vanillablocksplus:polished_deepslate_fence",
     "vanillablocksplus:polished_deepslate_button",
-    "vanillablocksplus:polished_deepslate_pressure_plate"
+    "vanillablocksplus:polished_deepslate_pressure_plate",
+    "vanillablocksplus:deepslate_bricks_door",
+    "vanillablocksplus:deepslate_bricks_trapdoor",
+    "vanillablocksplus:deepslate_bricks_fence_gate",
+    "vanillablocksplus:deepslate_bricks_fence",
+    "vanillablocksplus:deepslate_bricks_button",
+    "vanillablocksplus:deepslate_bricks_pressure_plate"
   ]
 }

@@ -337,6 +337,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POLISHED_DEEPSLATE_TRAPDOOR);
                         entries.add(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE);
                         entries.add(ModBlocks.POLISHED_DEEPSLATE_BUTTON);
+                        //deepslate bricks
+                        entries.add(ModBlocks.DEEPSLATE_BRICKS_FENCE);
+                        entries.add(ModBlocks.DEEPSLATE_BRICKS_FENCE_GATE);
+                        entries.add(ModBlocks.DEEPSLATE_BRICKS_DOOR);
+                        entries.add(ModBlocks.DEEPSLATE_BRICKS_TRAPDOOR);
+                        entries.add(ModBlocks.DEEPSLATE_BRICKS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.DEEPSLATE_BRICKS_BUTTON);
 
                     }).build());
 

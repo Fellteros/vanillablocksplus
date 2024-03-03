@@ -140,7 +140,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POLISHED_DEEPSLATE_FENCE_GATE)
                 .add(ModBlocks.POLISHED_DEEPSLATE_FENCE)
                 .add(ModBlocks.POLISHED_DEEPSLATE_BUTTON)
-                .add(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE);
+                .add(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE)
+                //deepslate bricks
+                .add(ModBlocks.DEEPSLATE_BRICKS_DOOR)
+                .add(ModBlocks.DEEPSLATE_BRICKS_TRAPDOOR)
+                .add(ModBlocks.DEEPSLATE_BRICKS_FENCE_GATE)
+                .add(ModBlocks.DEEPSLATE_BRICKS_FENCE)
+                .add(ModBlocks.DEEPSLATE_BRICKS_BUTTON)
+                .add(ModBlocks.DEEPSLATE_BRICKS_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 //oak
@@ -372,7 +379,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_FENCE)
                 .add(ModBlocks.COBBLED_DEEPSLATE_FENCE)
                 .add(ModBlocks.CHISELED_DEEPSLATE_FENCE)
-                .add(ModBlocks.POLISHED_DEEPSLATE_FENCE);
+                .add(ModBlocks.POLISHED_DEEPSLATE_FENCE)
+                .add(ModBlocks.DEEPSLATE_BRICKS_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -413,7 +421,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_FENCE)
                 .add(ModBlocks.COBBLED_DEEPSLATE_FENCE)
                 .add(ModBlocks.CHISELED_DEEPSLATE_FENCE)
-                .add(ModBlocks.POLISHED_DEEPSLATE_FENCE);
+                .add(ModBlocks.POLISHED_DEEPSLATE_FENCE)
+                .add(ModBlocks.DEEPSLATE_BRICKS_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -454,7 +463,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_FENCE_GATE)
                 .add(ModBlocks.COBBLED_DEEPSLATE_FENCE_GATE)
                 .add(ModBlocks.CHISELED_DEEPSLATE_FENCE_GATE)
-                .add(ModBlocks.POLISHED_DEEPSLATE_FENCE_GATE);
+                .add(ModBlocks.POLISHED_DEEPSLATE_FENCE_GATE)
+                .add(ModBlocks.DEEPSLATE_BRICKS_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.STONE_WALL)
