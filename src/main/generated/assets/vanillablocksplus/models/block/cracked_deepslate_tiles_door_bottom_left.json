@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "vanillablocksplus:block/cracked_deepslate_tiles_door_bottom",
+    "top": "vanillablocksplus:block/cracked_deepslate_tiles_door_top"
+  }
+}
