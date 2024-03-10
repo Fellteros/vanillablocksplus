@@ -102,6 +102,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_DEEPSLATE_TILES);
         BlockStateModelGenerator.BlockTexturePool brickPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BRICKS);
+        BlockStateModelGenerator.BlockTexturePool packedMudPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PACKED_MUD);
 
         //oak
         oakWoodPool.button(ModBlocks.OAK_WOOD_BUTTON);
@@ -379,6 +381,14 @@ public class ModModelProvider extends FabricModelProvider {
         brickPool.fence(ModBlocks.BRICK_FENCE);
         brickPool.fenceGate(ModBlocks.BRICK_FENCE_GATE);
         brickPool.pressurePlate(ModBlocks.BRICK_PRESSURE_PLATE);
+        //packed mud
+        packedMudPool.button(ModBlocks.PACKED_MUD_BUTTON);
+        packedMudPool.wall(ModBlocks.PACKED_MUD_WALL);
+        packedMudPool.stairs(ModBlocks.PACKED_MUD_STAIRS);
+        packedMudPool.slab(ModBlocks.PACKED_MUD_SLAB);
+        packedMudPool.fence(ModBlocks.PACKED_MUD_FENCE);
+        packedMudPool.fenceGate(ModBlocks.PACKED_MUD_FENCE_GATE);
+        packedMudPool.pressurePlate(ModBlocks.PACKED_MUD_PRESSURE_PLATE);
 
 
 
@@ -511,6 +521,9 @@ public class ModModelProvider extends FabricModelProvider {
         //bricks
         blockStateModelGenerator.registerDoor(ModBlocks.BRICK_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BRICK_TRAPDOOR);
+        //packed mud
+        blockStateModelGenerator.registerDoor(ModBlocks.PACKED_MUD_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PACKED_MUD_TRAPDOOR);
 
 
 

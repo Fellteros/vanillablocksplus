@@ -3,6 +3,7 @@ package net.fellter.vanillablocksplus.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.fellter.vanillablocksplus.block.ModBlocks;
+import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
@@ -18,6 +19,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
+
+         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
+                 //packed mud
+                 .add(ModBlocks.PACKED_MUD_STAIRS)
+                 .add(ModBlocks.PACKED_MUD_SLAB)
+                 .add(ModBlocks.PACKED_MUD_WALL)
+                 .add(ModBlocks.PACKED_MUD_DOOR)
+                 .add(ModBlocks.PACKED_MUD_TRAPDOOR)
+                 .add(ModBlocks.PACKED_MUD_FENCE_GATE)
+                 .add(ModBlocks.PACKED_MUD_FENCE)
+                 .add(ModBlocks.PACKED_MUD_BUTTON)
+                 .add(ModBlocks.PACKED_MUD_PRESSURE_PLATE);
+
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 //stone
                 .add(ModBlocks.STONE_DOOR)
@@ -418,7 +432,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_FENCE)
                 .add(ModBlocks.DEEPSLATE_TILES_FENCE)
                 .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE)
-                .add(ModBlocks.BRICK_FENCE);
+                .add(ModBlocks.BRICK_FENCE)
+                .add(ModBlocks.PACKED_MUD_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -464,7 +479,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_FENCE)
                 .add(ModBlocks.DEEPSLATE_TILES_FENCE)
                 .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE)
-                .add(ModBlocks.BRICK_FENCE);
+                .add(ModBlocks.BRICK_FENCE)
+                .add(ModBlocks.PACKED_MUD_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -510,7 +526,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_FENCE_GATE)
                 .add(ModBlocks.DEEPSLATE_TILES_FENCE_GATE)
                 .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE_GATE)
-                .add(ModBlocks.BRICK_FENCE_GATE);
+                .add(ModBlocks.BRICK_FENCE_GATE)
+                .add(ModBlocks.PACKED_MUD_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.STONE_WALL)
@@ -522,7 +539,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_WALL)
                 .add(ModBlocks.CHISELED_DEEPSLATE_WALL)
                 .add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_WALL)
-                .add(ModBlocks.CRACKED_DEEPSLATE_TILES_WALL);
+                .add(ModBlocks.CRACKED_DEEPSLATE_TILES_WALL)
+                .add(ModBlocks.PACKED_MUD_WALL);
 
 
 

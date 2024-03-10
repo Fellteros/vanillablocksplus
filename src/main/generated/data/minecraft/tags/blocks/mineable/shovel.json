@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "vanillablocksplus:packed_mud_stairs",
+    "vanillablocksplus:packed_mud_slab",
+    "vanillablocksplus:packed_mud_wall",
+    "vanillablocksplus:packed_mud_door",
+    "vanillablocksplus:packed_mud_trapdoor",
+    "vanillablocksplus:packed_mud_fence_gate",
+    "vanillablocksplus:packed_mud_fence",
+    "vanillablocksplus:packed_mud_button",
+    "vanillablocksplus:packed_mud_pressure_plate"
+  ]
+}

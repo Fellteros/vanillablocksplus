@@ -984,6 +984,31 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.BRICK_BUTTON, Blocks.BRICKS, 1);
 
+        //cracked deepslate tiles
+        createDoorRecipe(ModBlocks.PACKED_MUD_DOOR, Ingredient.ofItems(Blocks.PACKED_MUD))
+                .criterion(hasItem(Blocks.PACKED_MUD), conditionsFromItem(Blocks.PACKED_MUD))
+                .offerTo(exporter);
+        createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.PACKED_MUD_SLAB, Ingredient.ofItems(Blocks.PACKED_MUD))
+                .criterion(hasItem(Blocks.PACKED_MUD), conditionsFromItem(Blocks.PACKED_MUD))
+                .offerTo(exporter);
+        createStairsRecipe(ModBlocks.PACKED_MUD_STAIRS, Ingredient.ofItems(Blocks.PACKED_MUD))
+                .criterion(hasItem(Blocks.PACKED_MUD), conditionsFromItem(Blocks.PACKED_MUD))
+                .offerTo(exporter);
+        createNotWoodFenceRecipe(ModBlocks.PACKED_MUD_FENCE, Ingredient.ofItems(Blocks.PACKED_MUD), Ingredient.ofItems(ModBlocks.PACKED_MUD_SLAB), 3)
+                .criterion(hasItem(Blocks.PACKED_MUD), conditionsFromItem(Blocks.PACKED_MUD))
+                .offerTo(exporter);
+        createNotWoodFenceGateRecipe(ModBlocks.PACKED_MUD_FENCE_GATE, Ingredient.ofItems(Blocks.PACKED_MUD), Ingredient.ofItems(ModBlocks.PACKED_MUD_SLAB), 1)
+                .criterion(hasItem(Blocks.PACKED_MUD), conditionsFromItem(Blocks.PACKED_MUD))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.PACKED_MUD_TRAPDOOR, Ingredient.ofItems(ModBlocks.PACKED_MUD_SLAB))
+                .criterion(hasItem(Blocks.PACKED_MUD), conditionsFromItem(Blocks.PACKED_MUD))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.PACKED_MUD_PRESSURE_PLATE, Ingredient.ofItems(Blocks.PACKED_MUD))
+                .criterion(hasItem(Blocks.PACKED_MUD), conditionsFromItem(Blocks.PACKED_MUD))
+                .offerTo(exporter);
+        offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.PACKED_MUD_BUTTON, Blocks.PACKED_MUD, 1);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.PACKED_MUD_WALL, Blocks.PACKED_MUD);
+
 
 
 
