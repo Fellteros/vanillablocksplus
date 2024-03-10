@@ -174,7 +174,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE_GATE)
                 .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE)
                 .add(ModBlocks.CRACKED_DEEPSLATE_TILES_BUTTON)
-                .add(ModBlocks.CRACKED_DEEPSLATE_TILES_PRESSURE_PLATE);
+                .add(ModBlocks.CRACKED_DEEPSLATE_TILES_PRESSURE_PLATE)
+                //brick
+                .add(ModBlocks.BRICK_DOOR)
+                .add(ModBlocks.BRICK_TRAPDOOR)
+                .add(ModBlocks.BRICK_FENCE_GATE)
+                .add(ModBlocks.BRICK_FENCE)
+                .add(ModBlocks.BRICK_BUTTON)
+                .add(ModBlocks.BRICK_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 //oak
@@ -410,7 +417,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_BRICKS_FENCE)
                 .add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_FENCE)
                 .add(ModBlocks.DEEPSLATE_TILES_FENCE)
-                .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE);
+                .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE)
+                .add(ModBlocks.BRICK_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -455,7 +463,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_BRICKS_FENCE)
                 .add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_FENCE)
                 .add(ModBlocks.DEEPSLATE_TILES_FENCE)
-                .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE);
+                .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE)
+                .add(ModBlocks.BRICK_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -500,7 +509,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_BRICKS_FENCE_GATE)
                 .add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_FENCE_GATE)
                 .add(ModBlocks.DEEPSLATE_TILES_FENCE_GATE)
-                .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE_GATE);
+                .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE_GATE)
+                .add(ModBlocks.BRICK_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.STONE_WALL)

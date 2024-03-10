@@ -100,6 +100,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DEEPSLATE_TILES);
         BlockStateModelGenerator.BlockTexturePool crackedDeepslateTilesPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_DEEPSLATE_TILES);
+        BlockStateModelGenerator.BlockTexturePool brickPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BRICKS);
 
         //oak
         oakWoodPool.button(ModBlocks.OAK_WOOD_BUTTON);
@@ -372,6 +374,11 @@ public class ModModelProvider extends FabricModelProvider {
         crackedDeepslateTilesPool.fence(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE);
         crackedDeepslateTilesPool.fenceGate(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE_GATE);
         crackedDeepslateTilesPool.pressurePlate(ModBlocks.CRACKED_DEEPSLATE_TILES_PRESSURE_PLATE);
+        //brick
+        brickPool.button(ModBlocks.BRICK_BUTTON);
+        brickPool.fence(ModBlocks.BRICK_FENCE);
+        brickPool.fenceGate(ModBlocks.BRICK_FENCE_GATE);
+        brickPool.pressurePlate(ModBlocks.BRICK_PRESSURE_PLATE);
 
 
 
@@ -498,9 +505,12 @@ public class ModModelProvider extends FabricModelProvider {
         //deepslate tiles
         blockStateModelGenerator.registerDoor(ModBlocks.DEEPSLATE_TILES_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_TILES_TRAPDOOR);
-        //deepslate tiles
+        //cracked deepslate tiles
         blockStateModelGenerator.registerDoor(ModBlocks.CRACKED_DEEPSLATE_TILES_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CRACKED_DEEPSLATE_TILES_TRAPDOOR);
+        //bricks
+        blockStateModelGenerator.registerDoor(ModBlocks.BRICK_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BRICK_TRAPDOOR);
 
 
 

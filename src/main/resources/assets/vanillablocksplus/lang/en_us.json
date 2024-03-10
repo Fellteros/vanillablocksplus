@@ -356,6 +356,13 @@
   "block.vanillablocksplus.cracked_deepslate_tiles_button": "Cracked Deepslate Tiles Button",
   "block.vanillablocksplus.cracked_deepslate_tiles_wall": "Cracked Deepslate Tiles Wall",
 
+  "block.vanillablocksplus.brick_door": "Brick Door",
+  "block.vanillablocksplus.brick_trapdoor": "Brick Trapdoor",
+  "block.vanillablocksplus.brick_fence": "Brick Fence",
+  "block.vanillablocksplus.brick_fence_gate": "Brick Fence Gate",
+  "block.vanillablocksplus.brick_pressure_plate": "Brick Pressure Plate",
+  "block.vanillablocksplus.brick_button": "Brick Button",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }
