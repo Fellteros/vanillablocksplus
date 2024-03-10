@@ -142,6 +142,12 @@
     "vanillablocksplus:brick_fence_gate",
     "vanillablocksplus:brick_fence",
     "vanillablocksplus:brick_button",
-    "vanillablocksplus:brick_pressure_plate"
+    "vanillablocksplus:brick_pressure_plate",
+    "vanillablocksplus:mud_brick_door",
+    "vanillablocksplus:mud_brick_trapdoor",
+    "vanillablocksplus:mud_brick_fence_gate",
+    "vanillablocksplus:mud_brick_fence",
+    "vanillablocksplus:mud_brick_button",
+    "vanillablocksplus:mud_brick_pressure_plate"
   ]
 }

@@ -574,10 +574,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createDoorRecipe(ModBlocks.STONE_DOOR, Ingredient.ofItems(Blocks.STONE))
                 .criterion(hasItem(Blocks.STONE), conditionsFromItem(Blocks.STONE))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.STONE_FENCE, Ingredient.ofItems(Blocks.STONE), Ingredient.ofItems(Blocks.STONE_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.STONE_FENCE, Ingredient.ofItems(Blocks.STONE), Ingredient.ofItems(Blocks.STONE_SLAB), 3)
                 .criterion(hasItem(Blocks.STONE), conditionsFromItem(Blocks.STONE))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.STONE_FENCE_GATE, Ingredient.ofItems(Blocks.STONE), Ingredient.ofItems(Blocks.STONE_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.STONE_FENCE_GATE, Ingredient.ofItems(Blocks.STONE), Ingredient.ofItems(Blocks.STONE_SLAB), 1)
                 .criterion(hasItem(Blocks.STONE), conditionsFromItem(Blocks.STONE))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.STONE_TRAPDOOR, Ingredient.ofItems(Blocks.STONE_SLAB))
@@ -589,10 +589,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createDoorRecipe(ModBlocks.COBBLESTONE_DOOR, Ingredient.ofItems(Blocks.COBBLESTONE))
                 .criterion(hasItem(Blocks.COBBLESTONE), conditionsFromItem(Blocks.COBBLESTONE))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.COBBLESTONE_FENCE, Ingredient.ofItems(Blocks.COBBLESTONE), Ingredient.ofItems(Blocks.COBBLESTONE_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.COBBLESTONE_FENCE, Ingredient.ofItems(Blocks.COBBLESTONE), Ingredient.ofItems(Blocks.COBBLESTONE_SLAB), 3)
                 .criterion(hasItem(Blocks.COBBLESTONE), conditionsFromItem(Blocks.COBBLESTONE))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.COBBLESTONE_FENCE_GATE, Ingredient.ofItems(Blocks.COBBLESTONE), Ingredient.ofItems(Blocks.COBBLESTONE_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.COBBLESTONE_FENCE_GATE, Ingredient.ofItems(Blocks.COBBLESTONE), Ingredient.ofItems(Blocks.COBBLESTONE_SLAB), 1)
                 .criterion(hasItem(Blocks.COBBLESTONE), conditionsFromItem(Blocks.COBBLESTONE))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.COBBLESTONE_TRAPDOOR, Ingredient.ofItems(Blocks.COBBLESTONE_SLAB))
@@ -604,10 +604,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createDoorRecipe(ModBlocks.MOSSY_COBBLESTONE_DOOR, Ingredient.ofItems(Blocks.MOSSY_COBBLESTONE))
                 .criterion(hasItem(Blocks.MOSSY_COBBLESTONE), conditionsFromItem(Blocks.MOSSY_COBBLESTONE))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.MOSSY_COBBLESTONE_FENCE, Ingredient.ofItems(Blocks.MOSSY_COBBLESTONE), Ingredient.ofItems(Blocks.MOSSY_COBBLESTONE_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.MOSSY_COBBLESTONE_FENCE, Ingredient.ofItems(Blocks.MOSSY_COBBLESTONE), Ingredient.ofItems(Blocks.MOSSY_COBBLESTONE_SLAB), 3)
                 .criterion(hasItem(Blocks.MOSSY_COBBLESTONE), conditionsFromItem(Blocks.MOSSY_COBBLESTONE))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE, Ingredient.ofItems(Blocks.MOSSY_COBBLESTONE), Ingredient.ofItems(Blocks.MOSSY_COBBLESTONE_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE, Ingredient.ofItems(Blocks.MOSSY_COBBLESTONE), Ingredient.ofItems(Blocks.MOSSY_COBBLESTONE_SLAB), 1)
                 .criterion(hasItem(Blocks.MOSSY_COBBLESTONE), conditionsFromItem(Blocks.MOSSY_COBBLESTONE))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR, Ingredient.ofItems(Blocks.MOSSY_COBBLESTONE_SLAB))
@@ -625,10 +625,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createDoorRecipe(ModBlocks.SMOOTH_STONE_DOOR, Ingredient.ofItems(Blocks.SMOOTH_STONE))
                 .criterion(hasItem(Blocks.SMOOTH_STONE), conditionsFromItem(Blocks.SMOOTH_STONE))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.SMOOTH_STONE_FENCE, Ingredient.ofItems(Blocks.SMOOTH_STONE), Ingredient.ofItems(Blocks.SMOOTH_STONE_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.SMOOTH_STONE_FENCE, Ingredient.ofItems(Blocks.SMOOTH_STONE), Ingredient.ofItems(Blocks.SMOOTH_STONE_SLAB), 3)
                 .criterion(hasItem(Blocks.SMOOTH_STONE), conditionsFromItem(Blocks.SMOOTH_STONE))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.SMOOTH_STONE_FENCE_GATE, Ingredient.ofItems(Blocks.SMOOTH_STONE), Ingredient.ofItems(Blocks.SMOOTH_STONE_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.SMOOTH_STONE_FENCE_GATE, Ingredient.ofItems(Blocks.SMOOTH_STONE), Ingredient.ofItems(Blocks.SMOOTH_STONE_SLAB), 1)
                 .criterion(hasItem(Blocks.SMOOTH_STONE), conditionsFromItem(Blocks.SMOOTH_STONE))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.SMOOTH_STONE_TRAPDOOR, Ingredient.ofItems(Blocks.SMOOTH_STONE_SLAB))
@@ -644,10 +644,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createDoorRecipe(ModBlocks.STONE_BRICKS_DOOR, Ingredient.ofItems(Blocks.STONE_BRICKS))
                 .criterion(hasItem(Blocks.STONE_BRICKS), conditionsFromItem(Blocks.STONE_BRICKS))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.STONE_BRICKS_FENCE, Ingredient.ofItems(Blocks.STONE_BRICKS), Ingredient.ofItems(Blocks.STONE_BRICK_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.STONE_BRICKS_FENCE, Ingredient.ofItems(Blocks.STONE_BRICKS), Ingredient.ofItems(Blocks.STONE_BRICK_SLAB), 3)
                 .criterion(hasItem(Blocks.STONE_BRICKS), conditionsFromItem(Blocks.STONE_BRICKS))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.STONE_BRICKS_FENCE_GATE, Ingredient.ofItems(Blocks.STONE_BRICKS), Ingredient.ofItems(Blocks.STONE_BRICK_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.STONE_BRICKS_FENCE_GATE, Ingredient.ofItems(Blocks.STONE_BRICKS), Ingredient.ofItems(Blocks.STONE_BRICK_SLAB), 1)
                 .criterion(hasItem(Blocks.STONE_BRICKS), conditionsFromItem(Blocks.STONE_BRICKS))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.STONE_BRICKS_TRAPDOOR, Ingredient.ofItems(Blocks.STONE_BRICK_SLAB))
@@ -668,10 +668,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createStairsRecipe(ModBlocks.CRACKED_STONE_BRICKS_STAIRS, Ingredient.ofItems(Blocks.CRACKED_STONE_BRICKS))
                 .criterion(hasItem(Blocks.CRACKED_STONE_BRICKS), conditionsFromItem(Blocks.CRACKED_STONE_BRICKS))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.CRACKED_STONE_BRICKS_FENCE, Ingredient.ofItems(Blocks.CRACKED_STONE_BRICKS), Ingredient.ofItems(ModBlocks.CRACKED_STONE_BRICKS_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.CRACKED_STONE_BRICKS_FENCE, Ingredient.ofItems(Blocks.CRACKED_STONE_BRICKS), Ingredient.ofItems(ModBlocks.CRACKED_STONE_BRICKS_SLAB), 3)
                 .criterion(hasItem(Blocks.CRACKED_STONE_BRICKS), conditionsFromItem(Blocks.CRACKED_STONE_BRICKS))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.CRACKED_STONE_BRICKS_FENCE_GATE, Ingredient.ofItems(Blocks.CRACKED_STONE_BRICKS), Ingredient.ofItems(ModBlocks.CRACKED_STONE_BRICKS_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.CRACKED_STONE_BRICKS_FENCE_GATE, Ingredient.ofItems(Blocks.CRACKED_STONE_BRICKS), Ingredient.ofItems(ModBlocks.CRACKED_STONE_BRICKS_SLAB), 1)
                 .criterion(hasItem(Blocks.CRACKED_STONE_BRICKS), conditionsFromItem(Blocks.CRACKED_STONE_BRICKS))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.CRACKED_STONE_BRICKS_TRAPDOOR, Ingredient.ofItems(ModBlocks.CRACKED_STONE_BRICKS_SLAB))
@@ -687,10 +687,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createDoorRecipe(ModBlocks.GRANITE_DOOR, Ingredient.ofItems(Blocks.GRANITE))
                 .criterion(hasItem(Blocks.GRANITE), conditionsFromItem(Blocks.GRANITE))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.GRANITE_FENCE, Ingredient.ofItems(Blocks.GRANITE), Ingredient.ofItems(Blocks.GRANITE_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.GRANITE_FENCE, Ingredient.ofItems(Blocks.GRANITE), Ingredient.ofItems(Blocks.GRANITE_SLAB), 3)
                 .criterion(hasItem(Blocks.GRANITE), conditionsFromItem(Blocks.GRANITE))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.GRANITE_FENCE_GATE, Ingredient.ofItems(Blocks.GRANITE), Ingredient.ofItems(Blocks.GRANITE_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.GRANITE_FENCE_GATE, Ingredient.ofItems(Blocks.GRANITE), Ingredient.ofItems(Blocks.GRANITE_SLAB), 1)
                 .criterion(hasItem(Blocks.GRANITE), conditionsFromItem(Blocks.GRANITE))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.GRANITE_TRAPDOOR, Ingredient.ofItems(Blocks.GRANITE_SLAB))
@@ -705,10 +705,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createDoorRecipe(ModBlocks.POLISHED_GRANITE_DOOR, Ingredient.ofItems(Blocks.POLISHED_GRANITE))
                 .criterion(hasItem(Blocks.POLISHED_GRANITE), conditionsFromItem(Blocks.POLISHED_GRANITE))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.POLISHED_GRANITE_FENCE, Ingredient.ofItems(Blocks.POLISHED_GRANITE), Ingredient.ofItems(Blocks.POLISHED_GRANITE_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.POLISHED_GRANITE_FENCE, Ingredient.ofItems(Blocks.POLISHED_GRANITE), Ingredient.ofItems(Blocks.POLISHED_GRANITE_SLAB), 3)
                 .criterion(hasItem(Blocks.POLISHED_GRANITE), conditionsFromItem(Blocks.POLISHED_GRANITE))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.POLISHED_GRANITE_FENCE_GATE, Ingredient.ofItems(Blocks.POLISHED_GRANITE), Ingredient.ofItems(Blocks.POLISHED_GRANITE_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.POLISHED_GRANITE_FENCE_GATE, Ingredient.ofItems(Blocks.POLISHED_GRANITE), Ingredient.ofItems(Blocks.POLISHED_GRANITE_SLAB), 1)
                 .criterion(hasItem(Blocks.POLISHED_GRANITE), conditionsFromItem(Blocks.POLISHED_GRANITE))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.POLISHED_GRANITE_TRAPDOOR, Ingredient.ofItems(Blocks.POLISHED_GRANITE_SLAB))
@@ -724,10 +724,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createDoorRecipe(ModBlocks.DIORITE_DOOR, Ingredient.ofItems(Blocks.DIORITE))
                 .criterion(hasItem(Blocks.DIORITE), conditionsFromItem(Blocks.DIORITE))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.DIORITE_FENCE, Ingredient.ofItems(Blocks.DIORITE), Ingredient.ofItems(Blocks.DIORITE_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.DIORITE_FENCE, Ingredient.ofItems(Blocks.DIORITE), Ingredient.ofItems(Blocks.DIORITE_SLAB), 3)
                 .criterion(hasItem(Blocks.GRANITE), conditionsFromItem(Blocks.DIORITE))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.DIORITE_FENCE_GATE, Ingredient.ofItems(Blocks.DIORITE), Ingredient.ofItems(Blocks.DIORITE_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.DIORITE_FENCE_GATE, Ingredient.ofItems(Blocks.DIORITE), Ingredient.ofItems(Blocks.DIORITE_SLAB), 1)
                 .criterion(hasItem(Blocks.DIORITE), conditionsFromItem(Blocks.DIORITE))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.DIORITE_TRAPDOOR, Ingredient.ofItems(Blocks.DIORITE_SLAB))
@@ -742,10 +742,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createDoorRecipe(ModBlocks.POLISHED_DIORITE_DOOR, Ingredient.ofItems(Blocks.POLISHED_DIORITE))
                 .criterion(hasItem(Blocks.POLISHED_DIORITE), conditionsFromItem(Blocks.POLISHED_DIORITE))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.POLISHED_DIORITE_FENCE, Ingredient.ofItems(Blocks.POLISHED_DIORITE), Ingredient.ofItems(Blocks.POLISHED_DIORITE_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.POLISHED_DIORITE_FENCE, Ingredient.ofItems(Blocks.POLISHED_DIORITE), Ingredient.ofItems(Blocks.POLISHED_DIORITE_SLAB), 3)
                 .criterion(hasItem(Blocks.POLISHED_DIORITE), conditionsFromItem(Blocks.POLISHED_DIORITE))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.POLISHED_DIORITE_FENCE_GATE, Ingredient.ofItems(Blocks.POLISHED_DIORITE), Ingredient.ofItems(Blocks.POLISHED_DIORITE_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.POLISHED_DIORITE_FENCE_GATE, Ingredient.ofItems(Blocks.POLISHED_DIORITE), Ingredient.ofItems(Blocks.POLISHED_DIORITE_SLAB), 1)
                 .criterion(hasItem(Blocks.POLISHED_DIORITE), conditionsFromItem(Blocks.POLISHED_DIORITE))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.POLISHED_DIORITE_TRAPDOOR, Ingredient.ofItems(Blocks.POLISHED_DIORITE_SLAB))
@@ -761,10 +761,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createDoorRecipe(ModBlocks.ANDESITE_DOOR, Ingredient.ofItems(Blocks.ANDESITE))
                 .criterion(hasItem(Blocks.ANDESITE), conditionsFromItem(Blocks.ANDESITE))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.ANDESITE_FENCE, Ingredient.ofItems(Blocks.ANDESITE), Ingredient.ofItems(Blocks.ANDESITE_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.ANDESITE_FENCE, Ingredient.ofItems(Blocks.ANDESITE), Ingredient.ofItems(Blocks.ANDESITE_SLAB), 3)
                 .criterion(hasItem(Blocks.ANDESITE), conditionsFromItem(Blocks.ANDESITE))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.ANDESITE_FENCE_GATE, Ingredient.ofItems(Blocks.ANDESITE), Ingredient.ofItems(Blocks.ANDESITE_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.ANDESITE_FENCE_GATE, Ingredient.ofItems(Blocks.ANDESITE), Ingredient.ofItems(Blocks.ANDESITE_SLAB), 1)
                 .criterion(hasItem(Blocks.ANDESITE), conditionsFromItem(Blocks.ANDESITE))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.ANDESITE_TRAPDOOR, Ingredient.ofItems(Blocks.ANDESITE_SLAB))
@@ -779,10 +779,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createDoorRecipe(ModBlocks.POLISHED_ANDESITE_DOOR, Ingredient.ofItems(Blocks.POLISHED_ANDESITE))
                 .criterion(hasItem(Blocks.POLISHED_ANDESITE), conditionsFromItem(Blocks.POLISHED_ANDESITE))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.POLISHED_ANDESITE_FENCE, Ingredient.ofItems(Blocks.POLISHED_ANDESITE), Ingredient.ofItems(Blocks.POLISHED_ANDESITE_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.POLISHED_ANDESITE_FENCE, Ingredient.ofItems(Blocks.POLISHED_ANDESITE), Ingredient.ofItems(Blocks.POLISHED_ANDESITE_SLAB), 3)
                 .criterion(hasItem(Blocks.POLISHED_ANDESITE), conditionsFromItem(Blocks.POLISHED_ANDESITE))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.POLISHED_ANDESITE_FENCE_GATE, Ingredient.ofItems(Blocks.POLISHED_ANDESITE), Ingredient.ofItems(Blocks.POLISHED_ANDESITE_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.POLISHED_ANDESITE_FENCE_GATE, Ingredient.ofItems(Blocks.POLISHED_ANDESITE), Ingredient.ofItems(Blocks.POLISHED_ANDESITE_SLAB), 1)
                 .criterion(hasItem(Blocks.POLISHED_ANDESITE), conditionsFromItem(Blocks.POLISHED_ANDESITE))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.POLISHED_ANDESITE_TRAPDOOR, Ingredient.ofItems(Blocks.POLISHED_ANDESITE_SLAB))
@@ -804,10 +804,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createStairsRecipe(ModBlocks.DEEPSLATE_STAIRS, Ingredient.ofItems(Blocks.DEEPSLATE))
                 .criterion(hasItem(Blocks.DEEPSLATE), conditionsFromItem(Blocks.DEEPSLATE))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.DEEPSLATE_FENCE, Ingredient.ofItems(Blocks.DEEPSLATE), Ingredient.ofItems(ModBlocks.DEEPSLATE_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.DEEPSLATE_FENCE, Ingredient.ofItems(Blocks.DEEPSLATE), Ingredient.ofItems(ModBlocks.DEEPSLATE_SLAB), 3)
                 .criterion(hasItem(Blocks.DEEPSLATE), conditionsFromItem(Blocks.DEEPSLATE))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.DEEPSLATE_FENCE_GATE, Ingredient.ofItems(Blocks.DEEPSLATE), Ingredient.ofItems(ModBlocks.DEEPSLATE_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.DEEPSLATE_FENCE_GATE, Ingredient.ofItems(Blocks.DEEPSLATE), Ingredient.ofItems(ModBlocks.DEEPSLATE_SLAB), 1)
                 .criterion(hasItem(Blocks.DEEPSLATE), conditionsFromItem(Blocks.DEEPSLATE))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.DEEPSLATE_TRAPDOOR, Ingredient.ofItems(ModBlocks.DEEPSLATE_SLAB))
@@ -823,10 +823,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createDoorRecipe(ModBlocks.COBBLED_DEEPSLATE_DOOR, Ingredient.ofItems(Blocks.COBBLED_DEEPSLATE))
                 .criterion(hasItem(Blocks.COBBLED_DEEPSLATE), conditionsFromItem(Blocks.COBBLED_DEEPSLATE))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.COBBLED_DEEPSLATE_FENCE, Ingredient.ofItems(Blocks.COBBLED_DEEPSLATE), Ingredient.ofItems(Blocks.COBBLED_DEEPSLATE_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.COBBLED_DEEPSLATE_FENCE, Ingredient.ofItems(Blocks.COBBLED_DEEPSLATE), Ingredient.ofItems(Blocks.COBBLED_DEEPSLATE_SLAB), 3)
                 .criterion(hasItem(Blocks.COBBLED_DEEPSLATE), conditionsFromItem(Blocks.COBBLED_DEEPSLATE))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.COBBLED_DEEPSLATE_FENCE_GATE, Ingredient.ofItems(Blocks.COBBLED_DEEPSLATE), Ingredient.ofItems(Blocks.COBBLED_DEEPSLATE_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.COBBLED_DEEPSLATE_FENCE_GATE, Ingredient.ofItems(Blocks.COBBLED_DEEPSLATE), Ingredient.ofItems(Blocks.COBBLED_DEEPSLATE_SLAB), 1)
                 .criterion(hasItem(Blocks.COBBLED_DEEPSLATE), conditionsFromItem(Blocks.COBBLED_DEEPSLATE))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.COBBLED_DEEPSLATE_TRAPDOOR, Ingredient.ofItems(Blocks.COBBLED_DEEPSLATE_SLAB))
@@ -847,10 +847,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createStairsRecipe(ModBlocks.CHISELED_DEEPSLATE_STAIRS, Ingredient.ofItems(Blocks.CHISELED_DEEPSLATE))
                 .criterion(hasItem(Blocks.CHISELED_DEEPSLATE), conditionsFromItem(Blocks.CHISELED_DEEPSLATE))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.CHISELED_DEEPSLATE_FENCE, Ingredient.ofItems(Blocks.CHISELED_DEEPSLATE), Ingredient.ofItems(ModBlocks.CHISELED_DEEPSLATE_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.CHISELED_DEEPSLATE_FENCE, Ingredient.ofItems(Blocks.CHISELED_DEEPSLATE), Ingredient.ofItems(ModBlocks.CHISELED_DEEPSLATE_SLAB), 3)
                 .criterion(hasItem(Blocks.CHISELED_DEEPSLATE), conditionsFromItem(Blocks.CHISELED_DEEPSLATE))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.CHISELED_DEEPSLATE_FENCE_GATE, Ingredient.ofItems(Blocks.CHISELED_DEEPSLATE), Ingredient.ofItems(ModBlocks.CHISELED_DEEPSLATE_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.CHISELED_DEEPSLATE_FENCE_GATE, Ingredient.ofItems(Blocks.CHISELED_DEEPSLATE), Ingredient.ofItems(ModBlocks.CHISELED_DEEPSLATE_SLAB), 1)
                 .criterion(hasItem(Blocks.CHISELED_DEEPSLATE), conditionsFromItem(Blocks.CHISELED_DEEPSLATE))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.CHISELED_DEEPSLATE_TRAPDOOR, Ingredient.ofItems(ModBlocks.CHISELED_DEEPSLATE_SLAB))
@@ -866,10 +866,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createDoorRecipe(ModBlocks.POLISHED_DEEPSLATE_DOOR, Ingredient.ofItems(Blocks.POLISHED_DEEPSLATE))
                 .criterion(hasItem(Blocks.POLISHED_DEEPSLATE), conditionsFromItem(Blocks.POLISHED_DEEPSLATE))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.POLISHED_DEEPSLATE_FENCE, Ingredient.ofItems(Blocks.POLISHED_DEEPSLATE), Ingredient.ofItems(Blocks.POLISHED_DEEPSLATE_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.POLISHED_DEEPSLATE_FENCE, Ingredient.ofItems(Blocks.POLISHED_DEEPSLATE), Ingredient.ofItems(Blocks.POLISHED_DEEPSLATE_SLAB), 3)
                 .criterion(hasItem(Blocks.POLISHED_DEEPSLATE), conditionsFromItem(Blocks.POLISHED_DEEPSLATE))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.POLISHED_DEEPSLATE_FENCE_GATE, Ingredient.ofItems(Blocks.POLISHED_DEEPSLATE), Ingredient.ofItems(Blocks.POLISHED_DEEPSLATE_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.POLISHED_DEEPSLATE_FENCE_GATE, Ingredient.ofItems(Blocks.POLISHED_DEEPSLATE), Ingredient.ofItems(Blocks.POLISHED_DEEPSLATE_SLAB), 1)
                 .criterion(hasItem(Blocks.POLISHED_DEEPSLATE), conditionsFromItem(Blocks.POLISHED_DEEPSLATE))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.POLISHED_DEEPSLATE_TRAPDOOR, Ingredient.ofItems(Blocks.POLISHED_DEEPSLATE_SLAB))
@@ -884,10 +884,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createDoorRecipe(ModBlocks.DEEPSLATE_BRICKS_DOOR, Ingredient.ofItems(Blocks.DEEPSLATE_BRICKS))
                 .criterion(hasItem(Blocks.DEEPSLATE_BRICKS), conditionsFromItem(Blocks.DEEPSLATE_BRICKS))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.DEEPSLATE_BRICKS_FENCE, Ingredient.ofItems(Blocks.DEEPSLATE_BRICKS), Ingredient.ofItems(Blocks.DEEPSLATE_BRICK_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.DEEPSLATE_BRICKS_FENCE, Ingredient.ofItems(Blocks.DEEPSLATE_BRICKS), Ingredient.ofItems(Blocks.DEEPSLATE_BRICK_SLAB), 3)
                 .criterion(hasItem(Blocks.DEEPSLATE_BRICKS), conditionsFromItem(Blocks.DEEPSLATE_BRICKS))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.DEEPSLATE_BRICKS_FENCE_GATE, Ingredient.ofItems(Blocks.DEEPSLATE_BRICKS), Ingredient.ofItems(Blocks.DEEPSLATE_BRICK_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.DEEPSLATE_BRICKS_FENCE_GATE, Ingredient.ofItems(Blocks.DEEPSLATE_BRICKS), Ingredient.ofItems(Blocks.DEEPSLATE_BRICK_SLAB), 1)
                 .criterion(hasItem(Blocks.DEEPSLATE_BRICKS), conditionsFromItem(Blocks.DEEPSLATE_BRICKS))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.DEEPSLATE_BRICKS_TRAPDOOR, Ingredient.ofItems(Blocks.DEEPSLATE_BRICK_SLAB))
@@ -908,10 +908,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createStairsRecipe(ModBlocks.CRACKED_DEEPSLATE_BRICKS_STAIRS, Ingredient.ofItems(Blocks.CRACKED_DEEPSLATE_BRICKS))
                 .criterion(hasItem(Blocks.CRACKED_DEEPSLATE_BRICKS), conditionsFromItem(Blocks.CRACKED_DEEPSLATE_BRICKS))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.CRACKED_DEEPSLATE_BRICKS_FENCE, Ingredient.ofItems(Blocks.CRACKED_DEEPSLATE_BRICKS), Ingredient.ofItems(ModBlocks.CRACKED_DEEPSLATE_BRICKS_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.CRACKED_DEEPSLATE_BRICKS_FENCE, Ingredient.ofItems(Blocks.CRACKED_DEEPSLATE_BRICKS), Ingredient.ofItems(ModBlocks.CRACKED_DEEPSLATE_BRICKS_SLAB), 3)
                 .criterion(hasItem(Blocks.CRACKED_DEEPSLATE_BRICKS), conditionsFromItem(Blocks.CRACKED_DEEPSLATE_BRICKS))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.CRACKED_DEEPSLATE_BRICKS_FENCE_GATE, Ingredient.ofItems(Blocks.CRACKED_DEEPSLATE_BRICKS), Ingredient.ofItems(ModBlocks.CRACKED_DEEPSLATE_BRICKS_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.CRACKED_DEEPSLATE_BRICKS_FENCE_GATE, Ingredient.ofItems(Blocks.CRACKED_DEEPSLATE_BRICKS), Ingredient.ofItems(ModBlocks.CRACKED_DEEPSLATE_BRICKS_SLAB), 1)
                 .criterion(hasItem(Blocks.CRACKED_DEEPSLATE_BRICKS), conditionsFromItem(Blocks.CRACKED_DEEPSLATE_BRICKS))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.CRACKED_DEEPSLATE_BRICKS_TRAPDOOR, Ingredient.ofItems(ModBlocks.CRACKED_DEEPSLATE_BRICKS_SLAB))
@@ -927,10 +927,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createDoorRecipe(ModBlocks.DEEPSLATE_TILES_DOOR, Ingredient.ofItems(Blocks.DEEPSLATE_TILES))
                 .criterion(hasItem(Blocks.DEEPSLATE_TILES), conditionsFromItem(Blocks.DEEPSLATE_TILES))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.DEEPSLATE_TILES_FENCE, Ingredient.ofItems(Blocks.DEEPSLATE_TILES), Ingredient.ofItems(Blocks.DEEPSLATE_TILE_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.DEEPSLATE_TILES_FENCE, Ingredient.ofItems(Blocks.DEEPSLATE_TILES), Ingredient.ofItems(Blocks.DEEPSLATE_TILE_SLAB), 3)
                 .criterion(hasItem(Blocks.DEEPSLATE_TILES), conditionsFromItem(Blocks.DEEPSLATE_TILES))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.DEEPSLATE_TILES_FENCE_GATE, Ingredient.ofItems(Blocks.DEEPSLATE_TILES), Ingredient.ofItems(Blocks.DEEPSLATE_TILE_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.DEEPSLATE_TILES_FENCE_GATE, Ingredient.ofItems(Blocks.DEEPSLATE_TILES), Ingredient.ofItems(Blocks.DEEPSLATE_TILE_SLAB), 1)
                 .criterion(hasItem(Blocks.DEEPSLATE_TILES), conditionsFromItem(Blocks.DEEPSLATE_TILES))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.DEEPSLATE_TILES_TRAPDOOR, Ingredient.ofItems(Blocks.DEEPSLATE_TILE_SLAB))
@@ -951,10 +951,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createStairsRecipe(ModBlocks.CRACKED_DEEPSLATE_TILES_STAIRS, Ingredient.ofItems(Blocks.CRACKED_DEEPSLATE_TILES))
                 .criterion(hasItem(Blocks.CRACKED_DEEPSLATE_TILES), conditionsFromItem(Blocks.CRACKED_DEEPSLATE_TILES))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE, Ingredient.ofItems(Blocks.CRACKED_DEEPSLATE_TILES), Ingredient.ofItems(ModBlocks.CRACKED_DEEPSLATE_TILES_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE, Ingredient.ofItems(Blocks.CRACKED_DEEPSLATE_TILES), Ingredient.ofItems(ModBlocks.CRACKED_DEEPSLATE_TILES_SLAB), 3)
                 .criterion(hasItem(Blocks.CRACKED_DEEPSLATE_TILES), conditionsFromItem(Blocks.CRACKED_DEEPSLATE_TILES))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE_GATE, Ingredient.ofItems(Blocks.CRACKED_DEEPSLATE_TILES), Ingredient.ofItems(ModBlocks.CRACKED_DEEPSLATE_TILES_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE_GATE, Ingredient.ofItems(Blocks.CRACKED_DEEPSLATE_TILES), Ingredient.ofItems(ModBlocks.CRACKED_DEEPSLATE_TILES_SLAB), 1)
                 .criterion(hasItem(Blocks.CRACKED_DEEPSLATE_TILES), conditionsFromItem(Blocks.CRACKED_DEEPSLATE_TILES))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.CRACKED_DEEPSLATE_TILES_TRAPDOOR, Ingredient.ofItems(ModBlocks.CRACKED_DEEPSLATE_TILES_SLAB))
@@ -970,10 +970,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createDoorRecipe(ModBlocks.BRICK_DOOR, Ingredient.ofItems(Blocks.BRICKS))
                 .criterion(hasItem(Blocks.BRICKS), conditionsFromItem(Blocks.BRICKS))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.BRICK_FENCE, Ingredient.ofItems(Blocks.BRICKS), Ingredient.ofItems(Blocks.BRICK_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.BRICK_FENCE, Ingredient.ofItems(Blocks.BRICKS), Ingredient.ofItems(Blocks.BRICK_SLAB), 3)
                 .criterion(hasItem(Blocks.BRICKS), conditionsFromItem(Blocks.BRICKS))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.BRICK_FENCE_GATE, Ingredient.ofItems(Blocks.BRICKS), Ingredient.ofItems(Blocks.BRICK_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.BRICK_FENCE_GATE, Ingredient.ofItems(Blocks.BRICKS), Ingredient.ofItems(Blocks.BRICK_SLAB), 1)
                 .criterion(hasItem(Blocks.BRICKS), conditionsFromItem(Blocks.BRICKS))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.BRICK_TRAPDOOR, Ingredient.ofItems(Blocks.BRICK_SLAB))
@@ -994,10 +994,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createStairsRecipe(ModBlocks.PACKED_MUD_STAIRS, Ingredient.ofItems(Blocks.PACKED_MUD))
                 .criterion(hasItem(Blocks.PACKED_MUD), conditionsFromItem(Blocks.PACKED_MUD))
                 .offerTo(exporter);
-        createNotWoodFenceRecipe(ModBlocks.PACKED_MUD_FENCE, Ingredient.ofItems(Blocks.PACKED_MUD), Ingredient.ofItems(ModBlocks.PACKED_MUD_SLAB), 3)
+        createNonWoodFenceRecipe(ModBlocks.PACKED_MUD_FENCE, Ingredient.ofItems(Blocks.PACKED_MUD), Ingredient.ofItems(ModBlocks.PACKED_MUD_SLAB), 3)
                 .criterion(hasItem(Blocks.PACKED_MUD), conditionsFromItem(Blocks.PACKED_MUD))
                 .offerTo(exporter);
-        createNotWoodFenceGateRecipe(ModBlocks.PACKED_MUD_FENCE_GATE, Ingredient.ofItems(Blocks.PACKED_MUD), Ingredient.ofItems(ModBlocks.PACKED_MUD_SLAB), 1)
+        createNonWoodFenceGateRecipe(ModBlocks.PACKED_MUD_FENCE_GATE, Ingredient.ofItems(Blocks.PACKED_MUD), Ingredient.ofItems(ModBlocks.PACKED_MUD_SLAB), 1)
                 .criterion(hasItem(Blocks.PACKED_MUD), conditionsFromItem(Blocks.PACKED_MUD))
                 .offerTo(exporter);
         createTrapdoorRecipe(ModBlocks.PACKED_MUD_TRAPDOOR, Ingredient.ofItems(ModBlocks.PACKED_MUD_SLAB))
@@ -1009,6 +1009,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.PACKED_MUD_BUTTON, Blocks.PACKED_MUD, 1);
         offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.PACKED_MUD_WALL, Blocks.PACKED_MUD);
 
+        //mud bricks
+        createDoorRecipe(ModBlocks.MUD_BRICK_DOOR, Ingredient.ofItems(Blocks.MUD_BRICKS))
+                .criterion(hasItem(Blocks.MUD_BRICKS), conditionsFromItem(Blocks.MUD_BRICKS))
+                .offerTo(exporter);
+        createNonWoodFenceRecipe(ModBlocks.MUD_BRICK_FENCE, Ingredient.ofItems(Blocks.MUD_BRICKS), Ingredient.ofItems(Blocks.MUD_BRICK_SLAB), 3)
+                .criterion(hasItem(Blocks.MUD_BRICKS), conditionsFromItem(Blocks.MUD_BRICKS))
+                .offerTo(exporter);
+        createNonWoodFenceGateRecipe(ModBlocks.MUD_BRICK_FENCE_GATE, Ingredient.ofItems(Blocks.MUD_BRICKS), Ingredient.ofItems(Blocks.MUD_BRICK_SLAB), 1)
+                .criterion(hasItem(Blocks.MUD_BRICKS), conditionsFromItem(Blocks.MUD_BRICKS))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.MUD_BRICK_TRAPDOOR, Ingredient.ofItems(Blocks.MUD_BRICK_SLAB))
+                .criterion(hasItem(Blocks.MUD_BRICKS), conditionsFromItem(Blocks.MUD_BRICKS))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.MUD_BRICK_PRESSURE_PLATE, Ingredient.ofItems(Blocks.MUD_BRICKS))
+                .criterion(hasItem(Blocks.MUD_BRICKS), conditionsFromItem(Blocks.MUD_BRICKS))
+                .offerTo(exporter);
+        offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.MUD_BRICK_BUTTON, Blocks.MUD_BRICKS, 1);
+
 
 
 
@@ -1018,7 +1036,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
-    public static CraftingRecipeJsonBuilder createNotWoodFenceRecipe(ItemConvertible output, Ingredient input, Ingredient likeStickItem, int outputCount) {
+    public static CraftingRecipeJsonBuilder createNonWoodFenceRecipe(ItemConvertible output, Ingredient input, Ingredient likeStickItem, int outputCount) {
         return ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output, outputCount)
                 .input('#', likeStickItem)
                 .input('W', input)
@@ -1026,7 +1044,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("W#W");
     }
 
-    public static CraftingRecipeJsonBuilder createNotWoodFenceGateRecipe(ItemConvertible output, Ingredient input, Ingredient likeStickItem, int outputCount) {
+    public static CraftingRecipeJsonBuilder createNonWoodFenceGateRecipe(ItemConvertible output, Ingredient input, Ingredient likeStickItem, int outputCount) {
         return ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output, outputCount)
                 .input('#', likeStickItem)
                 .input('W', input)

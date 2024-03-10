@@ -373,6 +373,13 @@
   "block.vanillablocksplus.packed_mud_button": "Packed Mud Button",
   "block.vanillablocksplus.packed_mud_wall": "Packed Mud Wall",
 
+  "block.vanillablocksplus.mud_brick_door": "Mud Brick Door",
+  "block.vanillablocksplus.mud_brick_trapdoor": "Mud Brick Trapdoor",
+  "block.vanillablocksplus.mud_brick_fence": "Mud Brick Fence",
+  "block.vanillablocksplus.mud_brick_fence_gate": "Mud Brick Fence Gate",
+  "block.vanillablocksplus.mud_brick_pressure_plate": "Mud Brick Pressure Plate",
+  "block.vanillablocksplus.mud_brick_button": "Mud Brick Button",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

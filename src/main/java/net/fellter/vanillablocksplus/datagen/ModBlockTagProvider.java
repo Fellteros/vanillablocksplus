@@ -3,7 +3,6 @@ package net.fellter.vanillablocksplus.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.fellter.vanillablocksplus.block.ModBlocks;
-import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
@@ -195,7 +194,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BRICK_FENCE_GATE)
                 .add(ModBlocks.BRICK_FENCE)
                 .add(ModBlocks.BRICK_BUTTON)
-                .add(ModBlocks.BRICK_PRESSURE_PLATE);
+                .add(ModBlocks.BRICK_PRESSURE_PLATE)
+                //mud brick
+                .add(ModBlocks.MUD_BRICK_DOOR)
+                .add(ModBlocks.MUD_BRICK_TRAPDOOR)
+                .add(ModBlocks.MUD_BRICK_FENCE_GATE)
+                .add(ModBlocks.MUD_BRICK_FENCE)
+                .add(ModBlocks.MUD_BRICK_BUTTON)
+                .add(ModBlocks.MUD_BRICK_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 //oak
@@ -433,7 +439,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_TILES_FENCE)
                 .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE)
                 .add(ModBlocks.BRICK_FENCE)
-                .add(ModBlocks.PACKED_MUD_FENCE);
+                .add(ModBlocks.PACKED_MUD_FENCE)
+                .add(ModBlocks.MUD_BRICK_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -480,7 +487,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_TILES_FENCE)
                 .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE)
                 .add(ModBlocks.BRICK_FENCE)
-                .add(ModBlocks.PACKED_MUD_FENCE);
+                .add(ModBlocks.PACKED_MUD_FENCE)
+                .add(ModBlocks.MUD_BRICK_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -527,7 +535,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_TILES_FENCE_GATE)
                 .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE_GATE)
                 .add(ModBlocks.BRICK_FENCE_GATE)
-                .add(ModBlocks.PACKED_MUD_FENCE_GATE);
+                .add(ModBlocks.PACKED_MUD_FENCE_GATE)
+                .add(ModBlocks.MUD_BRICK_FENCE_GATE);
+
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.STONE_WALL)

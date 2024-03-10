@@ -44,6 +44,7 @@
     "vanillablocksplus:deepslate_tiles_fence_gate",
     "vanillablocksplus:cracked_deepslate_tiles_fence_gate",
     "vanillablocksplus:brick_fence_gate",
-    "vanillablocksplus:packed_mud_fence_gate"
+    "vanillablocksplus:packed_mud_fence_gate",
+    "vanillablocksplus:mud_brick_fence_gate"
   ]
 }

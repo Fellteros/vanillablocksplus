@@ -392,6 +392,13 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PACKED_MUD_DOOR, doorDrops(ModBlocks.PACKED_MUD_DOOR));
         addDrop(ModBlocks.PACKED_MUD_SLAB, slabDrops(ModBlocks.PACKED_MUD_SLAB));
         addDrop(ModBlocks.PACKED_MUD_WALL);
+        //mud bricks
+        addDrop(ModBlocks.MUD_BRICK_TRAPDOOR);
+        addDrop(ModBlocks.MUD_BRICK_BUTTON);
+        addDrop(ModBlocks.MUD_BRICK_PRESSURE_PLATE);
+        addDrop(ModBlocks.MUD_BRICK_FENCE);
+        addDrop(ModBlocks.MUD_BRICK_FENCE_GATE);
+        addDrop(ModBlocks.MUD_BRICK_DOOR, doorDrops(ModBlocks.MUD_BRICK_DOOR));
 
 
     }
