@@ -380,6 +380,13 @@
   "block.vanillablocksplus.mud_brick_pressure_plate": "Mud Brick Pressure Plate",
   "block.vanillablocksplus.mud_brick_button": "Mud Brick Button",
 
+  "block.vanillablocksplus.sandstone_door": "Sandstone Door",
+  "block.vanillablocksplus.sandstone_trapdoor": "Sandstone Trapdoor",
+  "block.vanillablocksplus.sandstone_fence": "Sandstone Fence",
+  "block.vanillablocksplus.sandstone_fence_gate": "Sandstone Fence Gate",
+  "block.vanillablocksplus.sandstone_pressure_plate": "Sandstone Pressure Plate",
+  "block.vanillablocksplus.sandstone_button": "Sandstone Button",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

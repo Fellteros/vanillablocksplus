@@ -1027,6 +1027,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.MUD_BRICK_BUTTON, Blocks.MUD_BRICKS, 1);
 
+        //sandstone
+        createDoorRecipe(ModBlocks.SANDSTONE_DOOR, Ingredient.ofItems(Blocks.SANDSTONE))
+                .criterion(hasItem(Blocks.SANDSTONE), conditionsFromItem(Blocks.SANDSTONE))
+                .offerTo(exporter);
+        createNonWoodFenceRecipe(ModBlocks.SANDSTONE_FENCE, Ingredient.ofItems(Blocks.SANDSTONE), Ingredient.ofItems(Blocks.SANDSTONE_SLAB), 3)
+                .criterion(hasItem(Blocks.SANDSTONE), conditionsFromItem(Blocks.SANDSTONE))
+                .offerTo(exporter);
+        createNonWoodFenceGateRecipe(ModBlocks.SANDSTONE_FENCE_GATE, Ingredient.ofItems(Blocks.SANDSTONE), Ingredient.ofItems(Blocks.SANDSTONE_SLAB), 1)
+                .criterion(hasItem(Blocks.SANDSTONE), conditionsFromItem(Blocks.SANDSTONE))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.SANDSTONE_TRAPDOOR, Ingredient.ofItems(Blocks.SANDSTONE_SLAB))
+                .criterion(hasItem(Blocks.SANDSTONE), conditionsFromItem(Blocks.SANDSTONE))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.SANDSTONE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.SANDSTONE))
+                .criterion(hasItem(Blocks.SANDSTONE), conditionsFromItem(Blocks.SANDSTONE))
+                .offerTo(exporter);
+        offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.SANDSTONE_BUTTON, Blocks.SANDSTONE, 1);
+
 
 
 

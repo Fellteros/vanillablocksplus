@@ -1078,6 +1078,28 @@ public class ModBlocks {
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 3.0F)
                     .sounds(BlockSoundGroup.MUD_BRICKS), BlockSetType.STONE));
 
+    //mud bricks set
+    public static final Block SANDSTONE_MOD = registerBlock("sandstone_mod",
+            new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+    public static final Block SANDSTONE_BUTTON = registerBlock("sandstone_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f), BlockSetType.STONE, 10, false));
+    public static final Block SANDSTONE_PRESSURE_PLATE = registerBlock("sandstone_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f), BlockSetType.STONE));
+    public static final Block SANDSTONE_FENCE = registerBlock("sandstone_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f)));
+    public static final Block SANDSTONE_FENCE_GATE = registerBlock("sandstone_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f), WoodType.OAK));
+    public static final Block SANDSTONE_DOOR = registerBlock("sandstone_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f), BlockSetType.STONE));
+    public static final Block SANDSTONE_TRAPDOOR = registerBlock("sandstone_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f), BlockSetType.STONE));
 
 
 

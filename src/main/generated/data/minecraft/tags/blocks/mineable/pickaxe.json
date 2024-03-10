@@ -148,6 +148,12 @@
     "vanillablocksplus:mud_brick_fence_gate",
     "vanillablocksplus:mud_brick_fence",
     "vanillablocksplus:mud_brick_button",
-    "vanillablocksplus:mud_brick_pressure_plate"
+    "vanillablocksplus:mud_brick_pressure_plate",
+    "vanillablocksplus:sandstone_door",
+    "vanillablocksplus:sandstone_trapdoor",
+    "vanillablocksplus:sandstone_fence_gate",
+    "vanillablocksplus:sandstone_fence",
+    "vanillablocksplus:sandstone_button",
+    "vanillablocksplus:sandstone_pressure_plate"
   ]
 }

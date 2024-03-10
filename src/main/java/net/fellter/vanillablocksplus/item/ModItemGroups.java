@@ -388,13 +388,20 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PACKED_MUD_TRAPDOOR);
                         entries.add(ModBlocks.PACKED_MUD_PRESSURE_PLATE);
                         entries.add(ModBlocks.PACKED_MUD_BUTTON);
-                        //bricks
+                        //mud bricks
                         entries.add(ModBlocks.MUD_BRICK_FENCE);
                         entries.add(ModBlocks.MUD_BRICK_FENCE_GATE);
                         entries.add(ModBlocks.MUD_BRICK_DOOR);
                         entries.add(ModBlocks.MUD_BRICK_TRAPDOOR);
                         entries.add(ModBlocks.MUD_BRICK_PRESSURE_PLATE);
                         entries.add(ModBlocks.MUD_BRICK_BUTTON);
+                        //sandstone
+                        entries.add(ModBlocks.SANDSTONE_FENCE);
+                        entries.add(ModBlocks.SANDSTONE_FENCE_GATE);
+                        entries.add(ModBlocks.SANDSTONE_DOOR);
+                        entries.add(ModBlocks.SANDSTONE_TRAPDOOR);
+                        entries.add(ModBlocks.SANDSTONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SANDSTONE_BUTTON);
 
 
                     }).build());

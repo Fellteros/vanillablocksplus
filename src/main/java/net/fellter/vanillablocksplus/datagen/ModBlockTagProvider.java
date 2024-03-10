@@ -201,7 +201,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MUD_BRICK_FENCE_GATE)
                 .add(ModBlocks.MUD_BRICK_FENCE)
                 .add(ModBlocks.MUD_BRICK_BUTTON)
-                .add(ModBlocks.MUD_BRICK_PRESSURE_PLATE);
+                .add(ModBlocks.MUD_BRICK_PRESSURE_PLATE)
+                //sandstone
+                .add(ModBlocks.SANDSTONE_DOOR)
+                .add(ModBlocks.SANDSTONE_TRAPDOOR)
+                .add(ModBlocks.SANDSTONE_FENCE_GATE)
+                .add(ModBlocks.SANDSTONE_FENCE)
+                .add(ModBlocks.SANDSTONE_BUTTON)
+                .add(ModBlocks.SANDSTONE_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 //oak
@@ -440,7 +447,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE)
                 .add(ModBlocks.BRICK_FENCE)
                 .add(ModBlocks.PACKED_MUD_FENCE)
-                .add(ModBlocks.MUD_BRICK_FENCE);
+                .add(ModBlocks.MUD_BRICK_FENCE)
+                .add(ModBlocks.SANDSTONE_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -488,7 +496,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE)
                 .add(ModBlocks.BRICK_FENCE)
                 .add(ModBlocks.PACKED_MUD_FENCE)
-                .add(ModBlocks.MUD_BRICK_FENCE);
+                .add(ModBlocks.MUD_BRICK_FENCE)
+                .add(ModBlocks.SANDSTONE_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -536,7 +545,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE_GATE)
                 .add(ModBlocks.BRICK_FENCE_GATE)
                 .add(ModBlocks.PACKED_MUD_FENCE_GATE)
-                .add(ModBlocks.MUD_BRICK_FENCE_GATE);
+                .add(ModBlocks.MUD_BRICK_FENCE_GATE)
+                .add(ModBlocks.SANDSTONE_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
