@@ -1145,6 +1145,31 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.CUT_RED_SANDSTONE_BUTTON, Blocks.CUT_RED_SANDSTONE, 1);
         offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.CUT_RED_SANDSTONE_WALL, Blocks.CUT_RED_SANDSTONE);
 
+        //sea lantern
+        createDoorRecipe(ModBlocks.SEA_LANTERN_DOOR, Ingredient.ofItems(Blocks.SEA_LANTERN))
+                .criterion(hasItem(Blocks.SEA_LANTERN), conditionsFromItem(Blocks.SEA_LANTERN))
+                .offerTo(exporter);
+        createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.SEA_LANTERN_SLAB, Ingredient.ofItems(Blocks.SEA_LANTERN))
+                .criterion(hasItem(Blocks.SEA_LANTERN), conditionsFromItem(Blocks.SEA_LANTERN))
+                .offerTo(exporter);
+        createStairsRecipe(ModBlocks.SEA_LANTERN_STAIRS, Ingredient.ofItems(Blocks.SEA_LANTERN))
+                .criterion(hasItem(Blocks.SEA_LANTERN), conditionsFromItem(Blocks.SEA_LANTERN))
+                .offerTo(exporter);
+        createNonWoodFenceRecipe(ModBlocks.SEA_LANTERN_FENCE, Ingredient.ofItems(Blocks.SEA_LANTERN), Ingredient.ofItems(ModBlocks.SEA_LANTERN_SLAB), 3)
+                .criterion(hasItem(Blocks.SEA_LANTERN), conditionsFromItem(Blocks.SEA_LANTERN))
+                .offerTo(exporter);
+        createNonWoodFenceGateRecipe(ModBlocks.SEA_LANTERN_FENCE_GATE, Ingredient.ofItems(Blocks.SEA_LANTERN), Ingredient.ofItems(ModBlocks.SEA_LANTERN_SLAB), 1)
+                .criterion(hasItem(Blocks.SEA_LANTERN), conditionsFromItem(Blocks.SEA_LANTERN))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.SEA_LANTERN_TRAPDOOR, Ingredient.ofItems(ModBlocks.SEA_LANTERN_SLAB))
+                .criterion(hasItem(Blocks.SEA_LANTERN), conditionsFromItem(Blocks.SEA_LANTERN))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.SEA_LANTERN_PRESSURE_PLATE, Ingredient.ofItems(Blocks.SEA_LANTERN))
+                .criterion(hasItem(Blocks.SEA_LANTERN), conditionsFromItem(Blocks.SEA_LANTERN))
+                .offerTo(exporter);
+        offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.SEA_LANTERN_BUTTON, Blocks.SEA_LANTERN, 1);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.SEA_LANTERN_WALL, Blocks.SEA_LANTERN);
+
 
 
 

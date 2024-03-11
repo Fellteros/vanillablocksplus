@@ -447,6 +447,16 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CUT_RED_SANDSTONE_FENCE_GATE);
         addDrop(ModBlocks.CUT_RED_SANDSTONE_DOOR, doorDrops(ModBlocks.CUT_RED_SANDSTONE_DOOR));
         addDrop(ModBlocks.CUT_RED_SANDSTONE_WALL);
+        //sea lantern
+        addDrop(ModBlocks.SEA_LANTERN_STAIRS);
+        addDrop(ModBlocks.SEA_LANTERN_TRAPDOOR);
+        addDrop(ModBlocks.SEA_LANTERN_BUTTON);
+        addDrop(ModBlocks.SEA_LANTERN_PRESSURE_PLATE);
+        addDrop(ModBlocks.SEA_LANTERN_FENCE);
+        addDrop(ModBlocks.SEA_LANTERN_FENCE_GATE);
+        addDrop(ModBlocks.SEA_LANTERN_DOOR, doorDrops(ModBlocks.SEA_LANTERN_DOOR));
+        addDrop(ModBlocks.SEA_LANTERN_SLAB, slabDrops(ModBlocks.SEA_LANTERN_SLAB));
+        addDrop(ModBlocks.SEA_LANTERN_WALL);
 
 
     }

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "vanillablocksplus:block/sea_lantern_door_bottom",
+    "top": "vanillablocksplus:block/sea_lantern_door_top"
+  }
+}

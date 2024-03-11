@@ -190,6 +190,15 @@
     "vanillablocksplus:cut_red_sandstone_fence",
     "vanillablocksplus:cut_red_sandstone_button",
     "vanillablocksplus:cut_red_sandstone_pressure_plate",
-    "vanillablocksplus:cut_red_sandstone_wall"
+    "vanillablocksplus:cut_red_sandstone_wall",
+    "vanillablocksplus:sea_lantern_stairs",
+    "vanillablocksplus:sea_lantern_slab",
+    "vanillablocksplus:sea_lantern_wall",
+    "vanillablocksplus:sea_lantern_door",
+    "vanillablocksplus:sea_lantern_trapdoor",
+    "vanillablocksplus:sea_lantern_fence_gate",
+    "vanillablocksplus:sea_lantern_fence",
+    "vanillablocksplus:sea_lantern_button",
+    "vanillablocksplus:sea_lantern_pressure_plate"
   ]
 }

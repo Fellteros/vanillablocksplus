@@ -1154,7 +1154,7 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f)));
 
-    //redsandstone set
+    //red sandstone set
     public static final Block RED_SANDSTONE_MOD = registerBlock("red_sandstone_mod",
             new Block(FabricBlockSettings.copyOf(Blocks.RED_SANDSTONE)));
     public static final Block RED_SANDSTONE_BUTTON = registerBlock("red_sandstone_button",
@@ -1230,6 +1230,67 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f)));
 
+    //sea lantern set
+    public static final Block SEA_LANTERN_MOD = registerBlock("sea_lantern_mod",
+            new Block(FabricBlockSettings.copyOf(Blocks.SEA_LANTERN).luminance(state -> 15)));
+    public static final Block SEA_LANTERN_STAIRS = registerBlock("sea_lantern_stairs",
+            new StairsBlock(Blocks.PACKED_MUD.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .instrument(Instrument.HAT).requiresTool().strength(0.3f)
+                    .sounds(BlockSoundGroup.GLASS).luminance(state -> 15)));
+    public static final Block SEA_LANTERN_SLAB = registerBlock("sea_lantern_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .instrument(Instrument.HAT).requiresTool().strength(0.3f)
+                    .sounds(BlockSoundGroup.GLASS).luminance(state -> 15)));
+    public static final Block SEA_LANTERN_BUTTON = registerBlock("sea_lantern_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.HAT).requiresTool().strength(0.3f)
+                    .sounds(BlockSoundGroup.GLASS).luminance(state -> 15), BlockSetType.STONE, 10, false));
+    public static final Block SEA_LANTERN_PRESSURE_PLATE = registerBlock("sea_lantern_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .instrument(Instrument.HAT).requiresTool().strength(0.3f)
+                            .sounds(BlockSoundGroup.GLASS).luminance(state -> 15), BlockSetType.STONE));
+    public static final Block SEA_LANTERN_FENCE = registerBlock("sea_lantern_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .instrument(Instrument.HAT).requiresTool().strength(0.3f)
+                    .sounds(BlockSoundGroup.GLASS).luminance(state -> 15)));
+    public static final Block SEA_LANTERN_FENCE_GATE = registerBlock("sea_lantern_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .instrument(Instrument.HAT).requiresTool().strength(0.3f)
+                    .sounds(BlockSoundGroup.GLASS).luminance(state -> 15), WoodType.OAK));
+    public static final Block SEA_LANTERN_DOOR = registerBlock("sea_lantern_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .instrument(Instrument.HAT).requiresTool().strength(0.3f)
+                    .sounds(BlockSoundGroup.GLASS).luminance(state -> 15), BlockSetType.STONE));
+    public static final Block SEA_LANTERN_TRAPDOOR = registerBlock("sea_lantern_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .instrument(Instrument.HAT).requiresTool().strength(0.3f)
+                    .sounds(BlockSoundGroup.GLASS).luminance(state -> 15), BlockSetType.STONE));
+    public static final Block SEA_LANTERN_WALL = registerBlock("sea_lantern_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .instrument(Instrument.HAT).requiresTool().strength(0.3f)
+                    .sounds(BlockSoundGroup.GLASS).luminance(state -> 15)));
+
+    //prismarine set
+    public static final Block PRISMARINE_BUTTON = registerBlock("prismarine_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F), BlockSetType.STONE, 10, false));
+    public static final Block PRISMARINE_PRESSURE_PLATE = registerBlock("prismarine_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F), BlockSetType.STONE));
+    public static final Block PRISMARINE_FENCE = registerBlock("prismarine_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F)));
+    public static final Block PRISMARINE_FENCE_GATE = registerBlock("prismarine_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F), WoodType.OAK));
+    public static final Block PRISMARINE_DOOR = registerBlock("prismarine_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F), BlockSetType.STONE));
+    public static final Block PRISMARINE_TRAPDOOR = registerBlock("prismarine_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F), BlockSetType.STONE));
 
 
 

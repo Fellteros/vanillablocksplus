@@ -428,6 +428,16 @@
   "block.vanillablocksplus.cut_red_sandstone_button": "Cut Red Sandstone Button",
   "block.vanillablocksplus.cut_red_sandstone_wall": "Cut Red Sandstone Wall",
 
+  "block.vanillablocksplus.sea_lantern_stairs": "Sea Lantern Stairs",
+  "block.vanillablocksplus.sea_lantern_slab": "Sea Lantern Slab",
+  "block.vanillablocksplus.sea_lantern_door": "Sea Lantern Door",
+  "block.vanillablocksplus.sea_lantern_trapdoor": "Sea Lantern Trapdoor",
+  "block.vanillablocksplus.sea_lantern_fence": "Sea Lantern Fence",
+  "block.vanillablocksplus.sea_lantern_fence_gate": "Sea Lantern Fence Gate",
+  "block.vanillablocksplus.sea_lantern_pressure_plate": "Sea Lantern Pressure Plate",
+  "block.vanillablocksplus.sea_lantern_button": "Sea Lantern Button",
+  "block.vanillablocksplus.sea_lantern_wall": "Sea Lantern Wall",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

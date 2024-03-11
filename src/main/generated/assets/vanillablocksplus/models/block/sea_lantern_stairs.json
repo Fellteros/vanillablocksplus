@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "vanillablocksplus:block/sea_lantern_mod",
+    "side": "vanillablocksplus:block/sea_lantern_mod",
+    "top": "vanillablocksplus:block/sea_lantern_mod"
+  }
+}

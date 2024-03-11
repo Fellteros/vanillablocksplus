@@ -443,6 +443,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CUT_RED_SANDSTONE_TRAPDOOR);
                         entries.add(ModBlocks.CUT_RED_SANDSTONE_PRESSURE_PLATE);
                         entries.add(ModBlocks.CUT_RED_SANDSTONE_BUTTON);
+                        //sea lantern
+                        entries.add(ModBlocks.SEA_LANTERN_STAIRS);
+                        entries.add(ModBlocks.SEA_LANTERN_SLAB);
+                        entries.add(ModBlocks.SEA_LANTERN_WALL);
+                        entries.add(ModBlocks.SEA_LANTERN_FENCE);
+                        entries.add(ModBlocks.SEA_LANTERN_FENCE_GATE);
+                        entries.add(ModBlocks.SEA_LANTERN_DOOR);
+                        entries.add(ModBlocks.SEA_LANTERN_TRAPDOOR);
+                        entries.add(ModBlocks.SEA_LANTERN_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SEA_LANTERN_BUTTON);
 
 
                     }).build());

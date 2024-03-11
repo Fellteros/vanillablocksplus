@@ -116,6 +116,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_RED_SANDSTONE);
         BlockStateModelGenerator.BlockTexturePool cutRedSandstonePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CUT_RED_SANDSTONE_MOD);
+        BlockStateModelGenerator.BlockTexturePool seaLanternPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SEA_LANTERN_MOD);
 
 
 
@@ -445,6 +447,14 @@ public class ModModelProvider extends FabricModelProvider {
         cutRedSandstonePool.fenceGate(ModBlocks.CUT_RED_SANDSTONE_FENCE_GATE);
         cutRedSandstonePool.pressurePlate(ModBlocks.CUT_RED_SANDSTONE_PRESSURE_PLATE);
         cutRedSandstonePool.wall(ModBlocks.CUT_RED_SANDSTONE_WALL);
+        //sea lantern
+        seaLanternPool.button(ModBlocks.SEA_LANTERN_BUTTON);
+        seaLanternPool.wall(ModBlocks.SEA_LANTERN_WALL);
+        seaLanternPool.stairs(ModBlocks.SEA_LANTERN_STAIRS);
+        seaLanternPool.slab(ModBlocks.SEA_LANTERN_SLAB);
+        seaLanternPool.fence(ModBlocks.SEA_LANTERN_FENCE);
+        seaLanternPool.fenceGate(ModBlocks.SEA_LANTERN_FENCE_GATE);
+        seaLanternPool.pressurePlate(ModBlocks.SEA_LANTERN_PRESSURE_PLATE);
 
 
 
@@ -601,6 +611,9 @@ public class ModModelProvider extends FabricModelProvider {
         //red cut sandstone
         blockStateModelGenerator.registerDoor(ModBlocks.CUT_RED_SANDSTONE_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CUT_RED_SANDSTONE_TRAPDOOR);
+        //sea lantern
+        blockStateModelGenerator.registerDoor(ModBlocks.SEA_LANTERN_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SEA_LANTERN_TRAPDOOR);
 
 
 
