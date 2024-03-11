@@ -1316,6 +1316,30 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_WALL)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F)));
 
+    //dark prismarine set
+    public static final Block DARK_PRISMARINE_BUTTON = registerBlock("dark_prismarine_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F), BlockSetType.STONE, 10, false));
+    public static final Block DARK_PRISMARINE_PRESSURE_PLATE = registerBlock("dark_prismarine_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F), BlockSetType.STONE));
+    public static final Block DARK_PRISMARINE_FENCE = registerBlock("dark_prismarine_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F)));
+    public static final Block DARK_PRISMARINE_FENCE_GATE = registerBlock("dark_prismarine_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F), WoodType.OAK));
+    public static final Block DARK_PRISMARINE_DOOR = registerBlock("dark_prismarine_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F), BlockSetType.STONE));
+    public static final Block DARK_PRISMARINE_TRAPDOOR = registerBlock("dark_prismarine_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F), BlockSetType.STONE));
+    public static final Block DARK_PRISMARINE_WALL = registerBlock("dark_prismarine_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_WALL)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F)));
+
 
 
 

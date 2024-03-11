@@ -1188,7 +1188,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.PRISMARINE_BUTTON, Blocks.PRISMARINE, 1);
 
-        //prismarine
+        //prismarine bricks
         createDoorRecipe(ModBlocks.PRISMARINE_BRICK_DOOR, Ingredient.ofItems(Blocks.PRISMARINE_BRICKS))
                 .criterion(hasItem(Blocks.PRISMARINE_BRICKS), conditionsFromItem(Blocks.PRISMARINE_BRICKS))
                 .offerTo(exporter);
@@ -1206,6 +1206,25 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.PRISMARINE_BRICK_BUTTON, Blocks.PRISMARINE_BRICKS, 1);
         offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.PRISMARINE_BRICK_WALL, Blocks.PRISMARINE_BRICKS);
+
+        //prismarine
+        createDoorRecipe(ModBlocks.DARK_PRISMARINE_DOOR, Ingredient.ofItems(Blocks.DARK_PRISMARINE))
+                .criterion(hasItem(Blocks.DARK_PRISMARINE), conditionsFromItem(Blocks.DARK_PRISMARINE))
+                .offerTo(exporter);
+        createNonWoodFenceRecipe(ModBlocks.DARK_PRISMARINE_FENCE, Ingredient.ofItems(Blocks.DARK_PRISMARINE), Ingredient.ofItems(Blocks.DARK_PRISMARINE_SLAB), 3)
+                .criterion(hasItem(Blocks.DARK_PRISMARINE), conditionsFromItem(Blocks.DARK_PRISMARINE))
+                .offerTo(exporter);
+        createNonWoodFenceGateRecipe(ModBlocks.DARK_PRISMARINE_FENCE_GATE, Ingredient.ofItems(Blocks.DARK_PRISMARINE), Ingredient.ofItems(Blocks.DARK_PRISMARINE_SLAB), 1)
+                .criterion(hasItem(Blocks.DARK_PRISMARINE), conditionsFromItem(Blocks.DARK_PRISMARINE))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.DARK_PRISMARINE_TRAPDOOR, Ingredient.ofItems(Blocks.DARK_PRISMARINE_SLAB))
+                .criterion(hasItem(Blocks.DARK_PRISMARINE), conditionsFromItem(Blocks.DARK_PRISMARINE))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.DARK_PRISMARINE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.DARK_PRISMARINE))
+                .criterion(hasItem(Blocks.DARK_PRISMARINE), conditionsFromItem(Blocks.DARK_PRISMARINE))
+                .offerTo(exporter);
+        offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.DARK_PRISMARINE_BUTTON, Blocks.DARK_PRISMARINE, 1);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.DARK_PRISMARINE_WALL, Blocks.DARK_PRISMARINE);
 
 
 

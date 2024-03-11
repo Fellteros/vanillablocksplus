@@ -468,6 +468,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PRISMARINE_BRICK_TRAPDOOR);
                         entries.add(ModBlocks.PRISMARINE_BRICK_PRESSURE_PLATE);
                         entries.add(ModBlocks.PRISMARINE_BRICK_BUTTON);
+                        //dark prismarine
+                        entries.add(ModBlocks.DARK_PRISMARINE_WALL);
+                        entries.add(ModBlocks.DARK_PRISMARINE_FENCE);
+                        entries.add(ModBlocks.DARK_PRISMARINE_FENCE_GATE);
+                        entries.add(ModBlocks.DARK_PRISMARINE_DOOR);
+                        entries.add(ModBlocks.DARK_PRISMARINE_TRAPDOOR);
+                        entries.add(ModBlocks.DARK_PRISMARINE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.DARK_PRISMARINE_BUTTON);
 
 
                     }).build());

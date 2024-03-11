@@ -212,6 +212,13 @@
     "vanillablocksplus:prismarine_brick_fence_gate",
     "vanillablocksplus:prismarine_brick_fence",
     "vanillablocksplus:prismarine_brick_button",
-    "vanillablocksplus:prismarine_brick_pressure_plate"
+    "vanillablocksplus:prismarine_brick_pressure_plate",
+    "vanillablocksplus:dark_prismarine_wall",
+    "vanillablocksplus:dark_prismarine_door",
+    "vanillablocksplus:dark_prismarine_trapdoor",
+    "vanillablocksplus:dark_prismarine_fence_gate",
+    "vanillablocksplus:dark_prismarine_fence",
+    "vanillablocksplus:dark_prismarine_button",
+    "vanillablocksplus:dark_prismarine_pressure_plate"
   ]
 }

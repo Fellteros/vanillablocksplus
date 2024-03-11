@@ -122,6 +122,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PRISMARINE);
         BlockStateModelGenerator.BlockTexturePool prismarineBrickPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PRISMARINE_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool darkPrismarinePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DARK_PRISMARINE);
 
 
 
@@ -470,6 +472,12 @@ public class ModModelProvider extends FabricModelProvider {
         prismarineBrickPool.fenceGate(ModBlocks.PRISMARINE_BRICK_FENCE_GATE);
         prismarineBrickPool.pressurePlate(ModBlocks.PRISMARINE_BRICK_PRESSURE_PLATE);
         prismarineBrickPool.wall(ModBlocks.PRISMARINE_BRICK_WALL);
+        //dark prismarine
+        darkPrismarinePool.button(ModBlocks.DARK_PRISMARINE_BUTTON);
+        darkPrismarinePool.fence(ModBlocks.DARK_PRISMARINE_FENCE);
+        darkPrismarinePool.fenceGate(ModBlocks.DARK_PRISMARINE_FENCE_GATE);
+        darkPrismarinePool.pressurePlate(ModBlocks.DARK_PRISMARINE_PRESSURE_PLATE);
+        darkPrismarinePool.wall(ModBlocks.DARK_PRISMARINE_WALL);
 
 
 
@@ -635,6 +643,9 @@ public class ModModelProvider extends FabricModelProvider {
         //prismarine brick
         blockStateModelGenerator.registerDoor(ModBlocks.PRISMARINE_BRICK_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PRISMARINE_BRICK_TRAPDOOR);
+        //dark prismarine
+        blockStateModelGenerator.registerDoor(ModBlocks.DARK_PRISMARINE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DARK_PRISMARINE_TRAPDOOR);
 
 
 

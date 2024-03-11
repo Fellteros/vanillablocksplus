@@ -453,6 +453,14 @@
   "block.vanillablocksplus.prismarine_brick_pressure_plate": "Prismarine Brick Pressure Plate",
   "block.vanillablocksplus.prismarine_brick_button": "Prismarine Brick Button",
 
+  "block.vanillablocksplus.dark_prismarine_wall": "Dark Prismarine Wall",
+  "block.vanillablocksplus.dark_prismarine_door": "Dark Prismarine Door",
+  "block.vanillablocksplus.dark_prismarine_trapdoor": "Dark Prismarine Trapdoor",
+  "block.vanillablocksplus.dark_prismarine_fence": "Dark Prismarine Fence",
+  "block.vanillablocksplus.dark_prismarine_fence_gate": "Dark Prismarine Fence Gate",
+  "block.vanillablocksplus.dark_prismarine_pressure_plate": "Dark Prismarine Pressure Plate",
+  "block.vanillablocksplus.dark_prismarine_button": "Dark Prismarine Button",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }
