@@ -10,6 +10,7 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 
 
+import java.util.concurrent.locks.Condition;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
@@ -1063,6 +1064,28 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_SANDSTONE_BUTTON, Blocks.SMOOTH_SANDSTONE, 1);
         offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_SANDSTONE_WALL, Blocks.SMOOTH_SANDSTONE);
+
+        //cut sandstone
+        createStairsRecipe(ModBlocks.CUT_SANDSTONE_STAIRS, Ingredient.ofItems(Blocks.CUT_SANDSTONE))
+                .criterion(hasItem(Blocks.CUT_SANDSTONE), conditionsFromItem(Blocks.CUT_SANDSTONE))
+                .offerTo(exporter);
+        createDoorRecipe(ModBlocks.CUT_SANDSTONE_DOOR, Ingredient.ofItems(Blocks.CUT_SANDSTONE))
+                .criterion(hasItem(Blocks.CUT_SANDSTONE), conditionsFromItem(Blocks.CUT_SANDSTONE))
+                .offerTo(exporter);
+        createNonWoodFenceRecipe(ModBlocks.CUT_SANDSTONE_FENCE, Ingredient.ofItems(Blocks.CUT_SANDSTONE), Ingredient.ofItems(Blocks.CUT_SANDSTONE_SLAB), 3)
+                .criterion(hasItem(Blocks.CUT_SANDSTONE), conditionsFromItem(Blocks.CUT_SANDSTONE))
+                .offerTo(exporter);
+        createNonWoodFenceGateRecipe(ModBlocks.CUT_SANDSTONE_FENCE_GATE, Ingredient.ofItems(Blocks.CUT_SANDSTONE), Ingredient.ofItems(Blocks.CUT_SANDSTONE_SLAB), 1)
+                .criterion(hasItem(Blocks.CUT_SANDSTONE), conditionsFromItem(Blocks.CUT_SANDSTONE))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.CUT_SANDSTONE_TRAPDOOR, Ingredient.ofItems(Blocks.CUT_SANDSTONE_SLAB))
+                .criterion(hasItem(Blocks.CUT_SANDSTONE), conditionsFromItem(Blocks.CUT_SANDSTONE))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.CUT_SANDSTONE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.CUT_SANDSTONE))
+                .criterion(hasItem(Blocks.CUT_SANDSTONE), conditionsFromItem(Blocks.CUT_SANDSTONE))
+                .offerTo(exporter);
+        offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.CUT_SANDSTONE_BUTTON, Blocks.CUT_SANDSTONE, 1);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.CUT_SANDSTONE_WALL, Blocks.CUT_SANDSTONE);
 
 
 

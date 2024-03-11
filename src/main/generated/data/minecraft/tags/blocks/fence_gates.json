@@ -47,6 +47,7 @@
     "vanillablocksplus:packed_mud_fence_gate",
     "vanillablocksplus:mud_brick_fence_gate",
     "vanillablocksplus:sandstone_fence_gate",
-    "vanillablocksplus:smooth_sandstone_fence_gate"
+    "vanillablocksplus:smooth_sandstone_fence_gate",
+    "vanillablocksplus:cut_sandstone_fence_gate"
   ]
 }

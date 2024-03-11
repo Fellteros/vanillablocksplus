@@ -410,6 +410,15 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SMOOTH_SANDSTONE_TRAPDOOR);
                         entries.add(ModBlocks.SMOOTH_SANDSTONE_PRESSURE_PLATE);
                         entries.add(ModBlocks.SMOOTH_SANDSTONE_BUTTON);
+                        //cut sandstone
+                        entries.add(ModBlocks.CUT_SANDSTONE_STAIRS);
+                        entries.add(ModBlocks.CUT_SANDSTONE_WALL);
+                        entries.add(ModBlocks.CUT_SANDSTONE_FENCE);
+                        entries.add(ModBlocks.CUT_SANDSTONE_FENCE_GATE);
+                        entries.add(ModBlocks.CUT_SANDSTONE_DOOR);
+                        entries.add(ModBlocks.CUT_SANDSTONE_TRAPDOOR);
+                        entries.add(ModBlocks.CUT_SANDSTONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CUT_SANDSTONE_BUTTON);
 
 
                     }).build());

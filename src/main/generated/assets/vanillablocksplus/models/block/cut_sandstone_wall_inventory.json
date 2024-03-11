@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "vanillablocksplus:block/cut_sandstone_mod"
+  }
+}

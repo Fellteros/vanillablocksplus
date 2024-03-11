@@ -216,7 +216,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SMOOTH_SANDSTONE_FENCE)
                 .add(ModBlocks.SMOOTH_SANDSTONE_BUTTON)
                 .add(ModBlocks.SMOOTH_SANDSTONE_PRESSURE_PLATE)
-                .add(ModBlocks.SMOOTH_SANDSTONE_WALL);
+                .add(ModBlocks.SMOOTH_SANDSTONE_WALL)
+                //cut sandstone
+                .add(ModBlocks.CUT_SANDSTONE_STAIRS)
+                .add(ModBlocks.CUT_SANDSTONE_DOOR)
+                .add(ModBlocks.CUT_SANDSTONE_TRAPDOOR)
+                .add(ModBlocks.CUT_SANDSTONE_FENCE_GATE)
+                .add(ModBlocks.CUT_SANDSTONE_FENCE)
+                .add(ModBlocks.CUT_SANDSTONE_BUTTON)
+                .add(ModBlocks.CUT_SANDSTONE_PRESSURE_PLATE)
+                .add(ModBlocks.CUT_SANDSTONE_WALL);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 //oak
@@ -457,7 +466,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PACKED_MUD_FENCE)
                 .add(ModBlocks.MUD_BRICK_FENCE)
                 .add(ModBlocks.SANDSTONE_FENCE)
-                .add(ModBlocks.SMOOTH_SANDSTONE_FENCE);
+                .add(ModBlocks.SMOOTH_SANDSTONE_FENCE)
+                .add(ModBlocks.CUT_SANDSTONE_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -507,7 +517,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PACKED_MUD_FENCE)
                 .add(ModBlocks.MUD_BRICK_FENCE)
                 .add(ModBlocks.SANDSTONE_FENCE)
-                .add(ModBlocks.SMOOTH_SANDSTONE_FENCE);
+                .add(ModBlocks.SMOOTH_SANDSTONE_FENCE)
+                .add(ModBlocks.CUT_SANDSTONE_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -557,7 +568,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PACKED_MUD_FENCE_GATE)
                 .add(ModBlocks.MUD_BRICK_FENCE_GATE)
                 .add(ModBlocks.SANDSTONE_FENCE_GATE)
-                .add(ModBlocks.SMOOTH_SANDSTONE_FENCE_GATE);
+                .add(ModBlocks.SMOOTH_SANDSTONE_FENCE_GATE)
+                .add(ModBlocks.CUT_SANDSTONE_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -572,7 +584,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_WALL)
                 .add(ModBlocks.CRACKED_DEEPSLATE_TILES_WALL)
                 .add(ModBlocks.PACKED_MUD_WALL)
-                .add(ModBlocks.SMOOTH_SANDSTONE_WALL);
+                .add(ModBlocks.SMOOTH_SANDSTONE_WALL)
+                .add(ModBlocks.CUT_SANDSTONE_WALL);
 
 
 

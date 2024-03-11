@@ -5,9 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.item.ModItems;
 import net.minecraft.block.Blocks;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
+import net.minecraft.data.client.*;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -110,6 +108,9 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SANDSTONE_MOD);
         BlockStateModelGenerator.BlockTexturePool smoothSandstonePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_SANDSTONE);
+        BlockStateModelGenerator.BlockTexturePool cutSandstonePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CUT_SANDSTONE_MOD);
+
 
 
 
@@ -413,6 +414,13 @@ public class ModModelProvider extends FabricModelProvider {
         smoothSandstonePool.fenceGate(ModBlocks.SMOOTH_SANDSTONE_FENCE_GATE);
         smoothSandstonePool.pressurePlate(ModBlocks.SMOOTH_SANDSTONE_PRESSURE_PLATE);
         smoothSandstonePool.wall(ModBlocks.SMOOTH_SANDSTONE_WALL);
+        //cut sandstone
+        cutSandstonePool.stairs(ModBlocks.CUT_SANDSTONE_STAIRS);
+        cutSandstonePool.button(ModBlocks.CUT_SANDSTONE_BUTTON);
+        cutSandstonePool.fence(ModBlocks.CUT_SANDSTONE_FENCE);
+        cutSandstonePool.fenceGate(ModBlocks.CUT_SANDSTONE_FENCE_GATE);
+        cutSandstonePool.pressurePlate(ModBlocks.CUT_SANDSTONE_PRESSURE_PLATE);
+        cutSandstonePool.wall(ModBlocks.CUT_SANDSTONE_WALL);
 
 
 
@@ -557,12 +565,20 @@ public class ModModelProvider extends FabricModelProvider {
         //smooth sandstone
         blockStateModelGenerator.registerDoor(ModBlocks.SMOOTH_SANDSTONE_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SMOOTH_SANDSTONE_TRAPDOOR);
+        //cut sandstone
+        blockStateModelGenerator.registerDoor(ModBlocks.CUT_SANDSTONE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CUT_SANDSTONE_TRAPDOOR);
 
 
 
 
 
     }
+
+
+
+
+
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {

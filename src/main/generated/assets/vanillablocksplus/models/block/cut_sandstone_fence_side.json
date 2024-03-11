@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "vanillablocksplus:block/cut_sandstone_mod"
+  }
+}

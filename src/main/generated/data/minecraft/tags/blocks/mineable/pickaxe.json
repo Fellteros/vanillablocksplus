@@ -161,6 +161,14 @@
     "vanillablocksplus:smooth_sandstone_fence",
     "vanillablocksplus:smooth_sandstone_button",
     "vanillablocksplus:smooth_sandstone_pressure_plate",
-    "vanillablocksplus:smooth_sandstone_wall"
+    "vanillablocksplus:smooth_sandstone_wall",
+    "vanillablocksplus:cut_sandstone_stairs",
+    "vanillablocksplus:cut_sandstone_door",
+    "vanillablocksplus:cut_sandstone_trapdoor",
+    "vanillablocksplus:cut_sandstone_fence_gate",
+    "vanillablocksplus:cut_sandstone_fence",
+    "vanillablocksplus:cut_sandstone_button",
+    "vanillablocksplus:cut_sandstone_pressure_plate",
+    "vanillablocksplus:cut_sandstone_wall"
   ]
 }

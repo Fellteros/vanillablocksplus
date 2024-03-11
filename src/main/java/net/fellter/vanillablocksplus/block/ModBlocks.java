@@ -1125,6 +1125,35 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F)));
 
+    //cut sandstone set
+    public static final Block CUT_SANDSTONE_MOD = registerBlock("cut_sandstone_mod",
+            new Block(FabricBlockSettings.copyOf(Blocks.CUT_SANDSTONE)));
+    public static final Block CUT_SANDSTONE_STAIRS = registerBlock("cut_sandstone_stairs",
+            new StairsBlock(Blocks.CUT_SANDSTONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f)));
+    public static final Block CUT_SANDSTONE_BUTTON = registerBlock("cut_sandstone_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f), BlockSetType.STONE, 10, false));
+    public static final Block CUT_SANDSTONE_PRESSURE_PLATE = registerBlock("cut_sandstone_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f), BlockSetType.STONE));
+    public static final Block CUT_SANDSTONE_FENCE = registerBlock("cut_sandstone_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f)));
+    public static final Block CUT_SANDSTONE_FENCE_GATE = registerBlock("cut_sandstone_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f), WoodType.OAK));
+    public static final Block CUT_SANDSTONE_DOOR = registerBlock("cut_sandstone_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f), BlockSetType.STONE));
+    public static final Block CUT_SANDSTONE_TRAPDOOR = registerBlock("cut_sandstone_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f), BlockSetType.STONE));
+    public static final Block CUT_SANDSTONE_WALL = registerBlock("cut_sandstone_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f)));
+
 
 
 

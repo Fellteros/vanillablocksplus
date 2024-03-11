@@ -395,6 +395,15 @@
   "block.vanillablocksplus.smooth_sandstone_button": "Smooth Sandstone Button",
   "block.vanillablocksplus.smooth_sandstone_wall": "Smooth Sandstone Wall",
 
+  "block.vanillablocksplus.cut_sandstone_door": "Cut Sandstone Door",
+  "block.vanillablocksplus.cut_sandstone_stairs": "Cut Sandstone Stairs",
+  "block.vanillablocksplus.cut_sandstone_trapdoor": "Cut Sandstone Trapdoor",
+  "block.vanillablocksplus.cut_sandstone_fence": "Cut Sandstone Fence",
+  "block.vanillablocksplus.cut_sandstone_fence_gate": "Cut Sandstone Fence Gate",
+  "block.vanillablocksplus.cut_sandstone_pressure_plate": "Cut Sandstone Pressure Plate",
+  "block.vanillablocksplus.cut_sandstone_button": "Cut Sandstone Button",
+  "block.vanillablocksplus.cut_sandstone_wall": "Cut Sandstone Wall",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }
