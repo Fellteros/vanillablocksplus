@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "vanillablocksplus:block/cut_red_sandstone_mod"
+  }
+}

@@ -419,6 +419,30 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CUT_SANDSTONE_TRAPDOOR);
                         entries.add(ModBlocks.CUT_SANDSTONE_PRESSURE_PLATE);
                         entries.add(ModBlocks.CUT_SANDSTONE_BUTTON);
+                        //red sandstone
+                        entries.add(ModBlocks.RED_SANDSTONE_FENCE);
+                        entries.add(ModBlocks.RED_SANDSTONE_FENCE_GATE);
+                        entries.add(ModBlocks.RED_SANDSTONE_DOOR);
+                        entries.add(ModBlocks.RED_SANDSTONE_TRAPDOOR);
+                        entries.add(ModBlocks.RED_SANDSTONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RED_SANDSTONE_BUTTON);
+                        //red smooth sandstone
+                        entries.add(ModBlocks.SMOOTH_RED_SANDSTONE_WALL);
+                        entries.add(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE);
+                        entries.add(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE_GATE);
+                        entries.add(ModBlocks.SMOOTH_RED_SANDSTONE_DOOR);
+                        entries.add(ModBlocks.SMOOTH_RED_SANDSTONE_TRAPDOOR);
+                        entries.add(ModBlocks.SMOOTH_RED_SANDSTONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SMOOTH_RED_SANDSTONE_BUTTON);
+                        //red cut sandstone
+                        entries.add(ModBlocks.CUT_RED_SANDSTONE_STAIRS);
+                        entries.add(ModBlocks.CUT_RED_SANDSTONE_WALL);
+                        entries.add(ModBlocks.CUT_RED_SANDSTONE_FENCE);
+                        entries.add(ModBlocks.CUT_RED_SANDSTONE_FENCE_GATE);
+                        entries.add(ModBlocks.CUT_RED_SANDSTONE_DOOR);
+                        entries.add(ModBlocks.CUT_RED_SANDSTONE_TRAPDOOR);
+                        entries.add(ModBlocks.CUT_RED_SANDSTONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CUT_RED_SANDSTONE_BUTTON);
 
 
                     }).build());

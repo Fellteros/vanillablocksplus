@@ -1086,6 +1086,65 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.CUT_SANDSTONE_BUTTON, Blocks.CUT_SANDSTONE, 1);
         offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.CUT_SANDSTONE_WALL, Blocks.CUT_SANDSTONE);
 
+        //red sandstone
+        createDoorRecipe(ModBlocks.RED_SANDSTONE_DOOR, Ingredient.ofItems(Blocks.RED_SANDSTONE))
+                .criterion(hasItem(Blocks.RED_SANDSTONE), conditionsFromItem(Blocks.RED_SANDSTONE))
+                .offerTo(exporter);
+        createNonWoodFenceRecipe(ModBlocks.RED_SANDSTONE_FENCE, Ingredient.ofItems(Blocks.RED_SANDSTONE), Ingredient.ofItems(Blocks.RED_SANDSTONE_SLAB), 3)
+                .criterion(hasItem(Blocks.RED_SANDSTONE), conditionsFromItem(Blocks.RED_SANDSTONE))
+                .offerTo(exporter);
+        createNonWoodFenceGateRecipe(ModBlocks.RED_SANDSTONE_FENCE_GATE, Ingredient.ofItems(Blocks.RED_SANDSTONE), Ingredient.ofItems(Blocks.RED_SANDSTONE_SLAB), 1)
+                .criterion(hasItem(Blocks.RED_SANDSTONE), conditionsFromItem(Blocks.RED_SANDSTONE))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.RED_SANDSTONE_TRAPDOOR, Ingredient.ofItems(Blocks.RED_SANDSTONE_SLAB))
+                .criterion(hasItem(Blocks.RED_SANDSTONE), conditionsFromItem(Blocks.RED_SANDSTONE))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_SANDSTONE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.RED_SANDSTONE))
+                .criterion(hasItem(Blocks.RED_SANDSTONE), conditionsFromItem(Blocks.RED_SANDSTONE))
+                .offerTo(exporter);
+        offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.RED_SANDSTONE_BUTTON, Blocks.RED_SANDSTONE, 1);
+
+        //red smooth sandstone
+        createDoorRecipe(ModBlocks.SMOOTH_RED_SANDSTONE_DOOR, Ingredient.ofItems(Blocks.SMOOTH_RED_SANDSTONE))
+                .criterion(hasItem(Blocks.SMOOTH_RED_SANDSTONE), conditionsFromItem(Blocks.SMOOTH_RED_SANDSTONE))
+                .offerTo(exporter);
+        createNonWoodFenceRecipe(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE, Ingredient.ofItems(Blocks.SMOOTH_RED_SANDSTONE), Ingredient.ofItems(Blocks.SMOOTH_RED_SANDSTONE_SLAB), 3)
+                .criterion(hasItem(Blocks.SMOOTH_RED_SANDSTONE), conditionsFromItem(Blocks.SMOOTH_RED_SANDSTONE))
+                .offerTo(exporter);
+        createNonWoodFenceGateRecipe(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE_GATE, Ingredient.ofItems(Blocks.SMOOTH_RED_SANDSTONE), Ingredient.ofItems(Blocks.SMOOTH_RED_SANDSTONE_SLAB), 1)
+                .criterion(hasItem(Blocks.SMOOTH_RED_SANDSTONE), conditionsFromItem(Blocks.SMOOTH_RED_SANDSTONE))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.SMOOTH_RED_SANDSTONE_TRAPDOOR, Ingredient.ofItems(Blocks.SMOOTH_RED_SANDSTONE_SLAB))
+                .criterion(hasItem(Blocks.SMOOTH_RED_SANDSTONE), conditionsFromItem(Blocks.SMOOTH_RED_SANDSTONE))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_RED_SANDSTONE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.SMOOTH_RED_SANDSTONE))
+                .criterion(hasItem(Blocks.SMOOTH_RED_SANDSTONE), conditionsFromItem(Blocks.SMOOTH_RED_SANDSTONE))
+                .offerTo(exporter);
+        offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_RED_SANDSTONE_BUTTON, Blocks.SMOOTH_RED_SANDSTONE, 1);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_RED_SANDSTONE_WALL, Blocks.SMOOTH_RED_SANDSTONE);
+
+        //red cut sandstone
+        createStairsRecipe(ModBlocks.CUT_RED_SANDSTONE_STAIRS, Ingredient.ofItems(Blocks.CUT_RED_SANDSTONE))
+                .criterion(hasItem(Blocks.CUT_RED_SANDSTONE), conditionsFromItem(Blocks.CUT_RED_SANDSTONE))
+                .offerTo(exporter);
+        createDoorRecipe(ModBlocks.CUT_RED_SANDSTONE_DOOR, Ingredient.ofItems(Blocks.CUT_RED_SANDSTONE))
+                .criterion(hasItem(Blocks.CUT_RED_SANDSTONE), conditionsFromItem(Blocks.CUT_RED_SANDSTONE))
+                .offerTo(exporter);
+        createNonWoodFenceRecipe(ModBlocks.CUT_RED_SANDSTONE_FENCE, Ingredient.ofItems(Blocks.CUT_RED_SANDSTONE), Ingredient.ofItems(Blocks.CUT_RED_SANDSTONE_SLAB), 3)
+                .criterion(hasItem(Blocks.CUT_RED_SANDSTONE), conditionsFromItem(Blocks.CUT_RED_SANDSTONE))
+                .offerTo(exporter);
+        createNonWoodFenceGateRecipe(ModBlocks.CUT_RED_SANDSTONE_FENCE_GATE, Ingredient.ofItems(Blocks.CUT_RED_SANDSTONE), Ingredient.ofItems(Blocks.CUT_RED_SANDSTONE_SLAB), 1)
+                .criterion(hasItem(Blocks.CUT_RED_SANDSTONE), conditionsFromItem(Blocks.CUT_RED_SANDSTONE))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.CUT_RED_SANDSTONE_TRAPDOOR, Ingredient.ofItems(Blocks.CUT_RED_SANDSTONE_SLAB))
+                .criterion(hasItem(Blocks.CUT_RED_SANDSTONE), conditionsFromItem(Blocks.CUT_RED_SANDSTONE))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.CUT_RED_SANDSTONE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.CUT_RED_SANDSTONE))
+                .criterion(hasItem(Blocks.CUT_RED_SANDSTONE), conditionsFromItem(Blocks.CUT_RED_SANDSTONE))
+                .offerTo(exporter);
+        offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.CUT_RED_SANDSTONE_BUTTON, Blocks.CUT_RED_SANDSTONE, 1);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.CUT_RED_SANDSTONE_WALL, Blocks.CUT_RED_SANDSTONE);
+
 
 
 

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "vanillablocksplus:block/cut_red_sandstone_mod"
+  }
+}

@@ -404,6 +404,30 @@
   "block.vanillablocksplus.cut_sandstone_button": "Cut Sandstone Button",
   "block.vanillablocksplus.cut_sandstone_wall": "Cut Sandstone Wall",
 
+  "block.vanillablocksplus.red_sandstone_door": "Red Sandstone Door",
+  "block.vanillablocksplus.red_sandstone_trapdoor": "Red Sandstone Trapdoor",
+  "block.vanillablocksplus.red_sandstone_fence": "Red Sandstone Fence",
+  "block.vanillablocksplus.red_sandstone_fence_gate": "Red Sandstone Fence Gate",
+  "block.vanillablocksplus.red_sandstone_pressure_plate": "Red Sandstone Pressure Plate",
+  "block.vanillablocksplus.red_sandstone_button": "Red Sandstone Button",
+
+  "block.vanillablocksplus.smooth_red_sandstone_door": "Smooth Red Sandstone Door",
+  "block.vanillablocksplus.smooth_red_sandstone_trapdoor": "Smooth Red Sandstone Trapdoor",
+  "block.vanillablocksplus.smooth_red_sandstone_fence": "Smooth Red Sandstone Fence",
+  "block.vanillablocksplus.smooth_red_sandstone_fence_gate": "Smooth Red Sandstone Fence Gate",
+  "block.vanillablocksplus.smooth_red_sandstone_pressure_plate": "Smooth Red Sandstone Pressure Plate",
+  "block.vanillablocksplus.smooth_red_sandstone_button": "Smooth Red Sandstone Button",
+  "block.vanillablocksplus.smooth_red_sandstone_wall": "Smooth Red Sandstone Wall",
+
+  "block.vanillablocksplus.cut_red_sandstone_door": "Cut Red Sandstone Door",
+  "block.vanillablocksplus.cut_red_sandstone_stairs": "Cut Red Sandstone Stairs",
+  "block.vanillablocksplus.cut_red_sandstone_trapdoor": "Cut Red Sandstone Trapdoor",
+  "block.vanillablocksplus.cut_red_sandstone_fence": "Cut Red Sandstone Fence",
+  "block.vanillablocksplus.cut_red_sandstone_fence_gate": "Cut Red Sandstone Fence Gate",
+  "block.vanillablocksplus.cut_red_sandstone_pressure_plate": "Cut Red Sandstone Pressure Plate",
+  "block.vanillablocksplus.cut_red_sandstone_button": "Cut Red Sandstone Button",
+  "block.vanillablocksplus.cut_red_sandstone_wall": "Cut Red Sandstone Wall",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

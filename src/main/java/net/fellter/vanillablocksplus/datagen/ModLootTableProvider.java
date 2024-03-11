@@ -423,6 +423,30 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CUT_SANDSTONE_FENCE_GATE);
         addDrop(ModBlocks.CUT_SANDSTONE_DOOR, doorDrops(ModBlocks.CUT_SANDSTONE_DOOR));
         addDrop(ModBlocks.CUT_SANDSTONE_WALL);
+        //red sandstone
+        addDrop(ModBlocks.RED_SANDSTONE_TRAPDOOR);
+        addDrop(ModBlocks.RED_SANDSTONE_BUTTON);
+        addDrop(ModBlocks.RED_SANDSTONE_PRESSURE_PLATE);
+        addDrop(ModBlocks.RED_SANDSTONE_FENCE);
+        addDrop(ModBlocks.RED_SANDSTONE_FENCE_GATE);
+        addDrop(ModBlocks.RED_SANDSTONE_DOOR, doorDrops(ModBlocks.RED_SANDSTONE_DOOR));
+        //red smooth sandstone
+        addDrop(ModBlocks.SMOOTH_RED_SANDSTONE_TRAPDOOR);
+        addDrop(ModBlocks.SMOOTH_RED_SANDSTONE_BUTTON);
+        addDrop(ModBlocks.SMOOTH_RED_SANDSTONE_PRESSURE_PLATE);
+        addDrop(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE);
+        addDrop(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE_GATE);
+        addDrop(ModBlocks.SMOOTH_RED_SANDSTONE_DOOR, doorDrops(ModBlocks.SMOOTH_RED_SANDSTONE_DOOR));
+        addDrop(ModBlocks.SMOOTH_RED_SANDSTONE_WALL);
+        //red cut sandstone
+        addDrop(ModBlocks.CUT_RED_SANDSTONE_STAIRS);
+        addDrop(ModBlocks.CUT_RED_SANDSTONE_TRAPDOOR);
+        addDrop(ModBlocks.CUT_RED_SANDSTONE_BUTTON);
+        addDrop(ModBlocks.CUT_RED_SANDSTONE_PRESSURE_PLATE);
+        addDrop(ModBlocks.CUT_RED_SANDSTONE_FENCE);
+        addDrop(ModBlocks.CUT_RED_SANDSTONE_FENCE_GATE);
+        addDrop(ModBlocks.CUT_RED_SANDSTONE_DOOR, doorDrops(ModBlocks.CUT_RED_SANDSTONE_DOOR));
+        addDrop(ModBlocks.CUT_RED_SANDSTONE_WALL);
 
 
     }

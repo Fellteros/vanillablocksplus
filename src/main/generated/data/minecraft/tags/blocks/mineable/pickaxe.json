@@ -169,6 +169,27 @@
     "vanillablocksplus:cut_sandstone_fence",
     "vanillablocksplus:cut_sandstone_button",
     "vanillablocksplus:cut_sandstone_pressure_plate",
-    "vanillablocksplus:cut_sandstone_wall"
+    "vanillablocksplus:cut_sandstone_wall",
+    "vanillablocksplus:red_sandstone_door",
+    "vanillablocksplus:red_sandstone_trapdoor",
+    "vanillablocksplus:red_sandstone_fence_gate",
+    "vanillablocksplus:red_sandstone_fence",
+    "vanillablocksplus:red_sandstone_button",
+    "vanillablocksplus:red_sandstone_pressure_plate",
+    "vanillablocksplus:smooth_red_sandstone_door",
+    "vanillablocksplus:smooth_red_sandstone_trapdoor",
+    "vanillablocksplus:smooth_red_sandstone_fence_gate",
+    "vanillablocksplus:smooth_red_sandstone_fence",
+    "vanillablocksplus:smooth_red_sandstone_button",
+    "vanillablocksplus:smooth_red_sandstone_pressure_plate",
+    "vanillablocksplus:smooth_red_sandstone_wall",
+    "vanillablocksplus:cut_red_sandstone_stairs",
+    "vanillablocksplus:cut_red_sandstone_door",
+    "vanillablocksplus:cut_red_sandstone_trapdoor",
+    "vanillablocksplus:cut_red_sandstone_fence_gate",
+    "vanillablocksplus:cut_red_sandstone_fence",
+    "vanillablocksplus:cut_red_sandstone_button",
+    "vanillablocksplus:cut_red_sandstone_pressure_plate",
+    "vanillablocksplus:cut_red_sandstone_wall"
   ]
 }

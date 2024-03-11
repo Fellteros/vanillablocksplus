@@ -110,6 +110,12 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_SANDSTONE);
         BlockStateModelGenerator.BlockTexturePool cutSandstonePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CUT_SANDSTONE_MOD);
+        BlockStateModelGenerator.BlockTexturePool redSandstonePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RED_SANDSTONE_MOD);
+        BlockStateModelGenerator.BlockTexturePool smoothRedSandstonePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_RED_SANDSTONE);
+        BlockStateModelGenerator.BlockTexturePool cutRedSandstonePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CUT_RED_SANDSTONE_MOD);
 
 
 
@@ -421,6 +427,24 @@ public class ModModelProvider extends FabricModelProvider {
         cutSandstonePool.fenceGate(ModBlocks.CUT_SANDSTONE_FENCE_GATE);
         cutSandstonePool.pressurePlate(ModBlocks.CUT_SANDSTONE_PRESSURE_PLATE);
         cutSandstonePool.wall(ModBlocks.CUT_SANDSTONE_WALL);
+        //red sandstone
+        redSandstonePool.button(ModBlocks.RED_SANDSTONE_BUTTON);
+        redSandstonePool.fence(ModBlocks.RED_SANDSTONE_FENCE);
+        redSandstonePool.fenceGate(ModBlocks.RED_SANDSTONE_FENCE_GATE);
+        redSandstonePool.pressurePlate(ModBlocks.RED_SANDSTONE_PRESSURE_PLATE);
+        //smooth red sandstone
+        smoothRedSandstonePool.button(ModBlocks.SMOOTH_RED_SANDSTONE_BUTTON);
+        smoothRedSandstonePool.fence(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE);
+        smoothRedSandstonePool.fenceGate(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE_GATE);
+        smoothRedSandstonePool.pressurePlate(ModBlocks.SMOOTH_RED_SANDSTONE_PRESSURE_PLATE);
+        smoothRedSandstonePool.wall(ModBlocks.SMOOTH_RED_SANDSTONE_WALL);
+        //cut red sandstone
+        cutRedSandstonePool.stairs(ModBlocks.CUT_RED_SANDSTONE_STAIRS);
+        cutRedSandstonePool.button(ModBlocks.CUT_RED_SANDSTONE_BUTTON);
+        cutRedSandstonePool.fence(ModBlocks.CUT_RED_SANDSTONE_FENCE);
+        cutRedSandstonePool.fenceGate(ModBlocks.CUT_RED_SANDSTONE_FENCE_GATE);
+        cutRedSandstonePool.pressurePlate(ModBlocks.CUT_RED_SANDSTONE_PRESSURE_PLATE);
+        cutRedSandstonePool.wall(ModBlocks.CUT_RED_SANDSTONE_WALL);
 
 
 
@@ -568,6 +592,15 @@ public class ModModelProvider extends FabricModelProvider {
         //cut sandstone
         blockStateModelGenerator.registerDoor(ModBlocks.CUT_SANDSTONE_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CUT_SANDSTONE_TRAPDOOR);
+        //red sandstone
+        blockStateModelGenerator.registerDoor(ModBlocks.RED_SANDSTONE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.RED_SANDSTONE_TRAPDOOR);
+        //red smooth sandstone
+        blockStateModelGenerator.registerDoor(ModBlocks.SMOOTH_RED_SANDSTONE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SMOOTH_RED_SANDSTONE_TRAPDOOR);
+        //red cut sandstone
+        blockStateModelGenerator.registerDoor(ModBlocks.CUT_RED_SANDSTONE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CUT_RED_SANDSTONE_TRAPDOOR);
 
 
 

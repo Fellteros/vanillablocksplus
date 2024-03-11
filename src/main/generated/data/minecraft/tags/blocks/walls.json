@@ -13,6 +13,8 @@
     "vanillablocksplus:cracked_deepslate_tiles_wall",
     "vanillablocksplus:packed_mud_wall",
     "vanillablocksplus:smooth_sandstone_wall",
-    "vanillablocksplus:cut_sandstone_wall"
+    "vanillablocksplus:cut_sandstone_wall",
+    "vanillablocksplus:smooth_red_sandstone_wall",
+    "vanillablocksplus:cut_red_sandstone_wall"
   ]
 }
