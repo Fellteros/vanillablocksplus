@@ -984,7 +984,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.BRICK_BUTTON, Blocks.BRICKS, 1);
 
-        //cracked deepslate tiles
+        //packed mud
         createDoorRecipe(ModBlocks.PACKED_MUD_DOOR, Ingredient.ofItems(Blocks.PACKED_MUD))
                 .criterion(hasItem(Blocks.PACKED_MUD), conditionsFromItem(Blocks.PACKED_MUD))
                 .offerTo(exporter);
@@ -1044,6 +1044,25 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.SANDSTONE), conditionsFromItem(Blocks.SANDSTONE))
                 .offerTo(exporter);
         offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.SANDSTONE_BUTTON, Blocks.SANDSTONE, 1);
+
+        //smooth sandstone
+        createDoorRecipe(ModBlocks.SMOOTH_SANDSTONE_DOOR, Ingredient.ofItems(Blocks.SMOOTH_SANDSTONE))
+                .criterion(hasItem(Blocks.SMOOTH_SANDSTONE), conditionsFromItem(Blocks.SMOOTH_SANDSTONE))
+                .offerTo(exporter);
+        createNonWoodFenceRecipe(ModBlocks.SMOOTH_SANDSTONE_FENCE, Ingredient.ofItems(Blocks.SMOOTH_SANDSTONE), Ingredient.ofItems(Blocks.SMOOTH_SANDSTONE_SLAB), 3)
+                .criterion(hasItem(Blocks.SMOOTH_SANDSTONE), conditionsFromItem(Blocks.SMOOTH_SANDSTONE))
+                .offerTo(exporter);
+        createNonWoodFenceGateRecipe(ModBlocks.SMOOTH_SANDSTONE_FENCE_GATE, Ingredient.ofItems(Blocks.SMOOTH_SANDSTONE), Ingredient.ofItems(Blocks.SMOOTH_SANDSTONE_SLAB), 1)
+                .criterion(hasItem(Blocks.SMOOTH_SANDSTONE), conditionsFromItem(Blocks.SMOOTH_SANDSTONE))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.SMOOTH_SANDSTONE_TRAPDOOR, Ingredient.ofItems(Blocks.SMOOTH_SANDSTONE_SLAB))
+                .criterion(hasItem(Blocks.SMOOTH_SANDSTONE), conditionsFromItem(Blocks.SMOOTH_SANDSTONE))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_SANDSTONE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.SMOOTH_SANDSTONE))
+                .criterion(hasItem(Blocks.SMOOTH_SANDSTONE), conditionsFromItem(Blocks.SMOOTH_SANDSTONE))
+                .offerTo(exporter);
+        offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_SANDSTONE_BUTTON, Blocks.SMOOTH_SANDSTONE, 1);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_SANDSTONE_WALL, Blocks.SMOOTH_SANDSTONE);
 
 
 

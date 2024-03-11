@@ -154,6 +154,13 @@
     "vanillablocksplus:sandstone_fence_gate",
     "vanillablocksplus:sandstone_fence",
     "vanillablocksplus:sandstone_button",
-    "vanillablocksplus:sandstone_pressure_plate"
+    "vanillablocksplus:sandstone_pressure_plate",
+    "vanillablocksplus:smooth_sandstone_door",
+    "vanillablocksplus:smooth_sandstone_trapdoor",
+    "vanillablocksplus:smooth_sandstone_fence_gate",
+    "vanillablocksplus:smooth_sandstone_fence",
+    "vanillablocksplus:smooth_sandstone_button",
+    "vanillablocksplus:smooth_sandstone_pressure_plate",
+    "vanillablocksplus:smooth_sandstone_wall"
   ]
 }

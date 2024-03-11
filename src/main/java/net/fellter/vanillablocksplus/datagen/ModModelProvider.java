@@ -108,6 +108,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MUD_BRICKS);
         BlockStateModelGenerator.BlockTexturePool sandstonePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SANDSTONE_MOD);
+        BlockStateModelGenerator.BlockTexturePool smoothSandstonePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_SANDSTONE);
 
 
 
@@ -405,6 +407,12 @@ public class ModModelProvider extends FabricModelProvider {
         sandstonePool.fence(ModBlocks.SANDSTONE_FENCE);
         sandstonePool.fenceGate(ModBlocks.SANDSTONE_FENCE_GATE);
         sandstonePool.pressurePlate(ModBlocks.SANDSTONE_PRESSURE_PLATE);
+        //smooth sandstone
+        smoothSandstonePool.button(ModBlocks.SMOOTH_SANDSTONE_BUTTON);
+        smoothSandstonePool.fence(ModBlocks.SMOOTH_SANDSTONE_FENCE);
+        smoothSandstonePool.fenceGate(ModBlocks.SMOOTH_SANDSTONE_FENCE_GATE);
+        smoothSandstonePool.pressurePlate(ModBlocks.SMOOTH_SANDSTONE_PRESSURE_PLATE);
+        smoothSandstonePool.wall(ModBlocks.SMOOTH_SANDSTONE_WALL);
 
 
 
@@ -546,6 +554,9 @@ public class ModModelProvider extends FabricModelProvider {
         //sandstone
         blockStateModelGenerator.registerDoor(ModBlocks.SANDSTONE_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SANDSTONE_TRAPDOOR);
+        //smooth sandstone
+        blockStateModelGenerator.registerDoor(ModBlocks.SMOOTH_SANDSTONE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SMOOTH_SANDSTONE_TRAPDOOR);
 
 
 

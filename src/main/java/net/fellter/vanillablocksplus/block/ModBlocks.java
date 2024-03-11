@@ -1078,7 +1078,7 @@ public class ModBlocks {
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 3.0F)
                     .sounds(BlockSoundGroup.MUD_BRICKS), BlockSetType.STONE));
 
-    //mud bricks set
+    //sandstone set
     public static final Block SANDSTONE_MOD = registerBlock("sandstone_mod",
             new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
     public static final Block SANDSTONE_BUTTON = registerBlock("sandstone_button",
@@ -1100,6 +1100,30 @@ public class ModBlocks {
     public static final Block SANDSTONE_TRAPDOOR = registerBlock("sandstone_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f), BlockSetType.STONE));
+
+    //smooth sandstone set
+    public static final Block SMOOTH_SANDSTONE_BUTTON = registerBlock("smooth_sandstone_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), BlockSetType.STONE, 10, false));
+    public static final Block SMOOTH_SANDSTONE_PRESSURE_PLATE = registerBlock("smooth_sandstone_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), BlockSetType.STONE));
+    public static final Block SMOOTH_SANDSTONE_FENCE = registerBlock("smooth_sandstone_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F)));
+    public static final Block SMOOTH_SANDSTONE_FENCE_GATE = registerBlock("smooth_sandstone_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), WoodType.OAK));
+    public static final Block SMOOTH_SANDSTONE_DOOR = registerBlock("smooth_sandstone_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), BlockSetType.STONE));
+    public static final Block SMOOTH_SANDSTONE_TRAPDOOR = registerBlock("smooth_sandstone_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F), BlockSetType.STONE));
+    public static final Block SMOOTH_SANDSTONE_WALL = registerBlock("smooth_sandstone_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F)));
 
 
 

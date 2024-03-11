@@ -402,6 +402,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SANDSTONE_TRAPDOOR);
                         entries.add(ModBlocks.SANDSTONE_PRESSURE_PLATE);
                         entries.add(ModBlocks.SANDSTONE_BUTTON);
+                        //smooth sandstone
+                        entries.add(ModBlocks.SMOOTH_SANDSTONE_WALL);
+                        entries.add(ModBlocks.SMOOTH_SANDSTONE_FENCE);
+                        entries.add(ModBlocks.SMOOTH_SANDSTONE_FENCE_GATE);
+                        entries.add(ModBlocks.SMOOTH_SANDSTONE_DOOR);
+                        entries.add(ModBlocks.SMOOTH_SANDSTONE_TRAPDOOR);
+                        entries.add(ModBlocks.SMOOTH_SANDSTONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SMOOTH_SANDSTONE_BUTTON);
 
 
                     }).build());

@@ -387,6 +387,14 @@
   "block.vanillablocksplus.sandstone_pressure_plate": "Sandstone Pressure Plate",
   "block.vanillablocksplus.sandstone_button": "Sandstone Button",
 
+  "block.vanillablocksplus.smooth_sandstone_door": "Smooth Sandstone Door",
+  "block.vanillablocksplus.smooth_sandstone_trapdoor": "Smooth Sandstone Trapdoor",
+  "block.vanillablocksplus.smooth_sandstone_fence": "Smooth Sandstone Fence",
+  "block.vanillablocksplus.smooth_sandstone_fence_gate": "Smooth Sandstone Fence Gate",
+  "block.vanillablocksplus.smooth_sandstone_pressure_plate": "Smooth Sandstone Pressure Plate",
+  "block.vanillablocksplus.smooth_sandstone_button": "Smooth Sandstone Button",
+  "block.vanillablocksplus.smooth_sandstone_wall": "Smooth Sandstone Wall",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

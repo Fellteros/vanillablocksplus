@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "vanillablocksplus:item/smooth_sandstone_door"
+  }
+}

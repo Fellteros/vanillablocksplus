@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:smooth_sandstone_slab"
+    },
+    "W": {
+      "item": "minecraft:smooth_sandstone"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "vanillablocksplus:smooth_sandstone_fence_gate"
+  },
+  "show_notification": true
+}
