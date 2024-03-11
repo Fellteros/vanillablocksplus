@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:prismarine_slab"
+    },
+    "W": {
+      "item": "minecraft:prismarine"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "vanillablocksplus:prismarine_fence_gate"
+  },
+  "show_notification": true
+}

@@ -259,7 +259,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SEA_LANTERN_FENCE_GATE)
                 .add(ModBlocks.SEA_LANTERN_FENCE)
                 .add(ModBlocks.SEA_LANTERN_BUTTON)
-                .add(ModBlocks.SEA_LANTERN_PRESSURE_PLATE);
+                .add(ModBlocks.SEA_LANTERN_PRESSURE_PLATE)
+                //prismarine
+                .add(ModBlocks.PRISMARINE_DOOR)
+                .add(ModBlocks.PRISMARINE_TRAPDOOR)
+                .add(ModBlocks.PRISMARINE_FENCE_GATE)
+                .add(ModBlocks.PRISMARINE_FENCE)
+                .add(ModBlocks.PRISMARINE_BUTTON)
+                .add(ModBlocks.PRISMARINE_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 //oak
@@ -505,7 +512,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RED_SANDSTONE_FENCE)
                 .add(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE)
                 .add(ModBlocks.CUT_RED_SANDSTONE_FENCE)
-                .add(ModBlocks.SEA_LANTERN_FENCE);
+                .add(ModBlocks.SEA_LANTERN_FENCE)
+                .add(ModBlocks.PRISMARINE_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -560,7 +568,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RED_SANDSTONE_FENCE)
                 .add(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE)
                 .add(ModBlocks.CUT_RED_SANDSTONE_FENCE)
-                .add(ModBlocks.SEA_LANTERN_FENCE);
+                .add(ModBlocks.SEA_LANTERN_FENCE)
+                .add(ModBlocks.PRISMARINE_FENCE);
 
 
 
@@ -616,7 +625,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RED_SANDSTONE_FENCE_GATE)
                 .add(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE_GATE)
                 .add(ModBlocks.CUT_RED_SANDSTONE_FENCE_GATE)
-                .add(ModBlocks.SEA_LANTERN_FENCE_GATE);
+                .add(ModBlocks.SEA_LANTERN_FENCE_GATE)
+                .add(ModBlocks.PRISMARINE_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)

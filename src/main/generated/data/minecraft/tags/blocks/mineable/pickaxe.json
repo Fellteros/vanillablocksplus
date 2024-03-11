@@ -199,6 +199,12 @@
     "vanillablocksplus:sea_lantern_fence_gate",
     "vanillablocksplus:sea_lantern_fence",
     "vanillablocksplus:sea_lantern_button",
-    "vanillablocksplus:sea_lantern_pressure_plate"
+    "vanillablocksplus:sea_lantern_pressure_plate",
+    "vanillablocksplus:prismarine_door",
+    "vanillablocksplus:prismarine_trapdoor",
+    "vanillablocksplus:prismarine_fence_gate",
+    "vanillablocksplus:prismarine_fence",
+    "vanillablocksplus:prismarine_button",
+    "vanillablocksplus:prismarine_pressure_plate"
   ]
 }

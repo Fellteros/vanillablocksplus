@@ -453,6 +453,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SEA_LANTERN_TRAPDOOR);
                         entries.add(ModBlocks.SEA_LANTERN_PRESSURE_PLATE);
                         entries.add(ModBlocks.SEA_LANTERN_BUTTON);
+                        //prismarine
+                        entries.add(ModBlocks.PRISMARINE_FENCE);
+                        entries.add(ModBlocks.PRISMARINE_FENCE_GATE);
+                        entries.add(ModBlocks.PRISMARINE_DOOR);
+                        entries.add(ModBlocks.PRISMARINE_TRAPDOOR);
+                        entries.add(ModBlocks.PRISMARINE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.PRISMARINE_BUTTON);
 
 
                     }).build());

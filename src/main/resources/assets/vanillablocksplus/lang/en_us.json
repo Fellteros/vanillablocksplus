@@ -438,6 +438,13 @@
   "block.vanillablocksplus.sea_lantern_button": "Sea Lantern Button",
   "block.vanillablocksplus.sea_lantern_wall": "Sea Lantern Wall",
 
+  "block.vanillablocksplus.prismarine_door": "Prismarine Door",
+  "block.vanillablocksplus.prismarine_trapdoor": "Prismarine Trapdoor",
+  "block.vanillablocksplus.prismarine_fence": "Prismarine Fence",
+  "block.vanillablocksplus.prismarine_fence_gate": "Prismarine Fence Gate",
+  "block.vanillablocksplus.prismarine_pressure_plate": "Prismarine Pressure Plate",
+  "block.vanillablocksplus.prismarine_button": "Prismarine Button",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }
