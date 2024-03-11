@@ -10,7 +10,6 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 
 
-import java.util.concurrent.locks.Condition;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
