@@ -464,6 +464,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PRISMARINE_FENCE);
         addDrop(ModBlocks.PRISMARINE_FENCE_GATE);
         addDrop(ModBlocks.PRISMARINE_DOOR, doorDrops(ModBlocks.PRISMARINE_DOOR));
+        //prismarine brick
+        addDrop(ModBlocks.PRISMARINE_BRICK_WALL);
+        addDrop(ModBlocks.PRISMARINE_BRICK_TRAPDOOR);
+        addDrop(ModBlocks.PRISMARINE_BRICK_BUTTON);
+        addDrop(ModBlocks.PRISMARINE_BRICK_PRESSURE_PLATE);
+        addDrop(ModBlocks.PRISMARINE_BRICK_FENCE);
+        addDrop(ModBlocks.PRISMARINE_BRICK_FENCE_GATE);
+        addDrop(ModBlocks.PRISMARINE_BRICK_DOOR, doorDrops(ModBlocks.PRISMARINE_BRICK_DOOR));
 
 
     }

@@ -460,6 +460,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PRISMARINE_TRAPDOOR);
                         entries.add(ModBlocks.PRISMARINE_PRESSURE_PLATE);
                         entries.add(ModBlocks.PRISMARINE_BUTTON);
+                        //prismarine brick
+                        entries.add(ModBlocks.PRISMARINE_BRICK_WALL);
+                        entries.add(ModBlocks.PRISMARINE_BRICK_FENCE);
+                        entries.add(ModBlocks.PRISMARINE_BRICK_FENCE_GATE);
+                        entries.add(ModBlocks.PRISMARINE_BRICK_DOOR);
+                        entries.add(ModBlocks.PRISMARINE_BRICK_TRAPDOOR);
+                        entries.add(ModBlocks.PRISMARINE_BRICK_PRESSURE_PLATE);
+                        entries.add(ModBlocks.PRISMARINE_BRICK_BUTTON);
 
 
                     }).build());

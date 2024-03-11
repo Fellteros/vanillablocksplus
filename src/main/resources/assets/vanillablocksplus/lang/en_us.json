@@ -445,6 +445,14 @@
   "block.vanillablocksplus.prismarine_pressure_plate": "Prismarine Pressure Plate",
   "block.vanillablocksplus.prismarine_button": "Prismarine Button",
 
+  "block.vanillablocksplus.prismarine_brick_wall": "Prismarine Brick Wall",
+  "block.vanillablocksplus.prismarine_brick_door": "Prismarine Brick Door",
+  "block.vanillablocksplus.prismarine_brick_trapdoor": "Prismarine Brick Trapdoor",
+  "block.vanillablocksplus.prismarine_brick_fence": "Prismarine Brick Fence",
+  "block.vanillablocksplus.prismarine_brick_fence_gate": "Prismarine Brick Fence Gate",
+  "block.vanillablocksplus.prismarine_brick_pressure_plate": "Prismarine Brick Pressure Plate",
+  "block.vanillablocksplus.prismarine_brick_button": "Prismarine Brick Button",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

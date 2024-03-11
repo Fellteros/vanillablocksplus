@@ -205,6 +205,13 @@
     "vanillablocksplus:prismarine_fence_gate",
     "vanillablocksplus:prismarine_fence",
     "vanillablocksplus:prismarine_button",
-    "vanillablocksplus:prismarine_pressure_plate"
+    "vanillablocksplus:prismarine_pressure_plate",
+    "vanillablocksplus:prismarine_brick_wall",
+    "vanillablocksplus:prismarine_brick_door",
+    "vanillablocksplus:prismarine_brick_trapdoor",
+    "vanillablocksplus:prismarine_brick_fence_gate",
+    "vanillablocksplus:prismarine_brick_fence",
+    "vanillablocksplus:prismarine_brick_button",
+    "vanillablocksplus:prismarine_brick_pressure_plate"
   ]
 }
