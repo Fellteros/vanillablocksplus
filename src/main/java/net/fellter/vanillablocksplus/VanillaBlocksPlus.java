@@ -18,5 +18,7 @@ public class VanillaBlocksPlus implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+
+
 	}
 }

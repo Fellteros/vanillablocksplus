@@ -482,6 +482,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DARK_PRISMARINE_DOOR, doorDrops(ModBlocks.DARK_PRISMARINE_DOOR));
 
 
+
     }
     public LootTable.Builder moreOreDrops(Block drop, Item item) {
         return dropsWithSilkTouch(drop, (LootPoolEntry.Builder)this

@@ -169,8 +169,6 @@
     "vanillablocksplus:str_warped_hyphae_door",
     "vanillablocksplus:str_warped_hyphae_trapdoor",
     "vanillablocksplus:str_warped_hyphae_pressure_plate",
-    "vanillablocksplus:str_warped_hyphae_button",
-    "vanillablocksplus:str_warped_hyphae_door",
-    "vanillablocksplus:str_warped_hyphae_trapdoor"
+    "vanillablocksplus:str_warped_hyphae_button"
   ]
 }

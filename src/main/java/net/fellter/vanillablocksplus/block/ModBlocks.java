@@ -3,6 +3,8 @@ package net.fellter.vanillablocksplus.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.fabricmc.fabric.api.object.builder.v1.block.type.BlockSetTypeBuilder;
+import net.fabricmc.fabric.api.object.builder.v1.block.type.WoodTypeBuilder;
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;

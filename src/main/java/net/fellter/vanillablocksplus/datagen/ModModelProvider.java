@@ -128,6 +128,9 @@ public class ModModelProvider extends FabricModelProvider {
 
 
 
+
+
+
         //oak
         oakWoodPool.button(ModBlocks.OAK_WOOD_BUTTON);
         oakWoodPool.fence(ModBlocks.OAK_WOOD_FENCE);
@@ -651,6 +654,8 @@ public class ModModelProvider extends FabricModelProvider {
 
 
 
+
+
     }
 
 
@@ -661,5 +666,6 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.VBP_TITLE, Models.GENERATED);
+
     }
 }

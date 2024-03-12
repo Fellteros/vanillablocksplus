@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "vanillablocksplus",
 	"version": "${version}",
-	"name": "Vanilla Blocks+",
+	"name": "Vanilla+ Blocks",
 	"description": "Mod adding all block variants to vanilla blocks.",
 	"authors": [
 		"Fellter"
