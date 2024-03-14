@@ -219,6 +219,15 @@
     "vanillablocksplus:dark_prismarine_fence_gate",
     "vanillablocksplus:dark_prismarine_fence",
     "vanillablocksplus:dark_prismarine_button",
-    "vanillablocksplus:dark_prismarine_pressure_plate"
+    "vanillablocksplus:dark_prismarine_pressure_plate",
+    "vanillablocksplus:netherrack_stairs",
+    "vanillablocksplus:netherrack_slab",
+    "vanillablocksplus:netherrack_wall",
+    "vanillablocksplus:netherrack_door",
+    "vanillablocksplus:netherrack_trapdoor",
+    "vanillablocksplus:netherrack_fence_gate",
+    "vanillablocksplus:netherrack_fence",
+    "vanillablocksplus:netherrack_button",
+    "vanillablocksplus:netherrack_pressure_plate"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_inventory",
   "textures": {
-    "texture": "vanillablocksplus:block/sea_lantern_mod"
+    "texture": "minecraft:block/sea_lantern"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/button",
   "textures": {
-    "texture": "vanillablocksplus:block/sea_lantern_mod"
+    "texture": "minecraft:block/sea_lantern"
   }
 }

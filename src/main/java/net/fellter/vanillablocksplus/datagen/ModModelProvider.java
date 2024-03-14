@@ -117,13 +117,15 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool cutRedSandstonePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CUT_RED_SANDSTONE_MOD);
         BlockStateModelGenerator.BlockTexturePool seaLanternPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SEA_LANTERN_MOD);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SEA_LANTERN);
         BlockStateModelGenerator.BlockTexturePool prismarinePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PRISMARINE);
         BlockStateModelGenerator.BlockTexturePool prismarineBrickPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PRISMARINE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool darkPrismarinePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DARK_PRISMARINE);
+        BlockStateModelGenerator.BlockTexturePool netherrackPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.NETHERRACK);
 
 
 
@@ -481,6 +483,14 @@ public class ModModelProvider extends FabricModelProvider {
         darkPrismarinePool.fenceGate(ModBlocks.DARK_PRISMARINE_FENCE_GATE);
         darkPrismarinePool.pressurePlate(ModBlocks.DARK_PRISMARINE_PRESSURE_PLATE);
         darkPrismarinePool.wall(ModBlocks.DARK_PRISMARINE_WALL);
+        //netherrack
+        netherrackPool.button(ModBlocks.NETHERRACK_BUTTON);
+        netherrackPool.wall(ModBlocks.NETHERRACK_WALL);
+        netherrackPool.stairs(ModBlocks.NETHERRACK_STAIRS);
+        netherrackPool.slab(ModBlocks.NETHERRACK_SLAB);
+        netherrackPool.fence(ModBlocks.NETHERRACK_FENCE);
+        netherrackPool.fenceGate(ModBlocks.NETHERRACK_FENCE_GATE);
+        netherrackPool.pressurePlate(ModBlocks.NETHERRACK_PRESSURE_PLATE);
 
 
 
@@ -649,7 +659,9 @@ public class ModModelProvider extends FabricModelProvider {
         //dark prismarine
         blockStateModelGenerator.registerDoor(ModBlocks.DARK_PRISMARINE_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DARK_PRISMARINE_TRAPDOOR);
-
+        //netherrack
+        blockStateModelGenerator.registerDoor(ModBlocks.NETHERRACK_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.NETHERRACK_TRAPDOOR);
 
 
 

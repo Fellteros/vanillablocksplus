@@ -4,7 +4,7 @@
       "model": "vanillablocksplus:block/sea_lantern_slab"
     },
     "type=double": {
-      "model": "vanillablocksplus:block/sea_lantern_mod"
+      "model": "minecraft:block/sea_lantern"
     },
     "type=top": {
       "model": "vanillablocksplus:block/sea_lantern_slab_top"

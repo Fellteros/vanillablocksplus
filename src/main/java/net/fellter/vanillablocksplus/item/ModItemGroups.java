@@ -476,6 +476,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DARK_PRISMARINE_TRAPDOOR);
                         entries.add(ModBlocks.DARK_PRISMARINE_PRESSURE_PLATE);
                         entries.add(ModBlocks.DARK_PRISMARINE_BUTTON);
+                        //netherrack
+                        entries.add(ModBlocks.NETHERRACK_STAIRS);
+                        entries.add(ModBlocks.NETHERRACK_SLAB);
+                        entries.add(ModBlocks.NETHERRACK_WALL);
+                        entries.add(ModBlocks.NETHERRACK_FENCE);
+                        entries.add(ModBlocks.NETHERRACK_FENCE_GATE);
+                        entries.add(ModBlocks.NETHERRACK_DOOR);
+                        entries.add(ModBlocks.NETHERRACK_TRAPDOOR);
+                        entries.add(ModBlocks.NETHERRACK_PRESSURE_PLATE);
+                        entries.add(ModBlocks.NETHERRACK_BUTTON);
 
 
 

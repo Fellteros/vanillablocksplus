@@ -461,6 +461,16 @@
   "block.vanillablocksplus.dark_prismarine_pressure_plate": "Dark Prismarine Pressure Plate",
   "block.vanillablocksplus.dark_prismarine_button": "Dark Prismarine Button",
 
+  "block.vanillablocksplus.netherrack_stairs": "Netherrack Stairs",
+  "block.vanillablocksplus.netherrack_slab": "Netherrack Slab",
+  "block.vanillablocksplus.netherrack_door": "Netherrack Door",
+  "block.vanillablocksplus.netherrack_trapdoor": "Netherrack Trapdoor",
+  "block.vanillablocksplus.netherrack_fence": "Netherrack Fence",
+  "block.vanillablocksplus.netherrack_fence_gate": "Netherrack Fence Gate",
+  "block.vanillablocksplus.netherrack_pressure_plate": "Netherrack Pressure Plate",
+  "block.vanillablocksplus.netherrack_button": "Netherrack Button",
+  "block.vanillablocksplus.netherrack_wall": "Netherrack Wall",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

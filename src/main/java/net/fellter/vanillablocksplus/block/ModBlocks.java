@@ -3,8 +3,6 @@ package net.fellter.vanillablocksplus.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.fabric.api.object.builder.v1.block.type.BlockSetTypeBuilder;
-import net.fabricmc.fabric.api.object.builder.v1.block.type.WoodTypeBuilder;
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
@@ -1233,8 +1231,6 @@ public class ModBlocks {
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f)));
 
     //sea lantern set
-    public static final Block SEA_LANTERN_MOD = registerBlock("sea_lantern_mod",
-            new Block(FabricBlockSettings.copyOf(Blocks.SEA_LANTERN).luminance(state -> 15)));
     public static final Block SEA_LANTERN_STAIRS = registerBlock("sea_lantern_stairs",
             new StairsBlock(Blocks.PACKED_MUD.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
                     .instrument(Instrument.HAT).requiresTool().strength(0.3f)
@@ -1341,6 +1337,47 @@ public class ModBlocks {
     public static final Block DARK_PRISMARINE_WALL = registerBlock("dark_prismarine_wall",
             new WallBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_WALL)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F)));
+
+    //netherrack
+    public static final Block NETHERRACK_STAIRS = registerBlock("netherrack_stairs",
+            new StairsBlock(Blocks.NETHERRACK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.4f)
+                    .sounds(BlockSoundGroup.NETHERRACK)));
+    public static final Block NETHERRACK_SLAB = registerBlock("netherrack_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.4f)
+                    .sounds(BlockSoundGroup.NETHERRACK)));
+    public static final Block NETHERRACK_BUTTON = registerBlock("netherrack_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.4f)
+                    .sounds(BlockSoundGroup.NETHERRACK), ModBlockSetTypes.NETHERRACK, 10, false));
+    public static final Block NETHERRACK_PRESSURE_PLATE = registerBlock("netherrack_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(0.4f)
+                            .sounds(BlockSoundGroup.NETHERRACK), ModBlockSetTypes.NETHERRACK));
+    public static final Block NETHERRACK_FENCE = registerBlock("netherrack_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.4f)
+                    .sounds(BlockSoundGroup.NETHERRACK)));
+    public static final Block NETHERRACK_FENCE_GATE = registerBlock("netherrack_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.4f)
+                    .sounds(BlockSoundGroup.NETHERRACK), ModWoodTypes.NETHERRACK));
+    public static final Block NETHERRACK_DOOR = registerBlock("netherrack_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.4f)
+                    .sounds(BlockSoundGroup.NETHERRACK), ModBlockSetTypes.NETHERRACK));
+    public static final Block NETHERRACK_TRAPDOOR = registerBlock("netherrack_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.4f)
+                    .sounds(BlockSoundGroup.NETHERRACK), ModBlockSetTypes.NETHERRACK));
+    public static final Block NETHERRACK_WALL = registerBlock("netherrack_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(0.4f)
+                    .sounds(BlockSoundGroup.NETHERRACK)));
+
+
 
 
 

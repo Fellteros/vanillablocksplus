@@ -1226,6 +1226,31 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.DARK_PRISMARINE_BUTTON, Blocks.DARK_PRISMARINE, 1);
         offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.DARK_PRISMARINE_WALL, Blocks.DARK_PRISMARINE);
 
+        //netherrack
+        createDoorRecipe(ModBlocks.NETHERRACK_DOOR, Ingredient.ofItems(Blocks.NETHERRACK))
+                .criterion(hasItem(Blocks.NETHERRACK), conditionsFromItem(Blocks.NETHERRACK))
+                .offerTo(exporter);
+        createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHERRACK_SLAB, Ingredient.ofItems(Blocks.NETHERRACK))
+                .criterion(hasItem(Blocks.NETHERRACK), conditionsFromItem(Blocks.NETHERRACK))
+                .offerTo(exporter);
+        createStairsRecipe(ModBlocks.NETHERRACK_STAIRS, Ingredient.ofItems(Blocks.NETHERRACK))
+                .criterion(hasItem(Blocks.NETHERRACK), conditionsFromItem(Blocks.NETHERRACK))
+                .offerTo(exporter);
+        createNonWoodFenceRecipe(ModBlocks.NETHERRACK_FENCE, Ingredient.ofItems(Blocks.NETHERRACK), Ingredient.ofItems(ModBlocks.NETHERRACK_SLAB), 3)
+                .criterion(hasItem(Blocks.NETHERRACK), conditionsFromItem(Blocks.NETHERRACK))
+                .offerTo(exporter);
+        createNonWoodFenceGateRecipe(ModBlocks.NETHERRACK_FENCE_GATE, Ingredient.ofItems(Blocks.NETHERRACK), Ingredient.ofItems(ModBlocks.NETHERRACK_SLAB), 1)
+                .criterion(hasItem(Blocks.NETHERRACK), conditionsFromItem(Blocks.NETHERRACK))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.NETHERRACK_TRAPDOOR, Ingredient.ofItems(ModBlocks.NETHERRACK_SLAB))
+                .criterion(hasItem(Blocks.NETHERRACK), conditionsFromItem(Blocks.NETHERRACK))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHERRACK_PRESSURE_PLATE, Ingredient.ofItems(Blocks.NETHERRACK))
+                .criterion(hasItem(Blocks.NETHERRACK), conditionsFromItem(Blocks.NETHERRACK))
+                .offerTo(exporter);
+        offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.NETHERRACK_BUTTON, Blocks.NETHERRACK, 1);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.NETHERRACK_WALL, Blocks.NETHERRACK);
+
 
 
 
