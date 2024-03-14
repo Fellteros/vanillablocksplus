@@ -228,6 +228,11 @@
     "vanillablocksplus:netherrack_fence_gate",
     "vanillablocksplus:netherrack_fence",
     "vanillablocksplus:netherrack_button",
-    "vanillablocksplus:netherrack_pressure_plate"
+    "vanillablocksplus:netherrack_pressure_plate",
+    "vanillablocksplus:nether_brick_door",
+    "vanillablocksplus:nether_brick_trapdoor",
+    "vanillablocksplus:nether_brick_fence_gate",
+    "vanillablocksplus:nether_brick_button",
+    "vanillablocksplus:nether_brick_pressure_plate"
   ]
 }

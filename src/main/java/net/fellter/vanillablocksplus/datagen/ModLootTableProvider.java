@@ -491,6 +491,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.NETHERRACK_SLAB, slabDrops(ModBlocks.NETHERRACK_SLAB));
         addDrop(ModBlocks.NETHERRACK_WALL);
 
+        //nether bricks
+        addDrop(ModBlocks.NETHER_BRICK_TRAPDOOR);
+        addDrop(ModBlocks.NETHER_BRICK_BUTTON);
+        addDrop(ModBlocks.NETHER_BRICK_PRESSURE_PLATE);
+        addDrop(ModBlocks.NETHER_BRICK_FENCE_GATE);
+        addDrop(ModBlocks.NETHER_BRICK_DOOR, doorDrops(ModBlocks.NETHER_BRICK_DOOR));
 
 
     }

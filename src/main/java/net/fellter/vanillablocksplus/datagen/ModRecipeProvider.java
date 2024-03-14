@@ -1252,6 +1252,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.NETHERRACK_WALL, Blocks.NETHERRACK);
 
 
+        //nether bricks
+        createDoorRecipe(ModBlocks.NETHER_BRICK_DOOR, Ingredient.ofItems(Blocks.NETHER_BRICKS))
+                .criterion(hasItem(Blocks.NETHER_BRICKS), conditionsFromItem(Blocks.NETHER_BRICKS))
+                .offerTo(exporter);
+        createNonWoodFenceGateRecipe(ModBlocks.NETHER_BRICK_FENCE_GATE, Ingredient.ofItems(Blocks.NETHER_BRICKS), Ingredient.ofItems(Blocks.NETHER_BRICK_SLAB), 1)
+                .criterion(hasItem(Blocks.NETHER_BRICKS), conditionsFromItem(Blocks.NETHER_BRICKS))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.NETHER_BRICK_TRAPDOOR, Ingredient.ofItems(Blocks.NETHER_BRICK_SLAB))
+                .criterion(hasItem(Blocks.NETHER_BRICKS), conditionsFromItem(Blocks.NETHER_BRICKS))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHER_BRICK_PRESSURE_PLATE, Ingredient.ofItems(Blocks.NETHER_BRICKS))
+                .criterion(hasItem(Blocks.NETHER_BRICKS), conditionsFromItem(Blocks.NETHER_BRICKS))
+                .offerTo(exporter);
+        offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.NETHER_BRICK_BUTTON, Blocks.NETHER_BRICKS, 1);
+
+
 
 
 

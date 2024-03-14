@@ -126,6 +126,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DARK_PRISMARINE);
         BlockStateModelGenerator.BlockTexturePool netherrackPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.NETHERRACK);
+        BlockStateModelGenerator.BlockTexturePool netherBrickPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.NETHER_BRICKS);
 
 
 
@@ -491,6 +493,10 @@ public class ModModelProvider extends FabricModelProvider {
         netherrackPool.fence(ModBlocks.NETHERRACK_FENCE);
         netherrackPool.fenceGate(ModBlocks.NETHERRACK_FENCE_GATE);
         netherrackPool.pressurePlate(ModBlocks.NETHERRACK_PRESSURE_PLATE);
+        //nether bricks
+        netherBrickPool.button(ModBlocks.NETHER_BRICK_BUTTON);
+        netherBrickPool.fenceGate(ModBlocks.NETHER_BRICK_FENCE_GATE);
+        netherBrickPool.pressurePlate(ModBlocks.NETHER_BRICK_PRESSURE_PLATE);
 
 
 
@@ -662,6 +668,9 @@ public class ModModelProvider extends FabricModelProvider {
         //netherrack
         blockStateModelGenerator.registerDoor(ModBlocks.NETHERRACK_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.NETHERRACK_TRAPDOOR);
+        //nether brick
+        blockStateModelGenerator.registerDoor(ModBlocks.NETHER_BRICK_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.NETHER_BRICK_TRAPDOOR);
 
 
 

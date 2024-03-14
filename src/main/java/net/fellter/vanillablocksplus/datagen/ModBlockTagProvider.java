@@ -3,6 +3,7 @@ package net.fellter.vanillablocksplus.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.fellter.vanillablocksplus.block.ModBlocks;
+import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
@@ -292,7 +293,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.NETHERRACK_FENCE_GATE)
                 .add(ModBlocks.NETHERRACK_FENCE)
                 .add(ModBlocks.NETHERRACK_BUTTON)
-                .add(ModBlocks.NETHERRACK_PRESSURE_PLATE);
+                .add(ModBlocks.NETHERRACK_PRESSURE_PLATE)
+                //nether bricks
+                .add(ModBlocks.NETHER_BRICK_DOOR)
+                .add(ModBlocks.NETHER_BRICK_TRAPDOOR)
+                .add(ModBlocks.NETHER_BRICK_FENCE_GATE)
+                .add(ModBlocks.NETHER_BRICK_BUTTON)
+                .add(ModBlocks.NETHER_BRICK_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 //oak
@@ -542,7 +549,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PRISMARINE_FENCE)
                 .add(ModBlocks.PRISMARINE_BRICK_FENCE)
                 .add(ModBlocks.DARK_PRISMARINE_FENCE)
-                .add(ModBlocks.NETHERRACK_FENCE);
+                .add(ModBlocks.NETHERRACK_FENCE)
+                .add(Blocks.NETHER_BRICK_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
