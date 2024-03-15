@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_smooth_stone_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:smooth_stone_button"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:smooth_stone_button"
@@ -23,6 +35,7 @@
   "requirements": [
     [
       "has_smooth_stone",
+      "has_smooth_stone_button",
       "has_the_recipe"
     ]
   ],

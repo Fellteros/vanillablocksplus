@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_andesite_fence_gate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:andesite_fence_gate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:andesite_fence_gate"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_andesite_fence_gate",
       "has_andesite",
       "has_the_recipe"
     ]

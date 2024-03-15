@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_deepslate_fence_gate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:deepslate_fence_gate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:deepslate_fence_gate"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_deepslate_fence_gate",
       "has_deepslate",
       "has_the_recipe"
     ]

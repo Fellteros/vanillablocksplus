@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_stone_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:stone_fence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:stone_fence"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_stone_fence",
       "has_stone",
       "has_the_recipe"
     ]

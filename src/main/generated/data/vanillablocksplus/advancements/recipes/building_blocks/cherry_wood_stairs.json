@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_cherry_wood_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:cherry_wood_stairs"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:cherry_wood_stairs"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_cherry_wood_stairs",
       "has_cherry_wood",
       "has_the_recipe"
     ]

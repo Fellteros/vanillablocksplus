@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_sandstone_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:sandstone_fence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:sandstone_fence"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_sandstone_fence",
       "has_sandstone",
       "has_the_recipe"
     ]

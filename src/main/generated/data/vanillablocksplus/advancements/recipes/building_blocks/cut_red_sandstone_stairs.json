@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_cut_red_sandstone_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:cut_red_sandstone_stairs"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:cut_red_sandstone_stairs"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_cut_red_sandstone_stairs",
       "has_cut_red_sandstone",
       "has_the_recipe"
     ]

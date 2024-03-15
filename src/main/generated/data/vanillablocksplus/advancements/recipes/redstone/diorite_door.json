@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_diorite_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:diorite_door"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:diorite_door"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_diorite_door",
       "has_diorite",
       "has_the_recipe"
     ]

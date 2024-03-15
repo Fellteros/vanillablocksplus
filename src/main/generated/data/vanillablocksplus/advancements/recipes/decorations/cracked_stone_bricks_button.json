@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_cracked_stone_bricks_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:cracked_stone_bricks_button"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:cracked_stone_bricks_button"
@@ -23,6 +35,7 @@
   "requirements": [
     [
       "has_cracked_stone_bricks",
+      "has_cracked_stone_bricks_button",
       "has_the_recipe"
     ]
   ],

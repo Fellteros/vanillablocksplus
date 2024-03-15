@@ -1,6 +1,18 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
+    "has_cracked_nether_brick_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:cracked_nether_brick_fence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_cracked_nether_bricks": {
       "conditions": {
         "items": [
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_cracked_nether_brick_fence",
       "has_cracked_nether_bricks",
       "has_the_recipe"
     ]

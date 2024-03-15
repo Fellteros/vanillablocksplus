@@ -18,11 +18,24 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+    "has_warped_hyphae_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:warped_hyphae_button"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "requirements": [
     [
       "has_warped_hyphae",
+      "has_warped_hyphae_button",
       "has_the_recipe"
     ]
   ],

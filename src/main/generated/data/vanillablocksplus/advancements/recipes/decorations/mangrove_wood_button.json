@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_mangrove_wood_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:mangrove_wood_button"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:mangrove_wood_button"
@@ -23,6 +35,7 @@
   "requirements": [
     [
       "has_mangrove_wood",
+      "has_mangrove_wood_button",
       "has_the_recipe"
     ]
   ],

@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_cracked_deepslate_tiles_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:cracked_deepslate_tiles_trapdoor"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:cracked_deepslate_tiles_trapdoor"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_cracked_deepslate_tiles_trapdoor",
       "has_cracked_deepslate_tiles",
       "has_the_recipe"
     ]

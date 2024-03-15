@@ -1,6 +1,18 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
+    "has_diorite_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:diorite_fence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_granite": {
       "conditions": {
         "items": [
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_diorite_fence",
       "has_granite",
       "has_the_recipe"
     ]

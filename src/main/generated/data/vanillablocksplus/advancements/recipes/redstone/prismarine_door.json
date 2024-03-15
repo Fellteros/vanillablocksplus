@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_prismarine_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:prismarine_door"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:prismarine_door"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_prismarine_door",
       "has_prismarine",
       "has_the_recipe"
     ]

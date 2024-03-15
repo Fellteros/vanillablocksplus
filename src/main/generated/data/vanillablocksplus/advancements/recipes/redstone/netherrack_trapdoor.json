@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_netherrack_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:netherrack_trapdoor"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:netherrack_trapdoor"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_netherrack_trapdoor",
       "has_netherrack",
       "has_the_recipe"
     ]

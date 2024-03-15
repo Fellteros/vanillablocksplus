@@ -1,6 +1,18 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
+    "has_str_acacia_wood_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:str_acacia_wood_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_stripped_acacia_wood": {
       "conditions": {
         "items": [
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_str_acacia_wood_slab",
       "has_stripped_acacia_wood",
       "has_the_recipe"
     ]

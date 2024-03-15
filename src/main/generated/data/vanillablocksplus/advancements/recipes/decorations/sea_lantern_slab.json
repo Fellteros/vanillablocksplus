@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_sea_lantern_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:sea_lantern_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:sea_lantern_slab"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_sea_lantern_slab",
       "has_sea_lantern",
       "has_the_recipe"
     ]

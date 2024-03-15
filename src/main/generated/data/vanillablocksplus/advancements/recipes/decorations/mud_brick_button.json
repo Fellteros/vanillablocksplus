@@ -1,6 +1,18 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
+    "has_mud_brick_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:mud_brick_button"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_mud_bricks": {
       "conditions": {
         "items": [
@@ -23,6 +35,7 @@
   "requirements": [
     [
       "has_mud_bricks",
+      "has_mud_brick_button",
       "has_the_recipe"
     ]
   ],

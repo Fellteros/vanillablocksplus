@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_deepslate_bricks_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:deepslate_bricks_pressure_plate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:deepslate_bricks_pressure_plate"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_deepslate_bricks_pressure_plate",
       "has_deepslate_bricks",
       "has_the_recipe"
     ]

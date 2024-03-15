@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_dark_prismarine_fence_gate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:dark_prismarine_fence_gate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:dark_prismarine_fence_gate"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_dark_prismarine_fence_gate",
       "has_dark_prismarine",
       "has_the_recipe"
     ]

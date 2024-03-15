@@ -1,6 +1,18 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
+    "has_mud_brick_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:mud_brick_pressure_plate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_mud_bricks": {
       "conditions": {
         "items": [
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_mud_brick_pressure_plate",
       "has_mud_bricks",
       "has_the_recipe"
     ]

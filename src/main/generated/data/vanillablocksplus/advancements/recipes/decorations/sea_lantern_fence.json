@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_sea_lantern_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:sea_lantern_fence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:sea_lantern_fence"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_sea_lantern_fence",
       "has_sea_lantern",
       "has_the_recipe"
     ]

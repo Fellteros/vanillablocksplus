@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_granite_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:granite_trapdoor"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:granite_trapdoor"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_granite_trapdoor",
       "has_granite",
       "has_the_recipe"
     ]

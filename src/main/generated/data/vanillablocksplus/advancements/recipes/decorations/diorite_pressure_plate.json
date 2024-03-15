@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_diorite_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:diorite_pressure_plate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:diorite_pressure_plate"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_diorite_pressure_plate",
       "has_diorite",
       "has_the_recipe"
     ]

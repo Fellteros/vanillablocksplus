@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_smooth_red_sandstone_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:smooth_red_sandstone_door"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:smooth_red_sandstone_door"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_smooth_red_sandstone_door",
       "has_smooth_red_sandstone",
       "has_the_recipe"
     ]

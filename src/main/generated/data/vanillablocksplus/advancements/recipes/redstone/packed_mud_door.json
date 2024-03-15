@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_packed_mud_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:packed_mud_door"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:packed_mud_door"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_packed_mud_door",
       "has_packed_mud",
       "has_the_recipe"
     ]

@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_polished_granite_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:polished_granite_pressure_plate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:polished_granite_pressure_plate"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_polished_granite_pressure_plate",
       "has_polished_granite",
       "has_the_recipe"
     ]

@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_jungle_wood_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:jungle_wood_trapdoor"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:jungle_wood_trapdoor"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_jungle_wood_trapdoor",
       "has_jungle_wood",
       "has_the_recipe"
     ]

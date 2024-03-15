@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_mossy_cobblestone_fence_gate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:mossy_cobblestone_fence_gate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:mossy_cobblestone_fence_gate"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_mossy_cobblestone_fence_gate",
       "has_mossy_cobblestone",
       "has_the_recipe"
     ]
