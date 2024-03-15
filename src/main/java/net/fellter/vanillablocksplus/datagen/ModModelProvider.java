@@ -128,6 +128,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.NETHERRACK);
         BlockStateModelGenerator.BlockTexturePool netherBrickPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.NETHER_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool crackedNetherBrickPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_NETHER_BRICKS);
 
 
 
@@ -497,6 +499,14 @@ public class ModModelProvider extends FabricModelProvider {
         netherBrickPool.button(ModBlocks.NETHER_BRICK_BUTTON);
         netherBrickPool.fenceGate(ModBlocks.NETHER_BRICK_FENCE_GATE);
         netherBrickPool.pressurePlate(ModBlocks.NETHER_BRICK_PRESSURE_PLATE);
+        //cracked nether bricks
+        crackedNetherBrickPool.button(ModBlocks.CRACKED_NETHER_BRICK_BUTTON);
+        crackedNetherBrickPool.wall(ModBlocks.CRACKED_NETHER_BRICK_WALL);
+        crackedNetherBrickPool.stairs(ModBlocks.CRACKED_NETHER_BRICK_STAIRS);
+        crackedNetherBrickPool.slab(ModBlocks.CRACKED_NETHER_BRICK_SLAB);
+        crackedNetherBrickPool.fence(ModBlocks.CRACKED_NETHER_BRICK_FENCE);
+        crackedNetherBrickPool.fenceGate(ModBlocks.CRACKED_NETHER_BRICK_FENCE_GATE);
+        crackedNetherBrickPool.pressurePlate(ModBlocks.CRACKED_NETHER_BRICK_PRESSURE_PLATE);
 
 
 
@@ -671,6 +681,9 @@ public class ModModelProvider extends FabricModelProvider {
         //nether brick
         blockStateModelGenerator.registerDoor(ModBlocks.NETHER_BRICK_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.NETHER_BRICK_TRAPDOOR);
+        //cracked nether brick
+        blockStateModelGenerator.registerDoor(ModBlocks.CRACKED_NETHER_BRICK_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CRACKED_NETHER_BRICK_TRAPDOOR);
 
 
 

@@ -1400,6 +1400,45 @@ public class ModBlocks {
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)
                     .sounds(BlockSoundGroup.NETHER_BRICKS), ModBlockSetTypes.NETHERRACK));
 
+    //cracked nether bricks
+    public static final Block CRACKED_NETHER_BRICK_STAIRS = registerBlock("cracked_nether_brick_stairs",
+            new StairsBlock(Blocks.NETHER_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)
+                    .sounds(BlockSoundGroup.NETHER_BRICKS)));
+    public static final Block CRACKED_NETHER_BRICK_SLAB = registerBlock("cracked_nether_brick_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)
+                    .sounds(BlockSoundGroup.NETHER_BRICKS)));
+    public static final Block CRACKED_NETHER_BRICK_BUTTON = registerBlock("cracked_nether_brick_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)
+                    .sounds(BlockSoundGroup.NETHER_BRICKS), ModBlockSetTypes.NETHER_BRICKS, 10, false));
+    public static final Block CRACKED_NETHER_BRICK_PRESSURE_PLATE = registerBlock("cracked_nether_brick_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)
+                            .sounds(BlockSoundGroup.NETHER_BRICKS), ModBlockSetTypes.NETHER_BRICKS));
+    public static final Block CRACKED_NETHER_BRICK_FENCE = registerBlock("cracked_nether_brick_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)
+                    .sounds(BlockSoundGroup.NETHER_BRICKS)));
+    public static final Block CRACKED_NETHER_BRICK_FENCE_GATE = registerBlock("cracked_nether_brick_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)
+                    .sounds(BlockSoundGroup.NETHER_BRICKS), ModWoodTypes.NETHERRACK));
+    public static final Block CRACKED_NETHER_BRICK_DOOR = registerBlock("cracked_nether_brick_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)
+                    .sounds(BlockSoundGroup.NETHER_BRICKS), ModBlockSetTypes.NETHER_BRICKS));
+    public static final Block CRACKED_NETHER_BRICK_TRAPDOOR = registerBlock("cracked_nether_brick_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)
+                    .sounds(BlockSoundGroup.NETHER_BRICKS), ModBlockSetTypes.NETHER_BRICKS));
+    public static final Block CRACKED_NETHER_BRICK_WALL = registerBlock("cracked_nether_brick_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)
+                    .sounds(BlockSoundGroup.NETHER_BRICKS)));
+
 
 
 

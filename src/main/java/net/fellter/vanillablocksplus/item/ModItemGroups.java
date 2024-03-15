@@ -492,7 +492,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.NETHER_BRICK_TRAPDOOR);
                         entries.add(ModBlocks.NETHER_BRICK_PRESSURE_PLATE);
                         entries.add(ModBlocks.NETHER_BRICK_BUTTON);
-
+                        //cracked nether bricks
+                        entries.add(ModBlocks.CRACKED_NETHER_BRICK_STAIRS);
+                        entries.add(ModBlocks.CRACKED_NETHER_BRICK_SLAB);
+                        entries.add(ModBlocks.CRACKED_NETHER_BRICK_WALL);
+                        entries.add(ModBlocks.CRACKED_NETHER_BRICK_FENCE);
+                        entries.add(ModBlocks.CRACKED_NETHER_BRICK_FENCE_GATE);
+                        entries.add(ModBlocks.CRACKED_NETHER_BRICK_DOOR);
+                        entries.add(ModBlocks.CRACKED_NETHER_BRICK_TRAPDOOR);
+                        entries.add(ModBlocks.CRACKED_NETHER_BRICK_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CRACKED_NETHER_BRICK_BUTTON);
 
 
                     }).build());

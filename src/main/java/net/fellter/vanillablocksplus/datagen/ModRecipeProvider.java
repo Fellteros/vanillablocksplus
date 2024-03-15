@@ -1267,6 +1267,31 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.NETHER_BRICK_BUTTON, Blocks.NETHER_BRICKS, 1);
 
+        //cracked nether bricks
+        createDoorRecipe(ModBlocks.CRACKED_NETHER_BRICK_DOOR, Ingredient.ofItems(Blocks.CRACKED_NETHER_BRICKS))
+                .criterion(hasItem(Blocks.CRACKED_NETHER_BRICKS), conditionsFromItem(Blocks.CRACKED_NETHER_BRICKS))
+                .offerTo(exporter);
+        createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.CRACKED_NETHER_BRICK_SLAB, Ingredient.ofItems(Blocks.CRACKED_NETHER_BRICKS))
+                .criterion(hasItem(Blocks.CRACKED_NETHER_BRICKS), conditionsFromItem(Blocks.CRACKED_NETHER_BRICKS))
+                .offerTo(exporter);
+        createStairsRecipe(ModBlocks.CRACKED_NETHER_BRICK_STAIRS, Ingredient.ofItems(Blocks.CRACKED_NETHER_BRICKS))
+                .criterion(hasItem(Blocks.CRACKED_NETHER_BRICKS), conditionsFromItem(Blocks.CRACKED_NETHER_BRICKS))
+                .offerTo(exporter);
+        createNonWoodFenceRecipe(ModBlocks.CRACKED_NETHER_BRICK_FENCE, Ingredient.ofItems(Blocks.CRACKED_NETHER_BRICKS), Ingredient.ofItems(ModBlocks.CRACKED_NETHER_BRICK_SLAB), 3)
+                .criterion(hasItem(Blocks.CRACKED_NETHER_BRICKS), conditionsFromItem(Blocks.CRACKED_NETHER_BRICKS))
+                .offerTo(exporter);
+        createNonWoodFenceGateRecipe(ModBlocks.CRACKED_NETHER_BRICK_FENCE_GATE, Ingredient.ofItems(Blocks.CRACKED_NETHER_BRICKS), Ingredient.ofItems(ModBlocks.CRACKED_NETHER_BRICK_SLAB), 1)
+                .criterion(hasItem(Blocks.CRACKED_NETHER_BRICKS), conditionsFromItem(Blocks.CRACKED_NETHER_BRICKS))
+                .offerTo(exporter);
+        createTrapdoorRecipe(ModBlocks.CRACKED_NETHER_BRICK_TRAPDOOR, Ingredient.ofItems(ModBlocks.CRACKED_NETHER_BRICK_SLAB))
+                .criterion(hasItem(Blocks.CRACKED_NETHER_BRICKS), conditionsFromItem(Blocks.CRACKED_NETHER_BRICKS))
+                .offerTo(exporter);
+        createPressurePlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.CRACKED_NETHER_BRICK_PRESSURE_PLATE, Ingredient.ofItems(Blocks.CRACKED_NETHER_BRICKS))
+                .criterion(hasItem(Blocks.CRACKED_NETHER_BRICKS), conditionsFromItem(Blocks.CRACKED_NETHER_BRICKS))
+                .offerTo(exporter);
+        offerButtonRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.CRACKED_NETHER_BRICK_BUTTON, Blocks.CRACKED_NETHER_BRICKS, 1);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.CRACKED_NETHER_BRICK_WALL, Blocks.CRACKED_NETHER_BRICKS);
+
 
 
 

@@ -1,10 +1,10 @@
-// 1.20.1	2024-03-14T19:18:24.5175111	Vanilla+ Blocks/Tags for minecraft:block
-c278a001e1070c5c9f760c5c5fd6247b6d60f438 data\minecraft\tags\blocks\fence_gates.json
+// 1.20.1	2024-03-15T18:31:48.7470619	Vanilla+ Blocks/Tags for minecraft:block
+72ccf52f17d1dfaf980a277495e2fdf56e617639 data\minecraft\tags\blocks\fence_gates.json
 a9371e7383f5a107d4d7f04af14acd5f7ee2edfb data\minecraft\tags\blocks\mineable\shovel.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_iron_tool.json
-a6d9676c39c17ff0324dff3bb46f6a500315c75e data\minecraft\tags\blocks\mineable\pickaxe.json
+92383211dd5a31d94d0637fbf0a7a28a0c5c93bb data\minecraft\tags\blocks\mineable\pickaxe.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json
-d8f3457f28d1c6a47996ef6bb2630d84d24fe8f8 data\minecraft\tags\blocks\fences.json
+3870ca653c076f49c1349a93c342d8d84fa5112a data\minecraft\tags\blocks\fences.json
+6246e21fbe0e5f9a0381e8b6b991562815620ae1 data\minecraft\tags\blocks\wooden_fences.json
 671d70f8773e53ba786a5f86fafba35980352e45 data\minecraft\tags\blocks\mineable\axe.json
-756470d058a41346866e705747ef718b0474840e data\minecraft\tags\blocks\wooden_fences.json
-e93262f7434973e8d09e572bad72741670c6b07a data\minecraft\tags\blocks\walls.json
+0ee4e394737e4cb7d088a536577d07a7cab2aa26 data\minecraft\tags\blocks\walls.json

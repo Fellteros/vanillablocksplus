@@ -498,6 +498,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.NETHER_BRICK_FENCE_GATE);
         addDrop(ModBlocks.NETHER_BRICK_DOOR, doorDrops(ModBlocks.NETHER_BRICK_DOOR));
 
+        //cracked nether bricks
+        addDrop(ModBlocks.CRACKED_NETHER_BRICK_STAIRS);
+        addDrop(ModBlocks.CRACKED_NETHER_BRICK_TRAPDOOR);
+        addDrop(ModBlocks.CRACKED_NETHER_BRICK_BUTTON);
+        addDrop(ModBlocks.CRACKED_NETHER_BRICK_PRESSURE_PLATE);
+        addDrop(ModBlocks.CRACKED_NETHER_BRICK_FENCE);
+        addDrop(ModBlocks.CRACKED_NETHER_BRICK_FENCE_GATE);
+        addDrop(ModBlocks.CRACKED_NETHER_BRICK_DOOR, doorDrops(ModBlocks.CRACKED_NETHER_BRICK_DOOR));
+        addDrop(ModBlocks.CRACKED_NETHER_BRICK_SLAB, slabDrops(ModBlocks.CRACKED_NETHER_BRICK_SLAB));
+        addDrop(ModBlocks.CRACKED_NETHER_BRICK_WALL);
+
 
     }
     public LootTable.Builder moreOreDrops(Block drop, Item item) {

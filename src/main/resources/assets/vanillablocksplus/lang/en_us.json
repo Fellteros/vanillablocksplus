@@ -477,6 +477,16 @@
   "block.vanillablocksplus.nether_brick_pressure_plate": "Nether Brick Pressure Plate",
   "block.vanillablocksplus.nether_brick_button": "Nether Brick Button",
 
+  "block.vanillablocksplus.cracked_nether_brick_stairs": "Cracked Nether Brick Stairs",
+  "block.vanillablocksplus.cracked_nether_brick_slab": "Cracked Nether Brick Slab",
+  "block.vanillablocksplus.cracked_nether_brick_door": "Cracked Nether Brick Door",
+  "block.vanillablocksplus.cracked_nether_brick_trapdoor": "Cracked Nether Brick Trapdoor",
+  "block.vanillablocksplus.cracked_nether_brick_fence": "Cracked Nether Brick Fence",
+  "block.vanillablocksplus.cracked_nether_brick_fence_gate": "Cracked Nether Brick Fence Gate",
+  "block.vanillablocksplus.cracked_nether_brick_pressure_plate": "Cracked Nether Brick Pressure Plate",
+  "block.vanillablocksplus.cracked_nether_brick_button": "Cracked Nether Brick Button",
+  "block.vanillablocksplus.cracked_nether_brick_wall": "Cracked Nether Brick Wall",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

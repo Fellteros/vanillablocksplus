@@ -233,6 +233,15 @@
     "vanillablocksplus:nether_brick_trapdoor",
     "vanillablocksplus:nether_brick_fence_gate",
     "vanillablocksplus:nether_brick_button",
-    "vanillablocksplus:nether_brick_pressure_plate"
+    "vanillablocksplus:nether_brick_pressure_plate",
+    "vanillablocksplus:cracked_nether_brick_stairs",
+    "vanillablocksplus:cracked_nether_brick_slab",
+    "vanillablocksplus:cracked_nether_brick_wall",
+    "vanillablocksplus:cracked_nether_brick_door",
+    "vanillablocksplus:cracked_nether_brick_trapdoor",
+    "vanillablocksplus:cracked_nether_brick_fence_gate",
+    "vanillablocksplus:cracked_nether_brick_fence",
+    "vanillablocksplus:cracked_nether_brick_button",
+    "vanillablocksplus:cracked_nether_brick_pressure_plate"
   ]
 }
