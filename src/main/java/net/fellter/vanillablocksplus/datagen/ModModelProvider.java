@@ -133,8 +133,10 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_NETHER_BRICKS);
         BlockStateModelGenerator.BlockTexturePool redNetherBrickPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_NETHER_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool basaltPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BASALT_MOD);
 
-        blockStateModelGenerator.registerAxisRotated(Blocks.BASALT, TexturedModel.CUBE_COLUMN);
+
 
 
 
@@ -517,6 +519,14 @@ public class ModModelProvider extends FabricModelProvider {
         redNetherBrickPool.fence(ModBlocks.RED_NETHER_BRICK_FENCE);
         redNetherBrickPool.fenceGate(ModBlocks.RED_NETHER_BRICK_FENCE_GATE);
         redNetherBrickPool.pressurePlate(ModBlocks.RED_NETHER_BRICK_PRESSURE_PLATE);
+        //basalt
+        basaltPool.button(ModBlocks.BASALT_BUTTON);
+        basaltPool.wall(ModBlocks.BASALT_WALL);
+        basaltPool.stairs(ModBlocks.BASALT_STAIRS);
+        basaltPool.slab(ModBlocks.BASALT_SLAB);
+        basaltPool.fence(ModBlocks.BASALT_FENCE);
+        basaltPool.fenceGate(ModBlocks.BASALT_FENCE_GATE);
+        basaltPool.pressurePlate(ModBlocks.BASALT_PRESSURE_PLATE);
 
 
 
@@ -699,6 +709,9 @@ public class ModModelProvider extends FabricModelProvider {
         //red nether brick
         blockStateModelGenerator.registerDoor(ModBlocks.RED_NETHER_BRICK_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.RED_NETHER_BRICK_TRAPDOOR);
+        //basalt
+        blockStateModelGenerator.registerDoor(ModBlocks.BASALT_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BASALT_TRAPDOOR);
 
 
 

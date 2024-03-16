@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/basalt_slab"
+    },
+    "type=double": {
+      "model": "vanillablocksplus:block/basalt_mod"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/basalt_slab_top"
+    }
+  }
+}

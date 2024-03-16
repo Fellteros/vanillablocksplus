@@ -1465,6 +1465,35 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.RED_NETHER_BRICKS), conditionsFromItem(Blocks.RED_NETHER_BRICKS))
                 .offerTo(exporter);
 
+        //basalt
+        ModRecipes.createDoorRecipe(ModBlocks.BASALT_DOOR, Ingredient.ofItems(Blocks.BASALT))
+                .criterion(hasItem(Blocks.BASALT), conditionsFromItem(Blocks.BASALT))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.BASALT_SLAB, Ingredient.ofItems(Blocks.BASALT))
+                .criterion(hasItem(Blocks.BASALT), conditionsFromItem(Blocks.BASALT))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.BASALT_STAIRS, Ingredient.ofItems(Blocks.BASALT))
+                .criterion(hasItem(Blocks.BASALT), conditionsFromItem(Blocks.BASALT))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.BASALT_FENCE, Ingredient.ofItems(Blocks.BASALT), Ingredient.ofItems(ModBlocks.BASALT_SLAB), 3)
+                .criterion(hasItem(Blocks.BASALT), conditionsFromItem(Blocks.BASALT))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.BASALT_FENCE_GATE, Ingredient.ofItems(Blocks.BASALT), Ingredient.ofItems(ModBlocks.BASALT_SLAB), 1)
+                .criterion(hasItem(Blocks.BASALT), conditionsFromItem(Blocks.BASALT))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.BASALT_TRAPDOOR, Ingredient.ofItems(ModBlocks.BASALT_SLAB))
+                .criterion(hasItem(Blocks.BASALT), conditionsFromItem(Blocks.BASALT))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.BASALT_PRESSURE_PLATE, Ingredient.ofItems(Blocks.BASALT))
+                .criterion(hasItem(Blocks.BASALT), conditionsFromItem(Blocks.BASALT))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BASALT_BUTTON, Blocks.BASALT, 1)
+                .criterion(hasItem(Blocks.BASALT), conditionsFromItem(Blocks.BASALT))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.BASALT_WALL, Ingredient.ofItems(Blocks.BASALT))
+                .criterion(hasItem(Blocks.BASALT), conditionsFromItem(Blocks.BASALT))
+                .offerTo(exporter);
+
 
 
     }

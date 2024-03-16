@@ -509,6 +509,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RED_NETHER_BRICK_TRAPDOOR);
                         entries.add(ModBlocks.RED_NETHER_BRICK_PRESSURE_PLATE);
                         entries.add(ModBlocks.RED_NETHER_BRICK_BUTTON);
+                        //basalt
+                        entries.add(ModBlocks.BASALT_STAIRS);
+                        entries.add(ModBlocks.BASALT_SLAB);
+                        entries.add(ModBlocks.BASALT_WALL);
+                        entries.add(ModBlocks.BASALT_FENCE);
+                        entries.add(ModBlocks.BASALT_FENCE_GATE);
+                        entries.add(ModBlocks.BASALT_DOOR);
+                        entries.add(ModBlocks.BASALT_TRAPDOOR);
+                        entries.add(ModBlocks.BASALT_PRESSURE_PLATE);
+                        entries.add(ModBlocks.BASALT_BUTTON);
 
 
                     }).build());

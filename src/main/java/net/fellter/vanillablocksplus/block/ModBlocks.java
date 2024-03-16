@@ -1412,12 +1412,12 @@ public class ModBlocks {
     public static final Block CRACKED_NETHER_BRICK_BUTTON = registerBlock("cracked_nether_brick_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)
-                    .sounds(BlockSoundGroup.NETHER_BRICKS), ModBlockSetTypes.NETHER_BRICKS, 10, false));
+                    .sounds(BlockSoundGroup.NETHER_BRICKS), ModBlockSetTypes.NETHERRACK, 10, false));
     public static final Block CRACKED_NETHER_BRICK_PRESSURE_PLATE = registerBlock("cracked_nether_brick_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
                     FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
                             .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)
-                            .sounds(BlockSoundGroup.NETHER_BRICKS), ModBlockSetTypes.NETHER_BRICKS));
+                            .sounds(BlockSoundGroup.NETHER_BRICKS), ModBlockSetTypes.NETHERRACK));
     public static final Block CRACKED_NETHER_BRICK_FENCE = registerBlock("cracked_nether_brick_fence",
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)
@@ -1429,11 +1429,11 @@ public class ModBlocks {
     public static final Block CRACKED_NETHER_BRICK_DOOR = registerBlock("cracked_nether_brick_door",
             new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)
-                    .sounds(BlockSoundGroup.NETHER_BRICKS), ModBlockSetTypes.NETHER_BRICKS));
+                    .sounds(BlockSoundGroup.NETHER_BRICKS), ModBlockSetTypes.NETHERRACK));
     public static final Block CRACKED_NETHER_BRICK_TRAPDOOR = registerBlock("cracked_nether_brick_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)
-                    .sounds(BlockSoundGroup.NETHER_BRICKS), ModBlockSetTypes.NETHER_BRICKS));
+                    .sounds(BlockSoundGroup.NETHER_BRICKS), ModBlockSetTypes.NETHERRACK));
     public static final Block CRACKED_NETHER_BRICK_WALL = registerBlock("cracked_nether_brick_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)
@@ -1465,6 +1465,86 @@ public class ModBlocks {
             new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)
                     .sounds(BlockSoundGroup.NETHER_BRICKS), ModBlockSetTypes.NETHERRACK));
+
+    //basalt
+    public static final Block BASALT_MOD = registerBlock("basalt_mod",
+            new Block(FabricBlockSettings.copyOf(Blocks.BASALT)));
+    public static final Block BASALT_STAIRS = registerBlock("basalt_stairs",
+            new StairsBlock(Blocks.BASALT.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                    .sounds(BlockSoundGroup.BASALT)));
+    public static final Block BASALT_SLAB = registerBlock("basalt_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                    .sounds(BlockSoundGroup.BASALT)));
+    public static final Block BASALT_BUTTON = registerBlock("basalt_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                    .sounds(BlockSoundGroup.BASALT), BlockSetType.STONE, 10, false));
+    public static final Block BASALT_PRESSURE_PLATE = registerBlock("basalt_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                            .sounds(BlockSoundGroup.BASALT), BlockSetType.STONE));
+    public static final Block BASALT_FENCE = registerBlock("basalt_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                    .sounds(BlockSoundGroup.BASALT)));
+    public static final Block BASALT_FENCE_GATE = registerBlock("basalt_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                    .sounds(BlockSoundGroup.BASALT), ModWoodTypes.NETHERRACK));
+    public static final Block BASALT_DOOR = registerBlock("basalt_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                    .sounds(BlockSoundGroup.BASALT), BlockSetType.STONE));
+    public static final Block BASALT_TRAPDOOR = registerBlock("basalt_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                    .sounds(BlockSoundGroup.BASALT), BlockSetType.STONE));
+    public static final Block BASALT_WALL = registerBlock("basalt_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                    .sounds(BlockSoundGroup.BASALT)));
+
+    //smooth basalt
+    public static final Block SMOOTH_BASALT_STAIRS = registerBlock("smooth_basalt_stairs",
+            new StairsBlock(Blocks.SMOOTH_BASALT.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                    .sounds(BlockSoundGroup.BASALT)));
+    public static final Block SMOOTH_BASALT_SLAB = registerBlock("smooth_basalt_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                    .sounds(BlockSoundGroup.BASALT)));
+    public static final Block SMOOTH_BASALT_BUTTON = registerBlock("smooth_basalt_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                    .sounds(BlockSoundGroup.BASALT), BlockSetType.STONE, 10, false));
+    public static final Block SMOOTH_BASALT_PRESSURE_PLATE = registerBlock("smooth_basalt_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                            .sounds(BlockSoundGroup.BASALT), BlockSetType.STONE));
+    public static final Block SMOOTH_BASALT_FENCE = registerBlock("smooth_basalt_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                    .sounds(BlockSoundGroup.BASALT)));
+    public static final Block SMOOTH_BASALT_FENCE_GATE = registerBlock("smooth_basalt_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                    .sounds(BlockSoundGroup.BASALT), ModWoodTypes.NETHERRACK));
+    public static final Block SMOOTH_BASALT_DOOR = registerBlock("smooth_basalt_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                    .sounds(BlockSoundGroup.BASALT), BlockSetType.STONE));
+    public static final Block SMOOTH_BASALT_TRAPDOOR = registerBlock("smooth_basalt_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                    .sounds(BlockSoundGroup.BASALT), BlockSetType.STONE));
+    public static final Block SMOOTH_BASALT_WALL = registerBlock("smooth_basalt_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
+                    .sounds(BlockSoundGroup.BASALT)));
 
 
 

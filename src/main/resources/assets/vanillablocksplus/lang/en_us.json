@@ -494,6 +494,16 @@
   "block.vanillablocksplus.red_nether_brick_pressure_plate": "Red Nether Brick Pressure Plate",
   "block.vanillablocksplus.red_nether_brick_button": "Red Nether Brick Button",
 
+  "block.vanillablocksplus.basalt_stairs": "Basalt Stairs",
+  "block.vanillablocksplus.basalt_slab": "Basalt Slab",
+  "block.vanillablocksplus.basalt_door": "Basalt Door",
+  "block.vanillablocksplus.basalt_trapdoor": "Basalt Trapdoor",
+  "block.vanillablocksplus.basalt_fence": "Basalt Fence",
+  "block.vanillablocksplus.basalt_fence_gate": "Basalt Fence Gate",
+  "block.vanillablocksplus.basalt_pressure_plate": "Basalt Pressure Plate",
+  "block.vanillablocksplus.basalt_button": "Basalt Button",
+  "block.vanillablocksplus.basalt_wall": "Basalt Wall",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }
