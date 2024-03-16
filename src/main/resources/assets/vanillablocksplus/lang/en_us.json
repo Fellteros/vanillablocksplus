@@ -487,6 +487,13 @@
   "block.vanillablocksplus.cracked_nether_brick_button": "Cracked Nether Brick Button",
   "block.vanillablocksplus.cracked_nether_brick_wall": "Cracked Nether Brick Wall",
 
+  "block.vanillablocksplus.red_nether_brick_door": "Red Nether Brick Door",
+  "block.vanillablocksplus.red_nether_brick_trapdoor": "Red Nether Brick Trapdoor",
+  "block.vanillablocksplus.red_nether_brick_fence": "Red Nether Brick Fence",
+  "block.vanillablocksplus.red_nether_brick_fence_gate": "Red Nether Brick Fence Gate",
+  "block.vanillablocksplus.red_nether_brick_pressure_plate": "Red Nether Brick Pressure Plate",
+  "block.vanillablocksplus.red_nether_brick_button": "Red Nether Brick Button",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

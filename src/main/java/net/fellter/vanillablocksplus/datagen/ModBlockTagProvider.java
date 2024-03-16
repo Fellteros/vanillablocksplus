@@ -309,7 +309,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_NETHER_BRICK_FENCE_GATE)
                 .add(ModBlocks.CRACKED_NETHER_BRICK_FENCE)
                 .add(ModBlocks.CRACKED_NETHER_BRICK_BUTTON)
-                .add(ModBlocks.CRACKED_NETHER_BRICK_PRESSURE_PLATE);
+                .add(ModBlocks.CRACKED_NETHER_BRICK_PRESSURE_PLATE)
+                //nether bricks
+                .add(ModBlocks.RED_NETHER_BRICK_DOOR)
+                .add(ModBlocks.RED_NETHER_BRICK_TRAPDOOR)
+                .add(ModBlocks.RED_NETHER_BRICK_FENCE)
+                .add(ModBlocks.RED_NETHER_BRICK_FENCE_GATE)
+                .add(ModBlocks.RED_NETHER_BRICK_BUTTON)
+                .add(ModBlocks.RED_NETHER_BRICK_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 //oak
@@ -561,7 +568,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DARK_PRISMARINE_FENCE)
                 .add(ModBlocks.NETHERRACK_FENCE)
                 .add(Blocks.NETHER_BRICK_FENCE)
-                .add(ModBlocks.CRACKED_NETHER_BRICK_FENCE);
+                .add(ModBlocks.CRACKED_NETHER_BRICK_FENCE)
+                .add(ModBlocks.RED_NETHER_BRICK_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -621,7 +629,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PRISMARINE_BRICK_FENCE)
                 .add(ModBlocks.DARK_PRISMARINE_FENCE)
                 .add(ModBlocks.NETHERRACK_FENCE)
-                .add(ModBlocks.CRACKED_NETHER_BRICK_FENCE);
+                .add(ModBlocks.CRACKED_NETHER_BRICK_FENCE)
+                .add(ModBlocks.RED_NETHER_BRICK_FENCE);
 
 
 
@@ -682,7 +691,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PRISMARINE_BRICK_FENCE_GATE)
                 .add(ModBlocks.DARK_PRISMARINE_FENCE_GATE)
                 .add(ModBlocks.NETHERRACK_FENCE_GATE)
-                .add(ModBlocks.CRACKED_NETHER_BRICK_FENCE_GATE);
+                .add(ModBlocks.CRACKED_NETHER_BRICK_FENCE_GATE)
+                .add(ModBlocks.RED_NETHER_BRICK_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)

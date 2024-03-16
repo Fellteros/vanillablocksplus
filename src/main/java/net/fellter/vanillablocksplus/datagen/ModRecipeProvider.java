@@ -1399,7 +1399,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.NETHERRACK), conditionsFromItem(Blocks.NETHERRACK))
                 .offerTo(exporter);
 
-
         //nether bricks
         ModRecipes.createDoorRecipe(ModBlocks.NETHER_BRICK_DOOR, Ingredient.ofItems(Blocks.NETHER_BRICKS))
                 .criterion(hasItem(Blocks.NETHER_BRICKS), conditionsFromItem(Blocks.NETHER_BRICKS))
@@ -1444,6 +1443,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.CRACKED_NETHER_BRICK_WALL, Ingredient.ofItems(Blocks.CRACKED_NETHER_BRICKS))
                 .criterion(hasItem(Blocks.CRACKED_NETHER_BRICKS), conditionsFromItem(Blocks.CRACKED_NETHER_BRICKS))
+                .offerTo(exporter);
+
+        //red nether bricks
+        ModRecipes.createDoorRecipe(ModBlocks.RED_NETHER_BRICK_DOOR, Ingredient.ofItems(Blocks.RED_NETHER_BRICKS))
+                .criterion(hasItem(Blocks.RED_NETHER_BRICKS), conditionsFromItem(Blocks.RED_NETHER_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.RED_NETHER_BRICK_FENCE, Ingredient.ofItems(Blocks.RED_NETHER_BRICKS), Ingredient.ofItems(Blocks.RED_NETHER_BRICK_SLAB), 3)
+                .criterion(hasItem(Blocks.RED_NETHER_BRICKS), conditionsFromItem(Blocks.RED_NETHER_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.RED_NETHER_BRICK_FENCE_GATE, Ingredient.ofItems(Blocks.RED_NETHER_BRICKS), Ingredient.ofItems(Blocks.RED_NETHER_BRICK_SLAB), 1)
+                .criterion(hasItem(Blocks.RED_NETHER_BRICKS), conditionsFromItem(Blocks.RED_NETHER_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.RED_NETHER_BRICK_TRAPDOOR, Ingredient.ofItems(Blocks.RED_NETHER_BRICK_SLAB))
+                .criterion(hasItem(Blocks.RED_NETHER_BRICKS), conditionsFromItem(Blocks.RED_NETHER_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_NETHER_BRICK_PRESSURE_PLATE, Ingredient.ofItems(Blocks.RED_NETHER_BRICKS))
+                .criterion(hasItem(Blocks.RED_NETHER_BRICKS), conditionsFromItem(Blocks.RED_NETHER_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_NETHER_BRICK_BUTTON, Blocks.RED_NETHER_BRICKS, 1)
+                .criterion(hasItem(Blocks.RED_NETHER_BRICKS), conditionsFromItem(Blocks.RED_NETHER_BRICKS))
                 .offerTo(exporter);
 
 

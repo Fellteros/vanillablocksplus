@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.item.ModItems;
+import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.client.*;
 
@@ -130,6 +131,10 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.NETHER_BRICKS);
         BlockStateModelGenerator.BlockTexturePool crackedNetherBrickPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_NETHER_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool redNetherBrickPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_NETHER_BRICKS);
+
+        blockStateModelGenerator.registerAxisRotated(Blocks.BASALT, TexturedModel.CUBE_COLUMN);
 
 
 
@@ -507,6 +512,13 @@ public class ModModelProvider extends FabricModelProvider {
         crackedNetherBrickPool.fence(ModBlocks.CRACKED_NETHER_BRICK_FENCE);
         crackedNetherBrickPool.fenceGate(ModBlocks.CRACKED_NETHER_BRICK_FENCE_GATE);
         crackedNetherBrickPool.pressurePlate(ModBlocks.CRACKED_NETHER_BRICK_PRESSURE_PLATE);
+        //nether bricks
+        redNetherBrickPool.button(ModBlocks.RED_NETHER_BRICK_BUTTON);
+        redNetherBrickPool.fence(ModBlocks.RED_NETHER_BRICK_FENCE);
+        redNetherBrickPool.fenceGate(ModBlocks.RED_NETHER_BRICK_FENCE_GATE);
+        redNetherBrickPool.pressurePlate(ModBlocks.RED_NETHER_BRICK_PRESSURE_PLATE);
+
+
 
 
 
@@ -684,6 +696,9 @@ public class ModModelProvider extends FabricModelProvider {
         //cracked nether brick
         blockStateModelGenerator.registerDoor(ModBlocks.CRACKED_NETHER_BRICK_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CRACKED_NETHER_BRICK_TRAPDOOR);
+        //red nether brick
+        blockStateModelGenerator.registerDoor(ModBlocks.RED_NETHER_BRICK_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.RED_NETHER_BRICK_TRAPDOOR);
 
 
 
@@ -691,8 +706,6 @@ public class ModModelProvider extends FabricModelProvider {
 
 
     }
-
-
 
 
 
