@@ -135,6 +135,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_NETHER_BRICKS);
         BlockStateModelGenerator.BlockTexturePool basaltPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BASALT_MOD);
+        BlockStateModelGenerator.BlockTexturePool smoothBasaltPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_BASALT);
 
 
 
@@ -527,6 +529,14 @@ public class ModModelProvider extends FabricModelProvider {
         basaltPool.fence(ModBlocks.BASALT_FENCE);
         basaltPool.fenceGate(ModBlocks.BASALT_FENCE_GATE);
         basaltPool.pressurePlate(ModBlocks.BASALT_PRESSURE_PLATE);
+        //smooth basalt
+        smoothBasaltPool.button(ModBlocks.SMOOTH_BASALT_BUTTON);
+        smoothBasaltPool.wall(ModBlocks.SMOOTH_BASALT_WALL);
+        smoothBasaltPool.stairs(ModBlocks.SMOOTH_BASALT_STAIRS);
+        smoothBasaltPool.slab(ModBlocks.SMOOTH_BASALT_SLAB);
+        smoothBasaltPool.fence(ModBlocks.SMOOTH_BASALT_FENCE);
+        smoothBasaltPool.fenceGate(ModBlocks.SMOOTH_BASALT_FENCE_GATE);
+        smoothBasaltPool.pressurePlate(ModBlocks.SMOOTH_BASALT_PRESSURE_PLATE);
 
 
 
@@ -712,6 +722,9 @@ public class ModModelProvider extends FabricModelProvider {
         //basalt
         blockStateModelGenerator.registerDoor(ModBlocks.BASALT_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BASALT_TRAPDOOR);
+        //smooth basalt
+        blockStateModelGenerator.registerDoor(ModBlocks.SMOOTH_BASALT_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SMOOTH_BASALT_TRAPDOOR);
 
 
 

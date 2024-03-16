@@ -257,6 +257,15 @@
     "vanillablocksplus:basalt_fence_gate",
     "vanillablocksplus:basalt_fence",
     "vanillablocksplus:basalt_button",
-    "vanillablocksplus:basalt_pressure_plate"
+    "vanillablocksplus:basalt_pressure_plate",
+    "vanillablocksplus:smooth_basalt_stairs",
+    "vanillablocksplus:smooth_basalt_slab",
+    "vanillablocksplus:smooth_basalt_wall",
+    "vanillablocksplus:smooth_basalt_door",
+    "vanillablocksplus:smooth_basalt_trapdoor",
+    "vanillablocksplus:smooth_basalt_fence_gate",
+    "vanillablocksplus:smooth_basalt_fence",
+    "vanillablocksplus:smooth_basalt_button",
+    "vanillablocksplus:smooth_basalt_pressure_plate"
   ]
 }

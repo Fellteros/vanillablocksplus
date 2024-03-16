@@ -504,6 +504,16 @@
   "block.vanillablocksplus.basalt_button": "Basalt Button",
   "block.vanillablocksplus.basalt_wall": "Basalt Wall",
 
+  "block.vanillablocksplus.smooth_basalt_stairs": "Smooth Basalt Stairs",
+  "block.vanillablocksplus.smooth_basalt_slab": "Smooth Basalt Slab",
+  "block.vanillablocksplus.smooth_basalt_door": "Smooth Basalt Door",
+  "block.vanillablocksplus.smooth_basalt_trapdoor": "Smooth Basalt Trapdoor",
+  "block.vanillablocksplus.smooth_basalt_fence": "Smooth Basalt Fence",
+  "block.vanillablocksplus.smooth_basalt_fence_gate": "Smooth Basalt Fence Gate",
+  "block.vanillablocksplus.smooth_basalt_pressure_plate": "Smooth Basalt Pressure Plate",
+  "block.vanillablocksplus.smooth_basalt_button": "Smooth Basalt Button",
+  "block.vanillablocksplus.smooth_basalt_wall": "Smooth Basalt Wall",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

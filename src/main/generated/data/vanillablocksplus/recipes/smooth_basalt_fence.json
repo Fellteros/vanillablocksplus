@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:smooth_basalt_slab"
+    },
+    "W": {
+      "item": "minecraft:smooth_basalt"
+    }
+  },
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "result": {
+    "count": 3,
+    "item": "vanillablocksplus:smooth_basalt_fence"
+  },
+  "show_notification": true
+}

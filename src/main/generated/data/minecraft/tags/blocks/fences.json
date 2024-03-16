@@ -59,6 +59,7 @@
     "vanillablocksplus:netherrack_fence",
     "vanillablocksplus:cracked_nether_brick_fence",
     "vanillablocksplus:red_nether_brick_fence",
-    "vanillablocksplus:basalt_fence"
+    "vanillablocksplus:basalt_fence",
+    "vanillablocksplus:smooth_basalt_fence"
   ]
 }

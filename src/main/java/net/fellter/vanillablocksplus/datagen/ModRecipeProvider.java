@@ -1494,6 +1494,35 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.BASALT), conditionsFromItem(Blocks.BASALT))
                 .offerTo(exporter);
 
+        //smooth basalt
+        ModRecipes.createDoorRecipe(ModBlocks.SMOOTH_BASALT_DOOR, Ingredient.ofItems(Blocks.SMOOTH_BASALT))
+                .criterion(hasItem(Blocks.SMOOTH_BASALT), conditionsFromItem(Blocks.SMOOTH_BASALT))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_BASALT_SLAB, Ingredient.ofItems(Blocks.SMOOTH_BASALT))
+                .criterion(hasItem(Blocks.SMOOTH_BASALT), conditionsFromItem(Blocks.SMOOTH_BASALT))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.SMOOTH_BASALT_STAIRS, Ingredient.ofItems(Blocks.SMOOTH_BASALT))
+                .criterion(hasItem(Blocks.SMOOTH_BASALT), conditionsFromItem(Blocks.SMOOTH_BASALT))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.SMOOTH_BASALT_FENCE, Ingredient.ofItems(Blocks.SMOOTH_BASALT), Ingredient.ofItems(ModBlocks.SMOOTH_BASALT_SLAB), 3)
+                .criterion(hasItem(Blocks.SMOOTH_BASALT), conditionsFromItem(Blocks.SMOOTH_BASALT))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.SMOOTH_BASALT_FENCE_GATE, Ingredient.ofItems(Blocks.SMOOTH_BASALT), Ingredient.ofItems(ModBlocks.SMOOTH_BASALT_SLAB), 1)
+                .criterion(hasItem(Blocks.SMOOTH_BASALT), conditionsFromItem(Blocks.SMOOTH_BASALT))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.SMOOTH_BASALT_TRAPDOOR, Ingredient.ofItems(ModBlocks.SMOOTH_BASALT_SLAB))
+                .criterion(hasItem(Blocks.SMOOTH_BASALT), conditionsFromItem(Blocks.SMOOTH_BASALT))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_BASALT_PRESSURE_PLATE, Ingredient.ofItems(Blocks.SMOOTH_BASALT))
+                .criterion(hasItem(Blocks.SMOOTH_BASALT), conditionsFromItem(Blocks.SMOOTH_BASALT))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_BASALT_BUTTON, Blocks.SMOOTH_BASALT, 1)
+                .criterion(hasItem(Blocks.SMOOTH_BASALT), conditionsFromItem(Blocks.SMOOTH_BASALT))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_BASALT_WALL, Ingredient.ofItems(Blocks.SMOOTH_BASALT))
+                .criterion(hasItem(Blocks.SMOOTH_BASALT), conditionsFromItem(Blocks.SMOOTH_BASALT))
+                .offerTo(exporter);
+
 
 
     }
