@@ -4,7 +4,7 @@
       "model": "vanillablocksplus:block/basalt_slab"
     },
     "type=double": {
-      "model": "vanillablocksplus:block/basalt_mod"
+      "model": "minecraft:block/basalt"
     },
     "type=top": {
       "model": "vanillablocksplus:block/basalt_slab_top"

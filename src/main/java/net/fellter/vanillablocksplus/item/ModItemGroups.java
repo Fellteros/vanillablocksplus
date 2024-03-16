@@ -539,6 +539,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POLISHED_BASALT_TRAPDOOR);
                         entries.add(ModBlocks.POLISHED_BASALT_PRESSURE_PLATE);
                         entries.add(ModBlocks.POLISHED_BASALT_BUTTON);
+                        //blackstone
+                        entries.add(ModBlocks.BLACKSTONE_FENCE);
+                        entries.add(ModBlocks.BLACKSTONE_FENCE_GATE);
+                        entries.add(ModBlocks.BLACKSTONE_DOOR);
+                        entries.add(ModBlocks.BLACKSTONE_TRAPDOOR);
+                        entries.add(ModBlocks.BLACKSTONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.BLACKSTONE_BUTTON);
 
 
                     }).build());

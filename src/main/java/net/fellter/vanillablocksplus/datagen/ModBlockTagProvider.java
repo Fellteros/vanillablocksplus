@@ -346,7 +346,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POLISHED_BASALT_FENCE_GATE)
                 .add(ModBlocks.POLISHED_BASALT_FENCE)
                 .add(ModBlocks.POLISHED_BASALT_BUTTON)
-                .add(ModBlocks.POLISHED_BASALT_PRESSURE_PLATE);
+                .add(ModBlocks.POLISHED_BASALT_PRESSURE_PLATE)
+                //blackstone
+                .add(ModBlocks.BLACKSTONE_DOOR)
+                .add(ModBlocks.BLACKSTONE_TRAPDOOR)
+                .add(ModBlocks.BLACKSTONE_FENCE_GATE)
+                .add(ModBlocks.BLACKSTONE_FENCE)
+                .add(ModBlocks.BLACKSTONE_BUTTON)
+                .add(ModBlocks.BLACKSTONE_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 //oak
@@ -602,7 +609,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RED_NETHER_BRICK_FENCE)
                 .add(ModBlocks.BASALT_FENCE)
                 .add(ModBlocks.SMOOTH_BASALT_FENCE)
-                .add(ModBlocks.POLISHED_BASALT_FENCE);
+                .add(ModBlocks.POLISHED_BASALT_FENCE)
+                .add(ModBlocks.BLACKSTONE_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -666,7 +674,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RED_NETHER_BRICK_FENCE)
                 .add(ModBlocks.BASALT_FENCE)
                 .add(ModBlocks.SMOOTH_BASALT_FENCE)
-                .add(ModBlocks.POLISHED_BASALT_FENCE);
+                .add(ModBlocks.POLISHED_BASALT_FENCE)
+                .add(ModBlocks.BLACKSTONE_FENCE);
 
 
 
@@ -731,7 +740,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RED_NETHER_BRICK_FENCE_GATE)
                 .add(ModBlocks.BASALT_FENCE_GATE)
                 .add(ModBlocks.SMOOTH_BASALT_FENCE_GATE)
-                .add(ModBlocks.POLISHED_BASALT_FENCE_GATE);
+                .add(ModBlocks.POLISHED_BASALT_FENCE_GATE)
+                .add(ModBlocks.BLACKSTONE_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:blackstone_slab"
+    },
+    "W": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "vanillablocksplus:blackstone_fence_gate"
+  },
+  "show_notification": true
+}

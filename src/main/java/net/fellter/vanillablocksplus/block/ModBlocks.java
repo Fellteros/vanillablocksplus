@@ -1587,6 +1587,34 @@ public class ModBlocks {
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
                     .sounds(BlockSoundGroup.BASALT)));
 
+    //blackstone
+    public static final Block BLACKSTONE_MOD = registerBlock("blackstone_mod",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACKSTONE)));
+    public static final Block BLACKSTONE_BUTTON = registerBlock("blackstone_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5f, 6.0f)
+                    .sounds(BlockSoundGroup.GILDED_BLACKSTONE), BlockSetType.STONE, 10, false));
+    public static final Block BLACKSTONE_PRESSURE_PLATE = registerBlock("blackstone_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5f, 6.0f)
+                            .sounds(BlockSoundGroup.GILDED_BLACKSTONE), BlockSetType.STONE));
+    public static final Block BLACKSTONE_FENCE = registerBlock("blackstone_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5f, 6.0f)
+                    .sounds(BlockSoundGroup.GILDED_BLACKSTONE)));
+    public static final Block BLACKSTONE_FENCE_GATE = registerBlock("blackstone_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5f, 6.0f)
+                    .sounds(BlockSoundGroup.GILDED_BLACKSTONE), ModWoodTypes.NETHERRACK));
+    public static final Block BLACKSTONE_DOOR = registerBlock("blackstone_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5f, 6.0f)
+                    .sounds(BlockSoundGroup.GILDED_BLACKSTONE), BlockSetType.STONE));
+    public static final Block BLACKSTONE_TRAPDOOR = registerBlock("blackstone_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5f, 6.0f)
+                    .sounds(BlockSoundGroup.GILDED_BLACKSTONE), BlockSetType.STONE));
 
 
 

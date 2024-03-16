@@ -524,6 +524,13 @@
   "block.vanillablocksplus.polished_basalt_button": "Polished Basalt Button",
   "block.vanillablocksplus.polished_basalt_wall": "Polished Basalt Wall",
 
+  "block.vanillablocksplus.blackstone_door": "Blackstone Door",
+  "block.vanillablocksplus.blackstone_trapdoor": "Blackstone Trapdoor",
+  "block.vanillablocksplus.blackstone_fence": "Blackstone Fence",
+  "block.vanillablocksplus.blackstone_fence_gate": "Blackstone Fence Gate",
+  "block.vanillablocksplus.blackstone_pressure_plate": "Blackstone Pressure Plate",
+  "block.vanillablocksplus.blackstone_button": "Blackstone Button",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

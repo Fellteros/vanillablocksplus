@@ -138,6 +138,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_BASALT);
         BlockStateModelGenerator.BlockTexturePool polishedBasaltPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_BASALT_MOD);
+        BlockStateModelGenerator.BlockTexturePool blackstonePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLACKSTONE_MOD);
 
 
 
@@ -525,8 +527,8 @@ public class ModModelProvider extends FabricModelProvider {
         //basalt
         basaltPool.button(ModBlocks.BASALT_BUTTON);
         basaltPool.wall(ModBlocks.BASALT_WALL);
-        basaltPool.stairs(ModBlocks.BASALT_STAIRS);
         basaltPool.slab(ModBlocks.BASALT_SLAB);
+        basaltPool.stairs(ModBlocks.BASALT_STAIRS);
         basaltPool.fence(ModBlocks.BASALT_FENCE);
         basaltPool.fenceGate(ModBlocks.BASALT_FENCE_GATE);
         basaltPool.pressurePlate(ModBlocks.BASALT_PRESSURE_PLATE);
@@ -541,11 +543,16 @@ public class ModModelProvider extends FabricModelProvider {
         //polished basalt
         polishedBasaltPool.button(ModBlocks.POLISHED_BASALT_BUTTON);
         polishedBasaltPool.wall(ModBlocks.POLISHED_BASALT_WALL);
-        polishedBasaltPool.stairs(ModBlocks.POLISHED_BASALT_STAIRS);
         polishedBasaltPool.slab(ModBlocks.POLISHED_BASALT_SLAB);
+        polishedBasaltPool.stairs(ModBlocks.POLISHED_BASALT_STAIRS);
         polishedBasaltPool.fence(ModBlocks.POLISHED_BASALT_FENCE);
         polishedBasaltPool.fenceGate(ModBlocks.POLISHED_BASALT_FENCE_GATE);
         polishedBasaltPool.pressurePlate(ModBlocks.POLISHED_BASALT_PRESSURE_PLATE);
+        //polished basalt
+        blackstonePool.button(ModBlocks.BLACKSTONE_BUTTON);
+        blackstonePool.fence(ModBlocks.BLACKSTONE_FENCE);
+        blackstonePool.fenceGate(ModBlocks.BLACKSTONE_FENCE_GATE);
+        blackstonePool.pressurePlate(ModBlocks.BLACKSTONE_PRESSURE_PLATE);
 
 
 
@@ -737,6 +744,9 @@ public class ModModelProvider extends FabricModelProvider {
         //polished basalt
         blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_BASALT_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_BASALT_TRAPDOOR);
+        //blackstone
+        blockStateModelGenerator.registerDoor(ModBlocks.BLACKSTONE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLACKSTONE_TRAPDOOR);
 
 
 

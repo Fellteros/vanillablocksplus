@@ -275,6 +275,12 @@
     "vanillablocksplus:polished_basalt_fence_gate",
     "vanillablocksplus:polished_basalt_fence",
     "vanillablocksplus:polished_basalt_button",
-    "vanillablocksplus:polished_basalt_pressure_plate"
+    "vanillablocksplus:polished_basalt_pressure_plate",
+    "vanillablocksplus:blackstone_door",
+    "vanillablocksplus:blackstone_trapdoor",
+    "vanillablocksplus:blackstone_fence_gate",
+    "vanillablocksplus:blackstone_fence",
+    "vanillablocksplus:blackstone_button",
+    "vanillablocksplus:blackstone_pressure_plate"
   ]
 }

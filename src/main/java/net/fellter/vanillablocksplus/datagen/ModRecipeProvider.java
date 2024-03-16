@@ -1552,6 +1552,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.POLISHED_BASALT), conditionsFromItem(Blocks.POLISHED_BASALT))
                 .offerTo(exporter);
 
+        //blackstone
+        ModRecipes.createDoorRecipe(ModBlocks.BLACKSTONE_DOOR, Ingredient.ofItems(Blocks.BLACKSTONE))
+                .criterion(hasItem(Blocks.BLACKSTONE), conditionsFromItem(Blocks.BLACKSTONE))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.BLACKSTONE_FENCE, Ingredient.ofItems(Blocks.BLACKSTONE), Ingredient.ofItems(Blocks.BLACKSTONE_SLAB), 3)
+                .criterion(hasItem(Blocks.BLACKSTONE), conditionsFromItem(Blocks.BLACKSTONE))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.BLACKSTONE_FENCE_GATE, Ingredient.ofItems(Blocks.BLACKSTONE), Ingredient.ofItems(Blocks.BLACKSTONE_SLAB), 1)
+                .criterion(hasItem(Blocks.BLACKSTONE), conditionsFromItem(Blocks.BLACKSTONE))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.BLACKSTONE_TRAPDOOR, Ingredient.ofItems(Blocks.BLACKSTONE_SLAB))
+                .criterion(hasItem(Blocks.BLACKSTONE), conditionsFromItem(Blocks.BLACKSTONE))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLACKSTONE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.BLACKSTONE))
+                .criterion(hasItem(Blocks.BLACKSTONE), conditionsFromItem(Blocks.BLACKSTONE))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLACKSTONE_BUTTON, Blocks.BLACKSTONE, 1)
+                .criterion(hasItem(Blocks.BLACKSTONE), conditionsFromItem(Blocks.BLACKSTONE))
+                .offerTo(exporter);
+
 
 
     }
