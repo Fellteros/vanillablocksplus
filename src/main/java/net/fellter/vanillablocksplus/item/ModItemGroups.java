@@ -529,6 +529,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SMOOTH_BASALT_TRAPDOOR);
                         entries.add(ModBlocks.SMOOTH_BASALT_PRESSURE_PLATE);
                         entries.add(ModBlocks.SMOOTH_BASALT_BUTTON);
+                        //polished basalt
+                        entries.add(ModBlocks.POLISHED_BASALT_STAIRS);
+                        entries.add(ModBlocks.POLISHED_BASALT_SLAB);
+                        entries.add(ModBlocks.POLISHED_BASALT_WALL);
+                        entries.add(ModBlocks.POLISHED_BASALT_FENCE);
+                        entries.add(ModBlocks.POLISHED_BASALT_FENCE_GATE);
+                        entries.add(ModBlocks.POLISHED_BASALT_DOOR);
+                        entries.add(ModBlocks.POLISHED_BASALT_TRAPDOOR);
+                        entries.add(ModBlocks.POLISHED_BASALT_PRESSURE_PLATE);
+                        entries.add(ModBlocks.POLISHED_BASALT_BUTTON);
 
 
                     }).build());

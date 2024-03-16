@@ -1523,6 +1523,35 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.SMOOTH_BASALT), conditionsFromItem(Blocks.SMOOTH_BASALT))
                 .offerTo(exporter);
 
+        //polished_basalt
+        ModRecipes.createDoorRecipe(ModBlocks.POLISHED_BASALT_DOOR, Ingredient.ofItems(Blocks.POLISHED_BASALT))
+                .criterion(hasItem(Blocks.POLISHED_BASALT), conditionsFromItem(Blocks.POLISHED_BASALT))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.POLISHED_BASALT_SLAB, Ingredient.ofItems(Blocks.POLISHED_BASALT))
+                .criterion(hasItem(Blocks.POLISHED_BASALT), conditionsFromItem(Blocks.POLISHED_BASALT))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.POLISHED_BASALT_STAIRS, Ingredient.ofItems(Blocks.POLISHED_BASALT))
+                .criterion(hasItem(Blocks.POLISHED_BASALT), conditionsFromItem(Blocks.POLISHED_BASALT))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.POLISHED_BASALT_FENCE, Ingredient.ofItems(Blocks.POLISHED_BASALT), Ingredient.ofItems(ModBlocks.POLISHED_BASALT_SLAB), 3)
+                .criterion(hasItem(Blocks.POLISHED_BASALT), conditionsFromItem(Blocks.POLISHED_BASALT))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.POLISHED_BASALT_FENCE_GATE, Ingredient.ofItems(Blocks.POLISHED_BASALT), Ingredient.ofItems(ModBlocks.POLISHED_BASALT_SLAB), 1)
+                .criterion(hasItem(Blocks.POLISHED_BASALT), conditionsFromItem(Blocks.POLISHED_BASALT))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.POLISHED_BASALT_TRAPDOOR, Ingredient.ofItems(ModBlocks.POLISHED_BASALT_SLAB))
+                .criterion(hasItem(Blocks.POLISHED_BASALT), conditionsFromItem(Blocks.POLISHED_BASALT))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.POLISHED_BASALT_PRESSURE_PLATE, Ingredient.ofItems(Blocks.POLISHED_BASALT))
+                .criterion(hasItem(Blocks.POLISHED_BASALT), conditionsFromItem(Blocks.POLISHED_BASALT))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.POLISHED_BASALT_BUTTON, Blocks.POLISHED_BASALT, 1)
+                .criterion(hasItem(Blocks.POLISHED_BASALT), conditionsFromItem(Blocks.POLISHED_BASALT))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.POLISHED_BASALT_WALL, Ingredient.ofItems(Blocks.POLISHED_BASALT))
+                .criterion(hasItem(Blocks.POLISHED_BASALT), conditionsFromItem(Blocks.POLISHED_BASALT))
+                .offerTo(exporter);
+
 
 
     }

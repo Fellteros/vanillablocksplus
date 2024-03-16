@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/polished_basalt_slab"
+    },
+    "type=double": {
+      "model": "vanillablocksplus:block/polished_basalt_mod"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/polished_basalt_slab_top"
+    }
+  }
+}

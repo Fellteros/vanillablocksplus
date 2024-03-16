@@ -4,7 +4,6 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.item.ModItems;
-import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.client.*;
 
@@ -137,6 +136,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BASALT_MOD);
         BlockStateModelGenerator.BlockTexturePool smoothBasaltPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_BASALT);
+        BlockStateModelGenerator.BlockTexturePool polishedBasaltPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_BASALT_MOD);
 
 
 
@@ -537,6 +538,14 @@ public class ModModelProvider extends FabricModelProvider {
         smoothBasaltPool.fence(ModBlocks.SMOOTH_BASALT_FENCE);
         smoothBasaltPool.fenceGate(ModBlocks.SMOOTH_BASALT_FENCE_GATE);
         smoothBasaltPool.pressurePlate(ModBlocks.SMOOTH_BASALT_PRESSURE_PLATE);
+        //polished basalt
+        polishedBasaltPool.button(ModBlocks.POLISHED_BASALT_BUTTON);
+        polishedBasaltPool.wall(ModBlocks.POLISHED_BASALT_WALL);
+        polishedBasaltPool.stairs(ModBlocks.POLISHED_BASALT_STAIRS);
+        polishedBasaltPool.slab(ModBlocks.POLISHED_BASALT_SLAB);
+        polishedBasaltPool.fence(ModBlocks.POLISHED_BASALT_FENCE);
+        polishedBasaltPool.fenceGate(ModBlocks.POLISHED_BASALT_FENCE_GATE);
+        polishedBasaltPool.pressurePlate(ModBlocks.POLISHED_BASALT_PRESSURE_PLATE);
 
 
 
@@ -725,6 +734,9 @@ public class ModModelProvider extends FabricModelProvider {
         //smooth basalt
         blockStateModelGenerator.registerDoor(ModBlocks.SMOOTH_BASALT_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SMOOTH_BASALT_TRAPDOOR);
+        //polished basalt
+        blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_BASALT_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_BASALT_TRAPDOOR);
 
 
 

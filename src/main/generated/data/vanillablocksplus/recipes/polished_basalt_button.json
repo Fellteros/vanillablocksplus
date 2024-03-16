@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:polished_basalt"
+    }
+  },
+  "pattern": [
+    " # "
+  ],
+  "result": {
+    "item": "vanillablocksplus:polished_basalt_button"
+  },
+  "show_notification": true
+}

@@ -539,6 +539,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMOOTH_BASALT_SLAB, slabDrops(ModBlocks.SMOOTH_BASALT_SLAB));
         addDrop(ModBlocks.SMOOTH_BASALT_WALL);
 
+        //polished basalt
+        addDrop(ModBlocks.POLISHED_BASALT_STAIRS);
+        addDrop(ModBlocks.POLISHED_BASALT_TRAPDOOR);
+        addDrop(ModBlocks.POLISHED_BASALT_BUTTON);
+        addDrop(ModBlocks.POLISHED_BASALT_PRESSURE_PLATE);
+        addDrop(ModBlocks.POLISHED_BASALT_FENCE);
+        addDrop(ModBlocks.POLISHED_BASALT_FENCE_GATE);
+        addDrop(ModBlocks.POLISHED_BASALT_DOOR, doorDrops(ModBlocks.POLISHED_BASALT_DOOR));
+        addDrop(ModBlocks.POLISHED_BASALT_SLAB, slabDrops(ModBlocks.POLISHED_BASALT_SLAB));
+        addDrop(ModBlocks.POLISHED_BASALT_WALL);
+
 
     }
     public LootTable.Builder moreOreDrops(Block drop, Item item) {
