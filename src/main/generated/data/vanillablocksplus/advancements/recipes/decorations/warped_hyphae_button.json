@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_warped_hyphae",
       "has_warped_hyphae_button",
+      "has_warped_hyphae",
       "has_the_recipe"
     ]
   ],

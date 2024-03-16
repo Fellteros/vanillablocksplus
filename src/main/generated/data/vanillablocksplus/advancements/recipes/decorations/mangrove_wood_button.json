@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_mangrove_wood",
       "has_mangrove_wood_button",
+      "has_mangrove_wood",
       "has_the_recipe"
     ]
   ],

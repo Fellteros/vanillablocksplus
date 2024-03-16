@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_cut_sandstone",
       "has_cut_sandstone_button",
+      "has_cut_sandstone",
       "has_the_recipe"
     ]
   ],

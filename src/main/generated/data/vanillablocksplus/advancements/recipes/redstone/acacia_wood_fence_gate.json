@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_acacia_wood_fence_gate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:acacia_wood_fence_gate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:acacia_wood_fence_gate"
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_acacia_wood_fence_gate",
       "has_acacia_wood",
       "has_the_recipe"
     ]

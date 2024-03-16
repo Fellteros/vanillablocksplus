@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_chiseled_deepslate",
       "has_chiseled_deepslate_button",
+      "has_chiseled_deepslate",
       "has_the_recipe"
     ]
   ],

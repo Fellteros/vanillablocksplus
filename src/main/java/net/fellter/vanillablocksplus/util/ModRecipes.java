@@ -30,7 +30,8 @@ public class ModRecipes {
                 .input('W', input)
                 .pattern("W#W")
                 .pattern("W#W")
-                .criterion(hasItem(output), conditionsFromItem(output));
+                .criterion(hasItem(output), conditionsFromItem(output))
+                .showNotification(true);
     }
 
     public static CraftingRecipeJsonBuilder createNonWoodFenceGateRecipe(ItemConvertible output, Ingredient input, Ingredient likeStickItem, int outputCount) {
@@ -39,45 +40,48 @@ public class ModRecipes {
                 .input('W', input)
                 .pattern("#W#")
                 .pattern("#W#")
-                .criterion(hasItem(output), conditionsFromItem(output));
+                .criterion(hasItem(output), conditionsFromItem(output))
+                .showNotification(true);
     }
 
 
-    public static void offer2x2ButtonRecipe(Consumer<RecipeJsonProvider> exporter, RecipeCategory category, ItemConvertible output, ItemConvertible input, int outputCount) {
-        ShapedRecipeJsonBuilder.create(category, output, outputCount)
+    public static CraftingRecipeJsonBuilder offer2x2ButtonRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input, int outputCount) {
+        return ShapedRecipeJsonBuilder.create(category, output, outputCount)
                 .input('#', input)
                 .pattern("##")
                 .pattern("##")
-                .criterion(RecipeProvider.hasItem(input),
-                        RecipeProvider.conditionsFromItem(input))
                 .criterion(hasItem(output), conditionsFromItem(output))
-                .offerTo(exporter);
+                .showNotification(true);
     }
     public static CraftingRecipeJsonBuilder offerButtonRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input, int outputCount) {
         return ShapedRecipeJsonBuilder.create(category, output, outputCount)
                 .input('#', input)
                 .pattern(" # ")
-                .criterion(hasItem(output), conditionsFromItem(output));
+                .criterion(hasItem(output), conditionsFromItem(output))
+                .showNotification(true);
     }
     public static CraftingRecipeJsonBuilder createSlabRecipe(RecipeCategory category, ItemConvertible output, Ingredient input) {
         return ShapedRecipeJsonBuilder.create(category, output, 6)
                 .input('#', input)
                 .pattern("###")
-                .criterion(hasItem(output), conditionsFromItem(output));
+                .criterion(hasItem(output), conditionsFromItem(output))
+                .showNotification(true);
     }
     public static CraftingRecipeJsonBuilder createStairsRecipe(ItemConvertible output, Ingredient input) {
         return ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, output, 4).input('#', input)
                 .pattern("#  ")
                 .pattern("## ")
                 .pattern("###")
-                .criterion(hasItem(output), conditionsFromItem(output));
+                .criterion(hasItem(output), conditionsFromItem(output))
+                .showNotification(true);
     }
     public static CraftingRecipeJsonBuilder createTrapdoorRecipe(ItemConvertible output, Ingredient input) {
         return ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, output, 2)
                 .input('#', input)
                 .pattern("###")
                 .pattern("###")
-                .criterion(hasItem(output), conditionsFromItem(output));
+                .criterion(hasItem(output), conditionsFromItem(output))
+                .showNotification(true);
     }
     public static CraftingRecipeJsonBuilder createFenceGateRecipe(ItemConvertible output, Ingredient input) {
         return ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, output)
@@ -85,7 +89,8 @@ public class ModRecipes {
                 .input('W', input)
                 .pattern("#W#")
                 .pattern("#W#")
-                .criterion(hasItem(output), conditionsFromItem(output));
+                .criterion(hasItem(output), conditionsFromItem(output))
+                .showNotification(true);
     }
     public static CraftingRecipeJsonBuilder createFenceRecipe(ItemConvertible output, Ingredient input) {
         int i = output == Blocks.NETHER_BRICK_FENCE ? 6 : 3;
@@ -94,20 +99,23 @@ public class ModRecipes {
                 .input('W', input).input('#', item)
                 .pattern("W#W")
                 .pattern("W#W")
-                .criterion(hasItem(output), conditionsFromItem(output));
+                .criterion(hasItem(output), conditionsFromItem(output))
+                .showNotification(true);
     }
     public static CraftingRecipeJsonBuilder createDoorRecipe(ItemConvertible output, Ingredient input) {
         return ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, output, 3).input('#', input)
                 .pattern("##")
                 .pattern("##")
                 .pattern("##")
-                .criterion(hasItem(output), conditionsFromItem(output));
+                .criterion(hasItem(output), conditionsFromItem(output))
+                .showNotification(true);
     }
     public static CraftingRecipeJsonBuilder createWallRecipe(RecipeCategory category, ItemConvertible output, Ingredient input) {
         return ShapedRecipeJsonBuilder.create(category, output, 6)
                 .input('#', input)
                 .pattern("###")
                 .pattern("###")
-                .criterion(hasItem(output), conditionsFromItem(output));
+                .criterion(hasItem(output), conditionsFromItem(output))
+                .showNotification(true);
     }
 }

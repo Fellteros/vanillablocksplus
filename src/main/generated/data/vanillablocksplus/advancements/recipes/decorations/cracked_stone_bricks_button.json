@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_cracked_stone_bricks",
       "has_cracked_stone_bricks_button",
+      "has_cracked_stone_bricks",
       "has_the_recipe"
     ]
   ],

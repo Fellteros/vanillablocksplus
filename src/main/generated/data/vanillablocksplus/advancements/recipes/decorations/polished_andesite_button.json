@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_polished_andesite",
       "has_polished_andesite_button",
+      "has_polished_andesite",
       "has_the_recipe"
     ]
   ],

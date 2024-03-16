@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_cobbled_deepslate",
       "has_cobbled_deepslate_button",
+      "has_cobbled_deepslate",
       "has_the_recipe"
     ]
   ],

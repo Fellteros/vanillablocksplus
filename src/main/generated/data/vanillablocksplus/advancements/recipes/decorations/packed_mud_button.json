@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_packed_mud",
       "has_packed_mud_button",
+      "has_packed_mud",
       "has_the_recipe"
     ]
   ],

@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_stripped_oak_wood",
       "has_str_oak_wood_button",
+      "has_stripped_oak_wood",
       "has_the_recipe"
     ]
   ],

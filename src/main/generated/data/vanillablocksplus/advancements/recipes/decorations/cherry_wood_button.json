@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_cherry_wood",
       "has_cherry_wood_button",
+      "has_cherry_wood",
       "has_the_recipe"
     ]
   ],

@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_jungle_wood",
       "has_jungle_wood_button",
+      "has_jungle_wood",
       "has_the_recipe"
     ]
   ],

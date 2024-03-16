@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_bricks",
       "has_brick_button",
+      "has_bricks",
       "has_the_recipe"
     ]
   ],

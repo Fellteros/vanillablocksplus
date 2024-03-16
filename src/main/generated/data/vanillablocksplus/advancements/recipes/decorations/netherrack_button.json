@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_netherrack",
       "has_netherrack_button",
+      "has_netherrack",
       "has_the_recipe"
     ]
   ],

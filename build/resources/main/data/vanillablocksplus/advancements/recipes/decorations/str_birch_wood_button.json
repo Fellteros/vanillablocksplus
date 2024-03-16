@@ -1,12 +1,24 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_stripped_birch_wood": {
+    "has_deepslate": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:stripped_birch_wood"
+              "minecraft:deepslate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_str_birch_wood_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:str_birch_wood_button"
             ]
           }
         ]
@@ -22,7 +34,8 @@
   },
   "requirements": [
     [
-      "has_stripped_birch_wood",
+      "has_str_birch_wood_button",
+      "has_deepslate",
       "has_the_recipe"
     ]
   ],

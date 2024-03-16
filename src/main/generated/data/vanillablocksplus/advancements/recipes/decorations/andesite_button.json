@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_andesite",
       "has_andesite_button",
+      "has_andesite",
       "has_the_recipe"
     ]
   ],

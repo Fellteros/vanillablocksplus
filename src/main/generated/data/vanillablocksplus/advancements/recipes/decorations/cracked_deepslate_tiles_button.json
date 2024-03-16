@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_cracked_deepslate_tiles",
       "has_cracked_deepslate_tiles_button",
+      "has_cracked_deepslate_tiles",
       "has_the_recipe"
     ]
   ],

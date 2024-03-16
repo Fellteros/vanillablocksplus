@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_oak_wood",
       "has_oak_wood_button",
+      "has_oak_wood",
       "has_the_recipe"
     ]
   ],

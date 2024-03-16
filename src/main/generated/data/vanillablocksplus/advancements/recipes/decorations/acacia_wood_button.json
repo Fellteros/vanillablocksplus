@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_acacia_wood",
       "has_acacia_wood_button",
+      "has_acacia_wood",
       "has_the_recipe"
     ]
   ],

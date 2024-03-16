@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_birch_wood",
       "has_birch_wood_button",
+      "has_birch_wood",
       "has_the_recipe"
     ]
   ],

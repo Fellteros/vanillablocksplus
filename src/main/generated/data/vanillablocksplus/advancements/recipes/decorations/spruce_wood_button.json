@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_spruce_wood",
       "has_spruce_wood_button",
+      "has_spruce_wood",
       "has_the_recipe"
     ]
   ],

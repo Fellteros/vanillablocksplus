@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_polished_granite",
       "has_polished_granite_button",
+      "has_polished_granite",
       "has_the_recipe"
     ]
   ],

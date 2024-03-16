@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_smooth_stone",
       "has_smooth_stone_button",
+      "has_smooth_stone",
       "has_the_recipe"
     ]
   ],

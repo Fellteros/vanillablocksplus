@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_bamboo_block",
       "has_bamboo_block_button",
+      "has_bamboo_block",
       "has_the_recipe"
     ]
   ],

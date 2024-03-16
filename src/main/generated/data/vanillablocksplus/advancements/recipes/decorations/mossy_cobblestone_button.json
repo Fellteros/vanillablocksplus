@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_mossy_cobblestone",
       "has_mossy_cobblestone_button",
+      "has_mossy_cobblestone",
       "has_the_recipe"
     ]
   ],

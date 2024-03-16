@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_sea_lantern",
       "has_sea_lantern_button",
+      "has_sea_lantern",
       "has_the_recipe"
     ]
   ],

@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_diorite",
       "has_diorite_button",
+      "has_diorite",
       "has_the_recipe"
     ]
   ],
