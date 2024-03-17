@@ -146,9 +146,6 @@ public class ModModelProvider extends FabricModelProvider {
 
 
 
-
-
-
         //oak
         oakWoodPool.button(ModBlocks.OAK_WOOD_BUTTON);
         oakWoodPool.fence(ModBlocks.OAK_WOOD_FENCE);
@@ -558,6 +555,7 @@ public class ModModelProvider extends FabricModelProvider {
 
 
 
+
         //oak
         blockStateModelGenerator.registerDoor(ModBlocks.OAK_WOOD_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.OAK_WOOD_TRAPDOOR);
@@ -754,6 +752,7 @@ public class ModModelProvider extends FabricModelProvider {
 
 
     }
+
 
 
 

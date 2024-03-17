@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "minecraft:block/netherrack"
+    "all": "vanillablocksplus:block/blackstone_mod"
   }
 }
