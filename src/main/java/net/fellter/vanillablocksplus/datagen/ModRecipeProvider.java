@@ -1572,6 +1572,48 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.BLACKSTONE), conditionsFromItem(Blocks.BLACKSTONE))
                 .offerTo(exporter);
 
+        //gilded_blackstone
+        ModRecipes.createDoorRecipe(ModBlocks.GILDED_BLACKSTONE_DOOR, Ingredient.ofItems(Blocks.GILDED_BLACKSTONE))
+                .criterion(hasItem(Blocks.GILDED_BLACKSTONE), conditionsFromItem(Blocks.GILDED_BLACKSTONE))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.GILDED_BLACKSTONE_SLAB, Ingredient.ofItems(Blocks.GILDED_BLACKSTONE))
+                .criterion(hasItem(Blocks.GILDED_BLACKSTONE), conditionsFromItem(Blocks.GILDED_BLACKSTONE))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.GILDED_BLACKSTONE_STAIRS, Ingredient.ofItems(Blocks.GILDED_BLACKSTONE))
+                .criterion(hasItem(Blocks.GILDED_BLACKSTONE), conditionsFromItem(Blocks.GILDED_BLACKSTONE))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.GILDED_BLACKSTONE_FENCE, Ingredient.ofItems(Blocks.GILDED_BLACKSTONE), Ingredient.ofItems(ModBlocks.GILDED_BLACKSTONE_SLAB), 3)
+                .criterion(hasItem(Blocks.GILDED_BLACKSTONE), conditionsFromItem(Blocks.GILDED_BLACKSTONE))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.GILDED_BLACKSTONE_FENCE_GATE, Ingredient.ofItems(Blocks.GILDED_BLACKSTONE), Ingredient.ofItems(ModBlocks.GILDED_BLACKSTONE_SLAB), 1)
+                .criterion(hasItem(Blocks.GILDED_BLACKSTONE), conditionsFromItem(Blocks.GILDED_BLACKSTONE))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.GILDED_BLACKSTONE_TRAPDOOR, Ingredient.ofItems(ModBlocks.GILDED_BLACKSTONE_SLAB))
+                .criterion(hasItem(Blocks.GILDED_BLACKSTONE), conditionsFromItem(Blocks.GILDED_BLACKSTONE))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.GILDED_BLACKSTONE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.GILDED_BLACKSTONE))
+                .criterion(hasItem(Blocks.GILDED_BLACKSTONE), conditionsFromItem(Blocks.GILDED_BLACKSTONE))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.GILDED_BLACKSTONE_BUTTON, Blocks.GILDED_BLACKSTONE, 1)
+                .criterion(hasItem(Blocks.GILDED_BLACKSTONE), conditionsFromItem(Blocks.GILDED_BLACKSTONE))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.GILDED_BLACKSTONE_WALL, Ingredient.ofItems(Blocks.GILDED_BLACKSTONE))
+                .criterion(hasItem(Blocks.GILDED_BLACKSTONE), conditionsFromItem(Blocks.GILDED_BLACKSTONE))
+                .offerTo(exporter);
+
+        //polished blackstone
+        ModRecipes.createDoorRecipe(ModBlocks.POLISHED_BLACKSTONE_DOOR, Ingredient.ofItems(Blocks.POLISHED_BLACKSTONE))
+                .criterion(hasItem(Blocks.POLISHED_BLACKSTONE), conditionsFromItem(Blocks.POLISHED_BLACKSTONE))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.POLISHED_BLACKSTONE_FENCE, Ingredient.ofItems(Blocks.POLISHED_BLACKSTONE), Ingredient.ofItems(Blocks.POLISHED_BLACKSTONE_SLAB), 3)
+                .criterion(hasItem(Blocks.POLISHED_BLACKSTONE), conditionsFromItem(Blocks.POLISHED_BLACKSTONE))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.POLISHED_BLACKSTONE_FENCE_GATE, Ingredient.ofItems(Blocks.POLISHED_BLACKSTONE), Ingredient.ofItems(Blocks.POLISHED_BLACKSTONE_SLAB), 1)
+                .criterion(hasItem(Blocks.POLISHED_BLACKSTONE), conditionsFromItem(Blocks.POLISHED_BLACKSTONE))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.POLISHED_BLACKSTONE_TRAPDOOR, Ingredient.ofItems(Blocks.POLISHED_BLACKSTONE_SLAB))
+                .criterion(hasItem(Blocks.POLISHED_BLACKSTONE), conditionsFromItem(Blocks.POLISHED_BLACKSTONE))
+                .offerTo(exporter);
 
 
     }

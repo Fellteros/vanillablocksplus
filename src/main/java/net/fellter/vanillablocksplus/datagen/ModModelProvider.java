@@ -139,7 +139,12 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool polishedBasaltPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_BASALT_MOD);
         BlockStateModelGenerator.BlockTexturePool blackstonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLACKSTONE_MOD);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACKSTONE);
+        BlockStateModelGenerator.BlockTexturePool gildedBlackstonePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GILDED_BLACKSTONE);
+        BlockStateModelGenerator.BlockTexturePool polishedBlackstonePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_BLACKSTONE);
+
 
 
 
@@ -550,6 +555,17 @@ public class ModModelProvider extends FabricModelProvider {
         blackstonePool.fence(ModBlocks.BLACKSTONE_FENCE);
         blackstonePool.fenceGate(ModBlocks.BLACKSTONE_FENCE_GATE);
         blackstonePool.pressurePlate(ModBlocks.BLACKSTONE_PRESSURE_PLATE);
+        //gilded blackstone
+        gildedBlackstonePool.button(ModBlocks.GILDED_BLACKSTONE_BUTTON);
+        gildedBlackstonePool.wall(ModBlocks.GILDED_BLACKSTONE_WALL);
+        gildedBlackstonePool.slab(ModBlocks.GILDED_BLACKSTONE_SLAB);
+        gildedBlackstonePool.stairs(ModBlocks.GILDED_BLACKSTONE_STAIRS);
+        gildedBlackstonePool.fence(ModBlocks.GILDED_BLACKSTONE_FENCE);
+        gildedBlackstonePool.fenceGate(ModBlocks.GILDED_BLACKSTONE_FENCE_GATE);
+        gildedBlackstonePool.pressurePlate(ModBlocks.GILDED_BLACKSTONE_PRESSURE_PLATE);
+        //polished blackstone
+        polishedBlackstonePool.fence(ModBlocks.POLISHED_BLACKSTONE_FENCE);
+        polishedBlackstonePool.fenceGate(ModBlocks.POLISHED_BLACKSTONE_FENCE_GATE);
 
 
 
@@ -745,6 +761,12 @@ public class ModModelProvider extends FabricModelProvider {
         //blackstone
         blockStateModelGenerator.registerDoor(ModBlocks.BLACKSTONE_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLACKSTONE_TRAPDOOR);
+        //gilded blackstone
+        blockStateModelGenerator.registerDoor(ModBlocks.GILDED_BLACKSTONE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GILDED_BLACKSTONE_TRAPDOOR);
+        //polished blackstone
+        blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_BLACKSTONE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_BLACKSTONE_TRAPDOOR);
 
 
 

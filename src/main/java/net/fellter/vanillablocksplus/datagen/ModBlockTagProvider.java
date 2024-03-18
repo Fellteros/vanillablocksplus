@@ -353,7 +353,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLACKSTONE_FENCE_GATE)
                 .add(ModBlocks.BLACKSTONE_FENCE)
                 .add(ModBlocks.BLACKSTONE_BUTTON)
-                .add(ModBlocks.BLACKSTONE_PRESSURE_PLATE);
+                .add(ModBlocks.BLACKSTONE_PRESSURE_PLATE)
+                //polished basalt
+                .add(ModBlocks.GILDED_BLACKSTONE_STAIRS)
+                .add(ModBlocks.GILDED_BLACKSTONE_SLAB)
+                .add(ModBlocks.GILDED_BLACKSTONE_WALL)
+                .add(ModBlocks.GILDED_BLACKSTONE_DOOR)
+                .add(ModBlocks.GILDED_BLACKSTONE_TRAPDOOR)
+                .add(ModBlocks.GILDED_BLACKSTONE_FENCE_GATE)
+                .add(ModBlocks.GILDED_BLACKSTONE_FENCE)
+                .add(ModBlocks.GILDED_BLACKSTONE_BUTTON)
+                .add(ModBlocks.GILDED_BLACKSTONE_PRESSURE_PLATE)
+                //polished basalt
+                .add(ModBlocks.POLISHED_BLACKSTONE_DOOR)
+                .add(ModBlocks.POLISHED_BLACKSTONE_TRAPDOOR)
+                .add(ModBlocks.POLISHED_BLACKSTONE_FENCE_GATE)
+                .add(ModBlocks.POLISHED_BLACKSTONE_FENCE);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 //oak
@@ -610,7 +625,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BASALT_FENCE)
                 .add(ModBlocks.SMOOTH_BASALT_FENCE)
                 .add(ModBlocks.POLISHED_BASALT_FENCE)
-                .add(ModBlocks.BLACKSTONE_FENCE);
+                .add(ModBlocks.BLACKSTONE_FENCE)
+                .add(ModBlocks.GILDED_BLACKSTONE_FENCE)
+                .add(ModBlocks.POLISHED_BLACKSTONE_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -675,7 +692,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BASALT_FENCE)
                 .add(ModBlocks.SMOOTH_BASALT_FENCE)
                 .add(ModBlocks.POLISHED_BASALT_FENCE)
-                .add(ModBlocks.BLACKSTONE_FENCE);
+                .add(ModBlocks.BLACKSTONE_FENCE)
+                .add(ModBlocks.GILDED_BLACKSTONE_FENCE)
+                .add(ModBlocks.POLISHED_BLACKSTONE_FENCE);
 
 
 
@@ -741,7 +760,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BASALT_FENCE_GATE)
                 .add(ModBlocks.SMOOTH_BASALT_FENCE_GATE)
                 .add(ModBlocks.POLISHED_BASALT_FENCE_GATE)
-                .add(ModBlocks.BLACKSTONE_FENCE_GATE);
+                .add(ModBlocks.BLACKSTONE_FENCE_GATE)
+                .add(ModBlocks.GILDED_BLACKSTONE_FENCE_GATE)
+                .add(ModBlocks.POLISHED_BLACKSTONE_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -767,7 +788,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_NETHER_BRICK_WALL)
                 .add(ModBlocks.BASALT_WALL)
                 .add(ModBlocks.SMOOTH_BASALT_WALL)
-                .add(ModBlocks.POLISHED_BASALT_WALL);
+                .add(ModBlocks.POLISHED_BASALT_WALL)
+                .add(ModBlocks.GILDED_BLACKSTONE_WALL);
 
 
 

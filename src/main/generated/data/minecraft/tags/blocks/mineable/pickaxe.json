@@ -281,6 +281,19 @@
     "vanillablocksplus:blackstone_fence_gate",
     "vanillablocksplus:blackstone_fence",
     "vanillablocksplus:blackstone_button",
-    "vanillablocksplus:blackstone_pressure_plate"
+    "vanillablocksplus:blackstone_pressure_plate",
+    "vanillablocksplus:gilded_blackstone_stairs",
+    "vanillablocksplus:gilded_blackstone_slab",
+    "vanillablocksplus:gilded_blackstone_wall",
+    "vanillablocksplus:gilded_blackstone_door",
+    "vanillablocksplus:gilded_blackstone_trapdoor",
+    "vanillablocksplus:gilded_blackstone_fence_gate",
+    "vanillablocksplus:gilded_blackstone_fence",
+    "vanillablocksplus:gilded_blackstone_button",
+    "vanillablocksplus:gilded_blackstone_pressure_plate",
+    "vanillablocksplus:polished_blackstone_door",
+    "vanillablocksplus:polished_blackstone_trapdoor",
+    "vanillablocksplus:polished_blackstone_fence_gate",
+    "vanillablocksplus:polished_blackstone_fence"
   ]
 }

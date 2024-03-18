@@ -531,6 +531,21 @@
   "block.vanillablocksplus.blackstone_pressure_plate": "Blackstone Pressure Plate",
   "block.vanillablocksplus.blackstone_button": "Blackstone Button",
 
+  "block.vanillablocksplus.gilded_blackstone_stairs": "Gilded Blackstone Stairs",
+  "block.vanillablocksplus.gilded_blackstone_slab": "Gilded Blackstone Slab",
+  "block.vanillablocksplus.gilded_blackstone_door": "Gilded Blackstone Door",
+  "block.vanillablocksplus.gilded_blackstone_trapdoor": "Gilded Blackstone Trapdoor",
+  "block.vanillablocksplus.gilded_blackstone_fence": "Gilded Blackstone Fence",
+  "block.vanillablocksplus.gilded_blackstone_fence_gate": "Gilded Blackstone Fence Gate",
+  "block.vanillablocksplus.gilded_blackstone_pressure_plate": "Gilded Blackstone Pressure Plate",
+  "block.vanillablocksplus.gilded_blackstone_button": "Gilded Blackstone Button",
+  "block.vanillablocksplus.gilded_blackstone_wall": "Gilded Blackstone Wall",
+
+  "block.vanillablocksplus.polished_blackstone_door": "Polished Blackstone Door",
+  "block.vanillablocksplus.polished_blackstone_trapdoor": "Polished Blackstone Trapdoor",
+  "block.vanillablocksplus.polished_blackstone_fence": "Polished Blackstone Fence",
+  "block.vanillablocksplus.polished_blackstone_fence_gate": "Polished Blackstone Fence Gate",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

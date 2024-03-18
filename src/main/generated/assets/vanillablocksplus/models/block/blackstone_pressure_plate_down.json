@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/pressure_plate_down",
   "textures": {
-    "texture": "vanillablocksplus:block/blackstone_mod"
+    "texture": "minecraft:block/blackstone"
   }
 }

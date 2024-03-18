@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab",
   "textures": {
-    "bottom": "vanillablocksplus:block/polished_basalt_mod",
+    "bottom": "minecraft:block/polished_basalt_top",
     "side": "vanillablocksplus:block/polished_basalt_mod",
-    "top": "vanillablocksplus:block/polished_basalt_mod"
+    "top": "minecraft:block/polished_basalt_top"
   }
 }

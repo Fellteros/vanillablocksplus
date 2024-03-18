@@ -63,6 +63,8 @@
     "vanillablocksplus:basalt_fence",
     "vanillablocksplus:smooth_basalt_fence",
     "vanillablocksplus:polished_basalt_fence",
-    "vanillablocksplus:blackstone_fence"
+    "vanillablocksplus:blackstone_fence",
+    "vanillablocksplus:gilded_blackstone_fence",
+    "vanillablocksplus:polished_blackstone_fence"
   ]
 }
