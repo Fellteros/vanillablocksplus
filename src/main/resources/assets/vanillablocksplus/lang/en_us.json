@@ -546,6 +546,13 @@
   "block.vanillablocksplus.polished_blackstone_fence": "Polished Blackstone Fence",
   "block.vanillablocksplus.polished_blackstone_fence_gate": "Polished Blackstone Fence Gate",
 
+  "block.vanillablocksplus.polished_blackstone_brick_door": "Polished Blackstone Brick Door",
+  "block.vanillablocksplus.polished_blackstone_brick_trapdoor": "Polished Blackstone Brick Trapdoor",
+  "block.vanillablocksplus.polished_blackstone_brick_fence": "Polished Blackstone Brick Fence",
+  "block.vanillablocksplus.polished_blackstone_brick_fence_gate": "Polished Blackstone Brick Fence Gate",
+  "block.vanillablocksplus.polished_blackstone_brick_pressure_plate": "Polished Blackstone Brick Pressure Plate",
+  "block.vanillablocksplus.polished_blackstone_brick_button": "Polished Blackstone Brick Button",
+
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

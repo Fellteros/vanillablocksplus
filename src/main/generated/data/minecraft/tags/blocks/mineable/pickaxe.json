@@ -294,6 +294,12 @@
     "vanillablocksplus:polished_blackstone_door",
     "vanillablocksplus:polished_blackstone_trapdoor",
     "vanillablocksplus:polished_blackstone_fence_gate",
-    "vanillablocksplus:polished_blackstone_fence"
+    "vanillablocksplus:polished_blackstone_fence",
+    "vanillablocksplus:polished_blackstone_brick_door",
+    "vanillablocksplus:polished_blackstone_brick_trapdoor",
+    "vanillablocksplus:polished_blackstone_brick_fence_gate",
+    "vanillablocksplus:polished_blackstone_brick_fence",
+    "vanillablocksplus:polished_blackstone_brick_button",
+    "vanillablocksplus:polished_blackstone_brick_pressure_plate"
   ]
 }

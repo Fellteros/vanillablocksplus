@@ -1615,6 +1615,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.POLISHED_BLACKSTONE), conditionsFromItem(Blocks.POLISHED_BLACKSTONE))
                 .offerTo(exporter);
 
+        //polished blackstone brick
+        ModRecipes.createDoorRecipe(ModBlocks.POLISHED_BLACKSTONE_BRICK_DOOR, Ingredient.ofItems(Blocks.POLISHED_BLACKSTONE_BRICKS))
+                .criterion(hasItem(Blocks.POLISHED_BLACKSTONE_BRICKS), conditionsFromItem(Blocks.POLISHED_BLACKSTONE_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.POLISHED_BLACKSTONE_BRICK_FENCE, Ingredient.ofItems(Blocks.POLISHED_BLACKSTONE_BRICKS), Ingredient.ofItems(Blocks.POLISHED_BLACKSTONE_BRICK_SLAB), 3)
+                .criterion(hasItem(Blocks.POLISHED_BLACKSTONE_BRICKS), conditionsFromItem(Blocks.POLISHED_BLACKSTONE_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.POLISHED_BLACKSTONE_BRICK_FENCE_GATE, Ingredient.ofItems(Blocks.POLISHED_BLACKSTONE_BRICKS), Ingredient.ofItems(Blocks.POLISHED_BLACKSTONE_BRICK_SLAB), 1)
+                .criterion(hasItem(Blocks.POLISHED_BLACKSTONE_BRICKS), conditionsFromItem(Blocks.POLISHED_BLACKSTONE_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.POLISHED_BLACKSTONE_BRICK_TRAPDOOR, Ingredient.ofItems(Blocks.POLISHED_BLACKSTONE_BRICK_SLAB))
+                .criterion(hasItem(Blocks.POLISHED_BLACKSTONE_BRICKS), conditionsFromItem(Blocks.POLISHED_BLACKSTONE_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.POLISHED_BLACKSTONE_BRICK_PRESSURE_PLATE, Ingredient.ofItems(Blocks.POLISHED_BLACKSTONE_BRICKS))
+                .criterion(hasItem(Blocks.POLISHED_BLACKSTONE_BRICKS), conditionsFromItem(Blocks.POLISHED_BLACKSTONE_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.POLISHED_BLACKSTONE_BRICK_BUTTON, Blocks.POLISHED_BLACKSTONE_BRICKS, 1)
+                .criterion(hasItem(Blocks.POLISHED_BLACKSTONE_BRICKS), conditionsFromItem(Blocks.POLISHED_BLACKSTONE_BRICKS))
+                .offerTo(exporter);
+
 
     }
 

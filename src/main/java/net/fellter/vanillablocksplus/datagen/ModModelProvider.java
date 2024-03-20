@@ -144,6 +144,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GILDED_BLACKSTONE);
         BlockStateModelGenerator.BlockTexturePool polishedBlackstonePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_BLACKSTONE);
+        BlockStateModelGenerator.BlockTexturePool polishedBlackstoneBrickPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_BLACKSTONE_BRICKS);
 
 
 
@@ -566,6 +568,11 @@ public class ModModelProvider extends FabricModelProvider {
         //polished blackstone
         polishedBlackstonePool.fence(ModBlocks.POLISHED_BLACKSTONE_FENCE);
         polishedBlackstonePool.fenceGate(ModBlocks.POLISHED_BLACKSTONE_FENCE_GATE);
+        //polished blackstone brick
+        polishedBlackstoneBrickPool.button(ModBlocks.POLISHED_BLACKSTONE_BRICK_BUTTON);
+        polishedBlackstoneBrickPool.fence(ModBlocks.POLISHED_BLACKSTONE_BRICK_FENCE);
+        polishedBlackstoneBrickPool.fenceGate(ModBlocks.POLISHED_BLACKSTONE_BRICK_FENCE_GATE);
+        polishedBlackstoneBrickPool.pressurePlate(ModBlocks.POLISHED_BLACKSTONE_BRICK_PRESSURE_PLATE);
 
 
 
@@ -767,6 +774,9 @@ public class ModModelProvider extends FabricModelProvider {
         //polished blackstone
         blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_BLACKSTONE_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_BLACKSTONE_TRAPDOOR);
+        //polished blackstone brick
+        blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_BLACKSTONE_BRICK_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_BLACKSTONE_BRICK_TRAPDOOR);
 
 
 
