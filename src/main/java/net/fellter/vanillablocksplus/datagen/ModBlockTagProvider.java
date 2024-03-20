@@ -354,7 +354,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLACKSTONE_FENCE)
                 .add(ModBlocks.BLACKSTONE_BUTTON)
                 .add(ModBlocks.BLACKSTONE_PRESSURE_PLATE)
-                //polished basalt
+                //gilded blackstone
                 .add(ModBlocks.GILDED_BLACKSTONE_STAIRS)
                 .add(ModBlocks.GILDED_BLACKSTONE_SLAB)
                 .add(ModBlocks.GILDED_BLACKSTONE_WALL)
@@ -364,7 +364,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GILDED_BLACKSTONE_FENCE)
                 .add(ModBlocks.GILDED_BLACKSTONE_BUTTON)
                 .add(ModBlocks.GILDED_BLACKSTONE_PRESSURE_PLATE)
-                //polished basalt
+                //polished blackstone
                 .add(ModBlocks.POLISHED_BLACKSTONE_DOOR)
                 .add(ModBlocks.POLISHED_BLACKSTONE_TRAPDOOR)
                 .add(ModBlocks.POLISHED_BLACKSTONE_FENCE_GATE)
@@ -375,7 +375,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POLISHED_BLACKSTONE_BRICK_FENCE_GATE)
                 .add(ModBlocks.POLISHED_BLACKSTONE_BRICK_FENCE)
                 .add(ModBlocks.POLISHED_BLACKSTONE_BRICK_BUTTON)
-                .add(ModBlocks.POLISHED_BLACKSTONE_BRICK_PRESSURE_PLATE);
+                .add(ModBlocks.POLISHED_BLACKSTONE_BRICK_PRESSURE_PLATE)
+                //cracked polished blackstone brick
+                .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_STAIRS)
+                .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_SLAB)
+                .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_WALL)
+                .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_DOOR)
+                .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_TRAPDOOR)
+                .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_FENCE_GATE)
+                .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_FENCE)
+                .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_BUTTON)
+                .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_PRESSURE_PLATE);
+
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 //oak
@@ -635,7 +646,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLACKSTONE_FENCE)
                 .add(ModBlocks.GILDED_BLACKSTONE_FENCE)
                 .add(ModBlocks.POLISHED_BLACKSTONE_FENCE)
-                .add(ModBlocks.POLISHED_BLACKSTONE_BRICK_FENCE);
+                .add(ModBlocks.POLISHED_BLACKSTONE_BRICK_FENCE)
+                .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -703,7 +715,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLACKSTONE_FENCE)
                 .add(ModBlocks.GILDED_BLACKSTONE_FENCE)
                 .add(ModBlocks.POLISHED_BLACKSTONE_FENCE)
-                .add(ModBlocks.POLISHED_BLACKSTONE_BRICK_FENCE);
+                .add(ModBlocks.POLISHED_BLACKSTONE_BRICK_FENCE)
+                .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_FENCE);
 
 
 
@@ -772,7 +785,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLACKSTONE_FENCE_GATE)
                 .add(ModBlocks.GILDED_BLACKSTONE_FENCE_GATE)
                 .add(ModBlocks.POLISHED_BLACKSTONE_FENCE_GATE)
-                .add(ModBlocks.POLISHED_BLACKSTONE_BRICK_FENCE_GATE);
+                .add(ModBlocks.POLISHED_BLACKSTONE_BRICK_FENCE_GATE)
+                .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -799,7 +813,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BASALT_WALL)
                 .add(ModBlocks.SMOOTH_BASALT_WALL)
                 .add(ModBlocks.POLISHED_BASALT_WALL)
-                .add(ModBlocks.GILDED_BLACKSTONE_WALL);
+                .add(ModBlocks.GILDED_BLACKSTONE_WALL)
+                .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_WALL);
 
 
 

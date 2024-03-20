@@ -553,6 +553,15 @@
   "block.vanillablocksplus.polished_blackstone_brick_pressure_plate": "Polished Blackstone Brick Pressure Plate",
   "block.vanillablocksplus.polished_blackstone_brick_button": "Polished Blackstone Brick Button",
 
+  "block.vanillablocksplus.cracked_polished_blackstone_brick_stairs": "Cracked Polished Blackstone Brick Stairs",
+  "block.vanillablocksplus.cracked_polished_blackstone_brick_slab": "Cracked Polished Blackstone Brick Slab",
+  "block.vanillablocksplus.cracked_polished_blackstone_brick_door": "Cracked Polished Blackstone Brick Door",
+  "block.vanillablocksplus.cracked_polished_blackstone_brick_trapdoor": "Cracked Polished Blackstone Brick Trapdoor",
+  "block.vanillablocksplus.cracked_polished_blackstone_brick_fence": "Cracked Polished Blackstone Brick Fence",
+  "block.vanillablocksplus.cracked_polished_blackstone_brick_fence_gate": "Cracked Polished Blackstone Brick Fence Gate",
+  "block.vanillablocksplus.cracked_polished_blackstone_brick_pressure_plate": "Cracked Polished Blackstone Brick Pressure Plate",
+  "block.vanillablocksplus.cracked_polished_blackstone_brick_button": "Cracked Polished Blackstone Brick Button",
+  "block.vanillablocksplus.cracked_polished_blackstone_brick_wall": "Cracked Polished Blackstone Brick Wall",
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

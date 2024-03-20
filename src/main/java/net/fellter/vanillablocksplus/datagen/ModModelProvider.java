@@ -146,6 +146,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_BLACKSTONE);
         BlockStateModelGenerator.BlockTexturePool polishedBlackstoneBrickPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_BLACKSTONE_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool crackedPolishedBlackstoneBrickPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
 
 
 
@@ -573,6 +575,14 @@ public class ModModelProvider extends FabricModelProvider {
         polishedBlackstoneBrickPool.fence(ModBlocks.POLISHED_BLACKSTONE_BRICK_FENCE);
         polishedBlackstoneBrickPool.fenceGate(ModBlocks.POLISHED_BLACKSTONE_BRICK_FENCE_GATE);
         polishedBlackstoneBrickPool.pressurePlate(ModBlocks.POLISHED_BLACKSTONE_BRICK_PRESSURE_PLATE);
+        //cracked polished blackstone brick
+        crackedPolishedBlackstoneBrickPool.button(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_BUTTON);
+        crackedPolishedBlackstoneBrickPool.wall(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_WALL);
+        crackedPolishedBlackstoneBrickPool.slab(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_SLAB);
+        crackedPolishedBlackstoneBrickPool.stairs(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_STAIRS);
+        crackedPolishedBlackstoneBrickPool.fence(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_FENCE);
+        crackedPolishedBlackstoneBrickPool.fenceGate(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_FENCE_GATE);
+        crackedPolishedBlackstoneBrickPool.pressurePlate(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_PRESSURE_PLATE);
 
 
 
@@ -777,6 +787,9 @@ public class ModModelProvider extends FabricModelProvider {
         //polished blackstone brick
         blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_BLACKSTONE_BRICK_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_BLACKSTONE_BRICK_TRAPDOOR);
+        //cracked polished blackstone brick
+        blockStateModelGenerator.registerDoor(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_TRAPDOOR);
 
 
 
