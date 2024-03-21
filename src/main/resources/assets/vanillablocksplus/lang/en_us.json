@@ -573,5 +573,12 @@
   "block.vanillablocksplus.end_stone_button": "End Stone Button",
   "block.vanillablocksplus.end_stone_wall": "End Stone Wall",
 
+  "block.vanillablocksplus.end_stone_brick_door": "End Stone Brick Door",
+  "block.vanillablocksplus.end_stone_brick_trapdoor": "End Stone Brick Trapdoor",
+  "block.vanillablocksplus.end_stone_brick_fence": "End Stone Brick Fence",
+  "block.vanillablocksplus.end_stone_brick_fence_gate": "End Stone Brick Fence Gate",
+  "block.vanillablocksplus.end_stone_brick_pressure_plate": "End Stone Brick Pressure Plate",
+  "block.vanillablocksplus.end_stone_brick_button": "End Stone Brick Button",
+
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

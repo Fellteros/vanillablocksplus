@@ -588,6 +588,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.END_STONE_TRAPDOOR);
                         entries.add(ModBlocks.END_STONE_PRESSURE_PLATE);
                         entries.add(ModBlocks.END_STONE_BUTTON);
+                        //end stone brick
+                        entries.add(ModBlocks.END_STONE_BRICK_FENCE);
+                        entries.add(ModBlocks.END_STONE_BRICK_FENCE_GATE);
+                        entries.add(ModBlocks.END_STONE_BRICK_DOOR);
+                        entries.add(ModBlocks.END_STONE_BRICK_TRAPDOOR);
+                        entries.add(ModBlocks.END_STONE_BRICK_PRESSURE_PLATE);
+                        entries.add(ModBlocks.END_STONE_BRICK_BUTTON);
 
 
                     }).build());

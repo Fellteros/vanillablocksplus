@@ -395,7 +395,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.END_STONE_FENCE_GATE)
                 .add(ModBlocks.END_STONE_FENCE)
                 .add(ModBlocks.END_STONE_BUTTON)
-                .add(ModBlocks.END_STONE_PRESSURE_PLATE);
+                .add(ModBlocks.END_STONE_PRESSURE_PLATE)
+                //end stone brick
+                .add(ModBlocks.END_STONE_BRICK_DOOR)
+                .add(ModBlocks.END_STONE_BRICK_TRAPDOOR)
+                .add(ModBlocks.END_STONE_BRICK_FENCE_GATE)
+                .add(ModBlocks.END_STONE_BRICK_FENCE)
+                .add(ModBlocks.END_STONE_BRICK_BUTTON)
+                .add(ModBlocks.END_STONE_BRICK_PRESSURE_PLATE);
 
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
@@ -658,7 +665,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POLISHED_BLACKSTONE_FENCE)
                 .add(ModBlocks.POLISHED_BLACKSTONE_BRICK_FENCE)
                 .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_FENCE)
-                .add(ModBlocks.END_STONE_FENCE);
+                .add(ModBlocks.END_STONE_FENCE)
+                .add(ModBlocks.END_STONE_BRICK_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -728,7 +736,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POLISHED_BLACKSTONE_FENCE)
                 .add(ModBlocks.POLISHED_BLACKSTONE_BRICK_FENCE)
                 .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_FENCE)
-                .add(ModBlocks.END_STONE_FENCE);
+                .add(ModBlocks.END_STONE_FENCE)
+                .add(ModBlocks.END_STONE_BRICK_FENCE);
 
 
 
@@ -799,7 +808,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POLISHED_BLACKSTONE_FENCE_GATE)
                 .add(ModBlocks.POLISHED_BLACKSTONE_BRICK_FENCE_GATE)
                 .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_FENCE_GATE)
-                .add(ModBlocks.END_STONE_FENCE_GATE);
+                .add(ModBlocks.END_STONE_FENCE_GATE)
+                .add(ModBlocks.END_STONE_BRICK_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)

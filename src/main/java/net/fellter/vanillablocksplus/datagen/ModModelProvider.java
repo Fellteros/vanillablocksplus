@@ -150,6 +150,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool endStonePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.END_STONE);
+        BlockStateModelGenerator.BlockTexturePool endStoneBrickPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.END_STONE_BRICKS);
 
 
 
@@ -585,7 +587,7 @@ public class ModModelProvider extends FabricModelProvider {
         crackedPolishedBlackstoneBrickPool.fence(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_FENCE);
         crackedPolishedBlackstoneBrickPool.fenceGate(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_FENCE_GATE);
         crackedPolishedBlackstoneBrickPool.pressurePlate(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_PRESSURE_PLATE);
-        //cracked polished blackstone brick
+        //end stone
         endStonePool.button(ModBlocks.END_STONE_BUTTON);
         endStonePool.wall(ModBlocks.END_STONE_WALL);
         endStonePool.slab(ModBlocks.END_STONE_SLAB);
@@ -593,6 +595,11 @@ public class ModModelProvider extends FabricModelProvider {
         endStonePool.fence(ModBlocks.END_STONE_FENCE);
         endStonePool.fenceGate(ModBlocks.END_STONE_FENCE_GATE);
         endStonePool.pressurePlate(ModBlocks.END_STONE_PRESSURE_PLATE);
+        //end stone brick
+        endStoneBrickPool.button(ModBlocks.END_STONE_BRICK_BUTTON);
+        endStoneBrickPool.fence(ModBlocks.END_STONE_BRICK_FENCE);
+        endStoneBrickPool.fenceGate(ModBlocks.END_STONE_BRICK_FENCE_GATE);
+        endStoneBrickPool.pressurePlate(ModBlocks.END_STONE_BRICK_PRESSURE_PLATE);
 
 
 
@@ -803,6 +810,9 @@ public class ModModelProvider extends FabricModelProvider {
         //end stone
         blockStateModelGenerator.registerDoor(ModBlocks.END_STONE_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.END_STONE_TRAPDOOR);
+        //end stone brick
+        blockStateModelGenerator.registerDoor(ModBlocks.END_STONE_BRICK_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.END_STONE_BRICK_TRAPDOOR);
 
 
 
