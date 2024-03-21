@@ -1713,7 +1713,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.END_STONE_BRICKS), conditionsFromItem(Blocks.END_STONE_BRICKS))
                 .offerTo(exporter);
 
-        //end_stone
+        //purpur 
         ModRecipes.createDoorRecipe(ModBlocks.PURPUR_DOOR, Ingredient.ofItems(Blocks.PURPUR_BLOCK))
                 .criterion(hasItem(Blocks.PURPUR_BLOCK), conditionsFromItem(Blocks.PURPUR_BLOCK))
                 .offerTo(exporter);
@@ -1736,6 +1736,34 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.PURPUR_BLOCK), conditionsFromItem(Blocks.PURPUR_BLOCK))
                 .offerTo(exporter);
 
+        //coal_block
+        ModRecipes.createDoorRecipe(ModBlocks.COAL_DOOR, Ingredient.ofItems(Blocks.COAL_BLOCK))
+                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_SLAB, Ingredient.ofItems(Blocks.COAL_BLOCK))
+                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.COAL_STAIRS, Ingredient.ofItems(Blocks.COAL_BLOCK))
+                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.COAL_FENCE, Ingredient.ofItems(Blocks.COAL_BLOCK), Ingredient.ofItems(ModBlocks.COAL_SLAB), 3)
+                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.COAL_FENCE_GATE, Ingredient.ofItems(Blocks.COAL_BLOCK), Ingredient.ofItems(ModBlocks.COAL_SLAB), 1)
+                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.COAL_TRAPDOOR, Ingredient.ofItems(ModBlocks.COAL_SLAB))
+                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_PRESSURE_PLATE, Ingredient.ofItems(Blocks.COAL_BLOCK))
+                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_BUTTON, Blocks.COAL_BLOCK, 1)
+                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_WALL, Ingredient.ofItems(Blocks.COAL_BLOCK))
+                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+                .offerTo(exporter);
     }
 
 

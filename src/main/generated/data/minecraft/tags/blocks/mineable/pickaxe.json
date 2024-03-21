@@ -331,6 +331,15 @@
     "vanillablocksplus:purpur_fence_gate",
     "vanillablocksplus:purpur_fence",
     "vanillablocksplus:purpur_button",
-    "vanillablocksplus:purpur_pressure_plate"
+    "vanillablocksplus:purpur_pressure_plate",
+    "vanillablocksplus:coal_stairs",
+    "vanillablocksplus:coal_slab",
+    "vanillablocksplus:coal_wall",
+    "vanillablocksplus:coal_door",
+    "vanillablocksplus:coal_trapdoor",
+    "vanillablocksplus:coal_fence_gate",
+    "vanillablocksplus:coal_fence",
+    "vanillablocksplus:coal_button",
+    "vanillablocksplus:coal_pressure_plate"
   ]
 }

@@ -1787,6 +1787,36 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5f, 6.0f)));
 
+    //coal
+    public static final Block COAL_STAIRS = registerBlock("coal_stairs",
+            new StairsBlock(Blocks.COAL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(5.0f, 6.0f)));
+    public static final Block COAL_SLAB = registerBlock("coal_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(5.0f, 6.0f)));
+    public static final Block COAL_BUTTON = registerBlock("coal_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(5.0f, 6.0f), BlockSetType.STONE, 10, false));
+    public static final Block COAL_PRESSURE_PLATE = registerBlock("coal_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(5.0f, 6.0f), BlockSetType.STONE));
+    public static final Block COAL_FENCE = registerBlock("coal_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(5.0f, 6.0f)));
+    public static final Block COAL_FENCE_GATE = registerBlock("coal_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(5.0f, 6.0f), WoodType.OAK));
+    public static final Block COAL_DOOR = registerBlock("coal_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(5.0f, 6.0f), BlockSetType.STONE));
+    public static final Block COAL_TRAPDOOR = registerBlock("coal_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(5.0f, 6.0f), BlockSetType.STONE));
+    public static final Block COAL_WALL = registerBlock("coal_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(5.0f, 6.0f)));
+
 
 
 

@@ -410,7 +410,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PURPUR_FENCE_GATE)
                 .add(ModBlocks.PURPUR_FENCE)
                 .add(ModBlocks.PURPUR_BUTTON)
-                .add(ModBlocks.PURPUR_PRESSURE_PLATE);
+                .add(ModBlocks.PURPUR_PRESSURE_PLATE)
+                //coal block
+                .add(ModBlocks.COAL_STAIRS)
+                .add(ModBlocks.COAL_SLAB)
+                .add(ModBlocks.COAL_WALL)
+                .add(ModBlocks.COAL_DOOR)
+                .add(ModBlocks.COAL_TRAPDOOR)
+                .add(ModBlocks.COAL_FENCE_GATE)
+                .add(ModBlocks.COAL_FENCE)
+                .add(ModBlocks.COAL_BUTTON)
+                .add(ModBlocks.COAL_PRESSURE_PLATE);
 
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
@@ -675,7 +685,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_FENCE)
                 .add(ModBlocks.END_STONE_FENCE)
                 .add(ModBlocks.END_STONE_BRICK_FENCE)
-                .add(ModBlocks.PURPUR_FENCE);
+                .add(ModBlocks.PURPUR_FENCE)
+                .add(ModBlocks.COAL_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -747,7 +758,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_FENCE)
                 .add(ModBlocks.END_STONE_FENCE)
                 .add(ModBlocks.END_STONE_BRICK_FENCE)
-                .add(ModBlocks.PURPUR_FENCE);
+                .add(ModBlocks.PURPUR_FENCE)
+                .add(ModBlocks.COAL_FENCE);
 
 
 
@@ -820,7 +832,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_FENCE_GATE)
                 .add(ModBlocks.END_STONE_FENCE_GATE)
                 .add(ModBlocks.END_STONE_BRICK_FENCE_GATE)
-                .add(ModBlocks.PURPUR_FENCE_GATE);
+                .add(ModBlocks.PURPUR_FENCE_GATE)
+                .add(ModBlocks.COAL_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -850,7 +863,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GILDED_BLACKSTONE_WALL)
                 .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_WALL)
                 .add(ModBlocks.END_STONE_WALL)
-                .add(ModBlocks.PURPUR_WALL);
+                .add(ModBlocks.PURPUR_WALL)
+                .add(ModBlocks.COAL_WALL);
 
 
 

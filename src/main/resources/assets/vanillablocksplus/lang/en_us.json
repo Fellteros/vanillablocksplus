@@ -588,5 +588,15 @@
   "block.vanillablocksplus.purpur_button": "Purpur Button",
   "block.vanillablocksplus.purpur_wall": "Purpur Wall",
 
+  "block.vanillablocksplus.coal_stairs": "Coal Stairs",
+  "block.vanillablocksplus.coal_slab": "Coal Slab",
+  "block.vanillablocksplus.coal_door": "Coal Door",
+  "block.vanillablocksplus.coal_trapdoor": "Coal Trapdoor",
+  "block.vanillablocksplus.coal_fence": "Coal Fence",
+  "block.vanillablocksplus.coal_fence_gate": "Coal Fence Gate",
+  "block.vanillablocksplus.coal_pressure_plate": "Coal Pressure Plate",
+  "block.vanillablocksplus.coal_button": "Coal Button",
+  "block.vanillablocksplus.coal_wall": "Coal Wall",
+
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }
