@@ -148,6 +148,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_BLACKSTONE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool crackedPolishedBlackstoneBrickPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool endStonePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.END_STONE);
 
 
 
@@ -583,6 +585,14 @@ public class ModModelProvider extends FabricModelProvider {
         crackedPolishedBlackstoneBrickPool.fence(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_FENCE);
         crackedPolishedBlackstoneBrickPool.fenceGate(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_FENCE_GATE);
         crackedPolishedBlackstoneBrickPool.pressurePlate(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_PRESSURE_PLATE);
+        //cracked polished blackstone brick
+        endStonePool.button(ModBlocks.END_STONE_BUTTON);
+        endStonePool.wall(ModBlocks.END_STONE_WALL);
+        endStonePool.slab(ModBlocks.END_STONE_SLAB);
+        endStonePool.stairs(ModBlocks.END_STONE_STAIRS);
+        endStonePool.fence(ModBlocks.END_STONE_FENCE);
+        endStonePool.fenceGate(ModBlocks.END_STONE_FENCE_GATE);
+        endStonePool.pressurePlate(ModBlocks.END_STONE_PRESSURE_PLATE);
 
 
 
@@ -790,6 +800,9 @@ public class ModModelProvider extends FabricModelProvider {
         //cracked polished blackstone brick
         blockStateModelGenerator.registerDoor(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_TRAPDOOR);
+        //end stone
+        blockStateModelGenerator.registerDoor(ModBlocks.END_STONE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.END_STONE_TRAPDOOR);
 
 
 

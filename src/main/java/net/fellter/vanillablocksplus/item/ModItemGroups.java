@@ -568,7 +568,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POLISHED_BLACKSTONE_BRICK_TRAPDOOR);
                         entries.add(ModBlocks.POLISHED_BLACKSTONE_BRICK_PRESSURE_PLATE);
                         entries.add(ModBlocks.POLISHED_BLACKSTONE_BRICK_BUTTON);
-                        //gilded blackstone
+                        //cracked polished blackstone bricks
                         entries.add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_STAIRS);
                         entries.add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_SLAB);
                         entries.add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_WALL);
@@ -578,6 +578,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_TRAPDOOR);
                         entries.add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_PRESSURE_PLATE);
                         entries.add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_BUTTON);
+                        //end stone
+                        entries.add(ModBlocks.END_STONE_STAIRS);
+                        entries.add(ModBlocks.END_STONE_SLAB);
+                        entries.add(ModBlocks.END_STONE_WALL);
+                        entries.add(ModBlocks.END_STONE_FENCE);
+                        entries.add(ModBlocks.END_STONE_FENCE_GATE);
+                        entries.add(ModBlocks.END_STONE_DOOR);
+                        entries.add(ModBlocks.END_STONE_TRAPDOOR);
+                        entries.add(ModBlocks.END_STONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.END_STONE_BUTTON);
 
 
                     }).build());

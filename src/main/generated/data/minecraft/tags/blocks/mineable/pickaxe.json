@@ -309,6 +309,15 @@
     "vanillablocksplus:cracked_polished_blackstone_brick_fence_gate",
     "vanillablocksplus:cracked_polished_blackstone_brick_fence",
     "vanillablocksplus:cracked_polished_blackstone_brick_button",
-    "vanillablocksplus:cracked_polished_blackstone_brick_pressure_plate"
+    "vanillablocksplus:cracked_polished_blackstone_brick_pressure_plate",
+    "vanillablocksplus:end_stone_stairs",
+    "vanillablocksplus:end_stone_slab",
+    "vanillablocksplus:end_stone_wall",
+    "vanillablocksplus:end_stone_door",
+    "vanillablocksplus:end_stone_trapdoor",
+    "vanillablocksplus:end_stone_fence_gate",
+    "vanillablocksplus:end_stone_fence",
+    "vanillablocksplus:end_stone_button",
+    "vanillablocksplus:end_stone_pressure_plate"
   ]
 }

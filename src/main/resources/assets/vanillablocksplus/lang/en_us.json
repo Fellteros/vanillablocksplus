@@ -563,5 +563,15 @@
   "block.vanillablocksplus.cracked_polished_blackstone_brick_button": "Cracked Polished Blackstone Brick Button",
   "block.vanillablocksplus.cracked_polished_blackstone_brick_wall": "Cracked Polished Blackstone Brick Wall",
 
+  "block.vanillablocksplus.end_stone_stairs": "End Stone Stairs",
+  "block.vanillablocksplus.end_stone_slab": "End Stone Slab",
+  "block.vanillablocksplus.end_stone_door": "End Stone Door",
+  "block.vanillablocksplus.end_stone_trapdoor": "End Stone Trapdoor",
+  "block.vanillablocksplus.end_stone_fence": "End Stone Fence",
+  "block.vanillablocksplus.end_stone_fence_gate": "End Stone Fence Gate",
+  "block.vanillablocksplus.end_stone_pressure_plate": "End Stone Pressure Plate",
+  "block.vanillablocksplus.end_stone_button": "End Stone Button",
+  "block.vanillablocksplus.end_stone_wall": "End Stone Wall",
+
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

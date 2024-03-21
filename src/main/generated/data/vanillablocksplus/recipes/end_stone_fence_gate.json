@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:end_stone_slab"
+    },
+    "W": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "vanillablocksplus:end_stone_fence_gate"
+  },
+  "show_notification": true
+}

@@ -1712,6 +1712,36 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 6.0f)));
 
+    //end stone
+    public static final Block END_STONE_STAIRS = registerBlock("end_stone_stairs",
+            new StairsBlock(Blocks.END_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.0f, 9.0f)));
+    public static final Block END_STONE_SLAB = registerBlock("end_stone_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.0f, 9.0f)));
+    public static final Block END_STONE_BUTTON = registerBlock("end_stone_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.0f, 9.0f), BlockSetType.STONE, 10, false));
+    public static final Block END_STONE_PRESSURE_PLATE = registerBlock("end_stone_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(3.0f, 9.0f), BlockSetType.STONE));
+    public static final Block END_STONE_FENCE = registerBlock("end_stone_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.0f, 9.0f)));
+    public static final Block END_STONE_FENCE_GATE = registerBlock("end_stone_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.0f, 9.0f), WoodType.OAK));
+    public static final Block END_STONE_DOOR = registerBlock("end_stone_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.0f, 9.0f), BlockSetType.STONE));
+    public static final Block END_STONE_TRAPDOOR = registerBlock("end_stone_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.0f, 9.0f), BlockSetType.STONE));
+    public static final Block END_STONE_WALL = registerBlock("end_stone_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(3.0f, 9.0f)));
+
 
 
 

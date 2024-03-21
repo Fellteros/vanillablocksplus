@@ -1663,6 +1663,35 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_WALL, Ingredient.ofItems(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS))
                 .criterion(hasItem(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS), conditionsFromItem(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS))
                 .offerTo(exporter);
+        
+        //end_stone
+        ModRecipes.createDoorRecipe(ModBlocks.END_STONE_DOOR, Ingredient.ofItems(Blocks.END_STONE))
+                .criterion(hasItem(Blocks.END_STONE), conditionsFromItem(Blocks.END_STONE))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.END_STONE_SLAB, Ingredient.ofItems(Blocks.END_STONE))
+                .criterion(hasItem(Blocks.END_STONE), conditionsFromItem(Blocks.END_STONE))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.END_STONE_STAIRS, Ingredient.ofItems(Blocks.END_STONE))
+                .criterion(hasItem(Blocks.END_STONE), conditionsFromItem(Blocks.END_STONE))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.END_STONE_FENCE, Ingredient.ofItems(Blocks.END_STONE), Ingredient.ofItems(ModBlocks.END_STONE_SLAB), 3)
+                .criterion(hasItem(Blocks.END_STONE), conditionsFromItem(Blocks.END_STONE))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.END_STONE_FENCE_GATE, Ingredient.ofItems(Blocks.END_STONE), Ingredient.ofItems(ModBlocks.END_STONE_SLAB), 1)
+                .criterion(hasItem(Blocks.END_STONE), conditionsFromItem(Blocks.END_STONE))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.END_STONE_TRAPDOOR, Ingredient.ofItems(ModBlocks.END_STONE_SLAB))
+                .criterion(hasItem(Blocks.END_STONE), conditionsFromItem(Blocks.END_STONE))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.END_STONE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.END_STONE))
+                .criterion(hasItem(Blocks.END_STONE), conditionsFromItem(Blocks.END_STONE))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.END_STONE_BUTTON, Blocks.END_STONE, 1)
+                .criterion(hasItem(Blocks.END_STONE), conditionsFromItem(Blocks.END_STONE))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.END_STONE_WALL, Ingredient.ofItems(Blocks.END_STONE))
+                .criterion(hasItem(Blocks.END_STONE), conditionsFromItem(Blocks.END_STONE))
+                .offerTo(exporter);
 
     }
 
