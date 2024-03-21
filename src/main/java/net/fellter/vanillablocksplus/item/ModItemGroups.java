@@ -595,6 +595,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.END_STONE_BRICK_TRAPDOOR);
                         entries.add(ModBlocks.END_STONE_BRICK_PRESSURE_PLATE);
                         entries.add(ModBlocks.END_STONE_BRICK_BUTTON);
+                        //purpur
+                        entries.add(ModBlocks.PURPUR_WALL);
+                        entries.add(ModBlocks.PURPUR_FENCE);
+                        entries.add(ModBlocks.PURPUR_FENCE_GATE);
+                        entries.add(ModBlocks.PURPUR_DOOR);
+                        entries.add(ModBlocks.PURPUR_TRAPDOOR);
+                        entries.add(ModBlocks.PURPUR_PRESSURE_PLATE);
+                        entries.add(ModBlocks.PURPUR_BUTTON);
 
 
                     }).build());

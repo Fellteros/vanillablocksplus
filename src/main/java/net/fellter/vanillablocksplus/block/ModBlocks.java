@@ -1763,6 +1763,30 @@ public class ModBlocks {
             new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(3.0f, 9.0f), BlockSetType.STONE));
 
+    //purpur block
+    public static final Block PURPUR_BUTTON = registerBlock("purpur_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5f, 6.0f), BlockSetType.STONE, 10, false));
+    public static final Block PURPUR_PRESSURE_PLATE = registerBlock("purpur_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5f, 6.0f), BlockSetType.STONE));
+    public static final Block PURPUR_FENCE = registerBlock("purpur_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5f, 6.0f)));
+    public static final Block PURPUR_FENCE_GATE = registerBlock("purpur_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5f, 6.0f), WoodType.OAK));
+    public static final Block PURPUR_DOOR = registerBlock("purpur_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5f, 6.0f), BlockSetType.STONE));
+    public static final Block PURPUR_TRAPDOOR = registerBlock("purpur_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5f, 6.0f), BlockSetType.STONE));
+    public static final Block PURPUR_WALL = registerBlock("purpur_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .instrument(Instrument.BASEDRUM).requiresTool().strength(1.5f, 6.0f)));
+
 
 
 

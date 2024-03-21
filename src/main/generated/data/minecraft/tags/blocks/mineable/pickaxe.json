@@ -324,6 +324,13 @@
     "vanillablocksplus:end_stone_brick_fence_gate",
     "vanillablocksplus:end_stone_brick_fence",
     "vanillablocksplus:end_stone_brick_button",
-    "vanillablocksplus:end_stone_brick_pressure_plate"
+    "vanillablocksplus:end_stone_brick_pressure_plate",
+    "vanillablocksplus:purpur_wall",
+    "vanillablocksplus:purpur_door",
+    "vanillablocksplus:purpur_trapdoor",
+    "vanillablocksplus:purpur_fence_gate",
+    "vanillablocksplus:purpur_fence",
+    "vanillablocksplus:purpur_button",
+    "vanillablocksplus:purpur_pressure_plate"
   ]
 }

@@ -152,6 +152,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.END_STONE);
         BlockStateModelGenerator.BlockTexturePool endStoneBrickPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.END_STONE_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool purpurBlockPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPUR_BLOCK);
 
 
 
@@ -600,6 +602,12 @@ public class ModModelProvider extends FabricModelProvider {
         endStoneBrickPool.fence(ModBlocks.END_STONE_BRICK_FENCE);
         endStoneBrickPool.fenceGate(ModBlocks.END_STONE_BRICK_FENCE_GATE);
         endStoneBrickPool.pressurePlate(ModBlocks.END_STONE_BRICK_PRESSURE_PLATE);
+        //purpur block
+        purpurBlockPool.button(ModBlocks.PURPUR_BUTTON);
+        purpurBlockPool.wall(ModBlocks.PURPUR_WALL);
+        purpurBlockPool.fence(ModBlocks.PURPUR_FENCE);
+        purpurBlockPool.fenceGate(ModBlocks.PURPUR_FENCE_GATE);
+        purpurBlockPool.pressurePlate(ModBlocks.PURPUR_PRESSURE_PLATE);
 
 
 
@@ -813,6 +821,9 @@ public class ModModelProvider extends FabricModelProvider {
         //end stone brick
         blockStateModelGenerator.registerDoor(ModBlocks.END_STONE_BRICK_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.END_STONE_BRICK_TRAPDOOR);
+        //purpur block
+        blockStateModelGenerator.registerDoor(ModBlocks.PURPUR_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PURPUR_TRAPDOOR);
 
 
 

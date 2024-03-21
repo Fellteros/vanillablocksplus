@@ -580,5 +580,13 @@
   "block.vanillablocksplus.end_stone_brick_pressure_plate": "End Stone Brick Pressure Plate",
   "block.vanillablocksplus.end_stone_brick_button": "End Stone Brick Button",
 
+  "block.vanillablocksplus.purpur_door": "Purpur Door",
+  "block.vanillablocksplus.purpur_trapdoor": "Purpur Trapdoor",
+  "block.vanillablocksplus.purpur_fence": "Purpur Fence",
+  "block.vanillablocksplus.purpur_fence_gate": "Purpur Fence Gate",
+  "block.vanillablocksplus.purpur_pressure_plate": "Purpur Pressure Plate",
+  "block.vanillablocksplus.purpur_button": "Purpur Button",
+  "block.vanillablocksplus.purpur_wall": "Purpur Wall",
+
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

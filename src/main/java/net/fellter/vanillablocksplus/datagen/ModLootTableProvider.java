@@ -613,6 +613,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.END_STONE_BRICK_FENCE_GATE);
         addDrop(ModBlocks.END_STONE_BRICK_DOOR, doorDrops(ModBlocks.END_STONE_BRICK_DOOR));
 
+        //purpur block
+        addDrop(ModBlocks.PURPUR_TRAPDOOR);
+        addDrop(ModBlocks.PURPUR_BUTTON);
+        addDrop(ModBlocks.PURPUR_PRESSURE_PLATE);
+        addDrop(ModBlocks.PURPUR_FENCE);
+        addDrop(ModBlocks.PURPUR_FENCE_GATE);
+        addDrop(ModBlocks.PURPUR_DOOR, doorDrops(ModBlocks.PURPUR_DOOR));
+        addDrop(ModBlocks.PURPUR_WALL);
+
 
     }
     public LootTable.Builder moreOreDrops(Block drop, Item item) {

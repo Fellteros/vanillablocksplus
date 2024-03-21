@@ -1713,6 +1713,29 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.END_STONE_BRICKS), conditionsFromItem(Blocks.END_STONE_BRICKS))
                 .offerTo(exporter);
 
+        //end_stone
+        ModRecipes.createDoorRecipe(ModBlocks.PURPUR_DOOR, Ingredient.ofItems(Blocks.PURPUR_BLOCK))
+                .criterion(hasItem(Blocks.PURPUR_BLOCK), conditionsFromItem(Blocks.PURPUR_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.PURPUR_FENCE, Ingredient.ofItems(Blocks.PURPUR_BLOCK), Ingredient.ofItems(Blocks.PURPUR_SLAB), 3)
+                .criterion(hasItem(Blocks.PURPUR_BLOCK), conditionsFromItem(Blocks.PURPUR_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.PURPUR_FENCE_GATE, Ingredient.ofItems(Blocks.PURPUR_BLOCK), Ingredient.ofItems(Blocks.PURPUR_SLAB), 1)
+                .criterion(hasItem(Blocks.PURPUR_BLOCK), conditionsFromItem(Blocks.PURPUR_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.PURPUR_TRAPDOOR, Ingredient.ofItems(Blocks.PURPUR_SLAB))
+                .criterion(hasItem(Blocks.PURPUR_BLOCK), conditionsFromItem(Blocks.PURPUR_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.PURPUR_PRESSURE_PLATE, Ingredient.ofItems(Blocks.PURPUR_BLOCK))
+                .criterion(hasItem(Blocks.PURPUR_BLOCK), conditionsFromItem(Blocks.PURPUR_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.PURPUR_BUTTON, Blocks.PURPUR_BLOCK, 1)
+                .criterion(hasItem(Blocks.PURPUR_BLOCK), conditionsFromItem(Blocks.PURPUR_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.PURPUR_WALL, Ingredient.ofItems(Blocks.PURPUR_BLOCK))
+                .criterion(hasItem(Blocks.PURPUR_BLOCK), conditionsFromItem(Blocks.PURPUR_BLOCK))
+                .offerTo(exporter);
+
     }
 
 
