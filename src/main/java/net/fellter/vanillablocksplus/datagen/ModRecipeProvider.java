@@ -1784,6 +1784,61 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.IRON_WALL, Ingredient.ofItems(Blocks.IRON_BLOCK))
                 .criterion(hasItem(Blocks.IRON_BLOCK), conditionsFromItem(Blocks.IRON_BLOCK))
                 .offerTo(exporter);
+
+        //gold_block
+        ModRecipes.createDoorRecipe(ModBlocks.GOLD_DOOR, Ingredient.ofItems(Blocks.GOLD_BLOCK))
+                .criterion(hasItem(Blocks.GOLD_BLOCK), conditionsFromItem(Blocks.GOLD_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.GOLD_SLAB, Ingredient.ofItems(Blocks.GOLD_BLOCK))
+                .criterion(hasItem(Blocks.GOLD_BLOCK), conditionsFromItem(Blocks.GOLD_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.GOLD_STAIRS, Ingredient.ofItems(Blocks.GOLD_BLOCK))
+                .criterion(hasItem(Blocks.GOLD_BLOCK), conditionsFromItem(Blocks.GOLD_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.GOLD_FENCE, Ingredient.ofItems(Blocks.GOLD_BLOCK), Ingredient.ofItems(ModBlocks.GOLD_SLAB), 3)
+                .criterion(hasItem(Blocks.GOLD_BLOCK), conditionsFromItem(Blocks.GOLD_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.GOLD_FENCE_GATE, Ingredient.ofItems(Blocks.GOLD_BLOCK), Ingredient.ofItems(ModBlocks.GOLD_SLAB), 1)
+                .criterion(hasItem(Blocks.GOLD_BLOCK), conditionsFromItem(Blocks.GOLD_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.GOLD_TRAPDOOR, Ingredient.ofItems(ModBlocks.GOLD_SLAB))
+                .criterion(hasItem(Blocks.GOLD_BLOCK), conditionsFromItem(Blocks.GOLD_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.GOLD_BUTTON, Blocks.GOLD_BLOCK, 1)
+                .criterion(hasItem(Blocks.GOLD_BLOCK), conditionsFromItem(Blocks.GOLD_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.GOLD_WALL, Ingredient.ofItems(Blocks.GOLD_BLOCK))
+                .criterion(hasItem(Blocks.GOLD_BLOCK), conditionsFromItem(Blocks.GOLD_BLOCK))
+                .offerTo(exporter);
+
+        //redstone_block
+        ModRecipes.createDoorRecipe(ModBlocks.REDSTONE_DOOR, Ingredient.ofItems(Blocks.REDSTONE_BLOCK))
+                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_SLAB, Ingredient.ofItems(Blocks.REDSTONE_BLOCK))
+                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.REDSTONE_STAIRS, Ingredient.ofItems(Blocks.REDSTONE_BLOCK))
+                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.REDSTONE_FENCE, Ingredient.ofItems(Blocks.REDSTONE_BLOCK), Ingredient.ofItems(ModBlocks.REDSTONE_SLAB), 3)
+                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.REDSTONE_FENCE_GATE, Ingredient.ofItems(Blocks.REDSTONE_BLOCK), Ingredient.ofItems(ModBlocks.REDSTONE_SLAB), 1)
+                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.REDSTONE_TRAPDOOR, Ingredient.ofItems(ModBlocks.REDSTONE_SLAB))
+                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.REDSTONE_BLOCK))
+                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_BUTTON, Blocks.REDSTONE_BLOCK, 1)
+                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_WALL, Ingredient.ofItems(Blocks.REDSTONE_BLOCK))
+                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+                .offerTo(exporter);
     }
 
 

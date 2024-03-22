@@ -29,6 +29,8 @@
     "vanillablocksplus:end_stone_wall",
     "vanillablocksplus:purpur_wall",
     "vanillablocksplus:coal_wall",
-    "vanillablocksplus:iron_wall"
+    "vanillablocksplus:iron_wall",
+    "vanillablocksplus:gold_wall",
+    "vanillablocksplus:redstone_wall"
   ]
 }

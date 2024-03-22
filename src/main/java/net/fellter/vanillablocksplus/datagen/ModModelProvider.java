@@ -158,6 +158,10 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COAL_BLOCK);
         BlockStateModelGenerator.BlockTexturePool ironPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.IRON_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool goldPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GOLD_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool redstonePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.REDSTONE_BLOCK);
 
 
 
@@ -627,6 +631,21 @@ public class ModModelProvider extends FabricModelProvider {
         ironPool.stairs(ModBlocks.IRON_STAIRS);
         ironPool.fence(ModBlocks.IRON_FENCE);
         ironPool.fenceGate(ModBlocks.IRON_FENCE_GATE);
+        //gold
+        goldPool.button(ModBlocks.GOLD_BUTTON);
+        goldPool.wall(ModBlocks.GOLD_WALL);
+        goldPool.slab(ModBlocks.GOLD_SLAB);
+        goldPool.stairs(ModBlocks.GOLD_STAIRS);
+        goldPool.fence(ModBlocks.GOLD_FENCE);
+        goldPool.fenceGate(ModBlocks.GOLD_FENCE_GATE);
+        //redstone
+        redstonePool.button(ModBlocks.REDSTONE_BUTTON);
+        redstonePool.wall(ModBlocks.REDSTONE_WALL);
+        redstonePool.slab(ModBlocks.REDSTONE_SLAB);
+        redstonePool.stairs(ModBlocks.REDSTONE_STAIRS);
+        redstonePool.fence(ModBlocks.REDSTONE_FENCE);
+        redstonePool.fenceGate(ModBlocks.REDSTONE_FENCE_GATE);
+        redstonePool.pressurePlate(ModBlocks.REDSTONE_PRESSURE_PLATE);
 
 
 
@@ -846,6 +865,12 @@ public class ModModelProvider extends FabricModelProvider {
         //coal
         blockStateModelGenerator.registerDoor(ModBlocks.COAL_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.COAL_TRAPDOOR);
+        //gold
+        blockStateModelGenerator.registerDoor(ModBlocks.GOLD_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GOLD_TRAPDOOR);
+        //redstone
+        blockStateModelGenerator.registerDoor(ModBlocks.REDSTONE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.REDSTONE_TRAPDOOR);
 
 
 

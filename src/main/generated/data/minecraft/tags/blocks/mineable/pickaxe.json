@@ -346,6 +346,23 @@
     "vanillablocksplus:iron_wall",
     "vanillablocksplus:iron_fence_gate",
     "vanillablocksplus:iron_fence",
-    "vanillablocksplus:iron_button"
+    "vanillablocksplus:iron_button",
+    "vanillablocksplus:gold_stairs",
+    "vanillablocksplus:gold_slab",
+    "vanillablocksplus:gold_wall",
+    "vanillablocksplus:gold_door",
+    "vanillablocksplus:gold_trapdoor",
+    "vanillablocksplus:gold_fence_gate",
+    "vanillablocksplus:gold_fence",
+    "vanillablocksplus:gold_button",
+    "vanillablocksplus:redstone_stairs",
+    "vanillablocksplus:redstone_slab",
+    "vanillablocksplus:redstone_wall",
+    "vanillablocksplus:redstone_door",
+    "vanillablocksplus:redstone_trapdoor",
+    "vanillablocksplus:redstone_fence_gate",
+    "vanillablocksplus:redstone_fence",
+    "vanillablocksplus:redstone_button",
+    "vanillablocksplus:redstone_pressure_plate"
   ]
 }

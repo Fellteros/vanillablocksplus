@@ -605,5 +605,28 @@
   "block.vanillablocksplus.iron_button": "Iron Button",
   "block.vanillablocksplus.iron_wall": "Iron Wall",
 
+  "block.vanillablocksplus.gold_stairs": "Gold Stairs",
+  "block.vanillablocksplus.gold_slab": "Gold Slab",
+  "block.vanillablocksplus.gold_door": "Gold Door",
+  "block.vanillablocksplus.gold_trapdoor": "Gold Trapdoor",
+  "block.vanillablocksplus.gold_fence": "Gold Fence",
+  "block.vanillablocksplus.gold_fence_gate": "Gold Fence Gate",
+  "block.vanillablocksplus.gold_button": "Gold Button",
+  "block.vanillablocksplus.gold_wall": "Gold Wall",
+
+  "block.vanillablocksplus.redstone_stairs": "Redstone Stairs",
+  "block.vanillablocksplus.redstone_slab": "Redstone Slab",
+  "block.vanillablocksplus.redstone_door": "Redstone Door",
+  "block.vanillablocksplus.redstone_trapdoor": "Redstone Trapdoor",
+  "block.vanillablocksplus.redstone_fence": "Redstone Fence",
+  "block.vanillablocksplus.redstone_fence_gate": "Redstone Fence Gate",
+  "block.vanillablocksplus.redstone_pressure_plate": "Redstone Pressure Plate",
+  "block.vanillablocksplus.redstone_button": "Redstone Button",
+  "block.vanillablocksplus.redstone_wall": "Redstone Wall",
+
+  
+  
+  
+  
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

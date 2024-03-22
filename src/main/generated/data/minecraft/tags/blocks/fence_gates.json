@@ -71,6 +71,8 @@
     "vanillablocksplus:end_stone_brick_fence_gate",
     "vanillablocksplus:purpur_fence_gate",
     "vanillablocksplus:coal_fence_gate",
-    "vanillablocksplus:iron_fence_gate"
+    "vanillablocksplus:iron_fence_gate",
+    "vanillablocksplus:gold_fence_gate",
+    "vanillablocksplus:redstone_fence_gate"
   ]
 }

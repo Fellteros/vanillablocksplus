@@ -620,7 +620,25 @@ public class ModItemGroups {
                         entries.add(ModBlocks.IRON_FENCE);
                         entries.add(ModBlocks.IRON_FENCE_GATE);
                         entries.add(ModBlocks.IRON_BUTTON);
-
+                        //gold
+                        entries.add(ModBlocks.GOLD_STAIRS);
+                        entries.add(ModBlocks.GOLD_SLAB);
+                        entries.add(ModBlocks.GOLD_WALL);
+                        entries.add(ModBlocks.GOLD_FENCE);
+                        entries.add(ModBlocks.GOLD_FENCE_GATE);
+                        entries.add(ModBlocks.GOLD_DOOR);
+                        entries.add(ModBlocks.GOLD_TRAPDOOR);
+                        entries.add(ModBlocks.GOLD_BUTTON);
+                        //redstone
+                        entries.add(ModBlocks.REDSTONE_STAIRS);
+                        entries.add(ModBlocks.REDSTONE_SLAB);
+                        entries.add(ModBlocks.REDSTONE_WALL);
+                        entries.add(ModBlocks.REDSTONE_FENCE);
+                        entries.add(ModBlocks.REDSTONE_FENCE_GATE);
+                        entries.add(ModBlocks.REDSTONE_DOOR);
+                        entries.add(ModBlocks.REDSTONE_TRAPDOOR);
+                        entries.add(ModBlocks.REDSTONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.REDSTONE_BUTTON);
 
                     }).build());
 

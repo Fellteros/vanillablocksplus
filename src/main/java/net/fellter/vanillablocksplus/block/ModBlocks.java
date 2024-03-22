@@ -1841,6 +1841,78 @@ public class ModBlocks {
                     .instrument(Instrument.IRON_XYLOPHONE).sounds(BlockSoundGroup.METAL)
                     .requiresTool().strength(5.0f, 6.0f)));
 
+    //gold
+    public static final Block GOLD_STAIRS = registerBlock("gold_stairs",
+            new StairsBlock(Blocks.GOLD_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .instrument(Instrument.BELL).sounds(BlockSoundGroup.METAL)
+                    .requiresTool().strength(3.0f, 6.0f)));
+    public static final Block GOLD_SLAB = registerBlock("gold_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .instrument(Instrument.BELL).sounds(BlockSoundGroup.METAL)
+                    .requiresTool().strength(3.0f, 6.0f)));
+    public static final Block GOLD_BUTTON = registerBlock("gold_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.BELL).sounds(BlockSoundGroup.METAL)
+                    .requiresTool().strength(3.0f, 6.0f), BlockSetType.STONE, 10, false));
+    public static final Block GOLD_FENCE = registerBlock("gold_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .instrument(Instrument.BELL).sounds(BlockSoundGroup.METAL)
+                    .requiresTool().strength(3.0f, 6.0f)));
+    public static final Block GOLD_FENCE_GATE = registerBlock("gold_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .instrument(Instrument.BELL).sounds(BlockSoundGroup.METAL)
+                    .requiresTool().strength(3.0f, 6.0f), WoodType.OAK));
+    public static final Block GOLD_DOOR = registerBlock("gold_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .instrument(Instrument.BELL).sounds(BlockSoundGroup.METAL)
+                    .requiresTool().strength(3.0f, 6.0f), BlockSetType.STONE));
+    public static final Block GOLD_TRAPDOOR = registerBlock("gold_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .instrument(Instrument.BELL).sounds(BlockSoundGroup.METAL)
+                    .requiresTool().strength(3.0f, 6.0f), BlockSetType.STONE));
+    public static final Block GOLD_WALL = registerBlock("gold_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .instrument(Instrument.BELL).sounds(BlockSoundGroup.METAL)
+                    .requiresTool().strength(3.0f, 6.0f)));
+
+    //redstone
+    public static final Block REDSTONE_STAIRS = registerBlock("redstone_stairs",
+            new StairsBlock(Blocks.REDSTONE_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .sounds(BlockSoundGroup.METAL).solidBlock(Blocks::never)
+                    .requiresTool().strength(3.0f, 6.0f)));
+    public static final Block REDSTONE_SLAB = registerBlock("redstone_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .sounds(BlockSoundGroup.METAL).solidBlock(Blocks::never)
+                    .requiresTool().strength(3.0f, 6.0f)));
+    public static final Block REDSTONE_BUTTON = registerBlock("redstone_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .sounds(BlockSoundGroup.METAL).solidBlock(Blocks::never)
+                    .requiresTool().strength(3.0f, 6.0f), BlockSetType.STONE, 10, false));
+    public static final Block REDSTONE_PRESSURE_PLATE = registerBlock("redstone_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE).solidBlock(Blocks::never)
+                            .strength(5.0f, 6.0f).sounds(BlockSoundGroup.METAL), BlockSetType.STONE));
+    public static final Block REDSTONE_FENCE = registerBlock("redstone_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .sounds(BlockSoundGroup.METAL).solidBlock(Blocks::never)
+                    .requiresTool().strength(3.0f, 6.0f)));
+    public static final Block REDSTONE_FENCE_GATE = registerBlock("redstone_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .sounds(BlockSoundGroup.METAL).solidBlock(Blocks::never)
+                    .requiresTool().strength(3.0f, 6.0f), WoodType.OAK));
+    public static final Block REDSTONE_DOOR = registerBlock("redstone_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .sounds(BlockSoundGroup.METAL).solidBlock(Blocks::never)
+                    .requiresTool().strength(3.0f, 6.0f), BlockSetType.STONE));
+    public static final Block REDSTONE_TRAPDOOR = registerBlock("redstone_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .sounds(BlockSoundGroup.METAL).solidBlock(Blocks::never)
+                    .requiresTool().strength(3.0f, 6.0f), BlockSetType.STONE));
+    public static final Block REDSTONE_WALL = registerBlock("redstone_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .sounds(BlockSoundGroup.METAL).solidBlock(Blocks::never)
+                    .requiresTool().strength(3.0f, 6.0f)));
+
 
 
 
