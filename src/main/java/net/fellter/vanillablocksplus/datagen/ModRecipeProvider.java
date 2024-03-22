@@ -1764,6 +1764,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_WALL, Ingredient.ofItems(Blocks.COAL_BLOCK))
                 .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
                 .offerTo(exporter);
+
+        //iron_block
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.IRON_SLAB, Ingredient.ofItems(Blocks.IRON_BLOCK))
+                .criterion(hasItem(Blocks.IRON_BLOCK), conditionsFromItem(Blocks.IRON_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.IRON_STAIRS, Ingredient.ofItems(Blocks.IRON_BLOCK))
+                .criterion(hasItem(Blocks.IRON_BLOCK), conditionsFromItem(Blocks.IRON_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.IRON_FENCE, Ingredient.ofItems(Blocks.IRON_BLOCK), Ingredient.ofItems(ModBlocks.IRON_SLAB), 3)
+                .criterion(hasItem(Blocks.IRON_BLOCK), conditionsFromItem(Blocks.IRON_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.IRON_FENCE_GATE, Ingredient.ofItems(Blocks.IRON_BLOCK), Ingredient.ofItems(ModBlocks.IRON_SLAB), 1)
+                .criterion(hasItem(Blocks.IRON_BLOCK), conditionsFromItem(Blocks.IRON_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.IRON_BUTTON, Blocks.IRON_BLOCK, 1)
+                .criterion(hasItem(Blocks.IRON_BLOCK), conditionsFromItem(Blocks.IRON_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.IRON_WALL, Ingredient.ofItems(Blocks.IRON_BLOCK))
+                .criterion(hasItem(Blocks.IRON_BLOCK), conditionsFromItem(Blocks.IRON_BLOCK))
+                .offerTo(exporter);
     }
 
 

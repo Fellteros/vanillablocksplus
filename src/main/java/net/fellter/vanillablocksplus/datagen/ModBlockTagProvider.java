@@ -420,7 +420,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COAL_FENCE_GATE)
                 .add(ModBlocks.COAL_FENCE)
                 .add(ModBlocks.COAL_BUTTON)
-                .add(ModBlocks.COAL_PRESSURE_PLATE);
+                .add(ModBlocks.COAL_PRESSURE_PLATE)
+                //iron
+                .add(ModBlocks.IRON_STAIRS)
+                .add(ModBlocks.IRON_SLAB)
+                .add(ModBlocks.IRON_WALL)
+                .add(ModBlocks.IRON_FENCE_GATE)
+                .add(ModBlocks.IRON_FENCE)
+                .add(ModBlocks.IRON_BUTTON);
 
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
@@ -686,7 +693,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.END_STONE_FENCE)
                 .add(ModBlocks.END_STONE_BRICK_FENCE)
                 .add(ModBlocks.PURPUR_FENCE)
-                .add(ModBlocks.COAL_FENCE);
+                .add(ModBlocks.COAL_FENCE)
+                .add(ModBlocks.IRON_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -759,7 +767,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.END_STONE_FENCE)
                 .add(ModBlocks.END_STONE_BRICK_FENCE)
                 .add(ModBlocks.PURPUR_FENCE)
-                .add(ModBlocks.COAL_FENCE);
+                .add(ModBlocks.COAL_FENCE)
+                .add(ModBlocks.IRON_FENCE);
 
 
 
@@ -833,7 +842,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.END_STONE_FENCE_GATE)
                 .add(ModBlocks.END_STONE_BRICK_FENCE_GATE)
                 .add(ModBlocks.PURPUR_FENCE_GATE)
-                .add(ModBlocks.COAL_FENCE_GATE);
+                .add(ModBlocks.COAL_FENCE_GATE)
+                .add(ModBlocks.IRON_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -864,7 +874,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_WALL)
                 .add(ModBlocks.END_STONE_WALL)
                 .add(ModBlocks.PURPUR_WALL)
-                .add(ModBlocks.COAL_WALL);
+                .add(ModBlocks.COAL_WALL)
+                .add(ModBlocks.IRON_WALL);
 
 
 

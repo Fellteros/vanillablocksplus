@@ -613,6 +613,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.COAL_TRAPDOOR);
                         entries.add(ModBlocks.COAL_PRESSURE_PLATE);
                         entries.add(ModBlocks.COAL_BUTTON);
+                        //iron
+                        entries.add(ModBlocks.IRON_STAIRS);
+                        entries.add(ModBlocks.IRON_SLAB);
+                        entries.add(ModBlocks.IRON_WALL);
+                        entries.add(ModBlocks.IRON_FENCE);
+                        entries.add(ModBlocks.IRON_FENCE_GATE);
+                        entries.add(ModBlocks.IRON_BUTTON);
 
 
                     }).build());

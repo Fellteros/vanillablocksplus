@@ -340,6 +340,12 @@
     "vanillablocksplus:coal_fence_gate",
     "vanillablocksplus:coal_fence",
     "vanillablocksplus:coal_button",
-    "vanillablocksplus:coal_pressure_plate"
+    "vanillablocksplus:coal_pressure_plate",
+    "vanillablocksplus:iron_stairs",
+    "vanillablocksplus:iron_slab",
+    "vanillablocksplus:iron_wall",
+    "vanillablocksplus:iron_fence_gate",
+    "vanillablocksplus:iron_fence",
+    "vanillablocksplus:iron_button"
   ]
 }

@@ -598,5 +598,12 @@
   "block.vanillablocksplus.coal_button": "Coal Button",
   "block.vanillablocksplus.coal_wall": "Coal Wall",
 
+  "block.vanillablocksplus.iron_stairs": "Iron Stairs",
+  "block.vanillablocksplus.iron_slab": "Iron Slab",
+  "block.vanillablocksplus.iron_fence": "Iron Fence",
+  "block.vanillablocksplus.iron_fence_gate": "Iron Fence Gate",
+  "block.vanillablocksplus.iron_button": "Iron Button",
+  "block.vanillablocksplus.iron_wall": "Iron Wall",
+
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

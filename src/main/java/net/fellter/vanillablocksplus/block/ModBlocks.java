@@ -1817,6 +1817,30 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(5.0f, 6.0f)));
 
+    //iron
+    public static final Block IRON_STAIRS = registerBlock("iron_stairs",
+            new StairsBlock(Blocks.IRON_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .instrument(Instrument.IRON_XYLOPHONE).sounds(BlockSoundGroup.METAL).requiresTool().strength(5.0f, 6.0f)));
+    public static final Block IRON_SLAB = registerBlock("iron_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .instrument(Instrument.IRON_XYLOPHONE).sounds(BlockSoundGroup.METAL).requiresTool().strength(5.0f, 6.0f)));
+    public static final Block IRON_BUTTON = registerBlock("iron_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .instrument(Instrument.IRON_XYLOPHONE).sounds(BlockSoundGroup.METAL)
+                    .requiresTool().strength(5.0f, 6.0f), BlockSetType.STONE, 10, false));
+    public static final Block IRON_FENCE = registerBlock("iron_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .instrument(Instrument.IRON_XYLOPHONE).sounds(BlockSoundGroup.METAL)
+                    .requiresTool().strength(5.0f, 6.0f)));
+    public static final Block IRON_FENCE_GATE = registerBlock("iron_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .instrument(Instrument.IRON_XYLOPHONE).sounds(BlockSoundGroup.METAL)
+                    .requiresTool().strength(5.0f, 6.0f), WoodType.OAK));
+    public static final Block IRON_WALL = registerBlock("iron_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .instrument(Instrument.IRON_XYLOPHONE).sounds(BlockSoundGroup.METAL)
+                    .requiresTool().strength(5.0f, 6.0f)));
+
 
 
 
