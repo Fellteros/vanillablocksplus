@@ -1833,7 +1833,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.REDSTONE_BLOCK))
                 .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_BUTTON, Blocks.REDSTONE_BLOCK, 1)
+        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_BUTTON, Blocks.REDSTONE_BLOCK, 8)
                 .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
                 .offerTo(exporter);
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_WALL, Ingredient.ofItems(Blocks.REDSTONE_BLOCK))
