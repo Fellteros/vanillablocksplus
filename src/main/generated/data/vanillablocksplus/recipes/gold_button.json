@@ -7,9 +7,11 @@
     }
   },
   "pattern": [
-    " # "
+    "##",
+    "##"
   ],
   "result": {
+    "count": 8,
     "item": "vanillablocksplus:gold_button"
   },
   "show_notification": true

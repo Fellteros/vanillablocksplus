@@ -639,6 +639,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.REDSTONE_TRAPDOOR);
                         entries.add(ModBlocks.REDSTONE_PRESSURE_PLATE);
                         entries.add(ModBlocks.REDSTONE_BUTTON);
+                        //emerald
+                        entries.add(ModBlocks.EMERALD_STAIRS);
+                        entries.add(ModBlocks.EMERALD_SLAB);
+                        entries.add(ModBlocks.EMERALD_WALL);
+                        entries.add(ModBlocks.EMERALD_FENCE);
+                        entries.add(ModBlocks.EMERALD_FENCE_GATE);
+                        entries.add(ModBlocks.EMERALD_DOOR);
+                        entries.add(ModBlocks.EMERALD_TRAPDOOR);
+                        entries.add(ModBlocks.EMERALD_PRESSURE_PLATE);
+                        entries.add(ModBlocks.EMERALD_BUTTON);
 
                     }).build());
 

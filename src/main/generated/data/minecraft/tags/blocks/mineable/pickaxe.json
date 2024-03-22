@@ -363,6 +363,15 @@
     "vanillablocksplus:redstone_fence_gate",
     "vanillablocksplus:redstone_fence",
     "vanillablocksplus:redstone_button",
-    "vanillablocksplus:redstone_pressure_plate"
+    "vanillablocksplus:redstone_pressure_plate",
+    "vanillablocksplus:emerald_stairs",
+    "vanillablocksplus:emerald_slab",
+    "vanillablocksplus:emerald_wall",
+    "vanillablocksplus:emerald_door",
+    "vanillablocksplus:emerald_trapdoor",
+    "vanillablocksplus:emerald_fence_gate",
+    "vanillablocksplus:emerald_fence",
+    "vanillablocksplus:emerald_button",
+    "vanillablocksplus:emerald_pressure_plate"
   ]
 }

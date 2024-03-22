@@ -428,7 +428,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.IRON_FENCE_GATE)
                 .add(ModBlocks.IRON_FENCE)
                 .add(ModBlocks.IRON_BUTTON)
-                //coal block
+                //gold
                 .add(ModBlocks.GOLD_STAIRS)
                 .add(ModBlocks.GOLD_SLAB)
                 .add(ModBlocks.GOLD_WALL)
@@ -437,7 +437,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GOLD_FENCE_GATE)
                 .add(ModBlocks.GOLD_FENCE)
                 .add(ModBlocks.GOLD_BUTTON)
-                //coal block
+                //redstone
                 .add(ModBlocks.REDSTONE_STAIRS)
                 .add(ModBlocks.REDSTONE_SLAB)
                 .add(ModBlocks.REDSTONE_WALL)
@@ -446,7 +446,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.REDSTONE_FENCE_GATE)
                 .add(ModBlocks.REDSTONE_FENCE)
                 .add(ModBlocks.REDSTONE_BUTTON)
-                .add(ModBlocks.REDSTONE_PRESSURE_PLATE);
+                .add(ModBlocks.REDSTONE_PRESSURE_PLATE)
+                //emerald
+                .add(ModBlocks.EMERALD_STAIRS)
+                .add(ModBlocks.EMERALD_SLAB)
+                .add(ModBlocks.EMERALD_WALL)
+                .add(ModBlocks.EMERALD_DOOR)
+                .add(ModBlocks.EMERALD_TRAPDOOR)
+                .add(ModBlocks.EMERALD_FENCE_GATE)
+                .add(ModBlocks.EMERALD_FENCE)
+                .add(ModBlocks.EMERALD_BUTTON)
+                .add(ModBlocks.EMERALD_PRESSURE_PLATE);
 
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
@@ -715,7 +725,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COAL_FENCE)
                 .add(ModBlocks.IRON_FENCE)
                 .add(ModBlocks.GOLD_FENCE)
-                .add(ModBlocks.REDSTONE_FENCE);
+                .add(ModBlocks.REDSTONE_FENCE)
+                .add(ModBlocks.EMERALD_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -791,7 +802,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COAL_FENCE)
                 .add(ModBlocks.IRON_FENCE)
                 .add(ModBlocks.GOLD_FENCE)
-                .add(ModBlocks.REDSTONE_FENCE);
+                .add(ModBlocks.REDSTONE_FENCE)
+                .add(ModBlocks.EMERALD_FENCE);
 
 
 
@@ -868,7 +880,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COAL_FENCE_GATE)
                 .add(ModBlocks.IRON_FENCE_GATE)
                 .add(ModBlocks.GOLD_FENCE_GATE)
-                .add(ModBlocks.REDSTONE_FENCE_GATE);
+                .add(ModBlocks.REDSTONE_FENCE_GATE)
+                .add(ModBlocks.EMERALD_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -902,7 +915,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COAL_WALL)
                 .add(ModBlocks.IRON_WALL)
                 .add(ModBlocks.GOLD_WALL)
-                .add(ModBlocks.REDSTONE_WALL);
+                .add(ModBlocks.REDSTONE_WALL)
+                .add(ModBlocks.EMERALD_WALL);
 
 
 

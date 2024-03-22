@@ -1913,6 +1913,44 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.METAL).solidBlock(Blocks::never)
                     .requiresTool().strength(3.0f, 6.0f)));
 
+    //emerald
+    public static final Block EMERALD_STAIRS = registerBlock("emerald_stairs",
+            new StairsBlock(Blocks.EMERALD_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .sounds(BlockSoundGroup.METAL).instrument(Instrument.BIT)
+                    .requiresTool().strength(5.0f, 6.0f)));
+    public static final Block EMERALD_SLAB = registerBlock("emerald_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .sounds(BlockSoundGroup.METAL).instrument(Instrument.BIT)
+                    .requiresTool().strength(5.0f, 6.0f)));
+    public static final Block EMERALD_BUTTON = registerBlock("emerald_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .sounds(BlockSoundGroup.METAL).instrument(Instrument.BIT)
+                    .requiresTool().strength(5.0f, 6.0f), BlockSetType.STONE, 10, false));
+    public static final Block EMERALD_PRESSURE_PLATE = registerBlock("emerald_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE).instrument(Instrument.BIT)
+                            .strength(5.0f, 6.0f).sounds(BlockSoundGroup.METAL), BlockSetType.STONE));
+    public static final Block EMERALD_FENCE = registerBlock("emerald_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .sounds(BlockSoundGroup.METAL).instrument(Instrument.BIT)
+                    .requiresTool().strength(5.0f, 6.0f)));
+    public static final Block EMERALD_FENCE_GATE = registerBlock("emerald_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .sounds(BlockSoundGroup.METAL).instrument(Instrument.BIT)
+                    .requiresTool().strength(5.0f, 6.0f), WoodType.OAK));
+    public static final Block EMERALD_DOOR = registerBlock("emerald_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .sounds(BlockSoundGroup.METAL).instrument(Instrument.BIT)
+                    .requiresTool().strength(5.0f, 6.0f), BlockSetType.STONE));
+    public static final Block EMERALD_TRAPDOOR = registerBlock("emerald_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .sounds(BlockSoundGroup.METAL).instrument(Instrument.BIT)
+                    .requiresTool().strength(5.0f, 6.0f), BlockSetType.STONE));
+    public static final Block EMERALD_WALL = registerBlock("emerald_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .sounds(BlockSoundGroup.METAL).instrument(Instrument.BIT)
+                    .requiresTool().strength(5.0f, 6.0f)));
+
 
 
 
