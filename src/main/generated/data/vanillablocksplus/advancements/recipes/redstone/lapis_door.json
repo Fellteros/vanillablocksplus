@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lapis_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lapis_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lapis_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:lapis_door"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:lapis_door"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_lapis_door",
+      "has_lapis_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:lapis_door"
+    ]
+  },
+  "sends_telemetry_event": false
+}

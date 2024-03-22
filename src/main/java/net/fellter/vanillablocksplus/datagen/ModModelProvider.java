@@ -164,6 +164,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.REDSTONE_BLOCK);
         BlockStateModelGenerator.BlockTexturePool emeraldPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.EMERALD_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool lapisPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LAPIS_BLOCK);
 
 
 
@@ -656,6 +658,14 @@ public class ModModelProvider extends FabricModelProvider {
         emeraldPool.fence(ModBlocks.EMERALD_FENCE);
         emeraldPool.fenceGate(ModBlocks.EMERALD_FENCE_GATE);
         emeraldPool.pressurePlate(ModBlocks.EMERALD_PRESSURE_PLATE);
+        //lapis
+        lapisPool.button(ModBlocks.LAPIS_BUTTON);
+        lapisPool.wall(ModBlocks.LAPIS_WALL);
+        lapisPool.slab(ModBlocks.LAPIS_SLAB);
+        lapisPool.stairs(ModBlocks.LAPIS_STAIRS);
+        lapisPool.fence(ModBlocks.LAPIS_FENCE);
+        lapisPool.fenceGate(ModBlocks.LAPIS_FENCE_GATE);
+        lapisPool.pressurePlate(ModBlocks.LAPIS_PRESSURE_PLATE);
 
 
 
@@ -884,6 +894,9 @@ public class ModModelProvider extends FabricModelProvider {
         //emerald
         blockStateModelGenerator.registerDoor(ModBlocks.EMERALD_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.EMERALD_TRAPDOOR);
+        //lapis
+        blockStateModelGenerator.registerDoor(ModBlocks.LAPIS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LAPIS_TRAPDOOR);
 
 
 

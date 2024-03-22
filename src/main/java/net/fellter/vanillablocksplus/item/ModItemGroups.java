@@ -649,6 +649,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.EMERALD_TRAPDOOR);
                         entries.add(ModBlocks.EMERALD_PRESSURE_PLATE);
                         entries.add(ModBlocks.EMERALD_BUTTON);
+                        //lapis
+                        entries.add(ModBlocks.LAPIS_STAIRS);
+                        entries.add(ModBlocks.LAPIS_SLAB);
+                        entries.add(ModBlocks.LAPIS_WALL);
+                        entries.add(ModBlocks.LAPIS_FENCE);
+                        entries.add(ModBlocks.LAPIS_FENCE_GATE);
+                        entries.add(ModBlocks.LAPIS_DOOR);
+                        entries.add(ModBlocks.LAPIS_TRAPDOOR);
+                        entries.add(ModBlocks.LAPIS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.LAPIS_BUTTON);
 
                     }).build());
 

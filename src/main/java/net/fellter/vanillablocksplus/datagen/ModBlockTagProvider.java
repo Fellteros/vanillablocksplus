@@ -456,7 +456,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.EMERALD_FENCE_GATE)
                 .add(ModBlocks.EMERALD_FENCE)
                 .add(ModBlocks.EMERALD_BUTTON)
-                .add(ModBlocks.EMERALD_PRESSURE_PLATE);
+                .add(ModBlocks.EMERALD_PRESSURE_PLATE)
+                //lapis
+                .add(ModBlocks.LAPIS_STAIRS)
+                .add(ModBlocks.LAPIS_SLAB)
+                .add(ModBlocks.LAPIS_WALL)
+                .add(ModBlocks.LAPIS_DOOR)
+                .add(ModBlocks.LAPIS_TRAPDOOR)
+                .add(ModBlocks.LAPIS_FENCE_GATE)
+                .add(ModBlocks.LAPIS_FENCE)
+                .add(ModBlocks.LAPIS_BUTTON)
+                .add(ModBlocks.LAPIS_PRESSURE_PLATE);
 
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
@@ -726,7 +736,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.IRON_FENCE)
                 .add(ModBlocks.GOLD_FENCE)
                 .add(ModBlocks.REDSTONE_FENCE)
-                .add(ModBlocks.EMERALD_FENCE);
+                .add(ModBlocks.EMERALD_FENCE)
+                .add(ModBlocks.LAPIS_WALL);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -803,7 +814,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.IRON_FENCE)
                 .add(ModBlocks.GOLD_FENCE)
                 .add(ModBlocks.REDSTONE_FENCE)
-                .add(ModBlocks.EMERALD_FENCE);
+                .add(ModBlocks.EMERALD_FENCE)
+                .add(ModBlocks.LAPIS_FENCE);
 
 
 
@@ -881,7 +893,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.IRON_FENCE_GATE)
                 .add(ModBlocks.GOLD_FENCE_GATE)
                 .add(ModBlocks.REDSTONE_FENCE_GATE)
-                .add(ModBlocks.EMERALD_FENCE_GATE);
+                .add(ModBlocks.EMERALD_FENCE_GATE)
+                .add(ModBlocks.LAPIS_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -916,7 +929,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.IRON_WALL)
                 .add(ModBlocks.GOLD_WALL)
                 .add(ModBlocks.REDSTONE_WALL)
-                .add(ModBlocks.EMERALD_WALL);
+                .add(ModBlocks.EMERALD_WALL)
+                .add(ModBlocks.LAPIS_WALL);
 
 
 

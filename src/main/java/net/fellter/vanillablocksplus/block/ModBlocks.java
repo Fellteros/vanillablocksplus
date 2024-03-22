@@ -1951,6 +1951,36 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.METAL).instrument(Instrument.BIT)
                     .requiresTool().strength(5.0f, 6.0f)));
 
+    //lapis
+    public static final Block LAPIS_STAIRS = registerBlock("lapis_stairs",
+            new StairsBlock(Blocks.LAPIS_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .requiresTool().strength(3.0f, 3.0f)));
+    public static final Block LAPIS_SLAB = registerBlock("lapis_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .requiresTool().strength(3.0f, 3.0f)));
+    public static final Block LAPIS_BUTTON = registerBlock("lapis_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .requiresTool().strength(3.0f, 3.0f), BlockSetType.STONE, 10, false));
+    public static final Block LAPIS_PRESSURE_PLATE = registerBlock("lapis_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(3.0f, 3.0f), BlockSetType.STONE));
+    public static final Block LAPIS_FENCE = registerBlock("lapis_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .requiresTool().strength(3.0f, 3.0f)));
+    public static final Block LAPIS_FENCE_GATE = registerBlock("lapis_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .requiresTool().strength(3.0f, 3.0f), WoodType.OAK));
+    public static final Block LAPIS_DOOR = registerBlock("lapis_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .requiresTool().strength(3.0f, 3.0f), BlockSetType.STONE));
+    public static final Block LAPIS_TRAPDOOR = registerBlock("lapis_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .requiresTool().strength(3.0f, 3.0f), BlockSetType.STONE));
+    public static final Block LAPIS_WALL = registerBlock("lapis_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .requiresTool().strength(3.0f, 3.0f)));
+
 
 
 

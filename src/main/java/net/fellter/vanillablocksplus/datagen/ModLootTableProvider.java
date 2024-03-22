@@ -673,6 +673,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.EMERALD_SLAB, slabDrops(ModBlocks.EMERALD_SLAB));
         addDrop(ModBlocks.EMERALD_WALL);
 
+        //lapis
+        addDrop(ModBlocks.LAPIS_STAIRS);
+        addDrop(ModBlocks.LAPIS_TRAPDOOR);
+        addDrop(ModBlocks.LAPIS_BUTTON);
+        addDrop(ModBlocks.LAPIS_PRESSURE_PLATE);
+        addDrop(ModBlocks.LAPIS_FENCE);
+        addDrop(ModBlocks.LAPIS_FENCE_GATE);
+        addDrop(ModBlocks.LAPIS_DOOR, doorDrops(ModBlocks.LAPIS_DOOR));
+        addDrop(ModBlocks.LAPIS_SLAB, slabDrops(ModBlocks.LAPIS_SLAB));
+        addDrop(ModBlocks.LAPIS_WALL);
+
 
     }
     public LootTable.Builder moreOreDrops(Block drop, Item item) {

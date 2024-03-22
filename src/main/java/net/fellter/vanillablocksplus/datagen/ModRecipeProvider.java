@@ -1868,6 +1868,35 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_WALL, Ingredient.ofItems(Blocks.EMERALD_BLOCK))
                 .criterion(hasItem(Blocks.EMERALD_BLOCK), conditionsFromItem(Blocks.EMERALD_BLOCK))
                 .offerTo(exporter);
+
+        //lapis_block
+        ModRecipes.createDoorRecipe(ModBlocks.LAPIS_DOOR, Ingredient.ofItems(Blocks.LAPIS_BLOCK))
+                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_SLAB, Ingredient.ofItems(Blocks.LAPIS_BLOCK))
+                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.LAPIS_STAIRS, Ingredient.ofItems(Blocks.LAPIS_BLOCK))
+                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.LAPIS_FENCE, Ingredient.ofItems(Blocks.LAPIS_BLOCK), Ingredient.ofItems(ModBlocks.LAPIS_SLAB), 3)
+                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.LAPIS_FENCE_GATE, Ingredient.ofItems(Blocks.LAPIS_BLOCK), Ingredient.ofItems(ModBlocks.LAPIS_SLAB), 1)
+                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.LAPIS_TRAPDOOR, Ingredient.ofItems(ModBlocks.LAPIS_SLAB))
+                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_PRESSURE_PLATE, Ingredient.ofItems(Blocks.LAPIS_BLOCK))
+                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_BUTTON, Blocks.LAPIS_BLOCK, 8)
+                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_WALL, Ingredient.ofItems(Blocks.LAPIS_BLOCK))
+                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+                .offerTo(exporter);
     }
 
 

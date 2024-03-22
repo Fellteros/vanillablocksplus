@@ -372,6 +372,15 @@
     "vanillablocksplus:emerald_fence_gate",
     "vanillablocksplus:emerald_fence",
     "vanillablocksplus:emerald_button",
-    "vanillablocksplus:emerald_pressure_plate"
+    "vanillablocksplus:emerald_pressure_plate",
+    "vanillablocksplus:lapis_stairs",
+    "vanillablocksplus:lapis_slab",
+    "vanillablocksplus:lapis_wall",
+    "vanillablocksplus:lapis_door",
+    "vanillablocksplus:lapis_trapdoor",
+    "vanillablocksplus:lapis_fence_gate",
+    "vanillablocksplus:lapis_fence",
+    "vanillablocksplus:lapis_button",
+    "vanillablocksplus:lapis_pressure_plate"
   ]
 }
