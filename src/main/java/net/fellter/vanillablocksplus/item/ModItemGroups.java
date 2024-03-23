@@ -10,6 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
+
 public class ModItemGroups {
     public static final ItemGroup VBP_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(VanillaBlocksPlus.MOD_ID, "vbp"),
@@ -679,6 +680,30 @@ public class ModItemGroups {
                         entries.add(ModBlocks.NETHERITE_TRAPDOOR);
                         entries.add(ModBlocks.NETHERITE_PRESSURE_PLATE);
                         entries.add(ModBlocks.NETHERITE_BUTTON);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        //ingredients
+                        entries.add(ModItems.COAL_BIT);
+                        entries.add(ModItems.IRON_BIT);
+                        entries.add(ModItems.GOLD_BIT);
+                        entries.add(ModItems.REDSTONE_SHARD);
+                        entries.add(ModItems.EMERALD_FRAGMENT);
+                        entries.add(ModItems.LAPIS_BIT);
+                        entries.add(ModItems.DIAMOND_SHARD);
+                        entries.add(ModItems.NETHERITE_BIT);
 
                     }).build());
 

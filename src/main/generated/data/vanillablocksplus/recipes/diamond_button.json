@@ -3,15 +3,13 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:diamond_block"
+      "item": "vanillablocksplus:diamond_shard"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    " # "
   ],
   "result": {
-    "count": 8,
     "item": "vanillablocksplus:diamond_button"
   },
   "show_notification": true

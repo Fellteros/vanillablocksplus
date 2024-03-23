@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "#": {
-      "item": "minecraft:gold_block"
+      "item": "vanillablocksplus:gold_bit"
     }
   },
   "pattern": [

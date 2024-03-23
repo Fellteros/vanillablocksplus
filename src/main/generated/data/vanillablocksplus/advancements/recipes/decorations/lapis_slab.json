@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_lapis_block": {
+    "has_lapis_bit": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:lapis_block"
+              "vanillablocksplus:lapis_bit"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_lapis_slab",
-      "has_lapis_block",
+      "has_lapis_bit",
       "has_the_recipe"
     ]
   ],

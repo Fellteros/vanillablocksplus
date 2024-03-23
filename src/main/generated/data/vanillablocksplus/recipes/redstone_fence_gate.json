@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "vanillablocksplus:redstone_slab"
+      "item": "minecraft:redstone"
     },
     "W": {
-      "item": "minecraft:redstone_block"
+      "item": "vanillablocksplus:redstone_shard"
     }
   },
   "pattern": [

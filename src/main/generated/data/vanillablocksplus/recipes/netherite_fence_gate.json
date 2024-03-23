@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "vanillablocksplus:netherite_slab"
+      "item": "minecraft:netherite_ingot"
     },
     "W": {
-      "item": "minecraft:netherite_block"
+      "item": "vanillablocksplus:netherite_bit"
     }
   },
   "pattern": [

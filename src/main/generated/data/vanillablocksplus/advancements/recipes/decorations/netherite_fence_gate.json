@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_netherite_block": {
+    "has_netherite_bit": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:netherite_block"
+              "vanillablocksplus:netherite_bit"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_netherite_fence_gate",
-      "has_netherite_block",
+      "has_netherite_bit",
       "has_the_recipe"
     ]
   ],

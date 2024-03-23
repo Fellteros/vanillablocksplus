@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_gold_block": {
+    "has_gold_bit": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:gold_block"
+              "vanillablocksplus:gold_bit"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_gold_button",
-      "has_gold_block",
+      "has_gold_bit",
       "has_the_recipe"
     ]
   ],

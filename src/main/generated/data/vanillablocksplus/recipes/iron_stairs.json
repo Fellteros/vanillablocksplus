@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:iron_block"
+      "item": "vanillablocksplus:iron_bit"
     }
   },
   "pattern": [

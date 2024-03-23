@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "#": {
-      "item": "minecraft:diamond_block"
+      "item": "vanillablocksplus:diamond_shard"
     }
   },
   "pattern": [

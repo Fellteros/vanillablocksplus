@@ -2,8 +2,6 @@ package net.fellter.vanillablocksplus.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
-import net.fellter.vanillablocksplus.block.ModBlocks;
-import net.minecraft.item.HangingSignItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -12,6 +10,16 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item VBP_TITLE = registerItem("vbp_title", new Item(new FabricItemSettings()));
+
+    //ingredients
+    public static final Item COAL_BIT = registerItem("coal_bit", new Item(new FabricItemSettings()));
+    public static final Item IRON_BIT = registerItem("iron_bit", new Item(new FabricItemSettings()));
+    public static final Item GOLD_BIT = registerItem("gold_bit", new Item(new FabricItemSettings()));
+    public static final Item REDSTONE_SHARD = registerItem("redstone_shard", new Item(new FabricItemSettings()));
+    public static final Item EMERALD_FRAGMENT = registerItem("emerald_fragment", new Item(new FabricItemSettings()));
+    public static final Item LAPIS_BIT = registerItem("lapis_bit", new Item(new FabricItemSettings()));
+    public static final Item DIAMOND_SHARD = registerItem("diamond_shard", new Item(new FabricItemSettings()));
+    public static final Item NETHERITE_BIT = registerItem("netherite_bit", new Item(new FabricItemSettings()));
 
 
 

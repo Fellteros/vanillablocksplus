@@ -3,15 +3,13 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:redstone_block"
+      "item": "vanillablocksplus:redstone_shard"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    " # "
   ],
   "result": {
-    "count": 8,
     "item": "vanillablocksplus:redstone_button"
   },
   "show_notification": true

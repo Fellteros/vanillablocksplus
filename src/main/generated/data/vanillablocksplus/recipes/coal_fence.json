@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "vanillablocksplus:coal_slab"
+      "item": "minecraft:coal"
     },
     "W": {
-      "item": "minecraft:coal_block"
+      "item": "vanillablocksplus:coal_bit"
     }
   },
   "pattern": [

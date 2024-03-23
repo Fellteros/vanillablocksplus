@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "#": {
-      "item": "vanillablocksplus:redstone_slab"
+      "item": "minecraft:redstone"
     }
   },
   "pattern": [

@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-23T08:23:53.3426575	Vanilla+ Blocks/Block Loot Tables
+// 1.20.1	2024-03-23T14:42:02.4569038	Vanilla+ Blocks/Block Loot Tables
 04dcac7683c67722e39e97a9ab1f819e264c5b2f data\vanillablocksplus\loot_tables\blocks\deepslate_trapdoor.json
 6a888b96432b44e30812715ba0c0efe27add133f data\vanillablocksplus\loot_tables\blocks\emerald_pressure_plate.json
 ae4258d8426ca8d154de1270422b6bda2342f3c5 data\vanillablocksplus\loot_tables\blocks\str_mangrove_wood_fence_gate.json
@@ -160,8 +160,8 @@ c67256d2b1e3f16c966fe8fc0c55c68c4b26d062 data\vanillablocksplus\loot_tables\bloc
 5380a134ba8db0df4b2251d55b220f2e36efe002 data\vanillablocksplus\loot_tables\blocks\acacia_wood_stairs.json
 1242b13a8daf7f0271a686196cfd0c019f107e19 data\vanillablocksplus\loot_tables\blocks\deepslate_bricks_fence.json
 9029b9d54a48816c072bd3dee82cf60fa1fa8eeb data\vanillablocksplus\loot_tables\blocks\cobblestone_fence_gate.json
-660847b1d2daf58a5d71d79330a5fdfc5053907b data\vanillablocksplus\loot_tables\blocks\red_nether_brick_button.json
 3dbf2025126eda35702601aa382b1dfc0d0da650 data\vanillablocksplus\loot_tables\blocks\redstone_slab.json
+660847b1d2daf58a5d71d79330a5fdfc5053907b data\vanillablocksplus\loot_tables\blocks\red_nether_brick_button.json
 6514b428a51f8c0ff9e21421a7208ced2dd5b759 data\vanillablocksplus\loot_tables\blocks\cracked_polished_blackstone_brick_door.json
 f16dd96d555ebab8d7abcd43f753e2acdad0644a data\vanillablocksplus\loot_tables\blocks\coal_trapdoor.json
 b745af09f98c9478d9eaedf9a53c1479d70b3aff data\vanillablocksplus\loot_tables\blocks\nether_brick_pressure_plate.json

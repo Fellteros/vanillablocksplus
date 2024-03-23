@@ -3,9 +3,11 @@ package net.fellter.vanillablocksplus.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.fellter.vanillablocksplus.block.ModBlocks;
+import net.fellter.vanillablocksplus.item.ModItems;
 import net.fellter.vanillablocksplus.util.ModRecipes;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.*;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 
@@ -45,7 +47,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.OAK_WOOD_TRAPDOOR, Ingredient.ofItems(Blocks.OAK_WOOD))
                 .criterion(hasItem(Blocks.OAK_WOOD), conditionsFromItem(Blocks.OAK_WOOD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.OAK_WOOD_BUTTON, Blocks.OAK_WOOD, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.OAK_WOOD_BUTTON, Blocks.OAK_WOOD, 8)
                 .criterion(hasItem(Blocks.OAK_WOOD), conditionsFromItem(Blocks.OAK_WOOD))
                 .offerTo(exporter);
 
@@ -72,7 +74,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.STR_OAK_WOOD_TRAPDOOR, Ingredient.ofItems(Blocks.STRIPPED_OAK_WOOD))
                 .criterion(hasItem(Blocks.STRIPPED_OAK_WOOD), conditionsFromItem(Blocks.STRIPPED_OAK_WOOD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_OAK_WOOD_BUTTON, Blocks.STRIPPED_OAK_WOOD, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_OAK_WOOD_BUTTON, Blocks.STRIPPED_OAK_WOOD, 8)
                 .criterion(hasItem(Blocks.STRIPPED_OAK_WOOD), conditionsFromItem(Blocks.STRIPPED_OAK_WOOD))
                 .offerTo(exporter);
 
@@ -99,7 +101,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.SPRUCE_WOOD_TRAPDOOR, Ingredient.ofItems(Blocks.SPRUCE_WOOD))
                 .criterion(hasItem(Blocks.SPRUCE_WOOD), conditionsFromItem(Blocks.SPRUCE_WOOD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.SPRUCE_WOOD_BUTTON, Blocks.SPRUCE_WOOD, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.SPRUCE_WOOD_BUTTON, Blocks.SPRUCE_WOOD, 8)
                 .criterion(hasItem(Blocks.SPRUCE_WOOD), conditionsFromItem(Blocks.SPRUCE_WOOD))
                 .offerTo(exporter);
 
@@ -126,7 +128,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.STR_SPRUCE_WOOD_TRAPDOOR, Ingredient.ofItems(Blocks.STRIPPED_SPRUCE_WOOD))
                 .criterion(hasItem(Blocks.STRIPPED_SPRUCE_WOOD), conditionsFromItem(Blocks.STRIPPED_SPRUCE_WOOD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_SPRUCE_WOOD_BUTTON, Blocks.STRIPPED_SPRUCE_WOOD, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_SPRUCE_WOOD_BUTTON, Blocks.STRIPPED_SPRUCE_WOOD, 8)
                 .criterion(hasItem(Blocks.STRIPPED_SPRUCE_WOOD), conditionsFromItem(Blocks.STRIPPED_SPRUCE_WOOD))
                 .offerTo(exporter);
 
@@ -153,7 +155,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.BIRCH_WOOD_TRAPDOOR, Ingredient.ofItems(Blocks.BIRCH_WOOD))
                 .criterion(hasItem(Blocks.BIRCH_WOOD), conditionsFromItem(Blocks.BIRCH_WOOD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BIRCH_WOOD_BUTTON, Blocks.BIRCH_WOOD, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BIRCH_WOOD_BUTTON, Blocks.BIRCH_WOOD, 8)
                 .criterion(hasItem(Blocks.BIRCH_WOOD), conditionsFromItem(Blocks.BIRCH_WOOD))
                 .offerTo(exporter);
 
@@ -180,7 +182,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.STR_BIRCH_WOOD_TRAPDOOR, Ingredient.ofItems(Blocks.STRIPPED_BIRCH_WOOD))
                 .criterion(hasItem(Blocks.STRIPPED_BIRCH_WOOD), conditionsFromItem(Blocks.STRIPPED_BIRCH_WOOD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_BIRCH_WOOD_BUTTON, Blocks.STRIPPED_BIRCH_WOOD, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_BIRCH_WOOD_BUTTON, Blocks.STRIPPED_BIRCH_WOOD, 8)
                 .criterion(hasItem(Blocks.DEEPSLATE), conditionsFromItem(Blocks.DEEPSLATE))
                 .offerTo(exporter);
 
@@ -207,7 +209,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.JUNGLE_WOOD_TRAPDOOR, Ingredient.ofItems(Blocks.JUNGLE_WOOD))
                 .criterion(hasItem(Blocks.JUNGLE_WOOD), conditionsFromItem(Blocks.JUNGLE_WOOD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.JUNGLE_WOOD_BUTTON, Blocks.JUNGLE_WOOD, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.JUNGLE_WOOD_BUTTON, Blocks.JUNGLE_WOOD, 8)
                 .criterion(hasItem(Blocks.JUNGLE_WOOD), conditionsFromItem(Blocks.JUNGLE_WOOD))
                 .offerTo(exporter);
 
@@ -234,7 +236,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.STR_JUNGLE_WOOD_TRAPDOOR, Ingredient.ofItems(Blocks.STRIPPED_JUNGLE_WOOD))
                 .criterion(hasItem(Blocks.STRIPPED_JUNGLE_WOOD), conditionsFromItem(Blocks.STRIPPED_JUNGLE_WOOD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_JUNGLE_WOOD_BUTTON, Blocks.STRIPPED_JUNGLE_WOOD, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_JUNGLE_WOOD_BUTTON, Blocks.STRIPPED_JUNGLE_WOOD, 8)
                 .criterion(hasItem(Blocks.STRIPPED_JUNGLE_WOOD), conditionsFromItem(Blocks.STRIPPED_JUNGLE_WOOD))
                 .offerTo(exporter);
 
@@ -261,7 +263,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.ACACIA_WOOD_TRAPDOOR, Ingredient.ofItems(Blocks.ACACIA_WOOD))
                 .criterion(hasItem(Blocks.ACACIA_WOOD), conditionsFromItem(Blocks.ACACIA_WOOD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.ACACIA_WOOD_BUTTON, Blocks.ACACIA_WOOD, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.ACACIA_WOOD_BUTTON, Blocks.ACACIA_WOOD, 8)
                 .criterion(hasItem(Blocks.ACACIA_WOOD), conditionsFromItem(Blocks.ACACIA_WOOD))
                 .offerTo(exporter);
 
@@ -288,7 +290,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.STR_ACACIA_WOOD_TRAPDOOR, Ingredient.ofItems(Blocks.STRIPPED_ACACIA_WOOD))
                 .criterion(hasItem(Blocks.STRIPPED_ACACIA_WOOD), conditionsFromItem(Blocks.STRIPPED_ACACIA_WOOD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_ACACIA_WOOD_BUTTON, Blocks.STRIPPED_ACACIA_WOOD, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_ACACIA_WOOD_BUTTON, Blocks.STRIPPED_ACACIA_WOOD, 8)
                 .criterion(hasItem(Blocks.STRIPPED_ACACIA_WOOD), conditionsFromItem(Blocks.STRIPPED_ACACIA_WOOD))
                 .offerTo(exporter);
 
@@ -315,7 +317,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.DARK_OAK_WOOD_TRAPDOOR, Ingredient.ofItems(Blocks.DARK_OAK_WOOD))
                 .criterion(hasItem(Blocks.DARK_OAK_WOOD), conditionsFromItem(Blocks.DARK_OAK_WOOD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DARK_OAK_WOOD_BUTTON, Blocks.DARK_OAK_WOOD, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DARK_OAK_WOOD_BUTTON, Blocks.DARK_OAK_WOOD, 8)
                 .criterion(hasItem(Blocks.DARK_OAK_WOOD), conditionsFromItem(Blocks.DARK_OAK_WOOD))
                 .offerTo(exporter);
 
@@ -342,7 +344,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.STR_DARK_OAK_WOOD_TRAPDOOR, Ingredient.ofItems(Blocks.STRIPPED_DARK_OAK_WOOD))
                 .criterion(hasItem(Blocks.STRIPPED_DARK_OAK_WOOD), conditionsFromItem(Blocks.STRIPPED_DARK_OAK_WOOD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_DARK_OAK_WOOD_BUTTON, Blocks.STRIPPED_DARK_OAK_WOOD, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_DARK_OAK_WOOD_BUTTON, Blocks.STRIPPED_DARK_OAK_WOOD, 8)
                 .criterion(hasItem(Blocks.STRIPPED_DARK_OAK_WOOD), conditionsFromItem(Blocks.STRIPPED_DARK_OAK_WOOD))
                 .offerTo(exporter);
 
@@ -369,7 +371,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.MANGROVE_WOOD_TRAPDOOR, Ingredient.ofItems(Blocks.MANGROVE_WOOD))
                 .criterion(hasItem(Blocks.MANGROVE_WOOD), conditionsFromItem(Blocks.MANGROVE_WOOD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.MANGROVE_WOOD_BUTTON, Blocks.MANGROVE_WOOD, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.MANGROVE_WOOD_BUTTON, Blocks.MANGROVE_WOOD, 8)
                 .criterion(hasItem(Blocks.MANGROVE_WOOD), conditionsFromItem(Blocks.MANGROVE_WOOD))
                 .offerTo(exporter);
 
@@ -396,7 +398,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.STR_MANGROVE_WOOD_TRAPDOOR, Ingredient.ofItems(Blocks.STRIPPED_MANGROVE_WOOD))
                 .criterion(hasItem(Blocks.STRIPPED_MANGROVE_WOOD), conditionsFromItem(Blocks.STRIPPED_MANGROVE_WOOD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_MANGROVE_WOOD_BUTTON, Blocks.STRIPPED_MANGROVE_WOOD, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_MANGROVE_WOOD_BUTTON, Blocks.STRIPPED_MANGROVE_WOOD, 8)
                 .criterion(hasItem(Blocks.STRIPPED_MANGROVE_WOOD), conditionsFromItem(Blocks.STRIPPED_MANGROVE_WOOD))
                 .offerTo(exporter);
 
@@ -423,7 +425,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.CHERRY_WOOD_TRAPDOOR, Ingredient.ofItems(Blocks.CHERRY_WOOD))
                 .criterion(hasItem(Blocks.CHERRY_WOOD), conditionsFromItem(Blocks.CHERRY_WOOD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.CHERRY_WOOD_BUTTON, Blocks.CHERRY_WOOD, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.CHERRY_WOOD_BUTTON, Blocks.CHERRY_WOOD, 8)
                 .criterion(hasItem(Blocks.CHERRY_WOOD), conditionsFromItem(Blocks.CHERRY_WOOD))
                 .offerTo(exporter);
 
@@ -450,7 +452,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.STR_CHERRY_WOOD_TRAPDOOR, Ingredient.ofItems(Blocks.STRIPPED_CHERRY_WOOD))
                 .criterion(hasItem(Blocks.STRIPPED_CHERRY_WOOD), conditionsFromItem(Blocks.STRIPPED_CHERRY_WOOD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_CHERRY_WOOD_BUTTON, Blocks.STRIPPED_CHERRY_WOOD, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_CHERRY_WOOD_BUTTON, Blocks.STRIPPED_CHERRY_WOOD, 8)
                 .criterion(hasItem(Blocks.STRIPPED_CHERRY_WOOD), conditionsFromItem(Blocks.STRIPPED_CHERRY_WOOD))
                 .offerTo(exporter);
 
@@ -477,7 +479,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.BAMBOO_BLOCK_TRAPDOOR, Ingredient.ofItems(Blocks.BAMBOO_BLOCK))
                 .criterion(hasItem(Blocks.BAMBOO_BLOCK), conditionsFromItem(Blocks.BAMBOO_BLOCK))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BAMBOO_BLOCK_BUTTON, Blocks.BAMBOO_BLOCK, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BAMBOO_BLOCK_BUTTON, Blocks.BAMBOO_BLOCK, 8)
                 .criterion(hasItem(Blocks.BAMBOO_BLOCK), conditionsFromItem(Blocks.BAMBOO_BLOCK))
                 .offerTo(exporter);
 
@@ -504,7 +506,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.STR_BAMBOO_BLOCK_TRAPDOOR, Ingredient.ofItems(Blocks.STRIPPED_BAMBOO_BLOCK))
                 .criterion(hasItem(Blocks.STRIPPED_BAMBOO_BLOCK), conditionsFromItem(Blocks.STRIPPED_BAMBOO_BLOCK))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_BAMBOO_BLOCK_BUTTON, Blocks.STRIPPED_BAMBOO_BLOCK, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_BAMBOO_BLOCK_BUTTON, Blocks.STRIPPED_BAMBOO_BLOCK, 8)
                 .criterion(hasItem(Blocks.STRIPPED_BAMBOO_BLOCK), conditionsFromItem(Blocks.STRIPPED_BAMBOO_BLOCK))
                 .offerTo(exporter);
 
@@ -531,7 +533,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.CRIMSON_HYPHAE_TRAPDOOR, Ingredient.ofItems(Blocks.CRIMSON_HYPHAE))
                 .criterion(hasItem(Blocks.CRIMSON_HYPHAE), conditionsFromItem(Blocks.CRIMSON_HYPHAE))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.CRIMSON_HYPHAE_BUTTON, Blocks.CRIMSON_HYPHAE, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.CRIMSON_HYPHAE_BUTTON, Blocks.CRIMSON_HYPHAE, 8)
                 .criterion(hasItem(Blocks.CRIMSON_HYPHAE), conditionsFromItem(Blocks.CRIMSON_HYPHAE))
                 .offerTo(exporter);
 
@@ -558,7 +560,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.STR_CRIMSON_HYPHAE_TRAPDOOR, Ingredient.ofItems(Blocks.STRIPPED_CRIMSON_HYPHAE))
                 .criterion(hasItem(Blocks.STRIPPED_CRIMSON_HYPHAE), conditionsFromItem(Blocks.STRIPPED_CRIMSON_HYPHAE))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_CRIMSON_HYPHAE_BUTTON, Blocks.STRIPPED_CRIMSON_HYPHAE, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_CRIMSON_HYPHAE_BUTTON, Blocks.STRIPPED_CRIMSON_HYPHAE, 8)
                 .criterion(hasItem(Blocks.STRIPPED_CRIMSON_HYPHAE), conditionsFromItem(Blocks.STRIPPED_CRIMSON_HYPHAE))
                 .offerTo(exporter);
 
@@ -585,7 +587,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.WARPED_HYPHAE_TRAPDOOR, Ingredient.ofItems(Blocks.WARPED_HYPHAE))
                 .criterion(hasItem(Blocks.WARPED_HYPHAE), conditionsFromItem(Blocks.WARPED_HYPHAE))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WARPED_HYPHAE_BUTTON, Blocks.WARPED_HYPHAE, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WARPED_HYPHAE_BUTTON, Blocks.WARPED_HYPHAE, 8)
                 .criterion(hasItem(Blocks.WARPED_HYPHAE), conditionsFromItem(Blocks.WARPED_HYPHAE))
                 .offerTo(exporter);
 
@@ -612,7 +614,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createTrapdoorRecipe(ModBlocks.STR_WARPED_HYPHAE_TRAPDOOR, Ingredient.ofItems(Blocks.STRIPPED_WARPED_HYPHAE))
                 .criterion(hasItem(Blocks.STRIPPED_WARPED_HYPHAE), conditionsFromItem(Blocks.STRIPPED_WARPED_HYPHAE))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_WARPED_HYPHAE_BUTTON, Blocks.STRIPPED_WARPED_HYPHAE, 8)
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_WARPED_HYPHAE_BUTTON, Blocks.STRIPPED_WARPED_HYPHAE, 8)
                 .criterion(hasItem(Blocks.STRIPPED_WARPED_HYPHAE), conditionsFromItem(Blocks.STRIPPED_WARPED_HYPHAE))
                 .offerTo(exporter);
 
@@ -1737,223 +1739,257 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
 
         //coal_block
-        ModRecipes.createDoorRecipe(ModBlocks.COAL_DOOR, Ingredient.ofItems(Blocks.COAL_BLOCK))
-                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+        ModRecipes.createDoorRecipe(ModBlocks.COAL_DOOR, Ingredient.ofItems(ModItems.COAL_BIT))
+                .criterion(hasItem(ModItems.COAL_BIT), conditionsFromItem(ModItems.COAL_BIT))
                 .offerTo(exporter);
-        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_SLAB, Ingredient.ofItems(Blocks.COAL_BLOCK))
-                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_SLAB, Ingredient.ofItems(ModItems.COAL_BIT))
+                .criterion(hasItem(ModItems.COAL_BIT), conditionsFromItem(ModItems.COAL_BIT))
                 .offerTo(exporter);
-        ModRecipes.createStairsRecipe(ModBlocks.COAL_STAIRS, Ingredient.ofItems(Blocks.COAL_BLOCK))
-                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+        ModRecipes.createStairsRecipe(ModBlocks.COAL_STAIRS, Ingredient.ofItems(ModItems.COAL_BIT))
+                .criterion(hasItem(ModItems.COAL_BIT), conditionsFromItem(ModItems.COAL_BIT))
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceRecipe(ModBlocks.COAL_FENCE, Ingredient.ofItems(Blocks.COAL_BLOCK), Ingredient.ofItems(ModBlocks.COAL_SLAB), 3)
-                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.COAL_FENCE, Ingredient.ofItems(ModItems.COAL_BIT), Ingredient.ofItems(Items.COAL), 3)
+                .criterion(hasItem(ModItems.COAL_BIT), conditionsFromItem(ModItems.COAL_BIT))
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.COAL_FENCE_GATE, Ingredient.ofItems(Blocks.COAL_BLOCK), Ingredient.ofItems(ModBlocks.COAL_SLAB), 1)
-                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.COAL_FENCE_GATE, Ingredient.ofItems(ModItems.COAL_BIT), Ingredient.ofItems(Items.COAL), 1)
+                .criterion(hasItem(ModItems.COAL_BIT), conditionsFromItem(ModItems.COAL_BIT))
                 .offerTo(exporter);
-        ModRecipes.createTrapdoorRecipe(ModBlocks.COAL_TRAPDOOR, Ingredient.ofItems(ModBlocks.COAL_SLAB))
-                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+        ModRecipes.createTrapdoorRecipe(ModBlocks.COAL_TRAPDOOR, Ingredient.ofItems(Items.COAL))
+                .criterion(hasItem(ModItems.COAL_BIT), conditionsFromItem(ModItems.COAL_BIT))
                 .offerTo(exporter);
-        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_PRESSURE_PLATE, Ingredient.ofItems(Blocks.COAL_BLOCK))
-                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_PRESSURE_PLATE, Ingredient.ofItems(ModItems.COAL_BIT))
+                .criterion(hasItem(ModItems.COAL_BIT), conditionsFromItem(ModItems.COAL_BIT))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_BUTTON, Blocks.COAL_BLOCK, 8)
-                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_BUTTON, ModItems.COAL_BIT, 8)
+                .criterion(hasItem(ModItems.COAL_BIT), conditionsFromItem(ModItems.COAL_BIT))
                 .offerTo(exporter);
-        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_WALL, Ingredient.ofItems(Blocks.COAL_BLOCK))
-                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_WALL, Ingredient.ofItems(ModItems.COAL_BIT))
+                .criterion(hasItem(ModItems.COAL_BIT), conditionsFromItem(ModItems.COAL_BIT))
                 .offerTo(exporter);
 
         //iron_block
-        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.IRON_SLAB, Ingredient.ofItems(Blocks.IRON_BLOCK))
-                .criterion(hasItem(Blocks.IRON_BLOCK), conditionsFromItem(Blocks.IRON_BLOCK))
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.IRON_SLAB, Ingredient.ofItems(ModItems.IRON_BIT))
+                .criterion(hasItem(ModItems.IRON_BIT), conditionsFromItem(ModItems.IRON_BIT))
                 .offerTo(exporter);
-        ModRecipes.createStairsRecipe(ModBlocks.IRON_STAIRS, Ingredient.ofItems(Blocks.IRON_BLOCK))
-                .criterion(hasItem(Blocks.IRON_BLOCK), conditionsFromItem(Blocks.IRON_BLOCK))
+        ModRecipes.createStairsRecipe(ModBlocks.IRON_STAIRS, Ingredient.ofItems(ModItems.IRON_BIT))
+                .criterion(hasItem(ModItems.IRON_BIT), conditionsFromItem(ModItems.IRON_BIT))
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceRecipe(ModBlocks.IRON_FENCE, Ingredient.ofItems(Blocks.IRON_BLOCK), Ingredient.ofItems(ModBlocks.IRON_SLAB), 3)
-                .criterion(hasItem(Blocks.IRON_BLOCK), conditionsFromItem(Blocks.IRON_BLOCK))
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.IRON_FENCE, Ingredient.ofItems(ModItems.IRON_BIT), Ingredient.ofItems(Items.IRON_INGOT), 3)
+                .criterion(hasItem(ModItems.IRON_BIT), conditionsFromItem(ModItems.IRON_BIT))
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.IRON_FENCE_GATE, Ingredient.ofItems(Blocks.IRON_BLOCK), Ingredient.ofItems(ModBlocks.IRON_SLAB), 1)
-                .criterion(hasItem(Blocks.IRON_BLOCK), conditionsFromItem(Blocks.IRON_BLOCK))
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.IRON_FENCE_GATE, Ingredient.ofItems(ModItems.IRON_BIT), Ingredient.ofItems(Items.IRON_INGOT), 1)
+                .criterion(hasItem(ModItems.IRON_BIT), conditionsFromItem(ModItems.IRON_BIT))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.IRON_BUTTON, Blocks.IRON_BLOCK, 8)
-                .criterion(hasItem(Blocks.IRON_BLOCK), conditionsFromItem(Blocks.IRON_BLOCK))
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.IRON_BUTTON, ModItems.IRON_BIT, 1)
+                .criterion(hasItem(ModItems.IRON_BIT), conditionsFromItem(ModItems.IRON_BIT))
                 .offerTo(exporter);
-        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.IRON_WALL, Ingredient.ofItems(Blocks.IRON_BLOCK))
-                .criterion(hasItem(Blocks.IRON_BLOCK), conditionsFromItem(Blocks.IRON_BLOCK))
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.IRON_WALL, Ingredient.ofItems(ModItems.IRON_BIT))
+                .criterion(hasItem(ModItems.IRON_BIT), conditionsFromItem(ModItems.IRON_BIT))
                 .offerTo(exporter);
 
         //gold_block
-        ModRecipes.createDoorRecipe(ModBlocks.GOLD_DOOR, Ingredient.ofItems(Blocks.GOLD_BLOCK))
-                .criterion(hasItem(Blocks.GOLD_BLOCK), conditionsFromItem(Blocks.GOLD_BLOCK))
+        ModRecipes.createDoorRecipe(ModBlocks.GOLD_DOOR, Ingredient.ofItems(ModItems.GOLD_BIT))
+                .criterion(hasItem(ModItems.GOLD_BIT), conditionsFromItem(ModItems.GOLD_BIT))
                 .offerTo(exporter);
-        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.GOLD_SLAB, Ingredient.ofItems(Blocks.GOLD_BLOCK))
-                .criterion(hasItem(Blocks.GOLD_BLOCK), conditionsFromItem(Blocks.GOLD_BLOCK))
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.GOLD_SLAB, Ingredient.ofItems(ModItems.GOLD_BIT))
+                .criterion(hasItem(ModItems.GOLD_BIT), conditionsFromItem(ModItems.GOLD_BIT))
                 .offerTo(exporter);
-        ModRecipes.createStairsRecipe(ModBlocks.GOLD_STAIRS, Ingredient.ofItems(Blocks.GOLD_BLOCK))
-                .criterion(hasItem(Blocks.GOLD_BLOCK), conditionsFromItem(Blocks.GOLD_BLOCK))
+        ModRecipes.createStairsRecipe(ModBlocks.GOLD_STAIRS, Ingredient.ofItems(ModItems.GOLD_BIT))
+                .criterion(hasItem(ModItems.GOLD_BIT), conditionsFromItem(ModItems.GOLD_BIT))
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceRecipe(ModBlocks.GOLD_FENCE, Ingredient.ofItems(Blocks.GOLD_BLOCK), Ingredient.ofItems(ModBlocks.GOLD_SLAB), 3)
-                .criterion(hasItem(Blocks.GOLD_BLOCK), conditionsFromItem(Blocks.GOLD_BLOCK))
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.GOLD_FENCE, Ingredient.ofItems(ModItems.GOLD_BIT), Ingredient.ofItems(Items.GOLD_INGOT), 3)
+                .criterion(hasItem(ModItems.GOLD_BIT), conditionsFromItem(ModItems.GOLD_BIT))
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.GOLD_FENCE_GATE, Ingredient.ofItems(Blocks.GOLD_BLOCK), Ingredient.ofItems(ModBlocks.GOLD_SLAB), 1)
-                .criterion(hasItem(Blocks.GOLD_BLOCK), conditionsFromItem(Blocks.GOLD_BLOCK))
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.GOLD_FENCE_GATE, Ingredient.ofItems(ModItems.GOLD_BIT), Ingredient.ofItems(Items.GOLD_INGOT), 1)
+                .criterion(hasItem(ModItems.GOLD_BIT), conditionsFromItem(ModItems.GOLD_BIT))
                 .offerTo(exporter);
-        ModRecipes.createTrapdoorRecipe(ModBlocks.GOLD_TRAPDOOR, Ingredient.ofItems(ModBlocks.GOLD_SLAB))
-                .criterion(hasItem(Blocks.GOLD_BLOCK), conditionsFromItem(Blocks.GOLD_BLOCK))
+        ModRecipes.createTrapdoorRecipe(ModBlocks.GOLD_TRAPDOOR, Ingredient.ofItems(Items.GOLD_INGOT))
+                .criterion(hasItem(ModItems.GOLD_BIT), conditionsFromItem(ModItems.GOLD_BIT))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.GOLD_BUTTON, Blocks.GOLD_BLOCK, 8)
-                .criterion(hasItem(Blocks.GOLD_BLOCK), conditionsFromItem(Blocks.GOLD_BLOCK))
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.GOLD_BUTTON, ModItems.GOLD_BIT, 8)
+                .criterion(hasItem(ModItems.GOLD_BIT), conditionsFromItem(ModItems.GOLD_BIT))
                 .offerTo(exporter);
-        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.GOLD_WALL, Ingredient.ofItems(Blocks.GOLD_BLOCK))
-                .criterion(hasItem(Blocks.GOLD_BLOCK), conditionsFromItem(Blocks.GOLD_BLOCK))
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.GOLD_WALL, Ingredient.ofItems(ModItems.GOLD_BIT))
+                .criterion(hasItem(ModItems.GOLD_BIT), conditionsFromItem(ModItems.GOLD_BIT))
                 .offerTo(exporter);
 
         //redstone_block
-        ModRecipes.createDoorRecipe(ModBlocks.REDSTONE_DOOR, Ingredient.ofItems(Blocks.REDSTONE_BLOCK))
-                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+        ModRecipes.createDoorRecipe(ModBlocks.REDSTONE_DOOR, Ingredient.ofItems(ModItems.REDSTONE_SHARD))
+                .criterion(hasItem(ModItems.REDSTONE_SHARD), conditionsFromItem(ModItems.REDSTONE_SHARD))
                 .offerTo(exporter);
-        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_SLAB, Ingredient.ofItems(Blocks.REDSTONE_BLOCK))
-                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_SLAB, Ingredient.ofItems(ModItems.REDSTONE_SHARD))
+                .criterion(hasItem(ModItems.REDSTONE_SHARD), conditionsFromItem(ModItems.REDSTONE_SHARD))
                 .offerTo(exporter);
-        ModRecipes.createStairsRecipe(ModBlocks.REDSTONE_STAIRS, Ingredient.ofItems(Blocks.REDSTONE_BLOCK))
-                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+        ModRecipes.createStairsRecipe(ModBlocks.REDSTONE_STAIRS, Ingredient.ofItems(ModItems.REDSTONE_SHARD))
+                .criterion(hasItem(ModItems.REDSTONE_SHARD), conditionsFromItem(ModItems.REDSTONE_SHARD))
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceRecipe(ModBlocks.REDSTONE_FENCE, Ingredient.ofItems(Blocks.REDSTONE_BLOCK), Ingredient.ofItems(ModBlocks.REDSTONE_SLAB), 3)
-                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.REDSTONE_FENCE, Ingredient.ofItems(ModItems.REDSTONE_SHARD), Ingredient.ofItems(Items.REDSTONE), 3)
+                .criterion(hasItem(ModItems.REDSTONE_SHARD), conditionsFromItem(ModItems.REDSTONE_SHARD))
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.REDSTONE_FENCE_GATE, Ingredient.ofItems(Blocks.REDSTONE_BLOCK), Ingredient.ofItems(ModBlocks.REDSTONE_SLAB), 1)
-                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.REDSTONE_FENCE_GATE, Ingredient.ofItems(ModItems.REDSTONE_SHARD), Ingredient.ofItems(Items.REDSTONE), 1)
+                .criterion(hasItem(ModItems.REDSTONE_SHARD), conditionsFromItem(ModItems.REDSTONE_SHARD))
                 .offerTo(exporter);
-        ModRecipes.createTrapdoorRecipe(ModBlocks.REDSTONE_TRAPDOOR, Ingredient.ofItems(ModBlocks.REDSTONE_SLAB))
-                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+        ModRecipes.createTrapdoorRecipe(ModBlocks.REDSTONE_TRAPDOOR, Ingredient.ofItems(Items.REDSTONE))
+                .criterion(hasItem(ModItems.REDSTONE_SHARD), conditionsFromItem(ModItems.REDSTONE_SHARD))
                 .offerTo(exporter);
-        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.REDSTONE_BLOCK))
-                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_PRESSURE_PLATE, Ingredient.ofItems(ModItems.REDSTONE_SHARD))
+                .criterion(hasItem(ModItems.REDSTONE_SHARD), conditionsFromItem(ModItems.REDSTONE_SHARD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_BUTTON, Blocks.REDSTONE_BLOCK, 8)
-                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_BUTTON, ModItems.REDSTONE_SHARD, 1)
+                .criterion(hasItem(ModItems.REDSTONE_SHARD), conditionsFromItem(ModItems.REDSTONE_SHARD))
                 .offerTo(exporter);
-        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_WALL, Ingredient.ofItems(Blocks.REDSTONE_BLOCK))
-                .criterion(hasItem(Blocks.REDSTONE_BLOCK), conditionsFromItem(Blocks.REDSTONE_BLOCK))
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_WALL, Ingredient.ofItems(ModItems.REDSTONE_SHARD))
+                .criterion(hasItem(ModItems.REDSTONE_SHARD), conditionsFromItem(ModItems.REDSTONE_SHARD))
                 .offerTo(exporter);
 
         //emerald_block
-        ModRecipes.createDoorRecipe(ModBlocks.EMERALD_DOOR, Ingredient.ofItems(Blocks.EMERALD_BLOCK))
-                .criterion(hasItem(Blocks.EMERALD_BLOCK), conditionsFromItem(Blocks.EMERALD_BLOCK))
+        ModRecipes.createDoorRecipe(ModBlocks.EMERALD_DOOR, Ingredient.ofItems(ModItems.EMERALD_FRAGMENT))
+                .criterion(hasItem(ModItems.EMERALD_FRAGMENT), conditionsFromItem(ModItems.EMERALD_FRAGMENT))
                 .offerTo(exporter);
-        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_SLAB, Ingredient.ofItems(Blocks.EMERALD_BLOCK))
-                .criterion(hasItem(Blocks.EMERALD_BLOCK), conditionsFromItem(Blocks.EMERALD_BLOCK))
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_SLAB, Ingredient.ofItems(ModItems.EMERALD_FRAGMENT))
+                .criterion(hasItem(ModItems.EMERALD_FRAGMENT), conditionsFromItem(ModItems.EMERALD_FRAGMENT))
                 .offerTo(exporter);
-        ModRecipes.createStairsRecipe(ModBlocks.EMERALD_STAIRS, Ingredient.ofItems(Blocks.EMERALD_BLOCK))
-                .criterion(hasItem(Blocks.EMERALD_BLOCK), conditionsFromItem(Blocks.EMERALD_BLOCK))
+        ModRecipes.createStairsRecipe(ModBlocks.EMERALD_STAIRS, Ingredient.ofItems(ModItems.EMERALD_FRAGMENT))
+                .criterion(hasItem(ModItems.EMERALD_FRAGMENT), conditionsFromItem(ModItems.EMERALD_FRAGMENT))
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceRecipe(ModBlocks.EMERALD_FENCE, Ingredient.ofItems(Blocks.EMERALD_BLOCK), Ingredient.ofItems(ModBlocks.EMERALD_SLAB), 3)
-                .criterion(hasItem(Blocks.EMERALD_BLOCK), conditionsFromItem(Blocks.EMERALD_BLOCK))
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.EMERALD_FENCE, Ingredient.ofItems(ModItems.EMERALD_FRAGMENT), Ingredient.ofItems(Items.EMERALD), 3)
+                .criterion(hasItem(ModItems.EMERALD_FRAGMENT), conditionsFromItem(ModItems.EMERALD_FRAGMENT))
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.EMERALD_FENCE_GATE, Ingredient.ofItems(Blocks.EMERALD_BLOCK), Ingredient.ofItems(ModBlocks.EMERALD_SLAB), 1)
-                .criterion(hasItem(Blocks.EMERALD_BLOCK), conditionsFromItem(Blocks.EMERALD_BLOCK))
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.EMERALD_FENCE_GATE, Ingredient.ofItems(ModItems.EMERALD_FRAGMENT), Ingredient.ofItems(Items.EMERALD), 1)
+                .criterion(hasItem(ModItems.EMERALD_FRAGMENT), conditionsFromItem(ModItems.EMERALD_FRAGMENT))
                 .offerTo(exporter);
-        ModRecipes.createTrapdoorRecipe(ModBlocks.EMERALD_TRAPDOOR, Ingredient.ofItems(ModBlocks.EMERALD_SLAB))
-                .criterion(hasItem(Blocks.EMERALD_BLOCK), conditionsFromItem(Blocks.EMERALD_BLOCK))
+        ModRecipes.createTrapdoorRecipe(ModBlocks.EMERALD_TRAPDOOR, Ingredient.ofItems(Items.EMERALD))
+                .criterion(hasItem(ModItems.EMERALD_FRAGMENT), conditionsFromItem(ModItems.EMERALD_FRAGMENT))
                 .offerTo(exporter);
-        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_PRESSURE_PLATE, Ingredient.ofItems(Blocks.EMERALD_BLOCK))
-                .criterion(hasItem(Blocks.EMERALD_BLOCK), conditionsFromItem(Blocks.EMERALD_BLOCK))
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_PRESSURE_PLATE, Ingredient.ofItems(ModItems.EMERALD_FRAGMENT))
+                .criterion(hasItem(ModItems.EMERALD_FRAGMENT), conditionsFromItem(ModItems.EMERALD_FRAGMENT))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_BUTTON, Blocks.EMERALD_BLOCK, 8)
-                .criterion(hasItem(Blocks.EMERALD_BLOCK), conditionsFromItem(Blocks.EMERALD_BLOCK))
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_BUTTON, ModItems.EMERALD_FRAGMENT, 1)
+                .criterion(hasItem(ModItems.EMERALD_FRAGMENT), conditionsFromItem(ModItems.EMERALD_FRAGMENT))
                 .offerTo(exporter);
-        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_WALL, Ingredient.ofItems(Blocks.EMERALD_BLOCK))
-                .criterion(hasItem(Blocks.EMERALD_BLOCK), conditionsFromItem(Blocks.EMERALD_BLOCK))
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_WALL, Ingredient.ofItems(ModItems.EMERALD_FRAGMENT))
+                .criterion(hasItem(ModItems.EMERALD_FRAGMENT), conditionsFromItem(ModItems.EMERALD_FRAGMENT))
                 .offerTo(exporter);
 
         //lapis_block
-        ModRecipes.createDoorRecipe(ModBlocks.LAPIS_DOOR, Ingredient.ofItems(Blocks.LAPIS_BLOCK))
-                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+        ModRecipes.createDoorRecipe(ModBlocks.LAPIS_DOOR, Ingredient.ofItems(ModItems.LAPIS_BIT))
+                .criterion(hasItem(ModItems.LAPIS_BIT), conditionsFromItem(ModItems.LAPIS_BIT))
                 .offerTo(exporter);
-        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_SLAB, Ingredient.ofItems(Blocks.LAPIS_BLOCK))
-                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_SLAB, Ingredient.ofItems(ModItems.LAPIS_BIT))
+                .criterion(hasItem(ModItems.LAPIS_BIT), conditionsFromItem(ModItems.LAPIS_BIT))
                 .offerTo(exporter);
-        ModRecipes.createStairsRecipe(ModBlocks.LAPIS_STAIRS, Ingredient.ofItems(Blocks.LAPIS_BLOCK))
-                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+        ModRecipes.createStairsRecipe(ModBlocks.LAPIS_STAIRS, Ingredient.ofItems(ModItems.LAPIS_BIT))
+                .criterion(hasItem(ModItems.LAPIS_BIT), conditionsFromItem(ModItems.LAPIS_BIT))
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceRecipe(ModBlocks.LAPIS_FENCE, Ingredient.ofItems(Blocks.LAPIS_BLOCK), Ingredient.ofItems(ModBlocks.LAPIS_SLAB), 3)
-                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.LAPIS_FENCE, Ingredient.ofItems(ModItems.LAPIS_BIT), Ingredient.ofItems(Items.LAPIS_LAZULI), 3)
+                .criterion(hasItem(ModItems.LAPIS_BIT), conditionsFromItem(ModItems.LAPIS_BIT))
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.LAPIS_FENCE_GATE, Ingredient.ofItems(Blocks.LAPIS_BLOCK), Ingredient.ofItems(ModBlocks.LAPIS_SLAB), 1)
-                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.LAPIS_FENCE_GATE, Ingredient.ofItems(ModItems.LAPIS_BIT), Ingredient.ofItems(Items.LAPIS_LAZULI), 1)
+                .criterion(hasItem(ModItems.LAPIS_BIT), conditionsFromItem(ModItems.LAPIS_BIT))
                 .offerTo(exporter);
-        ModRecipes.createTrapdoorRecipe(ModBlocks.LAPIS_TRAPDOOR, Ingredient.ofItems(ModBlocks.LAPIS_SLAB))
-                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+        ModRecipes.createTrapdoorRecipe(ModBlocks.LAPIS_TRAPDOOR, Ingredient.ofItems(Items.LAPIS_LAZULI))
+                .criterion(hasItem(ModItems.LAPIS_BIT), conditionsFromItem(ModItems.LAPIS_BIT))
                 .offerTo(exporter);
-        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_PRESSURE_PLATE, Ingredient.ofItems(Blocks.LAPIS_BLOCK))
-                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_PRESSURE_PLATE, Ingredient.ofItems(ModItems.LAPIS_BIT))
+                .criterion(hasItem(ModItems.LAPIS_BIT), conditionsFromItem(ModItems.LAPIS_BIT))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_BUTTON, Blocks.LAPIS_BLOCK, 8)
-                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_BUTTON, ModItems.LAPIS_BIT, 8)
+                .criterion(hasItem(ModItems.LAPIS_BIT), conditionsFromItem(ModItems.LAPIS_BIT))
                 .offerTo(exporter);
-        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_WALL, Ingredient.ofItems(Blocks.LAPIS_BLOCK))
-                .criterion(hasItem(Blocks.LAPIS_BLOCK), conditionsFromItem(Blocks.LAPIS_BLOCK))
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_WALL, Ingredient.ofItems(ModItems.LAPIS_BIT))
+                .criterion(hasItem(ModItems.LAPIS_BIT), conditionsFromItem(ModItems.LAPIS_BIT))
                 .offerTo(exporter);
 
         //diamond_block
-        ModRecipes.createDoorRecipe(ModBlocks.DIAMOND_DOOR, Ingredient.ofItems(Blocks.DIAMOND_BLOCK))
-                .criterion(hasItem(Blocks.DIAMOND_BLOCK), conditionsFromItem(Blocks.DIAMOND_BLOCK))
+        ModRecipes.createDoorRecipe(ModBlocks.DIAMOND_DOOR, Ingredient.ofItems(ModItems.DIAMOND_SHARD))
+                .criterion(hasItem(ModItems.DIAMOND_SHARD), conditionsFromItem(ModItems.DIAMOND_SHARD))
                 .offerTo(exporter);
-        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_SLAB, Ingredient.ofItems(Blocks.DIAMOND_BLOCK))
-                .criterion(hasItem(Blocks.DIAMOND_BLOCK), conditionsFromItem(Blocks.DIAMOND_BLOCK))
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_SLAB, Ingredient.ofItems(ModItems.DIAMOND_SHARD))
+                .criterion(hasItem(ModItems.DIAMOND_SHARD), conditionsFromItem(ModItems.DIAMOND_SHARD))
                 .offerTo(exporter);
-        ModRecipes.createStairsRecipe(ModBlocks.DIAMOND_STAIRS, Ingredient.ofItems(Blocks.DIAMOND_BLOCK))
-                .criterion(hasItem(Blocks.DIAMOND_BLOCK), conditionsFromItem(Blocks.DIAMOND_BLOCK))
+        ModRecipes.createStairsRecipe(ModBlocks.DIAMOND_STAIRS, Ingredient.ofItems(ModItems.DIAMOND_SHARD))
+                .criterion(hasItem(ModItems.DIAMOND_SHARD), conditionsFromItem(ModItems.DIAMOND_SHARD))
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceRecipe(ModBlocks.DIAMOND_FENCE, Ingredient.ofItems(Blocks.DIAMOND_BLOCK), Ingredient.ofItems(ModBlocks.DIAMOND_SLAB), 3)
-                .criterion(hasItem(Blocks.DIAMOND_BLOCK), conditionsFromItem(Blocks.DIAMOND_BLOCK))
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.DIAMOND_FENCE, Ingredient.ofItems(ModItems.DIAMOND_SHARD), Ingredient.ofItems(Items.DIAMOND), 3)
+                .criterion(hasItem(ModItems.DIAMOND_SHARD), conditionsFromItem(ModItems.DIAMOND_SHARD))
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.DIAMOND_FENCE_GATE, Ingredient.ofItems(Blocks.DIAMOND_BLOCK), Ingredient.ofItems(ModBlocks.DIAMOND_SLAB), 1)
-                .criterion(hasItem(Blocks.DIAMOND_BLOCK), conditionsFromItem(Blocks.DIAMOND_BLOCK))
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.DIAMOND_FENCE_GATE, Ingredient.ofItems(ModItems.DIAMOND_SHARD), Ingredient.ofItems(Items.DIAMOND), 1)
+                .criterion(hasItem(ModItems.DIAMOND_SHARD), conditionsFromItem(ModItems.DIAMOND_SHARD))
                 .offerTo(exporter);
-        ModRecipes.createTrapdoorRecipe(ModBlocks.DIAMOND_TRAPDOOR, Ingredient.ofItems(ModBlocks.DIAMOND_SLAB))
-                .criterion(hasItem(Blocks.DIAMOND_BLOCK), conditionsFromItem(Blocks.DIAMOND_BLOCK))
+        ModRecipes.createTrapdoorRecipe(ModBlocks.DIAMOND_TRAPDOOR, Ingredient.ofItems(Items.DIAMOND))
+                .criterion(hasItem(ModItems.DIAMOND_SHARD), conditionsFromItem(ModItems.DIAMOND_SHARD))
                 .offerTo(exporter);
-        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_PRESSURE_PLATE, Ingredient.ofItems(Blocks.DIAMOND_BLOCK))
-                .criterion(hasItem(Blocks.DIAMOND_BLOCK), conditionsFromItem(Blocks.DIAMOND_BLOCK))
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_PRESSURE_PLATE, Ingredient.ofItems(ModItems.DIAMOND_SHARD))
+                .criterion(hasItem(ModItems.DIAMOND_SHARD), conditionsFromItem(ModItems.DIAMOND_SHARD))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_BUTTON, Blocks.DIAMOND_BLOCK, 8)
-                .criterion(hasItem(Blocks.DIAMOND_BLOCK), conditionsFromItem(Blocks.DIAMOND_BLOCK))
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_BUTTON, ModItems.DIAMOND_SHARD, 1)
+                .criterion(hasItem(ModItems.DIAMOND_SHARD), conditionsFromItem(ModItems.DIAMOND_SHARD))
                 .offerTo(exporter);
-        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_WALL, Ingredient.ofItems(Blocks.DIAMOND_BLOCK))
-                .criterion(hasItem(Blocks.DIAMOND_BLOCK), conditionsFromItem(Blocks.DIAMOND_BLOCK))
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_WALL, Ingredient.ofItems(ModItems.DIAMOND_SHARD))
+                .criterion(hasItem(ModItems.DIAMOND_SHARD), conditionsFromItem(ModItems.DIAMOND_SHARD))
                 .offerTo(exporter);
 
         //netherite_block
-        ModRecipes.createDoorRecipe(ModBlocks.NETHERITE_DOOR, Ingredient.ofItems(Blocks.NETHERITE_BLOCK))
-                .criterion(hasItem(Blocks.NETHERITE_BLOCK), conditionsFromItem(Blocks.NETHERITE_BLOCK))
+        ModRecipes.createDoorRecipe(ModBlocks.NETHERITE_DOOR, Ingredient.ofItems(ModItems.NETHERITE_BIT))
+                .criterion(hasItem(ModItems.NETHERITE_BIT), conditionsFromItem(ModItems.NETHERITE_BIT))
                 .offerTo(exporter);
-        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHERITE_SLAB, Ingredient.ofItems(Blocks.NETHERITE_BLOCK))
-                .criterion(hasItem(Blocks.NETHERITE_BLOCK), conditionsFromItem(Blocks.NETHERITE_BLOCK))
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHERITE_SLAB, Ingredient.ofItems(ModItems.NETHERITE_BIT))
+                .criterion(hasItem(ModItems.NETHERITE_BIT), conditionsFromItem(ModItems.NETHERITE_BIT))
                 .offerTo(exporter);
-        ModRecipes.createStairsRecipe(ModBlocks.NETHERITE_STAIRS, Ingredient.ofItems(Blocks.NETHERITE_BLOCK))
-                .criterion(hasItem(Blocks.NETHERITE_BLOCK), conditionsFromItem(Blocks.NETHERITE_BLOCK))
+        ModRecipes.createStairsRecipe(ModBlocks.NETHERITE_STAIRS, Ingredient.ofItems(ModItems.NETHERITE_BIT))
+                .criterion(hasItem(ModItems.NETHERITE_BIT), conditionsFromItem(ModItems.NETHERITE_BIT))
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceRecipe(ModBlocks.NETHERITE_FENCE, Ingredient.ofItems(Blocks.NETHERITE_BLOCK), Ingredient.ofItems(ModBlocks.NETHERITE_SLAB), 3)
-                .criterion(hasItem(Blocks.NETHERITE_BLOCK), conditionsFromItem(Blocks.NETHERITE_BLOCK))
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.NETHERITE_FENCE, Ingredient.ofItems(ModItems.NETHERITE_BIT), Ingredient.ofItems(Items.NETHERITE_INGOT), 3)
+                .criterion(hasItem(ModItems.NETHERITE_BIT), conditionsFromItem(ModItems.NETHERITE_BIT))
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.NETHERITE_FENCE_GATE, Ingredient.ofItems(Blocks.NETHERITE_BLOCK), Ingredient.ofItems(ModBlocks.NETHERITE_SLAB), 1)
-                .criterion(hasItem(Blocks.NETHERITE_BLOCK), conditionsFromItem(Blocks.NETHERITE_BLOCK))
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.NETHERITE_FENCE_GATE, Ingredient.ofItems(ModItems.NETHERITE_BIT), Ingredient.ofItems(Items.NETHERITE_INGOT), 1)
+                .criterion(hasItem(ModItems.NETHERITE_BIT), conditionsFromItem(ModItems.NETHERITE_BIT))
                 .offerTo(exporter);
-        ModRecipes.createTrapdoorRecipe(ModBlocks.NETHERITE_TRAPDOOR, Ingredient.ofItems(ModBlocks.NETHERITE_SLAB))
-                .criterion(hasItem(Blocks.NETHERITE_BLOCK), conditionsFromItem(Blocks.NETHERITE_BLOCK))
+        ModRecipes.createTrapdoorRecipe(ModBlocks.NETHERITE_TRAPDOOR, Ingredient.ofItems(Items.NETHERITE_INGOT))
+                .criterion(hasItem(ModItems.NETHERITE_BIT), conditionsFromItem(ModItems.NETHERITE_BIT))
                 .offerTo(exporter);
-        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHERITE_PRESSURE_PLATE, Ingredient.ofItems(Blocks.NETHERITE_BLOCK))
-                .criterion(hasItem(Blocks.NETHERITE_BLOCK), conditionsFromItem(Blocks.NETHERITE_BLOCK))
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHERITE_PRESSURE_PLATE, Ingredient.ofItems(ModItems.NETHERITE_BIT))
+                .criterion(hasItem(ModItems.NETHERITE_BIT), conditionsFromItem(ModItems.NETHERITE_BIT))
                 .offerTo(exporter);
-        ModRecipes.offer2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHERITE_BUTTON, Blocks.NETHERITE_BLOCK, 8)
-                .criterion(hasItem(Blocks.NETHERITE_BLOCK), conditionsFromItem(Blocks.NETHERITE_BLOCK))
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHERITE_BUTTON, ModItems.NETHERITE_BIT, 1)
+                .criterion(hasItem(ModItems.NETHERITE_BIT), conditionsFromItem(ModItems.NETHERITE_BIT))
                 .offerTo(exporter);
-        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHERITE_WALL, Ingredient.ofItems(Blocks.NETHERITE_BLOCK))
-                .criterion(hasItem(Blocks.NETHERITE_BLOCK), conditionsFromItem(Blocks.NETHERITE_BLOCK))
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHERITE_WALL, Ingredient.ofItems(ModItems.NETHERITE_BIT))
+                .criterion(hasItem(ModItems.NETHERITE_BIT), conditionsFromItem(ModItems.NETHERITE_BIT))
+                .offerTo(exporter);
+
+
+
+
+
+
+
+        
+        
+        //ingredients
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.COAL_BIT, Items.COAL, 2)
+                .criterion(hasItem(Items.COAL), conditionsFromItem(Items.COAL))
+                .offerTo(exporter);
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.IRON_BIT, Items.IRON_INGOT, 2)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter);
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.GOLD_BIT, Items.GOLD_INGOT, 2)
+                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+                .offerTo(exporter);
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.LAPIS_BIT, Items.LAPIS_LAZULI, 2)
+                .criterion(hasItem(Items.LAPIS_LAZULI), conditionsFromItem(Items.LAPIS_LAZULI))
+                .offerTo(exporter);
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.NETHERITE_BIT, Items.NETHERITE_INGOT, 2)
+                .criterion(hasItem(Items.NETHERITE_INGOT), conditionsFromItem(Items.NETHERITE_INGOT))
+                .offerTo(exporter);
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.REDSTONE_SHARD, Items.REDSTONE, 2)
+                .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                .offerTo(exporter);
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.EMERALD_FRAGMENT, Items.EMERALD, 2)
+                .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
+                .offerTo(exporter);
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.DIAMOND_SHARD, Items.DIAMOND, 2)
+                .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
                 .offerTo(exporter);
     }
 

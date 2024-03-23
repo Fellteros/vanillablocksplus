@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "vanillablocksplus:emerald_slab"
+      "item": "minecraft:emerald"
     },
     "W": {
-      "item": "minecraft:emerald_block"
+      "item": "vanillablocksplus:emerald_fragment"
     }
   },
   "pattern": [

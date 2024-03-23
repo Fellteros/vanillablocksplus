@@ -3,15 +3,13 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:emerald_block"
+      "item": "vanillablocksplus:emerald_fragment"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    " # "
   ],
   "result": {
-    "count": 8,
     "item": "vanillablocksplus:emerald_button"
   },
   "show_notification": true

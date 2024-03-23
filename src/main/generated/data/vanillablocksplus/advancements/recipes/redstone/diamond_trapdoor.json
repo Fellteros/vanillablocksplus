@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_diamond_block": {
+    "has_diamond_shard": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:diamond_block"
+              "vanillablocksplus:diamond_shard"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_diamond_trapdoor",
-      "has_diamond_block",
+      "has_diamond_shard",
       "has_the_recipe"
     ]
   ],

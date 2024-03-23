@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "vanillablocksplus:lapis_slab"
+      "item": "minecraft:lapis_lazuli"
     },
     "W": {
-      "item": "minecraft:lapis_block"
+      "item": "vanillablocksplus:lapis_bit"
     }
   },
   "pattern": [

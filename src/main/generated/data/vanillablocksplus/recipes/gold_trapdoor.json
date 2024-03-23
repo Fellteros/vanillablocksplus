@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "#": {
-      "item": "vanillablocksplus:gold_slab"
+      "item": "minecraft:gold_ingot"
     }
   },
   "pattern": [

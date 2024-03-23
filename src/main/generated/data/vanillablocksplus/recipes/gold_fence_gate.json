@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "vanillablocksplus:gold_slab"
+      "item": "minecraft:gold_ingot"
     },
     "W": {
-      "item": "minecraft:gold_block"
+      "item": "vanillablocksplus:gold_bit"
     }
   },
   "pattern": [

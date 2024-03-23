@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "#": {
-      "item": "vanillablocksplus:lapis_slab"
+      "item": "minecraft:lapis_lazuli"
     }
   },
   "pattern": [

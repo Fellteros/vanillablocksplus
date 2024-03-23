@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "#": {
-      "item": "minecraft:netherite_block"
+      "item": "vanillablocksplus:netherite_bit"
     }
   },
   "pattern": [

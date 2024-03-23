@@ -668,5 +668,18 @@
   
   
   
+  
+  
+
+  
+  "item.vanillablocksplus.coal_bit": "Coal Bit",
+  "item.vanillablocksplus.diamond_shard": "Diamond Shard",
+  "item.vanillablocksplus.gold_bit": "Gold Bit",
+  "item.vanillablocksplus.iron_bit": "Iron Bit",
+  "item.vanillablocksplus.lapis_bit": "Lapis Bit",
+  "item.vanillablocksplus.redstone_shard": "Redstone Shard",
+  "item.vanillablocksplus.emerald_fragment": "Emerald Fragment",
+  "item.vanillablocksplus.netherite_bit": "Netherite Bit",
+
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

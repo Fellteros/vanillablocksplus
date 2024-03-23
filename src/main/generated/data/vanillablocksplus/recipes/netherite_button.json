@@ -3,15 +3,13 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:netherite_block"
+      "item": "vanillablocksplus:netherite_bit"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    " # "
   ],
   "result": {
-    "count": 8,
     "item": "vanillablocksplus:netherite_button"
   },
   "show_notification": true

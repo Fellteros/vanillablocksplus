@@ -42,7 +42,7 @@ public class ModRecipes {
     }
 
 
-    public static CraftingRecipeJsonBuilder offer2x2ButtonRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input, int outputCount) {
+    public static CraftingRecipeJsonBuilder create2x2ButtonRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input, int outputCount) {
         return ShapedRecipeJsonBuilder.create(category, output, outputCount)
                 .input('#', input)
                 .pattern("##")
@@ -112,6 +112,14 @@ public class ModRecipes {
                 .input('#', input)
                 .pattern("###")
                 .pattern("###")
+                .criterion(hasItem(output), conditionsFromItem(output))
+                .showNotification(true);
+    }
+    public static CraftingRecipeJsonBuilder createIngredientRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input, int outputCount) {
+        return ShapedRecipeJsonBuilder.create(category, output, outputCount)
+                .input('#', input)
+                .pattern("##")
+                .pattern("##")
                 .criterion(hasItem(output), conditionsFromItem(output))
                 .showNotification(true);
     }

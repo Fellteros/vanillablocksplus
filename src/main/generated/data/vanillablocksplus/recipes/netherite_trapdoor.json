@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "#": {
-      "item": "vanillablocksplus:netherite_slab"
+      "item": "minecraft:netherite_ingot"
     }
   },
   "pattern": [

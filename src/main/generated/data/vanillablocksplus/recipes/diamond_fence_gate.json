@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "vanillablocksplus:diamond_slab"
+      "item": "minecraft:diamond"
     },
     "W": {
-      "item": "minecraft:diamond_block"
+      "item": "vanillablocksplus:diamond_shard"
     }
   },
   "pattern": [
