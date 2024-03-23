@@ -381,6 +381,24 @@
     "vanillablocksplus:lapis_fence_gate",
     "vanillablocksplus:lapis_fence",
     "vanillablocksplus:lapis_button",
-    "vanillablocksplus:lapis_pressure_plate"
+    "vanillablocksplus:lapis_pressure_plate",
+    "vanillablocksplus:diamond_stairs",
+    "vanillablocksplus:diamond_slab",
+    "vanillablocksplus:diamond_wall",
+    "vanillablocksplus:diamond_door",
+    "vanillablocksplus:diamond_trapdoor",
+    "vanillablocksplus:diamond_fence_gate",
+    "vanillablocksplus:diamond_fence",
+    "vanillablocksplus:diamond_button",
+    "vanillablocksplus:diamond_pressure_plate",
+    "vanillablocksplus:netherite_stairs",
+    "vanillablocksplus:netherite_slab",
+    "vanillablocksplus:netherite_wall",
+    "vanillablocksplus:netherite_door",
+    "vanillablocksplus:netherite_trapdoor",
+    "vanillablocksplus:netherite_fence_gate",
+    "vanillablocksplus:netherite_fence",
+    "vanillablocksplus:netherite_button",
+    "vanillablocksplus:netherite_pressure_plate"
   ]
 }

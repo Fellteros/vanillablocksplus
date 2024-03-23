@@ -166,6 +166,10 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.EMERALD_BLOCK);
         BlockStateModelGenerator.BlockTexturePool lapisPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LAPIS_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool diamondPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DIAMOND_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool netheritePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.NETHERITE_BLOCK);
 
 
 
@@ -666,6 +670,22 @@ public class ModModelProvider extends FabricModelProvider {
         lapisPool.fence(ModBlocks.LAPIS_FENCE);
         lapisPool.fenceGate(ModBlocks.LAPIS_FENCE_GATE);
         lapisPool.pressurePlate(ModBlocks.LAPIS_PRESSURE_PLATE);
+        //diamond
+        diamondPool.button(ModBlocks.DIAMOND_BUTTON);
+        diamondPool.wall(ModBlocks.DIAMOND_WALL);
+        diamondPool.slab(ModBlocks.DIAMOND_SLAB);
+        diamondPool.stairs(ModBlocks.DIAMOND_STAIRS);
+        diamondPool.fence(ModBlocks.DIAMOND_FENCE);
+        diamondPool.fenceGate(ModBlocks.DIAMOND_FENCE_GATE);
+        diamondPool.pressurePlate(ModBlocks.DIAMOND_PRESSURE_PLATE);
+        //netherite
+        netheritePool.button(ModBlocks.NETHERITE_BUTTON);
+        netheritePool.wall(ModBlocks.NETHERITE_WALL);
+        netheritePool.slab(ModBlocks.NETHERITE_SLAB);
+        netheritePool.stairs(ModBlocks.NETHERITE_STAIRS);
+        netheritePool.fence(ModBlocks.NETHERITE_FENCE);
+        netheritePool.fenceGate(ModBlocks.NETHERITE_FENCE_GATE);
+        netheritePool.pressurePlate(ModBlocks.NETHERITE_PRESSURE_PLATE);
 
 
 
@@ -897,6 +917,12 @@ public class ModModelProvider extends FabricModelProvider {
         //lapis
         blockStateModelGenerator.registerDoor(ModBlocks.LAPIS_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LAPIS_TRAPDOOR);
+        //diamond
+        blockStateModelGenerator.registerDoor(ModBlocks.DIAMOND_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DIAMOND_TRAPDOOR);
+        //netherite
+        blockStateModelGenerator.registerDoor(ModBlocks.NETHERITE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.NETHERITE_TRAPDOOR);
 
 
 

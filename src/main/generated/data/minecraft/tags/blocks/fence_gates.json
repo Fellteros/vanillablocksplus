@@ -75,6 +75,8 @@
     "vanillablocksplus:gold_fence_gate",
     "vanillablocksplus:redstone_fence_gate",
     "vanillablocksplus:emerald_fence_gate",
-    "vanillablocksplus:lapis_fence_gate"
+    "vanillablocksplus:lapis_fence_gate",
+    "vanillablocksplus:diamond_fence_gate",
+    "vanillablocksplus:netherite_fence_gate"
   ]
 }

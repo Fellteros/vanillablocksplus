@@ -33,6 +33,8 @@
     "vanillablocksplus:gold_wall",
     "vanillablocksplus:redstone_wall",
     "vanillablocksplus:emerald_wall",
-    "vanillablocksplus:lapis_wall"
+    "vanillablocksplus:lapis_wall",
+    "vanillablocksplus:diamond_wall",
+    "vanillablocksplus:netherite_wall"
   ]
 }

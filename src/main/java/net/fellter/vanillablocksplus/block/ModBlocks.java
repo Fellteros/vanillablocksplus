@@ -1981,6 +1981,67 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
                     .requiresTool().strength(3.0f, 3.0f)));
 
+    //diamond
+    public static final Block DIAMOND_STAIRS = registerBlock("diamond_stairs",
+            new StairsBlock(Blocks.DIAMOND_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .sounds(BlockSoundGroup.METAL).requiresTool().strength(5.0f, 6.0f)));
+    public static final Block DIAMOND_SLAB = registerBlock("diamond_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .sounds(BlockSoundGroup.METAL).requiresTool().strength(5.0f, 6.0f)));
+    public static final Block DIAMOND_BUTTON = registerBlock("diamond_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .sounds(BlockSoundGroup.METAL).requiresTool().strength(5.0f, 6.0f), BlockSetType.STONE, 10, false));
+    public static final Block DIAMOND_PRESSURE_PLATE = registerBlock("diamond_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                    .sounds(BlockSoundGroup.METAL).strength(5.0f, 6.0f), BlockSetType.STONE));
+    public static final Block DIAMOND_FENCE = registerBlock("diamond_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .sounds(BlockSoundGroup.METAL).requiresTool().strength(5.0f, 6.0f)));
+    public static final Block DIAMOND_FENCE_GATE = registerBlock("diamond_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .sounds(BlockSoundGroup.METAL).requiresTool().strength(5.0f, 6.0f), WoodType.OAK));
+    public static final Block DIAMOND_DOOR = registerBlock("diamond_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .sounds(BlockSoundGroup.METAL).requiresTool().strength(5.0f, 6.0f), BlockSetType.STONE));
+    public static final Block DIAMOND_TRAPDOOR = registerBlock("diamond_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .sounds(BlockSoundGroup.METAL).requiresTool().strength(5.0f, 6.0f), BlockSetType.STONE));
+    public static final Block DIAMOND_WALL = registerBlock("diamond_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .sounds(BlockSoundGroup.METAL).requiresTool().strength(5.0f, 6.0f)));
+
+    //netherite
+    public static final Block NETHERITE_STAIRS = registerBlock("netherite_stairs",
+            new StairsBlock(Blocks.NETHERITE_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .sounds(BlockSoundGroup.NETHERITE).requiresTool().strength(50.0f, 1200.0f)));
+    public static final Block NETHERITE_SLAB = registerBlock("netherite_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .sounds(BlockSoundGroup.NETHERITE).requiresTool().strength(50.0f, 1200.0f)));
+    public static final Block NETHERITE_BUTTON = registerBlock("netherite_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .sounds(BlockSoundGroup.NETHERITE).requiresTool().strength(50.0f, 1200.0f), BlockSetType.STONE, 10, false));
+    public static final Block NETHERITE_PRESSURE_PLATE = registerBlock("netherite_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                    .sounds(BlockSoundGroup.NETHERITE).strength(50.0f, 1200.0f), BlockSetType.STONE));
+    public static final Block NETHERITE_FENCE = registerBlock("netherite_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .sounds(BlockSoundGroup.NETHERITE).requiresTool().strength(50.0f, 1200.0f)));
+    public static final Block NETHERITE_FENCE_GATE = registerBlock("netherite_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .sounds(BlockSoundGroup.NETHERITE).requiresTool().strength(50.0f, 1200.0f), WoodType.OAK));
+    public static final Block NETHERITE_DOOR = registerBlock("netherite_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .sounds(BlockSoundGroup.NETHERITE).requiresTool().strength(50.0f, 1200.0f), BlockSetType.STONE));
+    public static final Block NETHERITE_TRAPDOOR = registerBlock("netherite_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .sounds(BlockSoundGroup.NETHERITE).requiresTool().strength(50.0f, 1200.0f), BlockSetType.STONE));
+    public static final Block NETHERITE_WALL = registerBlock("netherite_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .sounds(BlockSoundGroup.NETHERITE).requiresTool().strength(50.0f, 1200.0f)));
+
+
 
 
 

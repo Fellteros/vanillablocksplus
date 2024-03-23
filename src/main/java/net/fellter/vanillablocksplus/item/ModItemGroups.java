@@ -659,6 +659,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LAPIS_TRAPDOOR);
                         entries.add(ModBlocks.LAPIS_PRESSURE_PLATE);
                         entries.add(ModBlocks.LAPIS_BUTTON);
+                        //diamond
+                        entries.add(ModBlocks.DIAMOND_STAIRS);
+                        entries.add(ModBlocks.DIAMOND_SLAB);
+                        entries.add(ModBlocks.DIAMOND_WALL);
+                        entries.add(ModBlocks.DIAMOND_FENCE);
+                        entries.add(ModBlocks.DIAMOND_FENCE_GATE);
+                        entries.add(ModBlocks.DIAMOND_DOOR);
+                        entries.add(ModBlocks.DIAMOND_TRAPDOOR);
+                        entries.add(ModBlocks.DIAMOND_PRESSURE_PLATE);
+                        entries.add(ModBlocks.DIAMOND_BUTTON);
+                        //netherite
+                        entries.add(ModBlocks.NETHERITE_STAIRS);
+                        entries.add(ModBlocks.NETHERITE_SLAB);
+                        entries.add(ModBlocks.NETHERITE_WALL);
+                        entries.add(ModBlocks.NETHERITE_FENCE);
+                        entries.add(ModBlocks.NETHERITE_FENCE_GATE);
+                        entries.add(ModBlocks.NETHERITE_DOOR);
+                        entries.add(ModBlocks.NETHERITE_TRAPDOOR);
+                        entries.add(ModBlocks.NETHERITE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.NETHERITE_BUTTON);
 
                     }).build());
 

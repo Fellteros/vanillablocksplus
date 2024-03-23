@@ -76,6 +76,8 @@
     "vanillablocksplus:gold_fence",
     "vanillablocksplus:redstone_fence",
     "vanillablocksplus:emerald_fence",
-    "vanillablocksplus:lapis_wall"
+    "vanillablocksplus:lapis_wall",
+    "vanillablocksplus:diamond_fence",
+    "vanillablocksplus:netherite_fence"
   ]
 }
