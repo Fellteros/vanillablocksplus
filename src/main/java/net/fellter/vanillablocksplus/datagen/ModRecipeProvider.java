@@ -2010,6 +2010,29 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.QUARTZ_BRICKS), conditionsFromItem(Blocks.QUARTZ_BRICKS))
                 .offerTo(exporter);
 
+        //smooth_quartz
+        ModRecipes.createDoorRecipe(ModBlocks.SMOOTH_QUARTZ_DOOR, Ingredient.ofItems(Blocks.SMOOTH_QUARTZ))
+                .criterion(hasItem(Blocks.SMOOTH_QUARTZ), conditionsFromItem(Blocks.SMOOTH_QUARTZ))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.SMOOTH_QUARTZ_FENCE, Ingredient.ofItems(Blocks.SMOOTH_QUARTZ), Ingredient.ofItems(Blocks.SMOOTH_QUARTZ_SLAB), 3)
+                .criterion(hasItem(Blocks.SMOOTH_QUARTZ), conditionsFromItem(Blocks.SMOOTH_QUARTZ))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.SMOOTH_QUARTZ_FENCE_GATE, Ingredient.ofItems(Blocks.SMOOTH_QUARTZ), Ingredient.ofItems(Blocks.SMOOTH_QUARTZ_SLAB), 1)
+                .criterion(hasItem(Blocks.SMOOTH_QUARTZ), conditionsFromItem(Blocks.SMOOTH_QUARTZ))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.SMOOTH_QUARTZ_TRAPDOOR, Ingredient.ofItems(Blocks.SMOOTH_QUARTZ_SLAB))
+                .criterion(hasItem(Blocks.SMOOTH_QUARTZ), conditionsFromItem(Blocks.SMOOTH_QUARTZ))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_QUARTZ_PRESSURE_PLATE, Ingredient.ofItems(Blocks.SMOOTH_QUARTZ))
+                .criterion(hasItem(Blocks.SMOOTH_QUARTZ), conditionsFromItem(Blocks.SMOOTH_QUARTZ))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_QUARTZ_BUTTON, Blocks.SMOOTH_QUARTZ, 1)
+                .criterion(hasItem(Blocks.SMOOTH_QUARTZ), conditionsFromItem(Blocks.SMOOTH_QUARTZ))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_QUARTZ_WALL, Ingredient.ofItems(Blocks.SMOOTH_QUARTZ))
+                .criterion(hasItem(Blocks.SMOOTH_QUARTZ), conditionsFromItem(Blocks.SMOOTH_QUARTZ))
+                .offerTo(exporter);
+
 
 
 
