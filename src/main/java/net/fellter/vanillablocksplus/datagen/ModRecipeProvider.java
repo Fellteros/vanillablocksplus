@@ -2033,6 +2033,34 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.SMOOTH_QUARTZ), conditionsFromItem(Blocks.SMOOTH_QUARTZ))
                 .offerTo(exporter);
 
+        //quartz brick
+        ModRecipes.createDoorRecipe(ModBlocks.AMETHYST_DOOR, Ingredient.ofItems(Blocks.AMETHYST_BLOCK))
+                .criterion(hasItem(Blocks.AMETHYST_BLOCK), conditionsFromItem(Blocks.AMETHYST_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.AMETHYST_SLAB, Ingredient.ofItems(Blocks.AMETHYST_BLOCK))
+                .criterion(hasItem(Blocks.AMETHYST_BLOCK), conditionsFromItem(Blocks.AMETHYST_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.AMETHYST_STAIRS, Ingredient.ofItems(Blocks.AMETHYST_BLOCK))
+                .criterion(hasItem(Blocks.AMETHYST_BLOCK), conditionsFromItem(Blocks.AMETHYST_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.AMETHYST_FENCE, Ingredient.ofItems(Blocks.AMETHYST_BLOCK), Ingredient.ofItems(ModBlocks.AMETHYST_SLAB), 3)
+                .criterion(hasItem(Blocks.AMETHYST_BLOCK), conditionsFromItem(Blocks.AMETHYST_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.AMETHYST_FENCE_GATE, Ingredient.ofItems(Blocks.AMETHYST_BLOCK), Ingredient.ofItems(ModBlocks.AMETHYST_SLAB), 1)
+                .criterion(hasItem(Blocks.AMETHYST_BLOCK), conditionsFromItem(Blocks.AMETHYST_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.AMETHYST_TRAPDOOR, Ingredient.ofItems(ModBlocks.AMETHYST_SLAB))
+                .criterion(hasItem(Blocks.AMETHYST_BLOCK), conditionsFromItem(Blocks.AMETHYST_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.AMETHYST_PRESSURE_PLATE, Ingredient.ofItems(Blocks.AMETHYST_BLOCK))
+                .criterion(hasItem(Blocks.AMETHYST_BLOCK), conditionsFromItem(Blocks.AMETHYST_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.AMETHYST_BUTTON, Blocks.AMETHYST_BLOCK, 1)
+                .criterion(hasItem(Blocks.AMETHYST_BLOCK), conditionsFromItem(Blocks.AMETHYST_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.AMETHYST_WALL, Ingredient.ofItems(Blocks.AMETHYST_BLOCK))
+                .criterion(hasItem(Blocks.AMETHYST_BLOCK), conditionsFromItem(Blocks.AMETHYST_BLOCK))
+                .offerTo(exporter);
 
 
 
@@ -2042,28 +2070,28 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         
         
         //ingredients
-        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.COAL_BIT, Items.COAL, 2)
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.COAL_BIT, Items.COAL, 8)
                 .criterion(hasItem(Items.COAL), conditionsFromItem(Items.COAL))
                 .offerTo(exporter);
-        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.IRON_BIT, Items.IRON_INGOT, 2)
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.IRON_BIT, Items.IRON_INGOT, 8)
                 .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter);
-        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.GOLD_BIT, Items.GOLD_INGOT, 2)
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.GOLD_BIT, Items.GOLD_INGOT, 8)
                 .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .offerTo(exporter);
-        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.LAPIS_BIT, Items.LAPIS_LAZULI, 2)
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.LAPIS_BIT, Items.LAPIS_LAZULI, 8)
                 .criterion(hasItem(Items.LAPIS_LAZULI), conditionsFromItem(Items.LAPIS_LAZULI))
                 .offerTo(exporter);
-        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.NETHERITE_BIT, Items.NETHERITE_INGOT, 2)
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.NETHERITE_BIT, Items.NETHERITE_INGOT, 8)
                 .criterion(hasItem(Items.NETHERITE_INGOT), conditionsFromItem(Items.NETHERITE_INGOT))
                 .offerTo(exporter);
-        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.REDSTONE_SHARD, Items.REDSTONE, 2)
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.REDSTONE_SHARD, Items.REDSTONE, 8)
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .offerTo(exporter);
-        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.EMERALD_FRAGMENT, Items.EMERALD, 2)
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.EMERALD_FRAGMENT, Items.EMERALD, 8)
                 .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
                 .offerTo(exporter);
-        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.DIAMOND_SHARD, Items.DIAMOND, 2)
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.DIAMOND_SHARD, Items.DIAMOND, 8)
                 .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
                 .offerTo(exporter);
     }

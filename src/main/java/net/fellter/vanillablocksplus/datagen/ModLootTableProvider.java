@@ -735,6 +735,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMOOTH_QUARTZ_DOOR, doorDrops(ModBlocks.SMOOTH_QUARTZ_DOOR));
         addDrop(ModBlocks.SMOOTH_QUARTZ_WALL);
 
+        //amethyst
+        addDrop(ModBlocks.AMETHYST_STAIRS);
+        addDrop(ModBlocks.AMETHYST_TRAPDOOR);
+        addDrop(ModBlocks.AMETHYST_BUTTON);
+        addDrop(ModBlocks.AMETHYST_PRESSURE_PLATE);
+        addDrop(ModBlocks.AMETHYST_FENCE);
+        addDrop(ModBlocks.AMETHYST_FENCE_GATE);
+        addDrop(ModBlocks.AMETHYST_DOOR, doorDrops(ModBlocks.AMETHYST_DOOR));
+        addDrop(ModBlocks.AMETHYST_SLAB, slabDrops(ModBlocks.AMETHYST_SLAB));
+        addDrop(ModBlocks.AMETHYST_WALL);
+
 
     }
     public LootTable.Builder moreOreDrops(Block drop, Item item) {

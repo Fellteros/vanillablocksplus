@@ -689,7 +689,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.QUARTZ_TRAPDOOR);
                         entries.add(ModBlocks.QUARTZ_PRESSURE_PLATE);
                         entries.add(ModBlocks.QUARTZ_BUTTON);
-                        //netherite
+                        //quartz brick
                         entries.add(ModBlocks.QUARTZ_BRICK_STAIRS);
                         entries.add(ModBlocks.QUARTZ_BRICK_SLAB);
                         entries.add(ModBlocks.QUARTZ_BRICK_WALL);
@@ -707,6 +707,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SMOOTH_QUARTZ_TRAPDOOR);
                         entries.add(ModBlocks.SMOOTH_QUARTZ_PRESSURE_PLATE);
                         entries.add(ModBlocks.SMOOTH_QUARTZ_BUTTON);
+                        //amethyst
+                        entries.add(ModBlocks.AMETHYST_STAIRS);
+                        entries.add(ModBlocks.AMETHYST_SLAB);
+                        entries.add(ModBlocks.AMETHYST_WALL);
+                        entries.add(ModBlocks.AMETHYST_FENCE);
+                        entries.add(ModBlocks.AMETHYST_FENCE_GATE);
+                        entries.add(ModBlocks.AMETHYST_DOOR);
+                        entries.add(ModBlocks.AMETHYST_TRAPDOOR);
+                        entries.add(ModBlocks.AMETHYST_PRESSURE_PLATE);
+                        entries.add(ModBlocks.AMETHYST_BUTTON);
 
 
 

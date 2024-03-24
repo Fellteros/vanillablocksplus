@@ -422,6 +422,15 @@
     "vanillablocksplus:smooth_quartz_fence_gate",
     "vanillablocksplus:smooth_quartz_fence",
     "vanillablocksplus:smooth_quartz_button",
-    "vanillablocksplus:smooth_quartz_pressure_plate"
+    "vanillablocksplus:smooth_quartz_pressure_plate",
+    "vanillablocksplus:amethyst_stairs",
+    "vanillablocksplus:amethyst_slab",
+    "vanillablocksplus:amethyst_wall",
+    "vanillablocksplus:amethyst_door",
+    "vanillablocksplus:amethyst_trapdoor",
+    "vanillablocksplus:amethyst_fence_gate",
+    "vanillablocksplus:amethyst_fence",
+    "vanillablocksplus:amethyst_button",
+    "vanillablocksplus:amethyst_pressure_plate"
   ]
 }

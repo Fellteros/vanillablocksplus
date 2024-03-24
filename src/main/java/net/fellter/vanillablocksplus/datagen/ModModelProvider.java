@@ -176,6 +176,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.QUARTZ_BRICKS);
         BlockStateModelGenerator.BlockTexturePool smoothQuartzPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_QUARTZ);
+        BlockStateModelGenerator.BlockTexturePool amethystPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.AMETHYST_BLOCK);
 
 
 
@@ -712,6 +714,14 @@ public class ModModelProvider extends FabricModelProvider {
         smoothQuartzPool.fence(ModBlocks.SMOOTH_QUARTZ_FENCE);
         smoothQuartzPool.fenceGate(ModBlocks.SMOOTH_QUARTZ_FENCE_GATE);
         smoothQuartzPool.pressurePlate(ModBlocks.SMOOTH_QUARTZ_PRESSURE_PLATE);
+        //amethyst
+        amethystPool.button(ModBlocks.AMETHYST_BUTTON);
+        amethystPool.wall(ModBlocks.AMETHYST_WALL);
+        amethystPool.slab(ModBlocks.AMETHYST_SLAB);
+        amethystPool.stairs(ModBlocks.AMETHYST_STAIRS);
+        amethystPool.fence(ModBlocks.AMETHYST_FENCE);
+        amethystPool.fenceGate(ModBlocks.AMETHYST_FENCE_GATE);
+        amethystPool.pressurePlate(ModBlocks.AMETHYST_PRESSURE_PLATE);
 
 
 
@@ -958,6 +968,9 @@ public class ModModelProvider extends FabricModelProvider {
         //smooth quartz
         blockStateModelGenerator.registerDoor(ModBlocks.SMOOTH_QUARTZ_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SMOOTH_QUARTZ_TRAPDOOR);
+        //smooth quartz
+        blockStateModelGenerator.registerDoor(ModBlocks.AMETHYST_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.AMETHYST_TRAPDOOR);
 
 
 

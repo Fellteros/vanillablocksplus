@@ -3,7 +3,7 @@ package net.fellter.vanillablocksplus.registry;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 
-public class FlammableModBlocksRegistry{
+public class FlammableBlocksRegistry {
         public static void registerFlammables() {
             //oak
             FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.OAK_WOOD_STAIRS, 5, 20);

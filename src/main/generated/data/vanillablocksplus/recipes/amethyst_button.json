@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:amethyst_block"
+    }
+  },
+  "pattern": [
+    " # "
+  ],
+  "result": {
+    "item": "vanillablocksplus:amethyst_button"
+  },
+  "show_notification": true
+}

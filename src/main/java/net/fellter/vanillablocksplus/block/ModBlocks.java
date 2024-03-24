@@ -2121,6 +2121,36 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0f, 6.0f)));
 
+    //amethyst
+    public static final Block AMETHYST_STAIRS = registerBlock("amethyst_stairs",
+            new StairsBlock(Blocks.AMETHYST_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
+    public static final Block AMETHYST_SLAB = registerBlock("amethyst_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
+    public static final Block AMETHYST_BUTTON = registerBlock("amethyst_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool(), BlockSetType.STONE, 10, false));
+    public static final Block AMETHYST_PRESSURE_PLATE = registerBlock("amethyst_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool(), BlockSetType.STONE));
+    public static final Block AMETHYST_FENCE = registerBlock("amethyst_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
+    public static final Block AMETHYST_FENCE_GATE = registerBlock("amethyst_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool(), WoodType.OAK));
+    public static final Block AMETHYST_DOOR = registerBlock("amethyst_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool(), BlockSetType.STONE));
+    public static final Block AMETHYST_TRAPDOOR = registerBlock("amethyst_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool(), BlockSetType.STONE));
+    public static final Block AMETHYST_WALL = registerBlock("amethyst_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
+
 
 
 

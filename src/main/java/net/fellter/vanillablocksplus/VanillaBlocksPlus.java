@@ -5,7 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.item.ModItemGroups;
 import net.fellter.vanillablocksplus.item.ModItems;
-import net.fellter.vanillablocksplus.registry.FlammableModBlocksRegistry;
+import net.fellter.vanillablocksplus.registry.FlammableBlocksRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,7 +20,7 @@ public class VanillaBlocksPlus implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 
-		FlammableModBlocksRegistry.registerFlammables();
+		FlammableBlocksRegistry.registerFlammables();
 
 
 	}
