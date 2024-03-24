@@ -699,6 +699,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.QUARTZ_BRICK_TRAPDOOR);
                         entries.add(ModBlocks.QUARTZ_BRICK_PRESSURE_PLATE);
                         entries.add(ModBlocks.QUARTZ_BRICK_BUTTON);
+                        //smooth quartz
+                        entries.add(ModBlocks.SMOOTH_QUARTZ_WALL);
+                        entries.add(ModBlocks.SMOOTH_QUARTZ_FENCE);
+                        entries.add(ModBlocks.SMOOTH_QUARTZ_FENCE_GATE);
+                        entries.add(ModBlocks.SMOOTH_QUARTZ_DOOR);
+                        entries.add(ModBlocks.SMOOTH_QUARTZ_TRAPDOOR);
+                        entries.add(ModBlocks.SMOOTH_QUARTZ_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SMOOTH_QUARTZ_BUTTON);
 
 
 

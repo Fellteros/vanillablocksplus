@@ -415,6 +415,13 @@
     "vanillablocksplus:quartz_brick_fence_gate",
     "vanillablocksplus:quartz_brick_fence",
     "vanillablocksplus:quartz_brick_button",
-    "vanillablocksplus:quartz_brick_pressure_plate"
+    "vanillablocksplus:quartz_brick_pressure_plate",
+    "vanillablocksplus:smooth_quartz_wall",
+    "vanillablocksplus:smooth_quartz_door",
+    "vanillablocksplus:smooth_quartz_trapdoor",
+    "vanillablocksplus:smooth_quartz_fence_gate",
+    "vanillablocksplus:smooth_quartz_fence",
+    "vanillablocksplus:smooth_quartz_button",
+    "vanillablocksplus:smooth_quartz_pressure_plate"
   ]
 }
