@@ -1,6 +1,7 @@
 package net.fellter.vanillablocksplus.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
@@ -680,6 +681,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.NETHERITE_TRAPDOOR);
                         entries.add(ModBlocks.NETHERITE_PRESSURE_PLATE);
                         entries.add(ModBlocks.NETHERITE_BUTTON);
+                        //quartz
+                        entries.add(ModBlocks.QUARTZ_WALL);
+                        entries.add(ModBlocks.QUARTZ_FENCE);
+                        entries.add(ModBlocks.QUARTZ_FENCE_GATE);
+                        entries.add(ModBlocks.QUARTZ_DOOR);
+                        entries.add(ModBlocks.QUARTZ_TRAPDOOR);
+                        entries.add(ModBlocks.QUARTZ_PRESSURE_PLATE);
+                        entries.add(ModBlocks.QUARTZ_BUTTON);
+                        //netherite
+                        entries.add(ModBlocks.QUARTZ_BRICK_STAIRS);
+                        entries.add(ModBlocks.QUARTZ_BRICK_SLAB);
+                        entries.add(ModBlocks.QUARTZ_BRICK_WALL);
+                        entries.add(ModBlocks.QUARTZ_BRICK_FENCE);
+                        entries.add(ModBlocks.QUARTZ_BRICK_FENCE_GATE);
+                        entries.add(ModBlocks.QUARTZ_BRICK_DOOR);
+                        entries.add(ModBlocks.QUARTZ_BRICK_TRAPDOOR);
+                        entries.add(ModBlocks.QUARTZ_BRICK_PRESSURE_PLATE);
+                        entries.add(ModBlocks.QUARTZ_BRICK_BUTTON);
 
 
 
@@ -695,6 +714,13 @@ public class ModItemGroups {
 
 
 
+
+
+                    }).build());
+
+
+
+    public static void addItemsToIngredientsTab(FabricItemGroupEntries entries) {
                         //ingredients
                         entries.add(ModItems.COAL_BIT);
                         entries.add(ModItems.IRON_BIT);
@@ -704,8 +730,7 @@ public class ModItemGroups {
                         entries.add(ModItems.LAPIS_BIT);
                         entries.add(ModItems.DIAMOND_SHARD);
                         entries.add(ModItems.NETHERITE_BIT);
-
-                    }).build());
+    }
 
     public static void registerItemGroups() {
         VanillaBlocksPlus.LOGGER.info("Registering Mod Item Groups for " + VanillaBlocksPlus.MOD_ID);

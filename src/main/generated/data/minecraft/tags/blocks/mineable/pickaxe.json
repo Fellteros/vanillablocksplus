@@ -399,6 +399,22 @@
     "vanillablocksplus:netherite_fence_gate",
     "vanillablocksplus:netherite_fence",
     "vanillablocksplus:netherite_button",
-    "vanillablocksplus:netherite_pressure_plate"
+    "vanillablocksplus:netherite_pressure_plate",
+    "vanillablocksplus:quartz_wall",
+    "vanillablocksplus:quartz_door",
+    "vanillablocksplus:quartz_trapdoor",
+    "vanillablocksplus:quartz_fence_gate",
+    "vanillablocksplus:quartz_fence",
+    "vanillablocksplus:quartz_button",
+    "vanillablocksplus:quartz_pressure_plate",
+    "vanillablocksplus:quartz_brick_stairs",
+    "vanillablocksplus:quartz_brick_slab",
+    "vanillablocksplus:quartz_brick_wall",
+    "vanillablocksplus:quartz_brick_door",
+    "vanillablocksplus:quartz_brick_trapdoor",
+    "vanillablocksplus:quartz_brick_fence_gate",
+    "vanillablocksplus:quartz_brick_fence",
+    "vanillablocksplus:quartz_brick_button",
+    "vanillablocksplus:quartz_brick_pressure_plate"
   ]
 }

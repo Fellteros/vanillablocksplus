@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "vanillablocksplus:block/quartz_block_mod"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fence_gate",
+  "textures": {
+    "texture": "vanillablocksplus:block/quartz_block_mod"
+  }
+}

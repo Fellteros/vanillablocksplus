@@ -35,6 +35,8 @@
     "vanillablocksplus:emerald_wall",
     "vanillablocksplus:lapis_wall",
     "vanillablocksplus:diamond_wall",
-    "vanillablocksplus:netherite_wall"
+    "vanillablocksplus:netherite_wall",
+    "vanillablocksplus:quartz_wall",
+    "vanillablocksplus:quartz_brick_wall"
   ]
 }

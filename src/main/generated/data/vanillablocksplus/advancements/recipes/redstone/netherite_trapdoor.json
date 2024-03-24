@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_netherite_bit": {
+    "has_netherite_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "vanillablocksplus:netherite_bit"
+              "minecraft:netherite_ingot"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_netherite_trapdoor",
-      "has_netherite_bit",
+      "has_netherite_ingot",
       "has_the_recipe"
     ]
   ],

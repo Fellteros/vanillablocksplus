@@ -170,6 +170,10 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DIAMOND_BLOCK);
         BlockStateModelGenerator.BlockTexturePool netheritePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.NETHERITE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool quartzPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.QUARTZ_BLOCK_MOD);
+        BlockStateModelGenerator.BlockTexturePool quartzBrickPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.QUARTZ_BRICKS);
 
 
 
@@ -686,6 +690,20 @@ public class ModModelProvider extends FabricModelProvider {
         netheritePool.fence(ModBlocks.NETHERITE_FENCE);
         netheritePool.fenceGate(ModBlocks.NETHERITE_FENCE_GATE);
         netheritePool.pressurePlate(ModBlocks.NETHERITE_PRESSURE_PLATE);
+        //quartz
+        quartzPool.button(ModBlocks.QUARTZ_BUTTON);
+        quartzPool.wall(ModBlocks.QUARTZ_WALL);
+        quartzPool.fence(ModBlocks.QUARTZ_FENCE);
+        quartzPool.fenceGate(ModBlocks.QUARTZ_FENCE_GATE);
+        quartzPool.pressurePlate(ModBlocks.QUARTZ_PRESSURE_PLATE);
+        //quartz_brick
+        quartzBrickPool.button(ModBlocks.QUARTZ_BRICK_BUTTON);
+        quartzBrickPool.wall(ModBlocks.QUARTZ_BRICK_WALL);
+        quartzBrickPool.slab(ModBlocks.QUARTZ_BRICK_SLAB);
+        quartzBrickPool.stairs(ModBlocks.QUARTZ_BRICK_STAIRS);
+        quartzBrickPool.fence(ModBlocks.QUARTZ_BRICK_FENCE);
+        quartzBrickPool.fenceGate(ModBlocks.QUARTZ_BRICK_FENCE_GATE);
+        quartzBrickPool.pressurePlate(ModBlocks.QUARTZ_BRICK_PRESSURE_PLATE);
 
 
 
@@ -923,6 +941,12 @@ public class ModModelProvider extends FabricModelProvider {
         //netherite
         blockStateModelGenerator.registerDoor(ModBlocks.NETHERITE_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.NETHERITE_TRAPDOOR);
+        //quartz
+        blockStateModelGenerator.registerDoor(ModBlocks.QUARTZ_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.QUARTZ_TRAPDOOR);
+        //quartz brick
+        blockStateModelGenerator.registerDoor(ModBlocks.QUARTZ_BRICK_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.QUARTZ_BRICK_TRAPDOOR);
 
 
 
@@ -938,6 +962,16 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.VBP_TITLE, Models.GENERATED);
+
+        //ingredients
+        itemModelGenerator.register(ModItems.COAL_BIT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.IRON_BIT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GOLD_BIT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.REDSTONE_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMERALD_FRAGMENT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LAPIS_BIT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DIAMOND_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.NETHERITE_BIT, Models.GENERATED);
 
     }
 }

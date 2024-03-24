@@ -1946,7 +1946,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.NETHERITE_BIT), conditionsFromItem(ModItems.NETHERITE_BIT))
                 .offerTo(exporter);
         ModRecipes.createTrapdoorRecipe(ModBlocks.NETHERITE_TRAPDOOR, Ingredient.ofItems(Items.NETHERITE_INGOT))
-                .criterion(hasItem(ModItems.NETHERITE_BIT), conditionsFromItem(ModItems.NETHERITE_BIT))
+                .criterion(hasItem(Items.NETHERITE_INGOT), conditionsFromItem(Items.NETHERITE_INGOT))
                 .offerTo(exporter);
         ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHERITE_PRESSURE_PLATE, Ingredient.ofItems(ModItems.NETHERITE_BIT))
                 .criterion(hasItem(ModItems.NETHERITE_BIT), conditionsFromItem(ModItems.NETHERITE_BIT))
@@ -1956,6 +1956,58 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHERITE_WALL, Ingredient.ofItems(ModItems.NETHERITE_BIT))
                 .criterion(hasItem(ModItems.NETHERITE_BIT), conditionsFromItem(ModItems.NETHERITE_BIT))
+                .offerTo(exporter);
+
+        //quartz
+        ModRecipes.createDoorRecipe(ModBlocks.QUARTZ_DOOR, Ingredient.ofItems(Blocks.QUARTZ_BLOCK))
+                .criterion(hasItem(Blocks.QUARTZ_BLOCK), conditionsFromItem(Blocks.QUARTZ_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.QUARTZ_FENCE, Ingredient.ofItems(Blocks.QUARTZ_BLOCK), Ingredient.ofItems(Blocks.QUARTZ_SLAB), 3)
+                .criterion(hasItem(Blocks.QUARTZ_BLOCK), conditionsFromItem(Blocks.QUARTZ_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.QUARTZ_FENCE_GATE, Ingredient.ofItems(Blocks.QUARTZ_BLOCK), Ingredient.ofItems(Blocks.QUARTZ_SLAB), 1)
+                .criterion(hasItem(Blocks.QUARTZ_BLOCK), conditionsFromItem(Blocks.QUARTZ_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.QUARTZ_TRAPDOOR, Ingredient.ofItems(Blocks.QUARTZ_SLAB))
+                .criterion(hasItem(Blocks.QUARTZ_BLOCK), conditionsFromItem(Blocks.QUARTZ_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.QUARTZ_PRESSURE_PLATE, Ingredient.ofItems(Blocks.QUARTZ_BLOCK))
+                .criterion(hasItem(Blocks.QUARTZ_BLOCK), conditionsFromItem(Blocks.QUARTZ_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.QUARTZ_BUTTON, Blocks.QUARTZ_BLOCK, 1)
+                .criterion(hasItem(Blocks.QUARTZ_BLOCK), conditionsFromItem(Blocks.QUARTZ_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.QUARTZ_WALL, Ingredient.ofItems(Blocks.QUARTZ_BLOCK))
+                .criterion(hasItem(Blocks.QUARTZ_BLOCK), conditionsFromItem(Blocks.QUARTZ_BLOCK))
+                .offerTo(exporter);
+
+        //quartz brick
+        ModRecipes.createDoorRecipe(ModBlocks.QUARTZ_BRICK_DOOR, Ingredient.ofItems(Blocks.QUARTZ_BRICKS))
+                .criterion(hasItem(Blocks.QUARTZ_BRICKS), conditionsFromItem(Blocks.QUARTZ_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.QUARTZ_BRICK_SLAB, Ingredient.ofItems(Blocks.QUARTZ_BRICKS))
+                .criterion(hasItem(Blocks.QUARTZ_BRICKS), conditionsFromItem(Blocks.QUARTZ_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.QUARTZ_BRICK_STAIRS, Ingredient.ofItems(Blocks.QUARTZ_BRICKS))
+                .criterion(hasItem(Blocks.QUARTZ_BRICKS), conditionsFromItem(Blocks.QUARTZ_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.QUARTZ_BRICK_FENCE, Ingredient.ofItems(Blocks.QUARTZ_BRICKS), Ingredient.ofItems(ModBlocks.QUARTZ_BRICK_SLAB), 3)
+                .criterion(hasItem(Blocks.QUARTZ_BRICKS), conditionsFromItem(Blocks.QUARTZ_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.QUARTZ_BRICK_FENCE_GATE, Ingredient.ofItems(Blocks.QUARTZ_BRICKS), Ingredient.ofItems(ModBlocks.QUARTZ_BRICK_SLAB), 1)
+                .criterion(hasItem(Blocks.QUARTZ_BRICKS), conditionsFromItem(Blocks.QUARTZ_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.QUARTZ_BRICK_TRAPDOOR, Ingredient.ofItems(ModBlocks.QUARTZ_BRICK_SLAB))
+                .criterion(hasItem(Blocks.QUARTZ_BRICKS), conditionsFromItem(Blocks.QUARTZ_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.QUARTZ_BRICK_PRESSURE_PLATE, Ingredient.ofItems(Blocks.QUARTZ_BRICKS))
+                .criterion(hasItem(Blocks.QUARTZ_BRICKS), conditionsFromItem(Blocks.QUARTZ_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.QUARTZ_BRICK_BUTTON, Blocks.QUARTZ_BRICKS, 1)
+                .criterion(hasItem(Blocks.QUARTZ_BRICKS), conditionsFromItem(Blocks.QUARTZ_BRICKS))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.QUARTZ_BRICK_WALL, Ingredient.ofItems(Blocks.QUARTZ_BRICKS))
+                .criterion(hasItem(Blocks.QUARTZ_BRICKS), conditionsFromItem(Blocks.QUARTZ_BRICKS))
                 .offerTo(exporter);
 
 

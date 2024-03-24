@@ -486,7 +486,25 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.NETHERITE_FENCE_GATE)
                 .add(ModBlocks.NETHERITE_FENCE)
                 .add(ModBlocks.NETHERITE_BUTTON)
-                .add(ModBlocks.NETHERITE_PRESSURE_PLATE);
+                .add(ModBlocks.NETHERITE_PRESSURE_PLATE)
+                //quartz
+                .add(ModBlocks.QUARTZ_WALL)
+                .add(ModBlocks.QUARTZ_DOOR)
+                .add(ModBlocks.QUARTZ_TRAPDOOR)
+                .add(ModBlocks.QUARTZ_FENCE_GATE)
+                .add(ModBlocks.QUARTZ_FENCE)
+                .add(ModBlocks.QUARTZ_BUTTON)
+                .add(ModBlocks.QUARTZ_PRESSURE_PLATE)
+                //quartz_brick
+                .add(ModBlocks.QUARTZ_BRICK_STAIRS)
+                .add(ModBlocks.QUARTZ_BRICK_SLAB)
+                .add(ModBlocks.QUARTZ_BRICK_WALL)
+                .add(ModBlocks.QUARTZ_BRICK_DOOR)
+                .add(ModBlocks.QUARTZ_BRICK_TRAPDOOR)
+                .add(ModBlocks.QUARTZ_BRICK_FENCE_GATE)
+                .add(ModBlocks.QUARTZ_BRICK_FENCE)
+                .add(ModBlocks.QUARTZ_BRICK_BUTTON)
+                .add(ModBlocks.QUARTZ_BRICK_PRESSURE_PLATE);
 
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
@@ -759,7 +777,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.EMERALD_FENCE)
                 .add(ModBlocks.LAPIS_WALL)
                 .add(ModBlocks.DIAMOND_FENCE)
-                .add(ModBlocks.NETHERITE_FENCE);
+                .add(ModBlocks.NETHERITE_FENCE)
+                .add(ModBlocks.QUARTZ_FENCE)
+                .add(ModBlocks.QUARTZ_BRICK_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -839,7 +859,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.EMERALD_FENCE)
                 .add(ModBlocks.LAPIS_FENCE)
                 .add(ModBlocks.DIAMOND_FENCE)
-                .add(ModBlocks.NETHERITE_FENCE);
+                .add(ModBlocks.NETHERITE_FENCE)
+                .add(ModBlocks.QUARTZ_FENCE)
+                .add(ModBlocks.QUARTZ_BRICK_FENCE);
 
 
 
@@ -920,7 +942,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.EMERALD_FENCE_GATE)
                 .add(ModBlocks.LAPIS_FENCE_GATE)
                 .add(ModBlocks.DIAMOND_FENCE_GATE)
-                .add(ModBlocks.NETHERITE_FENCE_GATE);
+                .add(ModBlocks.NETHERITE_FENCE_GATE)
+                .add(ModBlocks.QUARTZ_FENCE_GATE)
+                .add(ModBlocks.QUARTZ_BRICK_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -958,7 +982,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.EMERALD_WALL)
                 .add(ModBlocks.LAPIS_WALL)
                 .add(ModBlocks.DIAMOND_WALL)
-                .add(ModBlocks.NETHERITE_WALL);
+                .add(ModBlocks.NETHERITE_WALL)
+                .add(ModBlocks.QUARTZ_WALL)
+                .add(ModBlocks.QUARTZ_BRICK_WALL);
 
 
 
