@@ -39,6 +39,22 @@
     "vanillablocksplus:quartz_wall",
     "vanillablocksplus:quartz_brick_wall",
     "vanillablocksplus:smooth_quartz_wall",
-    "vanillablocksplus:amethyst_wall"
+    "vanillablocksplus:amethyst_wall",
+    "vanillablocksplus:copper_wall",
+    "vanillablocksplus:exposed_copper_wall",
+    "vanillablocksplus:weathered_copper_wall",
+    "vanillablocksplus:oxidized_copper_wall",
+    "vanillablocksplus:cut_copper_wall",
+    "vanillablocksplus:exposed_cut_copper_wall",
+    "vanillablocksplus:weathered_cut_copper_wall",
+    "vanillablocksplus:oxidized_cut_copper_wall",
+    "vanillablocksplus:waxed_copper_wall",
+    "vanillablocksplus:waxed_exposed_copper_wall",
+    "vanillablocksplus:waxed_weathered_copper_wall",
+    "vanillablocksplus:waxed_oxidized_copper_wall",
+    "vanillablocksplus:waxed_cut_copper_wall",
+    "vanillablocksplus:waxed_exposed_cut_copper_wall",
+    "vanillablocksplus:waxed_weathered_cut_copper_wall",
+    "vanillablocksplus:waxed_oxidized_cut_copper_wall"
   ]
 }

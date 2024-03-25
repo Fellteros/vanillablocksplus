@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:waxed_copper_slab"
+    },
+    "W": {
+      "item": "minecraft:waxed_copper_block"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "vanillablocksplus:waxed_copper_fence_gate"
+  },
+  "show_notification": true
+}

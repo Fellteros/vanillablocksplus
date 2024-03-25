@@ -4,6 +4,7 @@ package net.fellter.vanillablocksplus.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
+import net.fellter.vanillablocksplus.block_models.*;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
 import net.minecraft.item.BlockItem;
@@ -2150,6 +2151,453 @@ public class ModBlocks {
     public static final Block AMETHYST_WALL = registerBlock("amethyst_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
                     .strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
+
+
+    //copper
+    public static final Block COPPER_STAIRS = registerBlock("copper_stairs",
+            new OxidizableStairsBlock(Oxidizable.OxidationLevel.UNAFFECTED, Blocks.COPPER_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .requiresTool().strength(3.0f, 6.0f).sounds(BlockSoundGroup.COPPER)));
+    public static final Block COPPER_SLAB = registerBlock("copper_slab",
+            new OxidizableSlabBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .requiresTool().strength(3.0f, 6.0f).sounds(BlockSoundGroup.COPPER)));
+    public static final Block COPPER_BUTTON = registerBlock("copper_button",
+            new OxidizableButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE, 10, false));
+    public static final Block COPPER_PRESSURE_PLATE = registerBlock("copper_pressure_plate",
+            new OxidizablePressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block COPPER_FENCE = registerBlock("copper_fence",
+            new OxidizableFenceBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+    public static final Block COPPER_FENCE_GATE = registerBlock("copper_fence_gate",
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), WoodType.OAK));
+    public static final Block COPPER_DOOR = registerBlock("copper_door",
+            new OxidizableDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block COPPER_TRAPDOOR = registerBlock("copper_trapdoor",
+            new OxidizableTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block COPPER_WALL = registerBlock("copper_wall",
+            new OxidizableWallBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+
+
+    //cut copper
+    public static final Block CUT_COPPER_BUTTON = registerBlock("cut_copper_button",
+            new OxidizableButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE, 10, false));
+    public static final Block CUT_COPPER_PRESSURE_PLATE = registerBlock("cut_copper_pressure_plate",
+            new OxidizablePressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block CUT_COPPER_FENCE = registerBlock("cut_copper_fence",
+            new OxidizableFenceBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+    public static final Block CUT_COPPER_FENCE_GATE = registerBlock("cut_copper_fence_gate",
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), WoodType.OAK));
+    public static final Block CUT_COPPER_DOOR = registerBlock("cut_copper_door",
+            new OxidizableDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block CUT_COPPER_TRAPDOOR = registerBlock("cut_copper_trapdoor",
+            new OxidizableTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block CUT_COPPER_WALL = registerBlock("cut_copper_wall",
+            new OxidizableWallBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+
+
+    //exposed copper
+    public static final Block EXPOSED_COPPER_STAIRS = registerBlock("exposed_copper_stairs",
+            new OxidizableStairsBlock(Oxidizable.OxidationLevel.EXPOSED, Blocks.EXPOSED_COPPER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .requiresTool().strength(3.0f, 6.0f).sounds(BlockSoundGroup.COPPER)));
+    public static final Block EXPOSED_COPPER_SLAB = registerBlock("exposed_copper_slab",
+            new OxidizableSlabBlock(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .requiresTool().strength(3.0f, 6.0f).sounds(BlockSoundGroup.COPPER)));
+    public static final Block EXPOSED_COPPER_BUTTON = registerBlock("exposed_copper_button",
+            new OxidizableButtonBlock(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE, 10, false));
+    public static final Block EXPOSED_COPPER_PRESSURE_PLATE = registerBlock("exposed_copper_pressure_plate",
+            new OxidizablePressurePlateBlock(Oxidizable.OxidationLevel.EXPOSED, PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block EXPOSED_COPPER_FENCE = registerBlock("exposed_copper_fence",
+            new OxidizableFenceBlock(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+    public static final Block EXPOSED_COPPER_FENCE_GATE = registerBlock("exposed_copper_fence_gate",
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), WoodType.OAK));
+    public static final Block EXPOSED_COPPER_DOOR = registerBlock("exposed_copper_door",
+            new OxidizableDoorBlock(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block EXPOSED_COPPER_TRAPDOOR = registerBlock("exposed_copper_trapdoor",
+            new OxidizableTrapdoorBlock(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block EXPOSED_COPPER_WALL = registerBlock("exposed_copper_wall",
+            new OxidizableWallBlock(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+
+
+    //exposed cut copper
+    public static final Block EXPOSED_CUT_COPPER_BUTTON = registerBlock("exposed_cut_copper_button",
+            new OxidizableButtonBlock(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE, 10, false));
+    public static final Block EXPOSED_CUT_COPPER_PRESSURE_PLATE = registerBlock("exposed_cut_copper_pressure_plate",
+            new OxidizablePressurePlateBlock(Oxidizable.OxidationLevel.EXPOSED, PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block EXPOSED_CUT_COPPER_FENCE = registerBlock("exposed_cut_copper_fence",
+            new OxidizableFenceBlock(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+    public static final Block EXPOSED_CUT_COPPER_FENCE_GATE = registerBlock("exposed_cut_copper_fence_gate",
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), WoodType.OAK));
+    public static final Block EXPOSED_CUT_COPPER_DOOR = registerBlock("exposed_cut_copper_door",
+            new OxidizableDoorBlock(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block EXPOSED_CUT_COPPER_TRAPDOOR = registerBlock("exposed_cut_copper_trapdoor",
+            new OxidizableTrapdoorBlock(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block EXPOSED_CUT_COPPER_WALL = registerBlock("exposed_cut_copper_wall",
+            new OxidizableWallBlock(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+
+
+    //weathered copper
+    public static final Block WEATHERED_COPPER_STAIRS = registerBlock("weathered_copper_stairs",
+            new OxidizableStairsBlock(Oxidizable.OxidationLevel.WEATHERED, Blocks.WEATHERED_COPPER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .requiresTool().strength(3.0f, 6.0f).sounds(BlockSoundGroup.COPPER)));
+    public static final Block WEATHERED_COPPER_SLAB = registerBlock("weathered_copper_slab",
+            new OxidizableSlabBlock(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .requiresTool().strength(3.0f, 6.0f).sounds(BlockSoundGroup.COPPER)));
+    public static final Block WEATHERED_COPPER_BUTTON = registerBlock("weathered_copper_button",
+            new OxidizableButtonBlock(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE, 10, false));
+    public static final Block WEATHERED_COPPER_PRESSURE_PLATE = registerBlock("weathered_copper_pressure_plate",
+            new OxidizablePressurePlateBlock(Oxidizable.OxidationLevel.WEATHERED, PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WEATHERED_COPPER_FENCE = registerBlock("weathered_copper_fence",
+            new OxidizableFenceBlock(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+    public static final Block WEATHERED_COPPER_FENCE_GATE = registerBlock("weathered_copper_fence_gate",
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), WoodType.OAK));
+    public static final Block WEATHERED_COPPER_DOOR = registerBlock("weathered_copper_door",
+            new OxidizableDoorBlock(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WEATHERED_COPPER_TRAPDOOR = registerBlock("weathered_copper_trapdoor",
+            new OxidizableTrapdoorBlock(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WEATHERED_COPPER_WALL = registerBlock("weathered_copper_wall",
+            new OxidizableWallBlock(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+
+
+    //weathered cut copper
+    public static final Block WEATHERED_CUT_COPPER_BUTTON = registerBlock("weathered_cut_copper_button",
+            new OxidizableButtonBlock(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE, 10, false));
+    public static final Block WEATHERED_CUT_COPPER_PRESSURE_PLATE = registerBlock("weathered_cut_copper_pressure_plate",
+            new OxidizablePressurePlateBlock(Oxidizable.OxidationLevel.WEATHERED, PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WEATHERED_CUT_COPPER_FENCE = registerBlock("weathered_cut_copper_fence",
+            new OxidizableFenceBlock(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+    public static final Block WEATHERED_CUT_COPPER_FENCE_GATE = registerBlock("weathered_cut_copper_fence_gate",
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), WoodType.OAK));
+    public static final Block WEATHERED_CUT_COPPER_DOOR = registerBlock("weathered_cut_copper_door",
+            new OxidizableDoorBlock(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WEATHERED_CUT_COPPER_TRAPDOOR = registerBlock("weathered_cut_copper_trapdoor",
+            new OxidizableTrapdoorBlock(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WEATHERED_CUT_COPPER_WALL = registerBlock("weathered_cut_copper_wall",
+            new OxidizableWallBlock(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+
+
+    //oxidized copper
+    public static final Block OXIDIZED_COPPER_STAIRS = registerBlock("oxidized_copper_stairs",
+            new OxidizableStairsBlock(Oxidizable.OxidationLevel.OXIDIZED, Blocks.OXIDIZED_COPPER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .requiresTool().strength(3.0f, 6.0f).sounds(BlockSoundGroup.COPPER)));
+    public static final Block OXIDIZED_COPPER_SLAB = registerBlock("oxidized_copper_slab",
+            new OxidizableSlabBlock(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .requiresTool().strength(3.0f, 6.0f).sounds(BlockSoundGroup.COPPER)));
+    public static final Block OXIDIZED_COPPER_BUTTON = registerBlock("oxidized_copper_button",
+            new OxidizableButtonBlock(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE, 10, false));
+    public static final Block OXIDIZED_COPPER_PRESSURE_PLATE = registerBlock("oxidized_copper_pressure_plate",
+            new OxidizablePressurePlateBlock(Oxidizable.OxidationLevel.OXIDIZED, PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block OXIDIZED_COPPER_FENCE = registerBlock("oxidized_copper_fence",
+            new OxidizableFenceBlock(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+    public static final Block OXIDIZED_COPPER_FENCE_GATE = registerBlock("oxidized_copper_fence_gate",
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), WoodType.OAK));
+    public static final Block OXIDIZED_COPPER_DOOR = registerBlock("oxidized_copper_door",
+            new OxidizableDoorBlock(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block OXIDIZED_COPPER_TRAPDOOR = registerBlock("oxidized_copper_trapdoor",
+            new OxidizableTrapdoorBlock(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block OXIDIZED_COPPER_WALL = registerBlock("oxidized_copper_wall",
+            new OxidizableWallBlock(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+
+
+    //oxidized cut copper
+    public static final Block OXIDIZED_CUT_COPPER_BUTTON = registerBlock("oxidized_cut_copper_button",
+            new OxidizableButtonBlock(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE, 10, false));
+    public static final Block OXIDIZED_CUT_COPPER_PRESSURE_PLATE = registerBlock("oxidized_cut_copper_pressure_plate",
+            new OxidizablePressurePlateBlock(Oxidizable.OxidationLevel.OXIDIZED, PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block OXIDIZED_CUT_COPPER_FENCE = registerBlock("oxidized_cut_copper_fence",
+            new OxidizableFenceBlock(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+    public static final Block OXIDIZED_CUT_COPPER_FENCE_GATE = registerBlock("oxidized_cut_copper_fence_gate",
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), WoodType.OAK));
+    public static final Block OXIDIZED_CUT_COPPER_DOOR = registerBlock("oxidized_cut_copper_door",
+            new OxidizableDoorBlock(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block OXIDIZED_CUT_COPPER_TRAPDOOR = registerBlock("oxidized_cut_copper_trapdoor",
+            new OxidizableTrapdoorBlock(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block OXIDIZED_CUT_COPPER_WALL = registerBlock("oxidized_cut_copper_wall",
+            new OxidizableWallBlock(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+    
+    //waxed copper
+    public static final Block WAXED_COPPER_STAIRS = registerBlock("waxed_copper_stairs",
+            new StairsBlock(Blocks.WAXED_COPPER_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .requiresTool().strength(3.0f, 6.0f).sounds(BlockSoundGroup.COPPER)));
+    public static final Block WAXED_COPPER_SLAB = registerBlock("waxed_copper_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .requiresTool().strength(3.0f, 6.0f).sounds(BlockSoundGroup.COPPER)));
+    public static final Block WAXED_COPPER_BUTTON = registerBlock("waxed_copper_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE, 10, false));
+    public static final Block WAXED_COPPER_PRESSURE_PLATE = registerBlock("waxed_copper_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_COPPER_FENCE = registerBlock("waxed_copper_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+    public static final Block WAXED_COPPER_FENCE_GATE = registerBlock("waxed_copper_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), WoodType.OAK));
+    public static final Block WAXED_COPPER_DOOR = registerBlock("waxed_copper_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_COPPER_TRAPDOOR = registerBlock("waxed_copper_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_COPPER_WALL = registerBlock("waxed_copper_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+
+
+    //waxed_cut copper
+    public static final Block WAXED_CUT_COPPER_BUTTON = registerBlock("waxed_cut_copper_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE, 10, false));
+    public static final Block WAXED_CUT_COPPER_PRESSURE_PLATE = registerBlock("waxed_cut_copper_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_CUT_COPPER_FENCE = registerBlock("waxed_cut_copper_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+    public static final Block WAXED_CUT_COPPER_FENCE_GATE = registerBlock("waxed_cut_copper_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), WoodType.OAK));
+    public static final Block WAXED_CUT_COPPER_DOOR = registerBlock("waxed_cut_copper_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_CUT_COPPER_TRAPDOOR = registerBlock("waxed_cut_copper_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_CUT_COPPER_WALL = registerBlock("waxed_cut_copper_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+
+
+    //waxed_exposed copper
+    public static final Block WAXED_EXPOSED_COPPER_STAIRS = registerBlock("waxed_exposed_copper_stairs",
+            new StairsBlock(Blocks.WAXED_EXPOSED_COPPER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .requiresTool().strength(3.0f, 6.0f).sounds(BlockSoundGroup.COPPER)));
+    public static final Block WAXED_EXPOSED_COPPER_SLAB = registerBlock("waxed_exposed_copper_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .requiresTool().strength(3.0f, 6.0f).sounds(BlockSoundGroup.COPPER)));
+    public static final Block WAXED_EXPOSED_COPPER_BUTTON = registerBlock("waxed_exposed_copper_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE, 10, false));
+    public static final Block WAXED_EXPOSED_COPPER_PRESSURE_PLATE = registerBlock("waxed_exposed_copper_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_EXPOSED_COPPER_FENCE = registerBlock("waxed_exposed_copper_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+    public static final Block WAXED_EXPOSED_COPPER_FENCE_GATE = registerBlock("waxed_exposed_copper_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), WoodType.OAK));
+    public static final Block WAXED_EXPOSED_COPPER_DOOR = registerBlock("waxed_exposed_copper_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_EXPOSED_COPPER_TRAPDOOR = registerBlock("waxed_exposed_copper_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_EXPOSED_COPPER_WALL = registerBlock("waxed_exposed_copper_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+
+
+    //waxed_exposed cut copper
+    public static final Block WAXED_EXPOSED_CUT_COPPER_BUTTON = registerBlock("waxed_exposed_cut_copper_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE, 10, false));
+    public static final Block WAXED_EXPOSED_CUT_COPPER_PRESSURE_PLATE = registerBlock("waxed_exposed_cut_copper_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_EXPOSED_CUT_COPPER_FENCE = registerBlock("waxed_exposed_cut_copper_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+    public static final Block WAXED_EXPOSED_CUT_COPPER_FENCE_GATE = registerBlock("waxed_exposed_cut_copper_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), WoodType.OAK));
+    public static final Block WAXED_EXPOSED_CUT_COPPER_DOOR = registerBlock("waxed_exposed_cut_copper_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_EXPOSED_CUT_COPPER_TRAPDOOR = registerBlock("waxed_exposed_cut_copper_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_EXPOSED_CUT_COPPER_WALL = registerBlock("waxed_exposed_cut_copper_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+
+
+    //waxed_weathered copper
+    public static final Block WAXED_WEATHERED_COPPER_STAIRS = registerBlock("waxed_weathered_copper_stairs",
+            new StairsBlock(Blocks.WAXED_WEATHERED_COPPER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .requiresTool().strength(3.0f, 6.0f).sounds(BlockSoundGroup.COPPER)));
+    public static final Block WAXED_WEATHERED_COPPER_SLAB = registerBlock("waxed_weathered_copper_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .requiresTool().strength(3.0f, 6.0f).sounds(BlockSoundGroup.COPPER)));
+    public static final Block WAXED_WEATHERED_COPPER_BUTTON = registerBlock("waxed_weathered_copper_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE, 10, false));
+    public static final Block WAXED_WEATHERED_COPPER_PRESSURE_PLATE = registerBlock("waxed_weathered_copper_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_WEATHERED_COPPER_FENCE = registerBlock("waxed_weathered_copper_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+    public static final Block WAXED_WEATHERED_COPPER_FENCE_GATE = registerBlock("waxed_weathered_copper_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), WoodType.OAK));
+    public static final Block WAXED_WEATHERED_COPPER_DOOR = registerBlock("waxed_weathered_copper_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_WEATHERED_COPPER_TRAPDOOR = registerBlock("waxed_weathered_copper_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_WEATHERED_COPPER_WALL = registerBlock("waxed_weathered_copper_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+
+
+    //waxed_weathered cut copper
+    public static final Block WAXED_WEATHERED_CUT_COPPER_BUTTON = registerBlock("waxed_weathered_cut_copper_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE, 10, false));
+    public static final Block WAXED_WEATHERED_CUT_COPPER_PRESSURE_PLATE = registerBlock("waxed_weathered_cut_copper_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_WEATHERED_CUT_COPPER_FENCE = registerBlock("waxed_weathered_cut_copper_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+    public static final Block WAXED_WEATHERED_CUT_COPPER_FENCE_GATE = registerBlock("waxed_weathered_cut_copper_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), WoodType.OAK));
+    public static final Block WAXED_WEATHERED_CUT_COPPER_DOOR = registerBlock("waxed_weathered_cut_copper_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_WEATHERED_CUT_COPPER_TRAPDOOR = registerBlock("waxed_weathered_cut_copper_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_WEATHERED_CUT_COPPER_WALL = registerBlock("waxed_weathered_cut_copper_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+
+
+    //waxed_oxidized copper
+    public static final Block WAXED_OXIDIZED_COPPER_STAIRS = registerBlock("waxed_oxidized_copper_stairs",
+            new StairsBlock(Blocks.WAXED_OXIDIZED_COPPER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+                    .requiresTool().strength(3.0f, 6.0f).sounds(BlockSoundGroup.COPPER)));
+    public static final Block WAXED_OXIDIZED_COPPER_SLAB = registerBlock("waxed_oxidized_copper_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+                    .requiresTool().strength(3.0f, 6.0f).sounds(BlockSoundGroup.COPPER)));
+    public static final Block WAXED_OXIDIZED_COPPER_BUTTON = registerBlock("waxed_oxidized_copper_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE, 10, false));
+    public static final Block WAXED_OXIDIZED_COPPER_PRESSURE_PLATE = registerBlock("waxed_oxidized_copper_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_OXIDIZED_COPPER_FENCE = registerBlock("waxed_oxidized_copper_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+    public static final Block WAXED_OXIDIZED_COPPER_FENCE_GATE = registerBlock("waxed_oxidized_copper_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), WoodType.OAK));
+    public static final Block WAXED_OXIDIZED_COPPER_DOOR = registerBlock("waxed_oxidized_copper_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_OXIDIZED_COPPER_TRAPDOOR = registerBlock("waxed_oxidized_copper_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_OXIDIZED_COPPER_WALL = registerBlock("waxed_oxidized_copper_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+
+
+    //waxed_oxidized cut copper
+    public static final Block WAXED_OXIDIZED_CUT_COPPER_BUTTON = registerBlock("waxed_oxidized_cut_copper_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE, 10, false));
+    public static final Block WAXED_OXIDIZED_CUT_COPPER_PRESSURE_PLATE = registerBlock("waxed_oxidized_cut_copper_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                            .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_OXIDIZED_CUT_COPPER_FENCE = registerBlock("waxed_oxidized_cut_copper_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
+    public static final Block WAXED_OXIDIZED_CUT_COPPER_FENCE_GATE = registerBlock("waxed_oxidized_cut_copper_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), WoodType.OAK));
+    public static final Block WAXED_OXIDIZED_CUT_COPPER_DOOR = registerBlock("waxed_oxidized_cut_copper_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_OXIDIZED_CUT_COPPER_TRAPDOOR = registerBlock("waxed_oxidized_cut_copper_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool(), BlockSetType.STONE));
+    public static final Block WAXED_OXIDIZED_CUT_COPPER_WALL = registerBlock("waxed_oxidized_cut_copper_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+                    .strength(1.5f).sounds(BlockSoundGroup.COPPER).requiresTool()));
 
 
 

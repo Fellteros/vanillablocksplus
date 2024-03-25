@@ -178,6 +178,23 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_QUARTZ);
         BlockStateModelGenerator.BlockTexturePool amethystPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.AMETHYST_BLOCK);
+        
+        BlockStateModelGenerator.BlockTexturePool copperPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COPPER_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool cutCopperPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CUT_COPPER);
+        BlockStateModelGenerator.BlockTexturePool exposedCopperPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.EXPOSED_COPPER);
+        BlockStateModelGenerator.BlockTexturePool exposedCutCopperPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.EXPOSED_CUT_COPPER);
+        BlockStateModelGenerator.BlockTexturePool weatheredCopperPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WEATHERED_COPPER);
+        BlockStateModelGenerator.BlockTexturePool weatheredCutCopperPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WEATHERED_CUT_COPPER);
+        BlockStateModelGenerator.BlockTexturePool oxidizedCopperPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.OXIDIZED_COPPER);
+        BlockStateModelGenerator.BlockTexturePool oxidizedCutCopperPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.OXIDIZED_CUT_COPPER);
 
 
 
@@ -722,6 +739,118 @@ public class ModModelProvider extends FabricModelProvider {
         amethystPool.fence(ModBlocks.AMETHYST_FENCE);
         amethystPool.fenceGate(ModBlocks.AMETHYST_FENCE_GATE);
         amethystPool.pressurePlate(ModBlocks.AMETHYST_PRESSURE_PLATE);
+        //copper
+        copperPool.button(ModBlocks.COPPER_BUTTON);
+        copperPool.wall(ModBlocks.COPPER_WALL);
+        copperPool.slab(ModBlocks.COPPER_SLAB);
+        copperPool.stairs(ModBlocks.COPPER_STAIRS);
+        copperPool.fence(ModBlocks.COPPER_FENCE);
+        copperPool.fenceGate(ModBlocks.COPPER_FENCE_GATE);
+        copperPool.pressurePlate(ModBlocks.COPPER_PRESSURE_PLATE);        
+        //exposed Copper
+        exposedCopperPool.button(ModBlocks.EXPOSED_COPPER_BUTTON);
+        exposedCopperPool.wall(ModBlocks.EXPOSED_COPPER_WALL);
+        exposedCopperPool.slab(ModBlocks.EXPOSED_COPPER_SLAB);
+        exposedCopperPool.stairs(ModBlocks.EXPOSED_COPPER_STAIRS);
+        exposedCopperPool.fence(ModBlocks.EXPOSED_COPPER_FENCE);
+        exposedCopperPool.fenceGate(ModBlocks.EXPOSED_COPPER_FENCE_GATE);
+        exposedCopperPool.pressurePlate(ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE);        
+        //weathered Copper
+        weatheredCopperPool.button(ModBlocks.WEATHERED_COPPER_BUTTON);
+        weatheredCopperPool.wall(ModBlocks.WEATHERED_COPPER_WALL);
+        weatheredCopperPool.slab(ModBlocks.WEATHERED_COPPER_SLAB);
+        weatheredCopperPool.stairs(ModBlocks.WEATHERED_COPPER_STAIRS);
+        weatheredCopperPool.fence(ModBlocks.WEATHERED_COPPER_FENCE);
+        weatheredCopperPool.fenceGate(ModBlocks.WEATHERED_COPPER_FENCE_GATE);
+        weatheredCopperPool.pressurePlate(ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE);        
+        //weathered Copper
+        oxidizedCopperPool.button(ModBlocks.OXIDIZED_COPPER_BUTTON);
+        oxidizedCopperPool.wall(ModBlocks.OXIDIZED_COPPER_WALL);
+        oxidizedCopperPool.slab(ModBlocks.OXIDIZED_COPPER_SLAB);
+        oxidizedCopperPool.stairs(ModBlocks.OXIDIZED_COPPER_STAIRS);
+        oxidizedCopperPool.fence(ModBlocks.OXIDIZED_COPPER_FENCE);
+        oxidizedCopperPool.fenceGate(ModBlocks.OXIDIZED_COPPER_FENCE_GATE);
+        oxidizedCopperPool.pressurePlate(ModBlocks.OXIDIZED_COPPER_PRESSURE_PLATE);
+        //waxed copper
+        copperPool.button(ModBlocks.WAXED_COPPER_BUTTON);
+        copperPool.wall(ModBlocks.WAXED_COPPER_WALL);
+        copperPool.slab(ModBlocks.WAXED_COPPER_SLAB);
+        copperPool.stairs(ModBlocks.WAXED_COPPER_STAIRS);
+        copperPool.fence(ModBlocks.WAXED_COPPER_FENCE);
+        copperPool.fenceGate(ModBlocks.WAXED_COPPER_FENCE_GATE);
+        copperPool.pressurePlate(ModBlocks.WAXED_COPPER_PRESSURE_PLATE);        
+        //waxed exposed Copper
+        exposedCopperPool.button(ModBlocks.WAXED_EXPOSED_COPPER_BUTTON);
+        exposedCopperPool.wall(ModBlocks.WAXED_EXPOSED_COPPER_WALL);
+        exposedCopperPool.slab(ModBlocks.WAXED_EXPOSED_COPPER_SLAB);
+        exposedCopperPool.stairs(ModBlocks.WAXED_EXPOSED_COPPER_STAIRS);
+        exposedCopperPool.fence(ModBlocks.WAXED_EXPOSED_COPPER_FENCE);
+        exposedCopperPool.fenceGate(ModBlocks.WAXED_EXPOSED_COPPER_FENCE_GATE);
+        exposedCopperPool.pressurePlate(ModBlocks.WAXED_EXPOSED_COPPER_PRESSURE_PLATE);        
+        //waxed weathered Copper
+        weatheredCopperPool.button(ModBlocks.WAXED_WEATHERED_COPPER_BUTTON);
+        weatheredCopperPool.wall(ModBlocks.WAXED_WEATHERED_COPPER_WALL);
+        weatheredCopperPool.slab(ModBlocks.WAXED_WEATHERED_COPPER_SLAB);
+        weatheredCopperPool.stairs(ModBlocks.WAXED_WEATHERED_COPPER_STAIRS);
+        weatheredCopperPool.fence(ModBlocks.WAXED_WEATHERED_COPPER_FENCE);
+        weatheredCopperPool.fenceGate(ModBlocks.WAXED_WEATHERED_COPPER_FENCE_GATE);
+        weatheredCopperPool.pressurePlate(ModBlocks.WAXED_WEATHERED_COPPER_PRESSURE_PLATE);        
+        //waxed weathered Copper
+        oxidizedCopperPool.button(ModBlocks.WAXED_OXIDIZED_COPPER_BUTTON);
+        oxidizedCopperPool.wall(ModBlocks.WAXED_OXIDIZED_COPPER_WALL);
+        oxidizedCopperPool.slab(ModBlocks.WAXED_OXIDIZED_COPPER_SLAB);
+        oxidizedCopperPool.stairs(ModBlocks.WAXED_OXIDIZED_COPPER_STAIRS);
+        oxidizedCopperPool.fence(ModBlocks.WAXED_OXIDIZED_COPPER_FENCE);
+        oxidizedCopperPool.fenceGate(ModBlocks.WAXED_OXIDIZED_COPPER_FENCE_GATE);
+        oxidizedCopperPool.pressurePlate(ModBlocks.WAXED_OXIDIZED_COPPER_PRESSURE_PLATE);
+        //cut Copper
+        cutCopperPool.button(ModBlocks.CUT_COPPER_BUTTON);
+        cutCopperPool.wall(ModBlocks.CUT_COPPER_WALL);
+        cutCopperPool.fence(ModBlocks.CUT_COPPER_FENCE);
+        cutCopperPool.fenceGate(ModBlocks.CUT_COPPER_FENCE_GATE);
+        cutCopperPool.pressurePlate(ModBlocks.CUT_COPPER_PRESSURE_PLATE);
+        //cut exposed Copper
+        exposedCutCopperPool.button(ModBlocks.EXPOSED_CUT_COPPER_BUTTON);
+        exposedCutCopperPool.wall(ModBlocks.EXPOSED_CUT_COPPER_WALL);
+        exposedCutCopperPool.fence(ModBlocks.EXPOSED_CUT_COPPER_FENCE);
+        exposedCutCopperPool.fenceGate(ModBlocks.EXPOSED_CUT_COPPER_FENCE_GATE);
+        exposedCutCopperPool.pressurePlate(ModBlocks.EXPOSED_CUT_COPPER_PRESSURE_PLATE);
+        //cut weathered Copper
+        weatheredCutCopperPool.button(ModBlocks.WEATHERED_CUT_COPPER_BUTTON);
+        weatheredCutCopperPool.wall(ModBlocks.WEATHERED_CUT_COPPER_WALL);
+        weatheredCutCopperPool.fence(ModBlocks.WEATHERED_CUT_COPPER_FENCE);
+        weatheredCutCopperPool.fenceGate(ModBlocks.WEATHERED_CUT_COPPER_FENCE_GATE);
+        weatheredCutCopperPool.pressurePlate(ModBlocks.WEATHERED_CUT_COPPER_PRESSURE_PLATE);
+        //cut weathered Copper
+        oxidizedCutCopperPool.button(ModBlocks.OXIDIZED_CUT_COPPER_BUTTON);
+        oxidizedCutCopperPool.wall(ModBlocks.OXIDIZED_CUT_COPPER_WALL);
+        oxidizedCutCopperPool.fence(ModBlocks.OXIDIZED_CUT_COPPER_FENCE);
+        oxidizedCutCopperPool.fenceGate(ModBlocks.OXIDIZED_CUT_COPPER_FENCE_GATE);
+        oxidizedCutCopperPool.pressurePlate(ModBlocks.OXIDIZED_CUT_COPPER_PRESSURE_PLATE);        
+        //waxed cut Copper
+        cutCopperPool.button(ModBlocks.WAXED_CUT_COPPER_BUTTON);
+        cutCopperPool.wall(ModBlocks.WAXED_CUT_COPPER_WALL);
+        cutCopperPool.fence(ModBlocks.WAXED_CUT_COPPER_FENCE);
+        cutCopperPool.fenceGate(ModBlocks.WAXED_CUT_COPPER_FENCE_GATE);
+        cutCopperPool.pressurePlate(ModBlocks.WAXED_CUT_COPPER_PRESSURE_PLATE);
+        //waxed cut exposed Copper
+        exposedCutCopperPool.button(ModBlocks.WAXED_EXPOSED_CUT_COPPER_BUTTON);
+        exposedCutCopperPool.wall(ModBlocks.WAXED_EXPOSED_CUT_COPPER_WALL);
+        exposedCutCopperPool.fence(ModBlocks.WAXED_EXPOSED_CUT_COPPER_FENCE);
+        exposedCutCopperPool.fenceGate(ModBlocks.WAXED_EXPOSED_CUT_COPPER_FENCE_GATE);
+        exposedCutCopperPool.pressurePlate(ModBlocks.WAXED_EXPOSED_CUT_COPPER_PRESSURE_PLATE);
+        //waxed cut weathered Copper
+        weatheredCutCopperPool.button(ModBlocks.WAXED_WEATHERED_CUT_COPPER_BUTTON);
+        weatheredCutCopperPool.wall(ModBlocks.WAXED_WEATHERED_CUT_COPPER_WALL);
+        weatheredCutCopperPool.fence(ModBlocks.WAXED_WEATHERED_CUT_COPPER_FENCE);
+        weatheredCutCopperPool.fenceGate(ModBlocks.WAXED_WEATHERED_CUT_COPPER_FENCE_GATE);
+        weatheredCutCopperPool.pressurePlate(ModBlocks.WAXED_WEATHERED_CUT_COPPER_PRESSURE_PLATE);
+        //waxed cut weathered Copper
+        oxidizedCutCopperPool.button(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_BUTTON);
+        oxidizedCutCopperPool.wall(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_WALL);
+        oxidizedCutCopperPool.fence(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_FENCE);
+        oxidizedCutCopperPool.fenceGate(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_FENCE_GATE);
+        oxidizedCutCopperPool.pressurePlate(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_PRESSURE_PLATE);
 
 
 
@@ -968,9 +1097,58 @@ public class ModModelProvider extends FabricModelProvider {
         //smooth quartz
         blockStateModelGenerator.registerDoor(ModBlocks.SMOOTH_QUARTZ_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SMOOTH_QUARTZ_TRAPDOOR);
-        //smooth quartz
+        //amethyst
         blockStateModelGenerator.registerDoor(ModBlocks.AMETHYST_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.AMETHYST_TRAPDOOR);
+
+        //copper
+        blockStateModelGenerator.registerDoor(ModBlocks.COPPER_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.COPPER_TRAPDOOR);
+        //exposed_copper
+        blockStateModelGenerator.registerDoor(ModBlocks.EXPOSED_COPPER_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.EXPOSED_COPPER_TRAPDOOR);
+        //weathered_copper
+        blockStateModelGenerator.registerDoor(ModBlocks.WEATHERED_COPPER_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WEATHERED_COPPER_TRAPDOOR);
+        //oxidized_copper
+        blockStateModelGenerator.registerDoor(ModBlocks.OXIDIZED_COPPER_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.OXIDIZED_COPPER_TRAPDOOR);
+        //cut copper
+        blockStateModelGenerator.registerDoor(ModBlocks.CUT_COPPER_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CUT_COPPER_TRAPDOOR);
+        //cut exposed_copper
+        blockStateModelGenerator.registerDoor(ModBlocks.EXPOSED_CUT_COPPER_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.EXPOSED_CUT_COPPER_TRAPDOOR);
+        //cut weathered_copper
+        blockStateModelGenerator.registerDoor(ModBlocks.WEATHERED_CUT_COPPER_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WEATHERED_CUT_COPPER_TRAPDOOR);
+        //cut oxidized_copper
+        blockStateModelGenerator.registerDoor(ModBlocks.OXIDIZED_CUT_COPPER_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.OXIDIZED_CUT_COPPER_TRAPDOOR);
+        //waxed copper
+        blockStateModelGenerator.registerDoor(ModBlocks.WAXED_COPPER_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WAXED_COPPER_TRAPDOOR);
+        //waxed exposed_copper
+        blockStateModelGenerator.registerDoor(ModBlocks.WAXED_EXPOSED_COPPER_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WAXED_EXPOSED_COPPER_TRAPDOOR);
+        //waxed weathered_copper
+        blockStateModelGenerator.registerDoor(ModBlocks.WAXED_WEATHERED_COPPER_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WAXED_WEATHERED_COPPER_TRAPDOOR);
+        //waxed oxidized_copper
+        blockStateModelGenerator.registerDoor(ModBlocks.WAXED_OXIDIZED_COPPER_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WAXED_OXIDIZED_COPPER_TRAPDOOR);
+        //waxed cut copper
+        blockStateModelGenerator.registerDoor(ModBlocks.WAXED_CUT_COPPER_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WAXED_CUT_COPPER_TRAPDOOR);
+        //waxed cut exposed_copper
+        blockStateModelGenerator.registerDoor(ModBlocks.WAXED_EXPOSED_CUT_COPPER_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WAXED_EXPOSED_CUT_COPPER_TRAPDOOR);
+        //waxed cut weathered_copper
+        blockStateModelGenerator.registerDoor(ModBlocks.WAXED_WEATHERED_CUT_COPPER_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WAXED_WEATHERED_CUT_COPPER_TRAPDOOR);
+        //waxed cut oxidized_copper
+        blockStateModelGenerator.registerDoor(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_TRAPDOOR);
 
 
 
@@ -996,6 +1174,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.LAPIS_BIT, Models.GENERATED);
         itemModelGenerator.register(ModItems.DIAMOND_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.NETHERITE_BIT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_BIT, Models.GENERATED);
 
     }
 }

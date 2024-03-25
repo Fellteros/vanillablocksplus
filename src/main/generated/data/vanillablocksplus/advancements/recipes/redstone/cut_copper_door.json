@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cut_copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cut_copper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cut_copper_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:cut_copper_door"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:cut_copper_door"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_copper_door",
+      "has_cut_copper",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:cut_copper_door"
+    ]
+  },
+  "sends_telemetry_event": false
+}

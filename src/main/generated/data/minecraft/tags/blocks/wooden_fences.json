@@ -82,6 +82,22 @@
     "vanillablocksplus:quartz_fence",
     "vanillablocksplus:quartz_brick_fence",
     "vanillablocksplus:smooth_quartz_fence",
-    "vanillablocksplus:amethyst_fence"
+    "vanillablocksplus:amethyst_fence",
+    "vanillablocksplus:copper_fence",
+    "vanillablocksplus:exposed_copper_fence",
+    "vanillablocksplus:weathered_copper_fence",
+    "vanillablocksplus:oxidized_copper_fence",
+    "vanillablocksplus:cut_copper_fence",
+    "vanillablocksplus:exposed_cut_copper_fence",
+    "vanillablocksplus:weathered_cut_copper_fence",
+    "vanillablocksplus:oxidized_cut_copper_fence",
+    "vanillablocksplus:waxed_copper_fence",
+    "vanillablocksplus:waxed_exposed_copper_fence",
+    "vanillablocksplus:waxed_weathered_copper_fence",
+    "vanillablocksplus:waxed_oxidized_copper_fence",
+    "vanillablocksplus:waxed_cut_copper_fence",
+    "vanillablocksplus:waxed_exposed_cut_copper_fence",
+    "vanillablocksplus:waxed_weathered_cut_copper_fence",
+    "vanillablocksplus:waxed_oxidized_cut_copper_fence"
   ]
 }

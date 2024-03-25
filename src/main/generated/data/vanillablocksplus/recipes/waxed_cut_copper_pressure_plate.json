@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:waxed_cut_copper"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "vanillablocksplus:waxed_cut_copper_pressure_plate"
+  },
+  "show_notification": true
+}

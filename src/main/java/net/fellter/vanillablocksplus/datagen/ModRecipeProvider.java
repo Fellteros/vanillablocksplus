@@ -2033,7 +2033,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.SMOOTH_QUARTZ), conditionsFromItem(Blocks.SMOOTH_QUARTZ))
                 .offerTo(exporter);
 
-        //quartz brick
+        //amethyst
         ModRecipes.createDoorRecipe(ModBlocks.AMETHYST_DOOR, Ingredient.ofItems(Blocks.AMETHYST_BLOCK))
                 .criterion(hasItem(Blocks.AMETHYST_BLOCK), conditionsFromItem(Blocks.AMETHYST_BLOCK))
                 .offerTo(exporter);
@@ -2060,6 +2060,427 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.AMETHYST_WALL, Ingredient.ofItems(Blocks.AMETHYST_BLOCK))
                 .criterion(hasItem(Blocks.AMETHYST_BLOCK), conditionsFromItem(Blocks.AMETHYST_BLOCK))
+                .offerTo(exporter); 
+        
+        
+        
+        //copper
+        ModRecipes.createDoorRecipe(ModBlocks.COPPER_DOOR, Ingredient.ofItems(ModItems.COPPER_BIT))
+                .criterion(hasItem(ModItems.COPPER_BIT), conditionsFromItem(ModItems.COPPER_BIT))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.COPPER_SLAB, Ingredient.ofItems(ModItems.COPPER_BIT))
+                .criterion(hasItem(ModItems.COPPER_BIT), conditionsFromItem(ModItems.COPPER_BIT))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.COPPER_STAIRS, Ingredient.ofItems(ModItems.COPPER_BIT))
+                .criterion(hasItem(ModItems.COPPER_BIT), conditionsFromItem(ModItems.COPPER_BIT))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.COPPER_FENCE, Ingredient.ofItems(Items.COPPER_INGOT), Ingredient.ofItems(ModItems.COPPER_BIT), 3)
+                .criterion(hasItem(ModItems.COPPER_BIT), conditionsFromItem(ModItems.COPPER_BIT))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.COPPER_FENCE_GATE, Ingredient.ofItems(Items.COPPER_INGOT), Ingredient.ofItems(ModItems.COPPER_BIT), 1)
+                .criterion(hasItem(ModItems.COPPER_BIT), conditionsFromItem(ModItems.COPPER_BIT))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.COPPER_TRAPDOOR, Ingredient.ofItems(Items.COPPER_INGOT))
+                .criterion(hasItem(ModItems.COPPER_BIT), conditionsFromItem(ModItems.COPPER_BIT))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.COPPER_PRESSURE_PLATE, Ingredient.ofItems(ModItems.COPPER_BIT))
+                .criterion(hasItem(ModItems.COPPER_BIT), conditionsFromItem(ModItems.COPPER_BIT))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.COPPER_BUTTON, ModItems.COPPER_BIT, 1)
+                .criterion(hasItem(ModItems.COPPER_BIT), conditionsFromItem(ModItems.COPPER_BIT))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.COPPER_WALL, Ingredient.ofItems(ModItems.COPPER_BIT))
+                .criterion(hasItem(ModItems.COPPER_BIT), conditionsFromItem(ModItems.COPPER_BIT))
+                .offerTo(exporter);
+
+
+        //exposed_copper
+        ModRecipes.createDoorRecipe(ModBlocks.EXPOSED_COPPER_DOOR, Ingredient.ofItems(Blocks.EXPOSED_COPPER))
+                .criterion(hasItem(Blocks.EXPOSED_COPPER), conditionsFromItem(Blocks.EXPOSED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_COPPER_SLAB, Ingredient.ofItems(Blocks.EXPOSED_COPPER))
+                .criterion(hasItem(Blocks.EXPOSED_COPPER), conditionsFromItem(Blocks.EXPOSED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.EXPOSED_COPPER_STAIRS, Ingredient.ofItems(Blocks.EXPOSED_COPPER))
+                .criterion(hasItem(Blocks.EXPOSED_COPPER), conditionsFromItem(Blocks.EXPOSED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.EXPOSED_COPPER_FENCE, Ingredient.ofItems(Blocks.EXPOSED_COPPER), Ingredient.ofItems(ModBlocks.EXPOSED_COPPER_SLAB), 3)
+                .criterion(hasItem(Blocks.EXPOSED_COPPER), conditionsFromItem(Blocks.EXPOSED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.EXPOSED_COPPER_FENCE_GATE, Ingredient.ofItems(Blocks.EXPOSED_COPPER), Ingredient.ofItems(ModBlocks.EXPOSED_COPPER_SLAB), 1)
+                .criterion(hasItem(Blocks.EXPOSED_COPPER), conditionsFromItem(Blocks.EXPOSED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.EXPOSED_COPPER_TRAPDOOR, Ingredient.ofItems(ModBlocks.EXPOSED_COPPER_SLAB))
+                .criterion(hasItem(Blocks.EXPOSED_COPPER), conditionsFromItem(Blocks.EXPOSED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE, Ingredient.ofItems(Blocks.EXPOSED_COPPER))
+                .criterion(hasItem(Blocks.EXPOSED_COPPER), conditionsFromItem(Blocks.EXPOSED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_COPPER_BUTTON, Blocks.EXPOSED_COPPER, 1)
+                .criterion(hasItem(Blocks.EXPOSED_COPPER), conditionsFromItem(Blocks.EXPOSED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_COPPER_WALL, Ingredient.ofItems(Blocks.EXPOSED_COPPER))
+                .criterion(hasItem(Blocks.EXPOSED_COPPER), conditionsFromItem(Blocks.EXPOSED_COPPER))
+                .offerTo(exporter);
+
+        //weathered_copper
+        ModRecipes.createDoorRecipe(ModBlocks.WEATHERED_COPPER_DOOR, Ingredient.ofItems(Blocks.WEATHERED_COPPER))
+                .criterion(hasItem(Blocks.WEATHERED_COPPER), conditionsFromItem(Blocks.WEATHERED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_COPPER_SLAB, Ingredient.ofItems(Blocks.WEATHERED_COPPER))
+                .criterion(hasItem(Blocks.WEATHERED_COPPER), conditionsFromItem(Blocks.WEATHERED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.WEATHERED_COPPER_STAIRS, Ingredient.ofItems(Blocks.WEATHERED_COPPER))
+                .criterion(hasItem(Blocks.WEATHERED_COPPER), conditionsFromItem(Blocks.WEATHERED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.WEATHERED_COPPER_FENCE, Ingredient.ofItems(Blocks.WEATHERED_COPPER), Ingredient.ofItems(ModBlocks.WEATHERED_COPPER_SLAB), 3)
+                .criterion(hasItem(Blocks.WEATHERED_COPPER), conditionsFromItem(Blocks.WEATHERED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.WEATHERED_COPPER_FENCE_GATE, Ingredient.ofItems(Blocks.WEATHERED_COPPER), Ingredient.ofItems(ModBlocks.WEATHERED_COPPER_SLAB), 1)
+                .criterion(hasItem(Blocks.WEATHERED_COPPER), conditionsFromItem(Blocks.WEATHERED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.WEATHERED_COPPER_TRAPDOOR, Ingredient.ofItems(ModBlocks.WEATHERED_COPPER_SLAB))
+                .criterion(hasItem(Blocks.WEATHERED_COPPER), conditionsFromItem(Blocks.WEATHERED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE, Ingredient.ofItems(Blocks.WEATHERED_COPPER))
+                .criterion(hasItem(Blocks.WEATHERED_COPPER), conditionsFromItem(Blocks.WEATHERED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_COPPER_BUTTON, Blocks.WEATHERED_COPPER, 1)
+                .criterion(hasItem(Blocks.WEATHERED_COPPER), conditionsFromItem(Blocks.WEATHERED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_COPPER_WALL, Ingredient.ofItems(Blocks.WEATHERED_COPPER))
+                .criterion(hasItem(Blocks.WEATHERED_COPPER), conditionsFromItem(Blocks.WEATHERED_COPPER))
+                .offerTo(exporter);
+
+        //oxidized_copper
+        ModRecipes.createDoorRecipe(ModBlocks.OXIDIZED_COPPER_DOOR, Ingredient.ofItems(Blocks.OXIDIZED_COPPER))
+                .criterion(hasItem(Blocks.OXIDIZED_COPPER), conditionsFromItem(Blocks.OXIDIZED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_COPPER_SLAB, Ingredient.ofItems(Blocks.OXIDIZED_COPPER))
+                .criterion(hasItem(Blocks.OXIDIZED_COPPER), conditionsFromItem(Blocks.OXIDIZED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.OXIDIZED_COPPER_STAIRS, Ingredient.ofItems(Blocks.OXIDIZED_COPPER))
+                .criterion(hasItem(Blocks.OXIDIZED_COPPER), conditionsFromItem(Blocks.OXIDIZED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.OXIDIZED_COPPER_FENCE, Ingredient.ofItems(Blocks.OXIDIZED_COPPER), Ingredient.ofItems(ModBlocks.OXIDIZED_COPPER_SLAB), 3)
+                .criterion(hasItem(Blocks.OXIDIZED_COPPER), conditionsFromItem(Blocks.OXIDIZED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.OXIDIZED_COPPER_FENCE_GATE, Ingredient.ofItems(Blocks.OXIDIZED_COPPER), Ingredient.ofItems(ModBlocks.OXIDIZED_COPPER_SLAB), 1)
+                .criterion(hasItem(Blocks.OXIDIZED_COPPER), conditionsFromItem(Blocks.OXIDIZED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.OXIDIZED_COPPER_TRAPDOOR, Ingredient.ofItems(ModBlocks.OXIDIZED_COPPER_SLAB))
+                .criterion(hasItem(Blocks.OXIDIZED_COPPER), conditionsFromItem(Blocks.OXIDIZED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_COPPER_PRESSURE_PLATE, Ingredient.ofItems(Blocks.OXIDIZED_COPPER))
+                .criterion(hasItem(Blocks.OXIDIZED_COPPER), conditionsFromItem(Blocks.OXIDIZED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_COPPER_BUTTON, Blocks.OXIDIZED_COPPER, 1)
+                .criterion(hasItem(Blocks.OXIDIZED_COPPER), conditionsFromItem(Blocks.OXIDIZED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_COPPER_WALL, Ingredient.ofItems(Blocks.OXIDIZED_COPPER))
+                .criterion(hasItem(Blocks.OXIDIZED_COPPER), conditionsFromItem(Blocks.OXIDIZED_COPPER))
+                .offerTo(exporter);      
+        
+        //cut copper
+        ModRecipes.createDoorRecipe(ModBlocks.CUT_COPPER_DOOR, Ingredient.ofItems(Blocks.CUT_COPPER))
+                .criterion(hasItem(Blocks.CUT_COPPER), conditionsFromItem(Blocks.CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.CUT_COPPER_FENCE, Ingredient.ofItems(Blocks.CUT_COPPER), Ingredient.ofItems(Blocks.CUT_COPPER_SLAB), 3)
+                .criterion(hasItem(Blocks.CUT_COPPER), conditionsFromItem(Blocks.CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.CUT_COPPER_FENCE_GATE, Ingredient.ofItems(Blocks.CUT_COPPER), Ingredient.ofItems(Blocks.CUT_COPPER_SLAB), 1)
+                .criterion(hasItem(Blocks.CUT_COPPER), conditionsFromItem(Blocks.CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.CUT_COPPER_TRAPDOOR, Ingredient.ofItems(Blocks.CUT_COPPER_SLAB))
+                .criterion(hasItem(Blocks.CUT_COPPER), conditionsFromItem(Blocks.CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.CUT_COPPER_PRESSURE_PLATE, Ingredient.ofItems(Blocks.CUT_COPPER))
+                .criterion(hasItem(Blocks.CUT_COPPER), conditionsFromItem(Blocks.CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.CUT_COPPER_BUTTON, Blocks.CUT_COPPER, 1)
+                .criterion(hasItem(Blocks.CUT_COPPER), conditionsFromItem(Blocks.CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.CUT_COPPER_WALL, Ingredient.ofItems(Blocks.CUT_COPPER))
+                .criterion(hasItem(Blocks.CUT_COPPER), conditionsFromItem(Blocks.CUT_COPPER))
+                .offerTo(exporter);
+
+
+        //cut exposed_copper
+        ModRecipes.createDoorRecipe(ModBlocks.EXPOSED_CUT_COPPER_DOOR, Ingredient.ofItems(Blocks.EXPOSED_CUT_COPPER))
+                .criterion(hasItem(Blocks.EXPOSED_CUT_COPPER), conditionsFromItem(Blocks.EXPOSED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.EXPOSED_CUT_COPPER_FENCE, Ingredient.ofItems(Blocks.EXPOSED_CUT_COPPER), Ingredient.ofItems(Blocks.EXPOSED_CUT_COPPER_SLAB), 3)
+                .criterion(hasItem(Blocks.EXPOSED_CUT_COPPER), conditionsFromItem(Blocks.EXPOSED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.EXPOSED_CUT_COPPER_FENCE_GATE, Ingredient.ofItems(Blocks.EXPOSED_CUT_COPPER), Ingredient.ofItems(Blocks.EXPOSED_CUT_COPPER_SLAB), 1)
+                .criterion(hasItem(Blocks.EXPOSED_CUT_COPPER), conditionsFromItem(Blocks.EXPOSED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.EXPOSED_CUT_COPPER_TRAPDOOR, Ingredient.ofItems(Blocks.EXPOSED_CUT_COPPER_SLAB))
+                .criterion(hasItem(Blocks.EXPOSED_CUT_COPPER), conditionsFromItem(Blocks.EXPOSED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_CUT_COPPER_PRESSURE_PLATE, Ingredient.ofItems(Blocks.EXPOSED_CUT_COPPER))
+                .criterion(hasItem(Blocks.EXPOSED_CUT_COPPER), conditionsFromItem(Blocks.EXPOSED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_CUT_COPPER_BUTTON, Blocks.EXPOSED_CUT_COPPER, 1)
+                .criterion(hasItem(Blocks.EXPOSED_CUT_COPPER), conditionsFromItem(Blocks.EXPOSED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_CUT_COPPER_WALL, Ingredient.ofItems(Blocks.EXPOSED_CUT_COPPER))
+                .criterion(hasItem(Blocks.EXPOSED_CUT_COPPER), conditionsFromItem(Blocks.EXPOSED_CUT_COPPER))
+                .offerTo(exporter);
+
+        //cut weathered_copper
+        ModRecipes.createDoorRecipe(ModBlocks.WEATHERED_CUT_COPPER_DOOR, Ingredient.ofItems(Blocks.WEATHERED_CUT_COPPER))
+                .criterion(hasItem(Blocks.WEATHERED_CUT_COPPER), conditionsFromItem(Blocks.WEATHERED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.WEATHERED_CUT_COPPER_FENCE, Ingredient.ofItems(Blocks.WEATHERED_CUT_COPPER), Ingredient.ofItems(Blocks.WEATHERED_CUT_COPPER_SLAB), 3)
+                .criterion(hasItem(Blocks.WEATHERED_CUT_COPPER), conditionsFromItem(Blocks.WEATHERED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.WEATHERED_CUT_COPPER_FENCE_GATE, Ingredient.ofItems(Blocks.WEATHERED_CUT_COPPER), Ingredient.ofItems(Blocks.WEATHERED_CUT_COPPER_SLAB), 1)
+                .criterion(hasItem(Blocks.WEATHERED_CUT_COPPER), conditionsFromItem(Blocks.WEATHERED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.WEATHERED_CUT_COPPER_TRAPDOOR, Ingredient.ofItems(Blocks.WEATHERED_CUT_COPPER_SLAB))
+                .criterion(hasItem(Blocks.WEATHERED_CUT_COPPER), conditionsFromItem(Blocks.WEATHERED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_CUT_COPPER_PRESSURE_PLATE, Ingredient.ofItems(Blocks.WEATHERED_CUT_COPPER))
+                .criterion(hasItem(Blocks.WEATHERED_CUT_COPPER), conditionsFromItem(Blocks.WEATHERED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_CUT_COPPER_BUTTON, Blocks.WEATHERED_CUT_COPPER, 1)
+                .criterion(hasItem(Blocks.WEATHERED_CUT_COPPER), conditionsFromItem(Blocks.WEATHERED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_CUT_COPPER_WALL, Ingredient.ofItems(Blocks.WEATHERED_CUT_COPPER))
+                .criterion(hasItem(Blocks.WEATHERED_CUT_COPPER), conditionsFromItem(Blocks.WEATHERED_CUT_COPPER))
+                .offerTo(exporter);
+
+        //cut oxidized_copper
+        ModRecipes.createDoorRecipe(ModBlocks.OXIDIZED_CUT_COPPER_DOOR, Ingredient.ofItems(Blocks.OXIDIZED_CUT_COPPER))
+                .criterion(hasItem(Blocks.OXIDIZED_CUT_COPPER), conditionsFromItem(Blocks.OXIDIZED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.OXIDIZED_CUT_COPPER_FENCE, Ingredient.ofItems(Blocks.OXIDIZED_CUT_COPPER), Ingredient.ofItems(Blocks.OXIDIZED_CUT_COPPER_SLAB), 3)
+                .criterion(hasItem(Blocks.OXIDIZED_CUT_COPPER), conditionsFromItem(Blocks.OXIDIZED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.OXIDIZED_CUT_COPPER_FENCE_GATE, Ingredient.ofItems(Blocks.OXIDIZED_CUT_COPPER), Ingredient.ofItems(Blocks.OXIDIZED_CUT_COPPER_SLAB), 1)
+                .criterion(hasItem(Blocks.OXIDIZED_CUT_COPPER), conditionsFromItem(Blocks.OXIDIZED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.OXIDIZED_CUT_COPPER_TRAPDOOR, Ingredient.ofItems(Blocks.OXIDIZED_CUT_COPPER_SLAB))
+                .criterion(hasItem(Blocks.OXIDIZED_CUT_COPPER), conditionsFromItem(Blocks.OXIDIZED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_CUT_COPPER_PRESSURE_PLATE, Ingredient.ofItems(Blocks.OXIDIZED_CUT_COPPER))
+                .criterion(hasItem(Blocks.OXIDIZED_CUT_COPPER), conditionsFromItem(Blocks.OXIDIZED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_CUT_COPPER_BUTTON, Blocks.OXIDIZED_CUT_COPPER, 1)
+                .criterion(hasItem(Blocks.OXIDIZED_CUT_COPPER), conditionsFromItem(Blocks.OXIDIZED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_CUT_COPPER_WALL, Ingredient.ofItems(Blocks.OXIDIZED_CUT_COPPER))
+                .criterion(hasItem(Blocks.OXIDIZED_CUT_COPPER), conditionsFromItem(Blocks.OXIDIZED_CUT_COPPER))
+                .offerTo(exporter);    
+        
+        
+        //waxed copper
+        ModRecipes.createDoorRecipe(ModBlocks.WAXED_COPPER_DOOR, Ingredient.ofItems(Blocks.WAXED_COPPER_BLOCK))
+                .criterion(hasItem(Blocks.WAXED_COPPER_BLOCK), conditionsFromItem(Blocks.WAXED_COPPER_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_COPPER_SLAB, Ingredient.ofItems(Blocks.WAXED_COPPER_BLOCK))
+                .criterion(hasItem(Blocks.WAXED_COPPER_BLOCK), conditionsFromItem(Blocks.WAXED_COPPER_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.WAXED_COPPER_STAIRS, Ingredient.ofItems(Blocks.WAXED_COPPER_BLOCK))
+                .criterion(hasItem(Blocks.WAXED_COPPER_BLOCK), conditionsFromItem(Blocks.WAXED_COPPER_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.WAXED_COPPER_FENCE, Ingredient.ofItems(Blocks.WAXED_COPPER_BLOCK), Ingredient.ofItems(ModBlocks.WAXED_COPPER_SLAB), 3)
+                .criterion(hasItem(Blocks.WAXED_COPPER_BLOCK), conditionsFromItem(Blocks.WAXED_COPPER_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.WAXED_COPPER_FENCE_GATE, Ingredient.ofItems(Blocks.WAXED_COPPER_BLOCK), Ingredient.ofItems(ModBlocks.WAXED_COPPER_SLAB), 1)
+                .criterion(hasItem(Blocks.WAXED_COPPER_BLOCK), conditionsFromItem(Blocks.WAXED_COPPER_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.WAXED_COPPER_TRAPDOOR, Ingredient.ofItems(ModBlocks.WAXED_COPPER_SLAB))
+                .criterion(hasItem(Blocks.WAXED_COPPER_BLOCK), conditionsFromItem(Blocks.WAXED_COPPER_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_COPPER_PRESSURE_PLATE, Ingredient.ofItems(Blocks.WAXED_COPPER_BLOCK))
+                .criterion(hasItem(Blocks.WAXED_COPPER_BLOCK), conditionsFromItem(Blocks.WAXED_COPPER_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_COPPER_BUTTON, Blocks.WAXED_COPPER_BLOCK, 1)
+                .criterion(hasItem(Blocks.WAXED_COPPER_BLOCK), conditionsFromItem(Blocks.WAXED_COPPER_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_COPPER_WALL, Ingredient.ofItems(Blocks.WAXED_COPPER_BLOCK))
+                .criterion(hasItem(Blocks.WAXED_COPPER_BLOCK), conditionsFromItem(Blocks.WAXED_COPPER_BLOCK))
+                .offerTo(exporter);
+
+        //waxed exposed_copper
+        ModRecipes.createDoorRecipe(ModBlocks.WAXED_EXPOSED_COPPER_DOOR, Ingredient.ofItems(Blocks.WAXED_EXPOSED_COPPER))
+                .criterion(hasItem(Blocks.WAXED_EXPOSED_COPPER), conditionsFromItem(Blocks.WAXED_EXPOSED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_COPPER_SLAB, Ingredient.ofItems(Blocks.WAXED_EXPOSED_COPPER))
+                .criterion(hasItem(Blocks.WAXED_EXPOSED_COPPER), conditionsFromItem(Blocks.WAXED_EXPOSED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.WAXED_EXPOSED_COPPER_STAIRS, Ingredient.ofItems(Blocks.WAXED_EXPOSED_COPPER))
+                .criterion(hasItem(Blocks.WAXED_EXPOSED_COPPER), conditionsFromItem(Blocks.WAXED_EXPOSED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.WAXED_EXPOSED_COPPER_FENCE, Ingredient.ofItems(Blocks.WAXED_EXPOSED_COPPER), Ingredient.ofItems(ModBlocks.WAXED_EXPOSED_COPPER_SLAB), 3)
+                .criterion(hasItem(Blocks.WAXED_EXPOSED_COPPER), conditionsFromItem(Blocks.WAXED_EXPOSED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.WAXED_EXPOSED_COPPER_FENCE_GATE, Ingredient.ofItems(Blocks.WAXED_EXPOSED_COPPER), Ingredient.ofItems(ModBlocks.WAXED_EXPOSED_COPPER_SLAB), 1)
+                .criterion(hasItem(Blocks.WAXED_EXPOSED_COPPER), conditionsFromItem(Blocks.WAXED_EXPOSED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.WAXED_EXPOSED_COPPER_TRAPDOOR, Ingredient.ofItems(ModBlocks.WAXED_EXPOSED_COPPER_SLAB))
+                .criterion(hasItem(Blocks.WAXED_EXPOSED_COPPER), conditionsFromItem(Blocks.WAXED_EXPOSED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_COPPER_PRESSURE_PLATE, Ingredient.ofItems(Blocks.WAXED_EXPOSED_COPPER))
+                .criterion(hasItem(Blocks.WAXED_EXPOSED_COPPER), conditionsFromItem(Blocks.WAXED_EXPOSED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_COPPER_BUTTON, Blocks.WAXED_EXPOSED_COPPER, 1)
+                .criterion(hasItem(Blocks.WAXED_EXPOSED_COPPER), conditionsFromItem(Blocks.WAXED_EXPOSED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_COPPER_WALL, Ingredient.ofItems(Blocks.WAXED_EXPOSED_COPPER))
+                .criterion(hasItem(Blocks.WAXED_EXPOSED_COPPER), conditionsFromItem(Blocks.WAXED_EXPOSED_COPPER))
+                .offerTo(exporter);
+
+        //waxed weathered_copper
+        ModRecipes.createDoorRecipe(ModBlocks.WAXED_WEATHERED_COPPER_DOOR, Ingredient.ofItems(Blocks.WAXED_WEATHERED_COPPER))
+                .criterion(hasItem(Blocks.WAXED_WEATHERED_COPPER), conditionsFromItem(Blocks.WAXED_WEATHERED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_COPPER_SLAB, Ingredient.ofItems(Blocks.WAXED_WEATHERED_COPPER))
+                .criterion(hasItem(Blocks.WAXED_WEATHERED_COPPER), conditionsFromItem(Blocks.WAXED_WEATHERED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.WAXED_WEATHERED_COPPER_STAIRS, Ingredient.ofItems(Blocks.WAXED_WEATHERED_COPPER))
+                .criterion(hasItem(Blocks.WAXED_WEATHERED_COPPER), conditionsFromItem(Blocks.WAXED_WEATHERED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.WAXED_WEATHERED_COPPER_FENCE, Ingredient.ofItems(Blocks.WAXED_WEATHERED_COPPER), Ingredient.ofItems(ModBlocks.WAXED_WEATHERED_COPPER_SLAB), 3)
+                .criterion(hasItem(Blocks.WAXED_WEATHERED_COPPER), conditionsFromItem(Blocks.WAXED_WEATHERED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.WAXED_WEATHERED_COPPER_FENCE_GATE, Ingredient.ofItems(Blocks.WAXED_WEATHERED_COPPER), Ingredient.ofItems(ModBlocks.WAXED_WEATHERED_COPPER_SLAB), 1)
+                .criterion(hasItem(Blocks.WAXED_WEATHERED_COPPER), conditionsFromItem(Blocks.WAXED_WEATHERED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.WAXED_WEATHERED_COPPER_TRAPDOOR, Ingredient.ofItems(ModBlocks.WAXED_WEATHERED_COPPER_SLAB))
+                .criterion(hasItem(Blocks.WAXED_WEATHERED_COPPER), conditionsFromItem(Blocks.WAXED_WEATHERED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_COPPER_PRESSURE_PLATE, Ingredient.ofItems(Blocks.WAXED_WEATHERED_COPPER))
+                .criterion(hasItem(Blocks.WAXED_WEATHERED_COPPER), conditionsFromItem(Blocks.WAXED_WEATHERED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_COPPER_BUTTON, Blocks.WAXED_WEATHERED_COPPER, 1)
+                .criterion(hasItem(Blocks.WAXED_WEATHERED_COPPER), conditionsFromItem(Blocks.WAXED_WEATHERED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_COPPER_WALL, Ingredient.ofItems(Blocks.WAXED_WEATHERED_COPPER))
+                .criterion(hasItem(Blocks.WAXED_WEATHERED_COPPER), conditionsFromItem(Blocks.WAXED_WEATHERED_COPPER))
+                .offerTo(exporter);
+
+        //waxed oxidized_copper
+        ModRecipes.createDoorRecipe(ModBlocks.WAXED_OXIDIZED_COPPER_DOOR, Ingredient.ofItems(Blocks.WAXED_OXIDIZED_COPPER))
+                .criterion(hasItem(Blocks.WAXED_OXIDIZED_COPPER), conditionsFromItem(Blocks.WAXED_OXIDIZED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_COPPER_SLAB, Ingredient.ofItems(Blocks.WAXED_OXIDIZED_COPPER))
+                .criterion(hasItem(Blocks.WAXED_OXIDIZED_COPPER), conditionsFromItem(Blocks.WAXED_OXIDIZED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.WAXED_OXIDIZED_COPPER_STAIRS, Ingredient.ofItems(Blocks.WAXED_OXIDIZED_COPPER))
+                .criterion(hasItem(Blocks.WAXED_OXIDIZED_COPPER), conditionsFromItem(Blocks.WAXED_OXIDIZED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.WAXED_OXIDIZED_COPPER_FENCE, Ingredient.ofItems(Blocks.WAXED_OXIDIZED_COPPER), Ingredient.ofItems(ModBlocks.WAXED_OXIDIZED_COPPER_SLAB), 3)
+                .criterion(hasItem(Blocks.WAXED_OXIDIZED_COPPER), conditionsFromItem(Blocks.WAXED_OXIDIZED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.WAXED_OXIDIZED_COPPER_FENCE_GATE, Ingredient.ofItems(Blocks.WAXED_OXIDIZED_COPPER), Ingredient.ofItems(ModBlocks.WAXED_OXIDIZED_COPPER_SLAB), 1)
+                .criterion(hasItem(Blocks.WAXED_OXIDIZED_COPPER), conditionsFromItem(Blocks.WAXED_OXIDIZED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.WAXED_OXIDIZED_COPPER_TRAPDOOR, Ingredient.ofItems(ModBlocks.WAXED_OXIDIZED_COPPER_SLAB))
+                .criterion(hasItem(Blocks.WAXED_OXIDIZED_COPPER), conditionsFromItem(Blocks.WAXED_OXIDIZED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_COPPER_PRESSURE_PLATE, Ingredient.ofItems(Blocks.WAXED_OXIDIZED_COPPER))
+                .criterion(hasItem(Blocks.WAXED_OXIDIZED_COPPER), conditionsFromItem(Blocks.WAXED_OXIDIZED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_COPPER_BUTTON, Blocks.WAXED_OXIDIZED_COPPER, 1)
+                .criterion(hasItem(Blocks.WAXED_OXIDIZED_COPPER), conditionsFromItem(Blocks.WAXED_OXIDIZED_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_COPPER_WALL, Ingredient.ofItems(Blocks.WAXED_OXIDIZED_COPPER))
+                .criterion(hasItem(Blocks.WAXED_OXIDIZED_COPPER), conditionsFromItem(Blocks.WAXED_OXIDIZED_COPPER))
+                .offerTo(exporter);      
+        
+        //waxed cut copper
+        ModRecipes.createDoorRecipe(ModBlocks.WAXED_CUT_COPPER_DOOR, Ingredient.ofItems(Blocks.WAXED_CUT_COPPER))
+                .criterion(hasItem(Blocks.WAXED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.WAXED_CUT_COPPER_FENCE, Ingredient.ofItems(Blocks.WAXED_CUT_COPPER), Ingredient.ofItems(Blocks.WAXED_CUT_COPPER_SLAB), 3)
+                .criterion(hasItem(Blocks.WAXED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.WAXED_CUT_COPPER_FENCE_GATE, Ingredient.ofItems(Blocks.WAXED_CUT_COPPER), Ingredient.ofItems(Blocks.WAXED_CUT_COPPER_SLAB), 1)
+                .criterion(hasItem(Blocks.WAXED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.WAXED_CUT_COPPER_TRAPDOOR, Ingredient.ofItems(Blocks.WAXED_CUT_COPPER_SLAB))
+                .criterion(hasItem(Blocks.WAXED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_CUT_COPPER_PRESSURE_PLATE, Ingredient.ofItems(Blocks.WAXED_CUT_COPPER))
+                .criterion(hasItem(Blocks.WAXED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_CUT_COPPER_BUTTON, Blocks.WAXED_CUT_COPPER, 1)
+                .criterion(hasItem(Blocks.WAXED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_CUT_COPPER_WALL, Ingredient.ofItems(Blocks.WAXED_CUT_COPPER))
+                .criterion(hasItem(Blocks.WAXED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_CUT_COPPER))
+                .offerTo(exporter);
+
+        //waxed cut exposed_copper
+        ModRecipes.createDoorRecipe(ModBlocks.WAXED_EXPOSED_CUT_COPPER_DOOR, Ingredient.ofItems(Blocks.WAXED_EXPOSED_CUT_COPPER))
+                .criterion(hasItem(Blocks.WAXED_EXPOSED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_EXPOSED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.WAXED_EXPOSED_CUT_COPPER_FENCE, Ingredient.ofItems(Blocks.WAXED_EXPOSED_CUT_COPPER), Ingredient.ofItems(Blocks.WAXED_EXPOSED_CUT_COPPER_SLAB), 3)
+                .criterion(hasItem(Blocks.WAXED_EXPOSED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_EXPOSED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.WAXED_EXPOSED_CUT_COPPER_FENCE_GATE, Ingredient.ofItems(Blocks.WAXED_EXPOSED_CUT_COPPER), Ingredient.ofItems(Blocks.WAXED_EXPOSED_CUT_COPPER_SLAB), 1)
+                .criterion(hasItem(Blocks.WAXED_EXPOSED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_EXPOSED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.WAXED_EXPOSED_CUT_COPPER_TRAPDOOR, Ingredient.ofItems(Blocks.WAXED_EXPOSED_CUT_COPPER_SLAB))
+                .criterion(hasItem(Blocks.WAXED_EXPOSED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_EXPOSED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_CUT_COPPER_PRESSURE_PLATE, Ingredient.ofItems(Blocks.WAXED_EXPOSED_CUT_COPPER))
+                .criterion(hasItem(Blocks.WAXED_EXPOSED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_EXPOSED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_CUT_COPPER_BUTTON, Blocks.WAXED_EXPOSED_CUT_COPPER, 1)
+                .criterion(hasItem(Blocks.WAXED_EXPOSED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_EXPOSED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_CUT_COPPER_WALL, Ingredient.ofItems(Blocks.WAXED_EXPOSED_CUT_COPPER))
+                .criterion(hasItem(Blocks.WAXED_EXPOSED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_EXPOSED_CUT_COPPER))
+                .offerTo(exporter);
+
+        //waxed cut weathered_copper
+        ModRecipes.createDoorRecipe(ModBlocks.WAXED_WEATHERED_CUT_COPPER_DOOR, Ingredient.ofItems(Blocks.WAXED_WEATHERED_CUT_COPPER))
+                .criterion(hasItem(Blocks.WAXED_WEATHERED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_WEATHERED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.WAXED_WEATHERED_CUT_COPPER_FENCE, Ingredient.ofItems(Blocks.WAXED_WEATHERED_CUT_COPPER), Ingredient.ofItems(Blocks.WAXED_WEATHERED_CUT_COPPER_SLAB), 3)
+                .criterion(hasItem(Blocks.WAXED_WEATHERED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_WEATHERED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.WAXED_WEATHERED_CUT_COPPER_FENCE_GATE, Ingredient.ofItems(Blocks.WAXED_WEATHERED_CUT_COPPER), Ingredient.ofItems(Blocks.WAXED_WEATHERED_CUT_COPPER_SLAB), 1)
+                .criterion(hasItem(Blocks.WAXED_WEATHERED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_WEATHERED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.WAXED_WEATHERED_CUT_COPPER_TRAPDOOR, Ingredient.ofItems(Blocks.WAXED_WEATHERED_CUT_COPPER_SLAB))
+                .criterion(hasItem(Blocks.WAXED_WEATHERED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_WEATHERED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_CUT_COPPER_PRESSURE_PLATE, Ingredient.ofItems(Blocks.WAXED_WEATHERED_CUT_COPPER))
+                .criterion(hasItem(Blocks.WAXED_WEATHERED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_WEATHERED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_CUT_COPPER_BUTTON, Blocks.WAXED_WEATHERED_CUT_COPPER, 1)
+                .criterion(hasItem(Blocks.WAXED_WEATHERED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_WEATHERED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_CUT_COPPER_WALL, Ingredient.ofItems(Blocks.WAXED_WEATHERED_CUT_COPPER))
+                .criterion(hasItem(Blocks.WAXED_WEATHERED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_WEATHERED_CUT_COPPER))
+                .offerTo(exporter);
+
+        //waxed cut oxidized_copper
+        ModRecipes.createDoorRecipe(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_DOOR, Ingredient.ofItems(Blocks.WAXED_OXIDIZED_CUT_COPPER))
+                .criterion(hasItem(Blocks.WAXED_OXIDIZED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_OXIDIZED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_FENCE, Ingredient.ofItems(Blocks.WAXED_OXIDIZED_CUT_COPPER), Ingredient.ofItems(Blocks.WAXED_OXIDIZED_CUT_COPPER_SLAB), 3)
+                .criterion(hasItem(Blocks.WAXED_OXIDIZED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_OXIDIZED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_FENCE_GATE, Ingredient.ofItems(Blocks.WAXED_OXIDIZED_CUT_COPPER), Ingredient.ofItems(Blocks.WAXED_OXIDIZED_CUT_COPPER_SLAB), 1)
+                .criterion(hasItem(Blocks.WAXED_OXIDIZED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_OXIDIZED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_TRAPDOOR, Ingredient.ofItems(Blocks.WAXED_OXIDIZED_CUT_COPPER_SLAB))
+                .criterion(hasItem(Blocks.WAXED_OXIDIZED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_OXIDIZED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_CUT_COPPER_PRESSURE_PLATE, Ingredient.ofItems(Blocks.WAXED_OXIDIZED_CUT_COPPER))
+                .criterion(hasItem(Blocks.WAXED_OXIDIZED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_OXIDIZED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_CUT_COPPER_BUTTON, Blocks.WAXED_OXIDIZED_CUT_COPPER, 1)
+                .criterion(hasItem(Blocks.WAXED_OXIDIZED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_OXIDIZED_CUT_COPPER))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_CUT_COPPER_WALL, Ingredient.ofItems(Blocks.WAXED_OXIDIZED_CUT_COPPER))
+                .criterion(hasItem(Blocks.WAXED_OXIDIZED_CUT_COPPER), conditionsFromItem(Blocks.WAXED_OXIDIZED_CUT_COPPER))
                 .offerTo(exporter);
 
 
@@ -2067,8 +2488,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
-        
-        
+
+
+
+
         //ingredients
         ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.COAL_BIT, Items.COAL, 8)
                 .criterion(hasItem(Items.COAL), conditionsFromItem(Items.COAL))
@@ -2093,6 +2516,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.DIAMOND_SHARD, Items.DIAMOND, 8)
                 .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                .offerTo(exporter);
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.COPPER_BIT, Items.COPPER_INGOT, 8)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
                 .offerTo(exporter);
     }
 
