@@ -1,18 +1,18 @@
-package net.fellter.vanillablocksplus.block_models;
+package net.fellter.vanillablocksplus.custom_blocks;
 
+import net.minecraft.block.BlockSetType;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.FenceGateBlock;
 import net.minecraft.block.Oxidizable;
-import net.minecraft.block.WoodType;
+import net.minecraft.block.TrapdoorBlock;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 
-public class OxidizableFenceGateBlock extends FenceGateBlock implements Oxidizable {
+public class OxidizableTrapdoorBlock extends TrapdoorBlock implements Oxidizable {
     private final Oxidizable.OxidationLevel oxidationLevel;
 
-    public OxidizableFenceGateBlock(Oxidizable.OxidationLevel oxidationLevel, Settings settings, WoodType type) {
-        super(settings, type);
+    public OxidizableTrapdoorBlock(Oxidizable.OxidationLevel oxidationLevel, Settings settings, BlockSetType blockSetType) {
+        super(settings, blockSetType);
         this.oxidationLevel = oxidationLevel;
     }
 
@@ -26,6 +26,6 @@ public class OxidizableFenceGateBlock extends FenceGateBlock implements Oxidizab
 
     @Override
     public OxidationLevel getDegradationLevel() {
-        return this.oxidationLevel;
+        return oxidationLevel;
     }
 }

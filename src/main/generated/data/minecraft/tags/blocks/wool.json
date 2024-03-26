@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "vanillablocksplus:white_wool_stairs",
+    "vanillablocksplus:white_wool_slab",
+    "vanillablocksplus:white_wool_wall",
+    "vanillablocksplus:white_wool_door",
+    "vanillablocksplus:white_wool_trapdoor",
+    "vanillablocksplus:white_wool_fence_gate",
+    "vanillablocksplus:white_wool_fence",
+    "vanillablocksplus:white_wool_button",
+    "vanillablocksplus:white_wool_pressure_plate"
+  ]
+}

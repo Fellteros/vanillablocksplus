@@ -2,7 +2,6 @@ package net.fellter.vanillablocksplus;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.fabricmc.fabric.api.registry.OxidizableBlocksRegistry;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.item.ModItemGroups;
 import net.fellter.vanillablocksplus.item.ModItems;

@@ -20,6 +20,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
 
+         getOrCreateTagBuilder(BlockTags.WOOL)
+                 //white wool
+                 .add(ModBlocks.WHITE_WOOL_STAIRS)
+                 .add(ModBlocks.WHITE_WOOL_SLAB)
+                 .add(ModBlocks.WHITE_WOOL_WALL)
+                 .add(ModBlocks.WHITE_WOOL_DOOR)
+                 .add(ModBlocks.WHITE_WOOL_TRAPDOOR)
+                 .add(ModBlocks.WHITE_WOOL_FENCE_GATE)
+                 .add(ModBlocks.WHITE_WOOL_FENCE)
+                 .add(ModBlocks.WHITE_WOOL_BUTTON)
+                 .add(ModBlocks.WHITE_WOOL_PRESSURE_PLATE);
+
          getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
                  //packed mud
                  .add(ModBlocks.PACKED_MUD_STAIRS)
@@ -960,7 +972,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_CUT_COPPER_FENCE)
                 .add(ModBlocks.WAXED_EXPOSED_CUT_COPPER_FENCE)
                 .add(ModBlocks.WAXED_WEATHERED_CUT_COPPER_FENCE)
-                .add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_FENCE);
+                .add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_FENCE)
+                .add(ModBlocks.WHITE_WOOL_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -1060,7 +1073,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_CUT_COPPER_FENCE)
                 .add(ModBlocks.WAXED_EXPOSED_CUT_COPPER_FENCE)
                 .add(ModBlocks.WAXED_WEATHERED_CUT_COPPER_FENCE)
-                .add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_FENCE);
+                .add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_FENCE)
+                .add(ModBlocks.WHITE_WOOL_FENCE);
 
 
 
@@ -1161,7 +1175,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_CUT_COPPER_FENCE_GATE)
                 .add(ModBlocks.WAXED_EXPOSED_CUT_COPPER_FENCE_GATE)
                 .add(ModBlocks.WAXED_WEATHERED_CUT_COPPER_FENCE_GATE)
-                .add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_FENCE_GATE);
+                .add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_FENCE_GATE)
+                .add(ModBlocks.WHITE_WOOL_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -1204,7 +1219,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.QUARTZ_BRICK_WALL)
                 .add(ModBlocks.SMOOTH_QUARTZ_WALL)
                 .add(ModBlocks.AMETHYST_WALL)
-                
                 .add(ModBlocks.COPPER_WALL)
                 .add(ModBlocks.EXPOSED_COPPER_WALL)
                 .add(ModBlocks.WEATHERED_COPPER_WALL)
@@ -1220,7 +1234,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_CUT_COPPER_WALL)
                 .add(ModBlocks.WAXED_EXPOSED_CUT_COPPER_WALL)
                 .add(ModBlocks.WAXED_WEATHERED_CUT_COPPER_WALL)
-                .add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_WALL);
+                .add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_WALL)
+                .add(ModBlocks.WHITE_WOOL_WALL);
 
 
 
@@ -1231,6 +1246,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL);
 
+//TODO pridat iron, diamond a stone block tagy
 
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")));
 

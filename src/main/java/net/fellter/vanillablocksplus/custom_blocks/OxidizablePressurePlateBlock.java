@@ -1,18 +1,18 @@
-package net.fellter.vanillablocksplus.block_models;
+package net.fellter.vanillablocksplus.custom_blocks;
 
 import net.minecraft.block.BlockSetType;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.ButtonBlock;
 import net.minecraft.block.Oxidizable;
+import net.minecraft.block.PressurePlateBlock;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 
-public class OxidizableButtonBlock extends ButtonBlock implements Oxidizable {
+public class OxidizablePressurePlateBlock extends PressurePlateBlock implements Oxidizable {
     private final Oxidizable.OxidationLevel oxidationLevel;
 
-    public OxidizableButtonBlock( OxidationLevel oxidationLevel, Settings settings, BlockSetType blockSetType, int pressTicks, boolean wooden) {
-        super(settings, blockSetType, pressTicks, wooden);
+    public OxidizablePressurePlateBlock(OxidationLevel oxidationLevel, ActivationRule type, Settings settings, BlockSetType blockSetType) {
+        super(type, settings, blockSetType);
         this.oxidationLevel = oxidationLevel;
     }
 

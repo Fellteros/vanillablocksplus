@@ -861,6 +861,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_TRAPDOOR);
                         entries.add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_PRESSURE_PLATE);
                         entries.add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_BUTTON);
+                        //white_wool
+                        entries.add(ModBlocks.WHITE_WOOL_STAIRS);
+                        entries.add(ModBlocks.WHITE_WOOL_SLAB);
+                        entries.add(ModBlocks.WHITE_WOOL_WALL);
+                        entries.add(ModBlocks.WHITE_WOOL_FENCE);
+                        entries.add(ModBlocks.WHITE_WOOL_FENCE_GATE);
+                        entries.add(ModBlocks.WHITE_WOOL_DOOR);
+                        entries.add(ModBlocks.WHITE_WOOL_TRAPDOOR);
+                        entries.add(ModBlocks.WHITE_WOOL_PRESSURE_PLATE);
+                        entries.add(ModBlocks.WHITE_WOOL_BUTTON);
 
 
 

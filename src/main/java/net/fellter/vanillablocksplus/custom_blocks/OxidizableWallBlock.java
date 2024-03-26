@@ -1,4 +1,4 @@
-package net.fellter.vanillablocksplus.block_models;
+package net.fellter.vanillablocksplus.custom_blocks;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Oxidizable;

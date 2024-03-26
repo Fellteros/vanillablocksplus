@@ -1,17 +1,18 @@
-package net.fellter.vanillablocksplus.block_models;
+package net.fellter.vanillablocksplus.custom_blocks;
 
 import net.minecraft.block.BlockState;
-import net.minecraft.block.FenceBlock;
+import net.minecraft.block.FenceGateBlock;
 import net.minecraft.block.Oxidizable;
+import net.minecraft.block.WoodType;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 
-public class OxidizableFenceBlock extends FenceBlock implements Oxidizable {
+public class OxidizableFenceGateBlock extends FenceGateBlock implements Oxidizable {
     private final Oxidizable.OxidationLevel oxidationLevel;
 
-    public OxidizableFenceBlock(OxidationLevel oxidationLevel, Settings settings) {
-        super(settings);
+    public OxidizableFenceGateBlock(Oxidizable.OxidationLevel oxidationLevel, Settings settings, WoodType type) {
+        super(settings, type);
         this.oxidationLevel = oxidationLevel;
     }
 

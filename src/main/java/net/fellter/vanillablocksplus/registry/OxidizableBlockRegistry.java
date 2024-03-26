@@ -24,9 +24,9 @@ public class OxidizableBlockRegistry implements Oxidizable {
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.COPPER_FENCE_GATE, ModBlocks.EXPOSED_COPPER_FENCE_GATE);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_COPPER_FENCE_GATE, ModBlocks.WEATHERED_COPPER_FENCE_GATE);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_COPPER_FENCE_GATE, ModBlocks.OXIDIZED_COPPER_FENCE_GATE);
-        //OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.COPPER_DOOR, ModBlocks.EXPOSED_COPPER_DOOR);
-        //OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_COPPER_DOOR, ModBlocks.WEATHERED_COPPER_DOOR);
-        //OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_COPPER_DOOR, ModBlocks.OXIDIZED_COPPER_DOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.COPPER_DOOR, ModBlocks.EXPOSED_COPPER_DOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_COPPER_DOOR, ModBlocks.WEATHERED_COPPER_DOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_COPPER_DOOR, ModBlocks.OXIDIZED_COPPER_DOOR);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.COPPER_TRAPDOOR, ModBlocks.EXPOSED_COPPER_TRAPDOOR);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_COPPER_TRAPDOOR, ModBlocks.WEATHERED_COPPER_TRAPDOOR);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_COPPER_TRAPDOOR, ModBlocks.OXIDIZED_COPPER_TRAPDOOR);
@@ -47,9 +47,9 @@ public class OxidizableBlockRegistry implements Oxidizable {
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.CUT_COPPER_FENCE_GATE, ModBlocks.EXPOSED_CUT_COPPER_FENCE_GATE);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_CUT_COPPER_FENCE_GATE, ModBlocks.WEATHERED_CUT_COPPER_FENCE_GATE);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_CUT_COPPER_FENCE_GATE, ModBlocks.OXIDIZED_CUT_COPPER_FENCE_GATE);
-        //OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.CUT_COPPER_DOOR, ModBlocks.EXPOSED_CUT_COPPER_DOOR);
-        //OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_CUT_COPPER_DOOR, ModBlocks.WEATHERED_CUT_COPPER_DOOR);
-        //OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_CUT_COPPER_DOOR, ModBlocks.OXIDIZED_CUT_COPPER_DOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.CUT_COPPER_DOOR, ModBlocks.EXPOSED_CUT_COPPER_DOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_CUT_COPPER_DOOR, ModBlocks.WEATHERED_CUT_COPPER_DOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_CUT_COPPER_DOOR, ModBlocks.OXIDIZED_CUT_COPPER_DOOR);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.CUT_COPPER_TRAPDOOR, ModBlocks.EXPOSED_CUT_COPPER_TRAPDOOR);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_CUT_COPPER_TRAPDOOR, ModBlocks.WEATHERED_CUT_COPPER_TRAPDOOR);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_CUT_COPPER_TRAPDOOR, ModBlocks.OXIDIZED_CUT_COPPER_TRAPDOOR);

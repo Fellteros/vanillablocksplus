@@ -178,7 +178,6 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_QUARTZ);
         BlockStateModelGenerator.BlockTexturePool amethystPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.AMETHYST_BLOCK);
-        
         BlockStateModelGenerator.BlockTexturePool copperPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COPPER_BLOCK);
         BlockStateModelGenerator.BlockTexturePool cutCopperPool =
@@ -195,6 +194,8 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.OXIDIZED_COPPER);
         BlockStateModelGenerator.BlockTexturePool oxidizedCutCopperPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.OXIDIZED_CUT_COPPER);
+        BlockStateModelGenerator.BlockTexturePool whiteWoolPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_WOOL);
 
 
 
@@ -851,6 +852,15 @@ public class ModModelProvider extends FabricModelProvider {
         oxidizedCutCopperPool.fence(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_FENCE);
         oxidizedCutCopperPool.fenceGate(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_FENCE_GATE);
         oxidizedCutCopperPool.pressurePlate(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_PRESSURE_PLATE);
+        
+        //white_wool
+        whiteWoolPool.button(ModBlocks.WHITE_WOOL_BUTTON);
+        whiteWoolPool.wall(ModBlocks.WHITE_WOOL_WALL);
+        whiteWoolPool.slab(ModBlocks.WHITE_WOOL_SLAB);
+        whiteWoolPool.stairs(ModBlocks.WHITE_WOOL_STAIRS);
+        whiteWoolPool.fence(ModBlocks.WHITE_WOOL_FENCE);
+        whiteWoolPool.fenceGate(ModBlocks.WHITE_WOOL_FENCE_GATE);
+        whiteWoolPool.pressurePlate(ModBlocks.WHITE_WOOL_PRESSURE_PLATE);
 
 
 
@@ -1100,7 +1110,6 @@ public class ModModelProvider extends FabricModelProvider {
         //amethyst
         blockStateModelGenerator.registerDoor(ModBlocks.AMETHYST_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.AMETHYST_TRAPDOOR);
-
         //copper
         blockStateModelGenerator.registerDoor(ModBlocks.COPPER_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.COPPER_TRAPDOOR);
@@ -1149,6 +1158,9 @@ public class ModModelProvider extends FabricModelProvider {
         //waxed cut oxidized_copper
         blockStateModelGenerator.registerDoor(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_TRAPDOOR);
+        //white wool
+        blockStateModelGenerator.registerDoor(ModBlocks.WHITE_WOOL_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WHITE_WOOL_TRAPDOOR);
 
 
 
