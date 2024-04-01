@@ -32,6 +32,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                  .add(ModBlocks.WHITE_WOOL_BUTTON)
                  .add(ModBlocks.WHITE_WOOL_PRESSURE_PLATE);
 
+
          getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
                  //packed mud
                  .add(ModBlocks.PACKED_MUD_STAIRS)
@@ -679,7 +680,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_TRAPDOOR)
                 .add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_PRESSURE_PLATE)
                 .add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_BUTTON);
-
         
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)

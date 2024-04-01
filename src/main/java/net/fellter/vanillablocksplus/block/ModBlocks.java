@@ -2587,32 +2587,32 @@ public class ModBlocks {
 
     //white_wool
     public static final Block WHITE_WOOL_STAIRS = registerBlock("white_wool_stairs",
-            new StairsBlock(Blocks.WHITE_WOOL.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
+            new StairsBlock(Blocks.WHITE_WOOL.getDefaultState(), FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)
                     .instrument(Instrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
     public static final Block WHITE_WOOL_SLAB = registerBlock("white_wool_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_SLAB)
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)
                     .instrument(Instrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
     public static final Block WHITE_WOOL_BUTTON = registerBlock("white_wool_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)
                     .instrument(Instrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable(), BlockSetType.STONE, 10, false));
     public static final Block WHITE_WOOL_PRESSURE_PLATE = registerBlock("white_wool_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE)
+                    FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)
                     .instrument(Instrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable(), BlockSetType.STONE));
     public static final Block WHITE_WOOL_FENCE = registerBlock("white_wool_fence",
-            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)
                     .instrument(Instrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
     public static final Block WHITE_WOOL_FENCE_GATE = registerBlock("white_wool_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_FENCE_GATE)
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)
                     .instrument(Instrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable(), WoodType.OAK));
     public static final Block WHITE_WOOL_DOOR = registerBlock("white_wool_door",
-            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_DOOR)
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)
                     .instrument(Instrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable(), BlockSetType.STONE));
     public static final Block WHITE_WOOL_TRAPDOOR = registerBlock("white_wool_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONE_TRAPDOOR)
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)
                     .instrument(Instrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable(), BlockSetType.STONE));
     public static final Block WHITE_WOOL_WALL = registerBlock("white_wool_wall",
-            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE_WALL)
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)
                     .instrument(Instrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
     
     
