@@ -881,6 +881,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LIGHT_GRAY_WOOL_TRAPDOOR);
                         entries.add(ModBlocks.LIGHT_GRAY_WOOL_PRESSURE_PLATE);
                         entries.add(ModBlocks.LIGHT_GRAY_WOOL_BUTTON);
+                        //gray_wool
+                        entries.add(ModBlocks.GRAY_WOOL_STAIRS);
+                        entries.add(ModBlocks.GRAY_WOOL_SLAB);
+                        entries.add(ModBlocks.GRAY_WOOL_WALL);
+                        entries.add(ModBlocks.GRAY_WOOL_FENCE);
+                        entries.add(ModBlocks.GRAY_WOOL_FENCE_GATE);
+                        entries.add(ModBlocks.GRAY_WOOL_DOOR);
+                        entries.add(ModBlocks.GRAY_WOOL_TRAPDOOR);
+                        entries.add(ModBlocks.GRAY_WOOL_PRESSURE_PLATE);
+                        entries.add(ModBlocks.GRAY_WOOL_BUTTON);
+                        //black_wool
+                        entries.add(ModBlocks.BLACK_WOOL_STAIRS);
+                        entries.add(ModBlocks.BLACK_WOOL_SLAB);
+                        entries.add(ModBlocks.BLACK_WOOL_WALL);
+                        entries.add(ModBlocks.BLACK_WOOL_FENCE);
+                        entries.add(ModBlocks.BLACK_WOOL_FENCE_GATE);
+                        entries.add(ModBlocks.BLACK_WOOL_DOOR);
+                        entries.add(ModBlocks.BLACK_WOOL_TRAPDOOR);
+                        entries.add(ModBlocks.BLACK_WOOL_PRESSURE_PLATE);
+                        entries.add(ModBlocks.BLACK_WOOL_BUTTON);
 
 
 

@@ -40,7 +40,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                  .add(ModBlocks.LIGHT_GRAY_WOOL_FENCE_GATE)
                  .add(ModBlocks.LIGHT_GRAY_WOOL_FENCE)
                  .add(ModBlocks.LIGHT_GRAY_WOOL_BUTTON)
-                 .add(ModBlocks.LIGHT_GRAY_WOOL_PRESSURE_PLATE);
+                 .add(ModBlocks.LIGHT_GRAY_WOOL_PRESSURE_PLATE)
+                 //gray_wool
+                 .add(ModBlocks.GRAY_WOOL_STAIRS)
+                 .add(ModBlocks.GRAY_WOOL_SLAB)
+                 .add(ModBlocks.GRAY_WOOL_WALL)
+                 .add(ModBlocks.GRAY_WOOL_DOOR)
+                 .add(ModBlocks.GRAY_WOOL_TRAPDOOR)
+                 .add(ModBlocks.GRAY_WOOL_FENCE_GATE)
+                 .add(ModBlocks.GRAY_WOOL_FENCE)
+                 .add(ModBlocks.GRAY_WOOL_BUTTON)
+                 .add(ModBlocks.GRAY_WOOL_PRESSURE_PLATE)
+                 //black_wool
+                 .add(ModBlocks.BLACK_WOOL_STAIRS)
+                 .add(ModBlocks.BLACK_WOOL_SLAB)
+                 .add(ModBlocks.BLACK_WOOL_WALL)
+                 .add(ModBlocks.BLACK_WOOL_DOOR)
+                 .add(ModBlocks.BLACK_WOOL_TRAPDOOR)
+                 .add(ModBlocks.BLACK_WOOL_FENCE_GATE)
+                 .add(ModBlocks.BLACK_WOOL_FENCE)
+                 .add(ModBlocks.BLACK_WOOL_BUTTON)
+                 .add(ModBlocks.BLACK_WOOL_PRESSURE_PLATE);
 
 
          getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
@@ -984,7 +1004,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_WEATHERED_CUT_COPPER_FENCE)
                 .add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_FENCE)
                 .add(ModBlocks.WHITE_WOOL_FENCE)
-                .add(ModBlocks.LIGHT_GRAY_WOOL_FENCE);
+                .add(ModBlocks.LIGHT_GRAY_WOOL_FENCE)
+                .add(ModBlocks.GRAY_WOOL_FENCE)
+                .add(ModBlocks.BLACK_WOOL_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -1086,7 +1108,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_WEATHERED_CUT_COPPER_FENCE)
                 .add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_FENCE)
                 .add(ModBlocks.WHITE_WOOL_FENCE)
-                .add(ModBlocks.LIGHT_GRAY_WOOL_FENCE);
+                .add(ModBlocks.LIGHT_GRAY_WOOL_FENCE)
+                .add(ModBlocks.GRAY_WOOL_FENCE)
+                .add(ModBlocks.BLACK_WOOL_FENCE);
 
 
 
@@ -1189,7 +1213,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_WEATHERED_CUT_COPPER_FENCE_GATE)
                 .add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_FENCE_GATE)
                 .add(ModBlocks.WHITE_WOOL_FENCE_GATE)
-                .add(ModBlocks.LIGHT_GRAY_WOOL_FENCE_GATE);
+                .add(ModBlocks.LIGHT_GRAY_WOOL_FENCE_GATE)
+                .add(ModBlocks.GRAY_WOOL_FENCE_GATE)
+                .add(ModBlocks.BLACK_WOOL_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -1249,7 +1275,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_WEATHERED_CUT_COPPER_WALL)
                 .add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_WALL)
                 .add(ModBlocks.WHITE_WOOL_WALL)
-                .add(ModBlocks.LIGHT_GRAY_WOOL_WALL);
+                .add(ModBlocks.LIGHT_GRAY_WOOL_WALL)
+                .add(ModBlocks.GRAY_WOOL_WALL)
+                .add(ModBlocks.BLACK_WOOL_WALL);
 
 
 
@@ -1260,7 +1288,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL);
 
-//TODO pridat iron, diamond a stone block tagy
+
 
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")));
 
@@ -1269,3 +1297,5 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     }
 }
+
+//TODO pridat iron, diamond a stone block tagy

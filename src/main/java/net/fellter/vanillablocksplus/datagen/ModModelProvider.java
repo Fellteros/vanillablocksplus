@@ -198,6 +198,10 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_WOOL);
         BlockStateModelGenerator.BlockTexturePool lightGrayWoolPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_WOOL);
+        BlockStateModelGenerator.BlockTexturePool grayWoolPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRAY_WOOL);
+        BlockStateModelGenerator.BlockTexturePool blackWoolPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACK_WOOL);
 
 
 
@@ -870,6 +874,22 @@ public class ModModelProvider extends FabricModelProvider {
         lightGrayWoolPool.fence(ModBlocks.LIGHT_GRAY_WOOL_FENCE);
         lightGrayWoolPool.fenceGate(ModBlocks.LIGHT_GRAY_WOOL_FENCE_GATE);
         lightGrayWoolPool.pressurePlate(ModBlocks.LIGHT_GRAY_WOOL_PRESSURE_PLATE);
+        //gray_wool
+        grayWoolPool.button(ModBlocks.GRAY_WOOL_BUTTON);
+        grayWoolPool.wall(ModBlocks.GRAY_WOOL_WALL);
+        grayWoolPool.slab(ModBlocks.GRAY_WOOL_SLAB);
+        grayWoolPool.stairs(ModBlocks.GRAY_WOOL_STAIRS);
+        grayWoolPool.fence(ModBlocks.GRAY_WOOL_FENCE);
+        grayWoolPool.fenceGate(ModBlocks.GRAY_WOOL_FENCE_GATE);
+        grayWoolPool.pressurePlate(ModBlocks.GRAY_WOOL_PRESSURE_PLATE);
+        //black_wool
+        blackWoolPool.button(ModBlocks.BLACK_WOOL_BUTTON);
+        blackWoolPool.wall(ModBlocks.BLACK_WOOL_WALL);
+        blackWoolPool.slab(ModBlocks.BLACK_WOOL_SLAB);
+        blackWoolPool.stairs(ModBlocks.BLACK_WOOL_STAIRS);
+        blackWoolPool.fence(ModBlocks.BLACK_WOOL_FENCE);
+        blackWoolPool.fenceGate(ModBlocks.BLACK_WOOL_FENCE_GATE);
+        blackWoolPool.pressurePlate(ModBlocks.BLACK_WOOL_PRESSURE_PLATE);
 
 
 
@@ -1170,9 +1190,15 @@ public class ModModelProvider extends FabricModelProvider {
         //white wool
         blockStateModelGenerator.registerDoor(ModBlocks.WHITE_WOOL_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WHITE_WOOL_TRAPDOOR);
-        //white wool
+        //light_gray_wool
         blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_GRAY_WOOL_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_GRAY_WOOL_TRAPDOOR);
+        //gray_wool
+        blockStateModelGenerator.registerDoor(ModBlocks.GRAY_WOOL_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GRAY_WOOL_TRAPDOOR);
+        //black_wool
+        blockStateModelGenerator.registerDoor(ModBlocks.BLACK_WOOL_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLACK_WOOL_TRAPDOOR);
 
 
 
