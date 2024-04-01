@@ -917,6 +917,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WHITE_WOOL_SLAB, slabDrops(ModBlocks.WHITE_WOOL_SLAB));
         addDrop(ModBlocks.WHITE_WOOL_WALL);
 
+        //white wool
+        addDrop(ModBlocks.LIGHT_GRAY_WOOL_STAIRS);
+        addDrop(ModBlocks.LIGHT_GRAY_WOOL_TRAPDOOR);
+        addDrop(ModBlocks.LIGHT_GRAY_WOOL_BUTTON);
+        addDrop(ModBlocks.LIGHT_GRAY_WOOL_PRESSURE_PLATE);
+        addDrop(ModBlocks.LIGHT_GRAY_WOOL_FENCE);
+        addDrop(ModBlocks.LIGHT_GRAY_WOOL_FENCE_GATE);
+        addDrop(ModBlocks.LIGHT_GRAY_WOOL_DOOR, doorDrops(ModBlocks.LIGHT_GRAY_WOOL_DOOR));
+        addDrop(ModBlocks.LIGHT_GRAY_WOOL_SLAB, slabDrops(ModBlocks.LIGHT_GRAY_WOOL_SLAB));
+        addDrop(ModBlocks.LIGHT_GRAY_WOOL_WALL);
+
 
         
         

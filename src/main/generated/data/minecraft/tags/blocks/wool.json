@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "vanillablocksplus:white_wool_stairs",
     "vanillablocksplus:white_wool_slab",
@@ -8,6 +9,15 @@
     "vanillablocksplus:white_wool_fence_gate",
     "vanillablocksplus:white_wool_fence",
     "vanillablocksplus:white_wool_button",
-    "vanillablocksplus:white_wool_pressure_plate"
+    "vanillablocksplus:white_wool_pressure_plate",
+    "vanillablocksplus:light_gray_wool_stairs",
+    "vanillablocksplus:light_gray_wool_slab",
+    "vanillablocksplus:light_gray_wool_wall",
+    "vanillablocksplus:light_gray_wool_door",
+    "vanillablocksplus:light_gray_wool_trapdoor",
+    "vanillablocksplus:light_gray_wool_fence_gate",
+    "vanillablocksplus:light_gray_wool_fence",
+    "vanillablocksplus:light_gray_wool_button",
+    "vanillablocksplus:light_gray_wool_pressure_plate"
   ]
 }
