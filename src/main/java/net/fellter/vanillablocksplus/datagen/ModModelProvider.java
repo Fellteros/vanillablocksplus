@@ -202,6 +202,14 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRAY_WOOL);
         BlockStateModelGenerator.BlockTexturePool blackWoolPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACK_WOOL);
+        BlockStateModelGenerator.BlockTexturePool brownWoolPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BROWN_WOOL);
+        BlockStateModelGenerator.BlockTexturePool redWoolPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_WOOL);
+        BlockStateModelGenerator.BlockTexturePool orangeWoolPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ORANGE_WOOL);
+        BlockStateModelGenerator.BlockTexturePool yellowWoolPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.YELLOW_WOOL);
 
 
 
@@ -890,6 +898,38 @@ public class ModModelProvider extends FabricModelProvider {
         blackWoolPool.fence(ModBlocks.BLACK_WOOL_FENCE);
         blackWoolPool.fenceGate(ModBlocks.BLACK_WOOL_FENCE_GATE);
         blackWoolPool.pressurePlate(ModBlocks.BLACK_WOOL_PRESSURE_PLATE);
+        //brown_wool
+        brownWoolPool.button(ModBlocks.BROWN_WOOL_BUTTON);
+        brownWoolPool.wall(ModBlocks.BROWN_WOOL_WALL);
+        brownWoolPool.slab(ModBlocks.BROWN_WOOL_SLAB);
+        brownWoolPool.stairs(ModBlocks.BROWN_WOOL_STAIRS);
+        brownWoolPool.fence(ModBlocks.BROWN_WOOL_FENCE);
+        brownWoolPool.fenceGate(ModBlocks.BROWN_WOOL_FENCE_GATE);
+        brownWoolPool.pressurePlate(ModBlocks.BROWN_WOOL_PRESSURE_PLATE);
+        //red_wool
+        redWoolPool.button(ModBlocks.RED_WOOL_BUTTON);
+        redWoolPool.wall(ModBlocks.RED_WOOL_WALL);
+        redWoolPool.slab(ModBlocks.RED_WOOL_SLAB);
+        redWoolPool.stairs(ModBlocks.RED_WOOL_STAIRS);
+        redWoolPool.fence(ModBlocks.RED_WOOL_FENCE);
+        redWoolPool.fenceGate(ModBlocks.RED_WOOL_FENCE_GATE);
+        redWoolPool.pressurePlate(ModBlocks.RED_WOOL_PRESSURE_PLATE);
+        //orange_wool
+        orangeWoolPool.button(ModBlocks.ORANGE_WOOL_BUTTON);
+        orangeWoolPool.wall(ModBlocks.ORANGE_WOOL_WALL);
+        orangeWoolPool.slab(ModBlocks.ORANGE_WOOL_SLAB);
+        orangeWoolPool.stairs(ModBlocks.ORANGE_WOOL_STAIRS);
+        orangeWoolPool.fence(ModBlocks.ORANGE_WOOL_FENCE);
+        orangeWoolPool.fenceGate(ModBlocks.ORANGE_WOOL_FENCE_GATE);
+        orangeWoolPool.pressurePlate(ModBlocks.ORANGE_WOOL_PRESSURE_PLATE);
+        //yellow_wool
+        yellowWoolPool.button(ModBlocks.YELLOW_WOOL_BUTTON);
+        yellowWoolPool.wall(ModBlocks.YELLOW_WOOL_WALL);
+        yellowWoolPool.slab(ModBlocks.YELLOW_WOOL_SLAB);
+        yellowWoolPool.stairs(ModBlocks.YELLOW_WOOL_STAIRS);
+        yellowWoolPool.fence(ModBlocks.YELLOW_WOOL_FENCE);
+        yellowWoolPool.fenceGate(ModBlocks.YELLOW_WOOL_FENCE_GATE);
+        yellowWoolPool.pressurePlate(ModBlocks.YELLOW_WOOL_PRESSURE_PLATE);
 
 
 
@@ -1199,6 +1239,18 @@ public class ModModelProvider extends FabricModelProvider {
         //black_wool
         blockStateModelGenerator.registerDoor(ModBlocks.BLACK_WOOL_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLACK_WOOL_TRAPDOOR);
+        //brown_wool
+        blockStateModelGenerator.registerDoor(ModBlocks.BROWN_WOOL_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BROWN_WOOL_TRAPDOOR);
+        //red_wool
+        blockStateModelGenerator.registerDoor(ModBlocks.RED_WOOL_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.RED_WOOL_TRAPDOOR);
+        //orange_wool
+        blockStateModelGenerator.registerDoor(ModBlocks.ORANGE_WOOL_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.ORANGE_WOOL_TRAPDOOR);
+        //yellow_wool
+        blockStateModelGenerator.registerDoor(ModBlocks.YELLOW_WOOL_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.YELLOW_WOOL_TRAPDOOR);
 
 
 

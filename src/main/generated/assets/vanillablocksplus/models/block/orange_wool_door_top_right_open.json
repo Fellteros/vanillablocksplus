@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "vanillablocksplus:block/orange_wool_door_bottom",
+    "top": "vanillablocksplus:block/orange_wool_door_top"
+  }
+}

@@ -60,7 +60,47 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                  .add(ModBlocks.BLACK_WOOL_FENCE_GATE)
                  .add(ModBlocks.BLACK_WOOL_FENCE)
                  .add(ModBlocks.BLACK_WOOL_BUTTON)
-                 .add(ModBlocks.BLACK_WOOL_PRESSURE_PLATE);
+                 .add(ModBlocks.BLACK_WOOL_PRESSURE_PLATE)
+                 //brown_wool
+                 .add(ModBlocks.BROWN_WOOL_STAIRS)
+                 .add(ModBlocks.BROWN_WOOL_SLAB)
+                 .add(ModBlocks.BROWN_WOOL_WALL)
+                 .add(ModBlocks.BROWN_WOOL_DOOR)
+                 .add(ModBlocks.BROWN_WOOL_TRAPDOOR)
+                 .add(ModBlocks.BROWN_WOOL_FENCE_GATE)
+                 .add(ModBlocks.BROWN_WOOL_FENCE)
+                 .add(ModBlocks.BROWN_WOOL_BUTTON)
+                 .add(ModBlocks.BROWN_WOOL_PRESSURE_PLATE)
+                 //red_wool
+                 .add(ModBlocks.RED_WOOL_STAIRS)
+                 .add(ModBlocks.RED_WOOL_SLAB)
+                 .add(ModBlocks.RED_WOOL_WALL)
+                 .add(ModBlocks.RED_WOOL_DOOR)
+                 .add(ModBlocks.RED_WOOL_TRAPDOOR)
+                 .add(ModBlocks.RED_WOOL_FENCE_GATE)
+                 .add(ModBlocks.RED_WOOL_FENCE)
+                 .add(ModBlocks.RED_WOOL_BUTTON)
+                 .add(ModBlocks.RED_WOOL_PRESSURE_PLATE)
+                 //orange_wool
+                 .add(ModBlocks.ORANGE_WOOL_STAIRS)
+                 .add(ModBlocks.ORANGE_WOOL_SLAB)
+                 .add(ModBlocks.ORANGE_WOOL_WALL)
+                 .add(ModBlocks.ORANGE_WOOL_DOOR)
+                 .add(ModBlocks.ORANGE_WOOL_TRAPDOOR)
+                 .add(ModBlocks.ORANGE_WOOL_FENCE_GATE)
+                 .add(ModBlocks.ORANGE_WOOL_FENCE)
+                 .add(ModBlocks.ORANGE_WOOL_BUTTON)
+                 .add(ModBlocks.ORANGE_WOOL_PRESSURE_PLATE)
+                 //yellow_wool
+                 .add(ModBlocks.YELLOW_WOOL_STAIRS)
+                 .add(ModBlocks.YELLOW_WOOL_SLAB)
+                 .add(ModBlocks.YELLOW_WOOL_WALL)
+                 .add(ModBlocks.YELLOW_WOOL_DOOR)
+                 .add(ModBlocks.YELLOW_WOOL_TRAPDOOR)
+                 .add(ModBlocks.YELLOW_WOOL_FENCE_GATE)
+                 .add(ModBlocks.YELLOW_WOOL_FENCE)
+                 .add(ModBlocks.YELLOW_WOOL_BUTTON)
+                 .add(ModBlocks.YELLOW_WOOL_PRESSURE_PLATE);
 
 
          getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
@@ -1006,7 +1046,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WHITE_WOOL_FENCE)
                 .add(ModBlocks.LIGHT_GRAY_WOOL_FENCE)
                 .add(ModBlocks.GRAY_WOOL_FENCE)
-                .add(ModBlocks.BLACK_WOOL_FENCE);
+                .add(ModBlocks.BLACK_WOOL_FENCE)
+                .add(ModBlocks.BROWN_WOOL_FENCE)
+                .add(ModBlocks.ORANGE_WOOL_FENCE)
+                .add(ModBlocks.YELLOW_WOOL_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -1110,7 +1153,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WHITE_WOOL_FENCE)
                 .add(ModBlocks.LIGHT_GRAY_WOOL_FENCE)
                 .add(ModBlocks.GRAY_WOOL_FENCE)
-                .add(ModBlocks.BLACK_WOOL_FENCE);
+                .add(ModBlocks.BLACK_WOOL_FENCE)
+                .add(ModBlocks.BROWN_WOOL_FENCE)
+                .add(ModBlocks.ORANGE_WOOL_FENCE)
+                .add(ModBlocks.YELLOW_WOOL_FENCE);
 
 
 
@@ -1215,7 +1261,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WHITE_WOOL_FENCE_GATE)
                 .add(ModBlocks.LIGHT_GRAY_WOOL_FENCE_GATE)
                 .add(ModBlocks.GRAY_WOOL_FENCE_GATE)
-                .add(ModBlocks.BLACK_WOOL_FENCE_GATE);
+                .add(ModBlocks.BLACK_WOOL_FENCE_GATE)
+                .add(ModBlocks.BROWN_WOOL_FENCE_GATE)
+                .add(ModBlocks.ORANGE_WOOL_FENCE_GATE)
+                .add(ModBlocks.YELLOW_WOOL_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -1277,7 +1326,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WHITE_WOOL_WALL)
                 .add(ModBlocks.LIGHT_GRAY_WOOL_WALL)
                 .add(ModBlocks.GRAY_WOOL_WALL)
-                .add(ModBlocks.BLACK_WOOL_WALL);
+                .add(ModBlocks.BLACK_WOOL_WALL)
+                .add(ModBlocks.BROWN_WOOL_WALL)
+                .add(ModBlocks.RED_WOOL_WALL)
+                .add(ModBlocks.ORANGE_WOOL_WALL)
+                .add(ModBlocks.YELLOW_WOOL_WALL);
 
 
 

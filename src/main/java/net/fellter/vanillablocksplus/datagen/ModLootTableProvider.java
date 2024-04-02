@@ -950,6 +950,50 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BLACK_WOOL_SLAB, slabDrops(ModBlocks.BLACK_WOOL_SLAB));
         addDrop(ModBlocks.BLACK_WOOL_WALL);
 
+        //brown_wool
+        addDrop(ModBlocks.BROWN_WOOL_STAIRS);
+        addDrop(ModBlocks.BROWN_WOOL_TRAPDOOR);
+        addDrop(ModBlocks.BROWN_WOOL_BUTTON);
+        addDrop(ModBlocks.BROWN_WOOL_PRESSURE_PLATE);
+        addDrop(ModBlocks.BROWN_WOOL_FENCE);
+        addDrop(ModBlocks.BROWN_WOOL_FENCE_GATE);
+        addDrop(ModBlocks.BROWN_WOOL_DOOR, doorDrops(ModBlocks.BROWN_WOOL_DOOR));
+        addDrop(ModBlocks.BROWN_WOOL_SLAB, slabDrops(ModBlocks.BROWN_WOOL_SLAB));
+        addDrop(ModBlocks.BROWN_WOOL_WALL);
+
+        //red_wool
+        addDrop(ModBlocks.RED_WOOL_STAIRS);
+        addDrop(ModBlocks.RED_WOOL_TRAPDOOR);
+        addDrop(ModBlocks.RED_WOOL_BUTTON);
+        addDrop(ModBlocks.RED_WOOL_PRESSURE_PLATE);
+        addDrop(ModBlocks.RED_WOOL_FENCE);
+        addDrop(ModBlocks.RED_WOOL_FENCE_GATE);
+        addDrop(ModBlocks.RED_WOOL_DOOR, doorDrops(ModBlocks.RED_WOOL_DOOR));
+        addDrop(ModBlocks.RED_WOOL_SLAB, slabDrops(ModBlocks.RED_WOOL_SLAB));
+        addDrop(ModBlocks.RED_WOOL_WALL);
+
+        //orange_wool
+        addDrop(ModBlocks.ORANGE_WOOL_STAIRS);
+        addDrop(ModBlocks.ORANGE_WOOL_TRAPDOOR);
+        addDrop(ModBlocks.ORANGE_WOOL_BUTTON);
+        addDrop(ModBlocks.ORANGE_WOOL_PRESSURE_PLATE);
+        addDrop(ModBlocks.ORANGE_WOOL_FENCE);
+        addDrop(ModBlocks.ORANGE_WOOL_FENCE_GATE);
+        addDrop(ModBlocks.ORANGE_WOOL_DOOR, doorDrops(ModBlocks.ORANGE_WOOL_DOOR));
+        addDrop(ModBlocks.ORANGE_WOOL_SLAB, slabDrops(ModBlocks.ORANGE_WOOL_SLAB));
+        addDrop(ModBlocks.ORANGE_WOOL_WALL);
+
+        //yellow_wool
+        addDrop(ModBlocks.YELLOW_WOOL_STAIRS);
+        addDrop(ModBlocks.YELLOW_WOOL_TRAPDOOR);
+        addDrop(ModBlocks.YELLOW_WOOL_BUTTON);
+        addDrop(ModBlocks.YELLOW_WOOL_PRESSURE_PLATE);
+        addDrop(ModBlocks.YELLOW_WOOL_FENCE);
+        addDrop(ModBlocks.YELLOW_WOOL_FENCE_GATE);
+        addDrop(ModBlocks.YELLOW_WOOL_DOOR, doorDrops(ModBlocks.YELLOW_WOOL_DOOR));
+        addDrop(ModBlocks.YELLOW_WOOL_SLAB, slabDrops(ModBlocks.YELLOW_WOOL_SLAB));
+        addDrop(ModBlocks.YELLOW_WOOL_WALL);
+
 
         
         

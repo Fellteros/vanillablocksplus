@@ -901,6 +901,46 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLACK_WOOL_TRAPDOOR);
                         entries.add(ModBlocks.BLACK_WOOL_PRESSURE_PLATE);
                         entries.add(ModBlocks.BLACK_WOOL_BUTTON);
+                        //brown_wool
+                        entries.add(ModBlocks.BROWN_WOOL_STAIRS);
+                        entries.add(ModBlocks.BROWN_WOOL_SLAB);
+                        entries.add(ModBlocks.BROWN_WOOL_WALL);
+                        entries.add(ModBlocks.BROWN_WOOL_FENCE);
+                        entries.add(ModBlocks.BROWN_WOOL_FENCE_GATE);
+                        entries.add(ModBlocks.BROWN_WOOL_DOOR);
+                        entries.add(ModBlocks.BROWN_WOOL_TRAPDOOR);
+                        entries.add(ModBlocks.BROWN_WOOL_PRESSURE_PLATE);
+                        entries.add(ModBlocks.BROWN_WOOL_BUTTON);
+                        //red_wool
+                        entries.add(ModBlocks.RED_WOOL_STAIRS);
+                        entries.add(ModBlocks.RED_WOOL_SLAB);
+                        entries.add(ModBlocks.RED_WOOL_WALL);
+                        entries.add(ModBlocks.RED_WOOL_FENCE);
+                        entries.add(ModBlocks.RED_WOOL_FENCE_GATE);
+                        entries.add(ModBlocks.RED_WOOL_DOOR);
+                        entries.add(ModBlocks.RED_WOOL_TRAPDOOR);
+                        entries.add(ModBlocks.RED_WOOL_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RED_WOOL_BUTTON);
+                        //orange_wool
+                        entries.add(ModBlocks.ORANGE_WOOL_STAIRS);
+                        entries.add(ModBlocks.ORANGE_WOOL_SLAB);
+                        entries.add(ModBlocks.ORANGE_WOOL_WALL);
+                        entries.add(ModBlocks.ORANGE_WOOL_FENCE);
+                        entries.add(ModBlocks.ORANGE_WOOL_FENCE_GATE);
+                        entries.add(ModBlocks.ORANGE_WOOL_DOOR);
+                        entries.add(ModBlocks.ORANGE_WOOL_TRAPDOOR);
+                        entries.add(ModBlocks.ORANGE_WOOL_PRESSURE_PLATE);
+                        entries.add(ModBlocks.ORANGE_WOOL_BUTTON);
+                        //yellow_wool
+                        entries.add(ModBlocks.YELLOW_WOOL_STAIRS);
+                        entries.add(ModBlocks.YELLOW_WOOL_SLAB);
+                        entries.add(ModBlocks.YELLOW_WOOL_WALL);
+                        entries.add(ModBlocks.YELLOW_WOOL_FENCE);
+                        entries.add(ModBlocks.YELLOW_WOOL_FENCE_GATE);
+                        entries.add(ModBlocks.YELLOW_WOOL_DOOR);
+                        entries.add(ModBlocks.YELLOW_WOOL_TRAPDOOR);
+                        entries.add(ModBlocks.YELLOW_WOOL_PRESSURE_PLATE);
+                        entries.add(ModBlocks.YELLOW_WOOL_BUTTON);
 
 
 
