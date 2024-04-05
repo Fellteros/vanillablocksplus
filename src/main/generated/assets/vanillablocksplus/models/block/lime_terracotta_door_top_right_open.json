@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "vanillablocksplus:block/lime_terracotta_door_bottom",
+    "top": "vanillablocksplus:block/lime_terracotta_door_top"
+  }
+}

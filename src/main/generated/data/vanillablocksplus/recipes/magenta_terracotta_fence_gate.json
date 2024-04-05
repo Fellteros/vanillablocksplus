@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:magenta_terracotta_slab"
+    },
+    "W": {
+      "item": "minecraft:magenta_terracotta"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "vanillablocksplus:magenta_terracotta_fence_gate"
+  },
+  "show_notification": true
+}

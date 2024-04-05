@@ -1,35 +1,19 @@
 package net.fellter.vanillablocksplus.block;
 
 
-import com.google.common.collect.ImmutableMap;
+
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
 import net.fellter.vanillablocksplus.custom_blocks.*;
-import net.fellter.vanillablocksplus.util.ModTags;
-import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemUsageContext;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.sound.BlockSoundGroup;
-import net.minecraft.sound.SoundCategory;
-import net.minecraft.sound.SoundEvents;
-import net.minecraft.util.ActionResult;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.World;
-import org.jetbrains.annotations.Nullable;
-
-import java.util.Map;
-import java.util.Optional;
 
 public class ModBlocks {
 
@@ -3081,6 +3065,516 @@ public class ModBlocks {
     public static final Block PINK_WOOL_WALL = registerBlock("pink_wool_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.PINK_WOOL)
                     .instrument(Instrument.GUITAR).strength(0.8f).sounds(BlockSoundGroup.WOOL).burnable()));
+
+    //terracotta
+    public static final Block TERRACOTTA_STAIRS = registerBlock("terracotta_stairs",
+            new StairsBlock(Blocks.TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(Blocks.TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block TERRACOTTA_SLAB = registerBlock("terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block TERRACOTTA_BUTTON = registerBlock("terracotta_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE, 10, false));
+    public static final Block TERRACOTTA_PRESSURE_PLATE = registerBlock("terracotta_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.TERRACOTTA)
+                            .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block TERRACOTTA_FENCE = registerBlock("terracotta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block TERRACOTTA_FENCE_GATE = registerBlock("terracotta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), WoodType.OAK));
+    public static final Block TERRACOTTA_DOOR = registerBlock("terracotta_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block TERRACOTTA_TRAPDOOR = registerBlock("terracotta_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block TERRACOTTA_WALL = registerBlock("terracotta_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+
+    //white_terracotta
+    public static final Block WHITE_TERRACOTTA_STAIRS = registerBlock("white_terracotta_stairs",
+            new StairsBlock(Blocks.WHITE_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(Blocks.WHITE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block WHITE_TERRACOTTA_SLAB = registerBlock("white_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.WHITE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block WHITE_TERRACOTTA_BUTTON = registerBlock("white_terracotta_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.WHITE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE, 10, false));
+    public static final Block WHITE_TERRACOTTA_PRESSURE_PLATE = registerBlock("white_terracotta_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.WHITE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block WHITE_TERRACOTTA_FENCE = registerBlock("white_terracotta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.WHITE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block WHITE_TERRACOTTA_FENCE_GATE = registerBlock("white_terracotta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.WHITE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), WoodType.OAK));
+    public static final Block WHITE_TERRACOTTA_DOOR = registerBlock("white_terracotta_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.WHITE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block WHITE_TERRACOTTA_TRAPDOOR = registerBlock("white_terracotta_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.WHITE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block WHITE_TERRACOTTA_WALL = registerBlock("white_terracotta_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.WHITE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+
+    //light_gray_terracotta
+    public static final Block LIGHT_GRAY_TERRACOTTA_STAIRS = registerBlock("light_gray_terracotta_stairs",
+            new StairsBlock(Blocks.LIGHT_GRAY_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block LIGHT_GRAY_TERRACOTTA_SLAB = registerBlock("light_gray_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block LIGHT_GRAY_TERRACOTTA_BUTTON = registerBlock("light_gray_terracotta_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE, 10, false));
+    public static final Block LIGHT_GRAY_TERRACOTTA_PRESSURE_PLATE = registerBlock("light_gray_terracotta_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block LIGHT_GRAY_TERRACOTTA_FENCE = registerBlock("light_gray_terracotta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block LIGHT_GRAY_TERRACOTTA_FENCE_GATE = registerBlock("light_gray_terracotta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), WoodType.OAK));
+    public static final Block LIGHT_GRAY_TERRACOTTA_DOOR = registerBlock("light_gray_terracotta_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block LIGHT_GRAY_TERRACOTTA_TRAPDOOR = registerBlock("light_gray_terracotta_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block LIGHT_GRAY_TERRACOTTA_WALL = registerBlock("light_gray_terracotta_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+
+    //gray_terracotta
+    public static final Block GRAY_TERRACOTTA_STAIRS = registerBlock("gray_terracotta_stairs",
+            new StairsBlock(Blocks.GRAY_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(Blocks.GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block GRAY_TERRACOTTA_SLAB = registerBlock("gray_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block GRAY_TERRACOTTA_BUTTON = registerBlock("gray_terracotta_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE, 10, false));
+    public static final Block GRAY_TERRACOTTA_PRESSURE_PLATE = registerBlock("gray_terracotta_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block GRAY_TERRACOTTA_FENCE = registerBlock("gray_terracotta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block GRAY_TERRACOTTA_FENCE_GATE = registerBlock("gray_terracotta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), WoodType.OAK));
+    public static final Block GRAY_TERRACOTTA_DOOR = registerBlock("gray_terracotta_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block GRAY_TERRACOTTA_TRAPDOOR = registerBlock("gray_terracotta_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block GRAY_TERRACOTTA_WALL = registerBlock("gray_terracotta_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.GRAY_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+
+    //black_terracotta
+    public static final Block BLACK_TERRACOTTA_STAIRS = registerBlock("black_terracotta_stairs",
+            new StairsBlock(Blocks.BLACK_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BLACK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block BLACK_TERRACOTTA_SLAB = registerBlock("black_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.BLACK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block BLACK_TERRACOTTA_BUTTON = registerBlock("black_terracotta_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.BLACK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE, 10, false));
+    public static final Block BLACK_TERRACOTTA_PRESSURE_PLATE = registerBlock("black_terracotta_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.BLACK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block BLACK_TERRACOTTA_FENCE = registerBlock("black_terracotta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.BLACK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block BLACK_TERRACOTTA_FENCE_GATE = registerBlock("black_terracotta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.BLACK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), WoodType.OAK));
+    public static final Block BLACK_TERRACOTTA_DOOR = registerBlock("black_terracotta_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.BLACK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block BLACK_TERRACOTTA_TRAPDOOR = registerBlock("black_terracotta_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BLACK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block BLACK_TERRACOTTA_WALL = registerBlock("black_terracotta_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.BLACK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+
+    //brown_terracotta
+    public static final Block BROWN_TERRACOTTA_STAIRS = registerBlock("brown_terracotta_stairs",
+            new StairsBlock(Blocks.BROWN_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BROWN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block BROWN_TERRACOTTA_SLAB = registerBlock("brown_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.BROWN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block BROWN_TERRACOTTA_BUTTON = registerBlock("brown_terracotta_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.BROWN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE, 10, false));
+    public static final Block BROWN_TERRACOTTA_PRESSURE_PLATE = registerBlock("brown_terracotta_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.BROWN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block BROWN_TERRACOTTA_FENCE = registerBlock("brown_terracotta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.BROWN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block BROWN_TERRACOTTA_FENCE_GATE = registerBlock("brown_terracotta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.BROWN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), WoodType.OAK));
+    public static final Block BROWN_TERRACOTTA_DOOR = registerBlock("brown_terracotta_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.BROWN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block BROWN_TERRACOTTA_TRAPDOOR = registerBlock("brown_terracotta_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BROWN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block BROWN_TERRACOTTA_WALL = registerBlock("brown_terracotta_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.BROWN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+
+    //red_terracotta
+    public static final Block RED_TERRACOTTA_STAIRS = registerBlock("red_terracotta_stairs",
+            new StairsBlock(Blocks.RED_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(Blocks.RED_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block RED_TERRACOTTA_SLAB = registerBlock("red_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.RED_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block RED_TERRACOTTA_BUTTON = registerBlock("red_terracotta_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.RED_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE, 10, false));
+    public static final Block RED_TERRACOTTA_PRESSURE_PLATE = registerBlock("red_terracotta_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.RED_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block RED_TERRACOTTA_FENCE = registerBlock("red_terracotta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.RED_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block RED_TERRACOTTA_FENCE_GATE = registerBlock("red_terracotta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.RED_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), WoodType.OAK));
+    public static final Block RED_TERRACOTTA_DOOR = registerBlock("red_terracotta_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.RED_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block RED_TERRACOTTA_TRAPDOOR = registerBlock("red_terracotta_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.RED_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block RED_TERRACOTTA_WALL = registerBlock("red_terracotta_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.RED_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+
+    //orange_terracotta
+    public static final Block ORANGE_TERRACOTTA_STAIRS = registerBlock("orange_terracotta_stairs",
+            new StairsBlock(Blocks.ORANGE_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(Blocks.ORANGE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block ORANGE_TERRACOTTA_SLAB = registerBlock("orange_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block ORANGE_TERRACOTTA_BUTTON = registerBlock("orange_terracotta_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE, 10, false));
+    public static final Block ORANGE_TERRACOTTA_PRESSURE_PLATE = registerBlock("orange_terracotta_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.ORANGE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block ORANGE_TERRACOTTA_FENCE = registerBlock("orange_terracotta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block ORANGE_TERRACOTTA_FENCE_GATE = registerBlock("orange_terracotta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), WoodType.OAK));
+    public static final Block ORANGE_TERRACOTTA_DOOR = registerBlock("orange_terracotta_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block ORANGE_TERRACOTTA_TRAPDOOR = registerBlock("orange_terracotta_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block ORANGE_TERRACOTTA_WALL = registerBlock("orange_terracotta_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+
+    //yellow_terracotta
+    public static final Block YELLOW_TERRACOTTA_STAIRS = registerBlock("yellow_terracotta_stairs",
+            new StairsBlock(Blocks.YELLOW_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(Blocks.YELLOW_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block YELLOW_TERRACOTTA_SLAB = registerBlock("yellow_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block YELLOW_TERRACOTTA_BUTTON = registerBlock("yellow_terracotta_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE, 10, false));
+    public static final Block YELLOW_TERRACOTTA_PRESSURE_PLATE = registerBlock("yellow_terracotta_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.YELLOW_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block YELLOW_TERRACOTTA_FENCE = registerBlock("yellow_terracotta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block YELLOW_TERRACOTTA_FENCE_GATE = registerBlock("yellow_terracotta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), WoodType.OAK));
+    public static final Block YELLOW_TERRACOTTA_DOOR = registerBlock("yellow_terracotta_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block YELLOW_TERRACOTTA_TRAPDOOR = registerBlock("yellow_terracotta_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block YELLOW_TERRACOTTA_WALL = registerBlock("yellow_terracotta_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+
+    //lime_terracotta
+    public static final Block LIME_TERRACOTTA_STAIRS = registerBlock("lime_terracotta_stairs",
+            new StairsBlock(Blocks.LIME_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(Blocks.LIME_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block LIME_TERRACOTTA_SLAB = registerBlock("lime_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.LIME_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block LIME_TERRACOTTA_BUTTON = registerBlock("lime_terracotta_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.LIME_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE, 10, false));
+    public static final Block LIME_TERRACOTTA_PRESSURE_PLATE = registerBlock("lime_terracotta_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.LIME_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block LIME_TERRACOTTA_FENCE = registerBlock("lime_terracotta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.LIME_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block LIME_TERRACOTTA_FENCE_GATE = registerBlock("lime_terracotta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.LIME_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), WoodType.OAK));
+    public static final Block LIME_TERRACOTTA_DOOR = registerBlock("lime_terracotta_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.LIME_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block LIME_TERRACOTTA_TRAPDOOR = registerBlock("lime_terracotta_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.LIME_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block LIME_TERRACOTTA_WALL = registerBlock("lime_terracotta_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.LIME_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+
+    //green_terracotta
+    public static final Block GREEN_TERRACOTTA_STAIRS = registerBlock("green_terracotta_stairs",
+            new StairsBlock(Blocks.GREEN_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(Blocks.GREEN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block GREEN_TERRACOTTA_SLAB = registerBlock("green_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.GREEN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block GREEN_TERRACOTTA_BUTTON = registerBlock("green_terracotta_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.GREEN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE, 10, false));
+    public static final Block GREEN_TERRACOTTA_PRESSURE_PLATE = registerBlock("green_terracotta_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.GREEN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block GREEN_TERRACOTTA_FENCE = registerBlock("green_terracotta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.GREEN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block GREEN_TERRACOTTA_FENCE_GATE = registerBlock("green_terracotta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.GREEN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), WoodType.OAK));
+    public static final Block GREEN_TERRACOTTA_DOOR = registerBlock("green_terracotta_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.GREEN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block GREEN_TERRACOTTA_TRAPDOOR = registerBlock("green_terracotta_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.GREEN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block GREEN_TERRACOTTA_WALL = registerBlock("green_terracotta_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.GREEN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+
+    //cyan_terracotta
+    public static final Block CYAN_TERRACOTTA_STAIRS = registerBlock("cyan_terracotta_stairs",
+            new StairsBlock(Blocks.CYAN_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(Blocks.CYAN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block CYAN_TERRACOTTA_SLAB = registerBlock("cyan_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.CYAN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block CYAN_TERRACOTTA_BUTTON = registerBlock("cyan_terracotta_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.CYAN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE, 10, false));
+    public static final Block CYAN_TERRACOTTA_PRESSURE_PLATE = registerBlock("cyan_terracotta_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.CYAN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block CYAN_TERRACOTTA_FENCE = registerBlock("cyan_terracotta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.CYAN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block CYAN_TERRACOTTA_FENCE_GATE = registerBlock("cyan_terracotta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.CYAN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), WoodType.OAK));
+    public static final Block CYAN_TERRACOTTA_DOOR = registerBlock("cyan_terracotta_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.CYAN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block CYAN_TERRACOTTA_TRAPDOOR = registerBlock("cyan_terracotta_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.CYAN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block CYAN_TERRACOTTA_WALL = registerBlock("cyan_terracotta_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.CYAN_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+
+    //blue_terracotta
+    public static final Block BLUE_TERRACOTTA_STAIRS = registerBlock("blue_terracotta_stairs",
+            new StairsBlock(Blocks.BLUE_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block BLUE_TERRACOTTA_SLAB = registerBlock("blue_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block BLUE_TERRACOTTA_BUTTON = registerBlock("blue_terracotta_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE, 10, false));
+    public static final Block BLUE_TERRACOTTA_PRESSURE_PLATE = registerBlock("blue_terracotta_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block BLUE_TERRACOTTA_FENCE = registerBlock("blue_terracotta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block BLUE_TERRACOTTA_FENCE_GATE = registerBlock("blue_terracotta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), WoodType.OAK));
+    public static final Block BLUE_TERRACOTTA_DOOR = registerBlock("blue_terracotta_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block BLUE_TERRACOTTA_TRAPDOOR = registerBlock("blue_terracotta_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block BLUE_TERRACOTTA_WALL = registerBlock("blue_terracotta_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+
+    //light_blue_terracotta
+    public static final Block LIGHT_BLUE_TERRACOTTA_STAIRS = registerBlock("light_blue_terracotta_stairs",
+            new StairsBlock(Blocks.LIGHT_BLUE_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block LIGHT_BLUE_TERRACOTTA_SLAB = registerBlock("light_blue_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block LIGHT_BLUE_TERRACOTTA_BUTTON = registerBlock("light_blue_terracotta_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE, 10, false));
+    public static final Block LIGHT_BLUE_TERRACOTTA_PRESSURE_PLATE = registerBlock("light_blue_terracotta_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block LIGHT_BLUE_TERRACOTTA_FENCE = registerBlock("light_blue_terracotta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block LIGHT_BLUE_TERRACOTTA_FENCE_GATE = registerBlock("light_blue_terracotta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), WoodType.OAK));
+    public static final Block LIGHT_BLUE_TERRACOTTA_DOOR = registerBlock("light_blue_terracotta_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block LIGHT_BLUE_TERRACOTTA_TRAPDOOR = registerBlock("light_blue_terracotta_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block LIGHT_BLUE_TERRACOTTA_WALL = registerBlock("light_blue_terracotta_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+
+    //purple_terracotta
+    public static final Block PURPLE_TERRACOTTA_STAIRS = registerBlock("purple_terracotta_stairs",
+            new StairsBlock(Blocks.PURPLE_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(Blocks.PURPLE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block PURPLE_TERRACOTTA_SLAB = registerBlock("purple_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block PURPLE_TERRACOTTA_BUTTON = registerBlock("purple_terracotta_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE, 10, false));
+    public static final Block PURPLE_TERRACOTTA_PRESSURE_PLATE = registerBlock("purple_terracotta_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.PURPLE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block PURPLE_TERRACOTTA_FENCE = registerBlock("purple_terracotta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block PURPLE_TERRACOTTA_FENCE_GATE = registerBlock("purple_terracotta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), WoodType.OAK));
+    public static final Block PURPLE_TERRACOTTA_DOOR = registerBlock("purple_terracotta_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block PURPLE_TERRACOTTA_TRAPDOOR = registerBlock("purple_terracotta_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block PURPLE_TERRACOTTA_WALL = registerBlock("purple_terracotta_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+
+    //magenta_terracotta
+    public static final Block MAGENTA_TERRACOTTA_STAIRS = registerBlock("magenta_terracotta_stairs",
+            new StairsBlock(Blocks.MAGENTA_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(Blocks.MAGENTA_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block MAGENTA_TERRACOTTA_SLAB = registerBlock("magenta_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block MAGENTA_TERRACOTTA_BUTTON = registerBlock("magenta_terracotta_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE, 10, false));
+    public static final Block MAGENTA_TERRACOTTA_PRESSURE_PLATE = registerBlock("magenta_terracotta_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.MAGENTA_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block MAGENTA_TERRACOTTA_FENCE = registerBlock("magenta_terracotta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block MAGENTA_TERRACOTTA_FENCE_GATE = registerBlock("magenta_terracotta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), WoodType.OAK));
+    public static final Block MAGENTA_TERRACOTTA_DOOR = registerBlock("magenta_terracotta_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block MAGENTA_TERRACOTTA_TRAPDOOR = registerBlock("magenta_terracotta_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block MAGENTA_TERRACOTTA_WALL = registerBlock("magenta_terracotta_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+
+    //pink_terracotta
+    public static final Block PINK_TERRACOTTA_STAIRS = registerBlock("pink_terracotta_stairs",
+            new StairsBlock(Blocks.PINK_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(Blocks.PINK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block PINK_TERRACOTTA_SLAB = registerBlock("pink_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.PINK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block PINK_TERRACOTTA_BUTTON = registerBlock("pink_terracotta_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.PINK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE, 10, false));
+    public static final Block PINK_TERRACOTTA_PRESSURE_PLATE = registerBlock("pink_terracotta_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.PINK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block PINK_TERRACOTTA_FENCE = registerBlock("pink_terracotta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.PINK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
+    public static final Block PINK_TERRACOTTA_FENCE_GATE = registerBlock("pink_terracotta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.PINK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), WoodType.OAK));
+    public static final Block PINK_TERRACOTTA_DOOR = registerBlock("pink_terracotta_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.PINK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block PINK_TERRACOTTA_TRAPDOOR = registerBlock("pink_terracotta_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.PINK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f), BlockSetType.STONE));
+    public static final Block PINK_TERRACOTTA_WALL = registerBlock("pink_terracotta_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.PINK_TERRACOTTA)
+                    .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
 
 
 
