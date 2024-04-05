@@ -1,0 +1,1 @@
+//TODO strippable blocky pridat moznost je stripnout: tryStrip v AxeItem

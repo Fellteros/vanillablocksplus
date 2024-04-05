@@ -100,7 +100,87 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                  .add(ModBlocks.YELLOW_WOOL_FENCE_GATE)
                  .add(ModBlocks.YELLOW_WOOL_FENCE)
                  .add(ModBlocks.YELLOW_WOOL_BUTTON)
-                 .add(ModBlocks.YELLOW_WOOL_PRESSURE_PLATE);
+                 .add(ModBlocks.YELLOW_WOOL_PRESSURE_PLATE)
+                 //lime_wool
+                 .add(ModBlocks.LIME_WOOL_STAIRS)
+                 .add(ModBlocks.LIME_WOOL_SLAB)
+                 .add(ModBlocks.LIME_WOOL_WALL)
+                 .add(ModBlocks.LIME_WOOL_DOOR)
+                 .add(ModBlocks.LIME_WOOL_TRAPDOOR)
+                 .add(ModBlocks.LIME_WOOL_FENCE_GATE)
+                 .add(ModBlocks.LIME_WOOL_FENCE)
+                 .add(ModBlocks.LIME_WOOL_BUTTON)
+                 .add(ModBlocks.LIME_WOOL_PRESSURE_PLATE)
+                 //green_wool
+                 .add(ModBlocks.GREEN_WOOL_STAIRS)
+                 .add(ModBlocks.GREEN_WOOL_SLAB)
+                 .add(ModBlocks.GREEN_WOOL_WALL)
+                 .add(ModBlocks.GREEN_WOOL_DOOR)
+                 .add(ModBlocks.GREEN_WOOL_TRAPDOOR)
+                 .add(ModBlocks.GREEN_WOOL_FENCE_GATE)
+                 .add(ModBlocks.GREEN_WOOL_FENCE)
+                 .add(ModBlocks.GREEN_WOOL_BUTTON)
+                 .add(ModBlocks.GREEN_WOOL_PRESSURE_PLATE)
+                 //cyan_wool
+                 .add(ModBlocks.CYAN_WOOL_STAIRS)
+                 .add(ModBlocks.CYAN_WOOL_SLAB)
+                 .add(ModBlocks.CYAN_WOOL_WALL)
+                 .add(ModBlocks.CYAN_WOOL_DOOR)
+                 .add(ModBlocks.CYAN_WOOL_TRAPDOOR)
+                 .add(ModBlocks.CYAN_WOOL_FENCE_GATE)
+                 .add(ModBlocks.CYAN_WOOL_FENCE)
+                 .add(ModBlocks.CYAN_WOOL_BUTTON)
+                 .add(ModBlocks.CYAN_WOOL_PRESSURE_PLATE)
+                 //blue_wool
+                 .add(ModBlocks.BLUE_WOOL_STAIRS)
+                 .add(ModBlocks.BLUE_WOOL_SLAB)
+                 .add(ModBlocks.BLUE_WOOL_WALL)
+                 .add(ModBlocks.BLUE_WOOL_DOOR)
+                 .add(ModBlocks.BLUE_WOOL_TRAPDOOR)
+                 .add(ModBlocks.BLUE_WOOL_FENCE_GATE)
+                 .add(ModBlocks.BLUE_WOOL_FENCE)
+                 .add(ModBlocks.BLUE_WOOL_BUTTON)
+                 .add(ModBlocks.BLUE_WOOL_PRESSURE_PLATE)
+                 //light_blue_wool
+                 .add(ModBlocks.LIGHT_BLUE_WOOL_STAIRS)
+                 .add(ModBlocks.LIGHT_BLUE_WOOL_SLAB)
+                 .add(ModBlocks.LIGHT_BLUE_WOOL_WALL)
+                 .add(ModBlocks.LIGHT_BLUE_WOOL_DOOR)
+                 .add(ModBlocks.LIGHT_BLUE_WOOL_TRAPDOOR)
+                 .add(ModBlocks.LIGHT_BLUE_WOOL_FENCE_GATE)
+                 .add(ModBlocks.LIGHT_BLUE_WOOL_FENCE)
+                 .add(ModBlocks.LIGHT_BLUE_WOOL_BUTTON)
+                 .add(ModBlocks.LIGHT_BLUE_WOOL_PRESSURE_PLATE)
+                 //purple_wool
+                 .add(ModBlocks.PURPLE_WOOL_STAIRS)
+                 .add(ModBlocks.PURPLE_WOOL_SLAB)
+                 .add(ModBlocks.PURPLE_WOOL_WALL)
+                 .add(ModBlocks.PURPLE_WOOL_DOOR)
+                 .add(ModBlocks.PURPLE_WOOL_TRAPDOOR)
+                 .add(ModBlocks.PURPLE_WOOL_FENCE_GATE)
+                 .add(ModBlocks.PURPLE_WOOL_FENCE)
+                 .add(ModBlocks.PURPLE_WOOL_BUTTON)
+                 .add(ModBlocks.PURPLE_WOOL_PRESSURE_PLATE)
+                 //magenta_wool
+                 .add(ModBlocks.MAGENTA_WOOL_STAIRS)
+                 .add(ModBlocks.MAGENTA_WOOL_SLAB)
+                 .add(ModBlocks.MAGENTA_WOOL_WALL)
+                 .add(ModBlocks.MAGENTA_WOOL_DOOR)
+                 .add(ModBlocks.MAGENTA_WOOL_TRAPDOOR)
+                 .add(ModBlocks.MAGENTA_WOOL_FENCE_GATE)
+                 .add(ModBlocks.MAGENTA_WOOL_FENCE)
+                 .add(ModBlocks.MAGENTA_WOOL_BUTTON)
+                 .add(ModBlocks.MAGENTA_WOOL_PRESSURE_PLATE)
+                 //pink_wool
+                 .add(ModBlocks.PINK_WOOL_STAIRS)
+                 .add(ModBlocks.PINK_WOOL_SLAB)
+                 .add(ModBlocks.PINK_WOOL_WALL)
+                 .add(ModBlocks.PINK_WOOL_DOOR)
+                 .add(ModBlocks.PINK_WOOL_TRAPDOOR)
+                 .add(ModBlocks.PINK_WOOL_FENCE_GATE)
+                 .add(ModBlocks.PINK_WOOL_FENCE)
+                 .add(ModBlocks.PINK_WOOL_BUTTON)
+                 .add(ModBlocks.PINK_WOOL_PRESSURE_PLATE);
 
 
          getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
@@ -114,6 +194,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                  .add(ModBlocks.PACKED_MUD_FENCE)
                  .add(ModBlocks.PACKED_MUD_BUTTON)
                  .add(ModBlocks.PACKED_MUD_PRESSURE_PLATE);
+
+
+        getOrCreateTagBuilder(BlockTags.TERRACOTTA);
+
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 //stone
@@ -1049,7 +1133,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLACK_WOOL_FENCE)
                 .add(ModBlocks.BROWN_WOOL_FENCE)
                 .add(ModBlocks.ORANGE_WOOL_FENCE)
-                .add(ModBlocks.YELLOW_WOOL_FENCE);
+                .add(ModBlocks.YELLOW_WOOL_FENCE)
+                .add(ModBlocks.LIME_WOOL_FENCE)
+                .add(ModBlocks.GREEN_WOOL_FENCE)
+                .add(ModBlocks.CYAN_WOOL_FENCE)
+                .add(ModBlocks.BLUE_WOOL_FENCE)
+                .add(ModBlocks.LIGHT_BLUE_WOOL_FENCE)
+                .add(ModBlocks.PURPLE_WOOL_FENCE)
+                .add(ModBlocks.MAGENTA_WOOL_FENCE)
+                .add(ModBlocks.PINK_WOOL_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -1156,7 +1248,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLACK_WOOL_FENCE)
                 .add(ModBlocks.BROWN_WOOL_FENCE)
                 .add(ModBlocks.ORANGE_WOOL_FENCE)
-                .add(ModBlocks.YELLOW_WOOL_FENCE);
+                .add(ModBlocks.YELLOW_WOOL_FENCE)
+                .add(ModBlocks.LIME_WOOL_FENCE)
+                .add(ModBlocks.GREEN_WOOL_FENCE)
+                .add(ModBlocks.CYAN_WOOL_FENCE)
+                .add(ModBlocks.BLUE_WOOL_FENCE)
+                .add(ModBlocks.LIGHT_BLUE_WOOL_FENCE)
+                .add(ModBlocks.PURPLE_WOOL_FENCE)
+                .add(ModBlocks.MAGENTA_WOOL_FENCE)
+                .add(ModBlocks.PINK_WOOL_FENCE);
 
 
 
@@ -1264,7 +1364,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLACK_WOOL_FENCE_GATE)
                 .add(ModBlocks.BROWN_WOOL_FENCE_GATE)
                 .add(ModBlocks.ORANGE_WOOL_FENCE_GATE)
-                .add(ModBlocks.YELLOW_WOOL_FENCE_GATE);
+                .add(ModBlocks.YELLOW_WOOL_FENCE_GATE)
+                .add(ModBlocks.LIME_WOOL_FENCE_GATE)
+                .add(ModBlocks.CYAN_WOOL_FENCE_GATE)
+                .add(ModBlocks.BLUE_WOOL_FENCE_GATE)
+                .add(ModBlocks.LIGHT_BLUE_WOOL_FENCE_GATE)
+                .add(ModBlocks.PURPLE_WOOL_FENCE_GATE)
+                .add(ModBlocks.MAGENTA_WOOL_FENCE_GATE)
+                .add(ModBlocks.PINK_WOOL_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -1330,7 +1437,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BROWN_WOOL_WALL)
                 .add(ModBlocks.RED_WOOL_WALL)
                 .add(ModBlocks.ORANGE_WOOL_WALL)
-                .add(ModBlocks.YELLOW_WOOL_WALL);
+                .add(ModBlocks.YELLOW_WOOL_WALL)
+                .add(ModBlocks.LIME_WOOL_WALL)
+                .add(ModBlocks.GREEN_WOOL_WALL)
+                .add(ModBlocks.CYAN_WOOL_WALL)
+                .add(ModBlocks.BLUE_WOOL_WALL)
+                .add(ModBlocks.LIGHT_BLUE_WOOL_WALL)
+                .add(ModBlocks.PURPLE_WOOL_WALL)
+                .add(ModBlocks.MAGENTA_WOOL_WALL)
+                .add(ModBlocks.PINK_WOOL_WALL);
+
 
 
 

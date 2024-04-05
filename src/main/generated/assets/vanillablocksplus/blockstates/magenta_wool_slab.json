@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/magenta_wool_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/magenta_wool"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/magenta_wool_slab_top"
+    }
+  }
+}

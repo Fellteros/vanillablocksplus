@@ -4,16 +4,19 @@ import net.minecraft.block.*;
 import net.minecraft.block.enums.DoubleBlockHalf;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.HoneycombItem;
+import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 
 import java.util.Optional;
 
+import static net.minecraft.item.HoneycombItem.UNWAXED_TO_WAXED_BLOCKS;
 import static net.minecraft.item.HoneycombItem.WAXED_TO_UNWAXED_BLOCKS;
 
 public class OxidizableDoorBlock extends DoorBlock implements Oxidizable {
@@ -28,23 +31,8 @@ public class OxidizableDoorBlock extends DoorBlock implements Oxidizable {
         this.oxidationLevel = oxidationLevel;
     }
 
-    @Override
-    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-        if (!state.get(POWERED)) {
-            return super.onUse(state, world, pos, player, hand, hit);
-        }
 
-        return ActionResult.PASS;
-    }
 
-    @Override
-    public void neighborUpdate(BlockState state, World world, BlockPos pos, Block sourceBlock, BlockPos sourcePos, boolean notify) {
-        if (!world.isClient()) {
-            boolean bl = world.isReceivingRedstonePower(pos) || world.isReceivingRedstonePower(pos.offset(state.get(HALF) == DoubleBlockHalf.LOWER ? Direction.UP : Direction.DOWN)) || (bl = false);
-
-            world.setBlockState(pos, (state.with(POWERED, bl)).with(OPEN, state.get(OPEN)), Block.NOTIFY_LISTENERS);
-        }
-    }
 
 
 
@@ -59,7 +47,7 @@ public class OxidizableDoorBlock extends DoorBlock implements Oxidizable {
                 return neighborState.withIfExists(HALF, state.get(HALF).equals(DoubleBlockHalf.UPPER) ? DoubleBlockHalf.UPPER : DoubleBlockHalf.LOWER);
             }
 
-            if (HoneycombItem.getWaxedState(state).isPresent() && HoneycombItem.getWaxedState(state).get().getBlock().equals(neighborState.getBlock())) {
+            if (getWaxedState(state).isPresent() && getWaxedState(state).get().getBlock().equals(neighborState.getBlock())) {
                 return neighborState.withIfExists(HALF, state.get(HALF).equals(DoubleBlockHalf.UPPER) ? DoubleBlockHalf.UPPER : DoubleBlockHalf.LOWER);
             }
 
@@ -75,6 +63,13 @@ public class OxidizableDoorBlock extends DoorBlock implements Oxidizable {
         return Optional.ofNullable(WAXED_TO_UNWAXED_BLOCKS.get().get(state.getBlock())).map(block -> block.getStateWithProperties(state));
     }
 
+    public static Optional<BlockState> getWaxedState(BlockState state) {
+        return Optional.ofNullable(UNWAXED_TO_WAXED_BLOCKS.get().get(state.getBlock())).map(block -> block.getStateWithProperties(state));
+    }
+
+    public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
+        this.tickDegradation(state, world, pos, random);
+    }
 
     @Override
     public boolean hasRandomTicks(BlockState state) {

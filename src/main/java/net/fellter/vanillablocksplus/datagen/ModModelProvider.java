@@ -210,6 +210,22 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ORANGE_WOOL);
         BlockStateModelGenerator.BlockTexturePool yellowWoolPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.YELLOW_WOOL);
+        BlockStateModelGenerator.BlockTexturePool limeWoolPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIME_WOOL);
+        BlockStateModelGenerator.BlockTexturePool greenWoolPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GREEN_WOOL);
+        BlockStateModelGenerator.BlockTexturePool cyanWoolPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CYAN_WOOL);
+        BlockStateModelGenerator.BlockTexturePool blueWoolPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLUE_WOOL);
+        BlockStateModelGenerator.BlockTexturePool lightBlueWoolPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_WOOL);
+        BlockStateModelGenerator.BlockTexturePool purpleWoolPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPLE_WOOL);
+        BlockStateModelGenerator.BlockTexturePool magentaWoolPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_WOOL);
+        BlockStateModelGenerator.BlockTexturePool pinkWoolPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_WOOL);
 
 
 
@@ -930,6 +946,70 @@ public class ModModelProvider extends FabricModelProvider {
         yellowWoolPool.fence(ModBlocks.YELLOW_WOOL_FENCE);
         yellowWoolPool.fenceGate(ModBlocks.YELLOW_WOOL_FENCE_GATE);
         yellowWoolPool.pressurePlate(ModBlocks.YELLOW_WOOL_PRESSURE_PLATE);
+        //lime_wool
+        limeWoolPool.button(ModBlocks.LIME_WOOL_BUTTON);
+        limeWoolPool.wall(ModBlocks.LIME_WOOL_WALL);
+        limeWoolPool.slab(ModBlocks.LIME_WOOL_SLAB);
+        limeWoolPool.stairs(ModBlocks.LIME_WOOL_STAIRS);
+        limeWoolPool.fence(ModBlocks.LIME_WOOL_FENCE);
+        limeWoolPool.fenceGate(ModBlocks.LIME_WOOL_FENCE_GATE);
+        limeWoolPool.pressurePlate(ModBlocks.LIME_WOOL_PRESSURE_PLATE);
+        //green_wool
+        greenWoolPool.button(ModBlocks.GREEN_WOOL_BUTTON);
+        greenWoolPool.wall(ModBlocks.GREEN_WOOL_WALL);
+        greenWoolPool.slab(ModBlocks.GREEN_WOOL_SLAB);
+        greenWoolPool.stairs(ModBlocks.GREEN_WOOL_STAIRS);
+        greenWoolPool.fence(ModBlocks.GREEN_WOOL_FENCE);
+        greenWoolPool.fenceGate(ModBlocks.GREEN_WOOL_FENCE_GATE);
+        greenWoolPool.pressurePlate(ModBlocks.GREEN_WOOL_PRESSURE_PLATE);
+        //cyan_wool
+        cyanWoolPool.button(ModBlocks.CYAN_WOOL_BUTTON);
+        cyanWoolPool.wall(ModBlocks.CYAN_WOOL_WALL);
+        cyanWoolPool.slab(ModBlocks.CYAN_WOOL_SLAB);
+        cyanWoolPool.stairs(ModBlocks.CYAN_WOOL_STAIRS);
+        cyanWoolPool.fence(ModBlocks.CYAN_WOOL_FENCE);
+        cyanWoolPool.fenceGate(ModBlocks.CYAN_WOOL_FENCE_GATE);
+        cyanWoolPool.pressurePlate(ModBlocks.CYAN_WOOL_PRESSURE_PLATE);
+        //blue_wool
+        blueWoolPool.button(ModBlocks.BLUE_WOOL_BUTTON);
+        blueWoolPool.wall(ModBlocks.BLUE_WOOL_WALL);
+        blueWoolPool.slab(ModBlocks.BLUE_WOOL_SLAB);
+        blueWoolPool.stairs(ModBlocks.BLUE_WOOL_STAIRS);
+        blueWoolPool.fence(ModBlocks.BLUE_WOOL_FENCE);
+        blueWoolPool.fenceGate(ModBlocks.BLUE_WOOL_FENCE_GATE);
+        blueWoolPool.pressurePlate(ModBlocks.BLUE_WOOL_PRESSURE_PLATE);
+        //light_blue_wool
+        lightBlueWoolPool.button(ModBlocks.LIGHT_BLUE_WOOL_BUTTON);
+        lightBlueWoolPool.wall(ModBlocks.LIGHT_BLUE_WOOL_WALL);
+        lightBlueWoolPool.slab(ModBlocks.LIGHT_BLUE_WOOL_SLAB);
+        lightBlueWoolPool.stairs(ModBlocks.LIGHT_BLUE_WOOL_STAIRS);
+        lightBlueWoolPool.fence(ModBlocks.LIGHT_BLUE_WOOL_FENCE);
+        lightBlueWoolPool.fenceGate(ModBlocks.LIGHT_BLUE_WOOL_FENCE_GATE);
+        lightBlueWoolPool.pressurePlate(ModBlocks.LIGHT_BLUE_WOOL_PRESSURE_PLATE);
+        //purple_wool
+        purpleWoolPool.button(ModBlocks.PURPLE_WOOL_BUTTON);
+        purpleWoolPool.wall(ModBlocks.PURPLE_WOOL_WALL);
+        purpleWoolPool.slab(ModBlocks.PURPLE_WOOL_SLAB);
+        purpleWoolPool.stairs(ModBlocks.PURPLE_WOOL_STAIRS);
+        purpleWoolPool.fence(ModBlocks.PURPLE_WOOL_FENCE);
+        purpleWoolPool.fenceGate(ModBlocks.PURPLE_WOOL_FENCE_GATE);
+        purpleWoolPool.pressurePlate(ModBlocks.PURPLE_WOOL_PRESSURE_PLATE);
+        //magenta_wool
+        magentaWoolPool.button(ModBlocks.MAGENTA_WOOL_BUTTON);
+        magentaWoolPool.wall(ModBlocks.MAGENTA_WOOL_WALL);
+        magentaWoolPool.slab(ModBlocks.MAGENTA_WOOL_SLAB);
+        magentaWoolPool.stairs(ModBlocks.MAGENTA_WOOL_STAIRS);
+        magentaWoolPool.fence(ModBlocks.MAGENTA_WOOL_FENCE);
+        magentaWoolPool.fenceGate(ModBlocks.MAGENTA_WOOL_FENCE_GATE);
+        magentaWoolPool.pressurePlate(ModBlocks.MAGENTA_WOOL_PRESSURE_PLATE);
+        //pink_wool
+        pinkWoolPool.button(ModBlocks.PINK_WOOL_BUTTON);
+        pinkWoolPool.wall(ModBlocks.PINK_WOOL_WALL);
+        pinkWoolPool.slab(ModBlocks.PINK_WOOL_SLAB);
+        pinkWoolPool.stairs(ModBlocks.PINK_WOOL_STAIRS);
+        pinkWoolPool.fence(ModBlocks.PINK_WOOL_FENCE);
+        pinkWoolPool.fenceGate(ModBlocks.PINK_WOOL_FENCE_GATE);
+        pinkWoolPool.pressurePlate(ModBlocks.PINK_WOOL_PRESSURE_PLATE);
 
 
 
@@ -1251,6 +1331,30 @@ public class ModModelProvider extends FabricModelProvider {
         //yellow_wool
         blockStateModelGenerator.registerDoor(ModBlocks.YELLOW_WOOL_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.YELLOW_WOOL_TRAPDOOR);
+        //lime_wool
+        blockStateModelGenerator.registerDoor(ModBlocks.LIME_WOOL_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIME_WOOL_TRAPDOOR);
+        //green_wool
+        blockStateModelGenerator.registerDoor(ModBlocks.GREEN_WOOL_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GREEN_WOOL_TRAPDOOR);
+        //cyan_wool
+        blockStateModelGenerator.registerDoor(ModBlocks.CYAN_WOOL_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CYAN_WOOL_TRAPDOOR);
+        //blue_wool
+        blockStateModelGenerator.registerDoor(ModBlocks.BLUE_WOOL_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLUE_WOOL_TRAPDOOR);
+        //light_blue_wool
+        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_BLUE_WOOL_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_BLUE_WOOL_TRAPDOOR);
+        //purple_wool
+        blockStateModelGenerator.registerDoor(ModBlocks.PURPLE_WOOL_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PURPLE_WOOL_TRAPDOOR);
+        //magenta_wool
+        blockStateModelGenerator.registerDoor(ModBlocks.MAGENTA_WOOL_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.MAGENTA_WOOL_TRAPDOOR);
+        //pink_wool
+        blockStateModelGenerator.registerDoor(ModBlocks.PINK_WOOL_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PINK_WOOL_TRAPDOOR);
 
 
 

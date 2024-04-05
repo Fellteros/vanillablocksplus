@@ -2715,6 +2715,238 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.YELLOW_WOOL), conditionsFromItem(Blocks.YELLOW_WOOL))
                 .offerTo(exporter);
 
+        //lime_wool
+        ModRecipes.createDoorRecipe(ModBlocks.LIME_WOOL_DOOR, Ingredient.ofItems(Blocks.LIME_WOOL))
+                .criterion(hasItem(Blocks.LIME_WOOL), conditionsFromItem(Blocks.LIME_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIME_WOOL_SLAB, Ingredient.ofItems(Blocks.LIME_WOOL))
+                .criterion(hasItem(Blocks.LIME_WOOL), conditionsFromItem(Blocks.LIME_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.LIME_WOOL_STAIRS, Ingredient.ofItems(Blocks.LIME_WOOL))
+                .criterion(hasItem(Blocks.LIME_WOOL), conditionsFromItem(Blocks.LIME_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.LIME_WOOL_FENCE, Ingredient.ofItems(Blocks.LIME_WOOL), Ingredient.ofItems(ModBlocks.LIME_WOOL_SLAB), 3)
+                .criterion(hasItem(Blocks.LIME_WOOL), conditionsFromItem(Blocks.LIME_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.LIME_WOOL_FENCE_GATE, Ingredient.ofItems(Blocks.LIME_WOOL), Ingredient.ofItems(ModBlocks.LIME_WOOL_SLAB), 1)
+                .criterion(hasItem(Blocks.LIME_WOOL), conditionsFromItem(Blocks.LIME_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.LIME_WOOL_TRAPDOOR, Ingredient.ofItems(ModBlocks.LIME_WOOL_SLAB))
+                .criterion(hasItem(Blocks.LIME_WOOL), conditionsFromItem(Blocks.LIME_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIME_WOOL_PRESSURE_PLATE, Ingredient.ofItems(ModBlocks.LIME_WOOL_SLAB))
+                .criterion(hasItem(Blocks.LIME_WOOL), conditionsFromItem(Blocks.LIME_WOOL))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIME_WOOL_BUTTON, Blocks.LIME_WOOL, 1)
+                .criterion(hasItem(Blocks.LIME_WOOL), conditionsFromItem(Blocks.LIME_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIME_WOOL_WALL, Ingredient.ofItems(Blocks.LIME_WOOL))
+                .criterion(hasItem(Blocks.LIME_WOOL), conditionsFromItem(Blocks.LIME_WOOL))
+                .offerTo(exporter);
+
+        //green_wool
+        ModRecipes.createDoorRecipe(ModBlocks.GREEN_WOOL_DOOR, Ingredient.ofItems(Blocks.GREEN_WOOL))
+                .criterion(hasItem(Blocks.GREEN_WOOL), conditionsFromItem(Blocks.GREEN_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.GREEN_WOOL_SLAB, Ingredient.ofItems(Blocks.GREEN_WOOL))
+                .criterion(hasItem(Blocks.GREEN_WOOL), conditionsFromItem(Blocks.GREEN_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.GREEN_WOOL_STAIRS, Ingredient.ofItems(Blocks.GREEN_WOOL))
+                .criterion(hasItem(Blocks.GREEN_WOOL), conditionsFromItem(Blocks.GREEN_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.GREEN_WOOL_FENCE, Ingredient.ofItems(Blocks.GREEN_WOOL), Ingredient.ofItems(ModBlocks.GREEN_WOOL_SLAB), 3)
+                .criterion(hasItem(Blocks.GREEN_WOOL), conditionsFromItem(Blocks.GREEN_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.GREEN_WOOL_FENCE_GATE, Ingredient.ofItems(Blocks.GREEN_WOOL), Ingredient.ofItems(ModBlocks.GREEN_WOOL_SLAB), 1)
+                .criterion(hasItem(Blocks.GREEN_WOOL), conditionsFromItem(Blocks.GREEN_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.GREEN_WOOL_TRAPDOOR, Ingredient.ofItems(ModBlocks.GREEN_WOOL_SLAB))
+                .criterion(hasItem(Blocks.GREEN_WOOL), conditionsFromItem(Blocks.GREEN_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.GREEN_WOOL_PRESSURE_PLATE, Ingredient.ofItems(ModBlocks.GREEN_WOOL_SLAB))
+                .criterion(hasItem(Blocks.GREEN_WOOL), conditionsFromItem(Blocks.GREEN_WOOL))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.GREEN_WOOL_BUTTON, Blocks.GREEN_WOOL, 1)
+                .criterion(hasItem(Blocks.GREEN_WOOL), conditionsFromItem(Blocks.GREEN_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.GREEN_WOOL_WALL, Ingredient.ofItems(Blocks.GREEN_WOOL))
+                .criterion(hasItem(Blocks.GREEN_WOOL), conditionsFromItem(Blocks.GREEN_WOOL))
+                .offerTo(exporter);
+
+        //cyan_wool
+        ModRecipes.createDoorRecipe(ModBlocks.CYAN_WOOL_DOOR, Ingredient.ofItems(Blocks.CYAN_WOOL))
+                .criterion(hasItem(Blocks.CYAN_WOOL), conditionsFromItem(Blocks.CYAN_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.CYAN_WOOL_SLAB, Ingredient.ofItems(Blocks.CYAN_WOOL))
+                .criterion(hasItem(Blocks.CYAN_WOOL), conditionsFromItem(Blocks.CYAN_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.CYAN_WOOL_STAIRS, Ingredient.ofItems(Blocks.CYAN_WOOL))
+                .criterion(hasItem(Blocks.CYAN_WOOL), conditionsFromItem(Blocks.CYAN_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.CYAN_WOOL_FENCE, Ingredient.ofItems(Blocks.CYAN_WOOL), Ingredient.ofItems(ModBlocks.CYAN_WOOL_SLAB), 3)
+                .criterion(hasItem(Blocks.CYAN_WOOL), conditionsFromItem(Blocks.CYAN_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.CYAN_WOOL_FENCE_GATE, Ingredient.ofItems(Blocks.CYAN_WOOL), Ingredient.ofItems(ModBlocks.CYAN_WOOL_SLAB), 1)
+                .criterion(hasItem(Blocks.CYAN_WOOL), conditionsFromItem(Blocks.CYAN_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.CYAN_WOOL_TRAPDOOR, Ingredient.ofItems(ModBlocks.CYAN_WOOL_SLAB))
+                .criterion(hasItem(Blocks.CYAN_WOOL), conditionsFromItem(Blocks.CYAN_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.CYAN_WOOL_PRESSURE_PLATE, Ingredient.ofItems(ModBlocks.CYAN_WOOL_SLAB))
+                .criterion(hasItem(Blocks.CYAN_WOOL), conditionsFromItem(Blocks.CYAN_WOOL))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.CYAN_WOOL_BUTTON, Blocks.CYAN_WOOL, 1)
+                .criterion(hasItem(Blocks.CYAN_WOOL), conditionsFromItem(Blocks.CYAN_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.CYAN_WOOL_WALL, Ingredient.ofItems(Blocks.CYAN_WOOL))
+                .criterion(hasItem(Blocks.CYAN_WOOL), conditionsFromItem(Blocks.CYAN_WOOL))
+                .offerTo(exporter);
+
+        //blue_wool
+        ModRecipes.createDoorRecipe(ModBlocks.BLUE_WOOL_DOOR, Ingredient.ofItems(Blocks.BLUE_WOOL))
+                .criterion(hasItem(Blocks.BLUE_WOOL), conditionsFromItem(Blocks.BLUE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLUE_WOOL_SLAB, Ingredient.ofItems(Blocks.BLUE_WOOL))
+                .criterion(hasItem(Blocks.BLUE_WOOL), conditionsFromItem(Blocks.BLUE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.BLUE_WOOL_STAIRS, Ingredient.ofItems(Blocks.BLUE_WOOL))
+                .criterion(hasItem(Blocks.BLUE_WOOL), conditionsFromItem(Blocks.BLUE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.BLUE_WOOL_FENCE, Ingredient.ofItems(Blocks.BLUE_WOOL), Ingredient.ofItems(ModBlocks.BLUE_WOOL_SLAB), 3)
+                .criterion(hasItem(Blocks.BLUE_WOOL), conditionsFromItem(Blocks.BLUE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.BLUE_WOOL_FENCE_GATE, Ingredient.ofItems(Blocks.BLUE_WOOL), Ingredient.ofItems(ModBlocks.BLUE_WOOL_SLAB), 1)
+                .criterion(hasItem(Blocks.BLUE_WOOL), conditionsFromItem(Blocks.BLUE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.BLUE_WOOL_TRAPDOOR, Ingredient.ofItems(ModBlocks.BLUE_WOOL_SLAB))
+                .criterion(hasItem(Blocks.BLUE_WOOL), conditionsFromItem(Blocks.BLUE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLUE_WOOL_PRESSURE_PLATE, Ingredient.ofItems(ModBlocks.BLUE_WOOL_SLAB))
+                .criterion(hasItem(Blocks.BLUE_WOOL), conditionsFromItem(Blocks.BLUE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLUE_WOOL_BUTTON, Blocks.BLUE_WOOL, 1)
+                .criterion(hasItem(Blocks.BLUE_WOOL), conditionsFromItem(Blocks.BLUE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLUE_WOOL_WALL, Ingredient.ofItems(Blocks.BLUE_WOOL))
+                .criterion(hasItem(Blocks.BLUE_WOOL), conditionsFromItem(Blocks.BLUE_WOOL))
+                .offerTo(exporter);
+
+        //light_blue_wool
+        ModRecipes.createDoorRecipe(ModBlocks.LIGHT_BLUE_WOOL_DOOR, Ingredient.ofItems(Blocks.LIGHT_BLUE_WOOL))
+                .criterion(hasItem(Blocks.LIGHT_BLUE_WOOL), conditionsFromItem(Blocks.LIGHT_BLUE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_BLUE_WOOL_SLAB, Ingredient.ofItems(Blocks.LIGHT_BLUE_WOOL))
+                .criterion(hasItem(Blocks.LIGHT_BLUE_WOOL), conditionsFromItem(Blocks.LIGHT_BLUE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.LIGHT_BLUE_WOOL_STAIRS, Ingredient.ofItems(Blocks.LIGHT_BLUE_WOOL))
+                .criterion(hasItem(Blocks.LIGHT_BLUE_WOOL), conditionsFromItem(Blocks.LIGHT_BLUE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.LIGHT_BLUE_WOOL_FENCE, Ingredient.ofItems(Blocks.LIGHT_BLUE_WOOL), Ingredient.ofItems(ModBlocks.LIGHT_BLUE_WOOL_SLAB), 3)
+                .criterion(hasItem(Blocks.LIGHT_BLUE_WOOL), conditionsFromItem(Blocks.LIGHT_BLUE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.LIGHT_BLUE_WOOL_FENCE_GATE, Ingredient.ofItems(Blocks.LIGHT_BLUE_WOOL), Ingredient.ofItems(ModBlocks.LIGHT_BLUE_WOOL_SLAB), 1)
+                .criterion(hasItem(Blocks.LIGHT_BLUE_WOOL), conditionsFromItem(Blocks.LIGHT_BLUE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.LIGHT_BLUE_WOOL_TRAPDOOR, Ingredient.ofItems(ModBlocks.LIGHT_BLUE_WOOL_SLAB))
+                .criterion(hasItem(Blocks.LIGHT_BLUE_WOOL), conditionsFromItem(Blocks.LIGHT_BLUE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_BLUE_WOOL_PRESSURE_PLATE, Ingredient.ofItems(ModBlocks.LIGHT_BLUE_WOOL_SLAB))
+                .criterion(hasItem(Blocks.LIGHT_BLUE_WOOL), conditionsFromItem(Blocks.LIGHT_BLUE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_BLUE_WOOL_BUTTON, Blocks.LIGHT_BLUE_WOOL, 1)
+                .criterion(hasItem(Blocks.LIGHT_BLUE_WOOL), conditionsFromItem(Blocks.LIGHT_BLUE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_BLUE_WOOL_WALL, Ingredient.ofItems(Blocks.LIGHT_BLUE_WOOL))
+                .criterion(hasItem(Blocks.LIGHT_BLUE_WOOL), conditionsFromItem(Blocks.LIGHT_BLUE_WOOL))
+                .offerTo(exporter);
+
+        //purple_wool
+        ModRecipes.createDoorRecipe(ModBlocks.PURPLE_WOOL_DOOR, Ingredient.ofItems(Blocks.PURPLE_WOOL))
+                .criterion(hasItem(Blocks.PURPLE_WOOL), conditionsFromItem(Blocks.PURPLE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.PURPLE_WOOL_SLAB, Ingredient.ofItems(Blocks.PURPLE_WOOL))
+                .criterion(hasItem(Blocks.PURPLE_WOOL), conditionsFromItem(Blocks.PURPLE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.PURPLE_WOOL_STAIRS, Ingredient.ofItems(Blocks.PURPLE_WOOL))
+                .criterion(hasItem(Blocks.PURPLE_WOOL), conditionsFromItem(Blocks.PURPLE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.PURPLE_WOOL_FENCE, Ingredient.ofItems(Blocks.PURPLE_WOOL), Ingredient.ofItems(ModBlocks.PURPLE_WOOL_SLAB), 3)
+                .criterion(hasItem(Blocks.PURPLE_WOOL), conditionsFromItem(Blocks.PURPLE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.PURPLE_WOOL_FENCE_GATE, Ingredient.ofItems(Blocks.PURPLE_WOOL), Ingredient.ofItems(ModBlocks.PURPLE_WOOL_SLAB), 1)
+                .criterion(hasItem(Blocks.PURPLE_WOOL), conditionsFromItem(Blocks.PURPLE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.PURPLE_WOOL_TRAPDOOR, Ingredient.ofItems(ModBlocks.PURPLE_WOOL_SLAB))
+                .criterion(hasItem(Blocks.PURPLE_WOOL), conditionsFromItem(Blocks.PURPLE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.PURPLE_WOOL_PRESSURE_PLATE, Ingredient.ofItems(ModBlocks.PURPLE_WOOL_SLAB))
+                .criterion(hasItem(Blocks.PURPLE_WOOL), conditionsFromItem(Blocks.PURPLE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.PURPLE_WOOL_BUTTON, Blocks.PURPLE_WOOL, 1)
+                .criterion(hasItem(Blocks.PURPLE_WOOL), conditionsFromItem(Blocks.PURPLE_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.PURPLE_WOOL_WALL, Ingredient.ofItems(Blocks.PURPLE_WOOL))
+                .criterion(hasItem(Blocks.PURPLE_WOOL), conditionsFromItem(Blocks.PURPLE_WOOL))
+                .offerTo(exporter);
+
+        //magenta_wool
+        ModRecipes.createDoorRecipe(ModBlocks.MAGENTA_WOOL_DOOR, Ingredient.ofItems(Blocks.MAGENTA_WOOL))
+                .criterion(hasItem(Blocks.MAGENTA_WOOL), conditionsFromItem(Blocks.MAGENTA_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.MAGENTA_WOOL_SLAB, Ingredient.ofItems(Blocks.MAGENTA_WOOL))
+                .criterion(hasItem(Blocks.MAGENTA_WOOL), conditionsFromItem(Blocks.MAGENTA_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.MAGENTA_WOOL_STAIRS, Ingredient.ofItems(Blocks.MAGENTA_WOOL))
+                .criterion(hasItem(Blocks.MAGENTA_WOOL), conditionsFromItem(Blocks.MAGENTA_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.MAGENTA_WOOL_FENCE, Ingredient.ofItems(Blocks.MAGENTA_WOOL), Ingredient.ofItems(ModBlocks.MAGENTA_WOOL_SLAB), 3)
+                .criterion(hasItem(Blocks.MAGENTA_WOOL), conditionsFromItem(Blocks.MAGENTA_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.MAGENTA_WOOL_FENCE_GATE, Ingredient.ofItems(Blocks.MAGENTA_WOOL), Ingredient.ofItems(ModBlocks.MAGENTA_WOOL_SLAB), 1)
+                .criterion(hasItem(Blocks.MAGENTA_WOOL), conditionsFromItem(Blocks.MAGENTA_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.MAGENTA_WOOL_TRAPDOOR, Ingredient.ofItems(ModBlocks.MAGENTA_WOOL_SLAB))
+                .criterion(hasItem(Blocks.MAGENTA_WOOL), conditionsFromItem(Blocks.MAGENTA_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.MAGENTA_WOOL_PRESSURE_PLATE, Ingredient.ofItems(ModBlocks.MAGENTA_WOOL_SLAB))
+                .criterion(hasItem(Blocks.MAGENTA_WOOL), conditionsFromItem(Blocks.MAGENTA_WOOL))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.MAGENTA_WOOL_BUTTON, Blocks.MAGENTA_WOOL, 1)
+                .criterion(hasItem(Blocks.MAGENTA_WOOL), conditionsFromItem(Blocks.MAGENTA_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.MAGENTA_WOOL_WALL, Ingredient.ofItems(Blocks.MAGENTA_WOOL))
+                .criterion(hasItem(Blocks.MAGENTA_WOOL), conditionsFromItem(Blocks.MAGENTA_WOOL))
+                .offerTo(exporter);
+
+        //pink_wool
+        ModRecipes.createDoorRecipe(ModBlocks.PINK_WOOL_DOOR, Ingredient.ofItems(Blocks.PINK_WOOL))
+                .criterion(hasItem(Blocks.PINK_WOOL), conditionsFromItem(Blocks.PINK_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.PINK_WOOL_SLAB, Ingredient.ofItems(Blocks.PINK_WOOL))
+                .criterion(hasItem(Blocks.PINK_WOOL), conditionsFromItem(Blocks.PINK_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.PINK_WOOL_STAIRS, Ingredient.ofItems(Blocks.PINK_WOOL))
+                .criterion(hasItem(Blocks.PINK_WOOL), conditionsFromItem(Blocks.PINK_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.PINK_WOOL_FENCE, Ingredient.ofItems(Blocks.PINK_WOOL), Ingredient.ofItems(ModBlocks.PINK_WOOL_SLAB), 3)
+                .criterion(hasItem(Blocks.PINK_WOOL), conditionsFromItem(Blocks.PINK_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.PINK_WOOL_FENCE_GATE, Ingredient.ofItems(Blocks.PINK_WOOL), Ingredient.ofItems(ModBlocks.PINK_WOOL_SLAB), 1)
+                .criterion(hasItem(Blocks.PINK_WOOL), conditionsFromItem(Blocks.PINK_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.PINK_WOOL_TRAPDOOR, Ingredient.ofItems(ModBlocks.PINK_WOOL_SLAB))
+                .criterion(hasItem(Blocks.PINK_WOOL), conditionsFromItem(Blocks.PINK_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.PINK_WOOL_PRESSURE_PLATE, Ingredient.ofItems(ModBlocks.PINK_WOOL_SLAB))
+                .criterion(hasItem(Blocks.PINK_WOOL), conditionsFromItem(Blocks.PINK_WOOL))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.PINK_WOOL_BUTTON, Blocks.PINK_WOOL, 1)
+                .criterion(hasItem(Blocks.PINK_WOOL), conditionsFromItem(Blocks.PINK_WOOL))
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.PINK_WOOL_WALL, Ingredient.ofItems(Blocks.PINK_WOOL))
+                .criterion(hasItem(Blocks.PINK_WOOL), conditionsFromItem(Blocks.PINK_WOOL))
+                .offerTo(exporter);
+
 
 
 

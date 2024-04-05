@@ -104,6 +104,13 @@
     "vanillablocksplus:black_wool_fence_gate",
     "vanillablocksplus:brown_wool_fence_gate",
     "vanillablocksplus:orange_wool_fence_gate",
-    "vanillablocksplus:yellow_wool_fence_gate"
+    "vanillablocksplus:yellow_wool_fence_gate",
+    "vanillablocksplus:lime_wool_fence_gate",
+    "vanillablocksplus:cyan_wool_fence_gate",
+    "vanillablocksplus:blue_wool_fence_gate",
+    "vanillablocksplus:light_blue_wool_fence_gate",
+    "vanillablocksplus:purple_wool_fence_gate",
+    "vanillablocksplus:magenta_wool_fence_gate",
+    "vanillablocksplus:pink_wool_fence_gate"
   ]
 }
