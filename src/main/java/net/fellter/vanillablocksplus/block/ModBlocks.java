@@ -3576,6 +3576,486 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.PINK_TERRACOTTA)
                     .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
 
+    //white_concrete
+    public static final Block WHITE_CONCRETE_STAIRS = registerBlock("white_concrete_stairs",
+            new StairsBlock(Blocks.WHITE_CONCRETE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block WHITE_CONCRETE_SLAB = registerBlock("white_concrete_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block WHITE_CONCRETE_BUTTON = registerBlock("white_concrete_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE, 10, false));
+    public static final Block WHITE_CONCRETE_PRESSURE_PLATE = registerBlock("white_concrete_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block WHITE_CONCRETE_FENCE = registerBlock("white_concrete_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block WHITE_CONCRETE_FENCE_GATE = registerBlock("white_concrete_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), WoodType.OAK));
+    public static final Block WHITE_CONCRETE_DOOR = registerBlock("white_concrete_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block WHITE_CONCRETE_TRAPDOOR = registerBlock("white_concrete_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block WHITE_CONCRETE_WALL = registerBlock("white_concrete_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+
+    //light_gray_concrete
+    public static final Block LIGHT_GRAY_CONCRETE_STAIRS = registerBlock("light_gray_concrete_stairs",
+            new StairsBlock(Blocks.LIGHT_GRAY_CONCRETE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block LIGHT_GRAY_CONCRETE_SLAB = registerBlock("light_gray_concrete_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block LIGHT_GRAY_CONCRETE_BUTTON = registerBlock("light_gray_concrete_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE, 10, false));
+    public static final Block LIGHT_GRAY_CONCRETE_PRESSURE_PLATE = registerBlock("light_gray_concrete_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block LIGHT_GRAY_CONCRETE_FENCE = registerBlock("light_gray_concrete_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block LIGHT_GRAY_CONCRETE_FENCE_GATE = registerBlock("light_gray_concrete_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), WoodType.OAK));
+    public static final Block LIGHT_GRAY_CONCRETE_DOOR = registerBlock("light_gray_concrete_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block LIGHT_GRAY_CONCRETE_TRAPDOOR = registerBlock("light_gray_concrete_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block LIGHT_GRAY_CONCRETE_WALL = registerBlock("light_gray_concrete_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+
+    //gray_concrete
+    public static final Block GRAY_CONCRETE_STAIRS = registerBlock("gray_concrete_stairs",
+            new StairsBlock(Blocks.GRAY_CONCRETE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block GRAY_CONCRETE_SLAB = registerBlock("gray_concrete_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block GRAY_CONCRETE_BUTTON = registerBlock("gray_concrete_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE, 10, false));
+    public static final Block GRAY_CONCRETE_PRESSURE_PLATE = registerBlock("gray_concrete_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block GRAY_CONCRETE_FENCE = registerBlock("gray_concrete_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block GRAY_CONCRETE_FENCE_GATE = registerBlock("gray_concrete_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), WoodType.OAK));
+    public static final Block GRAY_CONCRETE_DOOR = registerBlock("gray_concrete_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block GRAY_CONCRETE_TRAPDOOR = registerBlock("gray_concrete_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block GRAY_CONCRETE_WALL = registerBlock("gray_concrete_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+
+    //black_concrete
+    public static final Block BLACK_CONCRETE_STAIRS = registerBlock("black_concrete_stairs",
+            new StairsBlock(Blocks.BLACK_CONCRETE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block BLACK_CONCRETE_SLAB = registerBlock("black_concrete_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block BLACK_CONCRETE_BUTTON = registerBlock("black_concrete_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE, 10, false));
+    public static final Block BLACK_CONCRETE_PRESSURE_PLATE = registerBlock("black_concrete_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block BLACK_CONCRETE_FENCE = registerBlock("black_concrete_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block BLACK_CONCRETE_FENCE_GATE = registerBlock("black_concrete_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), WoodType.OAK));
+    public static final Block BLACK_CONCRETE_DOOR = registerBlock("black_concrete_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block BLACK_CONCRETE_TRAPDOOR = registerBlock("black_concrete_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block BLACK_CONCRETE_WALL = registerBlock("black_concrete_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+
+    //brown_concrete
+    public static final Block BROWN_CONCRETE_STAIRS = registerBlock("brown_concrete_stairs",
+            new StairsBlock(Blocks.BROWN_CONCRETE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block BROWN_CONCRETE_SLAB = registerBlock("brown_concrete_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block BROWN_CONCRETE_BUTTON = registerBlock("brown_concrete_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE, 10, false));
+    public static final Block BROWN_CONCRETE_PRESSURE_PLATE = registerBlock("brown_concrete_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block BROWN_CONCRETE_FENCE = registerBlock("brown_concrete_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block BROWN_CONCRETE_FENCE_GATE = registerBlock("brown_concrete_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), WoodType.OAK));
+    public static final Block BROWN_CONCRETE_DOOR = registerBlock("brown_concrete_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block BROWN_CONCRETE_TRAPDOOR = registerBlock("brown_concrete_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block BROWN_CONCRETE_WALL = registerBlock("brown_concrete_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+
+    //red_concrete
+    public static final Block RED_CONCRETE_STAIRS = registerBlock("red_concrete_stairs",
+            new StairsBlock(Blocks.RED_CONCRETE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.RED_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block RED_CONCRETE_SLAB = registerBlock("red_concrete_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.RED_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block RED_CONCRETE_BUTTON = registerBlock("red_concrete_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.RED_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE, 10, false));
+    public static final Block RED_CONCRETE_PRESSURE_PLATE = registerBlock("red_concrete_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.RED_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block RED_CONCRETE_FENCE = registerBlock("red_concrete_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.RED_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block RED_CONCRETE_FENCE_GATE = registerBlock("red_concrete_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.RED_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), WoodType.OAK));
+    public static final Block RED_CONCRETE_DOOR = registerBlock("red_concrete_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.RED_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block RED_CONCRETE_TRAPDOOR = registerBlock("red_concrete_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.RED_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block RED_CONCRETE_WALL = registerBlock("red_concrete_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.RED_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+
+    //orange_concrete
+    public static final Block ORANGE_CONCRETE_STAIRS = registerBlock("orange_concrete_stairs",
+            new StairsBlock(Blocks.ORANGE_CONCRETE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block ORANGE_CONCRETE_SLAB = registerBlock("orange_concrete_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block ORANGE_CONCRETE_BUTTON = registerBlock("orange_concrete_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE, 10, false));
+    public static final Block ORANGE_CONCRETE_PRESSURE_PLATE = registerBlock("orange_concrete_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block ORANGE_CONCRETE_FENCE = registerBlock("orange_concrete_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block ORANGE_CONCRETE_FENCE_GATE = registerBlock("orange_concrete_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), WoodType.OAK));
+    public static final Block ORANGE_CONCRETE_DOOR = registerBlock("orange_concrete_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block ORANGE_CONCRETE_TRAPDOOR = registerBlock("orange_concrete_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block ORANGE_CONCRETE_WALL = registerBlock("orange_concrete_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+
+    //yellow_concrete
+    public static final Block YELLOW_CONCRETE_STAIRS = registerBlock("yellow_concrete_stairs",
+            new StairsBlock(Blocks.YELLOW_CONCRETE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block YELLOW_CONCRETE_SLAB = registerBlock("yellow_concrete_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block YELLOW_CONCRETE_BUTTON = registerBlock("yellow_concrete_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE, 10, false));
+    public static final Block YELLOW_CONCRETE_PRESSURE_PLATE = registerBlock("yellow_concrete_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block YELLOW_CONCRETE_FENCE = registerBlock("yellow_concrete_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block YELLOW_CONCRETE_FENCE_GATE = registerBlock("yellow_concrete_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), WoodType.OAK));
+    public static final Block YELLOW_CONCRETE_DOOR = registerBlock("yellow_concrete_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block YELLOW_CONCRETE_TRAPDOOR = registerBlock("yellow_concrete_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block YELLOW_CONCRETE_WALL = registerBlock("yellow_concrete_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+
+    //lime_concrete
+    public static final Block LIME_CONCRETE_STAIRS = registerBlock("lime_concrete_stairs",
+            new StairsBlock(Blocks.LIME_CONCRETE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block LIME_CONCRETE_SLAB = registerBlock("lime_concrete_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block LIME_CONCRETE_BUTTON = registerBlock("lime_concrete_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE, 10, false));
+    public static final Block LIME_CONCRETE_PRESSURE_PLATE = registerBlock("lime_concrete_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block LIME_CONCRETE_FENCE = registerBlock("lime_concrete_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block LIME_CONCRETE_FENCE_GATE = registerBlock("lime_concrete_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), WoodType.OAK));
+    public static final Block LIME_CONCRETE_DOOR = registerBlock("lime_concrete_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block LIME_CONCRETE_TRAPDOOR = registerBlock("lime_concrete_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block LIME_CONCRETE_WALL = registerBlock("lime_concrete_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+
+    //green_concrete
+    public static final Block GREEN_CONCRETE_STAIRS = registerBlock("green_concrete_stairs",
+            new StairsBlock(Blocks.GREEN_CONCRETE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block GREEN_CONCRETE_SLAB = registerBlock("green_concrete_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block GREEN_CONCRETE_BUTTON = registerBlock("green_concrete_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE, 10, false));
+    public static final Block GREEN_CONCRETE_PRESSURE_PLATE = registerBlock("green_concrete_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block GREEN_CONCRETE_FENCE = registerBlock("green_concrete_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block GREEN_CONCRETE_FENCE_GATE = registerBlock("green_concrete_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), WoodType.OAK));
+    public static final Block GREEN_CONCRETE_DOOR = registerBlock("green_concrete_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block GREEN_CONCRETE_TRAPDOOR = registerBlock("green_concrete_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block GREEN_CONCRETE_WALL = registerBlock("green_concrete_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+
+    //cyan_concrete
+    public static final Block CYAN_CONCRETE_STAIRS = registerBlock("cyan_concrete_stairs",
+            new StairsBlock(Blocks.CYAN_CONCRETE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block CYAN_CONCRETE_SLAB = registerBlock("cyan_concrete_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block CYAN_CONCRETE_BUTTON = registerBlock("cyan_concrete_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE, 10, false));
+    public static final Block CYAN_CONCRETE_PRESSURE_PLATE = registerBlock("cyan_concrete_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block CYAN_CONCRETE_FENCE = registerBlock("cyan_concrete_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block CYAN_CONCRETE_FENCE_GATE = registerBlock("cyan_concrete_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), WoodType.OAK));
+    public static final Block CYAN_CONCRETE_DOOR = registerBlock("cyan_concrete_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block CYAN_CONCRETE_TRAPDOOR = registerBlock("cyan_concrete_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block CYAN_CONCRETE_WALL = registerBlock("cyan_concrete_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+
+    //blue_concrete
+    public static final Block BLUE_CONCRETE_STAIRS = registerBlock("blue_concrete_stairs",
+            new StairsBlock(Blocks.BLUE_CONCRETE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block BLUE_CONCRETE_SLAB = registerBlock("blue_concrete_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block BLUE_CONCRETE_BUTTON = registerBlock("blue_concrete_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE, 10, false));
+    public static final Block BLUE_CONCRETE_PRESSURE_PLATE = registerBlock("blue_concrete_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block BLUE_CONCRETE_FENCE = registerBlock("blue_concrete_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block BLUE_CONCRETE_FENCE_GATE = registerBlock("blue_concrete_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), WoodType.OAK));
+    public static final Block BLUE_CONCRETE_DOOR = registerBlock("blue_concrete_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block BLUE_CONCRETE_TRAPDOOR = registerBlock("blue_concrete_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block BLUE_CONCRETE_WALL = registerBlock("blue_concrete_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+
+    //light_blue_concrete
+    public static final Block LIGHT_BLUE_CONCRETE_STAIRS = registerBlock("light_blue_concrete_stairs",
+            new StairsBlock(Blocks.LIGHT_BLUE_CONCRETE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block LIGHT_BLUE_CONCRETE_SLAB = registerBlock("light_blue_concrete_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block LIGHT_BLUE_CONCRETE_BUTTON = registerBlock("light_blue_concrete_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE, 10, false));
+    public static final Block LIGHT_BLUE_CONCRETE_PRESSURE_PLATE = registerBlock("light_blue_concrete_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block LIGHT_BLUE_CONCRETE_FENCE = registerBlock("light_blue_concrete_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block LIGHT_BLUE_CONCRETE_FENCE_GATE = registerBlock("light_blue_concrete_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), WoodType.OAK));
+    public static final Block LIGHT_BLUE_CONCRETE_DOOR = registerBlock("light_blue_concrete_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block LIGHT_BLUE_CONCRETE_TRAPDOOR = registerBlock("light_blue_concrete_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block LIGHT_BLUE_CONCRETE_WALL = registerBlock("light_blue_concrete_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+
+    //purple_concrete
+    public static final Block PURPLE_CONCRETE_STAIRS = registerBlock("purple_concrete_stairs",
+            new StairsBlock(Blocks.PURPLE_CONCRETE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block PURPLE_CONCRETE_SLAB = registerBlock("purple_concrete_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block PURPLE_CONCRETE_BUTTON = registerBlock("purple_concrete_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE, 10, false));
+    public static final Block PURPLE_CONCRETE_PRESSURE_PLATE = registerBlock("purple_concrete_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block PURPLE_CONCRETE_FENCE = registerBlock("purple_concrete_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block PURPLE_CONCRETE_FENCE_GATE = registerBlock("purple_concrete_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), WoodType.OAK));
+    public static final Block PURPLE_CONCRETE_DOOR = registerBlock("purple_concrete_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block PURPLE_CONCRETE_TRAPDOOR = registerBlock("purple_concrete_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block PURPLE_CONCRETE_WALL = registerBlock("purple_concrete_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+
+    //magenta_concrete
+    public static final Block MAGENTA_CONCRETE_STAIRS = registerBlock("magenta_concrete_stairs",
+            new StairsBlock(Blocks.MAGENTA_CONCRETE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block MAGENTA_CONCRETE_SLAB = registerBlock("magenta_concrete_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block MAGENTA_CONCRETE_BUTTON = registerBlock("magenta_concrete_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE, 10, false));
+    public static final Block MAGENTA_CONCRETE_PRESSURE_PLATE = registerBlock("magenta_concrete_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block MAGENTA_CONCRETE_FENCE = registerBlock("magenta_concrete_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block MAGENTA_CONCRETE_FENCE_GATE = registerBlock("magenta_concrete_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), WoodType.OAK));
+    public static final Block MAGENTA_CONCRETE_DOOR = registerBlock("magenta_concrete_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block MAGENTA_CONCRETE_TRAPDOOR = registerBlock("magenta_concrete_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block MAGENTA_CONCRETE_WALL = registerBlock("magenta_concrete_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+
+    //pink_concrete
+    public static final Block PINK_CONCRETE_STAIRS = registerBlock("pink_concrete_stairs",
+            new StairsBlock(Blocks.PINK_CONCRETE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block PINK_CONCRETE_SLAB = registerBlock("pink_concrete_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block PINK_CONCRETE_BUTTON = registerBlock("pink_concrete_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE, 10, false));
+    public static final Block PINK_CONCRETE_PRESSURE_PLATE = registerBlock("pink_concrete_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block PINK_CONCRETE_FENCE = registerBlock("pink_concrete_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+    public static final Block PINK_CONCRETE_FENCE_GATE = registerBlock("pink_concrete_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), WoodType.OAK));
+    public static final Block PINK_CONCRETE_DOOR = registerBlock("pink_concrete_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block PINK_CONCRETE_TRAPDOOR = registerBlock("pink_concrete_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f), BlockSetType.STONE));
+    public static final Block PINK_CONCRETE_WALL = registerBlock("pink_concrete_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE)
+                    .instrument(Instrument.BASEDRUM).strength(1.8f)));
+
 
 
 

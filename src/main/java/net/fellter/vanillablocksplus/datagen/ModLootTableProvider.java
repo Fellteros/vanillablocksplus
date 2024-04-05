@@ -1093,6 +1093,182 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PINK_TERRACOTTA_SLAB, slabDrops(ModBlocks.PINK_TERRACOTTA_SLAB));
         addDrop(ModBlocks.PINK_TERRACOTTA_WALL);
 
+        //white concrete
+        addDrop(ModBlocks.WHITE_CONCRETE_STAIRS);
+        addDrop(ModBlocks.WHITE_CONCRETE_TRAPDOOR);
+        addDrop(ModBlocks.WHITE_CONCRETE_BUTTON);
+        addDrop(ModBlocks.WHITE_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.WHITE_CONCRETE_FENCE);
+        addDrop(ModBlocks.WHITE_CONCRETE_FENCE_GATE);
+        addDrop(ModBlocks.WHITE_CONCRETE_DOOR, doorDrops(ModBlocks.WHITE_CONCRETE_DOOR));
+        addDrop(ModBlocks.WHITE_CONCRETE_SLAB, slabDrops(ModBlocks.WHITE_CONCRETE_SLAB));
+        addDrop(ModBlocks.WHITE_CONCRETE_WALL);
+
+        //light_gray_concrete
+        addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS);
+        addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_TRAPDOOR);
+        addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_BUTTON);
+        addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_FENCE);
+        addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_FENCE_GATE);
+        addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_DOOR, doorDrops(ModBlocks.LIGHT_GRAY_CONCRETE_DOOR));
+        addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB, slabDrops(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB));
+        addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_WALL);
+
+        //gray_concrete
+        addDrop(ModBlocks.GRAY_CONCRETE_STAIRS);
+        addDrop(ModBlocks.GRAY_CONCRETE_TRAPDOOR);
+        addDrop(ModBlocks.GRAY_CONCRETE_BUTTON);
+        addDrop(ModBlocks.GRAY_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.GRAY_CONCRETE_FENCE);
+        addDrop(ModBlocks.GRAY_CONCRETE_FENCE_GATE);
+        addDrop(ModBlocks.GRAY_CONCRETE_DOOR, doorDrops(ModBlocks.GRAY_CONCRETE_DOOR));
+        addDrop(ModBlocks.GRAY_CONCRETE_SLAB, slabDrops(ModBlocks.GRAY_CONCRETE_SLAB));
+        addDrop(ModBlocks.GRAY_CONCRETE_WALL);
+
+        //black_concrete
+        addDrop(ModBlocks.BLACK_CONCRETE_STAIRS);
+        addDrop(ModBlocks.BLACK_CONCRETE_TRAPDOOR);
+        addDrop(ModBlocks.BLACK_CONCRETE_BUTTON);
+        addDrop(ModBlocks.BLACK_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.BLACK_CONCRETE_FENCE);
+        addDrop(ModBlocks.BLACK_CONCRETE_FENCE_GATE);
+        addDrop(ModBlocks.BLACK_CONCRETE_DOOR, doorDrops(ModBlocks.BLACK_CONCRETE_DOOR));
+        addDrop(ModBlocks.BLACK_CONCRETE_SLAB, slabDrops(ModBlocks.BLACK_CONCRETE_SLAB));
+        addDrop(ModBlocks.BLACK_CONCRETE_WALL);
+
+        //brown_concrete
+        addDrop(ModBlocks.BROWN_CONCRETE_STAIRS);
+        addDrop(ModBlocks.BROWN_CONCRETE_TRAPDOOR);
+        addDrop(ModBlocks.BROWN_CONCRETE_BUTTON);
+        addDrop(ModBlocks.BROWN_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.BROWN_CONCRETE_FENCE);
+        addDrop(ModBlocks.BROWN_CONCRETE_FENCE_GATE);
+        addDrop(ModBlocks.BROWN_CONCRETE_DOOR, doorDrops(ModBlocks.BROWN_CONCRETE_DOOR));
+        addDrop(ModBlocks.BROWN_CONCRETE_SLAB, slabDrops(ModBlocks.BROWN_CONCRETE_SLAB));
+        addDrop(ModBlocks.BROWN_CONCRETE_WALL);
+
+        //red_concrete
+        addDrop(ModBlocks.RED_CONCRETE_STAIRS);
+        addDrop(ModBlocks.RED_CONCRETE_TRAPDOOR);
+        addDrop(ModBlocks.RED_CONCRETE_BUTTON);
+        addDrop(ModBlocks.RED_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.RED_CONCRETE_FENCE);
+        addDrop(ModBlocks.RED_CONCRETE_FENCE_GATE);
+        addDrop(ModBlocks.RED_CONCRETE_DOOR, doorDrops(ModBlocks.RED_CONCRETE_DOOR));
+        addDrop(ModBlocks.RED_CONCRETE_SLAB, slabDrops(ModBlocks.RED_CONCRETE_SLAB));
+        addDrop(ModBlocks.RED_CONCRETE_WALL);
+
+        //orange_concrete
+        addDrop(ModBlocks.ORANGE_CONCRETE_STAIRS);
+        addDrop(ModBlocks.ORANGE_CONCRETE_TRAPDOOR);
+        addDrop(ModBlocks.ORANGE_CONCRETE_BUTTON);
+        addDrop(ModBlocks.ORANGE_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.ORANGE_CONCRETE_FENCE);
+        addDrop(ModBlocks.ORANGE_CONCRETE_FENCE_GATE);
+        addDrop(ModBlocks.ORANGE_CONCRETE_DOOR, doorDrops(ModBlocks.ORANGE_CONCRETE_DOOR));
+        addDrop(ModBlocks.ORANGE_CONCRETE_SLAB, slabDrops(ModBlocks.ORANGE_CONCRETE_SLAB));
+        addDrop(ModBlocks.ORANGE_CONCRETE_WALL);
+
+        //yellow_concrete
+        addDrop(ModBlocks.YELLOW_CONCRETE_STAIRS);
+        addDrop(ModBlocks.YELLOW_CONCRETE_TRAPDOOR);
+        addDrop(ModBlocks.YELLOW_CONCRETE_BUTTON);
+        addDrop(ModBlocks.YELLOW_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.YELLOW_CONCRETE_FENCE);
+        addDrop(ModBlocks.YELLOW_CONCRETE_FENCE_GATE);
+        addDrop(ModBlocks.YELLOW_CONCRETE_DOOR, doorDrops(ModBlocks.YELLOW_CONCRETE_DOOR));
+        addDrop(ModBlocks.YELLOW_CONCRETE_SLAB, slabDrops(ModBlocks.YELLOW_CONCRETE_SLAB));
+        addDrop(ModBlocks.YELLOW_CONCRETE_WALL);
+
+        //lime_concrete
+        addDrop(ModBlocks.LIME_CONCRETE_STAIRS);
+        addDrop(ModBlocks.LIME_CONCRETE_TRAPDOOR);
+        addDrop(ModBlocks.LIME_CONCRETE_BUTTON);
+        addDrop(ModBlocks.LIME_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.LIME_CONCRETE_FENCE);
+        addDrop(ModBlocks.LIME_CONCRETE_FENCE_GATE);
+        addDrop(ModBlocks.LIME_CONCRETE_DOOR, doorDrops(ModBlocks.LIME_CONCRETE_DOOR));
+        addDrop(ModBlocks.LIME_CONCRETE_SLAB, slabDrops(ModBlocks.LIME_CONCRETE_SLAB));
+        addDrop(ModBlocks.LIME_CONCRETE_WALL);
+
+        //green_concrete
+        addDrop(ModBlocks.GREEN_CONCRETE_STAIRS);
+        addDrop(ModBlocks.GREEN_CONCRETE_TRAPDOOR);
+        addDrop(ModBlocks.GREEN_CONCRETE_BUTTON);
+        addDrop(ModBlocks.GREEN_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.GREEN_CONCRETE_FENCE);
+        addDrop(ModBlocks.GREEN_CONCRETE_FENCE_GATE);
+        addDrop(ModBlocks.GREEN_CONCRETE_DOOR, doorDrops(ModBlocks.GREEN_CONCRETE_DOOR));
+        addDrop(ModBlocks.GREEN_CONCRETE_SLAB, slabDrops(ModBlocks.GREEN_CONCRETE_SLAB));
+        addDrop(ModBlocks.GREEN_CONCRETE_WALL);
+
+        //cyan_concrete
+        addDrop(ModBlocks.CYAN_CONCRETE_STAIRS);
+        addDrop(ModBlocks.CYAN_CONCRETE_TRAPDOOR);
+        addDrop(ModBlocks.CYAN_CONCRETE_BUTTON);
+        addDrop(ModBlocks.CYAN_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.CYAN_CONCRETE_FENCE);
+        addDrop(ModBlocks.CYAN_CONCRETE_FENCE_GATE);
+        addDrop(ModBlocks.CYAN_CONCRETE_DOOR, doorDrops(ModBlocks.CYAN_CONCRETE_DOOR));
+        addDrop(ModBlocks.CYAN_CONCRETE_SLAB, slabDrops(ModBlocks.CYAN_CONCRETE_SLAB));
+        addDrop(ModBlocks.CYAN_CONCRETE_WALL);
+
+        //blue_concrete
+        addDrop(ModBlocks.BLUE_CONCRETE_STAIRS);
+        addDrop(ModBlocks.BLUE_CONCRETE_TRAPDOOR);
+        addDrop(ModBlocks.BLUE_CONCRETE_BUTTON);
+        addDrop(ModBlocks.BLUE_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.BLUE_CONCRETE_FENCE);
+        addDrop(ModBlocks.BLUE_CONCRETE_FENCE_GATE);
+        addDrop(ModBlocks.BLUE_CONCRETE_DOOR, doorDrops(ModBlocks.BLUE_CONCRETE_DOOR));
+        addDrop(ModBlocks.BLUE_CONCRETE_SLAB, slabDrops(ModBlocks.BLUE_CONCRETE_SLAB));
+        addDrop(ModBlocks.BLUE_CONCRETE_WALL);
+
+        //light_blue_concrete
+        addDrop(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS);
+        addDrop(ModBlocks.LIGHT_BLUE_CONCRETE_TRAPDOOR);
+        addDrop(ModBlocks.LIGHT_BLUE_CONCRETE_BUTTON);
+        addDrop(ModBlocks.LIGHT_BLUE_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.LIGHT_BLUE_CONCRETE_FENCE);
+        addDrop(ModBlocks.LIGHT_BLUE_CONCRETE_FENCE_GATE);
+        addDrop(ModBlocks.LIGHT_BLUE_CONCRETE_DOOR, doorDrops(ModBlocks.LIGHT_BLUE_CONCRETE_DOOR));
+        addDrop(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB, slabDrops(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB));
+        addDrop(ModBlocks.LIGHT_BLUE_CONCRETE_WALL);
+
+        //purple_concrete
+        addDrop(ModBlocks.PURPLE_CONCRETE_STAIRS);
+        addDrop(ModBlocks.PURPLE_CONCRETE_TRAPDOOR);
+        addDrop(ModBlocks.PURPLE_CONCRETE_BUTTON);
+        addDrop(ModBlocks.PURPLE_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.PURPLE_CONCRETE_FENCE);
+        addDrop(ModBlocks.PURPLE_CONCRETE_FENCE_GATE);
+        addDrop(ModBlocks.PURPLE_CONCRETE_DOOR, doorDrops(ModBlocks.PURPLE_CONCRETE_DOOR));
+        addDrop(ModBlocks.PURPLE_CONCRETE_SLAB, slabDrops(ModBlocks.PURPLE_CONCRETE_SLAB));
+        addDrop(ModBlocks.PURPLE_CONCRETE_WALL);
+
+        //magenta_concrete
+        addDrop(ModBlocks.MAGENTA_CONCRETE_STAIRS);
+        addDrop(ModBlocks.MAGENTA_CONCRETE_TRAPDOOR);
+        addDrop(ModBlocks.MAGENTA_CONCRETE_BUTTON);
+        addDrop(ModBlocks.MAGENTA_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.MAGENTA_CONCRETE_FENCE);
+        addDrop(ModBlocks.MAGENTA_CONCRETE_FENCE_GATE);
+        addDrop(ModBlocks.MAGENTA_CONCRETE_DOOR, doorDrops(ModBlocks.MAGENTA_CONCRETE_DOOR));
+        addDrop(ModBlocks.MAGENTA_CONCRETE_SLAB, slabDrops(ModBlocks.MAGENTA_CONCRETE_SLAB));
+        addDrop(ModBlocks.MAGENTA_CONCRETE_WALL);
+
+        //pink_concrete
+        addDrop(ModBlocks.PINK_CONCRETE_STAIRS);
+        addDrop(ModBlocks.PINK_CONCRETE_TRAPDOOR);
+        addDrop(ModBlocks.PINK_CONCRETE_BUTTON);
+        addDrop(ModBlocks.PINK_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.PINK_CONCRETE_FENCE);
+        addDrop(ModBlocks.PINK_CONCRETE_FENCE_GATE);
+        addDrop(ModBlocks.PINK_CONCRETE_DOOR, doorDrops(ModBlocks.PINK_CONCRETE_DOOR));
+        addDrop(ModBlocks.PINK_CONCRETE_SLAB, slabDrops(ModBlocks.PINK_CONCRETE_SLAB));
+        addDrop(ModBlocks.PINK_CONCRETE_WALL);
+
 
         
         

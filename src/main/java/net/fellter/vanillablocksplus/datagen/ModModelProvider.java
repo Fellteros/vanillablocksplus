@@ -260,6 +260,38 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool pinkTerracottaPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool whiteConcretePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool lightGrayConcretePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool grayConcretePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRAY_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool blackConcretePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACK_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool brownConcretePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BROWN_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool redConcretePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool orangeConcretePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ORANGE_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool yellowConcretePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.YELLOW_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool limeConcretePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIME_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool greenConcretePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GREEN_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool cyanConcretePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CYAN_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool blueConcretePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLUE_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool lightBlueConcretePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool purpleConcretePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPLE_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool magentaConcretePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool pinkConcretePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_CONCRETE);
 
 
 
@@ -1180,6 +1212,134 @@ public class ModModelProvider extends FabricModelProvider {
         pinkTerracottaPool.fence(ModBlocks.PINK_TERRACOTTA_FENCE);
         pinkTerracottaPool.fenceGate(ModBlocks.PINK_TERRACOTTA_FENCE_GATE);
         pinkTerracottaPool.pressurePlate(ModBlocks.PINK_TERRACOTTA_PRESSURE_PLATE);
+        //white_concrete
+        whiteConcretePool.button(ModBlocks.WHITE_CONCRETE_BUTTON);
+        whiteConcretePool.wall(ModBlocks.WHITE_CONCRETE_WALL);
+        whiteConcretePool.slab(ModBlocks.WHITE_CONCRETE_SLAB);
+        whiteConcretePool.stairs(ModBlocks.WHITE_CONCRETE_STAIRS);
+        whiteConcretePool.fence(ModBlocks.WHITE_CONCRETE_FENCE);
+        whiteConcretePool.fenceGate(ModBlocks.WHITE_CONCRETE_FENCE_GATE);
+        whiteConcretePool.pressurePlate(ModBlocks.WHITE_CONCRETE_PRESSURE_PLATE);
+        //light_gray_concrete
+        lightGrayConcretePool.button(ModBlocks.LIGHT_GRAY_CONCRETE_BUTTON);
+        lightGrayConcretePool.wall(ModBlocks.LIGHT_GRAY_CONCRETE_WALL);
+        lightGrayConcretePool.slab(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB);
+        lightGrayConcretePool.stairs(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS);
+        lightGrayConcretePool.fence(ModBlocks.LIGHT_GRAY_CONCRETE_FENCE);
+        lightGrayConcretePool.fenceGate(ModBlocks.LIGHT_GRAY_CONCRETE_FENCE_GATE);
+        lightGrayConcretePool.pressurePlate(ModBlocks.LIGHT_GRAY_CONCRETE_PRESSURE_PLATE);
+        //gray_concrete
+        grayConcretePool.button(ModBlocks.GRAY_CONCRETE_BUTTON);
+        grayConcretePool.wall(ModBlocks.GRAY_CONCRETE_WALL);
+        grayConcretePool.slab(ModBlocks.GRAY_CONCRETE_SLAB);
+        grayConcretePool.stairs(ModBlocks.GRAY_CONCRETE_STAIRS);
+        grayConcretePool.fence(ModBlocks.GRAY_CONCRETE_FENCE);
+        grayConcretePool.fenceGate(ModBlocks.GRAY_CONCRETE_FENCE_GATE);
+        grayConcretePool.pressurePlate(ModBlocks.GRAY_CONCRETE_PRESSURE_PLATE);
+        //black_concrete
+        blackConcretePool.button(ModBlocks.BLACK_CONCRETE_BUTTON);
+        blackConcretePool.wall(ModBlocks.BLACK_CONCRETE_WALL);
+        blackConcretePool.slab(ModBlocks.BLACK_CONCRETE_SLAB);
+        blackConcretePool.stairs(ModBlocks.BLACK_CONCRETE_STAIRS);
+        blackConcretePool.fence(ModBlocks.BLACK_CONCRETE_FENCE);
+        blackConcretePool.fenceGate(ModBlocks.BLACK_CONCRETE_FENCE_GATE);
+        blackConcretePool.pressurePlate(ModBlocks.BLACK_CONCRETE_PRESSURE_PLATE);
+        //brown_concrete
+        brownConcretePool.button(ModBlocks.BROWN_CONCRETE_BUTTON);
+        brownConcretePool.wall(ModBlocks.BROWN_CONCRETE_WALL);
+        brownConcretePool.slab(ModBlocks.BROWN_CONCRETE_SLAB);
+        brownConcretePool.stairs(ModBlocks.BROWN_CONCRETE_STAIRS);
+        brownConcretePool.fence(ModBlocks.BROWN_CONCRETE_FENCE);
+        brownConcretePool.fenceGate(ModBlocks.BROWN_CONCRETE_FENCE_GATE);
+        brownConcretePool.pressurePlate(ModBlocks.BROWN_CONCRETE_PRESSURE_PLATE);
+        //red_concrete
+        redConcretePool.button(ModBlocks.RED_CONCRETE_BUTTON);
+        redConcretePool.wall(ModBlocks.RED_CONCRETE_WALL);
+        redConcretePool.slab(ModBlocks.RED_CONCRETE_SLAB);
+        redConcretePool.stairs(ModBlocks.RED_CONCRETE_STAIRS);
+        redConcretePool.fence(ModBlocks.RED_CONCRETE_FENCE);
+        redConcretePool.fenceGate(ModBlocks.RED_CONCRETE_FENCE_GATE);
+        redConcretePool.pressurePlate(ModBlocks.RED_CONCRETE_PRESSURE_PLATE);
+        //orange_concrete
+        orangeConcretePool.button(ModBlocks.ORANGE_CONCRETE_BUTTON);
+        orangeConcretePool.wall(ModBlocks.ORANGE_CONCRETE_WALL);
+        orangeConcretePool.slab(ModBlocks.ORANGE_CONCRETE_SLAB);
+        orangeConcretePool.stairs(ModBlocks.ORANGE_CONCRETE_STAIRS);
+        orangeConcretePool.fence(ModBlocks.ORANGE_CONCRETE_FENCE);
+        orangeConcretePool.fenceGate(ModBlocks.ORANGE_CONCRETE_FENCE_GATE);
+        orangeConcretePool.pressurePlate(ModBlocks.ORANGE_CONCRETE_PRESSURE_PLATE);
+        //yellow_concrete
+        yellowConcretePool.button(ModBlocks.YELLOW_CONCRETE_BUTTON);
+        yellowConcretePool.wall(ModBlocks.YELLOW_CONCRETE_WALL);
+        yellowConcretePool.slab(ModBlocks.YELLOW_CONCRETE_SLAB);
+        yellowConcretePool.stairs(ModBlocks.YELLOW_CONCRETE_STAIRS);
+        yellowConcretePool.fence(ModBlocks.YELLOW_CONCRETE_FENCE);
+        yellowConcretePool.fenceGate(ModBlocks.YELLOW_CONCRETE_FENCE_GATE);
+        yellowConcretePool.pressurePlate(ModBlocks.YELLOW_CONCRETE_PRESSURE_PLATE);
+        //lime_concrete
+        limeConcretePool.button(ModBlocks.LIME_CONCRETE_BUTTON);
+        limeConcretePool.wall(ModBlocks.LIME_CONCRETE_WALL);
+        limeConcretePool.slab(ModBlocks.LIME_CONCRETE_SLAB);
+        limeConcretePool.stairs(ModBlocks.LIME_CONCRETE_STAIRS);
+        limeConcretePool.fence(ModBlocks.LIME_CONCRETE_FENCE);
+        limeConcretePool.fenceGate(ModBlocks.LIME_CONCRETE_FENCE_GATE);
+        limeConcretePool.pressurePlate(ModBlocks.LIME_CONCRETE_PRESSURE_PLATE);
+        //green_concrete
+        greenConcretePool.button(ModBlocks.GREEN_CONCRETE_BUTTON);
+        greenConcretePool.wall(ModBlocks.GREEN_CONCRETE_WALL);
+        greenConcretePool.slab(ModBlocks.GREEN_CONCRETE_SLAB);
+        greenConcretePool.stairs(ModBlocks.GREEN_CONCRETE_STAIRS);
+        greenConcretePool.fence(ModBlocks.GREEN_CONCRETE_FENCE);
+        greenConcretePool.fenceGate(ModBlocks.GREEN_CONCRETE_FENCE_GATE);
+        greenConcretePool.pressurePlate(ModBlocks.GREEN_CONCRETE_PRESSURE_PLATE);
+        //cyan_concrete
+        cyanConcretePool.button(ModBlocks.CYAN_CONCRETE_BUTTON);
+        cyanConcretePool.wall(ModBlocks.CYAN_CONCRETE_WALL);
+        cyanConcretePool.slab(ModBlocks.CYAN_CONCRETE_SLAB);
+        cyanConcretePool.stairs(ModBlocks.CYAN_CONCRETE_STAIRS);
+        cyanConcretePool.fence(ModBlocks.CYAN_CONCRETE_FENCE);
+        cyanConcretePool.fenceGate(ModBlocks.CYAN_CONCRETE_FENCE_GATE);
+        cyanConcretePool.pressurePlate(ModBlocks.CYAN_CONCRETE_PRESSURE_PLATE);
+        //blue_concrete
+        blueConcretePool.button(ModBlocks.BLUE_CONCRETE_BUTTON);
+        blueConcretePool.wall(ModBlocks.BLUE_CONCRETE_WALL);
+        blueConcretePool.slab(ModBlocks.BLUE_CONCRETE_SLAB);
+        blueConcretePool.stairs(ModBlocks.BLUE_CONCRETE_STAIRS);
+        blueConcretePool.fence(ModBlocks.BLUE_CONCRETE_FENCE);
+        blueConcretePool.fenceGate(ModBlocks.BLUE_CONCRETE_FENCE_GATE);
+        blueConcretePool.pressurePlate(ModBlocks.BLUE_CONCRETE_PRESSURE_PLATE);
+        //light_blue_concrete
+        lightBlueConcretePool.button(ModBlocks.LIGHT_BLUE_CONCRETE_BUTTON);
+        lightBlueConcretePool.wall(ModBlocks.LIGHT_BLUE_CONCRETE_WALL);
+        lightBlueConcretePool.slab(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB);
+        lightBlueConcretePool.stairs(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS);
+        lightBlueConcretePool.fence(ModBlocks.LIGHT_BLUE_CONCRETE_FENCE);
+        lightBlueConcretePool.fenceGate(ModBlocks.LIGHT_BLUE_CONCRETE_FENCE_GATE);
+        lightBlueConcretePool.pressurePlate(ModBlocks.LIGHT_BLUE_CONCRETE_PRESSURE_PLATE);
+        //purple_concrete
+        purpleConcretePool.button(ModBlocks.PURPLE_CONCRETE_BUTTON);
+        purpleConcretePool.wall(ModBlocks.PURPLE_CONCRETE_WALL);
+        purpleConcretePool.slab(ModBlocks.PURPLE_CONCRETE_SLAB);
+        purpleConcretePool.stairs(ModBlocks.PURPLE_CONCRETE_STAIRS);
+        purpleConcretePool.fence(ModBlocks.PURPLE_CONCRETE_FENCE);
+        purpleConcretePool.fenceGate(ModBlocks.PURPLE_CONCRETE_FENCE_GATE);
+        purpleConcretePool.pressurePlate(ModBlocks.PURPLE_CONCRETE_PRESSURE_PLATE);
+        //magenta_concrete
+        magentaConcretePool.button(ModBlocks.MAGENTA_CONCRETE_BUTTON);
+        magentaConcretePool.wall(ModBlocks.MAGENTA_CONCRETE_WALL);
+        magentaConcretePool.slab(ModBlocks.MAGENTA_CONCRETE_SLAB);
+        magentaConcretePool.stairs(ModBlocks.MAGENTA_CONCRETE_STAIRS);
+        magentaConcretePool.fence(ModBlocks.MAGENTA_CONCRETE_FENCE);
+        magentaConcretePool.fenceGate(ModBlocks.MAGENTA_CONCRETE_FENCE_GATE);
+        magentaConcretePool.pressurePlate(ModBlocks.MAGENTA_CONCRETE_PRESSURE_PLATE);
+        //pink_concrete
+        pinkConcretePool.button(ModBlocks.PINK_CONCRETE_BUTTON);
+        pinkConcretePool.wall(ModBlocks.PINK_CONCRETE_WALL);
+        pinkConcretePool.slab(ModBlocks.PINK_CONCRETE_SLAB);
+        pinkConcretePool.stairs(ModBlocks.PINK_CONCRETE_STAIRS);
+        pinkConcretePool.fence(ModBlocks.PINK_CONCRETE_FENCE);
+        pinkConcretePool.fenceGate(ModBlocks.PINK_CONCRETE_FENCE_GATE);
+        pinkConcretePool.pressurePlate(ModBlocks.PINK_CONCRETE_PRESSURE_PLATE);
 
 
 
@@ -1576,6 +1736,54 @@ public class ModModelProvider extends FabricModelProvider {
         //pink_terracotta
         blockStateModelGenerator.registerDoor(ModBlocks.PINK_TERRACOTTA_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PINK_TERRACOTTA_TRAPDOOR);
+        //white concrete
+        blockStateModelGenerator.registerDoor(ModBlocks.WHITE_CONCRETE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WHITE_CONCRETE_TRAPDOOR);
+        //light_gray_concrete
+        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_GRAY_CONCRETE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_GRAY_CONCRETE_TRAPDOOR);
+        //gray_concrete
+        blockStateModelGenerator.registerDoor(ModBlocks.GRAY_CONCRETE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GRAY_CONCRETE_TRAPDOOR);
+        //black_concrete
+        blockStateModelGenerator.registerDoor(ModBlocks.BLACK_CONCRETE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLACK_CONCRETE_TRAPDOOR);
+        //brown_concrete
+        blockStateModelGenerator.registerDoor(ModBlocks.BROWN_CONCRETE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BROWN_CONCRETE_TRAPDOOR);
+        //red_concrete
+        blockStateModelGenerator.registerDoor(ModBlocks.RED_CONCRETE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.RED_CONCRETE_TRAPDOOR);
+        //orange_concrete
+        blockStateModelGenerator.registerDoor(ModBlocks.ORANGE_CONCRETE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.ORANGE_CONCRETE_TRAPDOOR);
+        //yellow_concrete
+        blockStateModelGenerator.registerDoor(ModBlocks.YELLOW_CONCRETE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.YELLOW_CONCRETE_TRAPDOOR);
+        //lime_concrete
+        blockStateModelGenerator.registerDoor(ModBlocks.LIME_CONCRETE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIME_CONCRETE_TRAPDOOR);
+        //green_concrete
+        blockStateModelGenerator.registerDoor(ModBlocks.GREEN_CONCRETE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GREEN_CONCRETE_TRAPDOOR);
+        //cyan_concrete
+        blockStateModelGenerator.registerDoor(ModBlocks.CYAN_CONCRETE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CYAN_CONCRETE_TRAPDOOR);
+        //blue_concrete
+        blockStateModelGenerator.registerDoor(ModBlocks.BLUE_CONCRETE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLUE_CONCRETE_TRAPDOOR);
+        //light_blue_concrete
+        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_BLUE_CONCRETE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_BLUE_CONCRETE_TRAPDOOR);
+        //purple_concrete
+        blockStateModelGenerator.registerDoor(ModBlocks.PURPLE_CONCRETE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PURPLE_CONCRETE_TRAPDOOR);
+        //magenta_concrete
+        blockStateModelGenerator.registerDoor(ModBlocks.MAGENTA_CONCRETE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.MAGENTA_CONCRETE_TRAPDOOR);
+        //pink_concrete
+        blockStateModelGenerator.registerDoor(ModBlocks.PINK_CONCRETE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PINK_CONCRETE_TRAPDOOR);
 
 
 

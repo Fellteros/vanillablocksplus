@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:magenta_concrete_slab"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "item": "vanillablocksplus:magenta_concrete_trapdoor"
+  },
+  "show_notification": true
+}

@@ -88,6 +88,22 @@
     "vanillablocksplus:light_blue_terracotta_wall",
     "vanillablocksplus:purple_terracotta_wall",
     "vanillablocksplus:magenta_terracotta_wall",
-    "vanillablocksplus:pink_terracotta_wall"
+    "vanillablocksplus:pink_terracotta_wall",
+    "vanillablocksplus:white_concrete_wall",
+    "vanillablocksplus:light_gray_concrete_wall",
+    "vanillablocksplus:gray_concrete_wall",
+    "vanillablocksplus:black_concrete_wall",
+    "vanillablocksplus:brown_concrete_wall",
+    "vanillablocksplus:red_concrete_wall",
+    "vanillablocksplus:orange_concrete_wall",
+    "vanillablocksplus:yellow_concrete_wall",
+    "vanillablocksplus:lime_concrete_wall",
+    "vanillablocksplus:green_concrete_wall",
+    "vanillablocksplus:cyan_concrete_wall",
+    "vanillablocksplus:blue_concrete_wall",
+    "vanillablocksplus:light_blue_concrete_wall",
+    "vanillablocksplus:purple_concrete_wall",
+    "vanillablocksplus:magenta_concrete_wall",
+    "vanillablocksplus:pink_concrete_wall"
   ]
 }
