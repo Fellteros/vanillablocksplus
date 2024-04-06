@@ -5,7 +5,8 @@ package net.fellter.vanillablocksplus.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
-import net.fellter.vanillablocksplus.custom_blocks.*;
+import net.fellter.vanillablocksplus.custom_blocks.concrete_powder.*;
+import net.fellter.vanillablocksplus.custom_blocks.copper.*;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
 import net.minecraft.item.BlockItem;
@@ -4055,6 +4056,502 @@ public class ModBlocks {
     public static final Block PINK_CONCRETE_WALL = registerBlock("pink_concrete_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE)
                     .instrument(Instrument.BASEDRUM).strength(1.8f)));
+
+    //white_concrete_powder
+    public static final Block WHITE_CONCRETE_POWDER_STAIRS = registerBlock("white_concrete_powder_stairs",
+            new ConcretePowderStairsBlock(Blocks.WHITE_CONCRETE_POWDER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.WHITE_CONCRETE_STAIRS));
+    public static final Block WHITE_CONCRETE_POWDER_SLAB = registerBlock("white_concrete_powder_slab",
+            new ConcretePowderSlabBlock(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.WHITE_CONCRETE_SLAB));
+    public static final Block WHITE_CONCRETE_POWDER_BUTTON = registerBlock("white_concrete_powder_button",
+            new ConcretePowderButtonBlock(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, 10, false, 
+                    ModBlocks.WHITE_CONCRETE_BUTTON));
+    public static final Block WHITE_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("white_concrete_powder_pressure_plate",
+            new ConcretePowderPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.WHITE_CONCRETE_PRESSURE_PLATE));
+    public static final Block WHITE_CONCRETE_POWDER_FENCE = registerBlock("white_concrete_powder_fence",
+            new ConcretePowderFenceBlock(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.WHITE_CONCRETE_FENCE));
+    public static final Block WHITE_CONCRETE_POWDER_FENCE_GATE = registerBlock("white_concrete_powder_fence_gate",
+            new ConcretePowderFenceGateBlock(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), WoodType.OAK, ModBlocks.WHITE_CONCRETE_FENCE_GATE));
+    public static final Block WHITE_CONCRETE_POWDER_DOOR = registerBlock("white_concrete_powder_door",
+            new ConcretePowderDoorBlock(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.WHITE_CONCRETE_DOOR));
+    public static final Block WHITE_CONCRETE_POWDER_TRAPDOOR = registerBlock("white_concrete_powder_trapdoor",
+            new ConcretePowderTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.WHITE_CONCRETE_TRAPDOOR));
+    public static final Block WHITE_CONCRETE_POWDER_WALL = registerBlock("white_concrete_powder_wall",
+            new ConcretePowderWallBlock(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.WHITE_CONCRETE_WALL));
+
+    //light_gray_concrete_powder
+    public static final Block LIGHT_GRAY_CONCRETE_POWDER_STAIRS = registerBlock("light_gray_concrete_powder_stairs",
+            new ConcretePowderStairsBlock(Blocks.LIGHT_GRAY_CONCRETE_POWDER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS));
+    public static final Block LIGHT_GRAY_CONCRETE_POWDER_SLAB = registerBlock("light_gray_concrete_powder_slab",
+            new ConcretePowderSlabBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.LIGHT_GRAY_CONCRETE_SLAB));
+    public static final Block LIGHT_GRAY_CONCRETE_POWDER_BUTTON = registerBlock("light_gray_concrete_powder_button",
+            new ConcretePowderButtonBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, 10, false, 
+                    ModBlocks.LIGHT_GRAY_CONCRETE_BUTTON));
+    public static final Block LIGHT_GRAY_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("light_gray_concrete_powder_pressure_plate",
+            new ConcretePowderPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.LIGHT_GRAY_CONCRETE_PRESSURE_PLATE));
+    public static final Block LIGHT_GRAY_CONCRETE_POWDER_FENCE = registerBlock("light_gray_concrete_powder_fence",
+            new ConcretePowderFenceBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.LIGHT_GRAY_CONCRETE_FENCE));
+    public static final Block LIGHT_GRAY_CONCRETE_POWDER_FENCE_GATE = registerBlock("light_gray_concrete_powder_fence_gate",
+            new ConcretePowderFenceGateBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), WoodType.OAK, ModBlocks.LIGHT_GRAY_CONCRETE_FENCE_GATE));
+    public static final Block LIGHT_GRAY_CONCRETE_POWDER_DOOR = registerBlock("light_gray_concrete_powder_door",
+            new ConcretePowderDoorBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.LIGHT_GRAY_CONCRETE_DOOR));
+    public static final Block LIGHT_GRAY_CONCRETE_POWDER_TRAPDOOR = registerBlock("light_gray_concrete_powder_trapdoor",
+            new ConcretePowderTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.LIGHT_GRAY_CONCRETE_TRAPDOOR));
+    public static final Block LIGHT_GRAY_CONCRETE_POWDER_WALL = registerBlock("light_gray_concrete_powder_wall",
+            new ConcretePowderWallBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.LIGHT_GRAY_CONCRETE_WALL));
+
+    //gray_concrete_powder
+    public static final Block GRAY_CONCRETE_POWDER_STAIRS = registerBlock("gray_concrete_powder_stairs",
+            new ConcretePowderStairsBlock(Blocks.GRAY_CONCRETE_POWDER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.GRAY_CONCRETE_STAIRS));
+    public static final Block GRAY_CONCRETE_POWDER_SLAB = registerBlock("gray_concrete_powder_slab",
+            new ConcretePowderSlabBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.GRAY_CONCRETE_SLAB));
+    public static final Block GRAY_CONCRETE_POWDER_BUTTON = registerBlock("gray_concrete_powder_button",
+            new ConcretePowderButtonBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, 10, false, 
+                    ModBlocks.GRAY_CONCRETE_BUTTON));
+    public static final Block GRAY_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("gray_concrete_powder_pressure_plate",
+            new ConcretePowderPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.GRAY_CONCRETE_PRESSURE_PLATE));
+    public static final Block GRAY_CONCRETE_POWDER_FENCE = registerBlock("gray_concrete_powder_fence",
+            new ConcretePowderFenceBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.GRAY_CONCRETE_FENCE));
+    public static final Block GRAY_CONCRETE_POWDER_FENCE_GATE = registerBlock("gray_concrete_powder_fence_gate",
+            new ConcretePowderFenceGateBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), WoodType.OAK, ModBlocks.GRAY_CONCRETE_FENCE_GATE));
+    public static final Block GRAY_CONCRETE_POWDER_DOOR = registerBlock("gray_concrete_powder_door",
+            new ConcretePowderDoorBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.GRAY_CONCRETE_DOOR));
+    public static final Block GRAY_CONCRETE_POWDER_TRAPDOOR = registerBlock("gray_concrete_powder_trapdoor",
+            new ConcretePowderTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.GRAY_CONCRETE_TRAPDOOR));
+    public static final Block GRAY_CONCRETE_POWDER_WALL = registerBlock("gray_concrete_powder_wall",
+            new ConcretePowderWallBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.GRAY_CONCRETE_WALL));
+
+    //black_concrete_powder
+    public static final Block BLACK_CONCRETE_POWDER_STAIRS = registerBlock("black_concrete_powder_stairs",
+            new ConcretePowderStairsBlock(Blocks.BLACK_CONCRETE_POWDER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.BLACK_CONCRETE_STAIRS));
+    public static final Block BLACK_CONCRETE_POWDER_SLAB = registerBlock("black_concrete_powder_slab",
+            new ConcretePowderSlabBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.BLACK_CONCRETE_SLAB));
+    public static final Block BLACK_CONCRETE_POWDER_BUTTON = registerBlock("black_concrete_powder_button",
+            new ConcretePowderButtonBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, 10, false, 
+                    ModBlocks.BLACK_CONCRETE_BUTTON));
+    public static final Block BLACK_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("black_concrete_powder_pressure_plate",
+            new ConcretePowderPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.BLACK_CONCRETE_PRESSURE_PLATE));
+    public static final Block BLACK_CONCRETE_POWDER_FENCE = registerBlock("black_concrete_powder_fence",
+            new ConcretePowderFenceBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.BLACK_CONCRETE_FENCE));
+    public static final Block BLACK_CONCRETE_POWDER_FENCE_GATE = registerBlock("black_concrete_powder_fence_gate",
+            new ConcretePowderFenceGateBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), WoodType.OAK, ModBlocks.BLACK_CONCRETE_FENCE_GATE));
+    public static final Block BLACK_CONCRETE_POWDER_DOOR = registerBlock("black_concrete_powder_door",
+            new ConcretePowderDoorBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.BLACK_CONCRETE_DOOR));
+    public static final Block BLACK_CONCRETE_POWDER_TRAPDOOR = registerBlock("black_concrete_powder_trapdoor",
+            new ConcretePowderTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.BLACK_CONCRETE_TRAPDOOR));
+    public static final Block BLACK_CONCRETE_POWDER_WALL = registerBlock("black_concrete_powder_wall",
+            new ConcretePowderWallBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.BLACK_CONCRETE_WALL));
+
+    //brown_concrete_powder
+    public static final Block BROWN_CONCRETE_POWDER_STAIRS = registerBlock("brown_concrete_powder_stairs",
+            new ConcretePowderStairsBlock(Blocks.BROWN_CONCRETE_POWDER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.BROWN_CONCRETE_STAIRS));
+    public static final Block BROWN_CONCRETE_POWDER_SLAB = registerBlock("brown_concrete_powder_slab",
+            new ConcretePowderSlabBlock(FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.BROWN_CONCRETE_SLAB));
+    public static final Block BROWN_CONCRETE_POWDER_BUTTON = registerBlock("brown_concrete_powder_button",
+            new ConcretePowderButtonBlock(FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, 10, false, 
+                    ModBlocks.BROWN_CONCRETE_BUTTON));
+    public static final Block BROWN_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("brown_concrete_powder_pressure_plate",
+            new ConcretePowderPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.BROWN_CONCRETE_PRESSURE_PLATE));
+    public static final Block BROWN_CONCRETE_POWDER_FENCE = registerBlock("brown_concrete_powder_fence",
+            new ConcretePowderFenceBlock(FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.BROWN_CONCRETE_FENCE));
+    public static final Block BROWN_CONCRETE_POWDER_FENCE_GATE = registerBlock("brown_concrete_powder_fence_gate",
+            new ConcretePowderFenceGateBlock(FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), WoodType.OAK, ModBlocks.BROWN_CONCRETE_FENCE_GATE));
+    public static final Block BROWN_CONCRETE_POWDER_DOOR = registerBlock("brown_concrete_powder_door",
+            new ConcretePowderDoorBlock(FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.BROWN_CONCRETE_DOOR));
+    public static final Block BROWN_CONCRETE_POWDER_TRAPDOOR = registerBlock("brown_concrete_powder_trapdoor",
+            new ConcretePowderTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.BROWN_CONCRETE_TRAPDOOR));
+    public static final Block BROWN_CONCRETE_POWDER_WALL = registerBlock("brown_concrete_powder_wall",
+            new ConcretePowderWallBlock(FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.BROWN_CONCRETE_WALL));
+
+    //red_concrete_powder
+    public static final Block RED_CONCRETE_POWDER_STAIRS = registerBlock("red_concrete_powder_stairs",
+            new ConcretePowderStairsBlock(Blocks.RED_CONCRETE_POWDER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.RED_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.RED_CONCRETE_STAIRS));
+    public static final Block RED_CONCRETE_POWDER_SLAB = registerBlock("red_concrete_powder_slab",
+            new ConcretePowderSlabBlock(FabricBlockSettings.copyOf(Blocks.RED_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.RED_CONCRETE_SLAB));
+    public static final Block RED_CONCRETE_POWDER_BUTTON = registerBlock("red_concrete_powder_button",
+            new ConcretePowderButtonBlock(FabricBlockSettings.copyOf(Blocks.RED_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, 10, false, 
+                    ModBlocks.RED_CONCRETE_BUTTON));
+    public static final Block RED_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("red_concrete_powder_pressure_plate",
+            new ConcretePowderPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.RED_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.RED_CONCRETE_PRESSURE_PLATE));
+    public static final Block RED_CONCRETE_POWDER_FENCE = registerBlock("red_concrete_powder_fence",
+            new ConcretePowderFenceBlock(FabricBlockSettings.copyOf(Blocks.RED_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.RED_CONCRETE_FENCE));
+    public static final Block RED_CONCRETE_POWDER_FENCE_GATE = registerBlock("red_concrete_powder_fence_gate",
+            new ConcretePowderFenceGateBlock(FabricBlockSettings.copyOf(Blocks.RED_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), WoodType.OAK, ModBlocks.RED_CONCRETE_FENCE_GATE));
+    public static final Block RED_CONCRETE_POWDER_DOOR = registerBlock("red_concrete_powder_door",
+            new ConcretePowderDoorBlock(FabricBlockSettings.copyOf(Blocks.RED_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.RED_CONCRETE_DOOR));
+    public static final Block RED_CONCRETE_POWDER_TRAPDOOR = registerBlock("red_concrete_powder_trapdoor",
+            new ConcretePowderTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.RED_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.RED_CONCRETE_TRAPDOOR));
+    public static final Block RED_CONCRETE_POWDER_WALL = registerBlock("red_concrete_powder_wall",
+            new ConcretePowderWallBlock(FabricBlockSettings.copyOf(Blocks.RED_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.RED_CONCRETE_WALL));
+
+    //orange_concrete_powder
+    public static final Block ORANGE_CONCRETE_POWDER_STAIRS = registerBlock("orange_concrete_powder_stairs",
+            new ConcretePowderStairsBlock(Blocks.ORANGE_CONCRETE_POWDER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.ORANGE_CONCRETE_STAIRS));
+    public static final Block ORANGE_CONCRETE_POWDER_SLAB = registerBlock("orange_concrete_powder_slab",
+            new ConcretePowderSlabBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.ORANGE_CONCRETE_SLAB));
+    public static final Block ORANGE_CONCRETE_POWDER_BUTTON = registerBlock("orange_concrete_powder_button",
+            new ConcretePowderButtonBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, 10, false, 
+                    ModBlocks.ORANGE_CONCRETE_BUTTON));
+    public static final Block ORANGE_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("orange_concrete_powder_pressure_plate",
+            new ConcretePowderPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.ORANGE_CONCRETE_PRESSURE_PLATE));
+    public static final Block ORANGE_CONCRETE_POWDER_FENCE = registerBlock("orange_concrete_powder_fence",
+            new ConcretePowderFenceBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.ORANGE_CONCRETE_FENCE));
+    public static final Block ORANGE_CONCRETE_POWDER_FENCE_GATE = registerBlock("orange_concrete_powder_fence_gate",
+            new ConcretePowderFenceGateBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), WoodType.OAK, ModBlocks.ORANGE_CONCRETE_FENCE_GATE));
+    public static final Block ORANGE_CONCRETE_POWDER_DOOR = registerBlock("orange_concrete_powder_door",
+            new ConcretePowderDoorBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.ORANGE_CONCRETE_DOOR));
+    public static final Block ORANGE_CONCRETE_POWDER_TRAPDOOR = registerBlock("orange_concrete_powder_trapdoor",
+            new ConcretePowderTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.ORANGE_CONCRETE_TRAPDOOR));
+    public static final Block ORANGE_CONCRETE_POWDER_WALL = registerBlock("orange_concrete_powder_wall",
+            new ConcretePowderWallBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.ORANGE_CONCRETE_WALL));
+
+    //yellow_concrete_powder
+    public static final Block YELLOW_CONCRETE_POWDER_STAIRS = registerBlock("yellow_concrete_powder_stairs",
+            new ConcretePowderStairsBlock(Blocks.YELLOW_CONCRETE_POWDER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.YELLOW_CONCRETE_STAIRS));
+    public static final Block YELLOW_CONCRETE_POWDER_SLAB = registerBlock("yellow_concrete_powder_slab",
+            new ConcretePowderSlabBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.YELLOW_CONCRETE_SLAB));
+    public static final Block YELLOW_CONCRETE_POWDER_BUTTON = registerBlock("yellow_concrete_powder_button",
+            new ConcretePowderButtonBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, 10, false, 
+                    ModBlocks.YELLOW_CONCRETE_BUTTON));
+    public static final Block YELLOW_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("yellow_concrete_powder_pressure_plate",
+            new ConcretePowderPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.YELLOW_CONCRETE_PRESSURE_PLATE));
+    public static final Block YELLOW_CONCRETE_POWDER_FENCE = registerBlock("yellow_concrete_powder_fence",
+            new ConcretePowderFenceBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.YELLOW_CONCRETE_FENCE));
+    public static final Block YELLOW_CONCRETE_POWDER_FENCE_GATE = registerBlock("yellow_concrete_powder_fence_gate",
+            new ConcretePowderFenceGateBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), WoodType.OAK, ModBlocks.YELLOW_CONCRETE_FENCE_GATE));
+    public static final Block YELLOW_CONCRETE_POWDER_DOOR = registerBlock("yellow_concrete_powder_door",
+            new ConcretePowderDoorBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.YELLOW_CONCRETE_DOOR));
+    public static final Block YELLOW_CONCRETE_POWDER_TRAPDOOR = registerBlock("yellow_concrete_powder_trapdoor",
+            new ConcretePowderTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.YELLOW_CONCRETE_TRAPDOOR));
+    public static final Block YELLOW_CONCRETE_POWDER_WALL = registerBlock("yellow_concrete_powder_wall",
+            new ConcretePowderWallBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.YELLOW_CONCRETE_WALL));
+
+    //lime_concrete_powder
+    public static final Block LIME_CONCRETE_POWDER_STAIRS = registerBlock("lime_concrete_powder_stairs",
+            new ConcretePowderStairsBlock(Blocks.LIME_CONCRETE_POWDER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.LIME_CONCRETE_STAIRS));
+    public static final Block LIME_CONCRETE_POWDER_SLAB = registerBlock("lime_concrete_powder_slab",
+            new ConcretePowderSlabBlock(FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.LIME_CONCRETE_SLAB));
+    public static final Block LIME_CONCRETE_POWDER_BUTTON = registerBlock("lime_concrete_powder_button",
+            new ConcretePowderButtonBlock(FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, 10, false, 
+                    ModBlocks.LIME_CONCRETE_BUTTON));
+    public static final Block LIME_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("lime_concrete_powder_pressure_plate",
+            new ConcretePowderPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.LIME_CONCRETE_PRESSURE_PLATE));
+    public static final Block LIME_CONCRETE_POWDER_FENCE = registerBlock("lime_concrete_powder_fence",
+            new ConcretePowderFenceBlock(FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.LIME_CONCRETE_FENCE));
+    public static final Block LIME_CONCRETE_POWDER_FENCE_GATE = registerBlock("lime_concrete_powder_fence_gate",
+            new ConcretePowderFenceGateBlock(FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), WoodType.OAK, ModBlocks.LIME_CONCRETE_FENCE_GATE));
+    public static final Block LIME_CONCRETE_POWDER_DOOR = registerBlock("lime_concrete_powder_door",
+            new ConcretePowderDoorBlock(FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.LIME_CONCRETE_DOOR));
+    public static final Block LIME_CONCRETE_POWDER_TRAPDOOR = registerBlock("lime_concrete_powder_trapdoor",
+            new ConcretePowderTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.LIME_CONCRETE_TRAPDOOR));
+    public static final Block LIME_CONCRETE_POWDER_WALL = registerBlock("lime_concrete_powder_wall",
+            new ConcretePowderWallBlock(FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.LIME_CONCRETE_WALL));
+
+    //green_concrete_powder
+    public static final Block GREEN_CONCRETE_POWDER_STAIRS = registerBlock("green_concrete_powder_stairs",
+            new ConcretePowderStairsBlock(Blocks.GREEN_CONCRETE_POWDER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.GREEN_CONCRETE_STAIRS));
+    public static final Block GREEN_CONCRETE_POWDER_SLAB = registerBlock("green_concrete_powder_slab",
+            new ConcretePowderSlabBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.GREEN_CONCRETE_SLAB));
+    public static final Block GREEN_CONCRETE_POWDER_BUTTON = registerBlock("green_concrete_powder_button",
+            new ConcretePowderButtonBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, 10, false, 
+                    ModBlocks.GREEN_CONCRETE_BUTTON));
+    public static final Block GREEN_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("green_concrete_powder_pressure_plate",
+            new ConcretePowderPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.GREEN_CONCRETE_PRESSURE_PLATE));
+    public static final Block GREEN_CONCRETE_POWDER_FENCE = registerBlock("green_concrete_powder_fence",
+            new ConcretePowderFenceBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.GREEN_CONCRETE_FENCE));
+    public static final Block GREEN_CONCRETE_POWDER_FENCE_GATE = registerBlock("green_concrete_powder_fence_gate",
+            new ConcretePowderFenceGateBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), WoodType.OAK, ModBlocks.GREEN_CONCRETE_FENCE_GATE));
+    public static final Block GREEN_CONCRETE_POWDER_DOOR = registerBlock("green_concrete_powder_door",
+            new ConcretePowderDoorBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.GREEN_CONCRETE_DOOR));
+    public static final Block GREEN_CONCRETE_POWDER_TRAPDOOR = registerBlock("green_concrete_powder_trapdoor",
+            new ConcretePowderTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.GREEN_CONCRETE_TRAPDOOR));
+    public static final Block GREEN_CONCRETE_POWDER_WALL = registerBlock("green_concrete_powder_wall",
+            new ConcretePowderWallBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.GREEN_CONCRETE_WALL));
+
+    //cyan_concrete_powder
+    public static final Block CYAN_CONCRETE_POWDER_STAIRS = registerBlock("cyan_concrete_powder_stairs",
+            new ConcretePowderStairsBlock(Blocks.CYAN_CONCRETE_POWDER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.CYAN_CONCRETE_STAIRS));
+    public static final Block CYAN_CONCRETE_POWDER_SLAB = registerBlock("cyan_concrete_powder_slab",
+            new ConcretePowderSlabBlock(FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.CYAN_CONCRETE_SLAB));
+    public static final Block CYAN_CONCRETE_POWDER_BUTTON = registerBlock("cyan_concrete_powder_button",
+            new ConcretePowderButtonBlock(FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, 10, false, 
+                    ModBlocks.CYAN_CONCRETE_BUTTON));
+    public static final Block CYAN_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("cyan_concrete_powder_pressure_plate",
+            new ConcretePowderPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.CYAN_CONCRETE_PRESSURE_PLATE));
+    public static final Block CYAN_CONCRETE_POWDER_FENCE = registerBlock("cyan_concrete_powder_fence",
+            new ConcretePowderFenceBlock(FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.CYAN_CONCRETE_FENCE));
+    public static final Block CYAN_CONCRETE_POWDER_FENCE_GATE = registerBlock("cyan_concrete_powder_fence_gate",
+            new ConcretePowderFenceGateBlock(FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), WoodType.OAK, ModBlocks.CYAN_CONCRETE_FENCE_GATE));
+    public static final Block CYAN_CONCRETE_POWDER_DOOR = registerBlock("cyan_concrete_powder_door",
+            new ConcretePowderDoorBlock(FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.CYAN_CONCRETE_DOOR));
+    public static final Block CYAN_CONCRETE_POWDER_TRAPDOOR = registerBlock("cyan_concrete_powder_trapdoor",
+            new ConcretePowderTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.CYAN_CONCRETE_TRAPDOOR));
+    public static final Block CYAN_CONCRETE_POWDER_WALL = registerBlock("cyan_concrete_powder_wall",
+            new ConcretePowderWallBlock(FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.CYAN_CONCRETE_WALL));
+
+    //blue_concrete_powder
+    public static final Block BLUE_CONCRETE_POWDER_STAIRS = registerBlock("blue_concrete_powder_stairs",
+            new ConcretePowderStairsBlock(Blocks.BLUE_CONCRETE_POWDER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.BLUE_CONCRETE_STAIRS));
+    public static final Block BLUE_CONCRETE_POWDER_SLAB = registerBlock("blue_concrete_powder_slab",
+            new ConcretePowderSlabBlock(FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.BLUE_CONCRETE_SLAB));
+    public static final Block BLUE_CONCRETE_POWDER_BUTTON = registerBlock("blue_concrete_powder_button",
+            new ConcretePowderButtonBlock(FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, 10, false, 
+                    ModBlocks.BLUE_CONCRETE_BUTTON));
+    public static final Block BLUE_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("blue_concrete_powder_pressure_plate",
+            new ConcretePowderPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.BLUE_CONCRETE_PRESSURE_PLATE));
+    public static final Block BLUE_CONCRETE_POWDER_FENCE = registerBlock("blue_concrete_powder_fence",
+            new ConcretePowderFenceBlock(FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.BLUE_CONCRETE_FENCE));
+    public static final Block BLUE_CONCRETE_POWDER_FENCE_GATE = registerBlock("blue_concrete_powder_fence_gate",
+            new ConcretePowderFenceGateBlock(FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), WoodType.OAK, ModBlocks.BLUE_CONCRETE_FENCE_GATE));
+    public static final Block BLUE_CONCRETE_POWDER_DOOR = registerBlock("blue_concrete_powder_door",
+            new ConcretePowderDoorBlock(FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.BLUE_CONCRETE_DOOR));
+    public static final Block BLUE_CONCRETE_POWDER_TRAPDOOR = registerBlock("blue_concrete_powder_trapdoor",
+            new ConcretePowderTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.BLUE_CONCRETE_TRAPDOOR));
+    public static final Block BLUE_CONCRETE_POWDER_WALL = registerBlock("blue_concrete_powder_wall",
+            new ConcretePowderWallBlock(FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.BLUE_CONCRETE_WALL));
+
+    //light_blue_concrete_powder
+    public static final Block LIGHT_BLUE_CONCRETE_POWDER_STAIRS = registerBlock("light_blue_concrete_powder_stairs",
+            new ConcretePowderStairsBlock(Blocks.LIGHT_BLUE_CONCRETE_POWDER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS));
+    public static final Block LIGHT_BLUE_CONCRETE_POWDER_SLAB = registerBlock("light_blue_concrete_powder_slab",
+            new ConcretePowderSlabBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.LIGHT_BLUE_CONCRETE_SLAB));
+    public static final Block LIGHT_BLUE_CONCRETE_POWDER_BUTTON = registerBlock("light_blue_concrete_powder_button",
+            new ConcretePowderButtonBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, 10, false, 
+                    ModBlocks.LIGHT_BLUE_CONCRETE_BUTTON));
+    public static final Block LIGHT_BLUE_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("light_blue_concrete_powder_pressure_plate",
+            new ConcretePowderPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, LIGHT_BLUE_CONCRETE_PRESSURE_PLATE));
+    public static final Block LIGHT_BLUE_CONCRETE_POWDER_FENCE = registerBlock("light_blue_concrete_powder_fence",
+            new ConcretePowderFenceBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.LIGHT_BLUE_CONCRETE_FENCE));
+    public static final Block LIGHT_BLUE_CONCRETE_POWDER_FENCE_GATE = registerBlock("light_blue_concrete_powder_fence_gate",
+            new ConcretePowderFenceGateBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), WoodType.OAK, ModBlocks.LIGHT_BLUE_CONCRETE_FENCE_GATE));
+    public static final Block LIGHT_BLUE_CONCRETE_POWDER_DOOR = registerBlock("light_blue_concrete_powder_door",
+            new ConcretePowderDoorBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.LIGHT_BLUE_CONCRETE_DOOR));
+    public static final Block LIGHT_BLUE_CONCRETE_POWDER_TRAPDOOR = registerBlock("light_blue_concrete_powder_trapdoor",
+            new ConcretePowderTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.LIGHT_BLUE_CONCRETE_TRAPDOOR));
+    public static final Block LIGHT_BLUE_CONCRETE_POWDER_WALL = registerBlock("light_blue_concrete_powder_wall",
+            new ConcretePowderWallBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.LIGHT_BLUE_CONCRETE_WALL));
+
+    //purple_concrete_powder
+    public static final Block PURPLE_CONCRETE_POWDER_STAIRS = registerBlock("purple_concrete_powder_stairs",
+            new ConcretePowderStairsBlock(Blocks.PURPLE_CONCRETE_POWDER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.PURPLE_CONCRETE_STAIRS));
+    public static final Block PURPLE_CONCRETE_POWDER_SLAB = registerBlock("purple_concrete_powder_slab",
+            new ConcretePowderSlabBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.PURPLE_CONCRETE_SLAB));
+    public static final Block PURPLE_CONCRETE_POWDER_BUTTON = registerBlock("purple_concrete_powder_button",
+            new ConcretePowderButtonBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, 10, false,
+                    ModBlocks.PURPLE_CONCRETE_BUTTON));
+    public static final Block PURPLE_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("purple_concrete_powder_pressure_plate",
+            new ConcretePowderPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, PURPLE_CONCRETE_PRESSURE_PLATE));
+    public static final Block PURPLE_CONCRETE_POWDER_FENCE = registerBlock("purple_concrete_powder_fence",
+            new ConcretePowderFenceBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.PURPLE_CONCRETE_FENCE));
+    public static final Block PURPLE_CONCRETE_POWDER_FENCE_GATE = registerBlock("purple_concrete_powder_fence_gate",
+            new ConcretePowderFenceGateBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), WoodType.OAK, ModBlocks.PURPLE_CONCRETE_FENCE_GATE));
+    public static final Block PURPLE_CONCRETE_POWDER_DOOR = registerBlock("purple_concrete_powder_door",
+            new ConcretePowderDoorBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.PURPLE_CONCRETE_DOOR));
+    public static final Block PURPLE_CONCRETE_POWDER_TRAPDOOR = registerBlock("purple_concrete_powder_trapdoor",
+            new ConcretePowderTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.PURPLE_CONCRETE_TRAPDOOR));
+    public static final Block PURPLE_CONCRETE_POWDER_WALL = registerBlock("purple_concrete_powder_wall",
+            new ConcretePowderWallBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.PURPLE_CONCRETE_WALL));
+
+    //magenta_concrete_powder
+    public static final Block MAGENTA_CONCRETE_POWDER_STAIRS = registerBlock("magenta_concrete_powder_stairs",
+            new ConcretePowderStairsBlock(Blocks.MAGENTA_CONCRETE_POWDER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.MAGENTA_CONCRETE_STAIRS));
+    public static final Block MAGENTA_CONCRETE_POWDER_SLAB = registerBlock("magenta_concrete_powder_slab",
+            new ConcretePowderSlabBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.MAGENTA_CONCRETE_SLAB));
+    public static final Block MAGENTA_CONCRETE_POWDER_BUTTON = registerBlock("magenta_concrete_powder_button",
+            new ConcretePowderButtonBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, 10, false,
+                    ModBlocks.MAGENTA_CONCRETE_BUTTON));
+    public static final Block MAGENTA_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("magenta_concrete_powder_pressure_plate",
+            new ConcretePowderPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, MAGENTA_CONCRETE_PRESSURE_PLATE));
+    public static final Block MAGENTA_CONCRETE_POWDER_FENCE = registerBlock("magenta_concrete_powder_fence",
+            new ConcretePowderFenceBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.MAGENTA_CONCRETE_FENCE));
+    public static final Block MAGENTA_CONCRETE_POWDER_FENCE_GATE = registerBlock("magenta_concrete_powder_fence_gate",
+            new ConcretePowderFenceGateBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), WoodType.OAK, ModBlocks.MAGENTA_CONCRETE_FENCE_GATE));
+    public static final Block MAGENTA_CONCRETE_POWDER_DOOR = registerBlock("magenta_concrete_powder_door",
+            new ConcretePowderDoorBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.MAGENTA_CONCRETE_DOOR));
+    public static final Block MAGENTA_CONCRETE_POWDER_TRAPDOOR = registerBlock("magenta_concrete_powder_trapdoor",
+            new ConcretePowderTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.MAGENTA_CONCRETE_TRAPDOOR));
+    public static final Block MAGENTA_CONCRETE_POWDER_WALL = registerBlock("magenta_concrete_powder_wall",
+            new ConcretePowderWallBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.MAGENTA_CONCRETE_WALL));
+
+    //pink_concrete_powder
+    public static final Block PINK_CONCRETE_POWDER_STAIRS = registerBlock("pink_concrete_powder_stairs",
+            new ConcretePowderStairsBlock(Blocks.PINK_CONCRETE_POWDER.getDefaultState(), FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.PINK_CONCRETE_STAIRS));
+    public static final Block PINK_CONCRETE_POWDER_SLAB = registerBlock("pink_concrete_powder_slab",
+            new ConcretePowderSlabBlock(FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.PINK_CONCRETE_SLAB));
+    public static final Block PINK_CONCRETE_POWDER_BUTTON = registerBlock("pink_concrete_powder_button",
+            new ConcretePowderButtonBlock(FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, 10, false, 
+                    ModBlocks.PINK_CONCRETE_BUTTON));
+    public static final Block PINK_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("pink_concrete_powder_pressure_plate",
+            new ConcretePowderPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.PINK_CONCRETE_PRESSURE_PLATE));
+    public static final Block PINK_CONCRETE_POWDER_FENCE = registerBlock("pink_concrete_powder_fence",
+            new ConcretePowderFenceBlock(FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.PINK_CONCRETE_FENCE));
+    public static final Block PINK_CONCRETE_POWDER_FENCE_GATE = registerBlock("pink_concrete_powder_fence_gate",
+            new ConcretePowderFenceGateBlock(FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), WoodType.OAK, ModBlocks.PINK_CONCRETE_FENCE_GATE));
+    public static final Block PINK_CONCRETE_POWDER_DOOR = registerBlock("pink_concrete_powder_door",
+            new ConcretePowderDoorBlock(FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.PINK_CONCRETE_DOOR));
+    public static final Block PINK_CONCRETE_POWDER_TRAPDOOR = registerBlock("pink_concrete_powder_trapdoor",
+            new ConcretePowderTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), BlockSetType.STONE, ModBlocks.PINK_CONCRETE_TRAPDOOR));
+    public static final Block PINK_CONCRETE_POWDER_WALL = registerBlock("pink_concrete_powder_wall",
+            new ConcretePowderWallBlock(FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE_POWDER)
+                    .instrument(Instrument.SNARE).strength(1.8f).sounds(BlockSoundGroup.SAND), ModBlocks.PINK_CONCRETE_WALL));
 
 
 

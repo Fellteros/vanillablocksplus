@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "vanillablocksplus:block/red_concrete_powder_door_bottom",
+    "top": "vanillablocksplus:block/red_concrete_powder_door_top"
+  }
+}

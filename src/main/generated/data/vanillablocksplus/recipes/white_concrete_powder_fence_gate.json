@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:white_concrete_powder_slab"
+    },
+    "W": {
+      "item": "minecraft:white_concrete_powder"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "vanillablocksplus:white_concrete_powder_fence_gate"
+  },
+  "show_notification": true
+}
