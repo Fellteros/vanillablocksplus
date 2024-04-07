@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_chiseled_deepslate": {
+    "has_chiseled_deepslate_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:chiseled_deepslate"
+              "vanillablocksplus:chiseled_deepslate_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_chiseled_deepslate_trapdoor",
-      "has_chiseled_deepslate",
+      "has_chiseled_deepslate_slab",
       "has_the_recipe"
     ]
   ],

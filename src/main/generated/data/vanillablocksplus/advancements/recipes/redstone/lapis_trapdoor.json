@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_lapis_bit": {
+    "has_lapis_lazuli": {
       "conditions": {
         "items": [
           {
             "items": [
-              "vanillablocksplus:lapis_bit"
+              "minecraft:lapis_lazuli"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_lapis_trapdoor",
-      "has_lapis_bit",
+      "has_lapis_lazuli",
       "has_the_recipe"
     ]
   ],

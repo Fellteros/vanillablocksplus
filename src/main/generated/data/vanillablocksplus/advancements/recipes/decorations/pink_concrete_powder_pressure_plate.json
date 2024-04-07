@@ -1,24 +1,24 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_pink_concrete_powder": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:pink_concrete_powder"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_pink_concrete_powder_pressure_plate": {
       "conditions": {
         "items": [
           {
             "items": [
               "vanillablocksplus:pink_concrete_powder_pressure_plate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pink_concrete_powder_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:pink_concrete_powder_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_pink_concrete_powder_pressure_plate",
-      "has_pink_concrete_powder",
+      "has_pink_concrete_powder_slab",
       "has_the_recipe"
     ]
   ],

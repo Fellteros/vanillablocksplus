@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_copper_bit": {
+    "has_copper_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "vanillablocksplus:copper_bit"
+              "minecraft:copper_ingot"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_copper_trapdoor",
-      "has_copper_bit",
+      "has_copper_ingot",
       "has_the_recipe"
     ]
   ],

@@ -1,6 +1,18 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
+    "has_stone_brick_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_brick_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_stone_bricks": {
       "conditions": {
         "items": [
@@ -36,6 +48,7 @@
     [
       "has_stone_bricks_fence_gate",
       "has_stone_bricks",
+      "has_stone_brick_slab",
       "has_the_recipe"
     ]
   ],

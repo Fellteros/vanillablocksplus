@@ -1,24 +1,24 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_black_terracotta": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:black_terracotta"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_black_terracotta_pressure_plate": {
       "conditions": {
         "items": [
           {
             "items": [
               "vanillablocksplus:black_terracotta_pressure_plate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_black_terracotta_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:black_terracotta_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_black_terracotta_pressure_plate",
-      "has_black_terracotta",
+      "has_black_terracotta_slab",
       "has_the_recipe"
     ]
   ],

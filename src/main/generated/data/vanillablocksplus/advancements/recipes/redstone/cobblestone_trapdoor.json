@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cobblestone": {
+    "has_cobblestone_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cobblestone"
+              "minecraft:cobblestone_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_cobblestone_trapdoor",
-      "has_cobblestone",
+      "has_cobblestone_slab",
       "has_the_recipe"
     ]
   ],

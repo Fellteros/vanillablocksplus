@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_packed_mud": {
+    "has_packed_mud_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:packed_mud"
+              "vanillablocksplus:packed_mud_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_packed_mud_trapdoor",
-      "has_packed_mud",
+      "has_packed_mud_slab",
       "has_the_recipe"
     ]
   ],

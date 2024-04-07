@@ -7,12 +7,12 @@
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_yellow_wool": {
+    "has_yellow_wool_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:yellow_wool"
+              "vanillablocksplus:yellow_wool_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_yellow_wool_trapdoor",
-      "has_yellow_wool",
+      "has_yellow_wool_slab",
       "has_the_recipe"
     ]
   ],

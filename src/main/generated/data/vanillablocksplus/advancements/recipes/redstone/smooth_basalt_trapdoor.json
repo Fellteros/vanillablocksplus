@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_smooth_basalt": {
+    "has_smooth_basalt_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:smooth_basalt"
+              "vanillablocksplus:smooth_basalt_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_smooth_basalt_trapdoor",
-      "has_smooth_basalt",
+      "has_smooth_basalt_slab",
       "has_the_recipe"
     ]
   ],

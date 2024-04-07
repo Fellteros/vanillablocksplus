@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_magenta_concrete": {
+    "has_magenta_concrete_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:magenta_concrete"
+              "vanillablocksplus:magenta_concrete_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_magenta_concrete_trapdoor",
-      "has_magenta_concrete",
+      "has_magenta_concrete_slab",
       "has_the_recipe"
     ]
   ],

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_exposed_copper": {
+    "has_exposed_copper_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:exposed_copper"
+              "vanillablocksplus:exposed_copper_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_exposed_copper_trapdoor",
-      "has_exposed_copper",
+      "has_exposed_copper_slab",
       "has_the_recipe"
     ]
   ],

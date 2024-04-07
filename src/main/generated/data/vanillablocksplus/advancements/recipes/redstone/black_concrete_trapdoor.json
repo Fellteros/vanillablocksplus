@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_black_concrete": {
+    "has_black_concrete_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:black_concrete"
+              "vanillablocksplus:black_concrete_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_black_concrete_trapdoor",
-      "has_black_concrete",
+      "has_black_concrete_slab",
       "has_the_recipe"
     ]
   ],

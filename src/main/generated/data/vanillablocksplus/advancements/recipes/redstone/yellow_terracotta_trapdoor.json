@@ -7,12 +7,12 @@
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_yellow_terracotta": {
+    "has_yellow_terracotta_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:yellow_terracotta"
+              "vanillablocksplus:yellow_terracotta_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_yellow_terracotta_trapdoor",
-      "has_yellow_terracotta",
+      "has_yellow_terracotta_slab",
       "has_the_recipe"
     ]
   ],

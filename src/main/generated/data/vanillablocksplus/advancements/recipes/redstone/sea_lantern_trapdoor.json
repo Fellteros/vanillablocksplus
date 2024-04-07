@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_sea_lantern": {
+    "has_sea_lantern_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:sea_lantern"
+              "vanillablocksplus:sea_lantern_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_sea_lantern_trapdoor",
-      "has_sea_lantern",
+      "has_sea_lantern_slab",
       "has_the_recipe"
     ]
   ],

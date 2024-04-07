@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_gray_wool": {
+    "has_gray_wool_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:gray_wool"
+              "vanillablocksplus:gray_wool_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_gray_wool_trapdoor",
-      "has_gray_wool",
+      "has_gray_wool_slab",
       "has_the_recipe"
     ]
   ],

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_stone_bricks": {
+    "has_stone_brick_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:stone_bricks"
+              "minecraft:stone_brick_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_stone_bricks_trapdoor",
-      "has_stone_bricks",
+      "has_stone_brick_slab",
       "has_the_recipe"
     ]
   ],

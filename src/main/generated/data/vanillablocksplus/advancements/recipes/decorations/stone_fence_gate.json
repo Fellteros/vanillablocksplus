@@ -25,6 +25,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_stone_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:stone_fence_gate"
@@ -36,6 +48,7 @@
     [
       "has_stone_fence_gate",
       "has_stone",
+      "has_stone_slab",
       "has_the_recipe"
     ]
   ],

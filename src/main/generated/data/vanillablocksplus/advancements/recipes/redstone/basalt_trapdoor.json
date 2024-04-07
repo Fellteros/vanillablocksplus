@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_basalt": {
+    "has_basalt_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:basalt"
+              "vanillablocksplus:basalt_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_basalt_trapdoor",
-      "has_basalt",
+      "has_basalt_slab",
       "has_the_recipe"
     ]
   ],

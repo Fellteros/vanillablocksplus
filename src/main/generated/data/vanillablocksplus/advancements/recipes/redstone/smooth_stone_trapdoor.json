@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_smooth_stone": {
+    "has_smooth_stone_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:smooth_stone"
+              "minecraft:smooth_stone_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_smooth_stone_trapdoor",
-      "has_smooth_stone",
+      "has_smooth_stone_slab",
       "has_the_recipe"
     ]
   ],

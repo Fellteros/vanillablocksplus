@@ -7,12 +7,12 @@
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_white_concrete_powder": {
+    "has_white_concrete_powder_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:white_concrete_powder"
+              "vanillablocksplus:white_concrete_powder_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_white_concrete_powder_trapdoor",
-      "has_white_concrete_powder",
+      "has_white_concrete_powder_slab",
       "has_the_recipe"
     ]
   ],

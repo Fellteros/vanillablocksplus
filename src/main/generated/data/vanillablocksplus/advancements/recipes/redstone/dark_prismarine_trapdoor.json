@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_dark_prismarine": {
+    "has_dark_prismarine_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:dark_prismarine"
+              "minecraft:dark_prismarine_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_dark_prismarine_trapdoor",
-      "has_dark_prismarine",
+      "has_dark_prismarine_slab",
       "has_the_recipe"
     ]
   ],

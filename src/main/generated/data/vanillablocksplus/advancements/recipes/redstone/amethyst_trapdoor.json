@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_amethyst_block": {
+    "has_amethyst_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:amethyst_block"
+              "vanillablocksplus:amethyst_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_amethyst_trapdoor",
-      "has_amethyst_block",
+      "has_amethyst_slab",
       "has_the_recipe"
     ]
   ],

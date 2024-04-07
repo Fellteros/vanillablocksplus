@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_magenta_wool": {
+    "has_magenta_wool_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:magenta_wool"
+              "vanillablocksplus:magenta_wool_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_magenta_wool_trapdoor",
-      "has_magenta_wool",
+      "has_magenta_wool_slab",
       "has_the_recipe"
     ]
   ],

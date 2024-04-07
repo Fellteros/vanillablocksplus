@@ -1445,6 +1445,182 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PINK_CONCRETE_POWDER_SLAB, slabDrops(ModBlocks.PINK_CONCRETE_POWDER_SLAB));
         addDrop(ModBlocks.PINK_CONCRETE_POWDER_WALL);
 
+        //white glazed_terracotta
+        addDrop(ModBlocks.WHITE_GLAZED_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.WHITE_GLAZED_TERRACOTTA_TRAPDOOR);
+        addDrop(ModBlocks.WHITE_GLAZED_TERRACOTTA_BUTTON);
+        addDrop(ModBlocks.WHITE_GLAZED_TERRACOTTA_PRESSURE_PLATE);
+        addDrop(ModBlocks.WHITE_GLAZED_TERRACOTTA_FENCE);
+        addDrop(ModBlocks.WHITE_GLAZED_TERRACOTTA_FENCE_GATE);
+        addDrop(ModBlocks.WHITE_GLAZED_TERRACOTTA_DOOR, doorDrops(ModBlocks.WHITE_GLAZED_TERRACOTTA_DOOR));
+        addDrop(ModBlocks.WHITE_GLAZED_TERRACOTTA_SLAB, slabDrops(ModBlocks.WHITE_GLAZED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.WHITE_GLAZED_TERRACOTTA_WALL);
+
+        //light_gray_glazed_terracotta
+        addDrop(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_TRAPDOOR);
+        addDrop(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_BUTTON);
+        addDrop(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_PRESSURE_PLATE);
+        addDrop(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_FENCE);
+        addDrop(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_FENCE_GATE);
+        addDrop(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_DOOR, doorDrops(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_DOOR));
+        addDrop(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB, slabDrops(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_WALL);
+
+        //gray_glazed_terracotta
+        addDrop(ModBlocks.GRAY_GLAZED_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.GRAY_GLAZED_TERRACOTTA_TRAPDOOR);
+        addDrop(ModBlocks.GRAY_GLAZED_TERRACOTTA_BUTTON);
+        addDrop(ModBlocks.GRAY_GLAZED_TERRACOTTA_PRESSURE_PLATE);
+        addDrop(ModBlocks.GRAY_GLAZED_TERRACOTTA_FENCE);
+        addDrop(ModBlocks.GRAY_GLAZED_TERRACOTTA_FENCE_GATE);
+        addDrop(ModBlocks.GRAY_GLAZED_TERRACOTTA_DOOR, doorDrops(ModBlocks.GRAY_GLAZED_TERRACOTTA_DOOR));
+        addDrop(ModBlocks.GRAY_GLAZED_TERRACOTTA_SLAB, slabDrops(ModBlocks.GRAY_GLAZED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.GRAY_GLAZED_TERRACOTTA_WALL);
+
+        //black_glazed_terracotta
+        addDrop(ModBlocks.BLACK_GLAZED_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.BLACK_GLAZED_TERRACOTTA_TRAPDOOR);
+        addDrop(ModBlocks.BLACK_GLAZED_TERRACOTTA_BUTTON);
+        addDrop(ModBlocks.BLACK_GLAZED_TERRACOTTA_PRESSURE_PLATE);
+        addDrop(ModBlocks.BLACK_GLAZED_TERRACOTTA_FENCE);
+        addDrop(ModBlocks.BLACK_GLAZED_TERRACOTTA_FENCE_GATE);
+        addDrop(ModBlocks.BLACK_GLAZED_TERRACOTTA_DOOR, doorDrops(ModBlocks.BLACK_GLAZED_TERRACOTTA_DOOR));
+        addDrop(ModBlocks.BLACK_GLAZED_TERRACOTTA_SLAB, slabDrops(ModBlocks.BLACK_GLAZED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.BLACK_GLAZED_TERRACOTTA_WALL);
+
+        //brown_glazed_terracotta
+        addDrop(ModBlocks.BROWN_GLAZED_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.BROWN_GLAZED_TERRACOTTA_TRAPDOOR);
+        addDrop(ModBlocks.BROWN_GLAZED_TERRACOTTA_BUTTON);
+        addDrop(ModBlocks.BROWN_GLAZED_TERRACOTTA_PRESSURE_PLATE);
+        addDrop(ModBlocks.BROWN_GLAZED_TERRACOTTA_FENCE);
+        addDrop(ModBlocks.BROWN_GLAZED_TERRACOTTA_FENCE_GATE);
+        addDrop(ModBlocks.BROWN_GLAZED_TERRACOTTA_DOOR, doorDrops(ModBlocks.BROWN_GLAZED_TERRACOTTA_DOOR));
+        addDrop(ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB, slabDrops(ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.BROWN_GLAZED_TERRACOTTA_WALL);
+
+        //red_glazed_terracotta
+        addDrop(ModBlocks.RED_GLAZED_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.RED_GLAZED_TERRACOTTA_TRAPDOOR);
+        addDrop(ModBlocks.RED_GLAZED_TERRACOTTA_BUTTON);
+        addDrop(ModBlocks.RED_GLAZED_TERRACOTTA_PRESSURE_PLATE);
+        addDrop(ModBlocks.RED_GLAZED_TERRACOTTA_FENCE);
+        addDrop(ModBlocks.RED_GLAZED_TERRACOTTA_FENCE_GATE);
+        addDrop(ModBlocks.RED_GLAZED_TERRACOTTA_DOOR, doorDrops(ModBlocks.RED_GLAZED_TERRACOTTA_DOOR));
+        addDrop(ModBlocks.RED_GLAZED_TERRACOTTA_SLAB, slabDrops(ModBlocks.RED_GLAZED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.RED_GLAZED_TERRACOTTA_WALL);
+
+        //orange_glazed_terracotta
+        addDrop(ModBlocks.ORANGE_GLAZED_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.ORANGE_GLAZED_TERRACOTTA_TRAPDOOR);
+        addDrop(ModBlocks.ORANGE_GLAZED_TERRACOTTA_BUTTON);
+        addDrop(ModBlocks.ORANGE_GLAZED_TERRACOTTA_PRESSURE_PLATE);
+        addDrop(ModBlocks.ORANGE_GLAZED_TERRACOTTA_FENCE);
+        addDrop(ModBlocks.ORANGE_GLAZED_TERRACOTTA_FENCE_GATE);
+        addDrop(ModBlocks.ORANGE_GLAZED_TERRACOTTA_DOOR, doorDrops(ModBlocks.ORANGE_GLAZED_TERRACOTTA_DOOR));
+        addDrop(ModBlocks.ORANGE_GLAZED_TERRACOTTA_SLAB, slabDrops(ModBlocks.ORANGE_GLAZED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.ORANGE_GLAZED_TERRACOTTA_WALL);
+
+        //yellow_glazed_terracotta
+        addDrop(ModBlocks.YELLOW_GLAZED_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.YELLOW_GLAZED_TERRACOTTA_TRAPDOOR);
+        addDrop(ModBlocks.YELLOW_GLAZED_TERRACOTTA_BUTTON);
+        addDrop(ModBlocks.YELLOW_GLAZED_TERRACOTTA_PRESSURE_PLATE);
+        addDrop(ModBlocks.YELLOW_GLAZED_TERRACOTTA_FENCE);
+        addDrop(ModBlocks.YELLOW_GLAZED_TERRACOTTA_FENCE_GATE);
+        addDrop(ModBlocks.YELLOW_GLAZED_TERRACOTTA_DOOR, doorDrops(ModBlocks.YELLOW_GLAZED_TERRACOTTA_DOOR));
+        addDrop(ModBlocks.YELLOW_GLAZED_TERRACOTTA_SLAB, slabDrops(ModBlocks.YELLOW_GLAZED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.YELLOW_GLAZED_TERRACOTTA_WALL);
+
+        //lime_glazed_terracotta
+        addDrop(ModBlocks.LIME_GLAZED_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.LIME_GLAZED_TERRACOTTA_TRAPDOOR);
+        addDrop(ModBlocks.LIME_GLAZED_TERRACOTTA_BUTTON);
+        addDrop(ModBlocks.LIME_GLAZED_TERRACOTTA_PRESSURE_PLATE);
+        addDrop(ModBlocks.LIME_GLAZED_TERRACOTTA_FENCE);
+        addDrop(ModBlocks.LIME_GLAZED_TERRACOTTA_FENCE_GATE);
+        addDrop(ModBlocks.LIME_GLAZED_TERRACOTTA_DOOR, doorDrops(ModBlocks.LIME_GLAZED_TERRACOTTA_DOOR));
+        addDrop(ModBlocks.LIME_GLAZED_TERRACOTTA_SLAB, slabDrops(ModBlocks.LIME_GLAZED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.LIME_GLAZED_TERRACOTTA_WALL);
+
+        //green_glazed_terracotta
+        addDrop(ModBlocks.GREEN_GLAZED_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.GREEN_GLAZED_TERRACOTTA_TRAPDOOR);
+        addDrop(ModBlocks.GREEN_GLAZED_TERRACOTTA_BUTTON);
+        addDrop(ModBlocks.GREEN_GLAZED_TERRACOTTA_PRESSURE_PLATE);
+        addDrop(ModBlocks.GREEN_GLAZED_TERRACOTTA_FENCE);
+        addDrop(ModBlocks.GREEN_GLAZED_TERRACOTTA_FENCE_GATE);
+        addDrop(ModBlocks.GREEN_GLAZED_TERRACOTTA_DOOR, doorDrops(ModBlocks.GREEN_GLAZED_TERRACOTTA_DOOR));
+        addDrop(ModBlocks.GREEN_GLAZED_TERRACOTTA_SLAB, slabDrops(ModBlocks.GREEN_GLAZED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.GREEN_GLAZED_TERRACOTTA_WALL);
+
+        //cyan_glazed_terracotta
+        addDrop(ModBlocks.CYAN_GLAZED_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.CYAN_GLAZED_TERRACOTTA_TRAPDOOR);
+        addDrop(ModBlocks.CYAN_GLAZED_TERRACOTTA_BUTTON);
+        addDrop(ModBlocks.CYAN_GLAZED_TERRACOTTA_PRESSURE_PLATE);
+        addDrop(ModBlocks.CYAN_GLAZED_TERRACOTTA_FENCE);
+        addDrop(ModBlocks.CYAN_GLAZED_TERRACOTTA_FENCE_GATE);
+        addDrop(ModBlocks.CYAN_GLAZED_TERRACOTTA_DOOR, doorDrops(ModBlocks.CYAN_GLAZED_TERRACOTTA_DOOR));
+        addDrop(ModBlocks.CYAN_GLAZED_TERRACOTTA_SLAB, slabDrops(ModBlocks.CYAN_GLAZED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.CYAN_GLAZED_TERRACOTTA_WALL);
+
+        //blue_glazed_terracotta
+        addDrop(ModBlocks.BLUE_GLAZED_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.BLUE_GLAZED_TERRACOTTA_TRAPDOOR);
+        addDrop(ModBlocks.BLUE_GLAZED_TERRACOTTA_BUTTON);
+        addDrop(ModBlocks.BLUE_GLAZED_TERRACOTTA_PRESSURE_PLATE);
+        addDrop(ModBlocks.BLUE_GLAZED_TERRACOTTA_FENCE);
+        addDrop(ModBlocks.BLUE_GLAZED_TERRACOTTA_FENCE_GATE);
+        addDrop(ModBlocks.BLUE_GLAZED_TERRACOTTA_DOOR, doorDrops(ModBlocks.BLUE_GLAZED_TERRACOTTA_DOOR));
+        addDrop(ModBlocks.BLUE_GLAZED_TERRACOTTA_SLAB, slabDrops(ModBlocks.BLUE_GLAZED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.BLUE_GLAZED_TERRACOTTA_WALL);
+
+        //light_blue_glazed_terracotta
+        addDrop(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_TRAPDOOR);
+        addDrop(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_BUTTON);
+        addDrop(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_PRESSURE_PLATE);
+        addDrop(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_FENCE);
+        addDrop(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_FENCE_GATE);
+        addDrop(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_DOOR, doorDrops(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_DOOR));
+        addDrop(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB, slabDrops(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_WALL);
+
+        //purple_glazed_terracotta
+        addDrop(ModBlocks.PURPLE_GLAZED_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.PURPLE_GLAZED_TERRACOTTA_TRAPDOOR);
+        addDrop(ModBlocks.PURPLE_GLAZED_TERRACOTTA_BUTTON);
+        addDrop(ModBlocks.PURPLE_GLAZED_TERRACOTTA_PRESSURE_PLATE);
+        addDrop(ModBlocks.PURPLE_GLAZED_TERRACOTTA_FENCE);
+        addDrop(ModBlocks.PURPLE_GLAZED_TERRACOTTA_FENCE_GATE);
+        addDrop(ModBlocks.PURPLE_GLAZED_TERRACOTTA_DOOR, doorDrops(ModBlocks.PURPLE_GLAZED_TERRACOTTA_DOOR));
+        addDrop(ModBlocks.PURPLE_GLAZED_TERRACOTTA_SLAB, slabDrops(ModBlocks.PURPLE_GLAZED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.PURPLE_GLAZED_TERRACOTTA_WALL);
+
+        //magenta_glazed_terracotta
+        addDrop(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_TRAPDOOR);
+        addDrop(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_BUTTON);
+        addDrop(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_PRESSURE_PLATE);
+        addDrop(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_FENCE);
+        addDrop(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_FENCE_GATE);
+        addDrop(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_DOOR, doorDrops(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_DOOR));
+        addDrop(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB, slabDrops(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_WALL);
+
+        //pink_glazed_terracotta
+        addDrop(ModBlocks.PINK_GLAZED_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.PINK_GLAZED_TERRACOTTA_TRAPDOOR);
+        addDrop(ModBlocks.PINK_GLAZED_TERRACOTTA_BUTTON);
+        addDrop(ModBlocks.PINK_GLAZED_TERRACOTTA_PRESSURE_PLATE);
+        addDrop(ModBlocks.PINK_GLAZED_TERRACOTTA_FENCE);
+        addDrop(ModBlocks.PINK_GLAZED_TERRACOTTA_FENCE_GATE);
+        addDrop(ModBlocks.PINK_GLAZED_TERRACOTTA_DOOR, doorDrops(ModBlocks.PINK_GLAZED_TERRACOTTA_DOOR));
+        addDrop(ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB, slabDrops(ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.PINK_GLAZED_TERRACOTTA_WALL);
+
 
         
         

@@ -25,6 +25,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_lapis_lazuli": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lapis_lazuli"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:lapis_fence"
@@ -36,6 +48,7 @@
     [
       "has_lapis_fence",
       "has_lapis_bit",
+      "has_lapis_lazuli",
       "has_the_recipe"
     ]
   ],

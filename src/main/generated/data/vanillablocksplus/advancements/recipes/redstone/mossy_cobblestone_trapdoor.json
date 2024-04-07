@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_mossy_cobblestone": {
+    "has_mossy_cobblestone_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:mossy_cobblestone"
+              "minecraft:mossy_cobblestone_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_mossy_cobblestone_trapdoor",
-      "has_mossy_cobblestone",
+      "has_mossy_cobblestone_slab",
       "has_the_recipe"
     ]
   ],

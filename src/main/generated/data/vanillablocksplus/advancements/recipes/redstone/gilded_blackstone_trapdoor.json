@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_gilded_blackstone": {
+    "has_gilded_blackstone_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:gilded_blackstone"
+              "vanillablocksplus:gilded_blackstone_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_gilded_blackstone_trapdoor",
-      "has_gilded_blackstone",
+      "has_gilded_blackstone_slab",
       "has_the_recipe"
     ]
   ],

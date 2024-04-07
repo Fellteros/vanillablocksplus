@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_deepslate": {
+    "has_deepslate_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:deepslate"
+              "vanillablocksplus:deepslate_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_deepslate_trapdoor",
-      "has_deepslate",
+      "has_deepslate_slab",
       "has_the_recipe"
     ]
   ],

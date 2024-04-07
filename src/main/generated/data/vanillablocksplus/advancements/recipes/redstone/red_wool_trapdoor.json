@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_red_wool": {
+    "has_red_wool_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:red_wool"
+              "vanillablocksplus:red_wool_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_red_wool_trapdoor",
-      "has_red_wool",
+      "has_red_wool_slab",
       "has_the_recipe"
     ]
   ],

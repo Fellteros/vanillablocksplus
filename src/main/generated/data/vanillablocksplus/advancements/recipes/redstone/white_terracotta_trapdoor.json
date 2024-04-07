@@ -7,12 +7,12 @@
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_white_terracotta": {
+    "has_white_terracotta_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:white_terracotta"
+              "vanillablocksplus:white_terracotta_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_white_terracotta_trapdoor",
-      "has_white_terracotta",
+      "has_white_terracotta_slab",
       "has_the_recipe"
     ]
   ],

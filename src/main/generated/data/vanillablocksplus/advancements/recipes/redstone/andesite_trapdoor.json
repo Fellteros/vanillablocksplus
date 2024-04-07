@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_andesite": {
+    "has_andesite_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:andesite"
+              "minecraft:andesite_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_andesite_trapdoor",
-      "has_andesite",
+      "has_andesite_slab",
       "has_the_recipe"
     ]
   ],
