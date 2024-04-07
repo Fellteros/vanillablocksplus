@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_pink_wool": {
+    "has_pink_wool_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:pink_wool"
+              "vanillablocksplus:pink_wool_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_pink_wool_trapdoor",
-      "has_pink_wool",
+      "has_pink_wool_slab",
       "has_the_recipe"
     ]
   ],

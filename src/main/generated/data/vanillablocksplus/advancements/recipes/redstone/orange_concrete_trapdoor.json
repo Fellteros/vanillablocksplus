@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_orange_concrete": {
+    "has_orange_concrete_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:orange_concrete"
+              "vanillablocksplus:orange_concrete_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_orange_concrete_trapdoor",
-      "has_orange_concrete",
+      "has_orange_concrete_slab",
       "has_the_recipe"
     ]
   ],

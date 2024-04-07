@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_smooth_quartz": {
+    "has_smooth_quartz_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:smooth_quartz"
+              "minecraft:smooth_quartz_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_smooth_quartz_trapdoor",
-      "has_smooth_quartz",
+      "has_smooth_quartz_slab",
       "has_the_recipe"
     ]
   ],

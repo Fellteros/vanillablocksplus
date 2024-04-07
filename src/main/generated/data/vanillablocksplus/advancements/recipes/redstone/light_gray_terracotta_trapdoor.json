@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_light_gray_terracotta": {
+    "has_light_gray_terracotta_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:light_gray_terracotta"
+              "vanillablocksplus:light_gray_terracotta_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_light_gray_terracotta_trapdoor",
-      "has_light_gray_terracotta",
+      "has_light_gray_terracotta_slab",
       "has_the_recipe"
     ]
   ],

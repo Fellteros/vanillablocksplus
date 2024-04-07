@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_smooth_sandstone": {
+    "has_smooth_sandstone_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:smooth_sandstone"
+              "minecraft:smooth_sandstone_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_smooth_sandstone_trapdoor",
-      "has_smooth_sandstone",
+      "has_smooth_sandstone_slab",
       "has_the_recipe"
     ]
   ],

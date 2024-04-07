@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_polished_diorite": {
+    "has_polished_diorite_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:polished_diorite"
+              "minecraft:polished_diorite_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_polished_diorite_trapdoor",
-      "has_polished_diorite",
+      "has_polished_diorite_slab",
       "has_the_recipe"
     ]
   ],

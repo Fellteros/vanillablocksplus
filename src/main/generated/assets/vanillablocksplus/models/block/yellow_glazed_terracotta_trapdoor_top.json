@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "vanillablocksplus:block/yellow_glazed_terracotta_trapdoor"
+  }
+}

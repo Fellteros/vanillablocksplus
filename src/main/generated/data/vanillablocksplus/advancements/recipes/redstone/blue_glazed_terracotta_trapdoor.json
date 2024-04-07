@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blue_glazed_terracotta_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:blue_glazed_terracotta_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_blue_glazed_terracotta_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:blue_glazed_terracotta_trapdoor"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:blue_glazed_terracotta_trapdoor"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_blue_glazed_terracotta_trapdoor",
+      "has_blue_glazed_terracotta_slab",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:blue_glazed_terracotta_trapdoor"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "textures": {
+    "bottom": "vanillablocksplus:block/red_glazed_terracotta_door_bottom",
+    "top": "vanillablocksplus:block/red_glazed_terracotta_door_top"
+  }
+}

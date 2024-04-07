@@ -7,12 +7,12 @@
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_white_wool": {
+    "has_white_wool_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:white_wool"
+              "vanillablocksplus:white_wool_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_white_wool_trapdoor",
-      "has_white_wool",
+      "has_white_wool_slab",
       "has_the_recipe"
     ]
   ],

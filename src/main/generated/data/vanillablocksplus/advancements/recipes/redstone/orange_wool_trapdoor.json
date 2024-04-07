@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_orange_wool": {
+    "has_orange_wool_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:orange_wool"
+              "vanillablocksplus:orange_wool_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_orange_wool_trapdoor",
-      "has_orange_wool",
+      "has_orange_wool_slab",
       "has_the_recipe"
     ]
   ],

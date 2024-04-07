@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_brown_concrete_powder": {
+    "has_brown_concrete_powder_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:brown_concrete_powder"
+              "vanillablocksplus:brown_concrete_powder_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_brown_concrete_powder_trapdoor",
-      "has_brown_concrete_powder",
+      "has_brown_concrete_powder_slab",
       "has_the_recipe"
     ]
   ],

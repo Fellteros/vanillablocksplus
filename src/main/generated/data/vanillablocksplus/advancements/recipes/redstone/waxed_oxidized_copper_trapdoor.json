@@ -7,12 +7,12 @@
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_waxed_oxidized_copper": {
+    "has_waxed_oxidized_copper_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:waxed_oxidized_copper"
+              "vanillablocksplus:waxed_oxidized_copper_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_waxed_oxidized_copper_trapdoor",
-      "has_waxed_oxidized_copper",
+      "has_waxed_oxidized_copper_slab",
       "has_the_recipe"
     ]
   ],

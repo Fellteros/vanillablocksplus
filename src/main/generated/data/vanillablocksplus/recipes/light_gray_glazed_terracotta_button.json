@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:light_gray_glazed_terracotta"
+    }
+  },
+  "pattern": [
+    " # "
+  ],
+  "result": {
+    "item": "vanillablocksplus:light_gray_glazed_terracotta_button"
+  },
+  "show_notification": true
+}

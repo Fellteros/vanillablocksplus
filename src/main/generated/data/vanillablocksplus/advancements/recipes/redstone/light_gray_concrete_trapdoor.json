@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_light_gray_concrete": {
+    "has_light_gray_concrete_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:light_gray_concrete"
+              "vanillablocksplus:light_gray_concrete_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_light_gray_concrete_trapdoor",
-      "has_light_gray_concrete",
+      "has_light_gray_concrete_slab",
       "has_the_recipe"
     ]
   ],

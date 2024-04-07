@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cracked_deepslate_tiles": {
+    "has_cracked_deepslate_tiles_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cracked_deepslate_tiles"
+              "vanillablocksplus:cracked_deepslate_tiles_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_cracked_deepslate_tiles_trapdoor",
-      "has_cracked_deepslate_tiles",
+      "has_cracked_deepslate_tiles_slab",
       "has_the_recipe"
     ]
   ],

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_purple_wool": {
+    "has_purple_wool_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:purple_wool"
+              "vanillablocksplus:purple_wool_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_purple_wool_trapdoor",
-      "has_purple_wool",
+      "has_purple_wool_slab",
       "has_the_recipe"
     ]
   ],

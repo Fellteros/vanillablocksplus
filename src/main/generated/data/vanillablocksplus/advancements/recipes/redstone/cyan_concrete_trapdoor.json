@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cyan_concrete": {
+    "has_cyan_concrete_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cyan_concrete"
+              "vanillablocksplus:cyan_concrete_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_cyan_concrete_trapdoor",
-      "has_cyan_concrete",
+      "has_cyan_concrete_slab",
       "has_the_recipe"
     ]
   ],

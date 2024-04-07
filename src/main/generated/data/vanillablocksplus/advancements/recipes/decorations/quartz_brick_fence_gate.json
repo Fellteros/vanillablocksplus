@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_quartz_brick_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:quartz_brick_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_quartz_bricks": {
       "conditions": {
         "items": [
@@ -36,6 +48,7 @@
     [
       "has_quartz_brick_fence_gate",
       "has_quartz_bricks",
+      "has_quartz_brick_slab",
       "has_the_recipe"
     ]
   ],

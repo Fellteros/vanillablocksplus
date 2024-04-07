@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cut_copper": {
+    "has_cut_copper_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cut_copper"
+              "minecraft:cut_copper_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_cut_copper_trapdoor",
-      "has_cut_copper",
+      "has_cut_copper_slab",
       "has_the_recipe"
     ]
   ],

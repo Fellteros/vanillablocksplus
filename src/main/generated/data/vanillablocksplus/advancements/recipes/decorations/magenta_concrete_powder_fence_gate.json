@@ -25,6 +25,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_magenta_concrete_powder_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:magenta_concrete_powder_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:magenta_concrete_powder_fence_gate"
@@ -36,6 +48,7 @@
     [
       "has_magenta_concrete_powder_fence_gate",
       "has_magenta_concrete_powder",
+      "has_magenta_concrete_powder_slab",
       "has_the_recipe"
     ]
   ],

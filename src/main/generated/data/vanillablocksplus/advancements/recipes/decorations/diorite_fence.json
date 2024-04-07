@@ -1,6 +1,18 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
+    "has_diorite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diorite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_diorite_fence": {
       "conditions": {
         "items": [
@@ -13,12 +25,12 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_granite": {
+    "has_diorite_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:diorite"
+              "minecraft:diorite_slab"
             ]
           }
         ]
@@ -35,7 +47,8 @@
   "requirements": [
     [
       "has_diorite_fence",
-      "has_granite",
+      "has_diorite",
+      "has_diorite_slab",
       "has_the_recipe"
     ]
   ],

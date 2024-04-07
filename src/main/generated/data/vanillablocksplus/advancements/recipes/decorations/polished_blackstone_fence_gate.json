@@ -25,6 +25,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_polished_blackstone_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_blackstone_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:polished_blackstone_fence_gate"
@@ -36,6 +48,7 @@
     [
       "has_polished_blackstone_fence_gate",
       "has_polished_blackstone",
+      "has_polished_blackstone_slab",
       "has_the_recipe"
     ]
   ],

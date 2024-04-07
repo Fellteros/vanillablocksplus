@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_netherrack": {
+    "has_netherrack_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:netherrack"
+              "vanillablocksplus:netherrack_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_netherrack_trapdoor",
-      "has_netherrack",
+      "has_netherrack_slab",
       "has_the_recipe"
     ]
   ],

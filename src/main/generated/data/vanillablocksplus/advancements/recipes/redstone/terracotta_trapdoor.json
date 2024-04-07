@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_terracotta": {
+    "has_terracotta_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:terracotta"
+              "vanillablocksplus:terracotta_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_terracotta_trapdoor",
-      "has_terracotta",
+      "has_terracotta_slab",
       "has_the_recipe"
     ]
   ],

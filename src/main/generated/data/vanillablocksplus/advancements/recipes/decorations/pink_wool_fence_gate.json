@@ -25,6 +25,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_pink_wool_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:pink_wool_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:pink_wool_fence_gate"
@@ -36,6 +48,7 @@
     [
       "has_pink_wool_fence_gate",
       "has_pink_wool",
+      "has_pink_wool_slab",
       "has_the_recipe"
     ]
   ],

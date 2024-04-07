@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_polished_deepslate": {
+    "has_polished_deepslate_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:polished_deepslate"
+              "minecraft:polished_deepslate_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_polished_deepslate_trapdoor",
-      "has_polished_deepslate",
+      "has_polished_deepslate_slab",
       "has_the_recipe"
     ]
   ],

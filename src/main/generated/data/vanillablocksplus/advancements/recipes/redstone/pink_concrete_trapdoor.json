@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_pink_concrete": {
+    "has_pink_concrete_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:pink_concrete"
+              "vanillablocksplus:pink_concrete_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_pink_concrete_trapdoor",
-      "has_pink_concrete",
+      "has_pink_concrete_slab",
       "has_the_recipe"
     ]
   ],

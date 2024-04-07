@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_redstone_shard": {
+    "has_redstone": {
       "conditions": {
         "items": [
           {
             "items": [
-              "vanillablocksplus:redstone_shard"
+              "minecraft:redstone"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_redstone_trapdoor",
-      "has_redstone_shard",
+      "has_redstone",
       "has_the_recipe"
     ]
   ],

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cracked_stone_bricks": {
+    "has_cracked_stone_bricks_slab": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cracked_stone_bricks"
+              "vanillablocksplus:cracked_stone_bricks_slab"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_cracked_stone_bricks_trapdoor",
-      "has_cracked_stone_bricks",
+      "has_cracked_stone_bricks_slab",
       "has_the_recipe"
     ]
   ],

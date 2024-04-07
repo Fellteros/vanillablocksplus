@@ -25,6 +25,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_green_terracotta_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:green_terracotta_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:green_terracotta_fence_gate"
@@ -36,6 +48,7 @@
     [
       "has_green_terracotta_fence_gate",
       "has_green_terracotta",
+      "has_green_terracotta_slab",
       "has_the_recipe"
     ]
   ],
