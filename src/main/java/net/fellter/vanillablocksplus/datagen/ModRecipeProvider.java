@@ -3685,8 +3685,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
-
-
         //ingredients
         ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.COAL_BIT, Items.COAL)
                 .criterion(hasItem(Items.COAL), conditionsFromItem(Items.COAL))
