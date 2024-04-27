@@ -7,7 +7,6 @@ import net.fellter.vanillablocksplus.item.ModItemGroups;
 import net.fellter.vanillablocksplus.item.ModItems;
 import net.fellter.vanillablocksplus.registry.FlammableBlocksRegistry;
 import net.fellter.vanillablocksplus.registry.OxidizableBlockRegistry;
-import net.fellter.vanillablocksplus.registry.TransparentBlocksRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
