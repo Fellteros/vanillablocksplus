@@ -14,6 +14,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+
         BlockStateModelGenerator.BlockTexturePool oakWoodPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.OAK_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool strOakWoodPool =
@@ -1663,8 +1664,6 @@ public class ModModelProvider extends FabricModelProvider {
 
 
 
-
-
         //oak
         blockStateModelGenerator.registerDoor(ModBlocks.OAK_WOOD_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.OAK_WOOD_TRAPDOOR);
@@ -2199,9 +2198,6 @@ public class ModModelProvider extends FabricModelProvider {
         //pink_glazed_terracotta
         blockStateModelGenerator.registerDoor(ModBlocks.PINK_GLAZED_TERRACOTTA_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PINK_GLAZED_TERRACOTTA_TRAPDOOR);
-
-
-
 
 
 

@@ -3,6 +3,7 @@ package net.fellter.vanillablocksplus.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.fellter.vanillablocksplus.block.ModBlocks;
+import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
@@ -20,7 +21,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
 
-         getOrCreateTagBuilder(BlockTags.WOOL)
+
+        getOrCreateTagBuilder(BlockTags.WOOL)
                  //white_wool
                  .add(ModBlocks.WHITE_WOOL_STAIRS)
                  .add(ModBlocks.WHITE_WOOL_SLAB)
@@ -1654,7 +1656,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_GLAZED_TERRACOTTA_FENCE)
                 .add(ModBlocks.PINK_GLAZED_TERRACOTTA_BUTTON)
                 .add(ModBlocks.PINK_GLAZED_TERRACOTTA_PRESSURE_PLATE);
-        
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 //oak
@@ -2200,6 +2201,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_FENCE)
                 .add(ModBlocks.PINK_GLAZED_TERRACOTTA_FENCE);
 
+
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.OAK_WOOD_FENCE_GATE)
                 .add(ModBlocks.STR_OAK_WOOD_FENCE_GATE)
@@ -2508,7 +2510,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PURPLE_GLAZED_TERRACOTTA_WALL)
                 .add(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_WALL)
                 .add(ModBlocks.PINK_GLAZED_TERRACOTTA_WALL);
-
 
 
 
