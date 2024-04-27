@@ -165,6 +165,7 @@
     "vanillablocksplus:gray_glazed_terracotta_fence",
     "vanillablocksplus:black_glazed_terracotta_fence",
     "vanillablocksplus:brown_glazed_terracotta_fence",
+    "vanillablocksplus:red_glazed_terracotta_fence",
     "vanillablocksplus:orange_glazed_terracotta_fence",
     "vanillablocksplus:yellow_glazed_terracotta_fence",
     "vanillablocksplus:lime_glazed_terracotta_fence",
@@ -174,6 +175,21 @@
     "vanillablocksplus:light_blue_glazed_terracotta_fence",
     "vanillablocksplus:purple_glazed_terracotta_fence",
     "vanillablocksplus:magenta_glazed_terracotta_fence",
-    "vanillablocksplus:pink_glazed_terracotta_fence"
+    "vanillablocksplus:pink_glazed_terracotta_fence",
+    "vanillablocksplus:white_stained_glass_fence",
+    "vanillablocksplus:light_gray_stained_glass_fence",
+    "vanillablocksplus:gray_stained_glass_fence",
+    "vanillablocksplus:black_stained_glass_fence",
+    "vanillablocksplus:red_stained_glass_fence",
+    "vanillablocksplus:orange_stained_glass_fence",
+    "vanillablocksplus:yellow_stained_glass_fence",
+    "vanillablocksplus:lime_stained_glass_fence",
+    "vanillablocksplus:green_stained_glass_fence",
+    "vanillablocksplus:cyan_stained_glass_fence",
+    "vanillablocksplus:blue_stained_glass_fence",
+    "vanillablocksplus:light_blue_stained_glass_fence",
+    "vanillablocksplus:purple_stained_glass_fence",
+    "vanillablocksplus:magenta_stained_glass_fence",
+    "vanillablocksplus:pink_stained_glass_fence"
   ]
 }

@@ -28,26 +28,7 @@ public class ModAxeItem extends AxeItem {
     protected static final Map<Block, Block> STRIPPED_BLOCKS = new ImmutableMap.Builder<Block, Block>().put(ModBlocks.OAK_WOOD_STAIRS, ModBlocks.STR_OAK_WOOD_STAIRS).build();
 
 
-    @Override
-    public ActionResult useOnBlock(ItemUsageContext context) {
-        PlayerEntity playerEntity;
-        BlockPos blockPos;
-        World world = context.getWorld();
-        Optional<BlockState> optional = this.tryStrip(world, blockPos = context.getBlockPos(), playerEntity = context.getPlayer(), world.getBlockState(blockPos));
-        if (optional.isEmpty()) {
-            return ActionResult.PASS;
-        }
-        ItemStack itemStack = context.getStack();
-        if (playerEntity instanceof ServerPlayerEntity) {
-            Criteria.ITEM_USED_ON_BLOCK.trigger((ServerPlayerEntity)playerEntity, blockPos, itemStack);
-        }
-        world.setBlockState(blockPos, optional.get(), Block.NOTIFY_ALL | Block.REDRAW_ON_MAIN_THREAD);
-        world.emitGameEvent(GameEvent.BLOCK_CHANGE, blockPos, GameEvent.Emitter.of(playerEntity, optional.get()));
-        if (playerEntity != null) {
-            itemStack.damage(1, playerEntity, p -> p.sendToolBreakStatus(context.getHand()));
-        }
-        return ActionResult.success(world.isClient);
-    }
+
 
     private Optional<BlockState> tryStrip(World world, BlockPos pos, @Nullable PlayerEntity player, BlockState state) {
         Optional<BlockState> optional = this.getStrippedState(state);

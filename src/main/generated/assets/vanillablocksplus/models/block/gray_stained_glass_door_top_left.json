@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "vanillablocksplus:block/gray_stained_glass_door_bottom",
+    "top": "vanillablocksplus:block/gray_stained_glass_door_top"
+  }
+}

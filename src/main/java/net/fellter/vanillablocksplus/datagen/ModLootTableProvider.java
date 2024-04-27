@@ -1621,8 +1621,170 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB, slabDrops(ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB));
         addDrop(ModBlocks.PINK_GLAZED_TERRACOTTA_WALL);
 
+        //white_stained_glass
+        addDrop(ModBlocks.WHITE_STAINED_GLASS_STAIRS);
+        addDrop(ModBlocks.WHITE_STAINED_GLASS_TRAPDOOR);
+        addDrop(ModBlocks.WHITE_STAINED_GLASS_BUTTON);
+        addDrop(ModBlocks.WHITE_STAINED_GLASS_PRESSURE_PLATE);
+        addDrop(ModBlocks.WHITE_STAINED_GLASS_FENCE);
+        addDrop(ModBlocks.WHITE_STAINED_GLASS_FENCE_GATE);
+        addDrop(ModBlocks.WHITE_STAINED_GLASS_DOOR, doorDrops(ModBlocks.WHITE_STAINED_GLASS_DOOR));
+        addDrop(ModBlocks.WHITE_STAINED_GLASS_SLAB, slabDrops(ModBlocks.WHITE_STAINED_GLASS_SLAB));
+        addDrop(ModBlocks.WHITE_STAINED_GLASS_WALL);
 
-        
+        //light_gray_stained_glass
+        addDrop(ModBlocks.LIGHT_GRAY_STAINED_GLASS_STAIRS);
+        addDrop(ModBlocks.LIGHT_GRAY_STAINED_GLASS_TRAPDOOR);
+        addDrop(ModBlocks.LIGHT_GRAY_STAINED_GLASS_BUTTON);
+        addDrop(ModBlocks.LIGHT_GRAY_STAINED_GLASS_PRESSURE_PLATE);
+        addDrop(ModBlocks.LIGHT_GRAY_STAINED_GLASS_FENCE);
+        addDrop(ModBlocks.LIGHT_GRAY_STAINED_GLASS_FENCE_GATE);
+        addDrop(ModBlocks.LIGHT_GRAY_STAINED_GLASS_DOOR, doorDrops(ModBlocks.LIGHT_GRAY_STAINED_GLASS_DOOR));
+        addDrop(ModBlocks.LIGHT_GRAY_STAINED_GLASS_SLAB, slabDrops(ModBlocks.LIGHT_GRAY_STAINED_GLASS_SLAB));
+        addDrop(ModBlocks.LIGHT_GRAY_STAINED_GLASS_WALL);
+
+        //gray_stained_glass
+        addDrop(ModBlocks.GRAY_STAINED_GLASS_STAIRS);
+        addDrop(ModBlocks.GRAY_STAINED_GLASS_TRAPDOOR);
+        addDrop(ModBlocks.GRAY_STAINED_GLASS_BUTTON);
+        addDrop(ModBlocks.GRAY_STAINED_GLASS_PRESSURE_PLATE);
+        addDrop(ModBlocks.GRAY_STAINED_GLASS_FENCE);
+        addDrop(ModBlocks.GRAY_STAINED_GLASS_FENCE_GATE);
+        addDrop(ModBlocks.GRAY_STAINED_GLASS_DOOR, doorDrops(ModBlocks.GRAY_STAINED_GLASS_DOOR));
+        addDrop(ModBlocks.GRAY_STAINED_GLASS_SLAB, slabDrops(ModBlocks.GRAY_STAINED_GLASS_SLAB));
+        addDrop(ModBlocks.GRAY_STAINED_GLASS_WALL);
+
+        //black_stained_glass
+        addDrop(ModBlocks.BLACK_STAINED_GLASS_STAIRS);
+        addDrop(ModBlocks.BLACK_STAINED_GLASS_TRAPDOOR);
+        addDrop(ModBlocks.BLACK_STAINED_GLASS_BUTTON);
+        addDrop(ModBlocks.BLACK_STAINED_GLASS_PRESSURE_PLATE);
+        addDrop(ModBlocks.BLACK_STAINED_GLASS_FENCE);
+        addDrop(ModBlocks.BLACK_STAINED_GLASS_FENCE_GATE);
+        addDrop(ModBlocks.BLACK_STAINED_GLASS_DOOR, doorDrops(ModBlocks.BLACK_STAINED_GLASS_DOOR));
+        addDrop(ModBlocks.BLACK_STAINED_GLASS_SLAB, slabDrops(ModBlocks.BLACK_STAINED_GLASS_SLAB));
+        addDrop(ModBlocks.BLACK_STAINED_GLASS_WALL);
+
+        //red_stained_glass
+        addDrop(ModBlocks.RED_STAINED_GLASS_STAIRS);
+        addDrop(ModBlocks.RED_STAINED_GLASS_TRAPDOOR);
+        addDrop(ModBlocks.RED_STAINED_GLASS_BUTTON);
+        addDrop(ModBlocks.RED_STAINED_GLASS_PRESSURE_PLATE);
+        addDrop(ModBlocks.RED_STAINED_GLASS_FENCE);
+        addDrop(ModBlocks.RED_STAINED_GLASS_FENCE_GATE);
+        addDrop(ModBlocks.RED_STAINED_GLASS_DOOR, doorDrops(ModBlocks.RED_STAINED_GLASS_DOOR));
+        addDrop(ModBlocks.RED_STAINED_GLASS_SLAB, slabDrops(ModBlocks.RED_STAINED_GLASS_SLAB));
+        addDrop(ModBlocks.RED_STAINED_GLASS_WALL);
+
+        //orange_stained_glass
+        addDrop(ModBlocks.ORANGE_STAINED_GLASS_STAIRS);
+        addDrop(ModBlocks.ORANGE_STAINED_GLASS_TRAPDOOR);
+        addDrop(ModBlocks.ORANGE_STAINED_GLASS_BUTTON);
+        addDrop(ModBlocks.ORANGE_STAINED_GLASS_PRESSURE_PLATE);
+        addDrop(ModBlocks.ORANGE_STAINED_GLASS_FENCE);
+        addDrop(ModBlocks.ORANGE_STAINED_GLASS_FENCE_GATE);
+        addDrop(ModBlocks.ORANGE_STAINED_GLASS_DOOR, doorDrops(ModBlocks.ORANGE_STAINED_GLASS_DOOR));
+        addDrop(ModBlocks.ORANGE_STAINED_GLASS_SLAB, slabDrops(ModBlocks.ORANGE_STAINED_GLASS_SLAB));
+        addDrop(ModBlocks.ORANGE_STAINED_GLASS_WALL);
+
+        //yellow_stained_glass
+        addDrop(ModBlocks.YELLOW_STAINED_GLASS_STAIRS);
+        addDrop(ModBlocks.YELLOW_STAINED_GLASS_TRAPDOOR);
+        addDrop(ModBlocks.YELLOW_STAINED_GLASS_BUTTON);
+        addDrop(ModBlocks.YELLOW_STAINED_GLASS_PRESSURE_PLATE);
+        addDrop(ModBlocks.YELLOW_STAINED_GLASS_FENCE);
+        addDrop(ModBlocks.YELLOW_STAINED_GLASS_FENCE_GATE);
+        addDrop(ModBlocks.YELLOW_STAINED_GLASS_DOOR, doorDrops(ModBlocks.YELLOW_STAINED_GLASS_DOOR));
+        addDrop(ModBlocks.YELLOW_STAINED_GLASS_SLAB, slabDrops(ModBlocks.YELLOW_STAINED_GLASS_SLAB));
+        addDrop(ModBlocks.YELLOW_STAINED_GLASS_WALL);
+
+        //lime_stained_glass
+        addDrop(ModBlocks.LIME_STAINED_GLASS_STAIRS);
+        addDrop(ModBlocks.LIME_STAINED_GLASS_TRAPDOOR);
+        addDrop(ModBlocks.LIME_STAINED_GLASS_BUTTON);
+        addDrop(ModBlocks.LIME_STAINED_GLASS_PRESSURE_PLATE);
+        addDrop(ModBlocks.LIME_STAINED_GLASS_FENCE);
+        addDrop(ModBlocks.LIME_STAINED_GLASS_FENCE_GATE);
+        addDrop(ModBlocks.LIME_STAINED_GLASS_DOOR, doorDrops(ModBlocks.LIME_STAINED_GLASS_DOOR));
+        addDrop(ModBlocks.LIME_STAINED_GLASS_SLAB, slabDrops(ModBlocks.LIME_STAINED_GLASS_SLAB));
+        addDrop(ModBlocks.LIME_STAINED_GLASS_WALL);
+
+        //green_stained_glass
+        addDrop(ModBlocks.GREEN_STAINED_GLASS_STAIRS);
+        addDrop(ModBlocks.GREEN_STAINED_GLASS_TRAPDOOR);
+        addDrop(ModBlocks.GREEN_STAINED_GLASS_BUTTON);
+        addDrop(ModBlocks.GREEN_STAINED_GLASS_PRESSURE_PLATE);
+        addDrop(ModBlocks.GREEN_STAINED_GLASS_FENCE);
+        addDrop(ModBlocks.GREEN_STAINED_GLASS_FENCE_GATE);
+        addDrop(ModBlocks.GREEN_STAINED_GLASS_DOOR, doorDrops(ModBlocks.GREEN_STAINED_GLASS_DOOR));
+        addDrop(ModBlocks.GREEN_STAINED_GLASS_SLAB, slabDrops(ModBlocks.GREEN_STAINED_GLASS_SLAB));
+        addDrop(ModBlocks.GREEN_STAINED_GLASS_WALL);
+
+        //cyan_stained_glass
+        addDrop(ModBlocks.CYAN_STAINED_GLASS_STAIRS);
+        addDrop(ModBlocks.CYAN_STAINED_GLASS_TRAPDOOR);
+        addDrop(ModBlocks.CYAN_STAINED_GLASS_BUTTON);
+        addDrop(ModBlocks.CYAN_STAINED_GLASS_PRESSURE_PLATE);
+        addDrop(ModBlocks.CYAN_STAINED_GLASS_FENCE);
+        addDrop(ModBlocks.CYAN_STAINED_GLASS_FENCE_GATE);
+        addDrop(ModBlocks.CYAN_STAINED_GLASS_DOOR, doorDrops(ModBlocks.CYAN_STAINED_GLASS_DOOR));
+        addDrop(ModBlocks.CYAN_STAINED_GLASS_SLAB, slabDrops(ModBlocks.CYAN_STAINED_GLASS_SLAB));
+        addDrop(ModBlocks.CYAN_STAINED_GLASS_WALL);
+
+        //blue_stained_glass
+        addDrop(ModBlocks.BLUE_STAINED_GLASS_STAIRS);
+        addDrop(ModBlocks.BLUE_STAINED_GLASS_TRAPDOOR);
+        addDrop(ModBlocks.BLUE_STAINED_GLASS_BUTTON);
+        addDrop(ModBlocks.BLUE_STAINED_GLASS_PRESSURE_PLATE);
+        addDrop(ModBlocks.BLUE_STAINED_GLASS_FENCE);
+        addDrop(ModBlocks.BLUE_STAINED_GLASS_FENCE_GATE);
+        addDrop(ModBlocks.BLUE_STAINED_GLASS_DOOR, doorDrops(ModBlocks.BLUE_STAINED_GLASS_DOOR));
+        addDrop(ModBlocks.BLUE_STAINED_GLASS_SLAB, slabDrops(ModBlocks.BLUE_STAINED_GLASS_SLAB));
+        addDrop(ModBlocks.BLUE_STAINED_GLASS_WALL);
+
+        //light_blue_stained_glass
+        addDrop(ModBlocks.LIGHT_BLUE_STAINED_GLASS_STAIRS);
+        addDrop(ModBlocks.LIGHT_BLUE_STAINED_GLASS_TRAPDOOR);
+        addDrop(ModBlocks.LIGHT_BLUE_STAINED_GLASS_BUTTON);
+        addDrop(ModBlocks.LIGHT_BLUE_STAINED_GLASS_PRESSURE_PLATE);
+        addDrop(ModBlocks.LIGHT_BLUE_STAINED_GLASS_FENCE);
+        addDrop(ModBlocks.LIGHT_BLUE_STAINED_GLASS_FENCE_GATE);
+        addDrop(ModBlocks.LIGHT_BLUE_STAINED_GLASS_DOOR, doorDrops(ModBlocks.LIGHT_BLUE_STAINED_GLASS_DOOR));
+        addDrop(ModBlocks.LIGHT_BLUE_STAINED_GLASS_SLAB, slabDrops(ModBlocks.LIGHT_BLUE_STAINED_GLASS_SLAB));
+        addDrop(ModBlocks.LIGHT_BLUE_STAINED_GLASS_WALL);
+
+        //purple_stained_glass
+        addDrop(ModBlocks.PURPLE_STAINED_GLASS_STAIRS);
+        addDrop(ModBlocks.PURPLE_STAINED_GLASS_TRAPDOOR);
+        addDrop(ModBlocks.PURPLE_STAINED_GLASS_BUTTON);
+        addDrop(ModBlocks.PURPLE_STAINED_GLASS_PRESSURE_PLATE);
+        addDrop(ModBlocks.PURPLE_STAINED_GLASS_FENCE);
+        addDrop(ModBlocks.PURPLE_STAINED_GLASS_FENCE_GATE);
+        addDrop(ModBlocks.PURPLE_STAINED_GLASS_DOOR, doorDrops(ModBlocks.PURPLE_STAINED_GLASS_DOOR));
+        addDrop(ModBlocks.PURPLE_STAINED_GLASS_SLAB, slabDrops(ModBlocks.PURPLE_STAINED_GLASS_SLAB));
+        addDrop(ModBlocks.PURPLE_STAINED_GLASS_WALL);
+
+        //magenta_stained_glass
+        addDrop(ModBlocks.MAGENTA_STAINED_GLASS_STAIRS);
+        addDrop(ModBlocks.MAGENTA_STAINED_GLASS_TRAPDOOR);
+        addDrop(ModBlocks.MAGENTA_STAINED_GLASS_BUTTON);
+        addDrop(ModBlocks.MAGENTA_STAINED_GLASS_PRESSURE_PLATE);
+        addDrop(ModBlocks.MAGENTA_STAINED_GLASS_FENCE);
+        addDrop(ModBlocks.MAGENTA_STAINED_GLASS_FENCE_GATE);
+        addDrop(ModBlocks.MAGENTA_STAINED_GLASS_DOOR, doorDrops(ModBlocks.MAGENTA_STAINED_GLASS_DOOR));
+        addDrop(ModBlocks.MAGENTA_STAINED_GLASS_SLAB, slabDrops(ModBlocks.MAGENTA_STAINED_GLASS_SLAB));
+        addDrop(ModBlocks.MAGENTA_STAINED_GLASS_WALL);
+
+        //pink_stained_glass
+        addDrop(ModBlocks.PINK_STAINED_GLASS_STAIRS);
+        addDrop(ModBlocks.PINK_STAINED_GLASS_TRAPDOOR);
+        addDrop(ModBlocks.PINK_STAINED_GLASS_BUTTON);
+        addDrop(ModBlocks.PINK_STAINED_GLASS_PRESSURE_PLATE);
+        addDrop(ModBlocks.PINK_STAINED_GLASS_FENCE);
+        addDrop(ModBlocks.PINK_STAINED_GLASS_FENCE_GATE);
+        addDrop(ModBlocks.PINK_STAINED_GLASS_DOOR, doorDrops(ModBlocks.PINK_STAINED_GLASS_DOOR));
+        addDrop(ModBlocks.PINK_STAINED_GLASS_SLAB, slabDrops(ModBlocks.PINK_STAINED_GLASS_SLAB));
+        addDrop(ModBlocks.PINK_STAINED_GLASS_WALL);
         
         
         

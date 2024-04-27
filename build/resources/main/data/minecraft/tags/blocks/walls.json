@@ -136,6 +136,22 @@
     "vanillablocksplus:light_blue_glazed_terracotta_wall",
     "vanillablocksplus:purple_glazed_terracotta_wall",
     "vanillablocksplus:magenta_glazed_terracotta_wall",
-    "vanillablocksplus:pink_glazed_terracotta_wall"
+    "vanillablocksplus:pink_glazed_terracotta_wall",
+    "vanillablocksplus:white_stained_glass_wall",
+    "vanillablocksplus:light_gray_stained_glass_wall",
+    "vanillablocksplus:gray_stained_glass_wall",
+    "vanillablocksplus:black_stained_glass_wall",
+    "vanillablocksplus:brown_stained_glass_wall",
+    "vanillablocksplus:red_stained_glass_wall",
+    "vanillablocksplus:orange_stained_glass_wall",
+    "vanillablocksplus:yellow_stained_glass_wall",
+    "vanillablocksplus:lime_stained_glass_wall",
+    "vanillablocksplus:green_stained_glass_wall",
+    "vanillablocksplus:cyan_stained_glass_wall",
+    "vanillablocksplus:blue_stained_glass_wall",
+    "vanillablocksplus:light_blue_stained_glass_wall",
+    "vanillablocksplus:purple_stained_glass_wall",
+    "vanillablocksplus:magenta_stained_glass_wall",
+    "vanillablocksplus:pink_stained_glass_wall"
   ]
 }

@@ -14,6 +14,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+
         BlockStateModelGenerator.BlockTexturePool oakWoodPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.OAK_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool strOakWoodPool =
@@ -356,6 +357,38 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool pinkGlazedTerracottaPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_GLAZED_TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool whiteStainedGlassPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_STAINED_GLASS);
+        BlockStateModelGenerator.BlockTexturePool lightGrayStainedGlassPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_STAINED_GLASS);
+        BlockStateModelGenerator.BlockTexturePool grayStainedGlassPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRAY_STAINED_GLASS);
+        BlockStateModelGenerator.BlockTexturePool blackStainedGlassPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACK_STAINED_GLASS);
+        BlockStateModelGenerator.BlockTexturePool brownStainedGlassPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BROWN_STAINED_GLASS);
+        BlockStateModelGenerator.BlockTexturePool redStainedGlassPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_STAINED_GLASS);
+        BlockStateModelGenerator.BlockTexturePool orangeStainedGlassPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ORANGE_STAINED_GLASS);
+        BlockStateModelGenerator.BlockTexturePool yellowStainedGlassPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.YELLOW_STAINED_GLASS);
+        BlockStateModelGenerator.BlockTexturePool limeStainedGlassPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIME_STAINED_GLASS);
+        BlockStateModelGenerator.BlockTexturePool greenStainedGlassPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GREEN_STAINED_GLASS);
+        BlockStateModelGenerator.BlockTexturePool cyanStainedGlassPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CYAN_STAINED_GLASS);
+        BlockStateModelGenerator.BlockTexturePool blueStainedGlassPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLUE_STAINED_GLASS);
+        BlockStateModelGenerator.BlockTexturePool lightBlueStainedGlassPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_STAINED_GLASS);
+        BlockStateModelGenerator.BlockTexturePool purpleStainedGlassPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPLE_STAINED_GLASS);
+        BlockStateModelGenerator.BlockTexturePool magentaStainedGlassPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_STAINED_GLASS);
+        BlockStateModelGenerator.BlockTexturePool pinkStainedGlassPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_STAINED_GLASS);
 
 
 
@@ -1660,6 +1693,141 @@ public class ModModelProvider extends FabricModelProvider {
         pinkGlazedTerracottaPool.fence(ModBlocks.PINK_GLAZED_TERRACOTTA_FENCE);
         pinkGlazedTerracottaPool.fenceGate(ModBlocks.PINK_GLAZED_TERRACOTTA_FENCE_GATE);
         pinkGlazedTerracottaPool.pressurePlate(ModBlocks.PINK_GLAZED_TERRACOTTA_PRESSURE_PLATE);
+        //white_stained_glass
+        whiteStainedGlassPool.button(ModBlocks.WHITE_STAINED_GLASS_BUTTON);
+        whiteStainedGlassPool.wall(ModBlocks.WHITE_STAINED_GLASS_WALL);
+        whiteStainedGlassPool.slab(ModBlocks.WHITE_STAINED_GLASS_SLAB);
+        whiteStainedGlassPool.stairs(ModBlocks.WHITE_STAINED_GLASS_STAIRS);
+        whiteStainedGlassPool.fence(ModBlocks.WHITE_STAINED_GLASS_FENCE);
+        whiteStainedGlassPool.fenceGate(ModBlocks.WHITE_STAINED_GLASS_FENCE_GATE);
+        whiteStainedGlassPool.pressurePlate(ModBlocks.WHITE_STAINED_GLASS_PRESSURE_PLATE);
+        //light_gray_stained_glass
+        lightGrayStainedGlassPool.button(ModBlocks.LIGHT_GRAY_STAINED_GLASS_BUTTON);
+        lightGrayStainedGlassPool.wall(ModBlocks.LIGHT_GRAY_STAINED_GLASS_WALL);
+        lightGrayStainedGlassPool.slab(ModBlocks.LIGHT_GRAY_STAINED_GLASS_SLAB);
+        lightGrayStainedGlassPool.stairs(ModBlocks.LIGHT_GRAY_STAINED_GLASS_STAIRS);
+        lightGrayStainedGlassPool.fence(ModBlocks.LIGHT_GRAY_STAINED_GLASS_FENCE);
+        lightGrayStainedGlassPool.fenceGate(ModBlocks.LIGHT_GRAY_STAINED_GLASS_FENCE_GATE);
+        lightGrayStainedGlassPool.pressurePlate(ModBlocks.LIGHT_GRAY_STAINED_GLASS_PRESSURE_PLATE);
+        //gray_stained_glass
+        grayStainedGlassPool.button(ModBlocks.GRAY_STAINED_GLASS_BUTTON);
+        grayStainedGlassPool.wall(ModBlocks.GRAY_STAINED_GLASS_WALL);
+        grayStainedGlassPool.slab(ModBlocks.GRAY_STAINED_GLASS_SLAB);
+        grayStainedGlassPool.stairs(ModBlocks.GRAY_STAINED_GLASS_STAIRS);
+        grayStainedGlassPool.fence(ModBlocks.GRAY_STAINED_GLASS_FENCE);
+        grayStainedGlassPool.fenceGate(ModBlocks.GRAY_STAINED_GLASS_FENCE_GATE);
+        grayStainedGlassPool.pressurePlate(ModBlocks.GRAY_STAINED_GLASS_PRESSURE_PLATE);
+        //black_stained_glass
+        blackStainedGlassPool.button(ModBlocks.BLACK_STAINED_GLASS_BUTTON);
+        blackStainedGlassPool.wall(ModBlocks.BLACK_STAINED_GLASS_WALL);
+        blackStainedGlassPool.slab(ModBlocks.BLACK_STAINED_GLASS_SLAB);
+        blackStainedGlassPool.stairs(ModBlocks.BLACK_STAINED_GLASS_STAIRS);
+        blackStainedGlassPool.fence(ModBlocks.BLACK_STAINED_GLASS_FENCE);
+        blackStainedGlassPool.fenceGate(ModBlocks.BLACK_STAINED_GLASS_FENCE_GATE);
+        blackStainedGlassPool.pressurePlate(ModBlocks.BLACK_STAINED_GLASS_PRESSURE_PLATE);
+        //brown_stained_glass
+        brownStainedGlassPool.button(ModBlocks.BROWN_STAINED_GLASS_BUTTON);
+        brownStainedGlassPool.wall(ModBlocks.BROWN_STAINED_GLASS_WALL);
+        brownStainedGlassPool.slab(ModBlocks.BROWN_STAINED_GLASS_SLAB);
+        brownStainedGlassPool.stairs(ModBlocks.BROWN_STAINED_GLASS_STAIRS);
+        brownStainedGlassPool.fence(ModBlocks.BROWN_STAINED_GLASS_FENCE);
+        brownStainedGlassPool.fenceGate(ModBlocks.BROWN_STAINED_GLASS_FENCE_GATE);
+        brownStainedGlassPool.pressurePlate(ModBlocks.BROWN_STAINED_GLASS_PRESSURE_PLATE);
+        //red_stained_glass
+        redStainedGlassPool.button(ModBlocks.RED_STAINED_GLASS_BUTTON);
+        redStainedGlassPool.wall(ModBlocks.RED_STAINED_GLASS_WALL);
+        redStainedGlassPool.slab(ModBlocks.RED_STAINED_GLASS_SLAB);
+        redStainedGlassPool.stairs(ModBlocks.RED_STAINED_GLASS_STAIRS);
+        redStainedGlassPool.fence(ModBlocks.RED_STAINED_GLASS_FENCE);
+        redStainedGlassPool.fenceGate(ModBlocks.RED_STAINED_GLASS_FENCE_GATE);
+        redStainedGlassPool.pressurePlate(ModBlocks.RED_STAINED_GLASS_PRESSURE_PLATE);
+        //orange_terracotta
+        orangeStainedGlassPool.button(ModBlocks.ORANGE_STAINED_GLASS_BUTTON);
+        orangeStainedGlassPool.wall(ModBlocks.ORANGE_STAINED_GLASS_WALL);
+        orangeStainedGlassPool.slab(ModBlocks.ORANGE_STAINED_GLASS_SLAB);
+        orangeStainedGlassPool.stairs(ModBlocks.ORANGE_STAINED_GLASS_STAIRS);
+        orangeStainedGlassPool.fence(ModBlocks.ORANGE_STAINED_GLASS_FENCE);
+        orangeStainedGlassPool.fenceGate(ModBlocks.ORANGE_STAINED_GLASS_FENCE_GATE);
+        orangeStainedGlassPool.pressurePlate(ModBlocks.ORANGE_STAINED_GLASS_PRESSURE_PLATE);
+        //yellow_terracotta
+        yellowStainedGlassPool.button(ModBlocks.YELLOW_STAINED_GLASS_BUTTON);
+        yellowStainedGlassPool.wall(ModBlocks.YELLOW_STAINED_GLASS_WALL);
+        yellowStainedGlassPool.slab(ModBlocks.YELLOW_STAINED_GLASS_SLAB);
+        yellowStainedGlassPool.stairs(ModBlocks.YELLOW_STAINED_GLASS_STAIRS);
+        yellowStainedGlassPool.fence(ModBlocks.YELLOW_STAINED_GLASS_FENCE);
+        yellowStainedGlassPool.fenceGate(ModBlocks.YELLOW_STAINED_GLASS_FENCE_GATE);
+        yellowStainedGlassPool.pressurePlate(ModBlocks.YELLOW_STAINED_GLASS_PRESSURE_PLATE);
+        //lime_terracotta
+        limeStainedGlassPool.button(ModBlocks.LIME_STAINED_GLASS_BUTTON);
+        limeStainedGlassPool.wall(ModBlocks.LIME_STAINED_GLASS_WALL);
+        limeStainedGlassPool.slab(ModBlocks.LIME_STAINED_GLASS_SLAB);
+        limeStainedGlassPool.stairs(ModBlocks.LIME_STAINED_GLASS_STAIRS);
+        limeStainedGlassPool.fence(ModBlocks.LIME_STAINED_GLASS_FENCE);
+        limeStainedGlassPool.fenceGate(ModBlocks.LIME_STAINED_GLASS_FENCE_GATE);
+        limeStainedGlassPool.pressurePlate(ModBlocks.LIME_STAINED_GLASS_PRESSURE_PLATE);
+        //green_terracotta
+        greenStainedGlassPool.button(ModBlocks.GREEN_STAINED_GLASS_BUTTON);
+        greenStainedGlassPool.wall(ModBlocks.GREEN_STAINED_GLASS_WALL);
+        greenStainedGlassPool.slab(ModBlocks.GREEN_STAINED_GLASS_SLAB);
+        greenStainedGlassPool.stairs(ModBlocks.GREEN_STAINED_GLASS_STAIRS);
+        greenStainedGlassPool.fence(ModBlocks.GREEN_STAINED_GLASS_FENCE);
+        greenStainedGlassPool.fenceGate(ModBlocks.GREEN_STAINED_GLASS_FENCE_GATE);
+        greenStainedGlassPool.pressurePlate(ModBlocks.GREEN_STAINED_GLASS_PRESSURE_PLATE);
+        //cyan_terracotta
+        cyanStainedGlassPool.button(ModBlocks.CYAN_STAINED_GLASS_BUTTON);
+        cyanStainedGlassPool.wall(ModBlocks.CYAN_STAINED_GLASS_WALL);
+        cyanStainedGlassPool.slab(ModBlocks.CYAN_STAINED_GLASS_SLAB);
+        cyanStainedGlassPool.stairs(ModBlocks.CYAN_STAINED_GLASS_STAIRS);
+        cyanStainedGlassPool.fence(ModBlocks.CYAN_STAINED_GLASS_FENCE);
+        cyanStainedGlassPool.fenceGate(ModBlocks.CYAN_STAINED_GLASS_FENCE_GATE);
+        cyanStainedGlassPool.pressurePlate(ModBlocks.CYAN_STAINED_GLASS_PRESSURE_PLATE);
+        //blue_terracotta
+        blueStainedGlassPool.button(ModBlocks.BLUE_STAINED_GLASS_BUTTON);
+        blueStainedGlassPool.wall(ModBlocks.BLUE_STAINED_GLASS_WALL);
+        blueStainedGlassPool.slab(ModBlocks.BLUE_STAINED_GLASS_SLAB);
+        blueStainedGlassPool.stairs(ModBlocks.BLUE_STAINED_GLASS_STAIRS);
+        blueStainedGlassPool.fence(ModBlocks.BLUE_STAINED_GLASS_FENCE);
+        blueStainedGlassPool.fenceGate(ModBlocks.BLUE_STAINED_GLASS_FENCE_GATE);
+        blueStainedGlassPool.pressurePlate(ModBlocks.BLUE_STAINED_GLASS_PRESSURE_PLATE);
+        //light_blue_terracotta
+        lightBlueStainedGlassPool.button(ModBlocks.LIGHT_BLUE_STAINED_GLASS_BUTTON);
+        lightBlueStainedGlassPool.wall(ModBlocks.LIGHT_BLUE_STAINED_GLASS_WALL);
+        lightBlueStainedGlassPool.slab(ModBlocks.LIGHT_BLUE_STAINED_GLASS_SLAB);
+        lightBlueStainedGlassPool.stairs(ModBlocks.LIGHT_BLUE_STAINED_GLASS_STAIRS);
+        lightBlueStainedGlassPool.fence(ModBlocks.LIGHT_BLUE_STAINED_GLASS_FENCE);
+        lightBlueStainedGlassPool.fenceGate(ModBlocks.LIGHT_BLUE_STAINED_GLASS_FENCE_GATE);
+        lightBlueStainedGlassPool.pressurePlate(ModBlocks.LIGHT_BLUE_STAINED_GLASS_PRESSURE_PLATE);
+        //purple_terracotta
+        purpleStainedGlassPool.button(ModBlocks.PURPLE_STAINED_GLASS_BUTTON);
+        purpleStainedGlassPool.wall(ModBlocks.PURPLE_STAINED_GLASS_WALL);
+        purpleStainedGlassPool.slab(ModBlocks.PURPLE_STAINED_GLASS_SLAB);
+        purpleStainedGlassPool.stairs(ModBlocks.PURPLE_STAINED_GLASS_STAIRS);
+        purpleStainedGlassPool.fence(ModBlocks.PURPLE_STAINED_GLASS_FENCE);
+        purpleStainedGlassPool.fenceGate(ModBlocks.PURPLE_STAINED_GLASS_FENCE_GATE);
+        purpleStainedGlassPool.pressurePlate(ModBlocks.PURPLE_STAINED_GLASS_PRESSURE_PLATE);
+        //magenta_terracotta
+        magentaStainedGlassPool.button(ModBlocks.MAGENTA_STAINED_GLASS_BUTTON);
+        magentaStainedGlassPool.wall(ModBlocks.MAGENTA_STAINED_GLASS_WALL);
+        magentaStainedGlassPool.slab(ModBlocks.MAGENTA_STAINED_GLASS_SLAB);
+        magentaStainedGlassPool.stairs(ModBlocks.MAGENTA_STAINED_GLASS_STAIRS);
+        magentaStainedGlassPool.fence(ModBlocks.MAGENTA_STAINED_GLASS_FENCE);
+        magentaStainedGlassPool.fenceGate(ModBlocks.MAGENTA_STAINED_GLASS_FENCE_GATE);
+        magentaStainedGlassPool.pressurePlate(ModBlocks.MAGENTA_STAINED_GLASS_PRESSURE_PLATE);
+        //pink_terracotta
+        pinkStainedGlassPool.button(ModBlocks.PINK_STAINED_GLASS_BUTTON);
+        pinkStainedGlassPool.wall(ModBlocks.PINK_STAINED_GLASS_WALL);
+        pinkStainedGlassPool.slab(ModBlocks.PINK_STAINED_GLASS_SLAB);
+        pinkStainedGlassPool.stairs(ModBlocks.PINK_STAINED_GLASS_STAIRS);
+        pinkStainedGlassPool.fence(ModBlocks.PINK_STAINED_GLASS_FENCE);
+        pinkStainedGlassPool.fenceGate(ModBlocks.PINK_STAINED_GLASS_FENCE_GATE);
+        pinkStainedGlassPool.pressurePlate(ModBlocks.PINK_STAINED_GLASS_PRESSURE_PLATE);
+
+
+
+
+
+
+
 
 
 
@@ -2199,9 +2367,54 @@ public class ModModelProvider extends FabricModelProvider {
         //pink_glazed_terracotta
         blockStateModelGenerator.registerDoor(ModBlocks.PINK_GLAZED_TERRACOTTA_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PINK_GLAZED_TERRACOTTA_TRAPDOOR);
-
-
-
+        //white_stained_glass
+        blockStateModelGenerator.registerDoor(ModBlocks.WHITE_STAINED_GLASS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WHITE_STAINED_GLASS_TRAPDOOR);
+        //light_gray_stained_glass
+        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_GRAY_STAINED_GLASS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_GRAY_STAINED_GLASS_TRAPDOOR);
+        //gray_stained_glass
+        blockStateModelGenerator.registerDoor(ModBlocks.GRAY_STAINED_GLASS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GRAY_STAINED_GLASS_TRAPDOOR);
+        //black_stained_glass
+        blockStateModelGenerator.registerDoor(ModBlocks.BLACK_STAINED_GLASS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLACK_STAINED_GLASS_TRAPDOOR);
+        //brown_stained_glass
+        blockStateModelGenerator.registerDoor(ModBlocks.BROWN_STAINED_GLASS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BROWN_STAINED_GLASS_TRAPDOOR);
+        //red_stained_glass
+        blockStateModelGenerator.registerDoor(ModBlocks.RED_STAINED_GLASS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.RED_STAINED_GLASS_TRAPDOOR);
+        //orange_stained_glass
+        blockStateModelGenerator.registerDoor(ModBlocks.ORANGE_STAINED_GLASS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.ORANGE_STAINED_GLASS_TRAPDOOR);
+        //yellow_stained_glass
+        blockStateModelGenerator.registerDoor(ModBlocks.YELLOW_STAINED_GLASS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.YELLOW_STAINED_GLASS_TRAPDOOR);
+        //lime_stained_glass
+        blockStateModelGenerator.registerDoor(ModBlocks.LIME_STAINED_GLASS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIME_STAINED_GLASS_TRAPDOOR);
+        //green_stained_glass
+        blockStateModelGenerator.registerDoor(ModBlocks.GREEN_STAINED_GLASS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GREEN_STAINED_GLASS_TRAPDOOR);
+        //cyan_stained_glass
+        blockStateModelGenerator.registerDoor(ModBlocks.CYAN_STAINED_GLASS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CYAN_STAINED_GLASS_TRAPDOOR);
+        //blue_stained_glass
+        blockStateModelGenerator.registerDoor(ModBlocks.BLUE_STAINED_GLASS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLUE_STAINED_GLASS_TRAPDOOR);
+        //light_blue_stained_glass
+        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_BLUE_STAINED_GLASS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_BLUE_STAINED_GLASS_TRAPDOOR);
+        //purple_stained_glass
+        blockStateModelGenerator.registerDoor(ModBlocks.PURPLE_STAINED_GLASS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PURPLE_STAINED_GLASS_TRAPDOOR);
+        //magenta_stained_glass
+        blockStateModelGenerator.registerDoor(ModBlocks.MAGENTA_STAINED_GLASS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.MAGENTA_STAINED_GLASS_TRAPDOOR);
+        //pink_stained_glass
+        blockStateModelGenerator.registerDoor(ModBlocks.PINK_STAINED_GLASS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PINK_STAINED_GLASS_TRAPDOOR);
 
 
 

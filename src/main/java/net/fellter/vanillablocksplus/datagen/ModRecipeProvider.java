@@ -3358,7 +3358,325 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.PINK_GLAZED_TERRACOTTA_WALL, (Blocks.PINK_GLAZED_TERRACOTTA))
                 .offerTo(exporter);
 
+        //white_stained_glass
+        ModRecipes.createDoorRecipe(ModBlocks.WHITE_STAINED_GLASS_DOOR, (Blocks.WHITE_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WHITE_STAINED_GLASS_SLAB, (Blocks.WHITE_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.WHITE_STAINED_GLASS_STAIRS, (Blocks.WHITE_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.WHITE_STAINED_GLASS_FENCE, (Blocks.WHITE_STAINED_GLASS), (ModBlocks.WHITE_STAINED_GLASS_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.WHITE_STAINED_GLASS_FENCE_GATE, (Blocks.WHITE_STAINED_GLASS), (ModBlocks.WHITE_STAINED_GLASS_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.WHITE_STAINED_GLASS_TRAPDOOR, (ModBlocks.WHITE_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.WHITE_STAINED_GLASS_PRESSURE_PLATE, (ModBlocks.WHITE_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WHITE_STAINED_GLASS_BUTTON, Blocks.WHITE_STAINED_GLASS, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WHITE_STAINED_GLASS_WALL, (Blocks.WHITE_STAINED_GLASS))
+                .offerTo(exporter);
 
+        //light_gray_stained_glass
+        ModRecipes.createDoorRecipe(ModBlocks.LIGHT_GRAY_STAINED_GLASS_DOOR, (Blocks.LIGHT_GRAY_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_GRAY_STAINED_GLASS_SLAB, (Blocks.LIGHT_GRAY_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.LIGHT_GRAY_STAINED_GLASS_STAIRS, (Blocks.LIGHT_GRAY_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.LIGHT_GRAY_STAINED_GLASS_FENCE, (Blocks.LIGHT_GRAY_STAINED_GLASS), (ModBlocks.LIGHT_GRAY_STAINED_GLASS_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.LIGHT_GRAY_STAINED_GLASS_FENCE_GATE, (Blocks.LIGHT_GRAY_STAINED_GLASS), (ModBlocks.LIGHT_GRAY_STAINED_GLASS_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.LIGHT_GRAY_STAINED_GLASS_TRAPDOOR, (ModBlocks.LIGHT_GRAY_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_GRAY_STAINED_GLASS_PRESSURE_PLATE, (ModBlocks.LIGHT_GRAY_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_GRAY_STAINED_GLASS_BUTTON, Blocks.LIGHT_GRAY_STAINED_GLASS, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_GRAY_STAINED_GLASS_WALL, (Blocks.LIGHT_GRAY_STAINED_GLASS))
+                .offerTo(exporter);
+
+        //gray_stained_glass
+        ModRecipes.createDoorRecipe(ModBlocks.GRAY_STAINED_GLASS_DOOR, (Blocks.GRAY_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.GRAY_STAINED_GLASS_SLAB, (Blocks.GRAY_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.GRAY_STAINED_GLASS_STAIRS, (Blocks.GRAY_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.GRAY_STAINED_GLASS_FENCE, (Blocks.GRAY_STAINED_GLASS), (ModBlocks.GRAY_STAINED_GLASS_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.GRAY_STAINED_GLASS_FENCE_GATE, (Blocks.GRAY_STAINED_GLASS), (ModBlocks.GRAY_STAINED_GLASS_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.GRAY_STAINED_GLASS_TRAPDOOR, (ModBlocks.GRAY_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.GRAY_STAINED_GLASS_PRESSURE_PLATE, (ModBlocks.GRAY_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.GRAY_STAINED_GLASS_BUTTON, Blocks.GRAY_STAINED_GLASS, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.GRAY_STAINED_GLASS_WALL, (Blocks.GRAY_STAINED_GLASS))
+                .offerTo(exporter);
+
+        //black_stained_glass
+        ModRecipes.createDoorRecipe(ModBlocks.BLACK_STAINED_GLASS_DOOR, (Blocks.BLACK_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLACK_STAINED_GLASS_SLAB, (Blocks.BLACK_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.BLACK_STAINED_GLASS_STAIRS, (Blocks.BLACK_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.BLACK_STAINED_GLASS_FENCE, (Blocks.BLACK_STAINED_GLASS), (ModBlocks.BLACK_STAINED_GLASS_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.BLACK_STAINED_GLASS_FENCE_GATE, (Blocks.BLACK_STAINED_GLASS), (ModBlocks.BLACK_STAINED_GLASS_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.BLACK_STAINED_GLASS_TRAPDOOR, (ModBlocks.BLACK_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLACK_STAINED_GLASS_PRESSURE_PLATE, (ModBlocks.BLACK_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLACK_STAINED_GLASS_BUTTON, Blocks.BLACK_STAINED_GLASS, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLACK_STAINED_GLASS_WALL, (Blocks.BLACK_STAINED_GLASS))
+                .offerTo(exporter);
+
+        //brown_stained_glass
+        ModRecipes.createDoorRecipe(ModBlocks.BROWN_STAINED_GLASS_DOOR, (Blocks.BROWN_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.BROWN_STAINED_GLASS_SLAB, (Blocks.BROWN_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.BROWN_STAINED_GLASS_STAIRS, (Blocks.BROWN_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.BROWN_STAINED_GLASS_FENCE, (Blocks.BROWN_STAINED_GLASS), (ModBlocks.BROWN_STAINED_GLASS_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.BROWN_STAINED_GLASS_FENCE_GATE, (Blocks.BROWN_STAINED_GLASS), (ModBlocks.BROWN_STAINED_GLASS_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.BROWN_STAINED_GLASS_TRAPDOOR, (ModBlocks.BROWN_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.BROWN_STAINED_GLASS_PRESSURE_PLATE, (ModBlocks.BROWN_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BROWN_STAINED_GLASS_BUTTON, Blocks.BROWN_STAINED_GLASS, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.BROWN_STAINED_GLASS_WALL, (Blocks.BROWN_STAINED_GLASS))
+                .offerTo(exporter);
+
+        //red_stained_glass
+        ModRecipes.createDoorRecipe(ModBlocks.RED_STAINED_GLASS_DOOR, (Blocks.RED_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_STAINED_GLASS_SLAB, (Blocks.RED_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.RED_STAINED_GLASS_STAIRS, (Blocks.RED_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.RED_STAINED_GLASS_FENCE, (Blocks.RED_STAINED_GLASS), (ModBlocks.RED_STAINED_GLASS_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.RED_STAINED_GLASS_FENCE_GATE, (Blocks.RED_STAINED_GLASS), (ModBlocks.RED_STAINED_GLASS_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.RED_STAINED_GLASS_TRAPDOOR, (ModBlocks.RED_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_STAINED_GLASS_PRESSURE_PLATE, (ModBlocks.RED_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_STAINED_GLASS_BUTTON, Blocks.RED_STAINED_GLASS, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_STAINED_GLASS_WALL, (Blocks.RED_STAINED_GLASS))
+                .offerTo(exporter);
+
+        //orange_stained_glass
+        ModRecipes.createDoorRecipe(ModBlocks.ORANGE_STAINED_GLASS_DOOR, (Blocks.ORANGE_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.ORANGE_STAINED_GLASS_SLAB, (Blocks.ORANGE_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.ORANGE_STAINED_GLASS_STAIRS, (Blocks.ORANGE_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.ORANGE_STAINED_GLASS_FENCE, (Blocks.ORANGE_STAINED_GLASS), (ModBlocks.ORANGE_STAINED_GLASS_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.ORANGE_STAINED_GLASS_FENCE_GATE, (Blocks.ORANGE_STAINED_GLASS), (ModBlocks.ORANGE_STAINED_GLASS_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.ORANGE_STAINED_GLASS_TRAPDOOR, (ModBlocks.ORANGE_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.ORANGE_STAINED_GLASS_PRESSURE_PLATE, (ModBlocks.ORANGE_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.ORANGE_STAINED_GLASS_BUTTON, Blocks.ORANGE_STAINED_GLASS, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.ORANGE_STAINED_GLASS_WALL, (Blocks.ORANGE_STAINED_GLASS))
+                .offerTo(exporter);
+
+        //yellow_stained_glass
+        ModRecipes.createDoorRecipe(ModBlocks.YELLOW_STAINED_GLASS_DOOR, (Blocks.YELLOW_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.YELLOW_STAINED_GLASS_SLAB, (Blocks.YELLOW_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.YELLOW_STAINED_GLASS_STAIRS, (Blocks.YELLOW_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.YELLOW_STAINED_GLASS_FENCE, (Blocks.YELLOW_STAINED_GLASS), (ModBlocks.YELLOW_STAINED_GLASS_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.YELLOW_STAINED_GLASS_FENCE_GATE, (Blocks.YELLOW_STAINED_GLASS), (ModBlocks.YELLOW_STAINED_GLASS_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.YELLOW_STAINED_GLASS_TRAPDOOR, (ModBlocks.YELLOW_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.YELLOW_STAINED_GLASS_PRESSURE_PLATE, (ModBlocks.YELLOW_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.YELLOW_STAINED_GLASS_BUTTON, Blocks.YELLOW_STAINED_GLASS, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.YELLOW_STAINED_GLASS_WALL, (Blocks.YELLOW_STAINED_GLASS))
+                .offerTo(exporter);
+
+        //lime_stained_glass
+        ModRecipes.createDoorRecipe(ModBlocks.LIME_STAINED_GLASS_DOOR, (Blocks.LIME_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIME_STAINED_GLASS_SLAB, (Blocks.LIME_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.LIME_STAINED_GLASS_STAIRS, (Blocks.LIME_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.LIME_STAINED_GLASS_FENCE, (Blocks.LIME_STAINED_GLASS), (ModBlocks.LIME_STAINED_GLASS_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.LIME_STAINED_GLASS_FENCE_GATE, (Blocks.LIME_STAINED_GLASS), (ModBlocks.LIME_STAINED_GLASS_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.LIME_STAINED_GLASS_TRAPDOOR, (ModBlocks.LIME_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIME_STAINED_GLASS_PRESSURE_PLATE, (ModBlocks.LIME_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIME_STAINED_GLASS_BUTTON, Blocks.LIME_STAINED_GLASS, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIME_STAINED_GLASS_WALL, (Blocks.LIME_STAINED_GLASS))
+                .offerTo(exporter);
+
+        //green_stained_glass
+        ModRecipes.createDoorRecipe(ModBlocks.GREEN_STAINED_GLASS_DOOR, (Blocks.GREEN_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.GREEN_STAINED_GLASS_SLAB, (Blocks.GREEN_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.GREEN_STAINED_GLASS_STAIRS, (Blocks.GREEN_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.GREEN_STAINED_GLASS_FENCE, (Blocks.GREEN_STAINED_GLASS), (ModBlocks.GREEN_STAINED_GLASS_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.GREEN_STAINED_GLASS_FENCE_GATE, (Blocks.GREEN_STAINED_GLASS), (ModBlocks.GREEN_STAINED_GLASS_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.GREEN_STAINED_GLASS_TRAPDOOR, (ModBlocks.GREEN_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.GREEN_STAINED_GLASS_PRESSURE_PLATE, (ModBlocks.GREEN_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.GREEN_STAINED_GLASS_BUTTON, Blocks.GREEN_STAINED_GLASS, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.GREEN_STAINED_GLASS_WALL, (Blocks.GREEN_STAINED_GLASS))
+                .offerTo(exporter);
+
+        //cyan_stained_glass
+        ModRecipes.createDoorRecipe(ModBlocks.CYAN_STAINED_GLASS_DOOR, (Blocks.CYAN_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.CYAN_STAINED_GLASS_SLAB, (Blocks.CYAN_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.CYAN_STAINED_GLASS_STAIRS, (Blocks.CYAN_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.CYAN_STAINED_GLASS_FENCE, (Blocks.CYAN_STAINED_GLASS), (ModBlocks.CYAN_STAINED_GLASS_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.CYAN_STAINED_GLASS_FENCE_GATE, (Blocks.CYAN_STAINED_GLASS), (ModBlocks.CYAN_STAINED_GLASS_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.CYAN_STAINED_GLASS_TRAPDOOR, (ModBlocks.CYAN_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.CYAN_STAINED_GLASS_PRESSURE_PLATE, (ModBlocks.CYAN_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.CYAN_STAINED_GLASS_BUTTON, Blocks.CYAN_STAINED_GLASS, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.CYAN_STAINED_GLASS_WALL, (Blocks.CYAN_STAINED_GLASS))
+                .offerTo(exporter);
+
+        //blue_stained_glass
+        ModRecipes.createDoorRecipe(ModBlocks.BLUE_STAINED_GLASS_DOOR, (Blocks.BLUE_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLUE_STAINED_GLASS_SLAB, (Blocks.BLUE_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.BLUE_STAINED_GLASS_STAIRS, (Blocks.BLUE_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.BLUE_STAINED_GLASS_FENCE, (Blocks.BLUE_STAINED_GLASS), (ModBlocks.BLUE_STAINED_GLASS_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.BLUE_STAINED_GLASS_FENCE_GATE, (Blocks.BLUE_STAINED_GLASS), (ModBlocks.BLUE_STAINED_GLASS_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.BLUE_STAINED_GLASS_TRAPDOOR, (ModBlocks.BLUE_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLUE_STAINED_GLASS_PRESSURE_PLATE, (ModBlocks.BLUE_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLUE_STAINED_GLASS_BUTTON, Blocks.BLUE_STAINED_GLASS, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLUE_STAINED_GLASS_WALL, (Blocks.BLUE_STAINED_GLASS))
+                .offerTo(exporter);
+
+        //light_blue_stained_glass
+        ModRecipes.createDoorRecipe(ModBlocks.LIGHT_BLUE_STAINED_GLASS_DOOR, (Blocks.LIGHT_BLUE_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_BLUE_STAINED_GLASS_SLAB, (Blocks.LIGHT_BLUE_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.LIGHT_BLUE_STAINED_GLASS_STAIRS, (Blocks.LIGHT_BLUE_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.LIGHT_BLUE_STAINED_GLASS_FENCE, (Blocks.LIGHT_BLUE_STAINED_GLASS), (ModBlocks.LIGHT_BLUE_STAINED_GLASS_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.LIGHT_BLUE_STAINED_GLASS_FENCE_GATE, (Blocks.LIGHT_BLUE_STAINED_GLASS), (ModBlocks.LIGHT_BLUE_STAINED_GLASS_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.LIGHT_BLUE_STAINED_GLASS_TRAPDOOR, (ModBlocks.LIGHT_BLUE_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_BLUE_STAINED_GLASS_PRESSURE_PLATE, (ModBlocks.LIGHT_BLUE_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_BLUE_STAINED_GLASS_BUTTON, Blocks.LIGHT_BLUE_STAINED_GLASS, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_BLUE_STAINED_GLASS_WALL, (Blocks.LIGHT_BLUE_STAINED_GLASS))
+                .offerTo(exporter);
+
+        //purple_stained_glass
+        ModRecipes.createDoorRecipe(ModBlocks.PURPLE_STAINED_GLASS_DOOR, (Blocks.PURPLE_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.PURPLE_STAINED_GLASS_SLAB, (Blocks.PURPLE_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.PURPLE_STAINED_GLASS_STAIRS, (Blocks.PURPLE_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.PURPLE_STAINED_GLASS_FENCE, (Blocks.PURPLE_STAINED_GLASS), (ModBlocks.PURPLE_STAINED_GLASS_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.PURPLE_STAINED_GLASS_FENCE_GATE, (Blocks.PURPLE_STAINED_GLASS), (ModBlocks.PURPLE_STAINED_GLASS_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.PURPLE_STAINED_GLASS_TRAPDOOR, (ModBlocks.PURPLE_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.PURPLE_STAINED_GLASS_PRESSURE_PLATE, (ModBlocks.PURPLE_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.PURPLE_STAINED_GLASS_BUTTON, Blocks.PURPLE_STAINED_GLASS, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.PURPLE_STAINED_GLASS_WALL, (Blocks.PURPLE_STAINED_GLASS))
+                .offerTo(exporter);
+
+        //magenta_stained_glass
+        ModRecipes.createDoorRecipe(ModBlocks.MAGENTA_STAINED_GLASS_DOOR, (Blocks.MAGENTA_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.MAGENTA_STAINED_GLASS_SLAB, (Blocks.MAGENTA_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.MAGENTA_STAINED_GLASS_STAIRS, (Blocks.MAGENTA_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.MAGENTA_STAINED_GLASS_FENCE, (Blocks.MAGENTA_STAINED_GLASS), (ModBlocks.MAGENTA_STAINED_GLASS_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.MAGENTA_STAINED_GLASS_FENCE_GATE, (Blocks.MAGENTA_STAINED_GLASS), (ModBlocks.MAGENTA_STAINED_GLASS_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.MAGENTA_STAINED_GLASS_TRAPDOOR, (ModBlocks.MAGENTA_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.MAGENTA_STAINED_GLASS_PRESSURE_PLATE, (ModBlocks.MAGENTA_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.MAGENTA_STAINED_GLASS_BUTTON, Blocks.MAGENTA_STAINED_GLASS, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.MAGENTA_STAINED_GLASS_WALL, (Blocks.MAGENTA_STAINED_GLASS))
+                .offerTo(exporter);
+
+        //pink_stained_glass
+        ModRecipes.createDoorRecipe(ModBlocks.PINK_STAINED_GLASS_DOOR, (Blocks.PINK_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.PINK_STAINED_GLASS_SLAB, (Blocks.PINK_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.PINK_STAINED_GLASS_STAIRS, (Blocks.PINK_STAINED_GLASS))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.PINK_STAINED_GLASS_FENCE, (Blocks.PINK_STAINED_GLASS), (ModBlocks.PINK_STAINED_GLASS_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.PINK_STAINED_GLASS_FENCE_GATE, (Blocks.PINK_STAINED_GLASS), (ModBlocks.PINK_STAINED_GLASS_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.PINK_STAINED_GLASS_TRAPDOOR, (ModBlocks.PINK_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.PINK_STAINED_GLASS_PRESSURE_PLATE, (ModBlocks.PINK_STAINED_GLASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.PINK_STAINED_GLASS_BUTTON, Blocks.PINK_STAINED_GLASS, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.PINK_STAINED_GLASS_WALL, (Blocks.PINK_STAINED_GLASS))
+                .offerTo(exporter);
 
 
 
