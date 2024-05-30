@@ -6,7 +6,6 @@ import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.item.ModItems;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.client.*;
-import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -390,8 +389,10 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_STAINED_GLASS);
         BlockStateModelGenerator.BlockTexturePool pinkStainedGlassPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_STAINED_GLASS);
-        BlockStateModelGenerator.BlockTexturePool grassPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GRASS_MOD);
+
+        
+        
+        //GRASS BLOCKS MADE MANUALLY
 
 
 
@@ -1822,14 +1823,10 @@ public class ModModelProvider extends FabricModelProvider {
         pinkStainedGlassPool.fence(ModBlocks.PINK_STAINED_GLASS_FENCE);
         pinkStainedGlassPool.fenceGate(ModBlocks.PINK_STAINED_GLASS_FENCE_GATE);
         pinkStainedGlassPool.pressurePlate(ModBlocks.PINK_STAINED_GLASS_PRESSURE_PLATE);
-        //pink_terracotta
-        grassPool.button(ModBlocks.GRASS_BUTTON);
-        grassPool.wall(ModBlocks.GRASS_WALL);
-        grassPool.slab(ModBlocks.GRASS_SLAB);
-        grassPool.stairs(ModBlocks.GRASS_STAIRS);
-        grassPool.fence(ModBlocks.GRASS_FENCE);
-        grassPool.fenceGate(ModBlocks.GRASS_FENCE_GATE);
-        grassPool.pressurePlate(ModBlocks.GRASS_PRESSURE_PLATE);
+        
+
+
+        //GRASS BLOCKS MADE MANUALLY
 
 
 
@@ -2424,9 +2421,8 @@ public class ModModelProvider extends FabricModelProvider {
         //pink_stained_glass
         blockStateModelGenerator.registerDoor(ModBlocks.PINK_STAINED_GLASS_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PINK_STAINED_GLASS_TRAPDOOR);
-        //grass
-        blockStateModelGenerator.registerDoor(ModBlocks.GRASS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GRASS_TRAPDOOR);
+
+        //GRASS BLOCKS MADE MANUALLY
 
 
 

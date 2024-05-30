@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/grass_slab"
+    },
+    "type=double": {
+      "model": "vanillablocksplus:block/grass_mod"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/grass_slab_top"
+    }
+  }
+}

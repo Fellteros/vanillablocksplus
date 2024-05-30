@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "particle": "minecraft:block/dirt",
+    "bottom": "minecraft:block/dirt",
+    "top": "minecraft:block/grass_block_top",
+    "side": "minecraft:block/dirt"
+  },
+  "elements": [
+    {   "from": [ 1, 0, 1 ],
+      "to": [ 15, 0.5, 15 ],
+      "faces": {
+        "down":  { "uv": [ 1,    1, 15, 15 ], "texture": "#bottom", "cullface": "down" },
+        "up":    { "uv": [ 1,    1, 15, 15 ], "texture": "#top", "tintindex": 0 },
+        "north": { "uv": [ 1, 15, 15, 15.5 ], "texture": "#side" },
+        "south": { "uv": [ 1, 15, 15, 15.5 ], "texture": "#side" },
+        "west":  { "uv": [ 1, 15, 15, 15.5 ], "texture": "#side" },
+        "east":  { "uv": [ 1, 15, 15, 15.5 ], "texture": "#side" }
+      }
+    }
+  ]
+}

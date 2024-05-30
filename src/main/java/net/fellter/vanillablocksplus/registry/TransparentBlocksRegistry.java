@@ -3,7 +3,6 @@ package net.fellter.vanillablocksplus.registry;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.minecraft.client.render.RenderLayer;
-import net.minecraft.fluid.Fluids;
 
 public class TransparentBlocksRegistry {
 
@@ -12,9 +11,13 @@ public class TransparentBlocksRegistry {
                ModBlocks.GRASS_BUTTON,
                ModBlocks.GRASS_FENCE,
                ModBlocks.GRASS_SLAB,
-               ModBlocks.GRASS_STAIRS);
+               ModBlocks.GRASS_STAIRS,
+               ModBlocks.GRASS_WALL,
+               ModBlocks.GRASS_FENCE_GATE,
+               ModBlocks.GRASS_DOOR,
+               ModBlocks.GRASS_TRAPDOOR,
+               ModBlocks.GRASS_PRESSURE_PLATE);
 
-       BlockRenderLayerMap.INSTANCE.putFluid(Fluids.LAVA, RenderLayer.getTranslucent());
 
        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());

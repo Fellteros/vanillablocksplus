@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "particle": "minecraft:block/dirt",
+    "bottom": "minecraft:block/dirt",
+    "top": "minecraft:block/grass_block_top",
+    "side": "minecraft:block/dirt"
+  },
+  "elements": [
+    {   "from": [ 5, 0, 0 ],
+      "to": [ 11, 14, 8 ],
+      "faces": {
+        "down":  { "texture": "#bottom", "cullface": "down" },
+        "up":    { "texture": "#top" , "tintindex": 0 },
+        "north": { "texture": "#side", "cullface": "north" },
+        "west":  { "texture": "#side" },
+        "east":  { "texture": "#side" }
+      }
+    }
+  ]
+}
