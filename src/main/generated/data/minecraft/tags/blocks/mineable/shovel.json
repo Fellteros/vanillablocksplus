@@ -153,6 +153,15 @@
     "vanillablocksplus:pink_concrete_powder_fence_gate",
     "vanillablocksplus:pink_concrete_powder_fence",
     "vanillablocksplus:pink_concrete_powder_button",
-    "vanillablocksplus:pink_concrete_powder_pressure_plate"
+    "vanillablocksplus:pink_concrete_powder_pressure_plate",
+    "vanillablocksplus:grass_stairs",
+    "vanillablocksplus:grass_slab",
+    "vanillablocksplus:grass_wall",
+    "vanillablocksplus:grass_door",
+    "vanillablocksplus:grass_trapdoor",
+    "vanillablocksplus:grass_fence_gate",
+    "vanillablocksplus:grass_fence",
+    "vanillablocksplus:grass_button",
+    "vanillablocksplus:grass_pressure_plate"
   ]
 }

@@ -3678,6 +3678,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.PINK_STAINED_GLASS_WALL, (Blocks.PINK_STAINED_GLASS))
                 .offerTo(exporter);
 
+        //grass_block
+        ModRecipes.createDoorRecipe(ModBlocks.GRASS_DOOR, (Blocks.GRASS_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.GRASS_SLAB, (Blocks.GRASS_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.GRASS_STAIRS, (Blocks.GRASS_BLOCK))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.GRASS_FENCE, (Blocks.GRASS_BLOCK), (ModBlocks.GRASS_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.GRASS_FENCE_GATE, (Blocks.GRASS_BLOCK), (ModBlocks.GRASS_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.GRASS_TRAPDOOR, (ModBlocks.GRASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.GRASS_PRESSURE_PLATE, (ModBlocks.GRASS_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.GRASS_BUTTON, Blocks.GRASS_BLOCK, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.GRASS_WALL, (Blocks.GRASS_BLOCK))
+                .offerTo(exporter);
+
 
 
 

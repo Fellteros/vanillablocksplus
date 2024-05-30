@@ -5214,6 +5214,28 @@ public class ModBlocks {
     public static final Block PINK_STAINED_GLASS_WALL = registerBlock("pink_stained_glass_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.PINK_STAINED_GLASS)));
 
+    //grass_block
+    public static final Block GRASS_MOD = registerBlock("grass_mod",
+            new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN)));
+    public static final Block GRASS_STAIRS = registerBlock("grass_stairs",
+            new StairsBlock(Blocks.GRASS_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN)));
+    public static final Block GRASS_SLAB = registerBlock("grass_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN)));
+    public static final Block GRASS_BUTTON = registerBlock("grass_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN), BlockSetType.STONE, 10, false));
+    public static final Block GRASS_PRESSURE_PLATE = registerBlock("grass_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN), BlockSetType.STONE));
+    public static final Block GRASS_FENCE = registerBlock("grass_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN)));
+    public static final Block GRASS_FENCE_GATE = registerBlock("grass_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN), WoodType.OAK));
+    public static final Block GRASS_DOOR = registerBlock("grass_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN), BlockSetType.STONE));
+    public static final Block GRASS_TRAPDOOR = registerBlock("grass_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN), BlockSetType.STONE));
+    public static final Block GRASS_WALL = registerBlock("grass_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN)));
 
 
 

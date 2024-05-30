@@ -1831,6 +1831,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PINK_STAINED_GLASS_TRAPDOOR);
                         entries.add(ModBlocks.PINK_STAINED_GLASS_PRESSURE_PLATE);
                         entries.add(ModBlocks.PINK_STAINED_GLASS_BUTTON);
+                        //grass
+                        entries.add(ModBlocks.GRASS_STAIRS);
+                        entries.add(ModBlocks.GRASS_SLAB);
+                        entries.add(ModBlocks.GRASS_WALL);
+                        entries.add(ModBlocks.GRASS_FENCE);
+                        entries.add(ModBlocks.GRASS_FENCE_GATE);
+                        entries.add(ModBlocks.GRASS_DOOR);
+                        entries.add(ModBlocks.GRASS_TRAPDOOR);
+                        entries.add(ModBlocks.GRASS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.GRASS_BUTTON);
 
 
 

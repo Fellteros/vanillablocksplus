@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "particle": "minecraft:block/dirt",
+    "bottom": "minecraft:block/dirt",
+    "top": "minecraft:block/grass_block_top",
+    "side": "minecraft:block/dirt",
+    "overlay": "minecraft:block/grass_block_side_overlay"
+  },
+  "elements": [
+    {   "from": [ 6, 0, 6 ],
+      "to": [ 10, 16, 10 ],
+      "faces": {
+        "down":  { "uv": [ 6, 6, 10, 10 ], "texture": "#bottom", "cullface": "down" },
+        "up":    { "uv": [ 6, 6, 10, 10 ], "texture": "#top", "cullface": "up", "tintindex": 0 },
+        "north": { "uv": [ 6, 0, 10, 16 ], "texture": "#side", "cullface": "north" },
+        "south": { "uv": [ 6, 0, 10, 16 ], "texture": "#side", "cullface": "south" },
+        "west":  { "uv": [ 6, 0, 10, 16 ], "texture": "#side", "cullface": "west" },
+        "east":  { "uv": [ 6, 0, 10, 16 ], "texture": "#side", "cullface": "east" }
+      }
+    }
+  ]
+}
