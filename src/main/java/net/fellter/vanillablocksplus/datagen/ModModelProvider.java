@@ -5,15 +5,28 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.item.ModItems;
 import net.minecraft.block.Blocks;
-import net.minecraft.data.client.*;
+import net.minecraft.data.client.BlockStateModelGenerator;
+import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.Models;
+
+
 
 public class ModModelProvider extends FabricModelProvider {
+
+
     public ModModelProvider(FabricDataOutput output) {
         super(output);
     }
 
+
+
+    
+
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+
+
+
 
         BlockStateModelGenerator.BlockTexturePool oakWoodPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.OAK_WOOD_MOD);
@@ -389,13 +402,10 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_STAINED_GLASS);
         BlockStateModelGenerator.BlockTexturePool pinkStainedGlassPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_STAINED_GLASS);
-
-        
-        
         //GRASS BLOCKS MADE MANUALLY
-
-
-
+        BlockStateModelGenerator.BlockTexturePool dirtPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DIRT);
+        //PODZOL BLOCKS MADE MANUALLY
 
 
         //oak
@@ -942,7 +952,7 @@ public class ModModelProvider extends FabricModelProvider {
         copperPool.stairs(ModBlocks.COPPER_STAIRS);
         copperPool.fence(ModBlocks.COPPER_FENCE);
         copperPool.fenceGate(ModBlocks.COPPER_FENCE_GATE);
-        copperPool.pressurePlate(ModBlocks.COPPER_PRESSURE_PLATE);        
+        copperPool.pressurePlate(ModBlocks.COPPER_PRESSURE_PLATE);
         //exposed Copper
         exposedCopperPool.button(ModBlocks.EXPOSED_COPPER_BUTTON);
         exposedCopperPool.wall(ModBlocks.EXPOSED_COPPER_WALL);
@@ -950,7 +960,7 @@ public class ModModelProvider extends FabricModelProvider {
         exposedCopperPool.stairs(ModBlocks.EXPOSED_COPPER_STAIRS);
         exposedCopperPool.fence(ModBlocks.EXPOSED_COPPER_FENCE);
         exposedCopperPool.fenceGate(ModBlocks.EXPOSED_COPPER_FENCE_GATE);
-        exposedCopperPool.pressurePlate(ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE);        
+        exposedCopperPool.pressurePlate(ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE);
         //weathered Copper
         weatheredCopperPool.button(ModBlocks.WEATHERED_COPPER_BUTTON);
         weatheredCopperPool.wall(ModBlocks.WEATHERED_COPPER_WALL);
@@ -958,7 +968,7 @@ public class ModModelProvider extends FabricModelProvider {
         weatheredCopperPool.stairs(ModBlocks.WEATHERED_COPPER_STAIRS);
         weatheredCopperPool.fence(ModBlocks.WEATHERED_COPPER_FENCE);
         weatheredCopperPool.fenceGate(ModBlocks.WEATHERED_COPPER_FENCE_GATE);
-        weatheredCopperPool.pressurePlate(ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE);        
+        weatheredCopperPool.pressurePlate(ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE);
         //weathered Copper
         oxidizedCopperPool.button(ModBlocks.OXIDIZED_COPPER_BUTTON);
         oxidizedCopperPool.wall(ModBlocks.OXIDIZED_COPPER_WALL);
@@ -974,7 +984,7 @@ public class ModModelProvider extends FabricModelProvider {
         copperPool.stairs(ModBlocks.WAXED_COPPER_STAIRS);
         copperPool.fence(ModBlocks.WAXED_COPPER_FENCE);
         copperPool.fenceGate(ModBlocks.WAXED_COPPER_FENCE_GATE);
-        copperPool.pressurePlate(ModBlocks.WAXED_COPPER_PRESSURE_PLATE);        
+        copperPool.pressurePlate(ModBlocks.WAXED_COPPER_PRESSURE_PLATE);
         //waxed exposed Copper
         exposedCopperPool.button(ModBlocks.WAXED_EXPOSED_COPPER_BUTTON);
         exposedCopperPool.wall(ModBlocks.WAXED_EXPOSED_COPPER_WALL);
@@ -982,7 +992,7 @@ public class ModModelProvider extends FabricModelProvider {
         exposedCopperPool.stairs(ModBlocks.WAXED_EXPOSED_COPPER_STAIRS);
         exposedCopperPool.fence(ModBlocks.WAXED_EXPOSED_COPPER_FENCE);
         exposedCopperPool.fenceGate(ModBlocks.WAXED_EXPOSED_COPPER_FENCE_GATE);
-        exposedCopperPool.pressurePlate(ModBlocks.WAXED_EXPOSED_COPPER_PRESSURE_PLATE);        
+        exposedCopperPool.pressurePlate(ModBlocks.WAXED_EXPOSED_COPPER_PRESSURE_PLATE);
         //waxed weathered Copper
         weatheredCopperPool.button(ModBlocks.WAXED_WEATHERED_COPPER_BUTTON);
         weatheredCopperPool.wall(ModBlocks.WAXED_WEATHERED_COPPER_WALL);
@@ -990,7 +1000,7 @@ public class ModModelProvider extends FabricModelProvider {
         weatheredCopperPool.stairs(ModBlocks.WAXED_WEATHERED_COPPER_STAIRS);
         weatheredCopperPool.fence(ModBlocks.WAXED_WEATHERED_COPPER_FENCE);
         weatheredCopperPool.fenceGate(ModBlocks.WAXED_WEATHERED_COPPER_FENCE_GATE);
-        weatheredCopperPool.pressurePlate(ModBlocks.WAXED_WEATHERED_COPPER_PRESSURE_PLATE);        
+        weatheredCopperPool.pressurePlate(ModBlocks.WAXED_WEATHERED_COPPER_PRESSURE_PLATE);
         //waxed weathered Copper
         oxidizedCopperPool.button(ModBlocks.WAXED_OXIDIZED_COPPER_BUTTON);
         oxidizedCopperPool.wall(ModBlocks.WAXED_OXIDIZED_COPPER_WALL);
@@ -1022,7 +1032,7 @@ public class ModModelProvider extends FabricModelProvider {
         oxidizedCutCopperPool.wall(ModBlocks.OXIDIZED_CUT_COPPER_WALL);
         oxidizedCutCopperPool.fence(ModBlocks.OXIDIZED_CUT_COPPER_FENCE);
         oxidizedCutCopperPool.fenceGate(ModBlocks.OXIDIZED_CUT_COPPER_FENCE_GATE);
-        oxidizedCutCopperPool.pressurePlate(ModBlocks.OXIDIZED_CUT_COPPER_PRESSURE_PLATE);        
+        oxidizedCutCopperPool.pressurePlate(ModBlocks.OXIDIZED_CUT_COPPER_PRESSURE_PLATE);
         //waxed cut Copper
         cutCopperPool.button(ModBlocks.WAXED_CUT_COPPER_BUTTON);
         cutCopperPool.wall(ModBlocks.WAXED_CUT_COPPER_WALL);
@@ -1823,20 +1833,15 @@ public class ModModelProvider extends FabricModelProvider {
         pinkStainedGlassPool.fence(ModBlocks.PINK_STAINED_GLASS_FENCE);
         pinkStainedGlassPool.fenceGate(ModBlocks.PINK_STAINED_GLASS_FENCE_GATE);
         pinkStainedGlassPool.pressurePlate(ModBlocks.PINK_STAINED_GLASS_PRESSURE_PLATE);
-        
-
-
         //GRASS BLOCKS MADE MANUALLY
-
-
-
-
-
-
-
-
-
-
+        //pink_terracotta
+        dirtPool.button(ModBlocks.DIRT_BUTTON);
+        dirtPool.wall(ModBlocks.DIRT_WALL);
+        dirtPool.slab(ModBlocks.DIRT_SLAB);
+        dirtPool.stairs(ModBlocks.DIRT_STAIRS);
+        dirtPool.fence(ModBlocks.DIRT_FENCE);
+        dirtPool.fenceGate(ModBlocks.DIRT_FENCE_GATE);
+        dirtPool.pressurePlate(ModBlocks.DIRT_PRESSURE_PLATE);
 
 
         //oak
@@ -2421,16 +2426,17 @@ public class ModModelProvider extends FabricModelProvider {
         //pink_stained_glass
         blockStateModelGenerator.registerDoor(ModBlocks.PINK_STAINED_GLASS_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PINK_STAINED_GLASS_TRAPDOOR);
-
         //GRASS BLOCKS MADE MANUALLY
+        //podzol
+        blockStateModelGenerator.registerDoor(ModBlocks.PODZOL_DOOR);
+        //dirt
+        blockStateModelGenerator.registerDoor(ModBlocks.DIRT_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DIRT_TRAPDOOR);
 
 
 
 
     }
-
-
-
 
 
     @Override
@@ -2450,3 +2456,4 @@ public class ModModelProvider extends FabricModelProvider {
 
     }
 }
+

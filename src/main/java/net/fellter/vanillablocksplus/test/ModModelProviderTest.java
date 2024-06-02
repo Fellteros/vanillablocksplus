@@ -1,17 +1,20 @@
 package net.fellter.vanillablocksplus.test;
 
-import net.minecraft.block.Blocks;
-import net.minecraft.data.DataOutput;
-import net.minecraft.data.client.BlockStateModelGenerator;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.data.client.ItemModelGenerator;
 
-public class ModelProviderTest extends FabricModelProviderT{
-    public ModelProviderTest(DataOutput output) {
+
+public class ModModelProviderTest extends FabricModelProviderTest {
+
+    public ModModelProviderTest(FabricDataOutput output) {
         super(output);
     }
 
+
     @Override
     public void generateBlockStateModels(ModBlockStateModelGenerator modBlockStateModelGenerator) {
+
+        
 
     }
 

@@ -364,7 +364,28 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                  .add(ModBlocks.GRASS_FENCE_GATE)
                  .add(ModBlocks.GRASS_FENCE)
                  .add(ModBlocks.GRASS_BUTTON)
-                 .add(ModBlocks.GRASS_PRESSURE_PLATE);
+                 .add(ModBlocks.GRASS_PRESSURE_PLATE)
+                 //podzol
+                 .add(ModBlocks.PODZOL_STAIRS)
+                 .add(ModBlocks.PODZOL_SLAB)
+                 .add(ModBlocks.PODZOL_WALL)
+                 .add(ModBlocks.PODZOL_DOOR)
+                 .add(ModBlocks.PODZOL_TRAPDOOR)
+                 .add(ModBlocks.PODZOL_FENCE_GATE)
+                 .add(ModBlocks.PODZOL_FENCE)
+                 .add(ModBlocks.PODZOL_BUTTON)
+                 .add(ModBlocks.PODZOL_PRESSURE_PLATE)
+                 //dirt
+                 .add(ModBlocks.DIRT_STAIRS)
+                 .add(ModBlocks.DIRT_SLAB)
+                 .add(ModBlocks.DIRT_WALL)
+                 .add(ModBlocks.DIRT_DOOR)
+                 .add(ModBlocks.DIRT_TRAPDOOR)
+                 .add(ModBlocks.DIRT_FENCE_GATE)
+                 .add(ModBlocks.DIRT_FENCE)
+                 .add(ModBlocks.DIRT_BUTTON)
+                 .add(ModBlocks.DIRT_PRESSURE_PLATE);
+
 
 
         getOrCreateTagBuilder(BlockTags.TERRACOTTA)
@@ -2210,7 +2231,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PURPLE_STAINED_GLASS_FENCE)
                 .add(ModBlocks.MAGENTA_STAINED_GLASS_FENCE)
                 .add(ModBlocks.PINK_STAINED_GLASS_FENCE)
-                .add(ModBlocks.GRASS_FENCE);
+                .add(ModBlocks.GRASS_FENCE)
+                .add(ModBlocks.PODZOL_FENCE)
+                .add(ModBlocks.DIRT_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -2404,7 +2427,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PURPLE_STAINED_GLASS_FENCE)
                 .add(ModBlocks.MAGENTA_STAINED_GLASS_FENCE)
                 .add(ModBlocks.PINK_STAINED_GLASS_FENCE)
-                .add(ModBlocks.GRASS_FENCE);
+                .add(ModBlocks.GRASS_FENCE)
+                .add(ModBlocks.PODZOL_FENCE)
+                .add(ModBlocks.DIRT_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -2592,7 +2617,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PURPLE_STAINED_GLASS_FENCE_GATE)
                 .add(ModBlocks.MAGENTA_STAINED_GLASS_FENCE_GATE)
                 .add(ModBlocks.PINK_STAINED_GLASS_FENCE_GATE)
-                .add(ModBlocks.GRASS_FENCE_GATE);
+                .add(ModBlocks.GRASS_FENCE_GATE)
+                .add(ModBlocks.PODZOL_FENCE_GATE)
+                .add(ModBlocks.DIRT_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -2748,7 +2775,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PURPLE_STAINED_GLASS_WALL)
                 .add(ModBlocks.MAGENTA_STAINED_GLASS_WALL)
                 .add(ModBlocks.PINK_STAINED_GLASS_WALL)
-                .add(ModBlocks.GRASS_WALL);
+                .add(ModBlocks.GRASS_WALL)
+                .add(ModBlocks.PODZOL_WALL)
+                .add(ModBlocks.DIRT_WALL);
 
 
 

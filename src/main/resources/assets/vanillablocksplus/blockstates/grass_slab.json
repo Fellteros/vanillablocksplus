@@ -4,7 +4,7 @@
       "model": "vanillablocksplus:block/grass_slab"
     },
     "type=double": {
-      "model": "vanillablocksplus:block/grass_mod"
+      "model": "minecraft:block/grass_block"
     },
     "type=top": {
       "model": "vanillablocksplus:block/grass_slab_top"

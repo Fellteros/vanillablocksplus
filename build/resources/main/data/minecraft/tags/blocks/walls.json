@@ -153,6 +153,8 @@
     "vanillablocksplus:purple_stained_glass_wall",
     "vanillablocksplus:magenta_stained_glass_wall",
     "vanillablocksplus:pink_stained_glass_wall",
-    "vanillablocksplus:grass_wall"
+    "vanillablocksplus:grass_wall",
+    "vanillablocksplus:podzol_wall",
+    "vanillablocksplus:dirt_wall"
   ]
 }

@@ -5215,27 +5215,68 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.PINK_STAINED_GLASS)));
 
     //grass_block
-    public static final Block GRASS_MOD = registerBlock("grass_mod",
-            new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN)));
     public static final Block GRASS_STAIRS = registerBlock("grass_stairs",
-            new StairsBlock(Blocks.GRASS_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN)));
+            new StairsBlock(Blocks.GRASS_BLOCK.getDefaultState(), FabricBlockSettings.create().strength(0.6f).sounds(BlockSoundGroup.GRASS).mapColor(MapColor.PALE_GREEN)));
     public static final Block GRASS_SLAB = registerBlock("grass_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN)));
+            new SlabBlock(FabricBlockSettings.create().strength(0.6f).sounds(BlockSoundGroup.GRASS).mapColor(MapColor.PALE_GREEN)));
     public static final Block GRASS_BUTTON = registerBlock("grass_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN), BlockSetType.STONE, 10, false));
+            new ButtonBlock(FabricBlockSettings.create().strength(0.6f).sounds(BlockSoundGroup.GRASS).mapColor(MapColor.PALE_GREEN), BlockSetType.STONE, 10, false));
     public static final Block GRASS_PRESSURE_PLATE = registerBlock("grass_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN), BlockSetType.STONE));
+                    FabricBlockSettings.create().strength(0.6f).sounds(BlockSoundGroup.GRASS).mapColor(MapColor.PALE_GREEN), BlockSetType.STONE));
     public static final Block GRASS_FENCE = registerBlock("grass_fence",
-            new FenceBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN)));
+            new FenceBlock(FabricBlockSettings.create().strength(0.6f).sounds(BlockSoundGroup.GRASS).mapColor(MapColor.PALE_GREEN)));
     public static final Block GRASS_FENCE_GATE = registerBlock("grass_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN), WoodType.OAK));
+            new FenceGateBlock(FabricBlockSettings.create().strength(0.6f).sounds(BlockSoundGroup.GRASS).mapColor(MapColor.PALE_GREEN), WoodType.OAK));
     public static final Block GRASS_DOOR = registerBlock("grass_door",
-            new DoorBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN), BlockSetType.STONE));
+            new DoorBlock(FabricBlockSettings.create().strength(0.6f).sounds(BlockSoundGroup.GRASS).mapColor(MapColor.PALE_GREEN), BlockSetType.STONE));
     public static final Block GRASS_TRAPDOOR = registerBlock("grass_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN), BlockSetType.STONE));
+            new TrapdoorBlock(FabricBlockSettings.create().mapColor(MapColor.PALE_GREEN).strength(0.6f).sounds(BlockSoundGroup.GRASS), BlockSetType.STONE));
     public static final Block GRASS_WALL = registerBlock("grass_wall",
-            new WallBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).mapColor(MapColor.PALE_GREEN)));
+            new WallBlock(FabricBlockSettings.create().strength(0.6f).sounds(BlockSoundGroup.GRASS)));
+    
+    //podzol_block
+    public static final Block PODZOL_STAIRS = registerBlock("podzol_stairs",
+            new StairsBlock(Blocks.PODZOL.getDefaultState(), FabricBlockSettings.copyOf(Blocks.PODZOL)));
+    public static final Block PODZOL_SLAB = registerBlock("podzol_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.PODZOL)));
+    public static final Block PODZOL_BUTTON = registerBlock("podzol_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.PODZOL), BlockSetType.STONE, 10, false));
+    public static final Block PODZOL_PRESSURE_PLATE = registerBlock("podzol_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.PODZOL), BlockSetType.STONE));
+    public static final Block PODZOL_FENCE = registerBlock("podzol_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.PODZOL)));
+    public static final Block PODZOL_FENCE_GATE = registerBlock("podzol_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.PODZOL), WoodType.OAK));
+    public static final Block PODZOL_DOOR = registerBlock("podzol_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.PODZOL), BlockSetType.STONE));
+    public static final Block PODZOL_TRAPDOOR = registerBlock("podzol_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.PODZOL), BlockSetType.STONE));
+    public static final Block PODZOL_WALL = registerBlock("podzol_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.PODZOL)));
+    
+    //dirt_block
+    public static final Block DIRT_STAIRS = registerBlock("dirt_stairs",
+            new StairsBlock(Blocks.DIRT.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DIRT)));
+    public static final Block DIRT_SLAB = registerBlock("dirt_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DIRT)));
+    public static final Block DIRT_BUTTON = registerBlock("dirt_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.DIRT), BlockSetType.STONE, 10, false));
+    public static final Block DIRT_PRESSURE_PLATE = registerBlock("dirt_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.DIRT), BlockSetType.STONE));
+    public static final Block DIRT_FENCE = registerBlock("dirt_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.DIRT)));
+    public static final Block DIRT_FENCE_GATE = registerBlock("dirt_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.DIRT), WoodType.OAK));
+    public static final Block DIRT_DOOR = registerBlock("dirt_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.DIRT), BlockSetType.STONE));
+    public static final Block DIRT_TRAPDOOR = registerBlock("dirt_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.DIRT), BlockSetType.STONE));
+    public static final Block DIRT_WALL = registerBlock("dirt_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.DIRT)));
+
 
 
 

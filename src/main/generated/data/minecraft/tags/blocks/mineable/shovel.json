@@ -162,6 +162,24 @@
     "vanillablocksplus:grass_fence_gate",
     "vanillablocksplus:grass_fence",
     "vanillablocksplus:grass_button",
-    "vanillablocksplus:grass_pressure_plate"
+    "vanillablocksplus:grass_pressure_plate",
+    "vanillablocksplus:podzol_stairs",
+    "vanillablocksplus:podzol_slab",
+    "vanillablocksplus:podzol_wall",
+    "vanillablocksplus:podzol_door",
+    "vanillablocksplus:podzol_trapdoor",
+    "vanillablocksplus:podzol_fence_gate",
+    "vanillablocksplus:podzol_fence",
+    "vanillablocksplus:podzol_button",
+    "vanillablocksplus:podzol_pressure_plate",
+    "vanillablocksplus:dirt_stairs",
+    "vanillablocksplus:dirt_slab",
+    "vanillablocksplus:dirt_wall",
+    "vanillablocksplus:dirt_door",
+    "vanillablocksplus:dirt_trapdoor",
+    "vanillablocksplus:dirt_fence_gate",
+    "vanillablocksplus:dirt_fence",
+    "vanillablocksplus:dirt_button",
+    "vanillablocksplus:dirt_pressure_plate"
   ]
 }

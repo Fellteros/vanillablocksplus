@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:dirt_slab"
+    },
+    "W": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "vanillablocksplus:dirt_fence_gate"
+  },
+  "show_notification": true
+}

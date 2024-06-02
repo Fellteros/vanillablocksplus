@@ -3,6 +3,6 @@
   "textures": {
     "bottom": "vanillablocksplus:block/basalt_mod",
     "side": "vanillablocksplus:block/basalt_mod",
-    "top": "minecraft:block/basalt_top"
+    "top": "vanillablocksplus:block/basalt_mod"
   }
 }

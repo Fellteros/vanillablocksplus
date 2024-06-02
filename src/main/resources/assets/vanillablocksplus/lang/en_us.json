@@ -1823,6 +1823,26 @@
   "block.vanillablocksplus.grass_pressure_plate": "Grass Pressure Plate",
   "block.vanillablocksplus.grass_button": "Grass Button",
   "block.vanillablocksplus.grass_wall": "Grass Wall",
+
+  "block.vanillablocksplus.podzol_stairs": "Podzol Stairs",
+  "block.vanillablocksplus.podzol_slab": "Podzol Slab",
+  "block.vanillablocksplus.podzol_door": "Podzol Door",
+  "block.vanillablocksplus.podzol_trapdoor": "Podzol Trapdoor",
+  "block.vanillablocksplus.podzol_fence": "Podzol Fence",
+  "block.vanillablocksplus.podzol_fence_gate": "Podzol Fence Gate",
+  "block.vanillablocksplus.podzol_pressure_plate": "Podzol Pressure Plate",
+  "block.vanillablocksplus.podzol_button": "Podzol Button",
+  "block.vanillablocksplus.podzol_wall": "Podzol Wall",
+
+  "block.vanillablocksplus.dirt_stairs": "Dirt Stairs",
+  "block.vanillablocksplus.dirt_slab": "Dirt Slab",
+  "block.vanillablocksplus.dirt_door": "Dirt Door",
+  "block.vanillablocksplus.dirt_trapdoor": "Dirt Trapdoor",
+  "block.vanillablocksplus.dirt_fence": "Dirt Fence",
+  "block.vanillablocksplus.dirt_fence_gate": "Dirt Fence Gate",
+  "block.vanillablocksplus.dirt_pressure_plate": "Dirt Pressure Plate",
+  "block.vanillablocksplus.dirt_button": "Dirt Button",
+  "block.vanillablocksplus.dirt_wall": "Dirt Wall",
   
 
   

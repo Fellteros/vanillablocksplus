@@ -31,7 +31,6 @@ public class GrassBlocksRegistry {
                 ModBlocks.GRASS_STAIRS,
                 ModBlocks.GRASS_WALL,
                 ModBlocks.GRASS_FENCE_GATE,
-                ModBlocks.GRASS_DOOR,
                 ModBlocks.GRASS_TRAPDOOR,
                 ModBlocks.GRASS_PRESSURE_PLATE);
     }

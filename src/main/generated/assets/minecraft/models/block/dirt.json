@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "vanillablocksplus:block/grass_mod"
+    "all": "minecraft:block/dirt"
   }
 }

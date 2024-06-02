@@ -3,6 +3,7 @@ package net.fellter.vanillablocksplus;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fellter.vanillablocksplus.datagen.*;
+import net.fellter.vanillablocksplus.test.ModModelProviderTest;
 
 public class VanillaBlocksPlusDataGenerator implements DataGeneratorEntrypoint {
 	@Override

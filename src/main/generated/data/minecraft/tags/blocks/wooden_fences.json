@@ -191,6 +191,8 @@
     "vanillablocksplus:purple_stained_glass_fence",
     "vanillablocksplus:magenta_stained_glass_fence",
     "vanillablocksplus:pink_stained_glass_fence",
-    "vanillablocksplus:grass_fence"
+    "vanillablocksplus:grass_fence",
+    "vanillablocksplus:podzol_fence",
+    "vanillablocksplus:dirt_fence"
   ]
 }

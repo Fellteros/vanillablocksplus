@@ -3698,6 +3698,46 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.GRASS_WALL, (Blocks.GRASS_BLOCK))
                 .offerTo(exporter);
 
+        //podzol
+        ModRecipes.createDoorRecipe(ModBlocks.PODZOL_DOOR, (Blocks.PODZOL))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.PODZOL_SLAB, (Blocks.PODZOL))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.PODZOL_STAIRS, (Blocks.PODZOL))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.PODZOL_FENCE, (Blocks.PODZOL), (ModBlocks.PODZOL_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.PODZOL_FENCE_GATE, (Blocks.PODZOL), (ModBlocks.PODZOL_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.PODZOL_TRAPDOOR, (ModBlocks.PODZOL_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.PODZOL_PRESSURE_PLATE, (ModBlocks.PODZOL_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.PODZOL_BUTTON, Blocks.PODZOL, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.PODZOL_WALL, (Blocks.PODZOL))
+                .offerTo(exporter);
+
+        //dirt
+        ModRecipes.createDoorRecipe(ModBlocks.DIRT_DOOR, (Blocks.DIRT))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIRT_SLAB, (Blocks.DIRT))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.DIRT_STAIRS, (Blocks.DIRT))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.DIRT_FENCE, (Blocks.DIRT), (ModBlocks.DIRT_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.DIRT_FENCE_GATE, (Blocks.DIRT), (ModBlocks.DIRT_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.DIRT_TRAPDOOR, (ModBlocks.DIRT_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIRT_PRESSURE_PLATE, (ModBlocks.DIRT_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIRT_BUTTON, Blocks.DIRT, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIRT_WALL, (Blocks.DIRT))
+                .offerTo(exporter);
+
 
 
 

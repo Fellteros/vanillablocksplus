@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:podzol_slab"
+    },
+    "W": {
+      "item": "minecraft:podzol"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "vanillablocksplus:podzol_fence_gate"
+  },
+  "show_notification": true
+}

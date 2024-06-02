@@ -1841,6 +1841,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GRASS_TRAPDOOR);
                         entries.add(ModBlocks.GRASS_PRESSURE_PLATE);
                         entries.add(ModBlocks.GRASS_BUTTON);
+                        //podzol
+                        entries.add(ModBlocks.PODZOL_STAIRS);
+                        entries.add(ModBlocks.PODZOL_SLAB);
+                        entries.add(ModBlocks.PODZOL_WALL);
+                        entries.add(ModBlocks.PODZOL_FENCE);
+                        entries.add(ModBlocks.PODZOL_FENCE_GATE);
+                        entries.add(ModBlocks.PODZOL_DOOR);
+                        entries.add(ModBlocks.PODZOL_TRAPDOOR);
+                        entries.add(ModBlocks.PODZOL_PRESSURE_PLATE);
+                        entries.add(ModBlocks.PODZOL_BUTTON);
+                        //dirt
+                        entries.add(ModBlocks.DIRT_STAIRS);
+                        entries.add(ModBlocks.DIRT_SLAB);
+                        entries.add(ModBlocks.DIRT_WALL);
+                        entries.add(ModBlocks.DIRT_FENCE);
+                        entries.add(ModBlocks.DIRT_FENCE_GATE);
+                        entries.add(ModBlocks.DIRT_DOOR);
+                        entries.add(ModBlocks.DIRT_TRAPDOOR);
+                        entries.add(ModBlocks.DIRT_PRESSURE_PLATE);
+                        entries.add(ModBlocks.DIRT_BUTTON);
 
 
 

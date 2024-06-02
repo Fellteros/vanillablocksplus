@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/podzol_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/podzol_block"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/podzol_slab_top"
+    }
+  }
+}
