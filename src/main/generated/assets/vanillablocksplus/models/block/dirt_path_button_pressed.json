@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/button_stb_pressed",
+  "textures": {
+    "bottom": "minecraft:block/dirt",
+    "side": "minecraft:block/dirt_path_side",
+    "top": "minecraft:block/dirt_path_top"
+  }
+}

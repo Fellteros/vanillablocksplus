@@ -1818,6 +1818,28 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DIRT_DOOR, doorDrops(ModBlocks.DIRT_DOOR));
         addDrop(ModBlocks.DIRT_SLAB, slabDrops(ModBlocks.DIRT_SLAB));
         addDrop(ModBlocks.DIRT_WALL);
+
+        //mycelium
+        addDrop(ModBlocks.MYCELIUM_STAIRS);
+        addDrop(ModBlocks.MYCELIUM_TRAPDOOR);
+        addDrop(ModBlocks.MYCELIUM_BUTTON);
+        addDrop(ModBlocks.MYCELIUM_PRESSURE_PLATE);
+        addDrop(ModBlocks.MYCELIUM_FENCE);
+        addDrop(ModBlocks.MYCELIUM_FENCE_GATE);
+        addDrop(ModBlocks.MYCELIUM_DOOR, doorDrops(ModBlocks.MYCELIUM_DOOR));
+        addDrop(ModBlocks.MYCELIUM_SLAB, slabDrops(ModBlocks.MYCELIUM_SLAB));
+        addDrop(ModBlocks.MYCELIUM_WALL);
+
+        //dirt_path
+        addDrop(ModBlocks.DIRT_PATH_STAIRS);
+        addDrop(ModBlocks.DIRT_PATH_TRAPDOOR);
+        addDrop(ModBlocks.DIRT_PATH_BUTTON);
+        addDrop(ModBlocks.DIRT_PATH_PRESSURE_PLATE);
+        addDrop(ModBlocks.DIRT_PATH_FENCE);
+        addDrop(ModBlocks.DIRT_PATH_FENCE_GATE);
+        addDrop(ModBlocks.DIRT_PATH_DOOR, doorDrops(ModBlocks.DIRT_PATH_DOOR));
+        addDrop(ModBlocks.DIRT_PATH_SLAB, slabDrops(ModBlocks.DIRT_PATH_SLAB));
+        addDrop(ModBlocks.DIRT_PATH_WALL);
         
         
         

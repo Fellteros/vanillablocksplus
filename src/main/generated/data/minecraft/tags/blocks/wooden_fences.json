@@ -193,6 +193,8 @@
     "vanillablocksplus:pink_stained_glass_fence",
     "vanillablocksplus:grass_fence",
     "vanillablocksplus:podzol_fence",
-    "vanillablocksplus:dirt_fence"
+    "vanillablocksplus:dirt_fence",
+    "vanillablocksplus:mycelium_fence",
+    "vanillablocksplus:dirt_path_fence"
   ]
 }

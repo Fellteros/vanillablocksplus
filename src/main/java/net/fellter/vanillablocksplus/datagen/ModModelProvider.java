@@ -4,14 +4,13 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.item.ModItems;
-import net.fellter.vanillablocksplus.test.ModModels;
 import net.fellter.vanillablocksplus.test.ModTextureMap;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 
-
+import static net.fellter.vanillablocksplus.test.ModBlockStateModelGenerator.*;
 
 public class ModModelProvider extends FabricModelProvider {
 
@@ -20,393 +19,387 @@ public class ModModelProvider extends FabricModelProvider {
         super(output);
     }
 
-
-
-    
-
     @Override
-    public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-
-
-
+    public void generateBlockStateModels(BlockStateModelGenerator bsmg) {
+        
 
         BlockStateModelGenerator.BlockTexturePool oakWoodPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.OAK_WOOD_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.OAK_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool strOakWoodPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STR_OAK_WOOD_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.STR_OAK_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool spruceWoodPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SPRUCE_WOOD_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.SPRUCE_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool strSpruceWoodPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STR_SPRUCE_WOOD_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.STR_SPRUCE_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool birchWoodPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BIRCH_WOOD_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.BIRCH_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool strBirchWoodPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STR_BIRCH_WOOD_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.STR_BIRCH_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool jungleWoodPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.JUNGLE_WOOD_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.JUNGLE_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool strJungleWoodPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STR_JUNGLE_WOOD_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.STR_JUNGLE_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool acaciaWoodPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ACACIA_WOOD_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.ACACIA_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool strAcaciaWoodPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STR_ACACIA_WOOD_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.STR_ACACIA_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool darkOakWoodPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DARK_OAK_WOOD_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.DARK_OAK_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool strDarkOakWoodPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STR_DARK_OAK_WOOD_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.STR_DARK_OAK_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool mangroveWoodPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MANGROVE_WOOD_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.MANGROVE_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool strMangroveWoodPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STR_MANGROVE_WOOD_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.STR_MANGROVE_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool cherryWoodPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHERRY_WOOD_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.CHERRY_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool strCherryWoodPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STR_CHERRY_WOOD_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.STR_CHERRY_WOOD_MOD);
         BlockStateModelGenerator.BlockTexturePool bambooBlockPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BAMBOO_BLOCK_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.BAMBOO_BLOCK_MOD);
         BlockStateModelGenerator.BlockTexturePool strBambooBlockPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STR_BAMBOO_BLOCK_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.STR_BAMBOO_BLOCK_MOD);
         BlockStateModelGenerator.BlockTexturePool crimsonHyphaePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CRIMSON_HYPHAE_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.CRIMSON_HYPHAE_MOD);
         BlockStateModelGenerator.BlockTexturePool strCrimsonHyphaePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STR_CRIMSON_HYPHAE_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.STR_CRIMSON_HYPHAE_MOD);
         BlockStateModelGenerator.BlockTexturePool warpedHyphaePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WARPED_HYPHAE_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.WARPED_HYPHAE_MOD);
         BlockStateModelGenerator.BlockTexturePool strWarpedHyphaePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STR_WARPED_HYPHAE_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.STR_WARPED_HYPHAE_MOD);
         BlockStateModelGenerator.BlockTexturePool stonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.STONE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.STONE);
         BlockStateModelGenerator.BlockTexturePool cobblestonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COBBLESTONE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.COBBLESTONE);
         BlockStateModelGenerator.BlockTexturePool mossyCobblestonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MOSSY_COBBLESTONE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.MOSSY_COBBLESTONE);
         BlockStateModelGenerator.BlockTexturePool smoothStonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_STONE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.SMOOTH_STONE);
         BlockStateModelGenerator.BlockTexturePool stoneBricksPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.STONE_BRICKS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.STONE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool crackedStoneBricksPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_STONE_BRICKS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.CRACKED_STONE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool granitePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRANITE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.GRANITE);
         BlockStateModelGenerator.BlockTexturePool polishedGranitePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_GRANITE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.POLISHED_GRANITE);
         BlockStateModelGenerator.BlockTexturePool dioritePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DIORITE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.DIORITE);
         BlockStateModelGenerator.BlockTexturePool polishedDioritePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_DIORITE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.POLISHED_DIORITE);
         BlockStateModelGenerator.BlockTexturePool andesitePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ANDESITE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.ANDESITE);
         BlockStateModelGenerator.BlockTexturePool polishedAndesitePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_ANDESITE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.POLISHED_ANDESITE);
         BlockStateModelGenerator.BlockTexturePool deepslatePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DEEPSLATE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.DEEPSLATE);
         BlockStateModelGenerator.BlockTexturePool cobbledDeepslatePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COBBLED_DEEPSLATE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.COBBLED_DEEPSLATE);
         BlockStateModelGenerator.BlockTexturePool chiseledDeepslatePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CHISELED_DEEPSLATE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.CHISELED_DEEPSLATE);
         BlockStateModelGenerator.BlockTexturePool polishedDeepslatePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_DEEPSLATE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.POLISHED_DEEPSLATE);
         BlockStateModelGenerator.BlockTexturePool deepslateBricksPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DEEPSLATE_BRICKS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.DEEPSLATE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool crackedDeepslateBricksPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_DEEPSLATE_BRICKS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.CRACKED_DEEPSLATE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool deepslateTilesPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DEEPSLATE_TILES);
+                bsmg.registerCubeAllModelTexturePool(Blocks.DEEPSLATE_TILES);
         BlockStateModelGenerator.BlockTexturePool crackedDeepslateTilesPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_DEEPSLATE_TILES);
+                bsmg.registerCubeAllModelTexturePool(Blocks.CRACKED_DEEPSLATE_TILES);
         BlockStateModelGenerator.BlockTexturePool brickPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BRICKS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BRICKS);
         BlockStateModelGenerator.BlockTexturePool packedMudPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PACKED_MUD);
+                bsmg.registerCubeAllModelTexturePool(Blocks.PACKED_MUD);
         BlockStateModelGenerator.BlockTexturePool mudBrickPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MUD_BRICKS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.MUD_BRICKS);
         BlockStateModelGenerator.BlockTexturePool sandstonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SANDSTONE_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.SANDSTONE_MOD);
         BlockStateModelGenerator.BlockTexturePool smoothSandstonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_SANDSTONE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.SMOOTH_SANDSTONE);
         BlockStateModelGenerator.BlockTexturePool cutSandstonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CUT_SANDSTONE_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.CUT_SANDSTONE_MOD);
         BlockStateModelGenerator.BlockTexturePool redSandstonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RED_SANDSTONE_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.RED_SANDSTONE_MOD);
         BlockStateModelGenerator.BlockTexturePool smoothRedSandstonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_RED_SANDSTONE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.SMOOTH_RED_SANDSTONE);
         BlockStateModelGenerator.BlockTexturePool cutRedSandstonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CUT_RED_SANDSTONE_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.CUT_RED_SANDSTONE_MOD);
         BlockStateModelGenerator.BlockTexturePool seaLanternPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SEA_LANTERN);
+                bsmg.registerCubeAllModelTexturePool(Blocks.SEA_LANTERN);
         BlockStateModelGenerator.BlockTexturePool prismarinePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PRISMARINE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.PRISMARINE);
         BlockStateModelGenerator.BlockTexturePool prismarineBrickPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PRISMARINE_BRICKS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.PRISMARINE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool darkPrismarinePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DARK_PRISMARINE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.DARK_PRISMARINE);
         BlockStateModelGenerator.BlockTexturePool netherrackPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.NETHERRACK);
+                bsmg.registerCubeAllModelTexturePool(Blocks.NETHERRACK);
         BlockStateModelGenerator.BlockTexturePool netherBrickPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.NETHER_BRICKS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.NETHER_BRICKS);
         BlockStateModelGenerator.BlockTexturePool crackedNetherBrickPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_NETHER_BRICKS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.CRACKED_NETHER_BRICKS);
         BlockStateModelGenerator.BlockTexturePool redNetherBrickPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_NETHER_BRICKS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.RED_NETHER_BRICKS);
         BlockStateModelGenerator.BlockTexturePool basaltPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BASALT_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.BASALT_MOD);
         BlockStateModelGenerator.BlockTexturePool smoothBasaltPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_BASALT);
+                bsmg.registerCubeAllModelTexturePool(Blocks.SMOOTH_BASALT);
         BlockStateModelGenerator.BlockTexturePool polishedBasaltPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_BASALT_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.POLISHED_BASALT_MOD);
         BlockStateModelGenerator.BlockTexturePool blackstonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACKSTONE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BLACKSTONE);
         BlockStateModelGenerator.BlockTexturePool gildedBlackstonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GILDED_BLACKSTONE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.GILDED_BLACKSTONE);
         BlockStateModelGenerator.BlockTexturePool polishedBlackstonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_BLACKSTONE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.POLISHED_BLACKSTONE);
         BlockStateModelGenerator.BlockTexturePool polishedBlackstoneBrickPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_BLACKSTONE_BRICKS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.POLISHED_BLACKSTONE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool crackedPolishedBlackstoneBrickPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool endStonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.END_STONE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.END_STONE);
         BlockStateModelGenerator.BlockTexturePool endStoneBrickPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.END_STONE_BRICKS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.END_STONE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool purpurBlockPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPUR_BLOCK);
+                bsmg.registerCubeAllModelTexturePool(Blocks.PURPUR_BLOCK);
         BlockStateModelGenerator.BlockTexturePool coalPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COAL_BLOCK);
+                bsmg.registerCubeAllModelTexturePool(Blocks.COAL_BLOCK);
         BlockStateModelGenerator.BlockTexturePool ironPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.IRON_BLOCK);
+                bsmg.registerCubeAllModelTexturePool(Blocks.IRON_BLOCK);
         BlockStateModelGenerator.BlockTexturePool goldPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GOLD_BLOCK);
+                bsmg.registerCubeAllModelTexturePool(Blocks.GOLD_BLOCK);
         BlockStateModelGenerator.BlockTexturePool redstonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.REDSTONE_BLOCK);
+                bsmg.registerCubeAllModelTexturePool(Blocks.REDSTONE_BLOCK);
         BlockStateModelGenerator.BlockTexturePool emeraldPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.EMERALD_BLOCK);
+                bsmg.registerCubeAllModelTexturePool(Blocks.EMERALD_BLOCK);
         BlockStateModelGenerator.BlockTexturePool lapisPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LAPIS_BLOCK);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LAPIS_BLOCK);
         BlockStateModelGenerator.BlockTexturePool diamondPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DIAMOND_BLOCK);
+                bsmg.registerCubeAllModelTexturePool(Blocks.DIAMOND_BLOCK);
         BlockStateModelGenerator.BlockTexturePool netheritePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.NETHERITE_BLOCK);
+                bsmg.registerCubeAllModelTexturePool(Blocks.NETHERITE_BLOCK);
         BlockStateModelGenerator.BlockTexturePool quartzPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.QUARTZ_BLOCK_MOD);
+                bsmg.registerCubeAllModelTexturePool(ModBlocks.QUARTZ_BLOCK_MOD);
         BlockStateModelGenerator.BlockTexturePool quartzBrickPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.QUARTZ_BRICKS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.QUARTZ_BRICKS);
         BlockStateModelGenerator.BlockTexturePool smoothQuartzPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_QUARTZ);
+                bsmg.registerCubeAllModelTexturePool(Blocks.SMOOTH_QUARTZ);
         BlockStateModelGenerator.BlockTexturePool amethystPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.AMETHYST_BLOCK);
+                bsmg.registerCubeAllModelTexturePool(Blocks.AMETHYST_BLOCK);
         BlockStateModelGenerator.BlockTexturePool copperPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COPPER_BLOCK);
+                bsmg.registerCubeAllModelTexturePool(Blocks.COPPER_BLOCK);
         BlockStateModelGenerator.BlockTexturePool cutCopperPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CUT_COPPER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.CUT_COPPER);
         BlockStateModelGenerator.BlockTexturePool exposedCopperPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.EXPOSED_COPPER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.EXPOSED_COPPER);
         BlockStateModelGenerator.BlockTexturePool exposedCutCopperPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.EXPOSED_CUT_COPPER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.EXPOSED_CUT_COPPER);
         BlockStateModelGenerator.BlockTexturePool weatheredCopperPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WEATHERED_COPPER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.WEATHERED_COPPER);
         BlockStateModelGenerator.BlockTexturePool weatheredCutCopperPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WEATHERED_CUT_COPPER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.WEATHERED_CUT_COPPER);
         BlockStateModelGenerator.BlockTexturePool oxidizedCopperPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.OXIDIZED_COPPER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.OXIDIZED_COPPER);
         BlockStateModelGenerator.BlockTexturePool oxidizedCutCopperPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.OXIDIZED_CUT_COPPER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.OXIDIZED_CUT_COPPER);
         BlockStateModelGenerator.BlockTexturePool whiteWoolPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_WOOL);
+                bsmg.registerCubeAllModelTexturePool(Blocks.WHITE_WOOL);
         BlockStateModelGenerator.BlockTexturePool lightGrayWoolPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_WOOL);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_WOOL);
         BlockStateModelGenerator.BlockTexturePool grayWoolPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRAY_WOOL);
+                bsmg.registerCubeAllModelTexturePool(Blocks.GRAY_WOOL);
         BlockStateModelGenerator.BlockTexturePool blackWoolPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACK_WOOL);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BLACK_WOOL);
         BlockStateModelGenerator.BlockTexturePool brownWoolPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BROWN_WOOL);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BROWN_WOOL);
         BlockStateModelGenerator.BlockTexturePool redWoolPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_WOOL);
+                bsmg.registerCubeAllModelTexturePool(Blocks.RED_WOOL);
         BlockStateModelGenerator.BlockTexturePool orangeWoolPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ORANGE_WOOL);
+                bsmg.registerCubeAllModelTexturePool(Blocks.ORANGE_WOOL);
         BlockStateModelGenerator.BlockTexturePool yellowWoolPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.YELLOW_WOOL);
+                bsmg.registerCubeAllModelTexturePool(Blocks.YELLOW_WOOL);
         BlockStateModelGenerator.BlockTexturePool limeWoolPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIME_WOOL);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIME_WOOL);
         BlockStateModelGenerator.BlockTexturePool greenWoolPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GREEN_WOOL);
+                bsmg.registerCubeAllModelTexturePool(Blocks.GREEN_WOOL);
         BlockStateModelGenerator.BlockTexturePool cyanWoolPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CYAN_WOOL);
+                bsmg.registerCubeAllModelTexturePool(Blocks.CYAN_WOOL);
         BlockStateModelGenerator.BlockTexturePool blueWoolPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLUE_WOOL);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BLUE_WOOL);
         BlockStateModelGenerator.BlockTexturePool lightBlueWoolPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_WOOL);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_WOOL);
         BlockStateModelGenerator.BlockTexturePool purpleWoolPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPLE_WOOL);
+                bsmg.registerCubeAllModelTexturePool(Blocks.PURPLE_WOOL);
         BlockStateModelGenerator.BlockTexturePool magentaWoolPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_WOOL);
+                bsmg.registerCubeAllModelTexturePool(Blocks.MAGENTA_WOOL);
         BlockStateModelGenerator.BlockTexturePool pinkWoolPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_WOOL);
+                bsmg.registerCubeAllModelTexturePool(Blocks.PINK_WOOL);
         BlockStateModelGenerator.BlockTexturePool terracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool whiteTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.WHITE_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool lightGrayTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool grayTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRAY_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.GRAY_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool blackTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACK_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BLACK_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool brownTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BROWN_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BROWN_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool redTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.RED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool orangeTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ORANGE_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.ORANGE_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool yellowTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.YELLOW_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.YELLOW_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool limeTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIME_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIME_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool greenTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GREEN_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.GREEN_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool cyanTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CYAN_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.CYAN_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool blueTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLUE_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BLUE_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool lightBlueTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool purpleTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPLE_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.PURPLE_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool magentaTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.MAGENTA_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool pinkTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.PINK_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool whiteConcretePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_CONCRETE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.WHITE_CONCRETE);
         BlockStateModelGenerator.BlockTexturePool lightGrayConcretePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_CONCRETE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_CONCRETE);
         BlockStateModelGenerator.BlockTexturePool grayConcretePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRAY_CONCRETE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.GRAY_CONCRETE);
         BlockStateModelGenerator.BlockTexturePool blackConcretePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACK_CONCRETE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BLACK_CONCRETE);
         BlockStateModelGenerator.BlockTexturePool brownConcretePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BROWN_CONCRETE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BROWN_CONCRETE);
         BlockStateModelGenerator.BlockTexturePool redConcretePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_CONCRETE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.RED_CONCRETE);
         BlockStateModelGenerator.BlockTexturePool orangeConcretePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ORANGE_CONCRETE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.ORANGE_CONCRETE);
         BlockStateModelGenerator.BlockTexturePool yellowConcretePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.YELLOW_CONCRETE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.YELLOW_CONCRETE);
         BlockStateModelGenerator.BlockTexturePool limeConcretePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIME_CONCRETE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIME_CONCRETE);
         BlockStateModelGenerator.BlockTexturePool greenConcretePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GREEN_CONCRETE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.GREEN_CONCRETE);
         BlockStateModelGenerator.BlockTexturePool cyanConcretePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CYAN_CONCRETE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.CYAN_CONCRETE);
         BlockStateModelGenerator.BlockTexturePool blueConcretePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLUE_CONCRETE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BLUE_CONCRETE);
         BlockStateModelGenerator.BlockTexturePool lightBlueConcretePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_CONCRETE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_CONCRETE);
         BlockStateModelGenerator.BlockTexturePool purpleConcretePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPLE_CONCRETE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.PURPLE_CONCRETE);
         BlockStateModelGenerator.BlockTexturePool magentaConcretePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_CONCRETE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.MAGENTA_CONCRETE);
         BlockStateModelGenerator.BlockTexturePool pinkConcretePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_CONCRETE);
+                bsmg.registerCubeAllModelTexturePool(Blocks.PINK_CONCRETE);
         BlockStateModelGenerator.BlockTexturePool whiteConcretePowderPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_CONCRETE_POWDER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.WHITE_CONCRETE_POWDER);
         BlockStateModelGenerator.BlockTexturePool lightGrayConcretePowderPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_CONCRETE_POWDER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_CONCRETE_POWDER);
         BlockStateModelGenerator.BlockTexturePool grayConcretePowderPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRAY_CONCRETE_POWDER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.GRAY_CONCRETE_POWDER);
         BlockStateModelGenerator.BlockTexturePool blackConcretePowderPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACK_CONCRETE_POWDER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BLACK_CONCRETE_POWDER);
         BlockStateModelGenerator.BlockTexturePool brownConcretePowderPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BROWN_CONCRETE_POWDER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BROWN_CONCRETE_POWDER);
         BlockStateModelGenerator.BlockTexturePool redConcretePowderPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_CONCRETE_POWDER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.RED_CONCRETE_POWDER);
         BlockStateModelGenerator.BlockTexturePool orangeConcretePowderPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ORANGE_CONCRETE_POWDER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.ORANGE_CONCRETE_POWDER);
         BlockStateModelGenerator.BlockTexturePool yellowConcretePowderPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.YELLOW_CONCRETE_POWDER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.YELLOW_CONCRETE_POWDER);
         BlockStateModelGenerator.BlockTexturePool limeConcretePowderPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIME_CONCRETE_POWDER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIME_CONCRETE_POWDER);
         BlockStateModelGenerator.BlockTexturePool greenConcretePowderPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GREEN_CONCRETE_POWDER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.GREEN_CONCRETE_POWDER);
         BlockStateModelGenerator.BlockTexturePool cyanConcretePowderPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CYAN_CONCRETE_POWDER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.CYAN_CONCRETE_POWDER);
         BlockStateModelGenerator.BlockTexturePool blueConcretePowderPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLUE_CONCRETE_POWDER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BLUE_CONCRETE_POWDER);
         BlockStateModelGenerator.BlockTexturePool lightBlueConcretePowderPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_CONCRETE_POWDER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_CONCRETE_POWDER);
         BlockStateModelGenerator.BlockTexturePool purpleConcretePowderPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPLE_CONCRETE_POWDER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.PURPLE_CONCRETE_POWDER);
         BlockStateModelGenerator.BlockTexturePool magentaConcretePowderPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_CONCRETE_POWDER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.MAGENTA_CONCRETE_POWDER);
         BlockStateModelGenerator.BlockTexturePool pinkConcretePowderPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_CONCRETE_POWDER);
+                bsmg.registerCubeAllModelTexturePool(Blocks.PINK_CONCRETE_POWDER);
         BlockStateModelGenerator.BlockTexturePool whiteGlazedTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_GLAZED_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.WHITE_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool lightGrayGlazedTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool grayGlazedTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRAY_GLAZED_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.GRAY_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool blackGlazedTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACK_GLAZED_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BLACK_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool brownGlazedTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BROWN_GLAZED_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BROWN_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool redGlazedTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_GLAZED_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.RED_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool orangeGlazedTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ORANGE_GLAZED_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.ORANGE_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool yellowGlazedTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.YELLOW_GLAZED_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.YELLOW_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool limeGlazedTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIME_GLAZED_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIME_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool greenGlazedTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GREEN_GLAZED_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.GREEN_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool cyanGlazedTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CYAN_GLAZED_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.CYAN_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool blueGlazedTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLUE_GLAZED_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BLUE_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool lightBlueGlazedTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool purpleGlazedTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPLE_GLAZED_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.PURPLE_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool magentaGlazedTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_GLAZED_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.MAGENTA_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool pinkGlazedTerracottaPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_GLAZED_TERRACOTTA);
+                bsmg.registerCubeAllModelTexturePool(Blocks.PINK_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool whiteStainedGlassPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_STAINED_GLASS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.WHITE_STAINED_GLASS);
         BlockStateModelGenerator.BlockTexturePool lightGrayStainedGlassPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_STAINED_GLASS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_STAINED_GLASS);
         BlockStateModelGenerator.BlockTexturePool grayStainedGlassPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRAY_STAINED_GLASS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.GRAY_STAINED_GLASS);
         BlockStateModelGenerator.BlockTexturePool blackStainedGlassPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACK_STAINED_GLASS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BLACK_STAINED_GLASS);
         BlockStateModelGenerator.BlockTexturePool brownStainedGlassPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BROWN_STAINED_GLASS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BROWN_STAINED_GLASS);
         BlockStateModelGenerator.BlockTexturePool redStainedGlassPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_STAINED_GLASS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.RED_STAINED_GLASS);
         BlockStateModelGenerator.BlockTexturePool orangeStainedGlassPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ORANGE_STAINED_GLASS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.ORANGE_STAINED_GLASS);
         BlockStateModelGenerator.BlockTexturePool yellowStainedGlassPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.YELLOW_STAINED_GLASS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.YELLOW_STAINED_GLASS);
         BlockStateModelGenerator.BlockTexturePool limeStainedGlassPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIME_STAINED_GLASS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIME_STAINED_GLASS);
         BlockStateModelGenerator.BlockTexturePool greenStainedGlassPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GREEN_STAINED_GLASS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.GREEN_STAINED_GLASS);
         BlockStateModelGenerator.BlockTexturePool cyanStainedGlassPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CYAN_STAINED_GLASS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.CYAN_STAINED_GLASS);
         BlockStateModelGenerator.BlockTexturePool blueStainedGlassPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLUE_STAINED_GLASS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.BLUE_STAINED_GLASS);
         BlockStateModelGenerator.BlockTexturePool lightBlueStainedGlassPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_STAINED_GLASS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_STAINED_GLASS);
         BlockStateModelGenerator.BlockTexturePool purpleStainedGlassPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPLE_STAINED_GLASS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.PURPLE_STAINED_GLASS);
         BlockStateModelGenerator.BlockTexturePool magentaStainedGlassPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_STAINED_GLASS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.MAGENTA_STAINED_GLASS);
         BlockStateModelGenerator.BlockTexturePool pinkStainedGlassPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_STAINED_GLASS);
+                bsmg.registerCubeAllModelTexturePool(Blocks.PINK_STAINED_GLASS);
         //GRASS BLOCKS MADE MANUALLY
         BlockStateModelGenerator.BlockTexturePool dirtPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DIRT);
+                bsmg.registerCubeAllModelTexturePool(Blocks.DIRT);
         //PODZOL BLOCKS MADE MANUALLY
 
 
@@ -1844,597 +1837,630 @@ public class ModModelProvider extends FabricModelProvider {
         dirtPool.fence(ModBlocks.DIRT_FENCE);
         dirtPool.fenceGate(ModBlocks.DIRT_FENCE_GATE);
         dirtPool.pressurePlate(ModBlocks.DIRT_PRESSURE_PLATE);
+        //podzol
+        registerSTBButton(bsmg, ModBlocks.PODZOL_BUTTON, ModTextureMap.customSTB(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBWall(bsmg, ModBlocks.PODZOL_WALL, ModTextureMap.customSTB(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBSlab(bsmg, ModBlocks.PODZOL_SLAB, Blocks.PODZOL, ModTextureMap.customSTB(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBStairs(bsmg, ModBlocks.PODZOL_STAIRS, ModTextureMap.customSTB(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBFence(bsmg, ModBlocks.PODZOL_FENCE, ModTextureMap.customSTB(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBFenceGate(bsmg, ModBlocks.PODZOL_FENCE_GATE, ModTextureMap.customSTB(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBPressurePlate(bsmg, ModBlocks.PODZOL_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBOrTrapdoor(bsmg, ModBlocks.PODZOL_TRAPDOOR, ModTextureMap.customSTB(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
+        //mycelium
+        registerSTBButton(bsmg, ModBlocks.MYCELIUM_BUTTON, ModTextureMap.customSTB(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBWall(bsmg, ModBlocks.MYCELIUM_WALL, ModTextureMap.customSTB(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBSlab(bsmg, ModBlocks.MYCELIUM_SLAB, Blocks.MYCELIUM, ModTextureMap.customSTB(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBStairs(bsmg, ModBlocks.MYCELIUM_STAIRS, ModTextureMap.customSTB(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBFence(bsmg, ModBlocks.MYCELIUM_FENCE, ModTextureMap.customSTB(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBFenceGate(bsmg, ModBlocks.MYCELIUM_FENCE_GATE, ModTextureMap.customSTB(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBPressurePlate(bsmg, ModBlocks.MYCELIUM_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBOrTrapdoor(bsmg, ModBlocks.MYCELIUM_TRAPDOOR, ModTextureMap.customSTB(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
+        //dirt_path
+        registerSTBButton(bsmg, ModBlocks.DIRT_PATH_BUTTON, ModTextureMap.customSTB(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBWall(bsmg, ModBlocks.DIRT_PATH_WALL, ModTextureMap.customSTB(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBSlab(bsmg, ModBlocks.DIRT_PATH_SLAB, Blocks.DIRT_PATH, ModTextureMap.customSTB(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBStairs(bsmg, ModBlocks.DIRT_PATH_STAIRS, ModTextureMap.customSTB(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBFence(bsmg, ModBlocks.DIRT_PATH_FENCE, ModTextureMap.customSTB(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBFenceGate(bsmg, ModBlocks.DIRT_PATH_FENCE_GATE, ModTextureMap.customSTB(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBPressurePlate(bsmg, ModBlocks.DIRT_PATH_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
+        registerSTBOrTrapdoor(bsmg, ModBlocks.DIRT_PATH_TRAPDOOR, ModTextureMap.customSTB(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
 
 
 
         //oak
-        blockStateModelGenerator.registerDoor(ModBlocks.OAK_WOOD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.OAK_WOOD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.OAK_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.OAK_WOOD_TRAPDOOR);
         //str oak
-        blockStateModelGenerator.registerDoor(ModBlocks.STR_OAK_WOOD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.STR_OAK_WOOD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.STR_OAK_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.STR_OAK_WOOD_TRAPDOOR);
         //spruce
-        blockStateModelGenerator.registerDoor(ModBlocks.SPRUCE_WOOD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SPRUCE_WOOD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.SPRUCE_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.SPRUCE_WOOD_TRAPDOOR);
         //str spruce
-        blockStateModelGenerator.registerDoor(ModBlocks.STR_SPRUCE_WOOD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.STR_SPRUCE_WOOD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.STR_SPRUCE_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.STR_SPRUCE_WOOD_TRAPDOOR);
         //birch
-        blockStateModelGenerator.registerDoor(ModBlocks.BIRCH_WOOD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BIRCH_WOOD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BIRCH_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BIRCH_WOOD_TRAPDOOR);
         //str birch
-        blockStateModelGenerator.registerDoor(ModBlocks.STR_BIRCH_WOOD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.STR_BIRCH_WOOD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.STR_BIRCH_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.STR_BIRCH_WOOD_TRAPDOOR);
         //jungle
-        blockStateModelGenerator.registerDoor(ModBlocks.JUNGLE_WOOD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.JUNGLE_WOOD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.JUNGLE_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.JUNGLE_WOOD_TRAPDOOR);
         //str jungle
-        blockStateModelGenerator.registerDoor(ModBlocks.STR_JUNGLE_WOOD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.STR_JUNGLE_WOOD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.STR_JUNGLE_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.STR_JUNGLE_WOOD_TRAPDOOR);
         //acacia
-        blockStateModelGenerator.registerDoor(ModBlocks.ACACIA_WOOD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.ACACIA_WOOD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.ACACIA_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.ACACIA_WOOD_TRAPDOOR);
         //str acacia
-        blockStateModelGenerator.registerDoor(ModBlocks.STR_ACACIA_WOOD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.STR_ACACIA_WOOD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.STR_ACACIA_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.STR_ACACIA_WOOD_TRAPDOOR);
         //dark oak
-        blockStateModelGenerator.registerDoor(ModBlocks.DARK_OAK_WOOD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DARK_OAK_WOOD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DARK_OAK_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.DARK_OAK_WOOD_TRAPDOOR);
         //str dark oak
-        blockStateModelGenerator.registerDoor(ModBlocks.STR_DARK_OAK_WOOD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.STR_DARK_OAK_WOOD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.STR_DARK_OAK_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.STR_DARK_OAK_WOOD_TRAPDOOR);
         //mangrove
-        blockStateModelGenerator.registerDoor(ModBlocks.MANGROVE_WOOD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.MANGROVE_WOOD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.MANGROVE_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.MANGROVE_WOOD_TRAPDOOR);
         //str mangrove
-        blockStateModelGenerator.registerDoor(ModBlocks.STR_MANGROVE_WOOD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.STR_MANGROVE_WOOD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.STR_MANGROVE_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.STR_MANGROVE_WOOD_TRAPDOOR);
         //cherry
-        blockStateModelGenerator.registerDoor(ModBlocks.CHERRY_WOOD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CHERRY_WOOD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CHERRY_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.CHERRY_WOOD_TRAPDOOR);
         //str cherry
-        blockStateModelGenerator.registerDoor(ModBlocks.STR_CHERRY_WOOD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.STR_CHERRY_WOOD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.STR_CHERRY_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.STR_CHERRY_WOOD_TRAPDOOR);
         //bamboo
-        blockStateModelGenerator.registerDoor(ModBlocks.BAMBOO_BLOCK_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BAMBOO_BLOCK_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BAMBOO_BLOCK_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BAMBOO_BLOCK_TRAPDOOR);
         //str bamboo
-        blockStateModelGenerator.registerDoor(ModBlocks.STR_BAMBOO_BLOCK_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.STR_BAMBOO_BLOCK_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.STR_BAMBOO_BLOCK_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.STR_BAMBOO_BLOCK_TRAPDOOR);
         //crimson hyphae
-        blockStateModelGenerator.registerDoor(ModBlocks.CRIMSON_HYPHAE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CRIMSON_HYPHAE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CRIMSON_HYPHAE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.CRIMSON_HYPHAE_TRAPDOOR);
         //str crimson hyphae
-        blockStateModelGenerator.registerDoor(ModBlocks.STR_CRIMSON_HYPHAE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.STR_CRIMSON_HYPHAE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.STR_CRIMSON_HYPHAE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.STR_CRIMSON_HYPHAE_TRAPDOOR);
         //warped hyphae
-        blockStateModelGenerator.registerDoor(ModBlocks.WARPED_HYPHAE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WARPED_HYPHAE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WARPED_HYPHAE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.WARPED_HYPHAE_TRAPDOOR);
         //str warped hyphae
-        blockStateModelGenerator.registerDoor(ModBlocks.STR_WARPED_HYPHAE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.STR_WARPED_HYPHAE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.STR_WARPED_HYPHAE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.STR_WARPED_HYPHAE_TRAPDOOR);
         //stone
-        blockStateModelGenerator.registerDoor(ModBlocks.STONE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.STONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.STONE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.STONE_TRAPDOOR);
         //cobblestone
-        blockStateModelGenerator.registerDoor(ModBlocks.COBBLESTONE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.COBBLESTONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.COBBLESTONE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.COBBLESTONE_TRAPDOOR);
         //mossy cobblestone
-        blockStateModelGenerator.registerDoor(ModBlocks.MOSSY_COBBLESTONE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.MOSSY_COBBLESTONE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR);
         //smooth stone
-        blockStateModelGenerator.registerDoor(ModBlocks.SMOOTH_STONE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SMOOTH_STONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.SMOOTH_STONE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.SMOOTH_STONE_TRAPDOOR);
         //stone bricks
-        blockStateModelGenerator.registerDoor(ModBlocks.STONE_BRICKS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.STONE_BRICKS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.STONE_BRICKS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.STONE_BRICKS_TRAPDOOR);
         //cracked stone bricks
-        blockStateModelGenerator.registerDoor(ModBlocks.CRACKED_STONE_BRICKS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CRACKED_STONE_BRICKS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CRACKED_STONE_BRICKS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.CRACKED_STONE_BRICKS_TRAPDOOR);
         //granite
-        blockStateModelGenerator.registerDoor(ModBlocks.GRANITE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GRANITE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GRANITE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.GRANITE_TRAPDOOR);
         //polished granite
-        blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_GRANITE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_GRANITE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.POLISHED_GRANITE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.POLISHED_GRANITE_TRAPDOOR);
         //diorite
-        blockStateModelGenerator.registerDoor(ModBlocks.DIORITE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DIORITE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DIORITE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.DIORITE_TRAPDOOR);
         //polished diorite
-        blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_DIORITE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_DIORITE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.POLISHED_DIORITE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.POLISHED_DIORITE_TRAPDOOR);
         //andesite
-        blockStateModelGenerator.registerDoor(ModBlocks.ANDESITE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.ANDESITE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.ANDESITE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.ANDESITE_TRAPDOOR);
         //polished andesite
-        blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_ANDESITE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_ANDESITE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.POLISHED_ANDESITE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.POLISHED_ANDESITE_TRAPDOOR);
         //deepslate
-        blockStateModelGenerator.registerDoor(ModBlocks.DEEPSLATE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DEEPSLATE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_TRAPDOOR);
         //cobbled deepslate
-        blockStateModelGenerator.registerDoor(ModBlocks.COBBLED_DEEPSLATE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.COBBLED_DEEPSLATE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.COBBLED_DEEPSLATE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.COBBLED_DEEPSLATE_TRAPDOOR);
         //chiseled deepslate
-        blockStateModelGenerator.registerDoor(ModBlocks.CHISELED_DEEPSLATE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CHISELED_DEEPSLATE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CHISELED_DEEPSLATE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.CHISELED_DEEPSLATE_TRAPDOOR);
         //polished deepslate
-        blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_DEEPSLATE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_DEEPSLATE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.POLISHED_DEEPSLATE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.POLISHED_DEEPSLATE_TRAPDOOR);
         //deepslate bricks
-        blockStateModelGenerator.registerDoor(ModBlocks.DEEPSLATE_BRICKS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_BRICKS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DEEPSLATE_BRICKS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_BRICKS_TRAPDOOR);
         //cracked deepslate bricks
-        blockStateModelGenerator.registerDoor(ModBlocks.CRACKED_DEEPSLATE_BRICKS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CRACKED_DEEPSLATE_BRICKS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CRACKED_DEEPSLATE_BRICKS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.CRACKED_DEEPSLATE_BRICKS_TRAPDOOR);
         //deepslate tiles
-        blockStateModelGenerator.registerDoor(ModBlocks.DEEPSLATE_TILES_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_TILES_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DEEPSLATE_TILES_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_TILES_TRAPDOOR);
         //cracked deepslate tiles
-        blockStateModelGenerator.registerDoor(ModBlocks.CRACKED_DEEPSLATE_TILES_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CRACKED_DEEPSLATE_TILES_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CRACKED_DEEPSLATE_TILES_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.CRACKED_DEEPSLATE_TILES_TRAPDOOR);
         //bricks
-        blockStateModelGenerator.registerDoor(ModBlocks.BRICK_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BRICK_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BRICK_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BRICK_TRAPDOOR);
         //packed mud
-        blockStateModelGenerator.registerDoor(ModBlocks.PACKED_MUD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PACKED_MUD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PACKED_MUD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.PACKED_MUD_TRAPDOOR);
         //mud bricks
-        blockStateModelGenerator.registerDoor(ModBlocks.MUD_BRICK_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.MUD_BRICK_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.MUD_BRICK_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.MUD_BRICK_TRAPDOOR);
         //sandstone
-        blockStateModelGenerator.registerDoor(ModBlocks.SANDSTONE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SANDSTONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.SANDSTONE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.SANDSTONE_TRAPDOOR);
         //smooth sandstone
-        blockStateModelGenerator.registerDoor(ModBlocks.SMOOTH_SANDSTONE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SMOOTH_SANDSTONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.SMOOTH_SANDSTONE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.SMOOTH_SANDSTONE_TRAPDOOR);
         //cut sandstone
-        blockStateModelGenerator.registerDoor(ModBlocks.CUT_SANDSTONE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CUT_SANDSTONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CUT_SANDSTONE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.CUT_SANDSTONE_TRAPDOOR);
         //red sandstone
-        blockStateModelGenerator.registerDoor(ModBlocks.RED_SANDSTONE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.RED_SANDSTONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.RED_SANDSTONE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.RED_SANDSTONE_TRAPDOOR);
         //red smooth sandstone
-        blockStateModelGenerator.registerDoor(ModBlocks.SMOOTH_RED_SANDSTONE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SMOOTH_RED_SANDSTONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.SMOOTH_RED_SANDSTONE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.SMOOTH_RED_SANDSTONE_TRAPDOOR);
         //red cut sandstone
-        blockStateModelGenerator.registerDoor(ModBlocks.CUT_RED_SANDSTONE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CUT_RED_SANDSTONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CUT_RED_SANDSTONE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.CUT_RED_SANDSTONE_TRAPDOOR);
         //sea lantern
-        blockStateModelGenerator.registerDoor(ModBlocks.SEA_LANTERN_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SEA_LANTERN_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.SEA_LANTERN_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.SEA_LANTERN_TRAPDOOR);
         //prismarine
-        blockStateModelGenerator.registerDoor(ModBlocks.PRISMARINE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PRISMARINE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PRISMARINE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.PRISMARINE_TRAPDOOR);
         //prismarine brick
-        blockStateModelGenerator.registerDoor(ModBlocks.PRISMARINE_BRICK_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PRISMARINE_BRICK_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PRISMARINE_BRICK_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.PRISMARINE_BRICK_TRAPDOOR);
         //dark prismarine
-        blockStateModelGenerator.registerDoor(ModBlocks.DARK_PRISMARINE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DARK_PRISMARINE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DARK_PRISMARINE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.DARK_PRISMARINE_TRAPDOOR);
         //netherrack
-        blockStateModelGenerator.registerDoor(ModBlocks.NETHERRACK_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.NETHERRACK_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.NETHERRACK_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.NETHERRACK_TRAPDOOR);
         //nether brick
-        blockStateModelGenerator.registerDoor(ModBlocks.NETHER_BRICK_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.NETHER_BRICK_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.NETHER_BRICK_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.NETHER_BRICK_TRAPDOOR);
         //cracked nether brick
-        blockStateModelGenerator.registerDoor(ModBlocks.CRACKED_NETHER_BRICK_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CRACKED_NETHER_BRICK_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CRACKED_NETHER_BRICK_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.CRACKED_NETHER_BRICK_TRAPDOOR);
         //red nether brick
-        blockStateModelGenerator.registerDoor(ModBlocks.RED_NETHER_BRICK_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.RED_NETHER_BRICK_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.RED_NETHER_BRICK_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.RED_NETHER_BRICK_TRAPDOOR);
         //basalt
-        blockStateModelGenerator.registerDoor(ModBlocks.BASALT_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BASALT_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BASALT_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BASALT_TRAPDOOR);
         //smooth basalt
-        blockStateModelGenerator.registerDoor(ModBlocks.SMOOTH_BASALT_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SMOOTH_BASALT_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.SMOOTH_BASALT_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.SMOOTH_BASALT_TRAPDOOR);
         //polished basalt
-        blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_BASALT_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_BASALT_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.POLISHED_BASALT_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.POLISHED_BASALT_TRAPDOOR);
         //blackstone
-        blockStateModelGenerator.registerDoor(ModBlocks.BLACKSTONE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLACKSTONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BLACKSTONE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BLACKSTONE_TRAPDOOR);
         //gilded blackstone
-        blockStateModelGenerator.registerDoor(ModBlocks.GILDED_BLACKSTONE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GILDED_BLACKSTONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GILDED_BLACKSTONE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.GILDED_BLACKSTONE_TRAPDOOR);
         //polished blackstone
-        blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_BLACKSTONE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_BLACKSTONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.POLISHED_BLACKSTONE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.POLISHED_BLACKSTONE_TRAPDOOR);
         //polished blackstone brick
-        blockStateModelGenerator.registerDoor(ModBlocks.POLISHED_BLACKSTONE_BRICK_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.POLISHED_BLACKSTONE_BRICK_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.POLISHED_BLACKSTONE_BRICK_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.POLISHED_BLACKSTONE_BRICK_TRAPDOOR);
         //cracked polished blackstone brick
-        blockStateModelGenerator.registerDoor(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_TRAPDOOR);
         //end stone
-        blockStateModelGenerator.registerDoor(ModBlocks.END_STONE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.END_STONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.END_STONE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.END_STONE_TRAPDOOR);
         //end stone brick
-        blockStateModelGenerator.registerDoor(ModBlocks.END_STONE_BRICK_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.END_STONE_BRICK_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.END_STONE_BRICK_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.END_STONE_BRICK_TRAPDOOR);
         //purpur block
-        blockStateModelGenerator.registerDoor(ModBlocks.PURPUR_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PURPUR_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PURPUR_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.PURPUR_TRAPDOOR);
         //coal
-        blockStateModelGenerator.registerDoor(ModBlocks.COAL_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.COAL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.COAL_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.COAL_TRAPDOOR);
         //gold
-        blockStateModelGenerator.registerDoor(ModBlocks.GOLD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GOLD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GOLD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.GOLD_TRAPDOOR);
         //redstone
-        blockStateModelGenerator.registerDoor(ModBlocks.REDSTONE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.REDSTONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.REDSTONE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.REDSTONE_TRAPDOOR);
         //emerald
-        blockStateModelGenerator.registerDoor(ModBlocks.EMERALD_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.EMERALD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.EMERALD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.EMERALD_TRAPDOOR);
         //lapis
-        blockStateModelGenerator.registerDoor(ModBlocks.LAPIS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LAPIS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LAPIS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LAPIS_TRAPDOOR);
         //diamond
-        blockStateModelGenerator.registerDoor(ModBlocks.DIAMOND_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DIAMOND_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DIAMOND_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.DIAMOND_TRAPDOOR);
         //netherite
-        blockStateModelGenerator.registerDoor(ModBlocks.NETHERITE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.NETHERITE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.NETHERITE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.NETHERITE_TRAPDOOR);
         //quartz
-        blockStateModelGenerator.registerDoor(ModBlocks.QUARTZ_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.QUARTZ_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.QUARTZ_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.QUARTZ_TRAPDOOR);
         //quartz brick
-        blockStateModelGenerator.registerDoor(ModBlocks.QUARTZ_BRICK_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.QUARTZ_BRICK_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.QUARTZ_BRICK_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.QUARTZ_BRICK_TRAPDOOR);
         //smooth quartz
-        blockStateModelGenerator.registerDoor(ModBlocks.SMOOTH_QUARTZ_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.SMOOTH_QUARTZ_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.SMOOTH_QUARTZ_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.SMOOTH_QUARTZ_TRAPDOOR);
         //amethyst
-        blockStateModelGenerator.registerDoor(ModBlocks.AMETHYST_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.AMETHYST_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.AMETHYST_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.AMETHYST_TRAPDOOR);
         //copper
-        blockStateModelGenerator.registerDoor(ModBlocks.COPPER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.COPPER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.COPPER_TRAPDOOR);
         //exposed_copper
-        blockStateModelGenerator.registerDoor(ModBlocks.EXPOSED_COPPER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.EXPOSED_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.EXPOSED_COPPER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.EXPOSED_COPPER_TRAPDOOR);
         //weathered_copper
-        blockStateModelGenerator.registerDoor(ModBlocks.WEATHERED_COPPER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WEATHERED_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WEATHERED_COPPER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.WEATHERED_COPPER_TRAPDOOR);
         //oxidized_copper
-        blockStateModelGenerator.registerDoor(ModBlocks.OXIDIZED_COPPER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.OXIDIZED_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.OXIDIZED_COPPER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.OXIDIZED_COPPER_TRAPDOOR);
         //cut copper
-        blockStateModelGenerator.registerDoor(ModBlocks.CUT_COPPER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CUT_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CUT_COPPER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.CUT_COPPER_TRAPDOOR);
         //cut exposed_copper
-        blockStateModelGenerator.registerDoor(ModBlocks.EXPOSED_CUT_COPPER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.EXPOSED_CUT_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.EXPOSED_CUT_COPPER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.EXPOSED_CUT_COPPER_TRAPDOOR);
         //cut weathered_copper
-        blockStateModelGenerator.registerDoor(ModBlocks.WEATHERED_CUT_COPPER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WEATHERED_CUT_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WEATHERED_CUT_COPPER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.WEATHERED_CUT_COPPER_TRAPDOOR);
         //cut oxidized_copper
-        blockStateModelGenerator.registerDoor(ModBlocks.OXIDIZED_CUT_COPPER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.OXIDIZED_CUT_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.OXIDIZED_CUT_COPPER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.OXIDIZED_CUT_COPPER_TRAPDOOR);
         //waxed copper
-        blockStateModelGenerator.registerDoor(ModBlocks.WAXED_COPPER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WAXED_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WAXED_COPPER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_COPPER_TRAPDOOR);
         //waxed exposed_copper
-        blockStateModelGenerator.registerDoor(ModBlocks.WAXED_EXPOSED_COPPER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WAXED_EXPOSED_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WAXED_EXPOSED_COPPER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_EXPOSED_COPPER_TRAPDOOR);
         //waxed weathered_copper
-        blockStateModelGenerator.registerDoor(ModBlocks.WAXED_WEATHERED_COPPER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WAXED_WEATHERED_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WAXED_WEATHERED_COPPER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_WEATHERED_COPPER_TRAPDOOR);
         //waxed oxidized_copper
-        blockStateModelGenerator.registerDoor(ModBlocks.WAXED_OXIDIZED_COPPER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WAXED_OXIDIZED_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WAXED_OXIDIZED_COPPER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_OXIDIZED_COPPER_TRAPDOOR);
         //waxed cut copper
-        blockStateModelGenerator.registerDoor(ModBlocks.WAXED_CUT_COPPER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WAXED_CUT_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WAXED_CUT_COPPER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_CUT_COPPER_TRAPDOOR);
         //waxed cut exposed_copper
-        blockStateModelGenerator.registerDoor(ModBlocks.WAXED_EXPOSED_CUT_COPPER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WAXED_EXPOSED_CUT_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WAXED_EXPOSED_CUT_COPPER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_EXPOSED_CUT_COPPER_TRAPDOOR);
         //waxed cut weathered_copper
-        blockStateModelGenerator.registerDoor(ModBlocks.WAXED_WEATHERED_CUT_COPPER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WAXED_WEATHERED_CUT_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WAXED_WEATHERED_CUT_COPPER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_WEATHERED_CUT_COPPER_TRAPDOOR);
         //waxed cut oxidized_copper
-        blockStateModelGenerator.registerDoor(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_TRAPDOOR);
         //white wool
-        blockStateModelGenerator.registerDoor(ModBlocks.WHITE_WOOL_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WHITE_WOOL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WHITE_WOOL_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.WHITE_WOOL_TRAPDOOR);
         //light_gray_wool
-        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_GRAY_WOOL_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_GRAY_WOOL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIGHT_GRAY_WOOL_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIGHT_GRAY_WOOL_TRAPDOOR);
         //gray_wool
-        blockStateModelGenerator.registerDoor(ModBlocks.GRAY_WOOL_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GRAY_WOOL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GRAY_WOOL_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.GRAY_WOOL_TRAPDOOR);
         //black_wool
-        blockStateModelGenerator.registerDoor(ModBlocks.BLACK_WOOL_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLACK_WOOL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BLACK_WOOL_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BLACK_WOOL_TRAPDOOR);
         //brown_wool
-        blockStateModelGenerator.registerDoor(ModBlocks.BROWN_WOOL_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BROWN_WOOL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BROWN_WOOL_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BROWN_WOOL_TRAPDOOR);
         //red_wool
-        blockStateModelGenerator.registerDoor(ModBlocks.RED_WOOL_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.RED_WOOL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.RED_WOOL_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.RED_WOOL_TRAPDOOR);
         //orange_wool
-        blockStateModelGenerator.registerDoor(ModBlocks.ORANGE_WOOL_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.ORANGE_WOOL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.ORANGE_WOOL_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.ORANGE_WOOL_TRAPDOOR);
         //yellow_wool
-        blockStateModelGenerator.registerDoor(ModBlocks.YELLOW_WOOL_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.YELLOW_WOOL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.YELLOW_WOOL_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.YELLOW_WOOL_TRAPDOOR);
         //lime_wool
-        blockStateModelGenerator.registerDoor(ModBlocks.LIME_WOOL_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIME_WOOL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIME_WOOL_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIME_WOOL_TRAPDOOR);
         //green_wool
-        blockStateModelGenerator.registerDoor(ModBlocks.GREEN_WOOL_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GREEN_WOOL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GREEN_WOOL_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.GREEN_WOOL_TRAPDOOR);
         //cyan_wool
-        blockStateModelGenerator.registerDoor(ModBlocks.CYAN_WOOL_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CYAN_WOOL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CYAN_WOOL_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.CYAN_WOOL_TRAPDOOR);
         //blue_wool
-        blockStateModelGenerator.registerDoor(ModBlocks.BLUE_WOOL_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLUE_WOOL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BLUE_WOOL_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BLUE_WOOL_TRAPDOOR);
         //light_blue_wool
-        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_BLUE_WOOL_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_BLUE_WOOL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIGHT_BLUE_WOOL_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIGHT_BLUE_WOOL_TRAPDOOR);
         //purple_wool
-        blockStateModelGenerator.registerDoor(ModBlocks.PURPLE_WOOL_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PURPLE_WOOL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PURPLE_WOOL_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.PURPLE_WOOL_TRAPDOOR);
         //magenta_wool
-        blockStateModelGenerator.registerDoor(ModBlocks.MAGENTA_WOOL_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.MAGENTA_WOOL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.MAGENTA_WOOL_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.MAGENTA_WOOL_TRAPDOOR);
         //pink_wool
-        blockStateModelGenerator.registerDoor(ModBlocks.PINK_WOOL_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PINK_WOOL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PINK_WOOL_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.PINK_WOOL_TRAPDOOR);
         //terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.TERRACOTTA_TRAPDOOR);
         //white terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.WHITE_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WHITE_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WHITE_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.WHITE_TERRACOTTA_TRAPDOOR);
         //light_gray_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_GRAY_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_GRAY_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIGHT_GRAY_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIGHT_GRAY_TERRACOTTA_TRAPDOOR);
         //gray_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.GRAY_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GRAY_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GRAY_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.GRAY_TERRACOTTA_TRAPDOOR);
         //black_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.BLACK_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLACK_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BLACK_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BLACK_TERRACOTTA_TRAPDOOR);
         //brown_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.BROWN_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BROWN_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BROWN_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BROWN_TERRACOTTA_TRAPDOOR);
         //red_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.RED_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.RED_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.RED_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.RED_TERRACOTTA_TRAPDOOR);
         //orange_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.ORANGE_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.ORANGE_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.ORANGE_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.ORANGE_TERRACOTTA_TRAPDOOR);
         //yellow_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.YELLOW_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.YELLOW_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.YELLOW_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.YELLOW_TERRACOTTA_TRAPDOOR);
         //lime_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.LIME_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIME_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIME_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIME_TERRACOTTA_TRAPDOOR);
         //green_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.GREEN_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GREEN_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GREEN_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.GREEN_TERRACOTTA_TRAPDOOR);
         //cyan_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.CYAN_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CYAN_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CYAN_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.CYAN_TERRACOTTA_TRAPDOOR);
         //blue_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.BLUE_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLUE_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BLUE_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BLUE_TERRACOTTA_TRAPDOOR);
         //light_blue_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_BLUE_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_BLUE_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIGHT_BLUE_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIGHT_BLUE_TERRACOTTA_TRAPDOOR);
         //purple_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.PURPLE_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PURPLE_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PURPLE_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.PURPLE_TERRACOTTA_TRAPDOOR);
         //magenta_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.MAGENTA_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.MAGENTA_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.MAGENTA_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.MAGENTA_TERRACOTTA_TRAPDOOR);
         //pink_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.PINK_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PINK_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PINK_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.PINK_TERRACOTTA_TRAPDOOR);
         //white concrete
-        blockStateModelGenerator.registerDoor(ModBlocks.WHITE_CONCRETE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WHITE_CONCRETE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WHITE_CONCRETE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.WHITE_CONCRETE_TRAPDOOR);
         //light_gray_concrete
-        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_GRAY_CONCRETE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_GRAY_CONCRETE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIGHT_GRAY_CONCRETE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIGHT_GRAY_CONCRETE_TRAPDOOR);
         //gray_concrete
-        blockStateModelGenerator.registerDoor(ModBlocks.GRAY_CONCRETE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GRAY_CONCRETE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GRAY_CONCRETE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.GRAY_CONCRETE_TRAPDOOR);
         //black_concrete
-        blockStateModelGenerator.registerDoor(ModBlocks.BLACK_CONCRETE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLACK_CONCRETE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BLACK_CONCRETE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BLACK_CONCRETE_TRAPDOOR);
         //brown_concrete
-        blockStateModelGenerator.registerDoor(ModBlocks.BROWN_CONCRETE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BROWN_CONCRETE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BROWN_CONCRETE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BROWN_CONCRETE_TRAPDOOR);
         //red_concrete
-        blockStateModelGenerator.registerDoor(ModBlocks.RED_CONCRETE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.RED_CONCRETE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.RED_CONCRETE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.RED_CONCRETE_TRAPDOOR);
         //orange_concrete
-        blockStateModelGenerator.registerDoor(ModBlocks.ORANGE_CONCRETE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.ORANGE_CONCRETE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.ORANGE_CONCRETE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.ORANGE_CONCRETE_TRAPDOOR);
         //yellow_concrete
-        blockStateModelGenerator.registerDoor(ModBlocks.YELLOW_CONCRETE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.YELLOW_CONCRETE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.YELLOW_CONCRETE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.YELLOW_CONCRETE_TRAPDOOR);
         //lime_concrete
-        blockStateModelGenerator.registerDoor(ModBlocks.LIME_CONCRETE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIME_CONCRETE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIME_CONCRETE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIME_CONCRETE_TRAPDOOR);
         //green_concrete
-        blockStateModelGenerator.registerDoor(ModBlocks.GREEN_CONCRETE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GREEN_CONCRETE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GREEN_CONCRETE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.GREEN_CONCRETE_TRAPDOOR);
         //cyan_concrete
-        blockStateModelGenerator.registerDoor(ModBlocks.CYAN_CONCRETE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CYAN_CONCRETE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CYAN_CONCRETE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.CYAN_CONCRETE_TRAPDOOR);
         //blue_concrete
-        blockStateModelGenerator.registerDoor(ModBlocks.BLUE_CONCRETE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLUE_CONCRETE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BLUE_CONCRETE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BLUE_CONCRETE_TRAPDOOR);
         //light_blue_concrete
-        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_BLUE_CONCRETE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_BLUE_CONCRETE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIGHT_BLUE_CONCRETE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIGHT_BLUE_CONCRETE_TRAPDOOR);
         //purple_concrete
-        blockStateModelGenerator.registerDoor(ModBlocks.PURPLE_CONCRETE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PURPLE_CONCRETE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PURPLE_CONCRETE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.PURPLE_CONCRETE_TRAPDOOR);
         //magenta_concrete
-        blockStateModelGenerator.registerDoor(ModBlocks.MAGENTA_CONCRETE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.MAGENTA_CONCRETE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.MAGENTA_CONCRETE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.MAGENTA_CONCRETE_TRAPDOOR);
         //pink_concrete
-        blockStateModelGenerator.registerDoor(ModBlocks.PINK_CONCRETE_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PINK_CONCRETE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PINK_CONCRETE_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.PINK_CONCRETE_TRAPDOOR);
         //white_concrete_powder
-        blockStateModelGenerator.registerDoor(ModBlocks.WHITE_CONCRETE_POWDER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WHITE_CONCRETE_POWDER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WHITE_CONCRETE_POWDER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.WHITE_CONCRETE_POWDER_TRAPDOOR);
         //light_gray_concrete_powder
-        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_GRAY_CONCRETE_POWDER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_GRAY_CONCRETE_POWDER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIGHT_GRAY_CONCRETE_POWDER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIGHT_GRAY_CONCRETE_POWDER_TRAPDOOR);
         //gray_concrete_powder
-        blockStateModelGenerator.registerDoor(ModBlocks.GRAY_CONCRETE_POWDER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GRAY_CONCRETE_POWDER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GRAY_CONCRETE_POWDER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.GRAY_CONCRETE_POWDER_TRAPDOOR);
         //black_concrete_powder
-        blockStateModelGenerator.registerDoor(ModBlocks.BLACK_CONCRETE_POWDER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLACK_CONCRETE_POWDER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BLACK_CONCRETE_POWDER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BLACK_CONCRETE_POWDER_TRAPDOOR);
         //brown_concrete_powder
-        blockStateModelGenerator.registerDoor(ModBlocks.BROWN_CONCRETE_POWDER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BROWN_CONCRETE_POWDER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BROWN_CONCRETE_POWDER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BROWN_CONCRETE_POWDER_TRAPDOOR);
         //red_concrete_powder
-        blockStateModelGenerator.registerDoor(ModBlocks.RED_CONCRETE_POWDER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.RED_CONCRETE_POWDER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.RED_CONCRETE_POWDER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.RED_CONCRETE_POWDER_TRAPDOOR);
         //orange_concrete_powder
-        blockStateModelGenerator.registerDoor(ModBlocks.ORANGE_CONCRETE_POWDER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.ORANGE_CONCRETE_POWDER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.ORANGE_CONCRETE_POWDER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.ORANGE_CONCRETE_POWDER_TRAPDOOR);
         //yellow_concrete_powder
-        blockStateModelGenerator.registerDoor(ModBlocks.YELLOW_CONCRETE_POWDER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.YELLOW_CONCRETE_POWDER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.YELLOW_CONCRETE_POWDER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.YELLOW_CONCRETE_POWDER_TRAPDOOR);
         //lime_concrete_powder
-        blockStateModelGenerator.registerDoor(ModBlocks.LIME_CONCRETE_POWDER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIME_CONCRETE_POWDER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIME_CONCRETE_POWDER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIME_CONCRETE_POWDER_TRAPDOOR);
         //green_concrete_powder
-        blockStateModelGenerator.registerDoor(ModBlocks.GREEN_CONCRETE_POWDER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GREEN_CONCRETE_POWDER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GREEN_CONCRETE_POWDER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.GREEN_CONCRETE_POWDER_TRAPDOOR);
         //cyan_concrete_powder
-        blockStateModelGenerator.registerDoor(ModBlocks.CYAN_CONCRETE_POWDER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CYAN_CONCRETE_POWDER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CYAN_CONCRETE_POWDER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.CYAN_CONCRETE_POWDER_TRAPDOOR);
         //blue_concrete_powder
-        blockStateModelGenerator.registerDoor(ModBlocks.BLUE_CONCRETE_POWDER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLUE_CONCRETE_POWDER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BLUE_CONCRETE_POWDER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BLUE_CONCRETE_POWDER_TRAPDOOR);
         //light_blue_concrete_powder
-        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_BLUE_CONCRETE_POWDER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_BLUE_CONCRETE_POWDER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIGHT_BLUE_CONCRETE_POWDER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIGHT_BLUE_CONCRETE_POWDER_TRAPDOOR);
         //purple_concrete_powder
-        blockStateModelGenerator.registerDoor(ModBlocks.PURPLE_CONCRETE_POWDER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PURPLE_CONCRETE_POWDER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PURPLE_CONCRETE_POWDER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.PURPLE_CONCRETE_POWDER_TRAPDOOR);
         //magenta_concrete_powder
-        blockStateModelGenerator.registerDoor(ModBlocks.MAGENTA_CONCRETE_POWDER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.MAGENTA_CONCRETE_POWDER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.MAGENTA_CONCRETE_POWDER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.MAGENTA_CONCRETE_POWDER_TRAPDOOR);
         //pink_concrete_powder
-        blockStateModelGenerator.registerDoor(ModBlocks.PINK_CONCRETE_POWDER_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PINK_CONCRETE_POWDER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PINK_CONCRETE_POWDER_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.PINK_CONCRETE_POWDER_TRAPDOOR);
         //white glazed_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.WHITE_GLAZED_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WHITE_GLAZED_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WHITE_GLAZED_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.WHITE_GLAZED_TERRACOTTA_TRAPDOOR);
         //light_gray_glazed_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_TRAPDOOR);
         //gray_glazed_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.GRAY_GLAZED_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GRAY_GLAZED_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GRAY_GLAZED_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.GRAY_GLAZED_TERRACOTTA_TRAPDOOR);
         //black_glazed_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.BLACK_GLAZED_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLACK_GLAZED_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BLACK_GLAZED_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BLACK_GLAZED_TERRACOTTA_TRAPDOOR);
         //brown_glazed_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.BROWN_GLAZED_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BROWN_GLAZED_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BROWN_GLAZED_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BROWN_GLAZED_TERRACOTTA_TRAPDOOR);
         //red_glazed_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.RED_GLAZED_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.RED_GLAZED_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.RED_GLAZED_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.RED_GLAZED_TERRACOTTA_TRAPDOOR);
         //orange_glazed_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.ORANGE_GLAZED_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.ORANGE_GLAZED_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.ORANGE_GLAZED_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.ORANGE_GLAZED_TERRACOTTA_TRAPDOOR);
         //yellow_glazed_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.YELLOW_GLAZED_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.YELLOW_GLAZED_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.YELLOW_GLAZED_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.YELLOW_GLAZED_TERRACOTTA_TRAPDOOR);
         //lime_glazed_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.LIME_GLAZED_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIME_GLAZED_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIME_GLAZED_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIME_GLAZED_TERRACOTTA_TRAPDOOR);
         //green_glazed_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.GREEN_GLAZED_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GREEN_GLAZED_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GREEN_GLAZED_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.GREEN_GLAZED_TERRACOTTA_TRAPDOOR);
         //cyan_glazed_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.CYAN_GLAZED_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CYAN_GLAZED_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CYAN_GLAZED_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.CYAN_GLAZED_TERRACOTTA_TRAPDOOR);
         //blue_glazed_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.BLUE_GLAZED_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLUE_GLAZED_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BLUE_GLAZED_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BLUE_GLAZED_TERRACOTTA_TRAPDOOR);
         //light_blue_glazed_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_TRAPDOOR);
         //purple_glazed_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.PURPLE_GLAZED_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PURPLE_GLAZED_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PURPLE_GLAZED_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.PURPLE_GLAZED_TERRACOTTA_TRAPDOOR);
         //magenta_glazed_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_TRAPDOOR);
         //pink_glazed_terracotta
-        blockStateModelGenerator.registerDoor(ModBlocks.PINK_GLAZED_TERRACOTTA_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PINK_GLAZED_TERRACOTTA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PINK_GLAZED_TERRACOTTA_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.PINK_GLAZED_TERRACOTTA_TRAPDOOR);
         //white_stained_glass
-        blockStateModelGenerator.registerDoor(ModBlocks.WHITE_STAINED_GLASS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.WHITE_STAINED_GLASS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WHITE_STAINED_GLASS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.WHITE_STAINED_GLASS_TRAPDOOR);
         //light_gray_stained_glass
-        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_GRAY_STAINED_GLASS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_GRAY_STAINED_GLASS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIGHT_GRAY_STAINED_GLASS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIGHT_GRAY_STAINED_GLASS_TRAPDOOR);
         //gray_stained_glass
-        blockStateModelGenerator.registerDoor(ModBlocks.GRAY_STAINED_GLASS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GRAY_STAINED_GLASS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GRAY_STAINED_GLASS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.GRAY_STAINED_GLASS_TRAPDOOR);
         //black_stained_glass
-        blockStateModelGenerator.registerDoor(ModBlocks.BLACK_STAINED_GLASS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLACK_STAINED_GLASS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BLACK_STAINED_GLASS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BLACK_STAINED_GLASS_TRAPDOOR);
         //brown_stained_glass
-        blockStateModelGenerator.registerDoor(ModBlocks.BROWN_STAINED_GLASS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BROWN_STAINED_GLASS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BROWN_STAINED_GLASS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BROWN_STAINED_GLASS_TRAPDOOR);
         //red_stained_glass
-        blockStateModelGenerator.registerDoor(ModBlocks.RED_STAINED_GLASS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.RED_STAINED_GLASS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.RED_STAINED_GLASS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.RED_STAINED_GLASS_TRAPDOOR);
         //orange_stained_glass
-        blockStateModelGenerator.registerDoor(ModBlocks.ORANGE_STAINED_GLASS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.ORANGE_STAINED_GLASS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.ORANGE_STAINED_GLASS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.ORANGE_STAINED_GLASS_TRAPDOOR);
         //yellow_stained_glass
-        blockStateModelGenerator.registerDoor(ModBlocks.YELLOW_STAINED_GLASS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.YELLOW_STAINED_GLASS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.YELLOW_STAINED_GLASS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.YELLOW_STAINED_GLASS_TRAPDOOR);
         //lime_stained_glass
-        blockStateModelGenerator.registerDoor(ModBlocks.LIME_STAINED_GLASS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIME_STAINED_GLASS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIME_STAINED_GLASS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIME_STAINED_GLASS_TRAPDOOR);
         //green_stained_glass
-        blockStateModelGenerator.registerDoor(ModBlocks.GREEN_STAINED_GLASS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.GREEN_STAINED_GLASS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GREEN_STAINED_GLASS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.GREEN_STAINED_GLASS_TRAPDOOR);
         //cyan_stained_glass
-        blockStateModelGenerator.registerDoor(ModBlocks.CYAN_STAINED_GLASS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CYAN_STAINED_GLASS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CYAN_STAINED_GLASS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.CYAN_STAINED_GLASS_TRAPDOOR);
         //blue_stained_glass
-        blockStateModelGenerator.registerDoor(ModBlocks.BLUE_STAINED_GLASS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.BLUE_STAINED_GLASS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BLUE_STAINED_GLASS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.BLUE_STAINED_GLASS_TRAPDOOR);
         //light_blue_stained_glass
-        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_BLUE_STAINED_GLASS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_BLUE_STAINED_GLASS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LIGHT_BLUE_STAINED_GLASS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.LIGHT_BLUE_STAINED_GLASS_TRAPDOOR);
         //purple_stained_glass
-        blockStateModelGenerator.registerDoor(ModBlocks.PURPLE_STAINED_GLASS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PURPLE_STAINED_GLASS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PURPLE_STAINED_GLASS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.PURPLE_STAINED_GLASS_TRAPDOOR);
         //magenta_stained_glass
-        blockStateModelGenerator.registerDoor(ModBlocks.MAGENTA_STAINED_GLASS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.MAGENTA_STAINED_GLASS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.MAGENTA_STAINED_GLASS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.MAGENTA_STAINED_GLASS_TRAPDOOR);
         //pink_stained_glass
-        blockStateModelGenerator.registerDoor(ModBlocks.PINK_STAINED_GLASS_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PINK_STAINED_GLASS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PINK_STAINED_GLASS_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.PINK_STAINED_GLASS_TRAPDOOR);
+
         //GRASS BLOCKS MADE MANUALLY
+
         //podzol
-        blockStateModelGenerator.registerDoor(ModBlocks.PODZOL_DOOR);
+        bsmg.registerDoor(ModBlocks.PODZOL_DOOR);
         //dirt
-        blockStateModelGenerator.registerDoor(ModBlocks.DIRT_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DIRT_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DIRT_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.DIRT_TRAPDOOR);
+        //mycelium
+        bsmg.registerDoor(ModBlocks.MYCELIUM_DOOR);
+        //dirt_path
+        bsmg.registerDoor(ModBlocks.DIRT_PATH_DOOR);
 
 
 

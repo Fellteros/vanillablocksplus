@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:mycelium"
+    }
+  },
+  "pattern": [
+    " # "
+  ],
+  "result": {
+    "item": "vanillablocksplus:mycelium_button"
+  },
+  "show_notification": true
+}

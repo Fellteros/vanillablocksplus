@@ -1843,6 +1843,26 @@
   "block.vanillablocksplus.dirt_pressure_plate": "Dirt Pressure Plate",
   "block.vanillablocksplus.dirt_button": "Dirt Button",
   "block.vanillablocksplus.dirt_wall": "Dirt Wall",
+
+  "block.vanillablocksplus.mycelium_stairs": "Mycelium Stairs",
+  "block.vanillablocksplus.mycelium_slab": "Mycelium Slab",
+  "block.vanillablocksplus.mycelium_door": "Mycelium Door",
+  "block.vanillablocksplus.mycelium_trapdoor": "Mycelium Trapdoor",
+  "block.vanillablocksplus.mycelium_fence": "Mycelium Fence",
+  "block.vanillablocksplus.mycelium_fence_gate": "Mycelium Fence Gate",
+  "block.vanillablocksplus.mycelium_pressure_plate": "Mycelium Pressure Plate",
+  "block.vanillablocksplus.mycelium_button": "Mycelium Button",
+  "block.vanillablocksplus.mycelium_wall": "Mycelium Wall",
+
+  "block.vanillablocksplus.dirt_path_stairs": "Dirt Path Stairs",
+  "block.vanillablocksplus.dirt_path_slab": "Dirt Path Slab",
+  "block.vanillablocksplus.dirt_path_door": "Dirt Path Door",
+  "block.vanillablocksplus.dirt_path_trapdoor": "Dirt Path Trapdoor",
+  "block.vanillablocksplus.dirt_path_fence": "Dirt Path Fence",
+  "block.vanillablocksplus.dirt_path_fence_gate": "Dirt Path Fence Gate",
+  "block.vanillablocksplus.dirt_path_pressure_plate": "Dirt Path Pressure Plate",
+  "block.vanillablocksplus.dirt_path_button": "Dirt Path Button",
+  "block.vanillablocksplus.dirt_path_wall": "Dirt Path Wall",
   
 
   

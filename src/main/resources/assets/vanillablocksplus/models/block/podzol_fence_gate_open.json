@@ -1,8 +1,0 @@
-{
-  "parent": "vanillablocksplus:blockmodels/fence_gate_stb_open",
-  "textures": {
-    "top": "minecraft:block/podzol_top",
-    "side": "minecraft:block/podzol_side",
-    "bottom": "minecraft:block/dirt"
-  }
-}

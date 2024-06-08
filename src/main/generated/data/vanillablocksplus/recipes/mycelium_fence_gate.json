@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:mycelium_slab"
+    },
+    "W": {
+      "item": "minecraft:mycelium"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "vanillablocksplus:mycelium_fence_gate"
+  },
+  "show_notification": true
+}

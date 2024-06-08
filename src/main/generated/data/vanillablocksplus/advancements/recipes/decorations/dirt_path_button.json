@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dirt_path": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dirt_path"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dirt_path_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:dirt_path_button"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:dirt_path_button"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_dirt_path_button",
+      "has_dirt_path",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:dirt_path_button"
+    ]
+  },
+  "sends_telemetry_event": false
+}

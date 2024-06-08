@@ -180,6 +180,24 @@
     "vanillablocksplus:dirt_fence_gate",
     "vanillablocksplus:dirt_fence",
     "vanillablocksplus:dirt_button",
-    "vanillablocksplus:dirt_pressure_plate"
+    "vanillablocksplus:dirt_pressure_plate",
+    "vanillablocksplus:mycelium_stairs",
+    "vanillablocksplus:mycelium_slab",
+    "vanillablocksplus:mycelium_wall",
+    "vanillablocksplus:mycelium_door",
+    "vanillablocksplus:mycelium_trapdoor",
+    "vanillablocksplus:mycelium_fence_gate",
+    "vanillablocksplus:mycelium_fence",
+    "vanillablocksplus:mycelium_button",
+    "vanillablocksplus:mycelium_pressure_plate",
+    "vanillablocksplus:dirt_path_stairs",
+    "vanillablocksplus:dirt_path_slab",
+    "vanillablocksplus:dirt_path_wall",
+    "vanillablocksplus:dirt_path_door",
+    "vanillablocksplus:dirt_path_trapdoor",
+    "vanillablocksplus:dirt_path_fence_gate",
+    "vanillablocksplus:dirt_path_fence",
+    "vanillablocksplus:dirt_path_button",
+    "vanillablocksplus:dirt_path_pressure_plate"
   ]
 }

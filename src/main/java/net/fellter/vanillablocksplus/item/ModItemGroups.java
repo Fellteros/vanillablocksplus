@@ -1851,6 +1851,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PODZOL_TRAPDOOR);
                         entries.add(ModBlocks.PODZOL_PRESSURE_PLATE);
                         entries.add(ModBlocks.PODZOL_BUTTON);
+                        //mycelium
+                        entries.add(ModBlocks.MYCELIUM_STAIRS);
+                        entries.add(ModBlocks.MYCELIUM_SLAB);
+                        entries.add(ModBlocks.MYCELIUM_WALL);
+                        entries.add(ModBlocks.MYCELIUM_FENCE);
+                        entries.add(ModBlocks.MYCELIUM_FENCE_GATE);
+                        entries.add(ModBlocks.MYCELIUM_DOOR);
+                        entries.add(ModBlocks.MYCELIUM_TRAPDOOR);
+                        entries.add(ModBlocks.MYCELIUM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.MYCELIUM_BUTTON);
+                        //dirt_path
+                        entries.add(ModBlocks.DIRT_PATH_STAIRS);
+                        entries.add(ModBlocks.DIRT_PATH_SLAB);
+                        entries.add(ModBlocks.DIRT_PATH_WALL);
+                        entries.add(ModBlocks.DIRT_PATH_FENCE);
+                        entries.add(ModBlocks.DIRT_PATH_FENCE_GATE);
+                        entries.add(ModBlocks.DIRT_PATH_DOOR);
+                        entries.add(ModBlocks.DIRT_PATH_TRAPDOOR);
+                        entries.add(ModBlocks.DIRT_PATH_PRESSURE_PLATE);
+                        entries.add(ModBlocks.DIRT_PATH_BUTTON);
                         //dirt
                         entries.add(ModBlocks.DIRT_STAIRS);
                         entries.add(ModBlocks.DIRT_SLAB);

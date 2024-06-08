@@ -5276,6 +5276,48 @@ public class ModBlocks {
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.DIRT), BlockSetType.STONE));
     public static final Block DIRT_WALL = registerBlock("dirt_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.DIRT)));
+    
+    //mycelium_block
+    public static final Block MYCELIUM_STAIRS = registerBlock("mycelium_stairs",
+            new StairsBlock(Blocks.MYCELIUM.getDefaultState(), FabricBlockSettings.copyOf(Blocks.MYCELIUM)));
+    public static final Block MYCELIUM_SLAB = registerBlock("mycelium_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.MYCELIUM)));
+    public static final Block MYCELIUM_BUTTON = registerBlock("mycelium_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.MYCELIUM), BlockSetType.STONE, 10, false));
+    public static final Block MYCELIUM_PRESSURE_PLATE = registerBlock("mycelium_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.MYCELIUM), BlockSetType.STONE));
+    public static final Block MYCELIUM_FENCE = registerBlock("mycelium_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.MYCELIUM)));
+    public static final Block MYCELIUM_FENCE_GATE = registerBlock("mycelium_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.MYCELIUM), WoodType.OAK));
+    public static final Block MYCELIUM_DOOR = registerBlock("mycelium_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.MYCELIUM), BlockSetType.STONE));
+    public static final Block MYCELIUM_TRAPDOOR = registerBlock("mycelium_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.MYCELIUM), BlockSetType.STONE));
+    public static final Block MYCELIUM_WALL = registerBlock("mycelium_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.MYCELIUM)));
+    
+    //dirt_path_block
+    public static final Block DIRT_PATH_STAIRS = registerBlock("dirt_path_stairs",
+            new StairsBlock(Blocks.DIRT_PATH.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DIRT_PATH)));
+    public static final Block DIRT_PATH_SLAB = registerBlock("dirt_path_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DIRT_PATH)));
+    public static final Block DIRT_PATH_BUTTON = registerBlock("dirt_path_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.DIRT_PATH), BlockSetType.STONE, 10, false));
+    public static final Block DIRT_PATH_PRESSURE_PLATE = registerBlock("dirt_path_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.DIRT_PATH), BlockSetType.STONE));
+    public static final Block DIRT_PATH_FENCE = registerBlock("dirt_path_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.DIRT_PATH)));
+    public static final Block DIRT_PATH_FENCE_GATE = registerBlock("dirt_path_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.DIRT_PATH), WoodType.OAK));
+    public static final Block DIRT_PATH_DOOR = registerBlock("dirt_path_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.DIRT_PATH), BlockSetType.STONE));
+    public static final Block DIRT_PATH_TRAPDOOR = registerBlock("dirt_path_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.DIRT_PATH), BlockSetType.STONE));
+    public static final Block DIRT_PATH_WALL = registerBlock("dirt_path_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.DIRT_PATH)));
 
 
 

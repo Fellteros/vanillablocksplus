@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mycelium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mycelium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mycelium_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:mycelium_fence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mycelium_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:mycelium_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:mycelium_fence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mycelium_fence",
+      "has_mycelium",
+      "has_mycelium_slab",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:mycelium_fence"
+    ]
+  },
+  "sends_telemetry_event": false
+}
