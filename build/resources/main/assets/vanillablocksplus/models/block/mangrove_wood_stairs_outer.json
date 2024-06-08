@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "vanillablocksplus:block/mangrove_wood_mod",
-    "side": "vanillablocksplus:block/mangrove_wood_mod",
-    "top": "vanillablocksplus:block/mangrove_wood_mod"
-  }
-}

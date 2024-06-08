@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_bottom_left",
-  "textures": {
-    "bottom": "vanillablocksplus:block/mossy_cobblestone_door_bottom",
-    "top": "vanillablocksplus:block/mossy_cobblestone_door_top"
-  }
-}

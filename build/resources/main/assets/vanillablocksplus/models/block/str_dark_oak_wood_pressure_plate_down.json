@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/pressure_plate_down",
-  "textures": {
-    "texture": "vanillablocksplus:block/str_dark_oak_wood_mod"
-  }
-}

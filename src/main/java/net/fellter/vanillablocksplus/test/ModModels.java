@@ -10,9 +10,31 @@ public class ModModels {
     public static final Model BUTTON_STB = ModModels.block("button_stb", TextureKey.SIDE, TextureKey.BOTTOM, TextureKey.TOP);
     public static final Model BUTTON_STB_INVENTORY = ModModels.block("button_stb_inventory", "_inventory", TextureKey.SIDE, TextureKey.BOTTOM, TextureKey.TOP);
     public static final Model BUTTON_STB_PRESSED = ModModels.block("button_stb_pressed", "_pressed", TextureKey.SIDE, TextureKey.BOTTOM, TextureKey.TOP);
+    public static final Model FENCE_GATE_STB = ModModels.block("fence_gate_stb", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model FENCE_GATE_STB_OPEN = ModModels.block("fence_gate_stb_open", "_open", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model FENCE_GATE_STB_WALL = ModModels.block("fence_gate_stb_wall", "_wall", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model FENCE_GATE_STB_WALL_OPEN = ModModels.block("fence_gate_stb_wall_open", "_wall_open", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
     public static final Model FENCE_STB_POST = ModModels.block("fence_stb_post", "_post", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
     public static final Model FENCE_STB_SIDE = ModModels.block("fence_stb_side", "_side", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
     public static final Model FENCE_STB_INVENTORY = ModModels.block("fence_stb_inventory", "_inventory", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model PRESSURE_PLATE_STB = ModModels.block("pressure_plate_stb", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model PRESSURE_PLATE_STB_DOWN = ModModels.block("pressure_plate_stb_down", "_down", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model SLAB_STB = ModModels.block("slab_stb", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model SLAB_STB_TOP = ModModels.block("slab_stb_top", "_top", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model STAIRS_STB = ModModels.block("stairs_stb", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model STAIRS_STB_INNER = ModModels.block("stairs_stb_inner", "_inner", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model STAIRS_STB_INNER_TOP = ModModels.block("stairs_stb_inner_top", "_inner_top", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model STAIRS_STB_OUTER = ModModels.block("stairs_stb_outer", "_outer", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model STAIRS_STB_OUTER_TOP = ModModels.block("stairs_stb_outer_top", "_outer_top", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model STAIRS_STB_TOP = ModModels.block("stairs_stb_top", "_top", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model TRAPDOOR_STB_BOTTOM = ModModels.block("trapdoor_stb_bottom", "_bottom", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model TRAPDOOR_STB_OPEN = ModModels.block("trapdoor_stb_open", "_open", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model TRAPDOOR_STB_OPEN_TOP = ModModels.block("trapdoor_stb_open_top", "_open_top", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model TRAPDOOR_STB_TOP = ModModels.block("trapdoor_stb_top", "_top", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model WALL_STB_INVENTORY = ModModels.block("wall_stb_inventory", "_inventory", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model WALL_STB_POST = ModModels.block("wall_stb_post", "_post", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model WALL_STB_SIDE = ModModels.block("wall_stb_side", "_side", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model WALL_STB_SIDE_TALL = ModModels.block("wall_stb_side_tall", "_side_tall", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
 
 
 

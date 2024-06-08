@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:block/trapdoor_stb_open",
+  "textures": {
+    "top": "minecraft:block/podzol_top",
+    "side": "minecraft:block/podzol_side",
+    "bottom": "minecraft:block/dirt"
+  }
+}

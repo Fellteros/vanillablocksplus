@@ -4,6 +4,8 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.item.ModItems;
+import net.fellter.vanillablocksplus.test.ModModels;
+import net.fellter.vanillablocksplus.test.ModTextureMap;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
@@ -1834,7 +1836,7 @@ public class ModModelProvider extends FabricModelProvider {
         pinkStainedGlassPool.fenceGate(ModBlocks.PINK_STAINED_GLASS_FENCE_GATE);
         pinkStainedGlassPool.pressurePlate(ModBlocks.PINK_STAINED_GLASS_PRESSURE_PLATE);
         //GRASS BLOCKS MADE MANUALLY
-        //pink_terracotta
+        //dirt
         dirtPool.button(ModBlocks.DIRT_BUTTON);
         dirtPool.wall(ModBlocks.DIRT_WALL);
         dirtPool.slab(ModBlocks.DIRT_SLAB);
@@ -1842,6 +1844,7 @@ public class ModModelProvider extends FabricModelProvider {
         dirtPool.fence(ModBlocks.DIRT_FENCE);
         dirtPool.fenceGate(ModBlocks.DIRT_FENCE_GATE);
         dirtPool.pressurePlate(ModBlocks.DIRT_PRESSURE_PLATE);
+
 
 
         //oak

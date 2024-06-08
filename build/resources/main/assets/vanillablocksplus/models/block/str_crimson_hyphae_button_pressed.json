@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/button_pressed",
-  "textures": {
-    "texture": "vanillablocksplus:block/str_crimson_hyphae_mod"
-  }
-}
