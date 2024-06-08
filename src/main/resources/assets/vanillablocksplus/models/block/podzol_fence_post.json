@@ -1,5 +1,5 @@
 {
-  "parent": "vanillablocksplus:block/fence_stb_post",
+  "parent": "vanillablocksplus:blockmodels/fence_stb_post",
   "textures": {
     "top": "minecraft:block/podzol_top",
     "side": "minecraft:block/podzol_side",

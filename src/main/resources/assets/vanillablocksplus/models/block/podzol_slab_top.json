@@ -1,5 +1,5 @@
 {
-  "parent": "vanillablocksplus:block/slab_stb_top",
+  "parent": "vanillablocksplus:blockmodels/slab_stb_top",
   "textures": {
     "top": "minecraft:block/podzol_top",
     "side": "minecraft:block/podzol_side",

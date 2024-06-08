@@ -1,5 +1,5 @@
 {
-  "parent": "vanillablocksplus:block/trapdoor_stb_top",
+  "parent": "vanillablocksplus:blockmodels/trapdoor_stb_top",
   "textures": {
     "top": "minecraft:block/podzol_top",
     "side": "minecraft:block/podzol_side",

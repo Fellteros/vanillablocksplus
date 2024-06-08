@@ -1,5 +1,5 @@
 {
-  "parent": "vanillablocksplus:block/stairs_stb_inner_top",
+  "parent": "vanillablocksplus:blockmodels/stairs_stb_inner_top",
   "textures": {
     "top": "minecraft:block/podzol_top",
     "side": "minecraft:block/podzol_side",

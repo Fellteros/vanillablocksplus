@@ -1,5 +1,5 @@
 {
-  "parent": "vanillablocksplus:block/pressure_plate_stb_down",
+  "parent": "vanillablocksplus:blockmodels/pressure_plate_stb_down",
   "textures": {
     "top": "minecraft:block/podzol_top",
     "side": "minecraft:block/podzol_side",

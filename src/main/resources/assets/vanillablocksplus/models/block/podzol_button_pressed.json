@@ -1,5 +1,5 @@
 {
-  "parent": "vanillablocksplus:block/button_stb_pressed",
+  "parent": "vanillablocksplus:blockmodels/button_stb_pressed",
   "textures": {
     "top": "minecraft:block/podzol_top",
     "side": "minecraft:block/podzol_side",

@@ -1,5 +1,5 @@
 {
-  "parent": "vanillablocksplus:block/wall_stb_side",
+  "parent": "vanillablocksplus:blockmodels/wall_stb_side",
   "textures": {
     "top": "minecraft:block/podzol_top",
     "side": "minecraft:block/podzol_side",
