@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/clay_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/clay"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/clay_slab_top"
+    }
+  }
+}

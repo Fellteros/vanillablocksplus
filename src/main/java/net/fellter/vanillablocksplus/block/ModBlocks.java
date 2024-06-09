@@ -357,8 +357,6 @@ public class ModBlocks {
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_TRAPDOOR).burnable(), BlockSetType.CHERRY));
 
     //bamboo wood set
-    public static final Block BAMBOO_BLOCK_MOD = registerBlock("bamboo_block_mod",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(2.0f).instrument(Instrument.BASS).burnable().sounds(BlockSoundGroup.BAMBOO_WOOD).strength(2.0f).instrument(Instrument.BASS).burnable().sounds(BlockSoundGroup.BAMBOO_WOOD)));
     public static final Block BAMBOO_BLOCK_STAIRS = registerBlock("bamboo_block_stairs",
             new StairsBlock(Blocks.BAMBOO_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BAMBOO_STAIRS).strength(2.0f).instrument(Instrument.BASS).burnable().sounds(BlockSoundGroup.BAMBOO_WOOD)));
     public static final Block BAMBOO_BLOCK_SLAB = registerBlock("bamboo_block_slab",
@@ -378,8 +376,6 @@ public class ModBlocks {
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_TRAPDOOR).strength(2.0f).instrument(Instrument.BASS).burnable().sounds(BlockSoundGroup.BAMBOO_WOOD), BlockSetType.BAMBOO));
 
     //str bamboo wood set
-    public static final Block STR_BAMBOO_BLOCK_MOD = registerBlock("str_bamboo_block_mod",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(2.0f).instrument(Instrument.BASS).burnable().sounds(BlockSoundGroup.BAMBOO_WOOD)));
     public static final Block STR_BAMBOO_BLOCK_STAIRS = registerBlock("str_bamboo_block_stairs",
             new StairsBlock(Blocks.STRIPPED_BAMBOO_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BAMBOO_STAIRS).strength(2.0f).instrument(Instrument.BASS).burnable().sounds(BlockSoundGroup.BAMBOO_WOOD)));
     public static final Block STR_BAMBOO_BLOCK_SLAB = registerBlock("str_bamboo_block_slab",
@@ -1071,8 +1067,6 @@ public class ModBlocks {
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.MUD_BRICKS), BlockSetType.STONE));
 
     //sandstone set
-    public static final Block SANDSTONE_MOD = registerBlock("sandstone_mod",
-            new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
     public static final Block SANDSTONE_BUTTON = registerBlock("sandstone_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f), BlockSetType.STONE, 10, false));
@@ -1118,8 +1112,6 @@ public class ModBlocks {
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F)));
 
     //cut sandstone set
-    public static final Block CUT_SANDSTONE_MOD = registerBlock("cut_sandstone_mod",
-            new Block(FabricBlockSettings.copyOf(Blocks.CUT_SANDSTONE)));
     public static final Block CUT_SANDSTONE_STAIRS = registerBlock("cut_sandstone_stairs",
             new StairsBlock(Blocks.CUT_SANDSTONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f)));
@@ -1147,8 +1139,6 @@ public class ModBlocks {
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f)));
 
     //red sandstone set
-    public static final Block RED_SANDSTONE_MOD = registerBlock("red_sandstone_mod",
-            new Block(FabricBlockSettings.copyOf(Blocks.RED_SANDSTONE)));
     public static final Block RED_SANDSTONE_BUTTON = registerBlock("red_sandstone_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f), BlockSetType.STONE, 10, false));
@@ -1194,8 +1184,6 @@ public class ModBlocks {
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F)));
 
     //cut red sandstone set
-    public static final Block CUT_RED_SANDSTONE_MOD = registerBlock("cut_red_sandstone_mod",
-            new Block(FabricBlockSettings.copyOf(Blocks.CUT_RED_SANDSTONE)));
     public static final Block CUT_RED_SANDSTONE_STAIRS = registerBlock("cut_red_sandstone_stairs",
             new StairsBlock(Blocks.CUT_RED_SANDSTONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f)));
@@ -1459,8 +1447,6 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.NETHER_BRICKS), ModBlockSetTypes.NETHERRACK));
 
     //basalt
-    public static final Block BASALT_MOD = registerBlock("basalt_mod",
-            new Block(FabricBlockSettings.copyOf(Blocks.BASALT)));
     public static final Block BASALT_STAIRS = registerBlock("basalt_stairs",
             new StairsBlock(Blocks.BASALT.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
@@ -1539,8 +1525,6 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.BASALT)));
 
     //polished basalt
-    public static final Block POLISHED_BASALT_MOD = registerBlock("polished_basalt_mod",
-            new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_BASALT)));
     public static final Block POLISHED_BASALT_STAIRS = registerBlock("polished_basalt_stairs",
             new StairsBlock(Blocks.POLISHED_BASALT.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_STAIRS)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(1.25f, 4.2f)
@@ -2034,8 +2018,6 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.NETHERITE).requiresTool().strength(50.0f, 1200.0f)));
 
     //quartz
-    public static final Block QUARTZ_BLOCK_MOD = registerBlock("quartz_block_mod",
-            new Block(FabricBlockSettings.copyOf(Blocks.QUARTZ_BLOCK)));
     public static final Block QUARTZ_BUTTON = registerBlock("quartz_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON)
                     .instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f), BlockSetType.STONE, 10, false));
@@ -5381,6 +5363,48 @@ public class ModBlocks {
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.STONE));
     public static final Block ROOTED_DIRT_WALL = registerBlock("rooted_dirt_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+
+    //mud_block
+    public static final Block MUD_STAIRS = registerBlock("mud_stairs",
+            new StairsBlock(Blocks.MUD.getDefaultState(), FabricBlockSettings.copyOf(Blocks.MUD)));
+    public static final Block MUD_SLAB = registerBlock("mud_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.MUD)));
+    public static final Block MUD_BUTTON = registerBlock("mud_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.MUD), BlockSetType.STONE, 10, false));
+    public static final Block MUD_PRESSURE_PLATE = registerBlock("mud_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.MUD), BlockSetType.STONE));
+    public static final Block MUD_FENCE = registerBlock("mud_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.MUD)));
+    public static final Block MUD_FENCE_GATE = registerBlock("mud_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.MUD), WoodType.OAK));
+    public static final Block MUD_DOOR = registerBlock("mud_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.MUD), BlockSetType.STONE));
+    public static final Block MUD_TRAPDOOR = registerBlock("mud_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.MUD), BlockSetType.STONE));
+    public static final Block MUD_WALL = registerBlock("mud_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.MUD)));
+
+    //clay_block
+    public static final Block CLAY_STAIRS = registerBlock("clay_stairs",
+            new StairsBlock(Blocks.CLAY.getDefaultState(), FabricBlockSettings.copyOf(Blocks.CLAY)));
+    public static final Block CLAY_SLAB = registerBlock("clay_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.CLAY)));
+    public static final Block CLAY_BUTTON = registerBlock("clay_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.CLAY), BlockSetType.STONE, 10, false));
+    public static final Block CLAY_PRESSURE_PLATE = registerBlock("clay_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.CLAY), BlockSetType.STONE));
+    public static final Block CLAY_FENCE = registerBlock("clay_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.CLAY)));
+    public static final Block CLAY_FENCE_GATE = registerBlock("clay_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.CLAY), WoodType.OAK));
+    public static final Block CLAY_DOOR = registerBlock("clay_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.CLAY), BlockSetType.STONE));
+    public static final Block CLAY_TRAPDOOR = registerBlock("clay_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.CLAY), BlockSetType.STONE));
+    public static final Block CLAY_WALL = registerBlock("clay_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.CLAY)));
 
 
 

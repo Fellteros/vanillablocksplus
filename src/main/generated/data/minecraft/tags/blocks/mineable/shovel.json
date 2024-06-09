@@ -225,6 +225,24 @@
     "vanillablocksplus:rooted_dirt_fence_gate",
     "vanillablocksplus:rooted_dirt_fence",
     "vanillablocksplus:rooted_dirt_button",
-    "vanillablocksplus:rooted_dirt_pressure_plate"
+    "vanillablocksplus:rooted_dirt_pressure_plate",
+    "vanillablocksplus:mud_stairs",
+    "vanillablocksplus:mud_slab",
+    "vanillablocksplus:mud_wall",
+    "vanillablocksplus:mud_door",
+    "vanillablocksplus:mud_trapdoor",
+    "vanillablocksplus:mud_fence_gate",
+    "vanillablocksplus:mud_fence",
+    "vanillablocksplus:mud_button",
+    "vanillablocksplus:mud_pressure_plate",
+    "vanillablocksplus:clay_stairs",
+    "vanillablocksplus:clay_slab",
+    "vanillablocksplus:clay_wall",
+    "vanillablocksplus:clay_door",
+    "vanillablocksplus:clay_trapdoor",
+    "vanillablocksplus:clay_fence_gate",
+    "vanillablocksplus:clay_fence",
+    "vanillablocksplus:clay_button",
+    "vanillablocksplus:clay_pressure_plate"
   ]
 }

@@ -1893,6 +1893,26 @@
   "block.vanillablocksplus.farmland_pressure_plate": "Farmland Pressure Plate",
   "block.vanillablocksplus.farmland_button": "Farmland Button",
   "block.vanillablocksplus.farmland_wall": "Farmland Wall",
+
+  "block.vanillablocksplus.mud_stairs": "Mud Stairs",
+  "block.vanillablocksplus.mud_slab": "Mud Slab",
+  "block.vanillablocksplus.mud_door": "Mud Door",
+  "block.vanillablocksplus.mud_trapdoor": "Mud Trapdoor",
+  "block.vanillablocksplus.mud_fence": "Mud Fence",
+  "block.vanillablocksplus.mud_fence_gate": "Mud Fence Gate",
+  "block.vanillablocksplus.mud_pressure_plate": "Mud Pressure Plate",
+  "block.vanillablocksplus.mud_button": "Mud Button",
+  "block.vanillablocksplus.mud_wall": "Mud Wall",
+
+  "block.vanillablocksplus.clay_stairs": "Clay Stairs",
+  "block.vanillablocksplus.clay_slab": "Clay Slab",
+  "block.vanillablocksplus.clay_door": "Clay Door",
+  "block.vanillablocksplus.clay_trapdoor": "Clay Trapdoor",
+  "block.vanillablocksplus.clay_fence": "Clay Fence",
+  "block.vanillablocksplus.clay_fence_gate": "Clay Fence Gate",
+  "block.vanillablocksplus.clay_pressure_plate": "Clay Pressure Plate",
+  "block.vanillablocksplus.clay_button": "Clay Button",
+  "block.vanillablocksplus.clay_wall": "Clay Wall",
   
 
   

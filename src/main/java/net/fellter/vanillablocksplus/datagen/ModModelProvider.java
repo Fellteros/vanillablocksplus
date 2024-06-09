@@ -384,6 +384,10 @@ public class ModModelProvider extends FabricModelProvider {
                 bsmg.registerCubeAllModelTexturePool(Blocks.COARSE_DIRT);
         BlockStateModelGenerator.BlockTexturePool rootedDirtPool =
                 bsmg.registerCubeAllModelTexturePool(Blocks.ROOTED_DIRT);
+        BlockStateModelGenerator.BlockTexturePool mudPool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.MUD);
+        BlockStateModelGenerator.BlockTexturePool clayPool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.CLAY);
 
 
         //oak
@@ -786,10 +790,10 @@ public class ModModelProvider extends FabricModelProvider {
         registerSTBFenceGate(bsmg, ModBlocks.POLISHED_BASALT_FENCE_GATE, ModTextureMap.customSTB(Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, "_side", "_top", "_top"));
         registerSTBPressurePlate(bsmg, ModBlocks.POLISHED_BASALT_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, "_side", "_top", "_top"));
         //polished basalt
-        blackstonePool.button(ModBlocks.BLACKSTONE_BUTTON);
-        blackstonePool.fence(ModBlocks.BLACKSTONE_FENCE);
-        blackstonePool.fenceGate(ModBlocks.BLACKSTONE_FENCE_GATE);
-        blackstonePool.pressurePlate(ModBlocks.BLACKSTONE_PRESSURE_PLATE);
+        registerSTBButton(bsmg, ModBlocks.BLACKSTONE_BUTTON, ModTextureMap.customSTB(Blocks.BLACKSTONE, Blocks.BLACKSTONE, Blocks.BLACKSTONE, "", "_top", "_top"));
+        registerSTBFence(bsmg, ModBlocks.BLACKSTONE_FENCE, ModTextureMap.customSTB(Blocks.BLACKSTONE, Blocks.BLACKSTONE, Blocks.BLACKSTONE, "", "_top", "_top"));
+        registerSTBFenceGate(bsmg, ModBlocks.BLACKSTONE_FENCE_GATE, ModTextureMap.customSTB(Blocks.BLACKSTONE, Blocks.BLACKSTONE, Blocks.BLACKSTONE, "", "_top", "_top"));
+        registerSTBPressurePlate(bsmg, ModBlocks.BLACKSTONE_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.BLACKSTONE, Blocks.BLACKSTONE, Blocks.BLACKSTONE, "", "_top", "_top"));
         //gilded blackstone
         gildedBlackstonePool.button(ModBlocks.GILDED_BLACKSTONE_BUTTON);
         gildedBlackstonePool.wall(ModBlocks.GILDED_BLACKSTONE_WALL);
@@ -1872,6 +1876,22 @@ public class ModModelProvider extends FabricModelProvider {
         rootedDirtPool.fence(ModBlocks.ROOTED_DIRT_FENCE);
         rootedDirtPool.fenceGate(ModBlocks.ROOTED_DIRT_FENCE_GATE);
         rootedDirtPool.pressurePlate(ModBlocks.ROOTED_DIRT_PRESSURE_PLATE);
+        //mud
+        mudPool.button(ModBlocks.MUD_BUTTON);
+        mudPool.wall(ModBlocks.MUD_WALL);
+        mudPool.slab(ModBlocks.MUD_SLAB);
+        mudPool.stairs(ModBlocks.MUD_STAIRS);
+        mudPool.fence(ModBlocks.MUD_FENCE);
+        mudPool.fenceGate(ModBlocks.MUD_FENCE_GATE);
+        mudPool.pressurePlate(ModBlocks.MUD_PRESSURE_PLATE);
+        //clay
+        clayPool.button(ModBlocks.CLAY_BUTTON);
+        clayPool.wall(ModBlocks.CLAY_WALL);
+        clayPool.slab(ModBlocks.CLAY_SLAB);
+        clayPool.stairs(ModBlocks.CLAY_STAIRS);
+        clayPool.fence(ModBlocks.CLAY_FENCE);
+        clayPool.fenceGate(ModBlocks.CLAY_FENCE_GATE);
+        clayPool.pressurePlate(ModBlocks.CLAY_PRESSURE_PLATE);
 
 
 
@@ -2477,6 +2497,12 @@ public class ModModelProvider extends FabricModelProvider {
         bsmg.registerDoor(ModBlocks.ROOTED_DIRT_DOOR);
         //farmland
         bsmg.registerDoor(ModBlocks.FARMLAND_DOOR);
+        //mud
+        bsmg.registerOrientableTrapdoor(ModBlocks.MUD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.MUD_DOOR);
+        //clay
+        bsmg.registerOrientableTrapdoor(ModBlocks.CLAY_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CLAY_DOOR);
 
 
 

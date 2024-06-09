@@ -198,6 +198,8 @@
     "vanillablocksplus:dirt_path_fence",
     "vanillablocksplus:coarse_dirt_fence",
     "vanillablocksplus:farmland_fence",
-    "vanillablocksplus:rooted_dirt_fence"
+    "vanillablocksplus:rooted_dirt_fence",
+    "vanillablocksplus:mud_fence",
+    "vanillablocksplus:clay_fence"
   ]
 }

@@ -8,7 +8,6 @@ import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.entry.ItemEntry;
-import net.minecraft.loot.entry.LootPoolEntry;
 import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
@@ -1873,6 +1872,28 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ROOTED_DIRT_DOOR, doorDrops(ModBlocks.ROOTED_DIRT_DOOR));
         addDrop(ModBlocks.ROOTED_DIRT_SLAB, slabDrops(ModBlocks.ROOTED_DIRT_SLAB));
         addDrop(ModBlocks.ROOTED_DIRT_WALL);
+
+        //mud
+        addDrop(ModBlocks.MUD_STAIRS);
+        addDrop(ModBlocks.MUD_TRAPDOOR);
+        addDrop(ModBlocks.MUD_BUTTON);
+        addDrop(ModBlocks.MUD_PRESSURE_PLATE);
+        addDrop(ModBlocks.MUD_FENCE);
+        addDrop(ModBlocks.MUD_FENCE_GATE);
+        addDrop(ModBlocks.MUD_DOOR, doorDrops(ModBlocks.MUD_DOOR));
+        addDrop(ModBlocks.MUD_SLAB, slabDrops(ModBlocks.MUD_SLAB));
+        addDrop(ModBlocks.MUD_WALL);
+
+        //clay
+        addDrop(ModBlocks.CLAY_STAIRS);
+        addDrop(ModBlocks.CLAY_TRAPDOOR);
+        addDrop(ModBlocks.CLAY_BUTTON);
+        addDrop(ModBlocks.CLAY_PRESSURE_PLATE);
+        addDrop(ModBlocks.CLAY_FENCE);
+        addDrop(ModBlocks.CLAY_FENCE_GATE);
+        addDrop(ModBlocks.CLAY_DOOR, doorDrops(ModBlocks.CLAY_DOOR));
+        addDrop(ModBlocks.CLAY_SLAB, slabDrops(ModBlocks.CLAY_SLAB));
+        addDrop(ModBlocks.CLAY_WALL);
         
         
         
@@ -1889,8 +1910,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         
     }
     public LootTable.Builder moreOreDrops(Block drop, Item item) {
-        return dropsWithSilkTouch(drop, (LootPoolEntry.Builder)this
-                .applyExplosionDecay(drop, ItemEntry.builder(item)
+        return dropsWithSilkTouch(drop, this.applyExplosionDecay(drop, ItemEntry.builder(item)
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0F, 5.0F)))
                         .apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))));
     }

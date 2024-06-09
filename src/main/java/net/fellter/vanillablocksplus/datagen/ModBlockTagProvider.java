@@ -434,7 +434,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                  .add(ModBlocks.ROOTED_DIRT_FENCE_GATE)
                  .add(ModBlocks.ROOTED_DIRT_FENCE)
                  .add(ModBlocks.ROOTED_DIRT_BUTTON)
-                 .add(ModBlocks.ROOTED_DIRT_PRESSURE_PLATE);
+                 .add(ModBlocks.ROOTED_DIRT_PRESSURE_PLATE)
+                 //mud
+                 .add(ModBlocks.MUD_STAIRS)
+                 .add(ModBlocks.MUD_SLAB)
+                 .add(ModBlocks.MUD_WALL)
+                 .add(ModBlocks.MUD_DOOR)
+                 .add(ModBlocks.MUD_TRAPDOOR)
+                 .add(ModBlocks.MUD_FENCE_GATE)
+                 .add(ModBlocks.MUD_FENCE)
+                 .add(ModBlocks.MUD_BUTTON)
+                 .add(ModBlocks.MUD_PRESSURE_PLATE)
+                 //clay
+                 .add(ModBlocks.CLAY_STAIRS)
+                 .add(ModBlocks.CLAY_SLAB)
+                 .add(ModBlocks.CLAY_WALL)
+                 .add(ModBlocks.CLAY_DOOR)
+                 .add(ModBlocks.CLAY_TRAPDOOR)
+                 .add(ModBlocks.CLAY_FENCE_GATE)
+                 .add(ModBlocks.CLAY_FENCE)
+                 .add(ModBlocks.CLAY_BUTTON)
+                 .add(ModBlocks.CLAY_PRESSURE_PLATE);
 
 
 
@@ -2288,7 +2308,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DIRT_PATH_FENCE)
                 .add(ModBlocks.COARSE_DIRT_FENCE)
                 .add(ModBlocks.FARMLAND_FENCE)
-                .add(ModBlocks.ROOTED_DIRT_FENCE);
+                .add(ModBlocks.ROOTED_DIRT_FENCE)
+                .add(ModBlocks.MUD_FENCE)
+                .add(ModBlocks.CLAY_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -2489,7 +2511,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DIRT_PATH_FENCE)
                 .add(ModBlocks.COARSE_DIRT_FENCE)
                 .add(ModBlocks.FARMLAND_FENCE)
-                .add(ModBlocks.ROOTED_DIRT_FENCE);
+                .add(ModBlocks.ROOTED_DIRT_FENCE)
+                .add(ModBlocks.MUD_FENCE)
+                .add(ModBlocks.CLAY_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -2684,7 +2708,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DIRT_PATH_FENCE_GATE)
                 .add(ModBlocks.COARSE_DIRT_FENCE_GATE)
                 .add(ModBlocks.FARMLAND_FENCE_GATE)
-                .add(ModBlocks.ROOTED_DIRT_FENCE_GATE);
+                .add(ModBlocks.ROOTED_DIRT_FENCE_GATE)
+                .add(ModBlocks.MUD_FENCE_GATE)
+                .add(ModBlocks.CLAY_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -2846,7 +2872,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MYCELIUM_WALL)
                 .add(ModBlocks.DIRT_PATH_WALL)
                 .add(ModBlocks.COARSE_DIRT_WALL)
-                .add(ModBlocks.ROOTED_DIRT_WALL);
+                .add(ModBlocks.ROOTED_DIRT_WALL)
+                .add(ModBlocks.MUD_WALL)
+                .add(ModBlocks.CLAY_WALL);
 
 
 
