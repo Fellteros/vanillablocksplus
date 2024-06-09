@@ -261,6 +261,15 @@
     "vanillablocksplus:gravel_fence_gate",
     "vanillablocksplus:gravel_fence",
     "vanillablocksplus:gravel_button",
-    "vanillablocksplus:gravel_pressure_plate"
+    "vanillablocksplus:gravel_pressure_plate",
+    "vanillablocksplus:red_sand_stairs",
+    "vanillablocksplus:red_sand_slab",
+    "vanillablocksplus:red_sand_wall",
+    "vanillablocksplus:red_sand_door",
+    "vanillablocksplus:red_sand_trapdoor",
+    "vanillablocksplus:red_sand_fence_gate",
+    "vanillablocksplus:red_sand_fence",
+    "vanillablocksplus:red_sand_button",
+    "vanillablocksplus:red_sand_pressure_plate"
   ]
 }

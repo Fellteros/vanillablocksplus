@@ -129,8 +129,6 @@ public class ModModelProvider extends FabricModelProvider {
                 bsmg.registerCubeAllModelTexturePool(Blocks.RED_NETHER_BRICKS);
         BlockStateModelGenerator.BlockTexturePool smoothBasaltPool =
                 bsmg.registerCubeAllModelTexturePool(Blocks.SMOOTH_BASALT);
-        BlockStateModelGenerator.BlockTexturePool blackstonePool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.BLACKSTONE);
         BlockStateModelGenerator.BlockTexturePool gildedBlackstonePool =
                 bsmg.registerCubeAllModelTexturePool(Blocks.GILDED_BLACKSTONE);
         BlockStateModelGenerator.BlockTexturePool polishedBlackstonePool =
@@ -392,6 +390,8 @@ public class ModModelProvider extends FabricModelProvider {
                 bsmg.registerCubeAllModelTexturePool(Blocks.SAND);
         BlockStateModelGenerator.BlockTexturePool gravelPool =
                 bsmg.registerCubeAllModelTexturePool(Blocks.GRAVEL);
+        BlockStateModelGenerator.BlockTexturePool redSandPool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.RED_SAND);
 
 
         //oak
@@ -1912,6 +1912,14 @@ public class ModModelProvider extends FabricModelProvider {
         gravelPool.fence(ModBlocks.GRAVEL_FENCE);
         gravelPool.fenceGate(ModBlocks.GRAVEL_FENCE_GATE);
         gravelPool.pressurePlate(ModBlocks.GRAVEL_PRESSURE_PLATE);
+        //red_sand
+        redSandPool.button(ModBlocks.RED_SAND_BUTTON);
+        redSandPool.wall(ModBlocks.RED_SAND_WALL);
+        redSandPool.slab(ModBlocks.RED_SAND_SLAB);
+        redSandPool.stairs(ModBlocks.RED_SAND_STAIRS);
+        redSandPool.fence(ModBlocks.RED_SAND_FENCE);
+        redSandPool.fenceGate(ModBlocks.RED_SAND_FENCE_GATE);
+        redSandPool.pressurePlate(ModBlocks.RED_SAND_PRESSURE_PLATE);
 
 
 
@@ -2529,6 +2537,9 @@ public class ModModelProvider extends FabricModelProvider {
         //gravel
         bsmg.registerOrientableTrapdoor(ModBlocks.GRAVEL_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.GRAVEL_DOOR);
+        //red_sand
+        bsmg.registerOrientableTrapdoor(ModBlocks.RED_SAND_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.RED_SAND_DOOR);
 
 
 

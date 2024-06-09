@@ -474,7 +474,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                  .add(ModBlocks.GRAVEL_FENCE_GATE)
                  .add(ModBlocks.GRAVEL_FENCE)
                  .add(ModBlocks.GRAVEL_BUTTON)
-                 .add(ModBlocks.GRAVEL_PRESSURE_PLATE);
+                 .add(ModBlocks.GRAVEL_PRESSURE_PLATE)
+                 //red_sand
+                 .add(ModBlocks.RED_SAND_STAIRS)
+                 .add(ModBlocks.RED_SAND_SLAB)
+                 .add(ModBlocks.RED_SAND_WALL)
+                 .add(ModBlocks.RED_SAND_DOOR)
+                 .add(ModBlocks.RED_SAND_TRAPDOOR)
+                 .add(ModBlocks.RED_SAND_FENCE_GATE)
+                 .add(ModBlocks.RED_SAND_FENCE)
+                 .add(ModBlocks.RED_SAND_BUTTON)
+                 .add(ModBlocks.RED_SAND_PRESSURE_PLATE);
 
 
 
@@ -2345,7 +2355,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MUD_FENCE)
                 .add(ModBlocks.CLAY_FENCE)
                 .add(ModBlocks.SAND_FENCE)
-                .add(ModBlocks.GRAVEL_FENCE);
+                .add(ModBlocks.GRAVEL_FENCE)
+                .add(ModBlocks.RED_SAND_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -2550,7 +2561,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MUD_FENCE)
                 .add(ModBlocks.CLAY_FENCE)
                 .add(ModBlocks.SAND_FENCE)
-                .add(ModBlocks.GRAVEL_FENCE);
+                .add(ModBlocks.GRAVEL_FENCE)
+                .add(ModBlocks.RED_SAND_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -2749,7 +2761,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MUD_FENCE_GATE)
                 .add(ModBlocks.CLAY_FENCE_GATE)
                 .add(ModBlocks.SAND_FENCE_GATE)
-                .add(ModBlocks.GRAVEL_FENCE_GATE);
+                .add(ModBlocks.GRAVEL_FENCE_GATE)
+                .add(ModBlocks.RED_SAND_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -2915,7 +2928,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MUD_WALL)
                 .add(ModBlocks.CLAY_WALL)
                 .add(ModBlocks.SAND_WALL)
-                .add(ModBlocks.GRAVEL_WALL);
+                .add(ModBlocks.GRAVEL_WALL)
+                .add(ModBlocks.RED_SAND_WALL);
 
 
 

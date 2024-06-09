@@ -2192,6 +2192,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.GRAVEL_BUTTON, Blocks.GRAVEL, 1).offerTo(exporter);
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.GRAVEL_WALL, (Blocks.GRAVEL)).offerTo(exporter);
 
+        //red_sand
+        ModRecipes.createDoorRecipe(ModBlocks.RED_SAND_DOOR, (Blocks.RED_SAND)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_SAND_SLAB, (Blocks.RED_SAND)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.RED_SAND_STAIRS, (Blocks.RED_SAND)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.RED_SAND_FENCE, (Blocks.RED_SAND), (ModBlocks.RED_SAND_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.RED_SAND_FENCE_GATE, (Blocks.RED_SAND), (ModBlocks.RED_SAND_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.RED_SAND_TRAPDOOR, (ModBlocks.RED_SAND_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_SAND_PRESSURE_PLATE, (ModBlocks.RED_SAND_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_SAND_BUTTON, Blocks.RED_SAND, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_SAND_WALL, (Blocks.RED_SAND)).offerTo(exporter);
+
 
 
         

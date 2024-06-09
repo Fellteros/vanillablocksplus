@@ -1931,16 +1931,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CLAY_TRAPDOOR);
                         entries.add(ModBlocks.CLAY_PRESSURE_PLATE);
                         entries.add(ModBlocks.CLAY_BUTTON);
-                        //sand
-                        entries.add(ModBlocks.SAND_STAIRS);
-                        entries.add(ModBlocks.SAND_SLAB);
-                        entries.add(ModBlocks.SAND_WALL);
-                        entries.add(ModBlocks.SAND_FENCE);
-                        entries.add(ModBlocks.SAND_FENCE_GATE);
-                        entries.add(ModBlocks.SAND_DOOR);
-                        entries.add(ModBlocks.SAND_TRAPDOOR);
-                        entries.add(ModBlocks.SAND_PRESSURE_PLATE);
-                        entries.add(ModBlocks.SAND_BUTTON);
                         //gravel
                         entries.add(ModBlocks.GRAVEL_STAIRS);
                         entries.add(ModBlocks.GRAVEL_SLAB);
@@ -1951,6 +1941,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GRAVEL_TRAPDOOR);
                         entries.add(ModBlocks.GRAVEL_PRESSURE_PLATE);
                         entries.add(ModBlocks.GRAVEL_BUTTON);
+                        //sand
+                        entries.add(ModBlocks.SAND_STAIRS);
+                        entries.add(ModBlocks.SAND_SLAB);
+                        entries.add(ModBlocks.SAND_WALL);
+                        entries.add(ModBlocks.SAND_FENCE);
+                        entries.add(ModBlocks.SAND_FENCE_GATE);
+                        entries.add(ModBlocks.SAND_DOOR);
+                        entries.add(ModBlocks.SAND_TRAPDOOR);
+                        entries.add(ModBlocks.SAND_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SAND_BUTTON);
+                        //red_sand
+                        entries.add(ModBlocks.RED_SAND_STAIRS);
+                        entries.add(ModBlocks.RED_SAND_SLAB);
+                        entries.add(ModBlocks.RED_SAND_WALL);
+                        entries.add(ModBlocks.RED_SAND_FENCE);
+                        entries.add(ModBlocks.RED_SAND_FENCE_GATE);
+                        entries.add(ModBlocks.RED_SAND_DOOR);
+                        entries.add(ModBlocks.RED_SAND_TRAPDOOR);
+                        entries.add(ModBlocks.RED_SAND_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RED_SAND_BUTTON);
 
 
 
@@ -1975,6 +1985,7 @@ public class ModItemGroups {
     public static void addItemsToIngredientsTab(FabricItemGroupEntries entries) {
                         //ingredients
                         entries.add(ModItems.COAL_BIT);
+                        entries.add(ModItems.COPPER_BIT);
                         entries.add(ModItems.IRON_BIT);
                         entries.add(ModItems.GOLD_BIT);
                         entries.add(ModItems.REDSTONE_SHARD);
@@ -1982,7 +1993,6 @@ public class ModItemGroups {
                         entries.add(ModItems.LAPIS_BIT);
                         entries.add(ModItems.DIAMOND_DUST);
                         entries.add(ModItems.NETHERITE_BIT);
-                        entries.add(ModItems.COPPER_BIT);
     }
 
     public static void registerItemGroups() {
