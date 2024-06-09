@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "textures": {
+    "bottom": "vanillablocksplus:block/farmland_door_bottom",
+    "top": "vanillablocksplus:block/farmland_door_top"
+  }
+}

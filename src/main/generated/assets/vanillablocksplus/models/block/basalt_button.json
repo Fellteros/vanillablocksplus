@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/button",
+  "parent": "vanillablocksplus:blockmodels/button_stb",
   "textures": {
-    "texture": "vanillablocksplus:block/basalt_mod"
+    "bottom": "minecraft:block/basalt_top",
+    "side": "minecraft:block/basalt_side",
+    "top": "minecraft:block/basalt_top"
   }
 }

@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/template_wall_post",
+  "parent": "vanillablocksplus:blockmodels/wall_stb_post",
   "textures": {
-    "wall": "vanillablocksplus:block/quartz_block_mod"
+    "bottom": "minecraft:block/quartz_block_bottom",
+    "side": "minecraft:block/quartz_block_side",
+    "top": "minecraft:block/quartz_block_top"
   }
 }

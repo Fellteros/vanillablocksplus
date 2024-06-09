@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/slab",
+  "parent": "vanillablocksplus:blockmodels/slab_stb",
   "textures": {
     "bottom": "minecraft:block/deepslate_top",
     "side": "minecraft:block/deepslate",

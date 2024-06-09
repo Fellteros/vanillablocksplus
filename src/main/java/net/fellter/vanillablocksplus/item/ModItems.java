@@ -20,7 +20,7 @@ public class ModItems {
     public static final Item REDSTONE_SHARD = registerItem("redstone_shard", new Item(new FabricItemSettings()));
     public static final Item EMERALD_FRAGMENT = registerItem("emerald_fragment", new Item(new FabricItemSettings()));
     public static final Item LAPIS_BIT = registerItem("lapis_bit", new Item(new FabricItemSettings()));
-    public static final Item DIAMOND_SHARD = registerItem("diamond_shard", new Item(new FabricItemSettings()));
+    public static final Item DIAMOND_DUST = registerItem("diamond_dust", new Item(new FabricItemSettings()));
     public static final Item NETHERITE_BIT = registerItem("netherite_bit", new Item(new FabricItemSettings()));
     public static final Item COPPER_BIT = registerItem("copper_bit", new Item(new FabricItemSettings()));
 

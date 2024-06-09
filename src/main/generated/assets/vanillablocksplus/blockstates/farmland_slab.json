@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/farmland_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/farmland"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/farmland_slab_top"
+    }
+  }
+}

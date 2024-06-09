@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.fellter.vanillablocksplus.item.ModItems;
 import net.fellter.vanillablocksplus.util.ModTags;
 import net.minecraft.registry.RegistryWrapper;
-import net.minecraft.registry.tag.ItemTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -18,7 +17,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ModTags.Items.INGREDIENTS)
                 .add(ModItems.COAL_BIT)
-                .add(ModItems.DIAMOND_SHARD)
+                .add(ModItems.DIAMOND_DUST)
                 .add(ModItems.NETHERITE_BIT)
                 .add(ModItems.EMERALD_FRAGMENT)
                 .add(ModItems.GOLD_BIT)

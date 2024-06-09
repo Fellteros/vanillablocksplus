@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/button_inventory",
+  "parent": "vanillablocksplus:blockmodels/button_stb_inventory",
   "textures": {
-    "texture": "vanillablocksplus:block/sandstone_mod"
+    "bottom": "minecraft:block/sandstone_bottom",
+    "side": "minecraft:block/sandstone",
+    "top": "minecraft:block/sandstone_top"
   }
 }

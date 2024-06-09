@@ -1863,6 +1863,36 @@
   "block.vanillablocksplus.dirt_path_pressure_plate": "Dirt Path Pressure Plate",
   "block.vanillablocksplus.dirt_path_button": "Dirt Path Button",
   "block.vanillablocksplus.dirt_path_wall": "Dirt Path Wall",
+
+  "block.vanillablocksplus.coarse_dirt_stairs": "Coarse Dirt Stairs",
+  "block.vanillablocksplus.coarse_dirt_slab": "Coarse Dirt Slab",
+  "block.vanillablocksplus.coarse_dirt_door": "Coarse Dirt Door",
+  "block.vanillablocksplus.coarse_dirt_trapdoor": "Coarse Dirt Trapdoor",
+  "block.vanillablocksplus.coarse_dirt_fence": "Coarse Dirt Fence",
+  "block.vanillablocksplus.coarse_dirt_fence_gate": "Coarse Dirt Fence Gate",
+  "block.vanillablocksplus.coarse_dirt_pressure_plate": "Coarse Dirt Pressure Plate",
+  "block.vanillablocksplus.coarse_dirt_button": "Coarse Dirt Button",
+  "block.vanillablocksplus.coarse_dirt_wall": "Coarse Dirt Wall",
+
+  "block.vanillablocksplus.rooted_dirt_stairs": "Rooted Dirt Stairs",
+  "block.vanillablocksplus.rooted_dirt_slab": "Rooted Dirt Slab",
+  "block.vanillablocksplus.rooted_dirt_door": "Rooted Dirt Door",
+  "block.vanillablocksplus.rooted_dirt_trapdoor": "Rooted Dirt Trapdoor",
+  "block.vanillablocksplus.rooted_dirt_fence": "Rooted Dirt Fence",
+  "block.vanillablocksplus.rooted_dirt_fence_gate": "Rooted Dirt Fence Gate",
+  "block.vanillablocksplus.rooted_dirt_pressure_plate": "Rooted Dirt Pressure Plate",
+  "block.vanillablocksplus.rooted_dirt_button": "Rooted Dirt Button",
+  "block.vanillablocksplus.rooted_dirt_wall": "Rooted Dirt Wall",
+
+  "block.vanillablocksplus.farmland_stairs": "Farmland Stairs",
+  "block.vanillablocksplus.farmland_slab": "Farmland Slab",
+  "block.vanillablocksplus.farmland_door": "Farmland Door",
+  "block.vanillablocksplus.farmland_trapdoor": "Farmland Trapdoor",
+  "block.vanillablocksplus.farmland_fence": "Farmland Fence",
+  "block.vanillablocksplus.farmland_fence_gate": "Farmland Fence Gate",
+  "block.vanillablocksplus.farmland_pressure_plate": "Farmland Pressure Plate",
+  "block.vanillablocksplus.farmland_button": "Farmland Button",
+  "block.vanillablocksplus.farmland_wall": "Farmland Wall",
   
 
   
@@ -1870,7 +1900,7 @@
 
   
   "item.vanillablocksplus.coal_bit": "Coal Bit",
-  "item.vanillablocksplus.diamond_shard": "Diamond Shard",
+  "item.vanillablocksplus.diamond_dust": "Diamond Dust",
   "item.vanillablocksplus.gold_bit": "Gold Bit",
   "item.vanillablocksplus.iron_bit": "Iron Bit",
   "item.vanillablocksplus.lapis_bit": "Lapis Bit",

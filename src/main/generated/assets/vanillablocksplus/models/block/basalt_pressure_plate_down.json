@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/pressure_plate_down",
+  "parent": "vanillablocksplus:blockmodels/pressure_plate_stb_down",
   "textures": {
-    "texture": "vanillablocksplus:block/basalt_mod"
+    "bottom": "minecraft:block/basalt_top",
+    "side": "minecraft:block/basalt_side",
+    "top": "minecraft:block/basalt_top"
   }
 }

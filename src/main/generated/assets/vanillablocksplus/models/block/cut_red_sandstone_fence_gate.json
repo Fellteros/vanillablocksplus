@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/template_fence_gate",
+  "parent": "vanillablocksplus:blockmodels/fence_gate_stb",
   "textures": {
-    "texture": "vanillablocksplus:block/cut_red_sandstone_mod"
+    "bottom": "minecraft:block/red_sandstone_top",
+    "side": "minecraft:block/cut_red_sandstone",
+    "top": "minecraft:block/red_sandstone_top"
   }
 }

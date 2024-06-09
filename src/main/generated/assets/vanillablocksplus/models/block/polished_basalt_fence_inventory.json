@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/fence_inventory",
+  "parent": "vanillablocksplus:blockmodels/fence_stb_inventory",
   "textures": {
-    "texture": "vanillablocksplus:block/polished_basalt_mod"
+    "bottom": "minecraft:block/polished_basalt_top",
+    "side": "minecraft:block/polished_basalt_side",
+    "top": "minecraft:block/polished_basalt_top"
   }
 }

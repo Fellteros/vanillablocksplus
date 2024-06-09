@@ -5319,6 +5319,69 @@ public class ModBlocks {
     public static final Block DIRT_PATH_WALL = registerBlock("dirt_path_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.DIRT_PATH)));
 
+    //coarse_dirt_block
+    public static final Block COARSE_DIRT_STAIRS = registerBlock("coarse_dirt_stairs",
+            new StairsBlock(Blocks.COARSE_DIRT.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COARSE_DIRT)));
+    public static final Block COARSE_DIRT_SLAB = registerBlock("coarse_dirt_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.COARSE_DIRT)));
+    public static final Block COARSE_DIRT_BUTTON = registerBlock("coarse_dirt_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.COARSE_DIRT), BlockSetType.STONE, 10, false));
+    public static final Block COARSE_DIRT_PRESSURE_PLATE = registerBlock("coarse_dirt_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.COARSE_DIRT), BlockSetType.STONE));
+    public static final Block COARSE_DIRT_FENCE = registerBlock("coarse_dirt_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.COARSE_DIRT)));
+    public static final Block COARSE_DIRT_FENCE_GATE = registerBlock("coarse_dirt_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.COARSE_DIRT), WoodType.OAK));
+    public static final Block COARSE_DIRT_DOOR = registerBlock("coarse_dirt_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.COARSE_DIRT), BlockSetType.STONE));
+    public static final Block COARSE_DIRT_TRAPDOOR = registerBlock("coarse_dirt_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.COARSE_DIRT), BlockSetType.STONE));
+    public static final Block COARSE_DIRT_WALL = registerBlock("coarse_dirt_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COARSE_DIRT)));
+
+    //farmland_block
+    public static final Block FARMLAND_STAIRS = registerBlock("farmland_stairs",
+            new StairsBlock(Blocks.FARMLAND.getDefaultState(), FabricBlockSettings.copyOf(Blocks.FARMLAND)));
+    public static final Block FARMLAND_SLAB = registerBlock("farmland_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.FARMLAND)));
+    public static final Block FARMLAND_BUTTON = registerBlock("farmland_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.FARMLAND), BlockSetType.STONE, 10, false));
+    public static final Block FARMLAND_PRESSURE_PLATE = registerBlock("farmland_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.FARMLAND), BlockSetType.STONE));
+    public static final Block FARMLAND_FENCE = registerBlock("farmland_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.FARMLAND)));
+    public static final Block FARMLAND_FENCE_GATE = registerBlock("farmland_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.FARMLAND), WoodType.OAK));
+    public static final Block FARMLAND_DOOR = registerBlock("farmland_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.FARMLAND), BlockSetType.STONE));
+    public static final Block FARMLAND_TRAPDOOR = registerBlock("farmland_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.FARMLAND), BlockSetType.STONE));
+    public static final Block FARMLAND_WALL = registerBlock("farmland_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.FARMLAND)));
+
+    //rooted_dirt_block
+    public static final Block ROOTED_DIRT_STAIRS = registerBlock("rooted_dirt_stairs",
+            new StairsBlock(Blocks.ROOTED_DIRT.getDefaultState(), FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+    public static final Block ROOTED_DIRT_SLAB = registerBlock("rooted_dirt_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+    public static final Block ROOTED_DIRT_BUTTON = registerBlock("rooted_dirt_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.STONE, 10, false));
+    public static final Block ROOTED_DIRT_PRESSURE_PLATE = registerBlock("rooted_dirt_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.STONE));
+    public static final Block ROOTED_DIRT_FENCE = registerBlock("rooted_dirt_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+    public static final Block ROOTED_DIRT_FENCE_GATE = registerBlock("rooted_dirt_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), WoodType.OAK));
+    public static final Block ROOTED_DIRT_DOOR = registerBlock("rooted_dirt_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.STONE));
+    public static final Block ROOTED_DIRT_TRAPDOOR = registerBlock("rooted_dirt_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.STONE));
+    public static final Block ROOTED_DIRT_WALL = registerBlock("rooted_dirt_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+
 
 
 

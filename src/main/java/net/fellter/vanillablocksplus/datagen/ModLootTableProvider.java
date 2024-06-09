@@ -1840,6 +1840,39 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DIRT_PATH_DOOR, doorDrops(ModBlocks.DIRT_PATH_DOOR));
         addDrop(ModBlocks.DIRT_PATH_SLAB, slabDrops(ModBlocks.DIRT_PATH_SLAB));
         addDrop(ModBlocks.DIRT_PATH_WALL);
+
+        //coarse_dirt
+        addDrop(ModBlocks.COARSE_DIRT_STAIRS);
+        addDrop(ModBlocks.COARSE_DIRT_TRAPDOOR);
+        addDrop(ModBlocks.COARSE_DIRT_BUTTON);
+        addDrop(ModBlocks.COARSE_DIRT_PRESSURE_PLATE);
+        addDrop(ModBlocks.COARSE_DIRT_FENCE);
+        addDrop(ModBlocks.COARSE_DIRT_FENCE_GATE);
+        addDrop(ModBlocks.COARSE_DIRT_DOOR, doorDrops(ModBlocks.COARSE_DIRT_DOOR));
+        addDrop(ModBlocks.COARSE_DIRT_SLAB, slabDrops(ModBlocks.COARSE_DIRT_SLAB));
+        addDrop(ModBlocks.COARSE_DIRT_WALL);
+
+        //farmland
+        addDrop(ModBlocks.FARMLAND_STAIRS);
+        addDrop(ModBlocks.FARMLAND_TRAPDOOR);
+        addDrop(ModBlocks.FARMLAND_BUTTON);
+        addDrop(ModBlocks.FARMLAND_PRESSURE_PLATE);
+        addDrop(ModBlocks.FARMLAND_FENCE);
+        addDrop(ModBlocks.FARMLAND_FENCE_GATE);
+        addDrop(ModBlocks.FARMLAND_DOOR, doorDrops(ModBlocks.FARMLAND_DOOR));
+        addDrop(ModBlocks.FARMLAND_SLAB, slabDrops(ModBlocks.FARMLAND_SLAB));
+        addDrop(ModBlocks.FARMLAND_WALL);
+
+        //rooted_dirt
+        addDrop(ModBlocks.ROOTED_DIRT_STAIRS);
+        addDrop(ModBlocks.ROOTED_DIRT_TRAPDOOR);
+        addDrop(ModBlocks.ROOTED_DIRT_BUTTON);
+        addDrop(ModBlocks.ROOTED_DIRT_PRESSURE_PLATE);
+        addDrop(ModBlocks.ROOTED_DIRT_FENCE);
+        addDrop(ModBlocks.ROOTED_DIRT_FENCE_GATE);
+        addDrop(ModBlocks.ROOTED_DIRT_DOOR, doorDrops(ModBlocks.ROOTED_DIRT_DOOR));
+        addDrop(ModBlocks.ROOTED_DIRT_SLAB, slabDrops(ModBlocks.ROOTED_DIRT_SLAB));
+        addDrop(ModBlocks.ROOTED_DIRT_WALL);
         
         
         

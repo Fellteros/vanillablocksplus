@@ -1881,6 +1881,36 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DIRT_TRAPDOOR);
                         entries.add(ModBlocks.DIRT_PRESSURE_PLATE);
                         entries.add(ModBlocks.DIRT_BUTTON);
+                        //coarse_dirt
+                        entries.add(ModBlocks.COARSE_DIRT_STAIRS);
+                        entries.add(ModBlocks.COARSE_DIRT_SLAB);
+                        entries.add(ModBlocks.COARSE_DIRT_WALL);
+                        entries.add(ModBlocks.COARSE_DIRT_FENCE);
+                        entries.add(ModBlocks.COARSE_DIRT_FENCE_GATE);
+                        entries.add(ModBlocks.COARSE_DIRT_DOOR);
+                        entries.add(ModBlocks.COARSE_DIRT_TRAPDOOR);
+                        entries.add(ModBlocks.COARSE_DIRT_PRESSURE_PLATE);
+                        entries.add(ModBlocks.COARSE_DIRT_BUTTON);
+                        //rooted_dirt
+                        entries.add(ModBlocks.ROOTED_DIRT_STAIRS);
+                        entries.add(ModBlocks.ROOTED_DIRT_SLAB);
+                        entries.add(ModBlocks.ROOTED_DIRT_WALL);
+                        entries.add(ModBlocks.ROOTED_DIRT_FENCE);
+                        entries.add(ModBlocks.ROOTED_DIRT_FENCE_GATE);
+                        entries.add(ModBlocks.ROOTED_DIRT_DOOR);
+                        entries.add(ModBlocks.ROOTED_DIRT_TRAPDOOR);
+                        entries.add(ModBlocks.ROOTED_DIRT_PRESSURE_PLATE);
+                        entries.add(ModBlocks.ROOTED_DIRT_BUTTON);
+                        //farmland
+                        entries.add(ModBlocks.FARMLAND_STAIRS);
+                        entries.add(ModBlocks.FARMLAND_SLAB);
+                        entries.add(ModBlocks.FARMLAND_WALL);
+                        entries.add(ModBlocks.FARMLAND_FENCE);
+                        entries.add(ModBlocks.FARMLAND_FENCE_GATE);
+                        entries.add(ModBlocks.FARMLAND_DOOR);
+                        entries.add(ModBlocks.FARMLAND_TRAPDOOR);
+                        entries.add(ModBlocks.FARMLAND_PRESSURE_PLATE);
+                        entries.add(ModBlocks.FARMLAND_BUTTON);
 
 
 
@@ -1910,7 +1940,7 @@ public class ModItemGroups {
                         entries.add(ModItems.REDSTONE_SHARD);
                         entries.add(ModItems.EMERALD_FRAGMENT);
                         entries.add(ModItems.LAPIS_BIT);
-                        entries.add(ModItems.DIAMOND_SHARD);
+                        entries.add(ModItems.DIAMOND_DUST);
                         entries.add(ModItems.NETHERITE_BIT);
                         entries.add(ModItems.COPPER_BIT);
     }

@@ -195,6 +195,9 @@
     "vanillablocksplus:podzol_fence",
     "vanillablocksplus:dirt_fence",
     "vanillablocksplus:mycelium_fence",
-    "vanillablocksplus:dirt_path_fence"
+    "vanillablocksplus:dirt_path_fence",
+    "vanillablocksplus:coarse_dirt_fence",
+    "vanillablocksplus:farmland_fence",
+    "vanillablocksplus:rooted_dirt_fence"
   ]
 }

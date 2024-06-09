@@ -1334,23 +1334,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
 
         //diamond_block
-        ModRecipes.createDoorRecipe(ModBlocks.DIAMOND_DOOR, (ModItems.DIAMOND_SHARD))
+        ModRecipes.createDoorRecipe(ModBlocks.DIAMOND_DOOR, (ModItems.DIAMOND_DUST))
                 .offerTo(exporter);
-        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_SLAB, (ModItems.DIAMOND_SHARD))
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_SLAB, (ModItems.DIAMOND_DUST))
                 .offerTo(exporter);
-        ModRecipes.createStairsRecipe(ModBlocks.DIAMOND_STAIRS, (ModItems.DIAMOND_SHARD))
+        ModRecipes.createStairsRecipe(ModBlocks.DIAMOND_STAIRS, (ModItems.DIAMOND_DUST))
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceRecipe(ModBlocks.DIAMOND_FENCE, (ModItems.DIAMOND_SHARD), (Items.DIAMOND), 3)
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.DIAMOND_FENCE, (ModItems.DIAMOND_DUST), (Items.DIAMOND), 3)
                 .offerTo(exporter);
-        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.DIAMOND_FENCE_GATE, (ModItems.DIAMOND_SHARD), (Items.DIAMOND), 1)
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.DIAMOND_FENCE_GATE, (ModItems.DIAMOND_DUST), (Items.DIAMOND), 1)
                 .offerTo(exporter);
         ModRecipes.createTrapdoorRecipe(ModBlocks.DIAMOND_TRAPDOOR, (Items.DIAMOND))
                 .offerTo(exporter);
-        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_PRESSURE_PLATE, (ModItems.DIAMOND_SHARD))
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_PRESSURE_PLATE, (ModItems.DIAMOND_DUST))
                 .offerTo(exporter);
-        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_BUTTON, ModItems.DIAMOND_SHARD, 1)
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_BUTTON, ModItems.DIAMOND_DUST, 1)
                 .offerTo(exporter);
-        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_WALL, (ModItems.DIAMOND_SHARD))
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_WALL, (ModItems.DIAMOND_DUST))
                 .offerTo(exporter);
 
         //netherite_block
@@ -3778,6 +3778,66 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIRT_PATH_WALL, (Blocks.DIRT_PATH))
                 .offerTo(exporter);
 
+        //coarse_dirt
+        ModRecipes.createDoorRecipe(ModBlocks.COARSE_DIRT_DOOR, (Blocks.COARSE_DIRT))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.COARSE_DIRT_SLAB, (Blocks.COARSE_DIRT))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.COARSE_DIRT_STAIRS, (Blocks.COARSE_DIRT))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.COARSE_DIRT_FENCE, (Blocks.COARSE_DIRT), (ModBlocks.COARSE_DIRT_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.COARSE_DIRT_FENCE_GATE, (Blocks.COARSE_DIRT), (ModBlocks.COARSE_DIRT_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.COARSE_DIRT_TRAPDOOR, (ModBlocks.COARSE_DIRT_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.COARSE_DIRT_PRESSURE_PLATE, (ModBlocks.COARSE_DIRT_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.COARSE_DIRT_BUTTON, Blocks.COARSE_DIRT, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.COARSE_DIRT_WALL, (Blocks.COARSE_DIRT))
+                .offerTo(exporter);
+
+        //farmland
+        ModRecipes.createDoorRecipe(ModBlocks.FARMLAND_DOOR, (Blocks.FARMLAND))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.FARMLAND_SLAB, (Blocks.FARMLAND))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.FARMLAND_STAIRS, (Blocks.FARMLAND))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.FARMLAND_FENCE, (Blocks.FARMLAND), (ModBlocks.FARMLAND_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.FARMLAND_FENCE_GATE, (Blocks.FARMLAND), (ModBlocks.FARMLAND_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.FARMLAND_TRAPDOOR, (ModBlocks.FARMLAND_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.FARMLAND_PRESSURE_PLATE, (ModBlocks.FARMLAND_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.FARMLAND_BUTTON, Blocks.FARMLAND, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.FARMLAND_WALL, (Blocks.FARMLAND))
+                .offerTo(exporter);
+
+        //rooted_dirt
+        ModRecipes.createDoorRecipe(ModBlocks.ROOTED_DIRT_DOOR, (Blocks.ROOTED_DIRT))
+                .offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.ROOTED_DIRT_SLAB, (Blocks.ROOTED_DIRT))
+                .offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.ROOTED_DIRT_STAIRS, (Blocks.ROOTED_DIRT))
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.ROOTED_DIRT_FENCE, (Blocks.ROOTED_DIRT), (ModBlocks.ROOTED_DIRT_SLAB), 3)
+                .offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.ROOTED_DIRT_FENCE_GATE, (Blocks.ROOTED_DIRT), (ModBlocks.ROOTED_DIRT_SLAB), 1)
+                .offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.ROOTED_DIRT_TRAPDOOR, (ModBlocks.ROOTED_DIRT_SLAB))
+                .offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.ROOTED_DIRT_PRESSURE_PLATE, (ModBlocks.ROOTED_DIRT_SLAB))
+                .offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.ROOTED_DIRT_BUTTON, Blocks.ROOTED_DIRT, 1)
+                .offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.ROOTED_DIRT_WALL, (Blocks.ROOTED_DIRT))
+                .offerTo(exporter);
+
 
 
 
@@ -3805,7 +3865,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.EMERALD_FRAGMENT, Items.EMERALD)
                 .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
                 .offerTo(exporter);
-        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.DIAMOND_SHARD, Items.DIAMOND)
+        ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.DIAMOND_DUST, Items.DIAMOND)
                 .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
                 .offerTo(exporter);
         ModRecipes.createIngredientRecipe(RecipeCategory.MISC, ModItems.COPPER_BIT, Items.COPPER_INGOT)

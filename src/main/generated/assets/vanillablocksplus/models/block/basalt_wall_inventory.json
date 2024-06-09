@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/wall_inventory",
+  "parent": "vanillablocksplus:blockmodels/wall_stb_inventory",
   "textures": {
-    "wall": "vanillablocksplus:block/basalt_mod"
+    "bottom": "minecraft:block/basalt_top",
+    "side": "minecraft:block/basalt_side",
+    "top": "minecraft:block/basalt_top"
   }
 }
