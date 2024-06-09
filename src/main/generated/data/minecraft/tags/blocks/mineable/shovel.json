@@ -243,6 +243,24 @@
     "vanillablocksplus:clay_fence_gate",
     "vanillablocksplus:clay_fence",
     "vanillablocksplus:clay_button",
-    "vanillablocksplus:clay_pressure_plate"
+    "vanillablocksplus:clay_pressure_plate",
+    "vanillablocksplus:sand_stairs",
+    "vanillablocksplus:sand_slab",
+    "vanillablocksplus:sand_wall",
+    "vanillablocksplus:sand_door",
+    "vanillablocksplus:sand_trapdoor",
+    "vanillablocksplus:sand_fence_gate",
+    "vanillablocksplus:sand_fence",
+    "vanillablocksplus:sand_button",
+    "vanillablocksplus:sand_pressure_plate",
+    "vanillablocksplus:gravel_stairs",
+    "vanillablocksplus:gravel_slab",
+    "vanillablocksplus:gravel_wall",
+    "vanillablocksplus:gravel_door",
+    "vanillablocksplus:gravel_trapdoor",
+    "vanillablocksplus:gravel_fence_gate",
+    "vanillablocksplus:gravel_fence",
+    "vanillablocksplus:gravel_button",
+    "vanillablocksplus:gravel_pressure_plate"
   ]
 }

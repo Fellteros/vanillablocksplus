@@ -1931,6 +1931,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CLAY_TRAPDOOR);
                         entries.add(ModBlocks.CLAY_PRESSURE_PLATE);
                         entries.add(ModBlocks.CLAY_BUTTON);
+                        //sand
+                        entries.add(ModBlocks.SAND_STAIRS);
+                        entries.add(ModBlocks.SAND_SLAB);
+                        entries.add(ModBlocks.SAND_WALL);
+                        entries.add(ModBlocks.SAND_FENCE);
+                        entries.add(ModBlocks.SAND_FENCE_GATE);
+                        entries.add(ModBlocks.SAND_DOOR);
+                        entries.add(ModBlocks.SAND_TRAPDOOR);
+                        entries.add(ModBlocks.SAND_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SAND_BUTTON);
+                        //gravel
+                        entries.add(ModBlocks.GRAVEL_STAIRS);
+                        entries.add(ModBlocks.GRAVEL_SLAB);
+                        entries.add(ModBlocks.GRAVEL_WALL);
+                        entries.add(ModBlocks.GRAVEL_FENCE);
+                        entries.add(ModBlocks.GRAVEL_FENCE_GATE);
+                        entries.add(ModBlocks.GRAVEL_DOOR);
+                        entries.add(ModBlocks.GRAVEL_TRAPDOOR);
+                        entries.add(ModBlocks.GRAVEL_PRESSURE_PLATE);
+                        entries.add(ModBlocks.GRAVEL_BUTTON);
 
 
 

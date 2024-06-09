@@ -2170,6 +2170,28 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.CLAY_BUTTON, Blocks.CLAY, 1).offerTo(exporter);
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.CLAY_WALL, (Blocks.CLAY)).offerTo(exporter);
 
+        //sand
+        ModRecipes.createDoorRecipe(ModBlocks.SAND_DOOR, (Blocks.SAND)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.SAND_SLAB, (Blocks.SAND)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.SAND_STAIRS, (Blocks.SAND)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.SAND_FENCE, (Blocks.SAND), (ModBlocks.SAND_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.SAND_FENCE_GATE, (Blocks.SAND), (ModBlocks.SAND_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.SAND_TRAPDOOR, (ModBlocks.SAND_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.SAND_PRESSURE_PLATE, (ModBlocks.SAND_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.SAND_BUTTON, Blocks.SAND, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.SAND_WALL, (Blocks.SAND)).offerTo(exporter);
+
+        //gravel
+        ModRecipes.createDoorRecipe(ModBlocks.GRAVEL_DOOR, (Blocks.GRAVEL)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.GRAVEL_SLAB, (Blocks.GRAVEL)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.GRAVEL_STAIRS, (Blocks.GRAVEL)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.GRAVEL_FENCE, (Blocks.GRAVEL), (ModBlocks.GRAVEL_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.GRAVEL_FENCE_GATE, (Blocks.GRAVEL), (ModBlocks.GRAVEL_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.GRAVEL_TRAPDOOR, (ModBlocks.GRAVEL_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.GRAVEL_PRESSURE_PLATE, (ModBlocks.GRAVEL_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.GRAVEL_BUTTON, Blocks.GRAVEL, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.GRAVEL_WALL, (Blocks.GRAVEL)).offerTo(exporter);
+
 
 
         

@@ -388,6 +388,10 @@ public class ModModelProvider extends FabricModelProvider {
                 bsmg.registerCubeAllModelTexturePool(Blocks.MUD);
         BlockStateModelGenerator.BlockTexturePool clayPool =
                 bsmg.registerCubeAllModelTexturePool(Blocks.CLAY);
+        BlockStateModelGenerator.BlockTexturePool sandPool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.SAND);
+        BlockStateModelGenerator.BlockTexturePool gravelPool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.GRAVEL);
 
 
         //oak
@@ -1892,6 +1896,22 @@ public class ModModelProvider extends FabricModelProvider {
         clayPool.fence(ModBlocks.CLAY_FENCE);
         clayPool.fenceGate(ModBlocks.CLAY_FENCE_GATE);
         clayPool.pressurePlate(ModBlocks.CLAY_PRESSURE_PLATE);
+        //sand
+        sandPool.button(ModBlocks.SAND_BUTTON);
+        sandPool.wall(ModBlocks.SAND_WALL);
+        sandPool.slab(ModBlocks.SAND_SLAB);
+        sandPool.stairs(ModBlocks.SAND_STAIRS);
+        sandPool.fence(ModBlocks.SAND_FENCE);
+        sandPool.fenceGate(ModBlocks.SAND_FENCE_GATE);
+        sandPool.pressurePlate(ModBlocks.SAND_PRESSURE_PLATE);
+        //gravel
+        gravelPool.button(ModBlocks.GRAVEL_BUTTON);
+        gravelPool.wall(ModBlocks.GRAVEL_WALL);
+        gravelPool.slab(ModBlocks.GRAVEL_SLAB);
+        gravelPool.stairs(ModBlocks.GRAVEL_STAIRS);
+        gravelPool.fence(ModBlocks.GRAVEL_FENCE);
+        gravelPool.fenceGate(ModBlocks.GRAVEL_FENCE_GATE);
+        gravelPool.pressurePlate(ModBlocks.GRAVEL_PRESSURE_PLATE);
 
 
 
@@ -2503,6 +2523,12 @@ public class ModModelProvider extends FabricModelProvider {
         //clay
         bsmg.registerOrientableTrapdoor(ModBlocks.CLAY_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.CLAY_DOOR);
+        //sand
+        bsmg.registerOrientableTrapdoor(ModBlocks.SAND_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.SAND_DOOR);
+        //gravel
+        bsmg.registerOrientableTrapdoor(ModBlocks.GRAVEL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GRAVEL_DOOR);
 
 
 

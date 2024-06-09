@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/gravel_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/gravel"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/gravel_slab_top"
+    }
+  }
+}

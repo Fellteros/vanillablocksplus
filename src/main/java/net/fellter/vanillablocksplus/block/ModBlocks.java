@@ -1,13 +1,13 @@
 package net.fellter.vanillablocksplus.block;
 
 
-
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
 import net.fellter.vanillablocksplus.custom_blocks.concrete_powder.*;
 import net.fellter.vanillablocksplus.custom_blocks.copper.*;
 import net.fellter.vanillablocksplus.custom_blocks.glass.*;
+import net.fellter.vanillablocksplus.custom_blocks.sand.*;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
 import net.minecraft.item.BlockItem;
@@ -5405,6 +5405,48 @@ public class ModBlocks {
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.CLAY), BlockSetType.STONE));
     public static final Block CLAY_WALL = registerBlock("clay_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.CLAY)));
+
+    //sand_block
+    public static final Block SAND_STAIRS = registerBlock("sand_stairs",
+            new FallingStairsBlock(Blocks.SAND.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SAND)));
+    public static final Block SAND_SLAB = registerBlock("sand_slab",
+            new FallingSlabBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
+    public static final Block SAND_BUTTON = registerBlock("sand_button",
+            new FallingButtonBlock(FabricBlockSettings.copyOf(Blocks.SAND), BlockSetType.STONE, 10, false));
+    public static final Block SAND_PRESSURE_PLATE = registerBlock("sand_pressure_plate",
+            new FallingPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.SAND), BlockSetType.STONE));
+    public static final Block SAND_FENCE = registerBlock("sand_fence",
+            new FallingFenceBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
+    public static final Block SAND_FENCE_GATE = registerBlock("sand_fence_gate",
+            new FallingFenceGateBlock(FabricBlockSettings.copyOf(Blocks.SAND), WoodType.OAK));
+    public static final Block SAND_DOOR = registerBlock("sand_door",
+            new FallingDoorBlock(FabricBlockSettings.copyOf(Blocks.SAND), BlockSetType.STONE));
+    public static final Block SAND_TRAPDOOR = registerBlock("sand_trapdoor",
+            new FallingTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.SAND), BlockSetType.STONE));
+    public static final Block SAND_WALL = registerBlock("sand_wall",
+            new FallingWallBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
+
+    //gravel_block
+    public static final Block GRAVEL_STAIRS = registerBlock("gravel_stairs",
+            new FallingStairsBlock(Blocks.GRAVEL.getDefaultState(), FabricBlockSettings.copyOf(Blocks.GRAVEL)));
+    public static final Block GRAVEL_SLAB = registerBlock("gravel_slab",
+            new FallingSlabBlock(FabricBlockSettings.copyOf(Blocks.GRAVEL)));
+    public static final Block GRAVEL_BUTTON = registerBlock("gravel_button",
+            new FallingButtonBlock(FabricBlockSettings.copyOf(Blocks.GRAVEL), BlockSetType.STONE, 10, false));
+    public static final Block GRAVEL_PRESSURE_PLATE = registerBlock("gravel_pressure_plate",
+            new FallingPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.GRAVEL), BlockSetType.STONE));
+    public static final Block GRAVEL_FENCE = registerBlock("gravel_fence",
+            new FallingFenceBlock(FabricBlockSettings.copyOf(Blocks.GRAVEL)));
+    public static final Block GRAVEL_FENCE_GATE = registerBlock("gravel_fence_gate",
+            new FallingFenceGateBlock(FabricBlockSettings.copyOf(Blocks.GRAVEL), WoodType.OAK));
+    public static final Block GRAVEL_DOOR = registerBlock("gravel_door",
+            new FallingDoorBlock(FabricBlockSettings.copyOf(Blocks.GRAVEL), BlockSetType.STONE));
+    public static final Block GRAVEL_TRAPDOOR = registerBlock("gravel_trapdoor",
+            new FallingTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.GRAVEL), BlockSetType.STONE));
+    public static final Block GRAVEL_WALL = registerBlock("gravel_wall",
+            new FallingWallBlock(FabricBlockSettings.copyOf(Blocks.GRAVEL)));
 
 
 

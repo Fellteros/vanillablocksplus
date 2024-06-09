@@ -200,6 +200,8 @@
     "vanillablocksplus:farmland_fence",
     "vanillablocksplus:rooted_dirt_fence",
     "vanillablocksplus:mud_fence",
-    "vanillablocksplus:clay_fence"
+    "vanillablocksplus:clay_fence",
+    "vanillablocksplus:sand_fence",
+    "vanillablocksplus:gravel_fence"
   ]
 }

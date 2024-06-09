@@ -1913,6 +1913,26 @@
   "block.vanillablocksplus.clay_pressure_plate": "Clay Pressure Plate",
   "block.vanillablocksplus.clay_button": "Clay Button",
   "block.vanillablocksplus.clay_wall": "Clay Wall",
+
+  "block.vanillablocksplus.sand_stairs": "Sand Stairs",
+  "block.vanillablocksplus.sand_slab": "Sand Slab",
+  "block.vanillablocksplus.sand_door": "Sand Door",
+  "block.vanillablocksplus.sand_trapdoor": "Sand Trapdoor",
+  "block.vanillablocksplus.sand_fence": "Sand Fence",
+  "block.vanillablocksplus.sand_fence_gate": "Sand Fence Gate",
+  "block.vanillablocksplus.sand_pressure_plate": "Sand Pressure Plate",
+  "block.vanillablocksplus.sand_button": "Sand Button",
+  "block.vanillablocksplus.sand_wall": "Sand Wall",
+
+  "block.vanillablocksplus.gravel_stairs": "Gravel Stairs",
+  "block.vanillablocksplus.gravel_slab": "Gravel Slab",
+  "block.vanillablocksplus.gravel_door": "Gravel Door",
+  "block.vanillablocksplus.gravel_trapdoor": "Gravel Trapdoor",
+  "block.vanillablocksplus.gravel_fence": "Gravel Fence",
+  "block.vanillablocksplus.gravel_fence_gate": "Gravel Fence Gate",
+  "block.vanillablocksplus.gravel_pressure_plate": "Gravel Pressure Plate",
+  "block.vanillablocksplus.gravel_button": "Gravel Button",
+  "block.vanillablocksplus.gravel_wall": "Gravel Wall",
   
 
   

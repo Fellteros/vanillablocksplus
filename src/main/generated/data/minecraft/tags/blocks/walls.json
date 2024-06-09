@@ -161,6 +161,8 @@
     "vanillablocksplus:coarse_dirt_wall",
     "vanillablocksplus:rooted_dirt_wall",
     "vanillablocksplus:mud_wall",
-    "vanillablocksplus:clay_wall"
+    "vanillablocksplus:clay_wall",
+    "vanillablocksplus:sand_wall",
+    "vanillablocksplus:gravel_wall"
   ]
 }
