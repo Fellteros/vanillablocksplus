@@ -270,6 +270,15 @@
     "vanillablocksplus:red_sand_fence_gate",
     "vanillablocksplus:red_sand_fence",
     "vanillablocksplus:red_sand_button",
-    "vanillablocksplus:red_sand_pressure_plate"
+    "vanillablocksplus:red_sand_pressure_plate",
+    "vanillablocksplus:snow_stairs",
+    "vanillablocksplus:snow_slab",
+    "vanillablocksplus:snow_wall",
+    "vanillablocksplus:snow_door",
+    "vanillablocksplus:snow_trapdoor",
+    "vanillablocksplus:snow_fence_gate",
+    "vanillablocksplus:snow_fence",
+    "vanillablocksplus:snow_button",
+    "vanillablocksplus:snow_pressure_plate"
   ]
 }

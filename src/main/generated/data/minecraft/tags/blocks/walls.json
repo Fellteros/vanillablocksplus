@@ -164,6 +164,13 @@
     "vanillablocksplus:clay_wall",
     "vanillablocksplus:sand_wall",
     "vanillablocksplus:gravel_wall",
-    "vanillablocksplus:red_sand_wall"
+    "vanillablocksplus:red_sand_wall",
+    "vanillablocksplus:ice_wall",
+    "vanillablocksplus:packed_ice_wall",
+    "vanillablocksplus:blue_ice_wall",
+    "vanillablocksplus:snow_wall",
+    "vanillablocksplus:moss_wall",
+    "vanillablocksplus:calcite_wall",
+    "vanillablocksplus:tuff_wall"
   ]
 }

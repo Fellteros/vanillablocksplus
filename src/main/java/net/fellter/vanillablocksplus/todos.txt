@@ -1,3 +1,5 @@
 //TODO strippable blocky pridat moznost je stripnout: tryStrip v AxeItem
 
 //TODO layer block model generator pridat metodu nejak
+
+//TODO BlockSetTypes a WoodTypes pridat vsem blockům

@@ -2203,6 +2203,83 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_SAND_BUTTON, Blocks.RED_SAND, 1).offerTo(exporter);
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_SAND_WALL, (Blocks.RED_SAND)).offerTo(exporter);
 
+        //ice
+        ModRecipes.createDoorRecipe(ModBlocks.ICE_DOOR, (Blocks.ICE)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.ICE_SLAB, (Blocks.ICE)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.ICE_STAIRS, (Blocks.ICE)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.ICE_FENCE, (Blocks.ICE), (ModBlocks.ICE_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.ICE_FENCE_GATE, (Blocks.ICE), (ModBlocks.ICE_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.ICE_TRAPDOOR, (ModBlocks.ICE_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.ICE_PRESSURE_PLATE, (ModBlocks.ICE_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.ICE_BUTTON, Blocks.ICE, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.ICE_WALL, (Blocks.ICE)).offerTo(exporter);
+
+        //packed_ice
+        ModRecipes.createDoorRecipe(ModBlocks.PACKED_ICE_DOOR, (Blocks.PACKED_ICE)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.PACKED_ICE_SLAB, (Blocks.PACKED_ICE)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.PACKED_ICE_STAIRS, (Blocks.PACKED_ICE)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.PACKED_ICE_FENCE, (Blocks.PACKED_ICE), (ModBlocks.PACKED_ICE_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.PACKED_ICE_FENCE_GATE, (Blocks.PACKED_ICE), (ModBlocks.PACKED_ICE_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.PACKED_ICE_TRAPDOOR, (ModBlocks.PACKED_ICE_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.PACKED_ICE_PRESSURE_PLATE, (ModBlocks.PACKED_ICE_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.PACKED_ICE_BUTTON, Blocks.PACKED_ICE, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.PACKED_ICE_WALL, (Blocks.PACKED_ICE)).offerTo(exporter);
+
+        //blue_ice
+        ModRecipes.createDoorRecipe(ModBlocks.BLUE_ICE_DOOR, (Blocks.BLUE_ICE)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLUE_ICE_SLAB, (Blocks.BLUE_ICE)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.BLUE_ICE_STAIRS, (Blocks.BLUE_ICE)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.BLUE_ICE_FENCE, (Blocks.BLUE_ICE), (ModBlocks.BLUE_ICE_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.BLUE_ICE_FENCE_GATE, (Blocks.BLUE_ICE), (ModBlocks.BLUE_ICE_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.BLUE_ICE_TRAPDOOR, (ModBlocks.BLUE_ICE_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLUE_ICE_PRESSURE_PLATE, (ModBlocks.BLUE_ICE_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLUE_ICE_BUTTON, Blocks.BLUE_ICE, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLUE_ICE_WALL, (Blocks.BLUE_ICE)).offerTo(exporter);
+
+        //snow_block
+        ModRecipes.createDoorRecipe(ModBlocks.SNOW_DOOR, (Blocks.SNOW_BLOCK)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.SNOW_SLAB, (Blocks.SNOW_BLOCK)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.SNOW_STAIRS, (Blocks.SNOW_BLOCK)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.SNOW_FENCE, (Blocks.SNOW_BLOCK), (ModBlocks.SNOW_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.SNOW_FENCE_GATE, (Blocks.SNOW_BLOCK), (ModBlocks.SNOW_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.SNOW_TRAPDOOR, (ModBlocks.SNOW_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.SNOW_PRESSURE_PLATE, (ModBlocks.SNOW_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.SNOW_BUTTON, Blocks.SNOW_BLOCK, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.SNOW_WALL, (Blocks.SNOW_BLOCK)).offerTo(exporter);
+
+        //moss_block
+        ModRecipes.createDoorRecipe(ModBlocks.MOSS_DOOR, (Blocks.MOSS_BLOCK)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.MOSS_SLAB, (Blocks.MOSS_BLOCK)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.MOSS_STAIRS, (Blocks.MOSS_BLOCK)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.MOSS_FENCE, (Blocks.MOSS_BLOCK), (ModBlocks.MOSS_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.MOSS_FENCE_GATE, (Blocks.MOSS_BLOCK), (ModBlocks.MOSS_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.MOSS_TRAPDOOR, (ModBlocks.MOSS_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.MOSS_PRESSURE_PLATE, (ModBlocks.MOSS_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.MOSS_BUTTON, Blocks.MOSS_BLOCK, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.MOSS_WALL, (Blocks.MOSS_BLOCK)).offerTo(exporter);
+
+        //calcite
+        ModRecipes.createDoorRecipe(ModBlocks.CALCITE_DOOR, (Blocks.CALCITE)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.CALCITE_SLAB, (Blocks.CALCITE)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.CALCITE_STAIRS, (Blocks.CALCITE)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.CALCITE_FENCE, (Blocks.CALCITE), (ModBlocks.CALCITE_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.CALCITE_FENCE_GATE, (Blocks.CALCITE), (ModBlocks.CALCITE_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.CALCITE_TRAPDOOR, (ModBlocks.CALCITE_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.CALCITE_PRESSURE_PLATE, (ModBlocks.CALCITE_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.CALCITE_BUTTON, Blocks.CALCITE, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.CALCITE_WALL, (Blocks.CALCITE)).offerTo(exporter);
+
+        //tuff
+        ModRecipes.createDoorRecipe(ModBlocks.TUFF_DOOR, (Blocks.TUFF)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.TUFF_SLAB, (Blocks.TUFF)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.TUFF_STAIRS, (Blocks.TUFF)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.TUFF_FENCE, (Blocks.TUFF), (ModBlocks.TUFF_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.TUFF_FENCE_GATE, (Blocks.TUFF), (ModBlocks.TUFF_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.TUFF_TRAPDOOR, (ModBlocks.TUFF_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.TUFF_PRESSURE_PLATE, (ModBlocks.TUFF_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.TUFF_BUTTON, Blocks.TUFF, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.TUFF_WALL, (Blocks.TUFF)).offerTo(exporter);
+
 
 
         

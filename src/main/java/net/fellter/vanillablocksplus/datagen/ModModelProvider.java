@@ -392,6 +392,20 @@ public class ModModelProvider extends FabricModelProvider {
                 bsmg.registerCubeAllModelTexturePool(Blocks.GRAVEL);
         BlockStateModelGenerator.BlockTexturePool redSandPool =
                 bsmg.registerCubeAllModelTexturePool(Blocks.RED_SAND);
+        BlockStateModelGenerator.BlockTexturePool icePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.ICE);
+        BlockStateModelGenerator.BlockTexturePool packedIcePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.PACKED_ICE);
+        BlockStateModelGenerator.BlockTexturePool blueIcePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.BLUE_ICE);
+        BlockStateModelGenerator.BlockTexturePool snowPool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.SNOW);
+        BlockStateModelGenerator.BlockTexturePool mossPool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.MOSS_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool calcitePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.CALCITE);
+        BlockStateModelGenerator.BlockTexturePool tuffPool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.TUFF);
 
 
         //oak
@@ -1920,6 +1934,62 @@ public class ModModelProvider extends FabricModelProvider {
         redSandPool.fence(ModBlocks.RED_SAND_FENCE);
         redSandPool.fenceGate(ModBlocks.RED_SAND_FENCE_GATE);
         redSandPool.pressurePlate(ModBlocks.RED_SAND_PRESSURE_PLATE);
+        //ice
+        icePool.button(ModBlocks.ICE_BUTTON);
+        icePool.wall(ModBlocks.ICE_WALL);
+        icePool.slab(ModBlocks.ICE_SLAB);
+        icePool.stairs(ModBlocks.ICE_STAIRS);
+        icePool.fence(ModBlocks.ICE_FENCE);
+        icePool.fenceGate(ModBlocks.ICE_FENCE_GATE);
+        icePool.pressurePlate(ModBlocks.ICE_PRESSURE_PLATE);
+        //packed_ice
+        packedIcePool.button(ModBlocks.PACKED_ICE_BUTTON);
+        packedIcePool.wall(ModBlocks.PACKED_ICE_WALL);
+        packedIcePool.slab(ModBlocks.PACKED_ICE_SLAB);
+        packedIcePool.stairs(ModBlocks.PACKED_ICE_STAIRS);
+        packedIcePool.fence(ModBlocks.PACKED_ICE_FENCE);
+        packedIcePool.fenceGate(ModBlocks.PACKED_ICE_FENCE_GATE);
+        packedIcePool.pressurePlate(ModBlocks.PACKED_ICE_PRESSURE_PLATE);
+        //blue_ice
+        blueIcePool.button(ModBlocks.BLUE_ICE_BUTTON);
+        blueIcePool.wall(ModBlocks.BLUE_ICE_WALL);
+        blueIcePool.slab(ModBlocks.BLUE_ICE_SLAB);
+        blueIcePool.stairs(ModBlocks.BLUE_ICE_STAIRS);
+        blueIcePool.fence(ModBlocks.BLUE_ICE_FENCE);
+        blueIcePool.fenceGate(ModBlocks.BLUE_ICE_FENCE_GATE);
+        blueIcePool.pressurePlate(ModBlocks.BLUE_ICE_PRESSURE_PLATE);
+        //snow
+        snowPool.button(ModBlocks.SNOW_BUTTON);
+        snowPool.wall(ModBlocks.SNOW_WALL);
+        snowPool.slab(ModBlocks.SNOW_SLAB);
+        snowPool.stairs(ModBlocks.SNOW_STAIRS);
+        snowPool.fence(ModBlocks.SNOW_FENCE);
+        snowPool.fenceGate(ModBlocks.SNOW_FENCE_GATE);
+        snowPool.pressurePlate(ModBlocks.SNOW_PRESSURE_PLATE);
+        //moss
+        mossPool.button(ModBlocks.MOSS_BUTTON);
+        mossPool.wall(ModBlocks.MOSS_WALL);
+        mossPool.slab(ModBlocks.MOSS_SLAB);
+        mossPool.stairs(ModBlocks.MOSS_STAIRS);
+        mossPool.fence(ModBlocks.MOSS_FENCE);
+        mossPool.fenceGate(ModBlocks.MOSS_FENCE_GATE);
+        mossPool.pressurePlate(ModBlocks.MOSS_PRESSURE_PLATE);
+        //calcite
+        calcitePool.button(ModBlocks.CALCITE_BUTTON);
+        calcitePool.wall(ModBlocks.CALCITE_WALL);
+        calcitePool.slab(ModBlocks.CALCITE_SLAB);
+        calcitePool.stairs(ModBlocks.CALCITE_STAIRS);
+        calcitePool.fence(ModBlocks.CALCITE_FENCE);
+        calcitePool.fenceGate(ModBlocks.CALCITE_FENCE_GATE);
+        calcitePool.pressurePlate(ModBlocks.CALCITE_PRESSURE_PLATE);
+        //tuff
+        tuffPool.button(ModBlocks.TUFF_BUTTON);
+        tuffPool.wall(ModBlocks.TUFF_WALL);
+        tuffPool.slab(ModBlocks.TUFF_SLAB);
+        tuffPool.stairs(ModBlocks.TUFF_STAIRS);
+        tuffPool.fence(ModBlocks.TUFF_FENCE);
+        tuffPool.fenceGate(ModBlocks.TUFF_FENCE_GATE);
+        tuffPool.pressurePlate(ModBlocks.TUFF_PRESSURE_PLATE);
 
 
 
@@ -2540,6 +2610,27 @@ public class ModModelProvider extends FabricModelProvider {
         //red_sand
         bsmg.registerOrientableTrapdoor(ModBlocks.RED_SAND_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.RED_SAND_DOOR);
+        //ice
+        bsmg.registerOrientableTrapdoor(ModBlocks.ICE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.ICE_DOOR);
+        //packed_ice
+        bsmg.registerOrientableTrapdoor(ModBlocks.PACKED_ICE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PACKED_ICE_DOOR);
+        //blue_ice
+        bsmg.registerOrientableTrapdoor(ModBlocks.BLUE_ICE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BLUE_ICE_DOOR);
+        //snow
+        bsmg.registerOrientableTrapdoor(ModBlocks.SNOW_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.SNOW_DOOR);
+        //moss
+        bsmg.registerOrientableTrapdoor(ModBlocks.MOSS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.MOSS_DOOR);
+        //calcite
+        bsmg.registerOrientableTrapdoor(ModBlocks.CALCITE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CALCITE_DOOR);
+        //tuff
+        bsmg.registerOrientableTrapdoor(ModBlocks.TUFF_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.TUFF_DOOR);
 
 
 

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "vanillablocksplus:moss_stairs",
+    "vanillablocksplus:moss_slab",
+    "vanillablocksplus:moss_wall",
+    "vanillablocksplus:moss_door",
+    "vanillablocksplus:moss_trapdoor",
+    "vanillablocksplus:moss_fence_gate",
+    "vanillablocksplus:moss_fence",
+    "vanillablocksplus:moss_button",
+    "vanillablocksplus:moss_pressure_plate"
+  ]
+}

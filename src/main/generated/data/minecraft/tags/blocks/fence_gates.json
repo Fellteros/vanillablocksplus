@@ -197,6 +197,13 @@
     "vanillablocksplus:clay_fence_gate",
     "vanillablocksplus:sand_fence_gate",
     "vanillablocksplus:gravel_fence_gate",
-    "vanillablocksplus:red_sand_fence_gate"
+    "vanillablocksplus:red_sand_fence_gate",
+    "vanillablocksplus:ice_fence_gate",
+    "vanillablocksplus:packed_ice_fence_gate",
+    "vanillablocksplus:blue_ice_fence_gate",
+    "vanillablocksplus:snow_fence_gate",
+    "vanillablocksplus:moss_fence_gate",
+    "vanillablocksplus:calcite_fence_gate",
+    "vanillablocksplus:tuff_fence_gate"
   ]
 }

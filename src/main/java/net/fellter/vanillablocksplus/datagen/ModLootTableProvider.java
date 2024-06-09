@@ -1927,6 +1927,83 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RED_SAND_DOOR, doorDrops(ModBlocks.RED_SAND_DOOR));
         addDrop(ModBlocks.RED_SAND_SLAB, slabDrops(ModBlocks.RED_SAND_SLAB));
         addDrop(ModBlocks.RED_SAND_WALL);
+
+        //ice
+        addDrop(ModBlocks.ICE_STAIRS);
+        addDrop(ModBlocks.ICE_TRAPDOOR);
+        addDrop(ModBlocks.ICE_BUTTON);
+        addDrop(ModBlocks.ICE_PRESSURE_PLATE);
+        addDrop(ModBlocks.ICE_FENCE);
+        addDrop(ModBlocks.ICE_FENCE_GATE);
+        addDrop(ModBlocks.ICE_DOOR, doorDrops(ModBlocks.ICE_DOOR));
+        addDrop(ModBlocks.ICE_SLAB, slabDrops(ModBlocks.ICE_SLAB));
+        addDrop(ModBlocks.ICE_WALL);
+
+        //packed_ice
+        addDrop(ModBlocks.PACKED_ICE_STAIRS);
+        addDrop(ModBlocks.PACKED_ICE_TRAPDOOR);
+        addDrop(ModBlocks.PACKED_ICE_BUTTON);
+        addDrop(ModBlocks.PACKED_ICE_PRESSURE_PLATE);
+        addDrop(ModBlocks.PACKED_ICE_FENCE);
+        addDrop(ModBlocks.PACKED_ICE_FENCE_GATE);
+        addDrop(ModBlocks.PACKED_ICE_DOOR, doorDrops(ModBlocks.PACKED_ICE_DOOR));
+        addDrop(ModBlocks.PACKED_ICE_SLAB, slabDrops(ModBlocks.PACKED_ICE_SLAB));
+        addDrop(ModBlocks.PACKED_ICE_WALL);
+
+        //blue_ice
+        addDrop(ModBlocks.BLUE_ICE_STAIRS);
+        addDrop(ModBlocks.BLUE_ICE_TRAPDOOR);
+        addDrop(ModBlocks.BLUE_ICE_BUTTON);
+        addDrop(ModBlocks.BLUE_ICE_PRESSURE_PLATE);
+        addDrop(ModBlocks.BLUE_ICE_FENCE);
+        addDrop(ModBlocks.BLUE_ICE_FENCE_GATE);
+        addDrop(ModBlocks.BLUE_ICE_DOOR, doorDrops(ModBlocks.BLUE_ICE_DOOR));
+        addDrop(ModBlocks.BLUE_ICE_SLAB, slabDrops(ModBlocks.BLUE_ICE_SLAB));
+        addDrop(ModBlocks.BLUE_ICE_WALL);
+
+        //snow
+        addDrop(ModBlocks.SNOW_STAIRS);
+        addDrop(ModBlocks.SNOW_TRAPDOOR);
+        addDrop(ModBlocks.SNOW_BUTTON);
+        addDrop(ModBlocks.SNOW_PRESSURE_PLATE);
+        addDrop(ModBlocks.SNOW_FENCE);
+        addDrop(ModBlocks.SNOW_FENCE_GATE);
+        addDrop(ModBlocks.SNOW_DOOR, doorDrops(ModBlocks.SNOW_DOOR));
+        addDrop(ModBlocks.SNOW_SLAB, slabDrops(ModBlocks.SNOW_SLAB));
+        addDrop(ModBlocks.SNOW_WALL);
+
+        //moss
+        addDrop(ModBlocks.MOSS_STAIRS);
+        addDrop(ModBlocks.MOSS_TRAPDOOR);
+        addDrop(ModBlocks.MOSS_BUTTON);
+        addDrop(ModBlocks.MOSS_PRESSURE_PLATE);
+        addDrop(ModBlocks.MOSS_FENCE);
+        addDrop(ModBlocks.MOSS_FENCE_GATE);
+        addDrop(ModBlocks.MOSS_DOOR, doorDrops(ModBlocks.MOSS_DOOR));
+        addDrop(ModBlocks.MOSS_SLAB, slabDrops(ModBlocks.MOSS_SLAB));
+        addDrop(ModBlocks.MOSS_WALL);
+
+        //calcite
+        addDrop(ModBlocks.CALCITE_STAIRS);
+        addDrop(ModBlocks.CALCITE_TRAPDOOR);
+        addDrop(ModBlocks.CALCITE_BUTTON);
+        addDrop(ModBlocks.CALCITE_PRESSURE_PLATE);
+        addDrop(ModBlocks.CALCITE_FENCE);
+        addDrop(ModBlocks.CALCITE_FENCE_GATE);
+        addDrop(ModBlocks.CALCITE_DOOR, doorDrops(ModBlocks.CALCITE_DOOR));
+        addDrop(ModBlocks.CALCITE_SLAB, slabDrops(ModBlocks.CALCITE_SLAB));
+        addDrop(ModBlocks.CALCITE_WALL);
+
+        //tuff
+        addDrop(ModBlocks.TUFF_STAIRS);
+        addDrop(ModBlocks.TUFF_TRAPDOOR);
+        addDrop(ModBlocks.TUFF_BUTTON);
+        addDrop(ModBlocks.TUFF_PRESSURE_PLATE);
+        addDrop(ModBlocks.TUFF_FENCE);
+        addDrop(ModBlocks.TUFF_FENCE_GATE);
+        addDrop(ModBlocks.TUFF_DOOR, doorDrops(ModBlocks.TUFF_DOOR));
+        addDrop(ModBlocks.TUFF_SLAB, slabDrops(ModBlocks.TUFF_SLAB));
+        addDrop(ModBlocks.TUFF_WALL);
         
         
         

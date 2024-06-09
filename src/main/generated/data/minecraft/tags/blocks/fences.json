@@ -203,6 +203,13 @@
     "vanillablocksplus:clay_fence",
     "vanillablocksplus:sand_fence",
     "vanillablocksplus:gravel_fence",
-    "vanillablocksplus:red_sand_fence"
+    "vanillablocksplus:red_sand_fence",
+    "vanillablocksplus:ice_fence",
+    "vanillablocksplus:packed_ice_fence",
+    "vanillablocksplus:blue_ice_fence",
+    "vanillablocksplus:snow_fence",
+    "vanillablocksplus:moss_fence",
+    "vanillablocksplus:calcite_fence",
+    "vanillablocksplus:tuff_fence"
   ]
 }

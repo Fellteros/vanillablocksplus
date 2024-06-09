@@ -19,164 +19,178 @@ public class TransparentBlocksRegistry {
                ModBlocks.GRASS_PRESSURE_PLATE);
 
 
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_STAINED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_STAINED_GLASS_FENCE_GATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-       
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_STAINED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_STAINED_GLASS_FENCE_GATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-       
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_STAINED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_STAINED_GLASS_FENCE_GATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-       
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_STAINED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_STAINED_GLASS_FENCE_GATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-       
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_STAINED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_STAINED_GLASS_FENCE_GATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-       
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_STAINED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_STAINED_GLASS_FENCE_GATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
+       BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getTranslucent(),
+               ModBlocks.ICE_BUTTON,
+               ModBlocks.ICE_FENCE,
+               ModBlocks.ICE_FENCE_GATE,
+               ModBlocks.ICE_SLAB,
+               ModBlocks.ICE_STAIRS,
+               ModBlocks.ICE_PRESSURE_PLATE,
+               ModBlocks.ICE_WALL,
+               ModBlocks.ICE_TRAPDOOR,
+               ModBlocks.ICE_DOOR,
+               ModBlocks.PACKED_ICE_BUTTON,
+               ModBlocks.PACKED_ICE_FENCE,
+               ModBlocks.PACKED_ICE_FENCE_GATE,
+               ModBlocks.PACKED_ICE_SLAB,
+               ModBlocks.PACKED_ICE_STAIRS,
+               ModBlocks.PACKED_ICE_PRESSURE_PLATE,
+               ModBlocks.PACKED_ICE_WALL,
+               ModBlocks.PACKED_ICE_TRAPDOOR,
+               ModBlocks.PACKED_ICE_DOOR,
+               ModBlocks.BLUE_ICE_BUTTON,
+               ModBlocks.BLUE_ICE_FENCE,
+               ModBlocks.BLUE_ICE_FENCE_GATE,
+               ModBlocks.BLUE_ICE_SLAB,
+               ModBlocks.BLUE_ICE_STAIRS,
+               ModBlocks.BLUE_ICE_PRESSURE_PLATE,
+               ModBlocks.BLUE_ICE_WALL,
+               ModBlocks.BLUE_ICE_TRAPDOOR,
+               ModBlocks.BLUE_ICE_DOOR,
 
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_STAINED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_STAINED_GLASS_FENCE_GATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.YELLOW_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.YELLOW_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.YELLOW_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.YELLOW_STAINED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.YELLOW_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.YELLOW_STAINED_GLASS_FENCE_GATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.YELLOW_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.YELLOW_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.YELLOW_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_STAINED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_STAINED_GLASS_FENCE_GATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_STAINED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_STAINED_GLASS_FENCE_GATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_BLUE_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_BLUE_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_BLUE_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_BLUE_STAINED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_BLUE_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_BLUE_STAINED_GLASS_FENCE_GATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_BLUE_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_BLUE_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_BLUE_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_STAINED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_STAINED_GLASS_FENCE_GATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYAN_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYAN_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYAN_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYAN_STAINED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYAN_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYAN_STAINED_GLASS_FENCE_GATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYAN_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYAN_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYAN_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_STAINED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_STAINED_GLASS_FENCE_GATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_STAINED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_STAINED_GLASS_FENCE_GATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_STAINED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_STAINED_GLASS_FENCE_GATE, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
-       BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
+               ModBlocks.WHITE_STAINED_GLASS_STAIRS,
+               ModBlocks.WHITE_STAINED_GLASS_SLAB,
+               ModBlocks.WHITE_STAINED_GLASS_BUTTON,
+               ModBlocks.WHITE_STAINED_GLASS_PRESSURE_PLATE,
+               ModBlocks.WHITE_STAINED_GLASS_FENCE,
+               ModBlocks.WHITE_STAINED_GLASS_FENCE_GATE,
+               ModBlocks.WHITE_STAINED_GLASS_DOOR,
+               ModBlocks.WHITE_STAINED_GLASS_TRAPDOOR,
+               ModBlocks.WHITE_STAINED_GLASS_WALL,
+               ModBlocks.LIGHT_GRAY_STAINED_GLASS_STAIRS,
+               ModBlocks.LIGHT_GRAY_STAINED_GLASS_SLAB,
+               ModBlocks.LIGHT_GRAY_STAINED_GLASS_BUTTON,
+               ModBlocks.LIGHT_GRAY_STAINED_GLASS_PRESSURE_PLATE,
+               ModBlocks.LIGHT_GRAY_STAINED_GLASS_FENCE,
+               ModBlocks.LIGHT_GRAY_STAINED_GLASS_FENCE_GATE,
+               ModBlocks.LIGHT_GRAY_STAINED_GLASS_DOOR,
+               ModBlocks.LIGHT_GRAY_STAINED_GLASS_TRAPDOOR,
+               ModBlocks.LIGHT_GRAY_STAINED_GLASS_WALL,
+               ModBlocks.GRAY_STAINED_GLASS_STAIRS,
+               ModBlocks.GRAY_STAINED_GLASS_SLAB,
+               ModBlocks.GRAY_STAINED_GLASS_BUTTON,
+               ModBlocks.GRAY_STAINED_GLASS_PRESSURE_PLATE,
+               ModBlocks.GRAY_STAINED_GLASS_FENCE,
+               ModBlocks.GRAY_STAINED_GLASS_FENCE_GATE,
+               ModBlocks.GRAY_STAINED_GLASS_DOOR,
+               ModBlocks.GRAY_STAINED_GLASS_TRAPDOOR,
+               ModBlocks.GRAY_STAINED_GLASS_WALL,
+               ModBlocks.BLACK_STAINED_GLASS_STAIRS,
+               ModBlocks.BLACK_STAINED_GLASS_SLAB,
+               ModBlocks.BLACK_STAINED_GLASS_BUTTON,
+               ModBlocks.BLACK_STAINED_GLASS_PRESSURE_PLATE,
+               ModBlocks.BLACK_STAINED_GLASS_FENCE,
+               ModBlocks.BLACK_STAINED_GLASS_FENCE_GATE,
+               ModBlocks.BLACK_STAINED_GLASS_DOOR,
+               ModBlocks.BLACK_STAINED_GLASS_TRAPDOOR,
+               ModBlocks.BLACK_STAINED_GLASS_WALL,
+               ModBlocks.BROWN_STAINED_GLASS_STAIRS,
+               ModBlocks.BROWN_STAINED_GLASS_SLAB,
+               ModBlocks.BROWN_STAINED_GLASS_BUTTON,
+               ModBlocks.BROWN_STAINED_GLASS_PRESSURE_PLATE,
+               ModBlocks.BROWN_STAINED_GLASS_FENCE,
+               ModBlocks.BROWN_STAINED_GLASS_FENCE_GATE,
+               ModBlocks.BROWN_STAINED_GLASS_DOOR,
+               ModBlocks.BROWN_STAINED_GLASS_TRAPDOOR,
+               ModBlocks.BROWN_STAINED_GLASS_WALL,
+               ModBlocks.RED_STAINED_GLASS_STAIRS,
+               ModBlocks.RED_STAINED_GLASS_SLAB,
+               ModBlocks.RED_STAINED_GLASS_BUTTON,
+               ModBlocks.RED_STAINED_GLASS_PRESSURE_PLATE,
+               ModBlocks.RED_STAINED_GLASS_FENCE,
+               ModBlocks.RED_STAINED_GLASS_FENCE_GATE,
+               ModBlocks.RED_STAINED_GLASS_DOOR,
+               ModBlocks.RED_STAINED_GLASS_TRAPDOOR,
+               ModBlocks.RED_STAINED_GLASS_WALL,
+               ModBlocks.ORANGE_STAINED_GLASS_STAIRS,
+               ModBlocks.ORANGE_STAINED_GLASS_SLAB,
+               ModBlocks.ORANGE_STAINED_GLASS_BUTTON,
+               ModBlocks.ORANGE_STAINED_GLASS_PRESSURE_PLATE,
+               ModBlocks.ORANGE_STAINED_GLASS_FENCE,
+               ModBlocks.ORANGE_STAINED_GLASS_FENCE_GATE,
+               ModBlocks.ORANGE_STAINED_GLASS_DOOR,
+               ModBlocks.ORANGE_STAINED_GLASS_TRAPDOOR,
+               ModBlocks.ORANGE_STAINED_GLASS_WALL,
+               ModBlocks.YELLOW_STAINED_GLASS_STAIRS,
+               ModBlocks.YELLOW_STAINED_GLASS_SLAB,
+               ModBlocks.YELLOW_STAINED_GLASS_BUTTON,
+               ModBlocks.YELLOW_STAINED_GLASS_PRESSURE_PLATE,
+               ModBlocks.YELLOW_STAINED_GLASS_FENCE,
+               ModBlocks.YELLOW_STAINED_GLASS_FENCE_GATE,
+               ModBlocks.YELLOW_STAINED_GLASS_DOOR,
+               ModBlocks.YELLOW_STAINED_GLASS_TRAPDOOR,
+               ModBlocks.YELLOW_STAINED_GLASS_WALL,
+               ModBlocks.LIME_STAINED_GLASS_STAIRS,
+               ModBlocks.LIME_STAINED_GLASS_SLAB,
+               ModBlocks.LIME_STAINED_GLASS_BUTTON,
+               ModBlocks.LIME_STAINED_GLASS_PRESSURE_PLATE,
+               ModBlocks.LIME_STAINED_GLASS_FENCE,
+               ModBlocks.LIME_STAINED_GLASS_FENCE_GATE,
+               ModBlocks.LIME_STAINED_GLASS_DOOR,
+               ModBlocks.LIME_STAINED_GLASS_TRAPDOOR,
+               ModBlocks.LIME_STAINED_GLASS_WALL,
+               ModBlocks.GREEN_STAINED_GLASS_STAIRS,
+               ModBlocks.GREEN_STAINED_GLASS_SLAB,
+               ModBlocks.GREEN_STAINED_GLASS_BUTTON,
+               ModBlocks.GREEN_STAINED_GLASS_PRESSURE_PLATE,
+               ModBlocks.GREEN_STAINED_GLASS_FENCE,
+               ModBlocks.GREEN_STAINED_GLASS_FENCE_GATE,
+               ModBlocks.GREEN_STAINED_GLASS_DOOR,
+               ModBlocks.GREEN_STAINED_GLASS_TRAPDOOR,
+               ModBlocks.GREEN_STAINED_GLASS_WALL,
+               ModBlocks.LIGHT_BLUE_STAINED_GLASS_STAIRS,
+               ModBlocks.LIGHT_BLUE_STAINED_GLASS_SLAB,
+               ModBlocks.LIGHT_BLUE_STAINED_GLASS_BUTTON,
+               ModBlocks.LIGHT_BLUE_STAINED_GLASS_PRESSURE_PLATE,
+               ModBlocks.LIGHT_BLUE_STAINED_GLASS_FENCE,
+               ModBlocks.LIGHT_BLUE_STAINED_GLASS_FENCE_GATE,
+               ModBlocks.LIGHT_BLUE_STAINED_GLASS_DOOR,
+               ModBlocks.LIGHT_BLUE_STAINED_GLASS_TRAPDOOR,
+               ModBlocks.LIGHT_BLUE_STAINED_GLASS_WALL,
+               ModBlocks.BLUE_STAINED_GLASS_STAIRS,
+               ModBlocks.BLUE_STAINED_GLASS_SLAB,
+               ModBlocks.BLUE_STAINED_GLASS_BUTTON,
+               ModBlocks.BLUE_STAINED_GLASS_PRESSURE_PLATE,
+               ModBlocks.BLUE_STAINED_GLASS_FENCE,
+               ModBlocks.BLUE_STAINED_GLASS_FENCE_GATE,
+               ModBlocks.BLUE_STAINED_GLASS_DOOR,
+               ModBlocks.BLUE_STAINED_GLASS_TRAPDOOR,
+               ModBlocks.BLUE_STAINED_GLASS_WALL,
+               ModBlocks.CYAN_STAINED_GLASS_STAIRS,
+               ModBlocks.CYAN_STAINED_GLASS_SLAB,
+               ModBlocks.CYAN_STAINED_GLASS_BUTTON,
+               ModBlocks.CYAN_STAINED_GLASS_PRESSURE_PLATE,
+               ModBlocks.CYAN_STAINED_GLASS_FENCE,
+               ModBlocks.CYAN_STAINED_GLASS_FENCE_GATE,
+               ModBlocks.CYAN_STAINED_GLASS_DOOR,
+               ModBlocks.CYAN_STAINED_GLASS_TRAPDOOR,
+               ModBlocks.CYAN_STAINED_GLASS_WALL,
+               ModBlocks.PURPLE_STAINED_GLASS_STAIRS,
+               ModBlocks.PURPLE_STAINED_GLASS_SLAB,
+               ModBlocks.PURPLE_STAINED_GLASS_BUTTON,
+               ModBlocks.PURPLE_STAINED_GLASS_PRESSURE_PLATE,
+               ModBlocks.PURPLE_STAINED_GLASS_FENCE,
+               ModBlocks.PURPLE_STAINED_GLASS_FENCE_GATE,
+               ModBlocks.PURPLE_STAINED_GLASS_DOOR,
+               ModBlocks.PURPLE_STAINED_GLASS_TRAPDOOR,
+               ModBlocks.PURPLE_STAINED_GLASS_WALL,
+               ModBlocks.MAGENTA_STAINED_GLASS_STAIRS,
+               ModBlocks.MAGENTA_STAINED_GLASS_SLAB,
+               ModBlocks.MAGENTA_STAINED_GLASS_BUTTON,
+               ModBlocks.MAGENTA_STAINED_GLASS_PRESSURE_PLATE,
+               ModBlocks.MAGENTA_STAINED_GLASS_FENCE,
+               ModBlocks.MAGENTA_STAINED_GLASS_FENCE_GATE,
+               ModBlocks.MAGENTA_STAINED_GLASS_DOOR,
+               ModBlocks.MAGENTA_STAINED_GLASS_TRAPDOOR,
+               ModBlocks.MAGENTA_STAINED_GLASS_WALL,
+               ModBlocks.PINK_STAINED_GLASS_STAIRS,
+               ModBlocks.PINK_STAINED_GLASS_SLAB,
+               ModBlocks.PINK_STAINED_GLASS_BUTTON,
+               ModBlocks.PINK_STAINED_GLASS_PRESSURE_PLATE,
+               ModBlocks.PINK_STAINED_GLASS_FENCE,
+               ModBlocks.PINK_STAINED_GLASS_FENCE_GATE,
+               ModBlocks.PINK_STAINED_GLASS_DOOR,
+               ModBlocks.PINK_STAINED_GLASS_TRAPDOOR,
+               ModBlocks.PINK_STAINED_GLASS_WALL);
    }
 }

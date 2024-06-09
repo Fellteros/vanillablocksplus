@@ -1961,6 +1961,76 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RED_SAND_TRAPDOOR);
                         entries.add(ModBlocks.RED_SAND_PRESSURE_PLATE);
                         entries.add(ModBlocks.RED_SAND_BUTTON);
+                        //ice
+                        entries.add(ModBlocks.ICE_STAIRS);
+                        entries.add(ModBlocks.ICE_SLAB);
+                        entries.add(ModBlocks.ICE_WALL);
+                        entries.add(ModBlocks.ICE_FENCE);
+                        entries.add(ModBlocks.ICE_FENCE_GATE);
+                        entries.add(ModBlocks.ICE_DOOR);
+                        entries.add(ModBlocks.ICE_TRAPDOOR);
+                        entries.add(ModBlocks.ICE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.ICE_BUTTON);
+                        //packed_ice
+                        entries.add(ModBlocks.PACKED_ICE_STAIRS);
+                        entries.add(ModBlocks.PACKED_ICE_SLAB);
+                        entries.add(ModBlocks.PACKED_ICE_WALL);
+                        entries.add(ModBlocks.PACKED_ICE_FENCE);
+                        entries.add(ModBlocks.PACKED_ICE_FENCE_GATE);
+                        entries.add(ModBlocks.PACKED_ICE_DOOR);
+                        entries.add(ModBlocks.PACKED_ICE_TRAPDOOR);
+                        entries.add(ModBlocks.PACKED_ICE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.PACKED_ICE_BUTTON);
+                        //blue_ice
+                        entries.add(ModBlocks.BLUE_ICE_STAIRS);
+                        entries.add(ModBlocks.BLUE_ICE_SLAB);
+                        entries.add(ModBlocks.BLUE_ICE_WALL);
+                        entries.add(ModBlocks.BLUE_ICE_FENCE);
+                        entries.add(ModBlocks.BLUE_ICE_FENCE_GATE);
+                        entries.add(ModBlocks.BLUE_ICE_DOOR);
+                        entries.add(ModBlocks.BLUE_ICE_TRAPDOOR);
+                        entries.add(ModBlocks.BLUE_ICE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.BLUE_ICE_BUTTON);
+                        //snow
+                        entries.add(ModBlocks.SNOW_STAIRS);
+                        entries.add(ModBlocks.SNOW_SLAB);
+                        entries.add(ModBlocks.SNOW_WALL);
+                        entries.add(ModBlocks.SNOW_FENCE);
+                        entries.add(ModBlocks.SNOW_FENCE_GATE);
+                        entries.add(ModBlocks.SNOW_DOOR);
+                        entries.add(ModBlocks.SNOW_TRAPDOOR);
+                        entries.add(ModBlocks.SNOW_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SNOW_BUTTON);
+                        //moss
+                        entries.add(ModBlocks.MOSS_STAIRS);
+                        entries.add(ModBlocks.MOSS_SLAB);
+                        entries.add(ModBlocks.MOSS_WALL);
+                        entries.add(ModBlocks.MOSS_FENCE);
+                        entries.add(ModBlocks.MOSS_FENCE_GATE);
+                        entries.add(ModBlocks.MOSS_DOOR);
+                        entries.add(ModBlocks.MOSS_TRAPDOOR);
+                        entries.add(ModBlocks.MOSS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.MOSS_BUTTON);
+                        //calcite
+                        entries.add(ModBlocks.CALCITE_STAIRS);
+                        entries.add(ModBlocks.CALCITE_SLAB);
+                        entries.add(ModBlocks.CALCITE_WALL);
+                        entries.add(ModBlocks.CALCITE_FENCE);
+                        entries.add(ModBlocks.CALCITE_FENCE_GATE);
+                        entries.add(ModBlocks.CALCITE_DOOR);
+                        entries.add(ModBlocks.CALCITE_TRAPDOOR);
+                        entries.add(ModBlocks.CALCITE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CALCITE_BUTTON);
+                        //tuff
+                        entries.add(ModBlocks.TUFF_STAIRS);
+                        entries.add(ModBlocks.TUFF_SLAB);
+                        entries.add(ModBlocks.TUFF_WALL);
+                        entries.add(ModBlocks.TUFF_FENCE);
+                        entries.add(ModBlocks.TUFF_FENCE_GATE);
+                        entries.add(ModBlocks.TUFF_DOOR);
+                        entries.add(ModBlocks.TUFF_TRAPDOOR);
+                        entries.add(ModBlocks.TUFF_PRESSURE_PLATE);
+                        entries.add(ModBlocks.TUFF_BUTTON);
 
 
 

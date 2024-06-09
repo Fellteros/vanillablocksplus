@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/packed_ice_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/packed_ice"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/packed_ice_slab_top"
+    }
+  }
+}

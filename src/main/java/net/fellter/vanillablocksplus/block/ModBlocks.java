@@ -5326,6 +5326,153 @@ public class ModBlocks {
     public static final Block RED_SAND_WALL = registerBlock("red_sand_wall",
             new FallingWallBlock(FabricBlockSettings.copyOf(Blocks.RED_SAND)));
 
+    //ice
+    public static final Block ICE_STAIRS = registerBlock("ice_stairs",
+            new StairsBlock(Blocks.ICE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.ICE)));
+    public static final Block ICE_SLAB = registerBlock("ice_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.ICE)));
+    public static final Block ICE_BUTTON = registerBlock("ice_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.ICE), BlockSetType.STONE, 10, false));
+    public static final Block ICE_PRESSURE_PLATE = registerBlock("ice_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.ICE), BlockSetType.STONE));
+    public static final Block ICE_FENCE = registerBlock("ice_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.ICE)));
+    public static final Block ICE_FENCE_GATE = registerBlock("ice_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.ICE), WoodType.OAK));
+    public static final Block ICE_DOOR = registerBlock("ice_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.ICE), BlockSetType.STONE));
+    public static final Block ICE_TRAPDOOR = registerBlock("ice_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.ICE), BlockSetType.STONE));
+    public static final Block ICE_WALL = registerBlock("ice_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.ICE)));
+
+    //packed_ice
+    public static final Block PACKED_ICE_STAIRS = registerBlock("packed_ice_stairs",
+            new StairsBlock(Blocks.PACKED_ICE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.PACKED_ICE)));
+    public static final Block PACKED_ICE_SLAB = registerBlock("packed_ice_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.PACKED_ICE)));
+    public static final Block PACKED_ICE_BUTTON = registerBlock("packed_ice_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.PACKED_ICE), BlockSetType.STONE, 10, false));
+    public static final Block PACKED_ICE_PRESSURE_PLATE = registerBlock("packed_ice_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.PACKED_ICE), BlockSetType.STONE));
+    public static final Block PACKED_ICE_FENCE = registerBlock("packed_ice_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.PACKED_ICE)));
+    public static final Block PACKED_ICE_FENCE_GATE = registerBlock("packed_ice_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.PACKED_ICE), WoodType.OAK));
+    public static final Block PACKED_ICE_DOOR = registerBlock("packed_ice_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.PACKED_ICE), BlockSetType.STONE));
+    public static final Block PACKED_ICE_TRAPDOOR = registerBlock("packed_ice_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.PACKED_ICE), BlockSetType.STONE));
+    public static final Block PACKED_ICE_WALL = registerBlock("packed_ice_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.PACKED_ICE)));
+
+    //blue_ice
+    public static final Block BLUE_ICE_STAIRS = registerBlock("blue_ice_stairs",
+            new StairsBlock(Blocks.BLUE_ICE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BLUE_ICE)));
+    public static final Block BLUE_ICE_SLAB = registerBlock("blue_ice_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.BLUE_ICE)));
+    public static final Block BLUE_ICE_BUTTON = registerBlock("blue_ice_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.BLUE_ICE), BlockSetType.STONE, 10, false));
+    public static final Block BLUE_ICE_PRESSURE_PLATE = registerBlock("blue_ice_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.BLUE_ICE), BlockSetType.STONE));
+    public static final Block BLUE_ICE_FENCE = registerBlock("blue_ice_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.BLUE_ICE)));
+    public static final Block BLUE_ICE_FENCE_GATE = registerBlock("blue_ice_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.BLUE_ICE), WoodType.OAK));
+    public static final Block BLUE_ICE_DOOR = registerBlock("blue_ice_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.BLUE_ICE), BlockSetType.STONE));
+    public static final Block BLUE_ICE_TRAPDOOR = registerBlock("blue_ice_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BLUE_ICE), BlockSetType.STONE));
+    public static final Block BLUE_ICE_WALL = registerBlock("blue_ice_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.BLUE_ICE)));
+
+    //snow_block
+    public static final Block SNOW_STAIRS = registerBlock("snow_stairs",
+            new StairsBlock(Blocks.SNOW_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SNOW_BLOCK)));
+    public static final Block SNOW_SLAB = registerBlock("snow_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.SNOW_BLOCK)));
+    public static final Block SNOW_BUTTON = registerBlock("snow_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.SNOW_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block SNOW_PRESSURE_PLATE = registerBlock("snow_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.SNOW_BLOCK), BlockSetType.STONE));
+    public static final Block SNOW_FENCE = registerBlock("snow_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.SNOW_BLOCK)));
+    public static final Block SNOW_FENCE_GATE = registerBlock("snow_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.SNOW_BLOCK), WoodType.OAK));
+    public static final Block SNOW_DOOR = registerBlock("snow_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.SNOW_BLOCK), BlockSetType.STONE));
+    public static final Block SNOW_TRAPDOOR = registerBlock("snow_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.SNOW_BLOCK), BlockSetType.STONE));
+    public static final Block SNOW_WALL = registerBlock("snow_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.SNOW_BLOCK)));
+
+    //moss
+    public static final Block MOSS_STAIRS = registerBlock("moss_stairs",
+            new StairsBlock(Blocks.MOSS_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK)));
+    public static final Block MOSS_SLAB = registerBlock("moss_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK)));
+    public static final Block MOSS_BUTTON = registerBlock("moss_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block MOSS_PRESSURE_PLATE = registerBlock("moss_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK), BlockSetType.STONE));
+    public static final Block MOSS_FENCE = registerBlock("moss_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK)));
+    public static final Block MOSS_FENCE_GATE = registerBlock("moss_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK), WoodType.OAK));
+    public static final Block MOSS_DOOR = registerBlock("moss_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK), BlockSetType.STONE));
+    public static final Block MOSS_TRAPDOOR = registerBlock("moss_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK), BlockSetType.STONE));
+    public static final Block MOSS_WALL = registerBlock("moss_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK)));
+
+    //calcite
+    public static final Block CALCITE_STAIRS = registerBlock("calcite_stairs",
+            new StairsBlock(Blocks.CALCITE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.CALCITE)));
+    public static final Block CALCITE_SLAB = registerBlock("calcite_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.CALCITE)));
+    public static final Block CALCITE_BUTTON = registerBlock("calcite_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.CALCITE), BlockSetType.STONE, 10, false));
+    public static final Block CALCITE_PRESSURE_PLATE = registerBlock("calcite_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.CALCITE), BlockSetType.STONE));
+    public static final Block CALCITE_FENCE = registerBlock("calcite_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.CALCITE)));
+    public static final Block CALCITE_FENCE_GATE = registerBlock("calcite_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.CALCITE), WoodType.OAK));
+    public static final Block CALCITE_DOOR = registerBlock("calcite_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.CALCITE), BlockSetType.STONE));
+    public static final Block CALCITE_TRAPDOOR = registerBlock("calcite_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.CALCITE), BlockSetType.STONE));
+    public static final Block CALCITE_WALL = registerBlock("calcite_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.CALCITE)));
+
+    //tuff
+    public static final Block TUFF_STAIRS = registerBlock("tuff_stairs",
+            new StairsBlock(Blocks.TUFF.getDefaultState(), FabricBlockSettings.copyOf(Blocks.TUFF)));
+    public static final Block TUFF_SLAB = registerBlock("tuff_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.TUFF)));
+    public static final Block TUFF_BUTTON = registerBlock("tuff_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.TUFF), BlockSetType.STONE, 10, false));
+    public static final Block TUFF_PRESSURE_PLATE = registerBlock("tuff_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.TUFF), BlockSetType.STONE));
+    public static final Block TUFF_FENCE = registerBlock("tuff_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.TUFF)));
+    public static final Block TUFF_FENCE_GATE = registerBlock("tuff_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.TUFF), WoodType.OAK));
+    public static final Block TUFF_DOOR = registerBlock("tuff_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.TUFF), BlockSetType.STONE));
+    public static final Block TUFF_TRAPDOOR = registerBlock("tuff_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.TUFF), BlockSetType.STONE));
+    public static final Block TUFF_WALL = registerBlock("tuff_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.TUFF)));
+
 
 
 

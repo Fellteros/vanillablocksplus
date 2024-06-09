@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "vanillablocksplus:block/ice_door_bottom",
+    "top": "vanillablocksplus:block/ice_door_top"
+  }
+}

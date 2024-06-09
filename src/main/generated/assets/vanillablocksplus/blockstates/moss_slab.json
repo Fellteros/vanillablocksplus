@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/moss_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/moss_block"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/moss_slab_top"
+    }
+  }
+}

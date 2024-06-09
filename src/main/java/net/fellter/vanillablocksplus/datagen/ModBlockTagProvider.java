@@ -484,9 +484,29 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                  .add(ModBlocks.RED_SAND_FENCE_GATE)
                  .add(ModBlocks.RED_SAND_FENCE)
                  .add(ModBlocks.RED_SAND_BUTTON)
-                 .add(ModBlocks.RED_SAND_PRESSURE_PLATE);
-
-
+                 .add(ModBlocks.RED_SAND_PRESSURE_PLATE)
+                 //snow
+                 .add(ModBlocks.SNOW_STAIRS)
+                 .add(ModBlocks.SNOW_SLAB)
+                 .add(ModBlocks.SNOW_WALL)
+                 .add(ModBlocks.SNOW_DOOR)
+                 .add(ModBlocks.SNOW_TRAPDOOR)
+                 .add(ModBlocks.SNOW_FENCE_GATE)
+                 .add(ModBlocks.SNOW_FENCE)
+                 .add(ModBlocks.SNOW_BUTTON)
+                 .add(ModBlocks.SNOW_PRESSURE_PLATE);
+         
+         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
+                 //moss
+                 .add(ModBlocks.MOSS_STAIRS)
+                 .add(ModBlocks.MOSS_SLAB)
+                 .add(ModBlocks.MOSS_WALL)
+                 .add(ModBlocks.MOSS_DOOR)
+                 .add(ModBlocks.MOSS_TRAPDOOR)
+                 .add(ModBlocks.MOSS_FENCE_GATE)
+                 .add(ModBlocks.MOSS_FENCE)
+                 .add(ModBlocks.MOSS_BUTTON)
+                 .add(ModBlocks.MOSS_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.TERRACOTTA)
                 //terracotta
@@ -1945,7 +1965,57 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_STAINED_GLASS_FENCE_GATE)
                 .add(ModBlocks.PINK_STAINED_GLASS_FENCE)
                 .add(ModBlocks.PINK_STAINED_GLASS_BUTTON)
-                .add(ModBlocks.PINK_STAINED_GLASS_PRESSURE_PLATE);
+                .add(ModBlocks.PINK_STAINED_GLASS_PRESSURE_PLATE)
+                //ice
+                .add(ModBlocks.ICE_STAIRS)
+                .add(ModBlocks.ICE_SLAB)
+                .add(ModBlocks.ICE_WALL)
+                .add(ModBlocks.ICE_DOOR)
+                .add(ModBlocks.ICE_TRAPDOOR)
+                .add(ModBlocks.ICE_FENCE_GATE)
+                .add(ModBlocks.ICE_FENCE)
+                .add(ModBlocks.ICE_BUTTON)
+                .add(ModBlocks.ICE_PRESSURE_PLATE)
+                //packed_ice
+                .add(ModBlocks.PACKED_ICE_STAIRS)
+                .add(ModBlocks.PACKED_ICE_SLAB)
+                .add(ModBlocks.PACKED_ICE_WALL)
+                .add(ModBlocks.PACKED_ICE_DOOR)
+                .add(ModBlocks.PACKED_ICE_TRAPDOOR)
+                .add(ModBlocks.PACKED_ICE_FENCE_GATE)
+                .add(ModBlocks.PACKED_ICE_FENCE)
+                .add(ModBlocks.PACKED_ICE_BUTTON)
+                .add(ModBlocks.PACKED_ICE_PRESSURE_PLATE)
+                //blue_ice
+                .add(ModBlocks.BLUE_ICE_STAIRS)
+                .add(ModBlocks.BLUE_ICE_SLAB)
+                .add(ModBlocks.BLUE_ICE_WALL)
+                .add(ModBlocks.BLUE_ICE_DOOR)
+                .add(ModBlocks.BLUE_ICE_TRAPDOOR)
+                .add(ModBlocks.BLUE_ICE_FENCE_GATE)
+                .add(ModBlocks.BLUE_ICE_FENCE)
+                .add(ModBlocks.BLUE_ICE_BUTTON)
+                .add(ModBlocks.BLUE_ICE_PRESSURE_PLATE)
+                //calcite
+                .add(ModBlocks.CALCITE_STAIRS)
+                .add(ModBlocks.CALCITE_SLAB)
+                .add(ModBlocks.CALCITE_WALL)
+                .add(ModBlocks.CALCITE_DOOR)
+                .add(ModBlocks.CALCITE_TRAPDOOR)
+                .add(ModBlocks.CALCITE_FENCE_GATE)
+                .add(ModBlocks.CALCITE_FENCE)
+                .add(ModBlocks.CALCITE_BUTTON)
+                .add(ModBlocks.CALCITE_PRESSURE_PLATE)
+                //tuff
+                .add(ModBlocks.TUFF_STAIRS)
+                .add(ModBlocks.TUFF_SLAB)
+                .add(ModBlocks.TUFF_WALL)
+                .add(ModBlocks.TUFF_DOOR)
+                .add(ModBlocks.TUFF_TRAPDOOR)
+                .add(ModBlocks.TUFF_FENCE_GATE)
+                .add(ModBlocks.TUFF_FENCE)
+                .add(ModBlocks.TUFF_BUTTON)
+                .add(ModBlocks.TUFF_PRESSURE_PLATE);
 
 
 
@@ -2356,7 +2426,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CLAY_FENCE)
                 .add(ModBlocks.SAND_FENCE)
                 .add(ModBlocks.GRAVEL_FENCE)
-                .add(ModBlocks.RED_SAND_FENCE);
+                .add(ModBlocks.RED_SAND_FENCE)
+                .add(ModBlocks.ICE_FENCE)
+                .add(ModBlocks.PACKED_ICE_FENCE)
+                .add(ModBlocks.BLUE_ICE_FENCE)
+                .add(ModBlocks.SNOW_FENCE)
+                .add(ModBlocks.MOSS_FENCE)
+                .add(ModBlocks.CALCITE_FENCE)
+                .add(ModBlocks.TUFF_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -2562,7 +2639,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CLAY_FENCE)
                 .add(ModBlocks.SAND_FENCE)
                 .add(ModBlocks.GRAVEL_FENCE)
-                .add(ModBlocks.RED_SAND_FENCE);
+                .add(ModBlocks.RED_SAND_FENCE)
+                .add(ModBlocks.ICE_FENCE)
+                .add(ModBlocks.PACKED_ICE_FENCE)
+                .add(ModBlocks.BLUE_ICE_FENCE)
+                .add(ModBlocks.SNOW_FENCE)
+                .add(ModBlocks.MOSS_FENCE)
+                .add(ModBlocks.CALCITE_FENCE)
+                .add(ModBlocks.TUFF_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -2762,7 +2846,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CLAY_FENCE_GATE)
                 .add(ModBlocks.SAND_FENCE_GATE)
                 .add(ModBlocks.GRAVEL_FENCE_GATE)
-                .add(ModBlocks.RED_SAND_FENCE_GATE);
+                .add(ModBlocks.RED_SAND_FENCE_GATE)
+                .add(ModBlocks.ICE_FENCE_GATE)
+                .add(ModBlocks.PACKED_ICE_FENCE_GATE)
+                .add(ModBlocks.BLUE_ICE_FENCE_GATE)
+                .add(ModBlocks.SNOW_FENCE_GATE)
+                .add(ModBlocks.MOSS_FENCE_GATE)
+                .add(ModBlocks.CALCITE_FENCE_GATE)
+                .add(ModBlocks.TUFF_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -2929,7 +3020,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CLAY_WALL)
                 .add(ModBlocks.SAND_WALL)
                 .add(ModBlocks.GRAVEL_WALL)
-                .add(ModBlocks.RED_SAND_WALL);
+                .add(ModBlocks.RED_SAND_WALL)
+                .add(ModBlocks.ICE_WALL)
+                .add(ModBlocks.PACKED_ICE_WALL)
+                .add(ModBlocks.BLUE_ICE_WALL)
+                .add(ModBlocks.SNOW_WALL)
+                .add(ModBlocks.MOSS_WALL)
+                .add(ModBlocks.CALCITE_WALL)
+                .add(ModBlocks.TUFF_WALL);
 
 
 
