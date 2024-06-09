@@ -406,6 +406,14 @@ public class ModModelProvider extends FabricModelProvider {
                 bsmg.registerCubeAllModelTexturePool(Blocks.CALCITE);
         BlockStateModelGenerator.BlockTexturePool tuffPool =
                 bsmg.registerCubeAllModelTexturePool(Blocks.TUFF);
+        BlockStateModelGenerator.BlockTexturePool dripstonePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.DRIPSTONE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool magmaPool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.MAGMA_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool obsidianPool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.OBSIDIAN);
+        BlockStateModelGenerator.BlockTexturePool cryingObsidianPool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.CRYING_OBSIDIAN);
 
 
         //oak
@@ -1990,6 +1998,54 @@ public class ModModelProvider extends FabricModelProvider {
         tuffPool.fence(ModBlocks.TUFF_FENCE);
         tuffPool.fenceGate(ModBlocks.TUFF_FENCE_GATE);
         tuffPool.pressurePlate(ModBlocks.TUFF_PRESSURE_PLATE);
+        //dripstone
+        dripstonePool.button(ModBlocks.DRIPSTONE_BUTTON);
+        dripstonePool.wall(ModBlocks.DRIPSTONE_WALL);
+        dripstonePool.slab(ModBlocks.DRIPSTONE_SLAB);
+        dripstonePool.stairs(ModBlocks.DRIPSTONE_STAIRS);
+        dripstonePool.fence(ModBlocks.DRIPSTONE_FENCE);
+        dripstonePool.fenceGate(ModBlocks.DRIPSTONE_FENCE_GATE);
+        dripstonePool.pressurePlate(ModBlocks.DRIPSTONE_PRESSURE_PLATE);
+        //magma
+        magmaPool.button(ModBlocks.MAGMA_BUTTON);
+        magmaPool.wall(ModBlocks.MAGMA_WALL);
+        magmaPool.slab(ModBlocks.MAGMA_SLAB);
+        magmaPool.stairs(ModBlocks.MAGMA_STAIRS);
+        magmaPool.fence(ModBlocks.MAGMA_FENCE);
+        magmaPool.fenceGate(ModBlocks.MAGMA_FENCE_GATE);
+        magmaPool.pressurePlate(ModBlocks.MAGMA_PRESSURE_PLATE);
+        //obsidian
+        obsidianPool.button(ModBlocks.OBSIDIAN_BUTTON);
+        obsidianPool.wall(ModBlocks.OBSIDIAN_WALL);
+        obsidianPool.slab(ModBlocks.OBSIDIAN_SLAB);
+        obsidianPool.stairs(ModBlocks.OBSIDIAN_STAIRS);
+        obsidianPool.fence(ModBlocks.OBSIDIAN_FENCE);
+        obsidianPool.fenceGate(ModBlocks.OBSIDIAN_FENCE_GATE);
+        obsidianPool.pressurePlate(ModBlocks.OBSIDIAN_PRESSURE_PLATE);
+        //crying_obsidian
+        cryingObsidianPool.button(ModBlocks.CRYING_OBSIDIAN_BUTTON);
+        cryingObsidianPool.wall(ModBlocks.CRYING_OBSIDIAN_WALL);
+        cryingObsidianPool.slab(ModBlocks.CRYING_OBSIDIAN_SLAB);
+        cryingObsidianPool.stairs(ModBlocks.CRYING_OBSIDIAN_STAIRS);
+        cryingObsidianPool.fence(ModBlocks.CRYING_OBSIDIAN_FENCE);
+        cryingObsidianPool.fenceGate(ModBlocks.CRYING_OBSIDIAN_FENCE_GATE);
+        cryingObsidianPool.pressurePlate(ModBlocks.CRYING_OBSIDIAN_PRESSURE_PLATE);
+        //crimson_nylium
+        registerSTBButton(bsmg, ModBlocks.CRIMSON_NYLIUM_BUTTON, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerSTBWall(bsmg, ModBlocks.CRIMSON_NYLIUM_WALL, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerSTBSlab(bsmg, ModBlocks.CRIMSON_NYLIUM_SLAB, Blocks.CRIMSON_NYLIUM, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerSTBStairs(bsmg, ModBlocks.CRIMSON_NYLIUM_STAIRS, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerSTBFence(bsmg, ModBlocks.CRIMSON_NYLIUM_FENCE, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerSTBFenceGate(bsmg, ModBlocks.CRIMSON_NYLIUM_FENCE_GATE, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerSTBPressurePlate(bsmg, ModBlocks.CRIMSON_NYLIUM_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        //warped_nylium
+        registerSTBButton(bsmg, ModBlocks.WARPED_NYLIUM_BUTTON, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerSTBWall(bsmg, ModBlocks.WARPED_NYLIUM_WALL, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerSTBSlab(bsmg, ModBlocks.WARPED_NYLIUM_SLAB, Blocks.WARPED_NYLIUM, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerSTBStairs(bsmg, ModBlocks.WARPED_NYLIUM_STAIRS, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerSTBFence(bsmg, ModBlocks.WARPED_NYLIUM_FENCE, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerSTBFenceGate(bsmg, ModBlocks.WARPED_NYLIUM_FENCE_GATE, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerSTBPressurePlate(bsmg, ModBlocks.WARPED_NYLIUM_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
 
 
 
@@ -2631,6 +2687,24 @@ public class ModModelProvider extends FabricModelProvider {
         //tuff
         bsmg.registerOrientableTrapdoor(ModBlocks.TUFF_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.TUFF_DOOR);
+        //dripstone
+        bsmg.registerOrientableTrapdoor(ModBlocks.DRIPSTONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DRIPSTONE_DOOR);
+        //magma
+        bsmg.registerOrientableTrapdoor(ModBlocks.MAGMA_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.MAGMA_DOOR);
+        //obsidian
+        bsmg.registerOrientableTrapdoor(ModBlocks.OBSIDIAN_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.OBSIDIAN_DOOR);
+        //crying_obsidian
+        bsmg.registerOrientableTrapdoor(ModBlocks.CRYING_OBSIDIAN_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CRYING_OBSIDIAN_DOOR);
+        //crimson_nylium
+        bsmg.registerOrientableTrapdoor(ModBlocks.CRIMSON_NYLIUM_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CRIMSON_NYLIUM_DOOR);
+        //warped_nylium
+        bsmg.registerOrientableTrapdoor(ModBlocks.WARPED_NYLIUM_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WARPED_NYLIUM_DOOR);
 
 
 

@@ -2031,6 +2031,66 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TUFF_TRAPDOOR);
                         entries.add(ModBlocks.TUFF_PRESSURE_PLATE);
                         entries.add(ModBlocks.TUFF_BUTTON);
+                        //dripstone
+                        entries.add(ModBlocks.DRIPSTONE_STAIRS);
+                        entries.add(ModBlocks.DRIPSTONE_SLAB);
+                        entries.add(ModBlocks.DRIPSTONE_WALL);
+                        entries.add(ModBlocks.DRIPSTONE_FENCE);
+                        entries.add(ModBlocks.DRIPSTONE_FENCE_GATE);
+                        entries.add(ModBlocks.DRIPSTONE_DOOR);
+                        entries.add(ModBlocks.DRIPSTONE_TRAPDOOR);
+                        entries.add(ModBlocks.DRIPSTONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.DRIPSTONE_BUTTON);
+                        //magma
+                        entries.add(ModBlocks.MAGMA_STAIRS);
+                        entries.add(ModBlocks.MAGMA_SLAB);
+                        entries.add(ModBlocks.MAGMA_WALL);
+                        entries.add(ModBlocks.MAGMA_FENCE);
+                        entries.add(ModBlocks.MAGMA_FENCE_GATE);
+                        entries.add(ModBlocks.MAGMA_DOOR);
+                        entries.add(ModBlocks.MAGMA_TRAPDOOR);
+                        entries.add(ModBlocks.MAGMA_PRESSURE_PLATE);
+                        entries.add(ModBlocks.MAGMA_BUTTON);
+                        //obsidian
+                        entries.add(ModBlocks.OBSIDIAN_STAIRS);
+                        entries.add(ModBlocks.OBSIDIAN_SLAB);
+                        entries.add(ModBlocks.OBSIDIAN_WALL);
+                        entries.add(ModBlocks.OBSIDIAN_FENCE);
+                        entries.add(ModBlocks.OBSIDIAN_FENCE_GATE);
+                        entries.add(ModBlocks.OBSIDIAN_DOOR);
+                        entries.add(ModBlocks.OBSIDIAN_TRAPDOOR);
+                        entries.add(ModBlocks.OBSIDIAN_PRESSURE_PLATE);
+                        entries.add(ModBlocks.OBSIDIAN_BUTTON);
+                        //crying_obsidian
+                        entries.add(ModBlocks.CRYING_OBSIDIAN_STAIRS);
+                        entries.add(ModBlocks.CRYING_OBSIDIAN_SLAB);
+                        entries.add(ModBlocks.CRYING_OBSIDIAN_WALL);
+                        entries.add(ModBlocks.CRYING_OBSIDIAN_FENCE);
+                        entries.add(ModBlocks.CRYING_OBSIDIAN_FENCE_GATE);
+                        entries.add(ModBlocks.CRYING_OBSIDIAN_DOOR);
+                        entries.add(ModBlocks.CRYING_OBSIDIAN_TRAPDOOR);
+                        entries.add(ModBlocks.CRYING_OBSIDIAN_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CRYING_OBSIDIAN_BUTTON);
+                        //crimson_nylium
+                        entries.add(ModBlocks.CRIMSON_NYLIUM_STAIRS);
+                        entries.add(ModBlocks.CRIMSON_NYLIUM_SLAB);
+                        entries.add(ModBlocks.CRIMSON_NYLIUM_WALL);
+                        entries.add(ModBlocks.CRIMSON_NYLIUM_FENCE);
+                        entries.add(ModBlocks.CRIMSON_NYLIUM_FENCE_GATE);
+                        entries.add(ModBlocks.CRIMSON_NYLIUM_DOOR);
+                        entries.add(ModBlocks.CRIMSON_NYLIUM_TRAPDOOR);
+                        entries.add(ModBlocks.CRIMSON_NYLIUM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CRIMSON_NYLIUM_BUTTON);
+                        //warped_nylium
+                        entries.add(ModBlocks.WARPED_NYLIUM_STAIRS);
+                        entries.add(ModBlocks.WARPED_NYLIUM_SLAB);
+                        entries.add(ModBlocks.WARPED_NYLIUM_WALL);
+                        entries.add(ModBlocks.WARPED_NYLIUM_FENCE);
+                        entries.add(ModBlocks.WARPED_NYLIUM_FENCE_GATE);
+                        entries.add(ModBlocks.WARPED_NYLIUM_DOOR);
+                        entries.add(ModBlocks.WARPED_NYLIUM_TRAPDOOR);
+                        entries.add(ModBlocks.WARPED_NYLIUM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.WARPED_NYLIUM_BUTTON);
 
 
 

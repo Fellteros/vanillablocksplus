@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "textures": {
+    "bottom": "vanillablocksplus:block/warped_nylium_door_bottom",
+    "top": "vanillablocksplus:block/warped_nylium_door_top"
+  }
+}

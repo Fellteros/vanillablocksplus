@@ -2280,6 +2280,72 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.TUFF_BUTTON, Blocks.TUFF, 1).offerTo(exporter);
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.TUFF_WALL, (Blocks.TUFF)).offerTo(exporter);
 
+        //dripstone_block
+        ModRecipes.createDoorRecipe(ModBlocks.DRIPSTONE_DOOR, (Blocks.DRIPSTONE_BLOCK)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DRIPSTONE_SLAB, (Blocks.DRIPSTONE_BLOCK)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.DRIPSTONE_STAIRS, (Blocks.DRIPSTONE_BLOCK)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.DRIPSTONE_FENCE, (Blocks.DRIPSTONE_BLOCK), (ModBlocks.DRIPSTONE_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.DRIPSTONE_FENCE_GATE, (Blocks.DRIPSTONE_BLOCK), (ModBlocks.DRIPSTONE_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.DRIPSTONE_TRAPDOOR, (ModBlocks.DRIPSTONE_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.DRIPSTONE_PRESSURE_PLATE, (ModBlocks.DRIPSTONE_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DRIPSTONE_BUTTON, Blocks.DRIPSTONE_BLOCK, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DRIPSTONE_WALL, (Blocks.DRIPSTONE_BLOCK)).offerTo(exporter);
+
+        //magma_block
+        ModRecipes.createDoorRecipe(ModBlocks.MAGMA_DOOR, (Blocks.MAGMA_BLOCK)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.MAGMA_SLAB, (Blocks.MAGMA_BLOCK)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.MAGMA_STAIRS, (Blocks.MAGMA_BLOCK)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.MAGMA_FENCE, (Blocks.MAGMA_BLOCK), (ModBlocks.MAGMA_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.MAGMA_FENCE_GATE, (Blocks.MAGMA_BLOCK), (ModBlocks.MAGMA_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.MAGMA_TRAPDOOR, (ModBlocks.MAGMA_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.MAGMA_PRESSURE_PLATE, (ModBlocks.MAGMA_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.MAGMA_BUTTON, Blocks.MAGMA_BLOCK, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.MAGMA_WALL, (Blocks.MAGMA_BLOCK)).offerTo(exporter);
+
+        //obsidian
+        ModRecipes.createDoorRecipe(ModBlocks.OBSIDIAN_DOOR, (Blocks.OBSIDIAN)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.OBSIDIAN_SLAB, (Blocks.OBSIDIAN)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.OBSIDIAN_STAIRS, (Blocks.OBSIDIAN)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.OBSIDIAN_FENCE, (Blocks.OBSIDIAN), (ModBlocks.OBSIDIAN_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.OBSIDIAN_FENCE_GATE, (Blocks.OBSIDIAN), (ModBlocks.OBSIDIAN_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.OBSIDIAN_TRAPDOOR, (ModBlocks.OBSIDIAN_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.OBSIDIAN_PRESSURE_PLATE, (ModBlocks.OBSIDIAN_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.OBSIDIAN_BUTTON, Blocks.OBSIDIAN, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.OBSIDIAN_WALL, (Blocks.OBSIDIAN)).offerTo(exporter);
+
+        //crying_obsidian
+        ModRecipes.createDoorRecipe(ModBlocks.CRYING_OBSIDIAN_DOOR, (Blocks.CRYING_OBSIDIAN)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.CRYING_OBSIDIAN_SLAB, (Blocks.CRYING_OBSIDIAN)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.CRYING_OBSIDIAN_STAIRS, (Blocks.CRYING_OBSIDIAN)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.CRYING_OBSIDIAN_FENCE, (Blocks.CRYING_OBSIDIAN), (ModBlocks.CRYING_OBSIDIAN_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.CRYING_OBSIDIAN_FENCE_GATE, (Blocks.CRYING_OBSIDIAN), (ModBlocks.CRYING_OBSIDIAN_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.CRYING_OBSIDIAN_TRAPDOOR, (ModBlocks.CRYING_OBSIDIAN_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.CRYING_OBSIDIAN_PRESSURE_PLATE, (ModBlocks.CRYING_OBSIDIAN_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.CRYING_OBSIDIAN_BUTTON, Blocks.CRYING_OBSIDIAN, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.CRYING_OBSIDIAN_WALL, (Blocks.CRYING_OBSIDIAN)).offerTo(exporter);
+
+        //crimson_nylium
+        ModRecipes.createDoorRecipe(ModBlocks.CRIMSON_NYLIUM_DOOR, (Blocks.CRIMSON_NYLIUM)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.CRIMSON_NYLIUM_SLAB, (Blocks.CRIMSON_NYLIUM)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.CRIMSON_NYLIUM_STAIRS, (Blocks.CRIMSON_NYLIUM)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.CRIMSON_NYLIUM_FENCE, (Blocks.CRIMSON_NYLIUM), (ModBlocks.CRIMSON_NYLIUM_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.CRIMSON_NYLIUM_FENCE_GATE, (Blocks.CRIMSON_NYLIUM), (ModBlocks.CRIMSON_NYLIUM_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.CRIMSON_NYLIUM_TRAPDOOR, (ModBlocks.CRIMSON_NYLIUM_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.CRIMSON_NYLIUM_PRESSURE_PLATE, (ModBlocks.CRIMSON_NYLIUM_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.CRIMSON_NYLIUM_BUTTON, Blocks.CRIMSON_NYLIUM, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.CRIMSON_NYLIUM_WALL, (Blocks.CRIMSON_NYLIUM)).offerTo(exporter);
+
+        //warped_nylium
+        ModRecipes.createDoorRecipe(ModBlocks.WARPED_NYLIUM_DOOR, (Blocks.WARPED_NYLIUM)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WARPED_NYLIUM_SLAB, (Blocks.WARPED_NYLIUM)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.WARPED_NYLIUM_STAIRS, (Blocks.WARPED_NYLIUM)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.WARPED_NYLIUM_FENCE, (Blocks.WARPED_NYLIUM), (ModBlocks.WARPED_NYLIUM_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.WARPED_NYLIUM_FENCE_GATE, (Blocks.WARPED_NYLIUM), (ModBlocks.WARPED_NYLIUM_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.WARPED_NYLIUM_TRAPDOOR, (ModBlocks.WARPED_NYLIUM_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.WARPED_NYLIUM_PRESSURE_PLATE, (ModBlocks.WARPED_NYLIUM_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WARPED_NYLIUM_BUTTON, Blocks.WARPED_NYLIUM, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WARPED_NYLIUM_WALL, (Blocks.WARPED_NYLIUM)).offerTo(exporter);
+
 
 
         

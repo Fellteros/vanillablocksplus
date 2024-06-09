@@ -2015,7 +2015,67 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.TUFF_FENCE_GATE)
                 .add(ModBlocks.TUFF_FENCE)
                 .add(ModBlocks.TUFF_BUTTON)
-                .add(ModBlocks.TUFF_PRESSURE_PLATE);
+                .add(ModBlocks.TUFF_PRESSURE_PLATE)
+                //dripstone
+                .add(ModBlocks.DRIPSTONE_STAIRS)
+                .add(ModBlocks.DRIPSTONE_SLAB)
+                .add(ModBlocks.DRIPSTONE_WALL)
+                .add(ModBlocks.DRIPSTONE_DOOR)
+                .add(ModBlocks.DRIPSTONE_TRAPDOOR)
+                .add(ModBlocks.DRIPSTONE_FENCE_GATE)
+                .add(ModBlocks.DRIPSTONE_FENCE)
+                .add(ModBlocks.DRIPSTONE_BUTTON)
+                .add(ModBlocks.DRIPSTONE_PRESSURE_PLATE)
+                //magma
+                .add(ModBlocks.MAGMA_STAIRS)
+                .add(ModBlocks.MAGMA_SLAB)
+                .add(ModBlocks.MAGMA_WALL)
+                .add(ModBlocks.MAGMA_DOOR)
+                .add(ModBlocks.MAGMA_TRAPDOOR)
+                .add(ModBlocks.MAGMA_FENCE_GATE)
+                .add(ModBlocks.MAGMA_FENCE)
+                .add(ModBlocks.MAGMA_BUTTON)
+                .add(ModBlocks.MAGMA_PRESSURE_PLATE)
+                //obsidian
+                .add(ModBlocks.OBSIDIAN_STAIRS)
+                .add(ModBlocks.OBSIDIAN_SLAB)
+                .add(ModBlocks.OBSIDIAN_WALL)
+                .add(ModBlocks.OBSIDIAN_DOOR)
+                .add(ModBlocks.OBSIDIAN_TRAPDOOR)
+                .add(ModBlocks.OBSIDIAN_FENCE_GATE)
+                .add(ModBlocks.OBSIDIAN_FENCE)
+                .add(ModBlocks.OBSIDIAN_BUTTON)
+                .add(ModBlocks.OBSIDIAN_PRESSURE_PLATE)
+                //crying_obsidian
+                .add(ModBlocks.CRYING_OBSIDIAN_STAIRS)
+                .add(ModBlocks.CRYING_OBSIDIAN_SLAB)
+                .add(ModBlocks.CRYING_OBSIDIAN_WALL)
+                .add(ModBlocks.CRYING_OBSIDIAN_DOOR)
+                .add(ModBlocks.CRYING_OBSIDIAN_TRAPDOOR)
+                .add(ModBlocks.CRYING_OBSIDIAN_FENCE_GATE)
+                .add(ModBlocks.CRYING_OBSIDIAN_FENCE)
+                .add(ModBlocks.CRYING_OBSIDIAN_BUTTON)
+                .add(ModBlocks.CRYING_OBSIDIAN_PRESSURE_PLATE)
+                //crimson_nylium
+                .add(ModBlocks.CRIMSON_NYLIUM_STAIRS)
+                .add(ModBlocks.CRIMSON_NYLIUM_SLAB)
+                .add(ModBlocks.CRIMSON_NYLIUM_WALL)
+                .add(ModBlocks.CRIMSON_NYLIUM_DOOR)
+                .add(ModBlocks.CRIMSON_NYLIUM_TRAPDOOR)
+                .add(ModBlocks.CRIMSON_NYLIUM_FENCE_GATE)
+                .add(ModBlocks.CRIMSON_NYLIUM_FENCE)
+                .add(ModBlocks.CRIMSON_NYLIUM_BUTTON)
+                .add(ModBlocks.CRIMSON_NYLIUM_PRESSURE_PLATE)
+                //warped_nylium
+                .add(ModBlocks.WARPED_NYLIUM_STAIRS)
+                .add(ModBlocks.WARPED_NYLIUM_SLAB)
+                .add(ModBlocks.WARPED_NYLIUM_WALL)
+                .add(ModBlocks.WARPED_NYLIUM_DOOR)
+                .add(ModBlocks.WARPED_NYLIUM_TRAPDOOR)
+                .add(ModBlocks.WARPED_NYLIUM_FENCE_GATE)
+                .add(ModBlocks.WARPED_NYLIUM_FENCE)
+                .add(ModBlocks.WARPED_NYLIUM_BUTTON)
+                .add(ModBlocks.WARPED_NYLIUM_PRESSURE_PLATE);
 
 
 
@@ -2221,7 +2281,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SAND_FENCE)
                 .add(ModBlocks.SAND_BUTTON)
                 .add(ModBlocks.SAND_PRESSURE_PLATE);
-        
+
+
 
         getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
                 .add(ModBlocks.OAK_WOOD_FENCE)
@@ -2433,7 +2494,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SNOW_FENCE)
                 .add(ModBlocks.MOSS_FENCE)
                 .add(ModBlocks.CALCITE_FENCE)
-                .add(ModBlocks.TUFF_FENCE);
+                .add(ModBlocks.TUFF_FENCE)
+                .add(ModBlocks.DRIPSTONE_FENCE)
+                .add(ModBlocks.MAGMA_FENCE)
+                .add(ModBlocks.CRYING_OBSIDIAN_FENCE)
+                .add(ModBlocks.CRIMSON_NYLIUM_FENCE)
+                .add(ModBlocks.WARPED_NYLIUM_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -2646,7 +2712,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SNOW_FENCE)
                 .add(ModBlocks.MOSS_FENCE)
                 .add(ModBlocks.CALCITE_FENCE)
-                .add(ModBlocks.TUFF_FENCE);
+                .add(ModBlocks.TUFF_FENCE)
+                .add(ModBlocks.DRIPSTONE_FENCE)
+                .add(ModBlocks.MAGMA_FENCE)
+                .add(ModBlocks.OBSIDIAN_FENCE)
+                .add(ModBlocks.CRYING_OBSIDIAN_FENCE)
+                .add(ModBlocks.CRIMSON_NYLIUM_FENCE)
+                .add(ModBlocks.WARPED_NYLIUM_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -2853,7 +2925,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SNOW_FENCE_GATE)
                 .add(ModBlocks.MOSS_FENCE_GATE)
                 .add(ModBlocks.CALCITE_FENCE_GATE)
-                .add(ModBlocks.TUFF_FENCE_GATE);
+                .add(ModBlocks.TUFF_FENCE_GATE)
+                .add(ModBlocks.DRIPSTONE_FENCE_GATE)
+                .add(ModBlocks.MAGMA_FENCE_GATE)
+                .add(ModBlocks.OBSIDIAN_FENCE_GATE)
+                .add(ModBlocks.CRYING_OBSIDIAN_FENCE_GATE)
+                .add(ModBlocks.CRIMSON_NYLIUM_FENCE_GATE)
+                .add(ModBlocks.WARPED_NYLIUM_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -3027,7 +3105,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SNOW_WALL)
                 .add(ModBlocks.MOSS_WALL)
                 .add(ModBlocks.CALCITE_WALL)
-                .add(ModBlocks.TUFF_WALL);
+                .add(ModBlocks.TUFF_WALL)
+                .add(ModBlocks.DRIPSTONE_WALL)
+                .add(ModBlocks.MAGMA_WALL)
+                .add(ModBlocks.OBSIDIAN_WALL)
+                .add(ModBlocks.CRYING_OBSIDIAN_WALL)
+                .add(ModBlocks.CRIMSON_NYLIUM_WALL)
+                .add(ModBlocks.WARPED_NYLIUM_WALL);
 
 
 

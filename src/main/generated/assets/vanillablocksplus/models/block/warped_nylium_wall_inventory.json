@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/wall_stb_inventory",
+  "textures": {
+    "bottom": "minecraft:block/netherrack",
+    "side": "minecraft:block/warped_nylium_side",
+    "top": "minecraft:block/warped_nylium"
+  }
+}

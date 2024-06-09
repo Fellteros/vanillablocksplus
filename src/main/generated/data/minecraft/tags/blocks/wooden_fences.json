@@ -210,6 +210,11 @@
     "vanillablocksplus:snow_fence",
     "vanillablocksplus:moss_fence",
     "vanillablocksplus:calcite_fence",
-    "vanillablocksplus:tuff_fence"
+    "vanillablocksplus:tuff_fence",
+    "vanillablocksplus:dripstone_fence",
+    "vanillablocksplus:magma_fence",
+    "vanillablocksplus:crying_obsidian_fence",
+    "vanillablocksplus:crimson_nylium_fence",
+    "vanillablocksplus:warped_nylium_fence"
   ]
 }

@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crimson_nylium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_nylium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_crimson_nylium_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:crimson_nylium_button"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:crimson_nylium_button"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_crimson_nylium_button",
+      "has_crimson_nylium",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:crimson_nylium_button"
+    ]
+  },
+  "sends_telemetry_event": false
+}

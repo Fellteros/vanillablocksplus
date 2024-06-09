@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:warped_nylium_slab"
+    },
+    "W": {
+      "item": "minecraft:warped_nylium"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "vanillablocksplus:warped_nylium_fence_gate"
+  },
+  "show_notification": true
+}

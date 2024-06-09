@@ -170,6 +170,13 @@
     "vanillablocksplus:blue_ice_wall",
     "vanillablocksplus:snow_wall",
     "vanillablocksplus:moss_wall",
-    "vanillablocksplus:calcite_wall"
+    "vanillablocksplus:calcite_wall",
+    "vanillablocksplus:tuff_wall",
+    "vanillablocksplus:dripstone_wall",
+    "vanillablocksplus:magma_wall",
+    "vanillablocksplus:obsidian_wall",
+    "vanillablocksplus:crying_obsidian_wall",
+    "vanillablocksplus:crimson_nylium_wall",
+    "vanillablocksplus:warped_nylium_wall"
   ]
 }

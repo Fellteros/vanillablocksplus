@@ -2004,6 +2004,72 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.TUFF_DOOR, doorDrops(ModBlocks.TUFF_DOOR));
         addDrop(ModBlocks.TUFF_SLAB, slabDrops(ModBlocks.TUFF_SLAB));
         addDrop(ModBlocks.TUFF_WALL);
+
+        //dripstone
+        addDrop(ModBlocks.DRIPSTONE_STAIRS);
+        addDrop(ModBlocks.DRIPSTONE_TRAPDOOR);
+        addDrop(ModBlocks.DRIPSTONE_BUTTON);
+        addDrop(ModBlocks.DRIPSTONE_PRESSURE_PLATE);
+        addDrop(ModBlocks.DRIPSTONE_FENCE);
+        addDrop(ModBlocks.DRIPSTONE_FENCE_GATE);
+        addDrop(ModBlocks.DRIPSTONE_DOOR, doorDrops(ModBlocks.DRIPSTONE_DOOR));
+        addDrop(ModBlocks.DRIPSTONE_SLAB, slabDrops(ModBlocks.DRIPSTONE_SLAB));
+        addDrop(ModBlocks.DRIPSTONE_WALL);
+
+        //magma
+        addDrop(ModBlocks.MAGMA_STAIRS);
+        addDrop(ModBlocks.MAGMA_TRAPDOOR);
+        addDrop(ModBlocks.MAGMA_BUTTON);
+        addDrop(ModBlocks.MAGMA_PRESSURE_PLATE);
+        addDrop(ModBlocks.MAGMA_FENCE);
+        addDrop(ModBlocks.MAGMA_FENCE_GATE);
+        addDrop(ModBlocks.MAGMA_DOOR, doorDrops(ModBlocks.MAGMA_DOOR));
+        addDrop(ModBlocks.MAGMA_SLAB, slabDrops(ModBlocks.MAGMA_SLAB));
+        addDrop(ModBlocks.MAGMA_WALL);
+
+        //obsidian
+        addDrop(ModBlocks.OBSIDIAN_STAIRS);
+        addDrop(ModBlocks.OBSIDIAN_TRAPDOOR);
+        addDrop(ModBlocks.OBSIDIAN_BUTTON);
+        addDrop(ModBlocks.OBSIDIAN_PRESSURE_PLATE);
+        addDrop(ModBlocks.OBSIDIAN_FENCE);
+        addDrop(ModBlocks.OBSIDIAN_FENCE_GATE);
+        addDrop(ModBlocks.OBSIDIAN_DOOR, doorDrops(ModBlocks.OBSIDIAN_DOOR));
+        addDrop(ModBlocks.OBSIDIAN_SLAB, slabDrops(ModBlocks.OBSIDIAN_SLAB));
+        addDrop(ModBlocks.OBSIDIAN_WALL);
+
+        //crying_obsidian
+        addDrop(ModBlocks.CRYING_OBSIDIAN_STAIRS);
+        addDrop(ModBlocks.CRYING_OBSIDIAN_TRAPDOOR);
+        addDrop(ModBlocks.CRYING_OBSIDIAN_BUTTON);
+        addDrop(ModBlocks.CRYING_OBSIDIAN_PRESSURE_PLATE);
+        addDrop(ModBlocks.CRYING_OBSIDIAN_FENCE);
+        addDrop(ModBlocks.CRYING_OBSIDIAN_FENCE_GATE);
+        addDrop(ModBlocks.CRYING_OBSIDIAN_DOOR, doorDrops(ModBlocks.CRYING_OBSIDIAN_DOOR));
+        addDrop(ModBlocks.CRYING_OBSIDIAN_SLAB, slabDrops(ModBlocks.CRYING_OBSIDIAN_SLAB));
+        addDrop(ModBlocks.CRYING_OBSIDIAN_WALL);
+
+        //crimson_nylium
+        addDrop(ModBlocks.CRIMSON_NYLIUM_STAIRS);
+        addDrop(ModBlocks.CRIMSON_NYLIUM_TRAPDOOR);
+        addDrop(ModBlocks.CRIMSON_NYLIUM_BUTTON);
+        addDrop(ModBlocks.CRIMSON_NYLIUM_PRESSURE_PLATE);
+        addDrop(ModBlocks.CRIMSON_NYLIUM_FENCE);
+        addDrop(ModBlocks.CRIMSON_NYLIUM_FENCE_GATE);
+        addDrop(ModBlocks.CRIMSON_NYLIUM_DOOR, doorDrops(ModBlocks.CRIMSON_NYLIUM_DOOR));
+        addDrop(ModBlocks.CRIMSON_NYLIUM_SLAB, slabDrops(ModBlocks.CRIMSON_NYLIUM_SLAB));
+        addDrop(ModBlocks.CRIMSON_NYLIUM_WALL);
+
+        //warped_nylium
+        addDrop(ModBlocks.WARPED_NYLIUM_STAIRS);
+        addDrop(ModBlocks.WARPED_NYLIUM_TRAPDOOR);
+        addDrop(ModBlocks.WARPED_NYLIUM_BUTTON);
+        addDrop(ModBlocks.WARPED_NYLIUM_PRESSURE_PLATE);
+        addDrop(ModBlocks.WARPED_NYLIUM_FENCE);
+        addDrop(ModBlocks.WARPED_NYLIUM_FENCE_GATE);
+        addDrop(ModBlocks.WARPED_NYLIUM_DOOR, doorDrops(ModBlocks.WARPED_NYLIUM_DOOR));
+        addDrop(ModBlocks.WARPED_NYLIUM_SLAB, slabDrops(ModBlocks.WARPED_NYLIUM_SLAB));
+        addDrop(ModBlocks.WARPED_NYLIUM_WALL);
         
         
         
