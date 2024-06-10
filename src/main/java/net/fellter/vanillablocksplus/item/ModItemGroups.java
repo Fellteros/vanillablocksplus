@@ -2121,6 +2121,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BONE_TRAPDOOR);
                         entries.add(ModBlocks.BONE_PRESSURE_PLATE);
                         entries.add(ModBlocks.BONE_BUTTON);
+                        //coal_ore
+                        entries.add(ModBlocks.COAL_ORE_STAIRS);
+                        entries.add(ModBlocks.COAL_ORE_SLAB);
+                        entries.add(ModBlocks.COAL_ORE_WALL);
+                        entries.add(ModBlocks.COAL_ORE_FENCE);
+                        entries.add(ModBlocks.COAL_ORE_FENCE_GATE);
+                        entries.add(ModBlocks.COAL_ORE_DOOR);
+                        entries.add(ModBlocks.COAL_ORE_TRAPDOOR);
+                        entries.add(ModBlocks.COAL_ORE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.COAL_ORE_BUTTON);
 
 
 

@@ -2103,6 +2103,16 @@
   "block.vanillablocksplus.bone_pressure_plate": "Bone Pressure Plate",
   "block.vanillablocksplus.bone_button": "Bone Button",
   "block.vanillablocksplus.bone_wall": "Bone Wall",
+
+  "block.vanillablocksplus.coal_ore_stairs": "Coal Ore Stairs",
+  "block.vanillablocksplus.coal_ore_slab": "Coal Ore Slab",
+  "block.vanillablocksplus.coal_ore_door": "Coal Ore Door",
+  "block.vanillablocksplus.coal_ore_trapdoor": "Coal Ore Trapdoor",
+  "block.vanillablocksplus.coal_ore_fence": "Coal Ore Fence",
+  "block.vanillablocksplus.coal_ore_fence_gate": "Coal Ore Fence Gate",
+  "block.vanillablocksplus.coal_ore_pressure_plate": "Coal Ore Pressure Plate",
+  "block.vanillablocksplus.coal_ore_button": "Coal Ore Button",
+  "block.vanillablocksplus.coal_ore_wall": "Coal Ore Wall",
   
 
   

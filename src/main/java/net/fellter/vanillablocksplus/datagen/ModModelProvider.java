@@ -418,6 +418,8 @@ public class ModModelProvider extends FabricModelProvider {
                 bsmg.registerCubeAllModelTexturePool(Blocks.SOUL_SAND);
         BlockStateModelGenerator.BlockTexturePool soulSoilPool =
                 bsmg.registerCubeAllModelTexturePool(Blocks.SOUL_SOIL);
+        BlockStateModelGenerator.BlockTexturePool coalOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.COAL_ORE);
 
 
         //oak
@@ -2074,6 +2076,14 @@ public class ModModelProvider extends FabricModelProvider {
         registerSTBFence(bsmg, ModBlocks.BONE_FENCE, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
         registerSTBFenceGate(bsmg, ModBlocks.BONE_FENCE_GATE, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
         registerSTBPressurePlate(bsmg, ModBlocks.BONE_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
+        //coal_ore
+        coalOrePool.button(ModBlocks.COAL_ORE_BUTTON);
+        coalOrePool.wall(ModBlocks.COAL_ORE_WALL);
+        coalOrePool.slab(ModBlocks.COAL_ORE_SLAB);
+        coalOrePool.stairs(ModBlocks.COAL_ORE_STAIRS);
+        coalOrePool.fence(ModBlocks.COAL_ORE_FENCE);
+        coalOrePool.fenceGate(ModBlocks.COAL_ORE_FENCE_GATE);
+        coalOrePool.pressurePlate(ModBlocks.COAL_ORE_PRESSURE_PLATE);
 
 
 
@@ -2742,6 +2752,9 @@ public class ModModelProvider extends FabricModelProvider {
         //bone
         bsmg.registerOrientableTrapdoor(ModBlocks.BONE_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.BONE_DOOR);
+        //coal_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.COAL_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.COAL_ORE_DOOR);
 
 
 

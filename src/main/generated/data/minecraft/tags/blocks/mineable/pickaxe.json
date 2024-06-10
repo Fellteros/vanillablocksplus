@@ -1252,6 +1252,15 @@
     "vanillablocksplus:bone_fence_gate",
     "vanillablocksplus:bone_fence",
     "vanillablocksplus:bone_button",
-    "vanillablocksplus:bone_pressure_plate"
+    "vanillablocksplus:bone_pressure_plate",
+    "vanillablocksplus:coal_ore_stairs",
+    "vanillablocksplus:coal_ore_slab",
+    "vanillablocksplus:coal_ore_wall",
+    "vanillablocksplus:coal_ore_door",
+    "vanillablocksplus:coal_ore_trapdoor",
+    "vanillablocksplus:coal_ore_fence_gate",
+    "vanillablocksplus:coal_ore_fence",
+    "vanillablocksplus:coal_ore_button",
+    "vanillablocksplus:coal_ore_pressure_plate"
   ]
 }

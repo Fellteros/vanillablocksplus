@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/coal_ore_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/coal_ore"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/coal_ore_slab_top"
+    }
+  }
+}

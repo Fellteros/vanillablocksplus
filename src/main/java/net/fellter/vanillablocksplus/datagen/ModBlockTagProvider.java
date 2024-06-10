@@ -2105,7 +2105,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BONE_FENCE_GATE)
                 .add(ModBlocks.BONE_FENCE)
                 .add(ModBlocks.BONE_BUTTON)
-                .add(ModBlocks.BONE_PRESSURE_PLATE);
+                .add(ModBlocks.BONE_PRESSURE_PLATE)
+                //coal_ore
+                .add(ModBlocks.COAL_ORE_STAIRS)
+                .add(ModBlocks.COAL_ORE_SLAB)
+                .add(ModBlocks.COAL_ORE_WALL)
+                .add(ModBlocks.COAL_ORE_DOOR)
+                .add(ModBlocks.COAL_ORE_TRAPDOOR)
+                .add(ModBlocks.COAL_ORE_FENCE_GATE)
+                .add(ModBlocks.COAL_ORE_FENCE)
+                .add(ModBlocks.COAL_ORE_BUTTON)
+                .add(ModBlocks.COAL_ORE_PRESSURE_PLATE);
 
 
 
@@ -2532,7 +2542,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WARPED_NYLIUM_FENCE)
                 .add(ModBlocks.SOUL_SAND_FENCE)
                 .add(ModBlocks.SOUL_SOIL_FENCE)
-                .add(ModBlocks.BONE_FENCE);
+                .add(ModBlocks.BONE_FENCE)
+                .add(ModBlocks.COAL_ORE_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -2754,7 +2765,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WARPED_NYLIUM_FENCE)
                 .add(ModBlocks.SOUL_SAND_FENCE)
                 .add(ModBlocks.SOUL_SOIL_FENCE)
-                .add(ModBlocks.BONE_FENCE);
+                .add(ModBlocks.BONE_FENCE)
+                .add(ModBlocks.COAL_ORE_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -2970,7 +2982,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WARPED_NYLIUM_FENCE_GATE)
                 .add(ModBlocks.SOUL_SAND_FENCE_GATE)
                 .add(ModBlocks.SOUL_SOIL_FENCE_GATE)
-                .add(ModBlocks.BONE_FENCE_GATE);
+                .add(ModBlocks.BONE_FENCE_GATE)
+                .add(ModBlocks.COAL_ORE_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -3153,7 +3166,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WARPED_NYLIUM_WALL)
                 .add(ModBlocks.SOUL_SAND_WALL)
                 .add(ModBlocks.SOUL_SOIL_WALL)
-                .add(ModBlocks.BONE_WALL);
+                .add(ModBlocks.BONE_WALL)
+                .add(ModBlocks.COAL_ORE_WALL);
 
 
 

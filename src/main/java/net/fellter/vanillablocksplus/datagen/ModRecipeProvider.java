@@ -2379,6 +2379,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BONE_BUTTON, Blocks.BONE_BLOCK).offerTo(exporter);
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.BONE_WALL, (Blocks.BONE_BLOCK)).offerTo(exporter);
 
+        //coal_ore
+        ModRecipes.createDoorRecipe(ModBlocks.COAL_ORE_DOOR, (Blocks.COAL_ORE)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_ORE_SLAB, (Blocks.COAL_ORE)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.COAL_ORE_STAIRS, (Blocks.COAL_ORE)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.COAL_ORE_FENCE, (Blocks.COAL_ORE), (ModBlocks.COAL_ORE_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.COAL_ORE_FENCE_GATE, (Blocks.COAL_ORE), (ModBlocks.COAL_ORE_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.COAL_ORE_TRAPDOOR, (ModBlocks.COAL_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_ORE_PRESSURE_PLATE, (ModBlocks.COAL_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_ORE_BUTTON, Blocks.COAL_ORE).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_ORE_WALL, (Blocks.COAL_ORE)).offerTo(exporter);
+
 
 
         
