@@ -18,7 +18,7 @@ public class ModRecipes {
 
 
 
-    public static CraftingRecipeJsonBuilder createPressurePlateModRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input) {
+    public static CraftingRecipeJsonBuilder createPPModRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input) {
         return ShapedRecipeJsonBuilder.create(category, output)
                 .input('#', input)
                 .pattern("##")
@@ -26,7 +26,7 @@ public class ModRecipes {
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
-    public static CraftingRecipeJsonBuilder createNonWoodFenceRecipe(ItemConvertible output, ItemConvertible input, ItemConvertible likeStickItem, int outputCount) {
+    public static CraftingRecipeJsonBuilder createNWFRecipe(ItemConvertible output, ItemConvertible input, ItemConvertible likeStickItem, int outputCount) {
         return ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output, outputCount)
                 .input('#', likeStickItem)
                 .input('W', input)
@@ -38,7 +38,7 @@ public class ModRecipes {
                 .showNotification(true);
     }
 
-    public static CraftingRecipeJsonBuilder createNonWoodFenceGateRecipe(ItemConvertible output, ItemConvertible input, ItemConvertible likeStickItem, int outputCount) {
+    public static CraftingRecipeJsonBuilder createNWFGRecipe(ItemConvertible output, ItemConvertible input, ItemConvertible likeStickItem, int outputCount) {
         return ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output, outputCount)
                 .input('#', likeStickItem)
                 .input('W', input)
@@ -138,14 +138,6 @@ public class ModRecipes {
                 .pattern("###")
                 .criterion(hasItem(output), conditionsFromItem(output))
                 .criterion(hasItem(input), conditionsFromItem(input))
-                .showNotification(true);
-    }
-    public static CraftingRecipeJsonBuilder createItemConvertibleRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input, int outputCount) {
-        return ShapedRecipeJsonBuilder.create(category, output, outputCount)
-                .input('#', input)
-                .pattern("##")
-                .pattern("##")
-                .criterion(hasItem(output), conditionsFromItem(output))
                 .showNotification(true);
     }
 

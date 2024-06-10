@@ -1261,6 +1261,15 @@
     "vanillablocksplus:coal_ore_fence_gate",
     "vanillablocksplus:coal_ore_fence",
     "vanillablocksplus:coal_ore_button",
-    "vanillablocksplus:coal_ore_pressure_plate"
+    "vanillablocksplus:coal_ore_pressure_plate",
+    "vanillablocksplus:deepslate_coal_ore_stairs",
+    "vanillablocksplus:deepslate_coal_ore_slab",
+    "vanillablocksplus:deepslate_coal_ore_wall",
+    "vanillablocksplus:deepslate_coal_ore_door",
+    "vanillablocksplus:deepslate_coal_ore_trapdoor",
+    "vanillablocksplus:deepslate_coal_ore_fence_gate",
+    "vanillablocksplus:deepslate_coal_ore_fence",
+    "vanillablocksplus:deepslate_coal_ore_button",
+    "vanillablocksplus:deepslate_coal_ore_pressure_plate"
   ]
 }

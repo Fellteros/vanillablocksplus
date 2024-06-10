@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "#": {
-      "item": "minecraft:emerald"
+      "item": "vanillablocksplus:emerald_fragment"
     }
   },
   "pattern": [

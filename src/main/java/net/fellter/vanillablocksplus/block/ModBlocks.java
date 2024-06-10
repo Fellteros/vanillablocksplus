@@ -5395,6 +5395,27 @@ public class ModBlocks {
     public static final Block COAL_ORE_WALL = registerBlock("coal_ore_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.COAL_ORE)));
 
+    //deepslate_coal_ore
+    public static final Block DEEPSLATE_COAL_ORE_STAIRS = registerBlock("deepslate_coal_ore_stairs",
+            new StairsBlock(Blocks.DEEPSLATE_COAL_ORE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COAL_ORE)));
+    public static final Block DEEPSLATE_COAL_ORE_SLAB = registerBlock("deepslate_coal_ore_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COAL_ORE)));
+    public static final Block DEEPSLATE_COAL_ORE_BUTTON = registerBlock("deepslate_coal_ore_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COAL_ORE), BlockSetType.STONE, 10, false));
+    public static final Block DEEPSLATE_COAL_ORE_PRESSURE_PLATE = registerBlock("deepslate_coal_ore_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COAL_ORE), BlockSetType.STONE));
+    public static final Block DEEPSLATE_COAL_ORE_FENCE = registerBlock("deepslate_coal_ore_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COAL_ORE)));
+    public static final Block DEEPSLATE_COAL_ORE_FENCE_GATE = registerBlock("deepslate_coal_ore_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COAL_ORE), WoodType.OAK));
+    public static final Block DEEPSLATE_COAL_ORE_DOOR = registerBlock("deepslate_coal_ore_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COAL_ORE), BlockSetType.STONE));
+    public static final Block DEEPSLATE_COAL_ORE_TRAPDOOR = registerBlock("deepslate_coal_ore_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COAL_ORE), BlockSetType.STONE));
+    public static final Block DEEPSLATE_COAL_ORE_WALL = registerBlock("deepslate_coal_ore_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COAL_ORE)));
+
 
 
 

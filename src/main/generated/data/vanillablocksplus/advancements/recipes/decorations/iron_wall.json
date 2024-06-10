@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_iron_bit": {
+    "has_coal": {
       "conditions": {
         "items": [
           {
             "items": [
-              "vanillablocksplus:iron_bit"
+              "minecraft:coal"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_iron_wall",
-      "has_iron_bit",
+      "has_coal",
       "has_the_recipe"
     ]
   ],

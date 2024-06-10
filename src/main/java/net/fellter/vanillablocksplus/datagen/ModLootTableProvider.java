@@ -2114,6 +2114,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.COAL_ORE_DOOR, doorDrops(ModBlocks.COAL_ORE_DOOR));
         addDrop(ModBlocks.COAL_ORE_SLAB, slabDrops(ModBlocks.COAL_ORE_SLAB));
         addDrop(ModBlocks.COAL_ORE_WALL);
+
+        //deepslate_coal_ore
+        addDrop(ModBlocks.DEEPSLATE_COAL_ORE_STAIRS);
+        addDrop(ModBlocks.DEEPSLATE_COAL_ORE_TRAPDOOR);
+        addDrop(ModBlocks.DEEPSLATE_COAL_ORE_BUTTON);
+        addDrop(ModBlocks.DEEPSLATE_COAL_ORE_PRESSURE_PLATE);
+        addDrop(ModBlocks.DEEPSLATE_COAL_ORE_FENCE);
+        addDrop(ModBlocks.DEEPSLATE_COAL_ORE_FENCE_GATE);
+        addDrop(ModBlocks.DEEPSLATE_COAL_ORE_DOOR, doorDrops(ModBlocks.DEEPSLATE_COAL_ORE_DOOR));
+        addDrop(ModBlocks.DEEPSLATE_COAL_ORE_SLAB, slabDrops(ModBlocks.DEEPSLATE_COAL_ORE_SLAB));
+        addDrop(ModBlocks.DEEPSLATE_COAL_ORE_WALL);
         
         
         

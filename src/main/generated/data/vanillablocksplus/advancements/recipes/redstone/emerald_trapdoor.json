@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_emerald": {
+    "has_emerald_fragment": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:emerald"
+              "vanillablocksplus:emerald_fragment"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_emerald_trapdoor",
-      "has_emerald",
+      "has_emerald_fragment",
       "has_the_recipe"
     ]
   ],

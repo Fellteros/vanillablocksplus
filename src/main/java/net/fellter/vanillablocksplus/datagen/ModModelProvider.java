@@ -420,6 +420,8 @@ public class ModModelProvider extends FabricModelProvider {
                 bsmg.registerCubeAllModelTexturePool(Blocks.SOUL_SOIL);
         BlockStateModelGenerator.BlockTexturePool coalOrePool =
                 bsmg.registerCubeAllModelTexturePool(Blocks.COAL_ORE);
+        BlockStateModelGenerator.BlockTexturePool deepslateCoalOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.DEEPSLATE_COAL_ORE);
 
 
         //oak
@@ -2084,6 +2086,14 @@ public class ModModelProvider extends FabricModelProvider {
         coalOrePool.fence(ModBlocks.COAL_ORE_FENCE);
         coalOrePool.fenceGate(ModBlocks.COAL_ORE_FENCE_GATE);
         coalOrePool.pressurePlate(ModBlocks.COAL_ORE_PRESSURE_PLATE);
+        //deepslate_coal_ore
+        deepslateCoalOrePool.button(ModBlocks.DEEPSLATE_COAL_ORE_BUTTON);
+        deepslateCoalOrePool.wall(ModBlocks.DEEPSLATE_COAL_ORE_WALL);
+        deepslateCoalOrePool.slab(ModBlocks.DEEPSLATE_COAL_ORE_SLAB);
+        deepslateCoalOrePool.stairs(ModBlocks.DEEPSLATE_COAL_ORE_STAIRS);
+        deepslateCoalOrePool.fence(ModBlocks.DEEPSLATE_COAL_ORE_FENCE);
+        deepslateCoalOrePool.fenceGate(ModBlocks.DEEPSLATE_COAL_ORE_FENCE_GATE);
+        deepslateCoalOrePool.pressurePlate(ModBlocks.DEEPSLATE_COAL_ORE_PRESSURE_PLATE);
 
 
 
@@ -2755,6 +2765,9 @@ public class ModModelProvider extends FabricModelProvider {
         //coal_ore
         bsmg.registerOrientableTrapdoor(ModBlocks.COAL_ORE_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.COAL_ORE_DOOR);
+        //deepslate_coal_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_COAL_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DEEPSLATE_COAL_ORE_DOOR);
 
 
 

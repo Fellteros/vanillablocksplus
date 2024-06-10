@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "vanillablocksplus:item/deepslate_coal_ore_door"
+  }
+}
