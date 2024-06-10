@@ -2141,6 +2141,66 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_COAL_ORE_TRAPDOOR);
                         entries.add(ModBlocks.DEEPSLATE_COAL_ORE_PRESSURE_PLATE);
                         entries.add(ModBlocks.DEEPSLATE_COAL_ORE_BUTTON);
+                        //iron_ore
+                        entries.add(ModBlocks.IRON_ORE_STAIRS);
+                        entries.add(ModBlocks.IRON_ORE_SLAB);
+                        entries.add(ModBlocks.IRON_ORE_WALL);
+                        entries.add(ModBlocks.IRON_ORE_FENCE);
+                        entries.add(ModBlocks.IRON_ORE_FENCE_GATE);
+                        entries.add(ModBlocks.IRON_ORE_DOOR);
+                        entries.add(ModBlocks.IRON_ORE_TRAPDOOR);
+                        entries.add(ModBlocks.IRON_ORE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.IRON_ORE_BUTTON);
+                        //deepslate_iron_ore
+                        entries.add(ModBlocks.DEEPSLATE_IRON_ORE_STAIRS);
+                        entries.add(ModBlocks.DEEPSLATE_IRON_ORE_SLAB);
+                        entries.add(ModBlocks.DEEPSLATE_IRON_ORE_WALL);
+                        entries.add(ModBlocks.DEEPSLATE_IRON_ORE_FENCE);
+                        entries.add(ModBlocks.DEEPSLATE_IRON_ORE_FENCE_GATE);
+                        entries.add(ModBlocks.DEEPSLATE_IRON_ORE_DOOR);
+                        entries.add(ModBlocks.DEEPSLATE_IRON_ORE_TRAPDOOR);
+                        entries.add(ModBlocks.DEEPSLATE_IRON_ORE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.DEEPSLATE_IRON_ORE_BUTTON);
+                        //copper_ore
+                        entries.add(ModBlocks.COPPER_ORE_STAIRS);
+                        entries.add(ModBlocks.COPPER_ORE_SLAB);
+                        entries.add(ModBlocks.COPPER_ORE_WALL);
+                        entries.add(ModBlocks.COPPER_ORE_FENCE);
+                        entries.add(ModBlocks.COPPER_ORE_FENCE_GATE);
+                        entries.add(ModBlocks.COPPER_ORE_DOOR);
+                        entries.add(ModBlocks.COPPER_ORE_TRAPDOOR);
+                        entries.add(ModBlocks.COPPER_ORE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.COPPER_ORE_BUTTON);
+                        //deepslate_copper_ore
+                        entries.add(ModBlocks.DEEPSLATE_COPPER_ORE_STAIRS);
+                        entries.add(ModBlocks.DEEPSLATE_COPPER_ORE_SLAB);
+                        entries.add(ModBlocks.DEEPSLATE_COPPER_ORE_WALL);
+                        entries.add(ModBlocks.DEEPSLATE_COPPER_ORE_FENCE);
+                        entries.add(ModBlocks.DEEPSLATE_COPPER_ORE_FENCE_GATE);
+                        entries.add(ModBlocks.DEEPSLATE_COPPER_ORE_DOOR);
+                        entries.add(ModBlocks.DEEPSLATE_COPPER_ORE_TRAPDOOR);
+                        entries.add(ModBlocks.DEEPSLATE_COPPER_ORE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.DEEPSLATE_COPPER_ORE_BUTTON);
+                        //gold_ore
+                        entries.add(ModBlocks.GOLD_ORE_STAIRS);
+                        entries.add(ModBlocks.GOLD_ORE_SLAB);
+                        entries.add(ModBlocks.GOLD_ORE_WALL);
+                        entries.add(ModBlocks.GOLD_ORE_FENCE);
+                        entries.add(ModBlocks.GOLD_ORE_FENCE_GATE);
+                        entries.add(ModBlocks.GOLD_ORE_DOOR);
+                        entries.add(ModBlocks.GOLD_ORE_TRAPDOOR);
+                        entries.add(ModBlocks.GOLD_ORE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.GOLD_ORE_BUTTON);
+                        //deepslate_gold_ore
+                        entries.add(ModBlocks.DEEPSLATE_GOLD_ORE_STAIRS);
+                        entries.add(ModBlocks.DEEPSLATE_GOLD_ORE_SLAB);
+                        entries.add(ModBlocks.DEEPSLATE_GOLD_ORE_WALL);
+                        entries.add(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE);
+                        entries.add(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE_GATE);
+                        entries.add(ModBlocks.DEEPSLATE_GOLD_ORE_DOOR);
+                        entries.add(ModBlocks.DEEPSLATE_GOLD_ORE_TRAPDOOR);
+                        entries.add(ModBlocks.DEEPSLATE_GOLD_ORE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.DEEPSLATE_GOLD_ORE_BUTTON);
 
 
 

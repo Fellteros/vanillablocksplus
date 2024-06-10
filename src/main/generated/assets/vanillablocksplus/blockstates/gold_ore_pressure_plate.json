@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "vanillablocksplus:block/gold_ore_pressure_plate"
+    },
+    "powered=true": {
+      "model": "vanillablocksplus:block/gold_ore_pressure_plate_down"
+    }
+  }
+}

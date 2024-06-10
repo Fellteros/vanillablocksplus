@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/copper_ore_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/copper_ore"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/copper_ore_slab_top"
+    }
+  }
+}

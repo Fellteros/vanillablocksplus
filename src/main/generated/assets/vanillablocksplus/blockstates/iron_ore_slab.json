@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/iron_ore_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/iron_ore"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/iron_ore_slab_top"
+    }
+  }
+}

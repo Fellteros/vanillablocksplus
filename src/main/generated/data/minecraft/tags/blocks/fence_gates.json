@@ -215,6 +215,12 @@
     "vanillablocksplus:soul_soil_fence_gate",
     "vanillablocksplus:bone_fence_gate",
     "vanillablocksplus:coal_ore_fence_gate",
-    "vanillablocksplus:deepslate_coal_ore_fence_gate"
+    "vanillablocksplus:deepslate_coal_ore_fence_gate",
+    "vanillablocksplus:iron_ore_fence_gate",
+    "vanillablocksplus:deepslate_iron_ore_fence_gate",
+    "vanillablocksplus:copper_ore_fence_gate",
+    "vanillablocksplus:deepslate_copper_ore_fence_gate",
+    "vanillablocksplus:gold_ore_fence_gate",
+    "vanillablocksplus:deepslate_gold_ore_fence_gate"
   ]
 }

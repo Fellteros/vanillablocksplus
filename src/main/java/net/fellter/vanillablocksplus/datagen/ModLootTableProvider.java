@@ -2125,6 +2125,72 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DEEPSLATE_COAL_ORE_DOOR, doorDrops(ModBlocks.DEEPSLATE_COAL_ORE_DOOR));
         addDrop(ModBlocks.DEEPSLATE_COAL_ORE_SLAB, slabDrops(ModBlocks.DEEPSLATE_COAL_ORE_SLAB));
         addDrop(ModBlocks.DEEPSLATE_COAL_ORE_WALL);
+
+        //iron_ore
+        addDrop(ModBlocks.IRON_ORE_STAIRS);
+        addDrop(ModBlocks.IRON_ORE_TRAPDOOR);
+        addDrop(ModBlocks.IRON_ORE_BUTTON);
+        addDrop(ModBlocks.IRON_ORE_PRESSURE_PLATE);
+        addDrop(ModBlocks.IRON_ORE_FENCE);
+        addDrop(ModBlocks.IRON_ORE_FENCE_GATE);
+        addDrop(ModBlocks.IRON_ORE_DOOR, doorDrops(ModBlocks.IRON_ORE_DOOR));
+        addDrop(ModBlocks.IRON_ORE_SLAB, slabDrops(ModBlocks.IRON_ORE_SLAB));
+        addDrop(ModBlocks.IRON_ORE_WALL);
+
+        //deepslate_iron_ore
+        addDrop(ModBlocks.DEEPSLATE_IRON_ORE_STAIRS);
+        addDrop(ModBlocks.DEEPSLATE_IRON_ORE_TRAPDOOR);
+        addDrop(ModBlocks.DEEPSLATE_IRON_ORE_BUTTON);
+        addDrop(ModBlocks.DEEPSLATE_IRON_ORE_PRESSURE_PLATE);
+        addDrop(ModBlocks.DEEPSLATE_IRON_ORE_FENCE);
+        addDrop(ModBlocks.DEEPSLATE_IRON_ORE_FENCE_GATE);
+        addDrop(ModBlocks.DEEPSLATE_IRON_ORE_DOOR, doorDrops(ModBlocks.DEEPSLATE_IRON_ORE_DOOR));
+        addDrop(ModBlocks.DEEPSLATE_IRON_ORE_SLAB, slabDrops(ModBlocks.DEEPSLATE_IRON_ORE_SLAB));
+        addDrop(ModBlocks.DEEPSLATE_IRON_ORE_WALL);
+
+        //copper_ore
+        addDrop(ModBlocks.COPPER_ORE_STAIRS);
+        addDrop(ModBlocks.COPPER_ORE_TRAPDOOR);
+        addDrop(ModBlocks.COPPER_ORE_BUTTON);
+        addDrop(ModBlocks.COPPER_ORE_PRESSURE_PLATE);
+        addDrop(ModBlocks.COPPER_ORE_FENCE);
+        addDrop(ModBlocks.COPPER_ORE_FENCE_GATE);
+        addDrop(ModBlocks.COPPER_ORE_DOOR, doorDrops(ModBlocks.COPPER_ORE_DOOR));
+        addDrop(ModBlocks.COPPER_ORE_SLAB, slabDrops(ModBlocks.COPPER_ORE_SLAB));
+        addDrop(ModBlocks.COPPER_ORE_WALL);
+
+        //deepslate_copper_ore
+        addDrop(ModBlocks.DEEPSLATE_COPPER_ORE_STAIRS);
+        addDrop(ModBlocks.DEEPSLATE_COPPER_ORE_TRAPDOOR);
+        addDrop(ModBlocks.DEEPSLATE_COPPER_ORE_BUTTON);
+        addDrop(ModBlocks.DEEPSLATE_COPPER_ORE_PRESSURE_PLATE);
+        addDrop(ModBlocks.DEEPSLATE_COPPER_ORE_FENCE);
+        addDrop(ModBlocks.DEEPSLATE_COPPER_ORE_FENCE_GATE);
+        addDrop(ModBlocks.DEEPSLATE_COPPER_ORE_DOOR, doorDrops(ModBlocks.DEEPSLATE_COPPER_ORE_DOOR));
+        addDrop(ModBlocks.DEEPSLATE_COPPER_ORE_SLAB, slabDrops(ModBlocks.DEEPSLATE_COPPER_ORE_SLAB));
+        addDrop(ModBlocks.DEEPSLATE_COPPER_ORE_WALL);
+
+        //gold_ore
+        addDrop(ModBlocks.GOLD_ORE_STAIRS);
+        addDrop(ModBlocks.GOLD_ORE_TRAPDOOR);
+        addDrop(ModBlocks.GOLD_ORE_BUTTON);
+        addDrop(ModBlocks.GOLD_ORE_PRESSURE_PLATE);
+        addDrop(ModBlocks.GOLD_ORE_FENCE);
+        addDrop(ModBlocks.GOLD_ORE_FENCE_GATE);
+        addDrop(ModBlocks.GOLD_ORE_DOOR, doorDrops(ModBlocks.GOLD_ORE_DOOR));
+        addDrop(ModBlocks.GOLD_ORE_SLAB, slabDrops(ModBlocks.GOLD_ORE_SLAB));
+        addDrop(ModBlocks.GOLD_ORE_WALL);
+
+        //deepslate_gold_ore
+        addDrop(ModBlocks.DEEPSLATE_GOLD_ORE_STAIRS);
+        addDrop(ModBlocks.DEEPSLATE_GOLD_ORE_TRAPDOOR);
+        addDrop(ModBlocks.DEEPSLATE_GOLD_ORE_BUTTON);
+        addDrop(ModBlocks.DEEPSLATE_GOLD_ORE_PRESSURE_PLATE);
+        addDrop(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE);
+        addDrop(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE_GATE);
+        addDrop(ModBlocks.DEEPSLATE_GOLD_ORE_DOOR, doorDrops(ModBlocks.DEEPSLATE_GOLD_ORE_DOOR));
+        addDrop(ModBlocks.DEEPSLATE_GOLD_ORE_SLAB, slabDrops(ModBlocks.DEEPSLATE_GOLD_ORE_SLAB));
+        addDrop(ModBlocks.DEEPSLATE_GOLD_ORE_WALL);
         
         
         

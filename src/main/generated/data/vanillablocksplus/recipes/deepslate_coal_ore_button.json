@@ -7,11 +7,9 @@
     }
   },
   "pattern": [
-    "##",
-    "##"
+    " # "
   ],
   "result": {
-    "count": 8,
     "item": "vanillablocksplus:deepslate_coal_ore_button"
   },
   "show_notification": true

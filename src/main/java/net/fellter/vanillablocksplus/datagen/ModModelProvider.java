@@ -422,6 +422,18 @@ public class ModModelProvider extends FabricModelProvider {
                 bsmg.registerCubeAllModelTexturePool(Blocks.COAL_ORE);
         BlockStateModelGenerator.BlockTexturePool deepslateCoalOrePool =
                 bsmg.registerCubeAllModelTexturePool(Blocks.DEEPSLATE_COAL_ORE);
+        BlockStateModelGenerator.BlockTexturePool ironOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.IRON_ORE);
+        BlockStateModelGenerator.BlockTexturePool deepslateIronOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.DEEPSLATE_IRON_ORE);
+        BlockStateModelGenerator.BlockTexturePool copperOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.COPPER_ORE);
+        BlockStateModelGenerator.BlockTexturePool deepslateCopperOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.DEEPSLATE_COPPER_ORE);
+        BlockStateModelGenerator.BlockTexturePool goldOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.GOLD_ORE);
+        BlockStateModelGenerator.BlockTexturePool deepslateGoldOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.DEEPSLATE_GOLD_ORE);
 
 
         //oak
@@ -2094,6 +2106,54 @@ public class ModModelProvider extends FabricModelProvider {
         deepslateCoalOrePool.fence(ModBlocks.DEEPSLATE_COAL_ORE_FENCE);
         deepslateCoalOrePool.fenceGate(ModBlocks.DEEPSLATE_COAL_ORE_FENCE_GATE);
         deepslateCoalOrePool.pressurePlate(ModBlocks.DEEPSLATE_COAL_ORE_PRESSURE_PLATE);
+        //iron_ore
+        ironOrePool.button(ModBlocks.IRON_ORE_BUTTON);
+        ironOrePool.wall(ModBlocks.IRON_ORE_WALL);
+        ironOrePool.slab(ModBlocks.IRON_ORE_SLAB);
+        ironOrePool.stairs(ModBlocks.IRON_ORE_STAIRS);
+        ironOrePool.fence(ModBlocks.IRON_ORE_FENCE);
+        ironOrePool.fenceGate(ModBlocks.IRON_ORE_FENCE_GATE);
+        ironOrePool.pressurePlate(ModBlocks.IRON_ORE_PRESSURE_PLATE);
+        //deepslate_iron_ore
+        deepslateIronOrePool.button(ModBlocks.DEEPSLATE_IRON_ORE_BUTTON);
+        deepslateIronOrePool.wall(ModBlocks.DEEPSLATE_IRON_ORE_WALL);
+        deepslateIronOrePool.slab(ModBlocks.DEEPSLATE_IRON_ORE_SLAB);
+        deepslateIronOrePool.stairs(ModBlocks.DEEPSLATE_IRON_ORE_STAIRS);
+        deepslateIronOrePool.fence(ModBlocks.DEEPSLATE_IRON_ORE_FENCE);
+        deepslateIronOrePool.fenceGate(ModBlocks.DEEPSLATE_IRON_ORE_FENCE_GATE);
+        deepslateIronOrePool.pressurePlate(ModBlocks.DEEPSLATE_IRON_ORE_PRESSURE_PLATE);
+        //copper_ore
+        copperOrePool.button(ModBlocks.COPPER_ORE_BUTTON);
+        copperOrePool.wall(ModBlocks.COPPER_ORE_WALL);
+        copperOrePool.slab(ModBlocks.COPPER_ORE_SLAB);
+        copperOrePool.stairs(ModBlocks.COPPER_ORE_STAIRS);
+        copperOrePool.fence(ModBlocks.COPPER_ORE_FENCE);
+        copperOrePool.fenceGate(ModBlocks.COPPER_ORE_FENCE_GATE);
+        copperOrePool.pressurePlate(ModBlocks.COPPER_ORE_PRESSURE_PLATE);
+        //deepslate_copper_ore
+        deepslateCopperOrePool.button(ModBlocks.DEEPSLATE_COPPER_ORE_BUTTON);
+        deepslateCopperOrePool.wall(ModBlocks.DEEPSLATE_COPPER_ORE_WALL);
+        deepslateCopperOrePool.slab(ModBlocks.DEEPSLATE_COPPER_ORE_SLAB);
+        deepslateCopperOrePool.stairs(ModBlocks.DEEPSLATE_COPPER_ORE_STAIRS);
+        deepslateCopperOrePool.fence(ModBlocks.DEEPSLATE_COPPER_ORE_FENCE);
+        deepslateCopperOrePool.fenceGate(ModBlocks.DEEPSLATE_COPPER_ORE_FENCE_GATE);
+        deepslateCopperOrePool.pressurePlate(ModBlocks.DEEPSLATE_COPPER_ORE_PRESSURE_PLATE);
+        //gold_ore
+        goldOrePool.button(ModBlocks.GOLD_ORE_BUTTON);
+        goldOrePool.wall(ModBlocks.GOLD_ORE_WALL);
+        goldOrePool.slab(ModBlocks.GOLD_ORE_SLAB);
+        goldOrePool.stairs(ModBlocks.GOLD_ORE_STAIRS);
+        goldOrePool.fence(ModBlocks.GOLD_ORE_FENCE);
+        goldOrePool.fenceGate(ModBlocks.GOLD_ORE_FENCE_GATE);
+        goldOrePool.pressurePlate(ModBlocks.GOLD_ORE_PRESSURE_PLATE);
+        //deepslate_gold_ore
+        deepslateGoldOrePool.button(ModBlocks.DEEPSLATE_GOLD_ORE_BUTTON);
+        deepslateGoldOrePool.wall(ModBlocks.DEEPSLATE_GOLD_ORE_WALL);
+        deepslateGoldOrePool.slab(ModBlocks.DEEPSLATE_GOLD_ORE_SLAB);
+        deepslateGoldOrePool.stairs(ModBlocks.DEEPSLATE_GOLD_ORE_STAIRS);
+        deepslateGoldOrePool.fence(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE);
+        deepslateGoldOrePool.fenceGate(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE_GATE);
+        deepslateGoldOrePool.pressurePlate(ModBlocks.DEEPSLATE_GOLD_ORE_PRESSURE_PLATE);
 
 
 
@@ -2768,6 +2828,24 @@ public class ModModelProvider extends FabricModelProvider {
         //deepslate_coal_ore
         bsmg.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_COAL_ORE_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.DEEPSLATE_COAL_ORE_DOOR);
+        //iron_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.IRON_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.IRON_ORE_DOOR);
+        //deepslate_iron_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_IRON_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DEEPSLATE_IRON_ORE_DOOR);
+        //copper_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.COPPER_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.COPPER_ORE_DOOR);
+        //deepslate_copper_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_COPPER_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DEEPSLATE_COPPER_ORE_DOOR);
+        //gold_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.GOLD_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GOLD_ORE_DOOR);
+        //deepslate_gold_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_GOLD_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DEEPSLATE_GOLD_ORE_DOOR);
 
 
 

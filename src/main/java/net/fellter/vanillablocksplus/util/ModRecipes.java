@@ -18,7 +18,7 @@ public class ModRecipes {
 
 
 
-    public static CraftingRecipeJsonBuilder createPPModRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input) {
+    public static CraftingRecipeJsonBuilder PressPlateRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input) {
         return ShapedRecipeJsonBuilder.create(category, output)
                 .input('#', input)
                 .pattern("##")
@@ -26,7 +26,7 @@ public class ModRecipes {
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
-    public static CraftingRecipeJsonBuilder createNWFRecipe(ItemConvertible output, ItemConvertible input, ItemConvertible likeStickItem, int outputCount) {
+    public static CraftingRecipeJsonBuilder NWFenceRecipe(ItemConvertible output, ItemConvertible input, ItemConvertible likeStickItem, int outputCount) {
         return ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output, outputCount)
                 .input('#', likeStickItem)
                 .input('W', input)
@@ -38,7 +38,7 @@ public class ModRecipes {
                 .showNotification(true);
     }
 
-    public static CraftingRecipeJsonBuilder createNWFGRecipe(ItemConvertible output, ItemConvertible input, ItemConvertible likeStickItem, int outputCount) {
+    public static CraftingRecipeJsonBuilder NWFenceGateRecipe(ItemConvertible output, ItemConvertible input, ItemConvertible likeStickItem, int outputCount) {
         return ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output, outputCount)
                 .input('#', likeStickItem)
                 .input('W', input)
@@ -51,7 +51,7 @@ public class ModRecipes {
     }
 
 
-    public static CraftingRecipeJsonBuilder create2x2ButtonRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input) {
+    public static CraftingRecipeJsonBuilder x2ButtonRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input) {
         return ShapedRecipeJsonBuilder.create(category, output, 8)
                 .input('#', input)
                 .pattern("##")
@@ -61,7 +61,7 @@ public class ModRecipes {
                 .showNotification(true);
     }
 
-    public static CraftingRecipeJsonBuilder createIngredientRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input) {
+    public static CraftingRecipeJsonBuilder IngredientRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input) {
         return ShapedRecipeJsonBuilder.create(category, output, 8)
                 .input('#', input)
                 .pattern("##")
@@ -69,7 +69,7 @@ public class ModRecipes {
                 .criterion(hasItem(output), conditionsFromItem(output))
                 .showNotification(true);
     }
-    public static CraftingRecipeJsonBuilder offerButtonRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input, int outputCount) {
+    public static CraftingRecipeJsonBuilder ButtonRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input, int outputCount) {
         return ShapedRecipeJsonBuilder.create(category, output, outputCount)
                 .input('#', input)
                 .pattern(" # ")
@@ -77,7 +77,7 @@ public class ModRecipes {
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
-    public static CraftingRecipeJsonBuilder createSlabRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input) {
+    public static CraftingRecipeJsonBuilder SlabRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input) {
         return ShapedRecipeJsonBuilder.create(category, output, 6)
                 .input('#', input)
                 .pattern("###")
@@ -85,7 +85,7 @@ public class ModRecipes {
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
-    public static CraftingRecipeJsonBuilder createStairsRecipe(ItemConvertible output, ItemConvertible input) {
+    public static CraftingRecipeJsonBuilder StairsRecipe(ItemConvertible output, ItemConvertible input) {
         return ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, output, 4).input('#', input)
                 .pattern("#  ")
                 .pattern("## ")
@@ -94,7 +94,7 @@ public class ModRecipes {
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
-    public static CraftingRecipeJsonBuilder createTrapdoorRecipe(ItemConvertible output, ItemConvertible input) {
+    public static CraftingRecipeJsonBuilder TrapdoorRecipe(ItemConvertible output, ItemConvertible input) {
         return ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, output, 2)
                 .input('#', input)
                 .pattern("###")
@@ -103,7 +103,7 @@ public class ModRecipes {
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
-    public static CraftingRecipeJsonBuilder createFenceGateRecipe(ItemConvertible output, ItemConvertible input) {
+    public static CraftingRecipeJsonBuilder FenceGateRecipe(ItemConvertible output, ItemConvertible input) {
         return ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, output)
                 .input('#', Items.STICK)
                 .input('W', input)
@@ -113,7 +113,7 @@ public class ModRecipes {
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
-    public static CraftingRecipeJsonBuilder createFenceRecipe(ItemConvertible output, ItemConvertible input) {
+    public static CraftingRecipeJsonBuilder FenceRecipe(ItemConvertible output, ItemConvertible input) {
         return ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output, 3)
                 .input('W', input).input('#', Items.STICK)
                 .pattern("W#W")
@@ -122,7 +122,7 @@ public class ModRecipes {
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
-    public static CraftingRecipeJsonBuilder createDoorRecipe(ItemConvertible output, ItemConvertible input) {
+    public static CraftingRecipeJsonBuilder DoorRecipe(ItemConvertible output, ItemConvertible input) {
         return ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, output, 3).input('#', input)
                 .pattern("##")
                 .pattern("##")
@@ -131,7 +131,7 @@ public class ModRecipes {
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
-    public static CraftingRecipeJsonBuilder createWallRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input) {
+    public static CraftingRecipeJsonBuilder WallRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input) {
         return ShapedRecipeJsonBuilder.create(category, output, 6)
                 .input('#', input)
                 .pattern("###")

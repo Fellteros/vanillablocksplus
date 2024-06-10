@@ -2125,7 +2125,67 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_COAL_ORE_FENCE_GATE)
                 .add(ModBlocks.DEEPSLATE_COAL_ORE_FENCE)
                 .add(ModBlocks.DEEPSLATE_COAL_ORE_BUTTON)
-                .add(ModBlocks.DEEPSLATE_COAL_ORE_PRESSURE_PLATE);
+                .add(ModBlocks.DEEPSLATE_COAL_ORE_PRESSURE_PLATE)
+                //iron_ore
+                .add(ModBlocks.IRON_ORE_STAIRS)
+                .add(ModBlocks.IRON_ORE_SLAB)
+                .add(ModBlocks.IRON_ORE_WALL)
+                .add(ModBlocks.IRON_ORE_DOOR)
+                .add(ModBlocks.IRON_ORE_TRAPDOOR)
+                .add(ModBlocks.IRON_ORE_FENCE_GATE)
+                .add(ModBlocks.IRON_ORE_FENCE)
+                .add(ModBlocks.IRON_ORE_BUTTON)
+                .add(ModBlocks.IRON_ORE_PRESSURE_PLATE)
+                //deepslate_iron_ore
+                .add(ModBlocks.DEEPSLATE_IRON_ORE_STAIRS)
+                .add(ModBlocks.DEEPSLATE_IRON_ORE_SLAB)
+                .add(ModBlocks.DEEPSLATE_IRON_ORE_WALL)
+                .add(ModBlocks.DEEPSLATE_IRON_ORE_DOOR)
+                .add(ModBlocks.DEEPSLATE_IRON_ORE_TRAPDOOR)
+                .add(ModBlocks.DEEPSLATE_IRON_ORE_FENCE_GATE)
+                .add(ModBlocks.DEEPSLATE_IRON_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_IRON_ORE_BUTTON)
+                .add(ModBlocks.DEEPSLATE_IRON_ORE_PRESSURE_PLATE)
+                //copper_ore
+                .add(ModBlocks.COPPER_ORE_STAIRS)
+                .add(ModBlocks.COPPER_ORE_SLAB)
+                .add(ModBlocks.COPPER_ORE_WALL)
+                .add(ModBlocks.COPPER_ORE_DOOR)
+                .add(ModBlocks.COPPER_ORE_TRAPDOOR)
+                .add(ModBlocks.COPPER_ORE_FENCE_GATE)
+                .add(ModBlocks.COPPER_ORE_FENCE)
+                .add(ModBlocks.COPPER_ORE_BUTTON)
+                .add(ModBlocks.COPPER_ORE_PRESSURE_PLATE)
+                //deepslate_copper_ore
+                .add(ModBlocks.DEEPSLATE_COPPER_ORE_STAIRS)
+                .add(ModBlocks.DEEPSLATE_COPPER_ORE_SLAB)
+                .add(ModBlocks.DEEPSLATE_COPPER_ORE_WALL)
+                .add(ModBlocks.DEEPSLATE_COPPER_ORE_DOOR)
+                .add(ModBlocks.DEEPSLATE_COPPER_ORE_TRAPDOOR)
+                .add(ModBlocks.DEEPSLATE_COPPER_ORE_FENCE_GATE)
+                .add(ModBlocks.DEEPSLATE_COPPER_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_COPPER_ORE_BUTTON)
+                .add(ModBlocks.DEEPSLATE_COPPER_ORE_PRESSURE_PLATE)
+                //gold_ore
+                .add(ModBlocks.GOLD_ORE_STAIRS)
+                .add(ModBlocks.GOLD_ORE_SLAB)
+                .add(ModBlocks.GOLD_ORE_WALL)
+                .add(ModBlocks.GOLD_ORE_DOOR)
+                .add(ModBlocks.GOLD_ORE_TRAPDOOR)
+                .add(ModBlocks.GOLD_ORE_FENCE_GATE)
+                .add(ModBlocks.GOLD_ORE_FENCE)
+                .add(ModBlocks.GOLD_ORE_BUTTON)
+                .add(ModBlocks.GOLD_ORE_PRESSURE_PLATE)
+                //deepslate_gold_ore
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_STAIRS)
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_SLAB)
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_WALL)
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_DOOR)
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_TRAPDOOR)
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE_GATE)
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_BUTTON)
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_PRESSURE_PLATE);
 
 
 
@@ -2554,7 +2614,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SOUL_SOIL_FENCE)
                 .add(ModBlocks.BONE_FENCE)
                 .add(ModBlocks.COAL_ORE_FENCE)
-                .add(ModBlocks.DEEPSLATE_COAL_ORE_FENCE);
+                .add(ModBlocks.DEEPSLATE_COAL_ORE_FENCE)
+                .add(ModBlocks.IRON_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_IRON_ORE_FENCE)
+                .add(ModBlocks.COPPER_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_COPPER_ORE_FENCE)
+                .add(ModBlocks.GOLD_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -2778,7 +2844,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SOUL_SOIL_FENCE)
                 .add(ModBlocks.BONE_FENCE)
                 .add(ModBlocks.COAL_ORE_FENCE)
-                .add(ModBlocks.DEEPSLATE_COAL_ORE_FENCE);
+                .add(ModBlocks.DEEPSLATE_COAL_ORE_FENCE)
+                .add(ModBlocks.IRON_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_IRON_ORE_FENCE)
+                .add(ModBlocks.COPPER_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_COPPER_ORE_FENCE)
+                .add(ModBlocks.GOLD_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -2996,7 +3068,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SOUL_SOIL_FENCE_GATE)
                 .add(ModBlocks.BONE_FENCE_GATE)
                 .add(ModBlocks.COAL_ORE_FENCE_GATE)
-                .add(ModBlocks.DEEPSLATE_COAL_ORE_FENCE_GATE);
+                .add(ModBlocks.DEEPSLATE_COAL_ORE_FENCE_GATE)
+                .add(ModBlocks.IRON_ORE_FENCE_GATE)
+                .add(ModBlocks.DEEPSLATE_IRON_ORE_FENCE_GATE)
+                .add(ModBlocks.COPPER_ORE_FENCE_GATE)
+                .add(ModBlocks.DEEPSLATE_COPPER_ORE_FENCE_GATE)
+                .add(ModBlocks.GOLD_ORE_FENCE_GATE)
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -3181,7 +3259,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SOUL_SOIL_WALL)
                 .add(ModBlocks.BONE_WALL)
                 .add(ModBlocks.COAL_ORE_WALL)
-                .add(ModBlocks.DEEPSLATE_COAL_ORE_WALL);
+                .add(ModBlocks.DEEPSLATE_COAL_ORE_WALL)
+                .add(ModBlocks.IRON_ORE_WALL)
+                .add(ModBlocks.DEEPSLATE_IRON_ORE_WALL)
+                .add(ModBlocks.COPPER_ORE_WALL)
+                .add(ModBlocks.DEEPSLATE_COPPER_ORE_WALL)
+                .add(ModBlocks.GOLD_ORE_WALL)
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_WALL);
 
 
 

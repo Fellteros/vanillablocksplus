@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/gold_ore_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/gold_ore"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/gold_ore_slab_top"
+    }
+  }
+}

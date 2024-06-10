@@ -182,6 +182,12 @@
     "vanillablocksplus:soul_soil_wall",
     "vanillablocksplus:bone_wall",
     "vanillablocksplus:coal_ore_wall",
-    "vanillablocksplus:deepslate_coal_ore_wall"
+    "vanillablocksplus:deepslate_coal_ore_wall",
+    "vanillablocksplus:iron_ore_wall",
+    "vanillablocksplus:deepslate_iron_ore_wall",
+    "vanillablocksplus:copper_ore_wall",
+    "vanillablocksplus:deepslate_copper_ore_wall",
+    "vanillablocksplus:gold_ore_wall",
+    "vanillablocksplus:deepslate_gold_ore_wall"
   ]
 }
