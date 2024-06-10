@@ -2091,6 +2091,36 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WARPED_NYLIUM_TRAPDOOR);
                         entries.add(ModBlocks.WARPED_NYLIUM_PRESSURE_PLATE);
                         entries.add(ModBlocks.WARPED_NYLIUM_BUTTON);
+                        //soul_sand
+                        entries.add(ModBlocks.SOUL_SAND_STAIRS);
+                        entries.add(ModBlocks.SOUL_SAND_SLAB);
+                        entries.add(ModBlocks.SOUL_SAND_WALL);
+                        entries.add(ModBlocks.SOUL_SAND_FENCE);
+                        entries.add(ModBlocks.SOUL_SAND_FENCE_GATE);
+                        entries.add(ModBlocks.SOUL_SAND_DOOR);
+                        entries.add(ModBlocks.SOUL_SAND_TRAPDOOR);
+                        entries.add(ModBlocks.SOUL_SAND_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SOUL_SAND_BUTTON);
+                        //soul_soil
+                        entries.add(ModBlocks.SOUL_SOIL_STAIRS);
+                        entries.add(ModBlocks.SOUL_SOIL_SLAB);
+                        entries.add(ModBlocks.SOUL_SOIL_WALL);
+                        entries.add(ModBlocks.SOUL_SOIL_FENCE);
+                        entries.add(ModBlocks.SOUL_SOIL_FENCE_GATE);
+                        entries.add(ModBlocks.SOUL_SOIL_DOOR);
+                        entries.add(ModBlocks.SOUL_SOIL_TRAPDOOR);
+                        entries.add(ModBlocks.SOUL_SOIL_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SOUL_SOIL_BUTTON);
+                        //bone
+                        entries.add(ModBlocks.BONE_STAIRS);
+                        entries.add(ModBlocks.BONE_SLAB);
+                        entries.add(ModBlocks.BONE_WALL);
+                        entries.add(ModBlocks.BONE_FENCE);
+                        entries.add(ModBlocks.BONE_FENCE_GATE);
+                        entries.add(ModBlocks.BONE_DOOR);
+                        entries.add(ModBlocks.BONE_TRAPDOOR);
+                        entries.add(ModBlocks.BONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.BONE_BUTTON);
 
 
 

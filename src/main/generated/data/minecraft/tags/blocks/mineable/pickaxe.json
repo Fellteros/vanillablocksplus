@@ -1243,6 +1243,15 @@
     "vanillablocksplus:warped_nylium_fence_gate",
     "vanillablocksplus:warped_nylium_fence",
     "vanillablocksplus:warped_nylium_button",
-    "vanillablocksplus:warped_nylium_pressure_plate"
+    "vanillablocksplus:warped_nylium_pressure_plate",
+    "vanillablocksplus:bone_stairs",
+    "vanillablocksplus:bone_slab",
+    "vanillablocksplus:bone_wall",
+    "vanillablocksplus:bone_door",
+    "vanillablocksplus:bone_trapdoor",
+    "vanillablocksplus:bone_fence_gate",
+    "vanillablocksplus:bone_fence",
+    "vanillablocksplus:bone_button",
+    "vanillablocksplus:bone_pressure_plate"
   ]
 }

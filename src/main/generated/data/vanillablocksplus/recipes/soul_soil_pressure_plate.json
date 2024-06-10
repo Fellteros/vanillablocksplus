@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:soul_soil_slab"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "vanillablocksplus:soul_soil_pressure_plate"
+  },
+  "show_notification": true
+}

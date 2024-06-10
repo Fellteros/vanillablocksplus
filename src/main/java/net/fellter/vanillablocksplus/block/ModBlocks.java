@@ -5599,6 +5599,69 @@ public class ModBlocks {
     public static final Block WARPED_NYLIUM_WALL = registerBlock("warped_nylium_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.WARPED_NYLIUM)));
 
+    //soul_sand
+    public static final Block SOUL_SAND_STAIRS = registerBlock("soul_sand_stairs",
+            new StairsBlock(Blocks.SOUL_SAND.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SOUL_SAND)));
+    public static final Block SOUL_SAND_SLAB = registerBlock("soul_sand_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SAND)));
+    public static final Block SOUL_SAND_BUTTON = registerBlock("soul_sand_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SAND), BlockSetType.STONE, 10, false));
+    public static final Block SOUL_SAND_PRESSURE_PLATE = registerBlock("soul_sand_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.SOUL_SAND), BlockSetType.STONE));
+    public static final Block SOUL_SAND_FENCE = registerBlock("soul_sand_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SAND)));
+    public static final Block SOUL_SAND_FENCE_GATE = registerBlock("soul_sand_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SAND), WoodType.OAK));
+    public static final Block SOUL_SAND_DOOR = registerBlock("soul_sand_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SAND), BlockSetType.STONE));
+    public static final Block SOUL_SAND_TRAPDOOR = registerBlock("soul_sand_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SAND), BlockSetType.STONE));
+    public static final Block SOUL_SAND_WALL = registerBlock("soul_sand_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SAND)));
+
+    //soul_soil
+    public static final Block SOUL_SOIL_STAIRS = registerBlock("soul_soil_stairs",
+            new StairsBlock(Blocks.SOUL_SOIL.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SOUL_SOIL)));
+    public static final Block SOUL_SOIL_SLAB = registerBlock("soul_soil_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SOIL)));
+    public static final Block SOUL_SOIL_BUTTON = registerBlock("soul_soil_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SOIL), BlockSetType.STONE, 10, false));
+    public static final Block SOUL_SOIL_PRESSURE_PLATE = registerBlock("soul_soil_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.SOUL_SOIL), BlockSetType.STONE));
+    public static final Block SOUL_SOIL_FENCE = registerBlock("soul_soil_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SOIL)));
+    public static final Block SOUL_SOIL_FENCE_GATE = registerBlock("soul_soil_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SOIL), WoodType.OAK));
+    public static final Block SOUL_SOIL_DOOR = registerBlock("soul_soil_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SOIL), BlockSetType.STONE));
+    public static final Block SOUL_SOIL_TRAPDOOR = registerBlock("soul_soil_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SOIL), BlockSetType.STONE));
+    public static final Block SOUL_SOIL_WALL = registerBlock("soul_soil_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SOIL)));
+
+    //bone_block
+    public static final Block BONE_STAIRS = registerBlock("bone_stairs",
+            new StairsBlock(Blocks.BONE_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BONE_BLOCK)));
+    public static final Block BONE_SLAB = registerBlock("bone_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.BONE_BLOCK)));
+    public static final Block BONE_BUTTON = registerBlock("bone_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.BONE_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block BONE_PRESSURE_PLATE = registerBlock("bone_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.BONE_BLOCK), BlockSetType.STONE));
+    public static final Block BONE_FENCE = registerBlock("bone_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.BONE_BLOCK)));
+    public static final Block BONE_FENCE_GATE = registerBlock("bone_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.BONE_BLOCK), WoodType.OAK));
+    public static final Block BONE_DOOR = registerBlock("bone_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.BONE_BLOCK), BlockSetType.STONE));
+    public static final Block BONE_TRAPDOOR = registerBlock("bone_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BONE_BLOCK), BlockSetType.STONE));
+    public static final Block BONE_WALL = registerBlock("bone_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.BONE_BLOCK)));
+
 
 
 

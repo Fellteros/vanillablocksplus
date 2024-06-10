@@ -2346,6 +2346,39 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WARPED_NYLIUM_BUTTON, Blocks.WARPED_NYLIUM, 1).offerTo(exporter);
         ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WARPED_NYLIUM_WALL, (Blocks.WARPED_NYLIUM)).offerTo(exporter);
 
+        //soul_sand
+        ModRecipes.createDoorRecipe(ModBlocks.SOUL_SAND_DOOR, (Blocks.SOUL_SAND)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.SOUL_SAND_SLAB, (Blocks.SOUL_SAND)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.SOUL_SAND_STAIRS, (Blocks.SOUL_SAND)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.SOUL_SAND_FENCE, (Blocks.SOUL_SAND), (ModBlocks.SOUL_SAND_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.SOUL_SAND_FENCE_GATE, (Blocks.SOUL_SAND), (ModBlocks.SOUL_SAND_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.SOUL_SAND_TRAPDOOR, (ModBlocks.SOUL_SAND_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.SOUL_SAND_PRESSURE_PLATE, (ModBlocks.SOUL_SAND_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.SOUL_SAND_BUTTON, Blocks.SOUL_SAND, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.SOUL_SAND_WALL, (Blocks.SOUL_SAND)).offerTo(exporter);
+
+        //soul_soil
+        ModRecipes.createDoorRecipe(ModBlocks.SOUL_SOIL_DOOR, (Blocks.SOUL_SOIL)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.SOUL_SOIL_SLAB, (Blocks.SOUL_SOIL)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.SOUL_SOIL_STAIRS, (Blocks.SOUL_SOIL)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.SOUL_SOIL_FENCE, (Blocks.SOUL_SOIL), (ModBlocks.SOUL_SOIL_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.SOUL_SOIL_FENCE_GATE, (Blocks.SOUL_SOIL), (ModBlocks.SOUL_SOIL_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.SOUL_SOIL_TRAPDOOR, (ModBlocks.SOUL_SOIL_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.SOUL_SOIL_PRESSURE_PLATE, (ModBlocks.SOUL_SOIL_SLAB)).offerTo(exporter);
+        ModRecipes.offerButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.SOUL_SOIL_BUTTON, Blocks.SOUL_SOIL, 1).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.SOUL_SOIL_WALL, (Blocks.SOUL_SOIL)).offerTo(exporter);
+
+        //bone
+        ModRecipes.createDoorRecipe(ModBlocks.BONE_DOOR, (Blocks.BONE_BLOCK)).offerTo(exporter);
+        ModRecipes.createSlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.BONE_SLAB, (Blocks.BONE_BLOCK)).offerTo(exporter);
+        ModRecipes.createStairsRecipe(ModBlocks.BONE_STAIRS, (Blocks.BONE_BLOCK)).offerTo(exporter);
+        ModRecipes.createNonWoodFenceRecipe(ModBlocks.BONE_FENCE, (Blocks.BONE_BLOCK), (ModBlocks.BONE_SLAB), 3).offerTo(exporter);
+        ModRecipes.createNonWoodFenceGateRecipe(ModBlocks.BONE_FENCE_GATE, (Blocks.BONE_BLOCK), (ModBlocks.BONE_SLAB), 1).offerTo(exporter);
+        ModRecipes.createTrapdoorRecipe(ModBlocks.BONE_TRAPDOOR, (ModBlocks.BONE_SLAB)).offerTo(exporter);
+        ModRecipes.createPressurePlateModRecipe(RecipeCategory.DECORATIONS, ModBlocks.BONE_PRESSURE_PLATE, (ModBlocks.BONE_SLAB)).offerTo(exporter);
+        ModRecipes.create2x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BONE_BUTTON, Blocks.BONE_BLOCK).offerTo(exporter);
+        ModRecipes.createWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.BONE_WALL, (Blocks.BONE_BLOCK)).offerTo(exporter);
+
 
 
         

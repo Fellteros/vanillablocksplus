@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "vanillablocksplus:block/soul_soil_pressure_plate"
+    },
+    "powered=true": {
+      "model": "vanillablocksplus:block/soul_soil_pressure_plate_down"
+    }
+  }
+}

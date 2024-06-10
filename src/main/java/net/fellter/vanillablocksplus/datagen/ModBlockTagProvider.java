@@ -494,7 +494,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                  .add(ModBlocks.SNOW_FENCE_GATE)
                  .add(ModBlocks.SNOW_FENCE)
                  .add(ModBlocks.SNOW_BUTTON)
-                 .add(ModBlocks.SNOW_PRESSURE_PLATE);
+                 .add(ModBlocks.SNOW_PRESSURE_PLATE)
+                 //soul_sand
+                 .add(ModBlocks.SOUL_SAND_STAIRS)
+                 .add(ModBlocks.SOUL_SAND_SLAB)
+                 .add(ModBlocks.SOUL_SAND_WALL)
+                 .add(ModBlocks.SOUL_SAND_DOOR)
+                 .add(ModBlocks.SOUL_SAND_TRAPDOOR)
+                 .add(ModBlocks.SOUL_SAND_FENCE_GATE)
+                 .add(ModBlocks.SOUL_SAND_FENCE)
+                 .add(ModBlocks.SOUL_SAND_BUTTON)
+                 .add(ModBlocks.SOUL_SAND_PRESSURE_PLATE)
+                 //soul_soil
+                 .add(ModBlocks.SOUL_SOIL_STAIRS)
+                 .add(ModBlocks.SOUL_SOIL_SLAB)
+                 .add(ModBlocks.SOUL_SOIL_WALL)
+                 .add(ModBlocks.SOUL_SOIL_DOOR)
+                 .add(ModBlocks.SOUL_SOIL_TRAPDOOR)
+                 .add(ModBlocks.SOUL_SOIL_FENCE_GATE)
+                 .add(ModBlocks.SOUL_SOIL_FENCE)
+                 .add(ModBlocks.SOUL_SOIL_BUTTON)
+                 .add(ModBlocks.SOUL_SOIL_PRESSURE_PLATE);
          
          getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                  //moss
@@ -2075,7 +2095,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WARPED_NYLIUM_FENCE_GATE)
                 .add(ModBlocks.WARPED_NYLIUM_FENCE)
                 .add(ModBlocks.WARPED_NYLIUM_BUTTON)
-                .add(ModBlocks.WARPED_NYLIUM_PRESSURE_PLATE);
+                .add(ModBlocks.WARPED_NYLIUM_PRESSURE_PLATE)
+                //bone
+                .add(ModBlocks.BONE_STAIRS)
+                .add(ModBlocks.BONE_SLAB)
+                .add(ModBlocks.BONE_WALL)
+                .add(ModBlocks.BONE_DOOR)
+                .add(ModBlocks.BONE_TRAPDOOR)
+                .add(ModBlocks.BONE_FENCE_GATE)
+                .add(ModBlocks.BONE_FENCE)
+                .add(ModBlocks.BONE_BUTTON)
+                .add(ModBlocks.BONE_PRESSURE_PLATE);
 
 
 
@@ -2499,7 +2529,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAGMA_FENCE)
                 .add(ModBlocks.CRYING_OBSIDIAN_FENCE)
                 .add(ModBlocks.CRIMSON_NYLIUM_FENCE)
-                .add(ModBlocks.WARPED_NYLIUM_FENCE);
+                .add(ModBlocks.WARPED_NYLIUM_FENCE)
+                .add(ModBlocks.SOUL_SAND_FENCE)
+                .add(ModBlocks.SOUL_SOIL_FENCE)
+                .add(ModBlocks.BONE_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -2718,7 +2751,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.OBSIDIAN_FENCE)
                 .add(ModBlocks.CRYING_OBSIDIAN_FENCE)
                 .add(ModBlocks.CRIMSON_NYLIUM_FENCE)
-                .add(ModBlocks.WARPED_NYLIUM_FENCE);
+                .add(ModBlocks.WARPED_NYLIUM_FENCE)
+                .add(ModBlocks.SOUL_SAND_FENCE)
+                .add(ModBlocks.SOUL_SOIL_FENCE)
+                .add(ModBlocks.BONE_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -2931,7 +2967,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.OBSIDIAN_FENCE_GATE)
                 .add(ModBlocks.CRYING_OBSIDIAN_FENCE_GATE)
                 .add(ModBlocks.CRIMSON_NYLIUM_FENCE_GATE)
-                .add(ModBlocks.WARPED_NYLIUM_FENCE_GATE);
+                .add(ModBlocks.WARPED_NYLIUM_FENCE_GATE)
+                .add(ModBlocks.SOUL_SAND_FENCE_GATE)
+                .add(ModBlocks.SOUL_SOIL_FENCE_GATE)
+                .add(ModBlocks.BONE_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -3111,7 +3150,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.OBSIDIAN_WALL)
                 .add(ModBlocks.CRYING_OBSIDIAN_WALL)
                 .add(ModBlocks.CRIMSON_NYLIUM_WALL)
-                .add(ModBlocks.WARPED_NYLIUM_WALL);
+                .add(ModBlocks.WARPED_NYLIUM_WALL)
+                .add(ModBlocks.SOUL_SAND_WALL)
+                .add(ModBlocks.SOUL_SOIL_WALL)
+                .add(ModBlocks.BONE_WALL);
 
 
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:soul_soil_slab"
+    },
+    "W": {
+      "item": "minecraft:soul_soil"
+    }
+  },
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "result": {
+    "count": 3,
+    "item": "vanillablocksplus:soul_soil_fence"
+  },
+  "show_notification": true
+}

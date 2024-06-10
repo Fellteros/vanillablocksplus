@@ -2070,6 +2070,39 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WARPED_NYLIUM_DOOR, doorDrops(ModBlocks.WARPED_NYLIUM_DOOR));
         addDrop(ModBlocks.WARPED_NYLIUM_SLAB, slabDrops(ModBlocks.WARPED_NYLIUM_SLAB));
         addDrop(ModBlocks.WARPED_NYLIUM_WALL);
+
+        //soul_sand
+        addDrop(ModBlocks.SOUL_SAND_STAIRS);
+        addDrop(ModBlocks.SOUL_SAND_TRAPDOOR);
+        addDrop(ModBlocks.SOUL_SAND_BUTTON);
+        addDrop(ModBlocks.SOUL_SAND_PRESSURE_PLATE);
+        addDrop(ModBlocks.SOUL_SAND_FENCE);
+        addDrop(ModBlocks.SOUL_SAND_FENCE_GATE);
+        addDrop(ModBlocks.SOUL_SAND_DOOR, doorDrops(ModBlocks.SOUL_SAND_DOOR));
+        addDrop(ModBlocks.SOUL_SAND_SLAB, slabDrops(ModBlocks.SOUL_SAND_SLAB));
+        addDrop(ModBlocks.SOUL_SAND_WALL);
+
+        //soul_soil
+        addDrop(ModBlocks.SOUL_SOIL_STAIRS);
+        addDrop(ModBlocks.SOUL_SOIL_TRAPDOOR);
+        addDrop(ModBlocks.SOUL_SOIL_BUTTON);
+        addDrop(ModBlocks.SOUL_SOIL_PRESSURE_PLATE);
+        addDrop(ModBlocks.SOUL_SOIL_FENCE);
+        addDrop(ModBlocks.SOUL_SOIL_FENCE_GATE);
+        addDrop(ModBlocks.SOUL_SOIL_DOOR, doorDrops(ModBlocks.SOUL_SOIL_DOOR));
+        addDrop(ModBlocks.SOUL_SOIL_SLAB, slabDrops(ModBlocks.SOUL_SOIL_SLAB));
+        addDrop(ModBlocks.SOUL_SOIL_WALL);
+
+        //bone
+        addDrop(ModBlocks.BONE_STAIRS);
+        addDrop(ModBlocks.BONE_TRAPDOOR);
+        addDrop(ModBlocks.BONE_BUTTON);
+        addDrop(ModBlocks.BONE_PRESSURE_PLATE);
+        addDrop(ModBlocks.BONE_FENCE);
+        addDrop(ModBlocks.BONE_FENCE_GATE);
+        addDrop(ModBlocks.BONE_DOOR, doorDrops(ModBlocks.BONE_DOOR));
+        addDrop(ModBlocks.BONE_SLAB, slabDrops(ModBlocks.BONE_SLAB));
+        addDrop(ModBlocks.BONE_WALL);
         
         
         

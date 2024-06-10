@@ -279,6 +279,24 @@
     "vanillablocksplus:snow_fence_gate",
     "vanillablocksplus:snow_fence",
     "vanillablocksplus:snow_button",
-    "vanillablocksplus:snow_pressure_plate"
+    "vanillablocksplus:snow_pressure_plate",
+    "vanillablocksplus:soul_sand_stairs",
+    "vanillablocksplus:soul_sand_slab",
+    "vanillablocksplus:soul_sand_wall",
+    "vanillablocksplus:soul_sand_door",
+    "vanillablocksplus:soul_sand_trapdoor",
+    "vanillablocksplus:soul_sand_fence_gate",
+    "vanillablocksplus:soul_sand_fence",
+    "vanillablocksplus:soul_sand_button",
+    "vanillablocksplus:soul_sand_pressure_plate",
+    "vanillablocksplus:soul_soil_stairs",
+    "vanillablocksplus:soul_soil_slab",
+    "vanillablocksplus:soul_soil_wall",
+    "vanillablocksplus:soul_soil_door",
+    "vanillablocksplus:soul_soil_trapdoor",
+    "vanillablocksplus:soul_soil_fence_gate",
+    "vanillablocksplus:soul_soil_fence",
+    "vanillablocksplus:soul_soil_button",
+    "vanillablocksplus:soul_soil_pressure_plate"
   ]
 }

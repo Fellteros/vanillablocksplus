@@ -414,6 +414,10 @@ public class ModModelProvider extends FabricModelProvider {
                 bsmg.registerCubeAllModelTexturePool(Blocks.OBSIDIAN);
         BlockStateModelGenerator.BlockTexturePool cryingObsidianPool =
                 bsmg.registerCubeAllModelTexturePool(Blocks.CRYING_OBSIDIAN);
+        BlockStateModelGenerator.BlockTexturePool soulSandPool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.SOUL_SAND);
+        BlockStateModelGenerator.BlockTexturePool soulSoilPool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.SOUL_SOIL);
 
 
         //oak
@@ -2046,6 +2050,30 @@ public class ModModelProvider extends FabricModelProvider {
         registerSTBFence(bsmg, ModBlocks.WARPED_NYLIUM_FENCE, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
         registerSTBFenceGate(bsmg, ModBlocks.WARPED_NYLIUM_FENCE_GATE, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
         registerSTBPressurePlate(bsmg, ModBlocks.WARPED_NYLIUM_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        //soul_sand
+        soulSandPool.button(ModBlocks.SOUL_SAND_BUTTON);
+        soulSandPool.wall(ModBlocks.SOUL_SAND_WALL);
+        soulSandPool.slab(ModBlocks.SOUL_SAND_SLAB);
+        soulSandPool.stairs(ModBlocks.SOUL_SAND_STAIRS);
+        soulSandPool.fence(ModBlocks.SOUL_SAND_FENCE);
+        soulSandPool.fenceGate(ModBlocks.SOUL_SAND_FENCE_GATE);
+        soulSandPool.pressurePlate(ModBlocks.SOUL_SAND_PRESSURE_PLATE);
+        //soul_soil
+        soulSoilPool.button(ModBlocks.SOUL_SOIL_BUTTON);
+        soulSoilPool.wall(ModBlocks.SOUL_SOIL_WALL);
+        soulSoilPool.slab(ModBlocks.SOUL_SOIL_SLAB);
+        soulSoilPool.stairs(ModBlocks.SOUL_SOIL_STAIRS);
+        soulSoilPool.fence(ModBlocks.SOUL_SOIL_FENCE);
+        soulSoilPool.fenceGate(ModBlocks.SOUL_SOIL_FENCE_GATE);
+        soulSoilPool.pressurePlate(ModBlocks.SOUL_SOIL_PRESSURE_PLATE);
+        //bone
+        registerSTBButton(bsmg, ModBlocks.BONE_BUTTON, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
+        registerSTBWall(bsmg, ModBlocks.BONE_WALL, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
+        registerSTBSlab(bsmg, ModBlocks.BONE_SLAB, Blocks.BONE_BLOCK, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
+        registerSTBStairs(bsmg, ModBlocks.BONE_STAIRS, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
+        registerSTBFence(bsmg, ModBlocks.BONE_FENCE, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
+        registerSTBFenceGate(bsmg, ModBlocks.BONE_FENCE_GATE, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
+        registerSTBPressurePlate(bsmg, ModBlocks.BONE_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
 
 
 
@@ -2705,6 +2733,15 @@ public class ModModelProvider extends FabricModelProvider {
         //warped_nylium
         bsmg.registerOrientableTrapdoor(ModBlocks.WARPED_NYLIUM_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.WARPED_NYLIUM_DOOR);
+        //soul_sand
+        bsmg.registerOrientableTrapdoor(ModBlocks.SOUL_SAND_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.SOUL_SAND_DOOR);
+        //soul_soil
+        bsmg.registerOrientableTrapdoor(ModBlocks.SOUL_SOIL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.SOUL_SOIL_DOOR);
+        //bone
+        bsmg.registerOrientableTrapdoor(ModBlocks.BONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BONE_DOOR);
 
 
 
