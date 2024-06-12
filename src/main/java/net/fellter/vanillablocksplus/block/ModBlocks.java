@@ -5389,6 +5389,237 @@ public class ModBlocks {
     public static final Block DEEPSLATE_GOLD_ORE_WALL = registerBlock("deepslate_gold_ore_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_GOLD_ORE)));
 
+    //redstone_ore
+    public static final Block REDSTONE_ORE_STAIRS = registerBlock("redstone_ore_stairs",
+            new StairsBlock(Blocks.COAL_ORE.getDefaultState(), FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
+    public static final Block REDSTONE_ORE_SLAB = registerBlock("redstone_ore_slab",
+            new SlabBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
+    public static final Block REDSTONE_ORE_BUTTON = registerBlock("redstone_ore_button",
+            new ButtonBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), BlockSetType.STONE, 10, false));
+    public static final Block REDSTONE_ORE_PRESSURE_PLATE = registerBlock("redstone_ore_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), BlockSetType.STONE));
+    public static final Block REDSTONE_ORE_FENCE = registerBlock("redstone_ore_fence",
+            new FenceBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
+    public static final Block REDSTONE_ORE_FENCE_GATE = registerBlock("redstone_ore_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), WoodType.OAK));
+    public static final Block REDSTONE_ORE_DOOR = registerBlock("redstone_ore_door",
+            new DoorBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), BlockSetType.STONE));
+    public static final Block REDSTONE_ORE_TRAPDOOR = registerBlock("redstone_ore_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), BlockSetType.STONE));
+    public static final Block REDSTONE_ORE_WALL = registerBlock("redstone_ore_wall",
+            new WallBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
+
+    //deepslate_redstone_ore
+    public static final Block DEEPSLATE_REDSTONE_ORE_STAIRS = registerBlock("deepslate_redstone_ore_stairs",
+            new StairsBlock(Blocks.DEEPSLATE_COAL_ORE.getDefaultState(), FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
+    public static final Block DEEPSLATE_REDSTONE_ORE_SLAB = registerBlock("deepslate_redstone_ore_slab",
+            new SlabBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
+    public static final Block DEEPSLATE_REDSTONE_ORE_BUTTON = registerBlock("deepslate_redstone_ore_button",
+            new ButtonBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), BlockSetType.STONE, 10, false));
+    public static final Block DEEPSLATE_REDSTONE_ORE_PRESSURE_PLATE = registerBlock("deepslate_redstone_ore_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), BlockSetType.STONE));
+    public static final Block DEEPSLATE_REDSTONE_ORE_FENCE = registerBlock("deepslate_redstone_ore_fence",
+            new FenceBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
+    public static final Block DEEPSLATE_REDSTONE_ORE_FENCE_GATE = registerBlock("deepslate_redstone_ore_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), WoodType.OAK));
+    public static final Block DEEPSLATE_REDSTONE_ORE_DOOR = registerBlock("deepslate_redstone_ore_door",
+            new DoorBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), BlockSetType.STONE));
+    public static final Block DEEPSLATE_REDSTONE_ORE_TRAPDOOR = registerBlock("deepslate_redstone_ore_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), BlockSetType.STONE));
+    public static final Block DEEPSLATE_REDSTONE_ORE_WALL = registerBlock("deepslate_redstone_ore_wall",
+            new WallBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
+
+    //emerald_ore
+    public static final Block EMERALD_ORE_STAIRS = registerBlock("emerald_ore_stairs",
+            new StairsBlock(Blocks.EMERALD_ORE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.EMERALD_ORE)));
+    public static final Block EMERALD_ORE_SLAB = registerBlock("emerald_ore_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE)));
+    public static final Block EMERALD_ORE_BUTTON = registerBlock("emerald_ore_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE), BlockSetType.STONE, 10, false));
+    public static final Block EMERALD_ORE_PRESSURE_PLATE = registerBlock("emerald_ore_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.EMERALD_ORE), BlockSetType.STONE));
+    public static final Block EMERALD_ORE_FENCE = registerBlock("emerald_ore_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE)));
+    public static final Block EMERALD_ORE_FENCE_GATE = registerBlock("emerald_ore_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE), WoodType.OAK));
+    public static final Block EMERALD_ORE_DOOR = registerBlock("emerald_ore_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE), BlockSetType.STONE));
+    public static final Block EMERALD_ORE_TRAPDOOR = registerBlock("emerald_ore_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE), BlockSetType.STONE));
+    public static final Block EMERALD_ORE_WALL = registerBlock("emerald_ore_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE)));
+
+    //deepslate_emerald_ore
+    public static final Block DEEPSLATE_EMERALD_ORE_STAIRS = registerBlock("deepslate_emerald_ore_stairs",
+            new StairsBlock(Blocks.DEEPSLATE_EMERALD_ORE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DEEPSLATE_EMERALD_ORE)));
+    public static final Block DEEPSLATE_EMERALD_ORE_SLAB = registerBlock("deepslate_emerald_ore_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_EMERALD_ORE)));
+    public static final Block DEEPSLATE_EMERALD_ORE_BUTTON = registerBlock("deepslate_emerald_ore_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_EMERALD_ORE), BlockSetType.STONE, 10, false));
+    public static final Block DEEPSLATE_EMERALD_ORE_PRESSURE_PLATE = registerBlock("deepslate_emerald_ore_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.DEEPSLATE_EMERALD_ORE), BlockSetType.STONE));
+    public static final Block DEEPSLATE_EMERALD_ORE_FENCE = registerBlock("deepslate_emerald_ore_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_EMERALD_ORE)));
+    public static final Block DEEPSLATE_EMERALD_ORE_FENCE_GATE = registerBlock("deepslate_emerald_ore_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_EMERALD_ORE), WoodType.OAK));
+    public static final Block DEEPSLATE_EMERALD_ORE_DOOR = registerBlock("deepslate_emerald_ore_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_EMERALD_ORE), BlockSetType.STONE));
+    public static final Block DEEPSLATE_EMERALD_ORE_TRAPDOOR = registerBlock("deepslate_emerald_ore_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_EMERALD_ORE), BlockSetType.STONE));
+    public static final Block DEEPSLATE_EMERALD_ORE_WALL = registerBlock("deepslate_emerald_ore_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_EMERALD_ORE)));
+
+    //lapis_ore
+    public static final Block LAPIS_ORE_STAIRS = registerBlock("lapis_ore_stairs",
+            new StairsBlock(Blocks.LAPIS_ORE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.LAPIS_ORE)));
+    public static final Block LAPIS_ORE_SLAB = registerBlock("lapis_ore_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.LAPIS_ORE)));
+    public static final Block LAPIS_ORE_BUTTON = registerBlock("lapis_ore_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.LAPIS_ORE), BlockSetType.STONE, 10, false));
+    public static final Block LAPIS_ORE_PRESSURE_PLATE = registerBlock("lapis_ore_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.LAPIS_ORE), BlockSetType.STONE));
+    public static final Block LAPIS_ORE_FENCE = registerBlock("lapis_ore_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.LAPIS_ORE)));
+    public static final Block LAPIS_ORE_FENCE_GATE = registerBlock("lapis_ore_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.LAPIS_ORE), WoodType.OAK));
+    public static final Block LAPIS_ORE_DOOR = registerBlock("lapis_ore_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.LAPIS_ORE), BlockSetType.STONE));
+    public static final Block LAPIS_ORE_TRAPDOOR = registerBlock("lapis_ore_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.LAPIS_ORE), BlockSetType.STONE));
+    public static final Block LAPIS_ORE_WALL = registerBlock("lapis_ore_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.LAPIS_ORE)));
+
+    //deepslate_lapis_ore
+    public static final Block DEEPSLATE_LAPIS_ORE_STAIRS = registerBlock("deepslate_lapis_ore_stairs",
+            new StairsBlock(Blocks.DEEPSLATE_LAPIS_ORE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DEEPSLATE_LAPIS_ORE)));
+    public static final Block DEEPSLATE_LAPIS_ORE_SLAB = registerBlock("deepslate_lapis_ore_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_LAPIS_ORE)));
+    public static final Block DEEPSLATE_LAPIS_ORE_BUTTON = registerBlock("deepslate_lapis_ore_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_LAPIS_ORE), BlockSetType.STONE, 10, false));
+    public static final Block DEEPSLATE_LAPIS_ORE_PRESSURE_PLATE = registerBlock("deepslate_lapis_ore_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.DEEPSLATE_LAPIS_ORE), BlockSetType.STONE));
+    public static final Block DEEPSLATE_LAPIS_ORE_FENCE = registerBlock("deepslate_lapis_ore_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_LAPIS_ORE)));
+    public static final Block DEEPSLATE_LAPIS_ORE_FENCE_GATE = registerBlock("deepslate_lapis_ore_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_LAPIS_ORE), WoodType.OAK));
+    public static final Block DEEPSLATE_LAPIS_ORE_DOOR = registerBlock("deepslate_lapis_ore_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_LAPIS_ORE), BlockSetType.STONE));
+    public static final Block DEEPSLATE_LAPIS_ORE_TRAPDOOR = registerBlock("deepslate_lapis_ore_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_LAPIS_ORE), BlockSetType.STONE));
+    public static final Block DEEPSLATE_LAPIS_ORE_WALL = registerBlock("deepslate_lapis_ore_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_LAPIS_ORE)));
+
+    //diamond_ore
+    public static final Block DIAMOND_ORE_STAIRS = registerBlock("diamond_ore_stairs",
+            new StairsBlock(Blocks.DIAMOND_ORE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
+    public static final Block DIAMOND_ORE_SLAB = registerBlock("diamond_ore_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
+    public static final Block DIAMOND_ORE_BUTTON = registerBlock("diamond_ore_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE), BlockSetType.STONE, 10, false));
+    public static final Block DIAMOND_ORE_PRESSURE_PLATE = registerBlock("diamond_ore_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE), BlockSetType.STONE));
+    public static final Block DIAMOND_ORE_FENCE = registerBlock("diamond_ore_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
+    public static final Block DIAMOND_ORE_FENCE_GATE = registerBlock("diamond_ore_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE), WoodType.OAK));
+    public static final Block DIAMOND_ORE_DOOR = registerBlock("diamond_ore_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE), BlockSetType.STONE));
+    public static final Block DIAMOND_ORE_TRAPDOOR = registerBlock("diamond_ore_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE), BlockSetType.STONE));
+    public static final Block DIAMOND_ORE_WALL = registerBlock("diamond_ore_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
+
+    //deepslate_diamond_ore
+    public static final Block DEEPSLATE_DIAMOND_ORE_STAIRS = registerBlock("deepslate_diamond_ore_stairs",
+            new StairsBlock(Blocks.DEEPSLATE_DIAMOND_ORE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));
+    public static final Block DEEPSLATE_DIAMOND_ORE_SLAB = registerBlock("deepslate_diamond_ore_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));
+    public static final Block DEEPSLATE_DIAMOND_ORE_BUTTON = registerBlock("deepslate_diamond_ore_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE), BlockSetType.STONE, 10, false));
+    public static final Block DEEPSLATE_DIAMOND_ORE_PRESSURE_PLATE = registerBlock("deepslate_diamond_ore_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE), BlockSetType.STONE));
+    public static final Block DEEPSLATE_DIAMOND_ORE_FENCE = registerBlock("deepslate_diamond_ore_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));
+    public static final Block DEEPSLATE_DIAMOND_ORE_FENCE_GATE = registerBlock("deepslate_diamond_ore_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE), WoodType.OAK));
+    public static final Block DEEPSLATE_DIAMOND_ORE_DOOR = registerBlock("deepslate_diamond_ore_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE), BlockSetType.STONE));
+    public static final Block DEEPSLATE_DIAMOND_ORE_TRAPDOOR = registerBlock("deepslate_diamond_ore_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE), BlockSetType.STONE));
+    public static final Block DEEPSLATE_DIAMOND_ORE_WALL = registerBlock("deepslate_diamond_ore_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));
+
+    //nether_gold_ore
+    public static final Block NETHER_GOLD_ORE_STAIRS = registerBlock("nether_gold_ore_stairs",
+            new StairsBlock(Blocks.NETHER_GOLD_ORE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
+    public static final Block NETHER_GOLD_ORE_SLAB = registerBlock("nether_gold_ore_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
+    public static final Block NETHER_GOLD_ORE_BUTTON = registerBlock("nether_gold_ore_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE), BlockSetType.STONE, 10, false));
+    public static final Block NETHER_GOLD_ORE_PRESSURE_PLATE = registerBlock("nether_gold_ore_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE), BlockSetType.STONE));
+    public static final Block NETHER_GOLD_ORE_FENCE = registerBlock("nether_gold_ore_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
+    public static final Block NETHER_GOLD_ORE_FENCE_GATE = registerBlock("nether_gold_ore_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE), WoodType.OAK));
+    public static final Block NETHER_GOLD_ORE_DOOR = registerBlock("nether_gold_ore_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE), BlockSetType.STONE));
+    public static final Block NETHER_GOLD_ORE_TRAPDOOR = registerBlock("nether_gold_ore_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE), BlockSetType.STONE));
+    public static final Block NETHER_GOLD_ORE_WALL = registerBlock("nether_gold_ore_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.NETHER_GOLD_ORE)));
+
+    //nether_quartz_ore
+    public static final Block NETHER_QUARTZ_ORE_STAIRS = registerBlock("nether_quartz_ore_stairs",
+            new StairsBlock(Blocks.NETHER_QUARTZ_ORE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.NETHER_QUARTZ_ORE)));
+    public static final Block NETHER_QUARTZ_ORE_SLAB = registerBlock("nether_quartz_ore_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.NETHER_QUARTZ_ORE)));
+    public static final Block NETHER_QUARTZ_ORE_BUTTON = registerBlock("nether_quartz_ore_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.NETHER_QUARTZ_ORE), BlockSetType.STONE, 10, false));
+    public static final Block NETHER_QUARTZ_ORE_PRESSURE_PLATE = registerBlock("nether_quartz_ore_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.NETHER_QUARTZ_ORE), BlockSetType.STONE));
+    public static final Block NETHER_QUARTZ_ORE_FENCE = registerBlock("nether_quartz_ore_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.NETHER_QUARTZ_ORE)));
+    public static final Block NETHER_QUARTZ_ORE_FENCE_GATE = registerBlock("nether_quartz_ore_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.NETHER_QUARTZ_ORE), WoodType.OAK));
+    public static final Block NETHER_QUARTZ_ORE_DOOR = registerBlock("nether_quartz_ore_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.NETHER_QUARTZ_ORE), BlockSetType.STONE));
+    public static final Block NETHER_QUARTZ_ORE_TRAPDOOR = registerBlock("nether_quartz_ore_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.NETHER_QUARTZ_ORE), BlockSetType.STONE));
+    public static final Block NETHER_QUARTZ_ORE_WALL = registerBlock("nether_quartz_ore_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.NETHER_QUARTZ_ORE)));
+
+    //ancient_debris
+    public static final Block ANCIENT_DEBRIS_STAIRS = registerBlock("ancient_debris_stairs",
+            new StairsBlock(Blocks.ANCIENT_DEBRIS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
+    public static final Block ANCIENT_DEBRIS_SLAB = registerBlock("ancient_debris_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
+    public static final Block ANCIENT_DEBRIS_BUTTON = registerBlock("ancient_debris_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS), BlockSetType.STONE, 10, false));
+    public static final Block ANCIENT_DEBRIS_PRESSURE_PLATE = registerBlock("ancient_debris_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS), BlockSetType.STONE));
+    public static final Block ANCIENT_DEBRIS_FENCE = registerBlock("ancient_debris_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
+    public static final Block ANCIENT_DEBRIS_FENCE_GATE = registerBlock("ancient_debris_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS), WoodType.OAK));
+    public static final Block ANCIENT_DEBRIS_DOOR = registerBlock("ancient_debris_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS), BlockSetType.STONE));
+    public static final Block ANCIENT_DEBRIS_TRAPDOOR = registerBlock("ancient_debris_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS), BlockSetType.STONE));
+    public static final Block ANCIENT_DEBRIS_WALL = registerBlock("ancient_debris_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
+
 
 
 

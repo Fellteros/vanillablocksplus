@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_diamond_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_diamond_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_deepslate_diamond_ore_fence_gate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:deepslate_diamond_ore_fence_gate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_deepslate_diamond_ore_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:deepslate_diamond_ore_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:deepslate_diamond_ore_fence_gate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_deepslate_diamond_ore_fence_gate",
+      "has_deepslate_diamond_ore",
+      "has_deepslate_diamond_ore_slab",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:deepslate_diamond_ore_fence_gate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

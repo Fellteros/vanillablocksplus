@@ -221,6 +221,15 @@
     "vanillablocksplus:copper_ore_fence_gate",
     "vanillablocksplus:deepslate_copper_ore_fence_gate",
     "vanillablocksplus:gold_ore_fence_gate",
-    "vanillablocksplus:deepslate_gold_ore_fence_gate"
+    "vanillablocksplus:deepslate_gold_ore_fence_gate",
+    "vanillablocksplus:redstone_ore_fence_gate",
+    "vanillablocksplus:deepslate_redstone_ore_fence_gate",
+    "vanillablocksplus:lapis_ore_fence_gate",
+    "vanillablocksplus:deepslate_lapis_ore_fence_gate",
+    "vanillablocksplus:diamond_ore_fence_gate",
+    "vanillablocksplus:deepslate_diamond_ore_fence_gate",
+    "vanillablocksplus:nether_gold_ore_fence_gate",
+    "vanillablocksplus:nether_quartz_ore_fence_gate",
+    "vanillablocksplus:ancient_debris_fence_gate"
   ]
 }

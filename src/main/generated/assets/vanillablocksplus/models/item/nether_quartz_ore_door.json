@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "vanillablocksplus:item/nether_quartz_ore_door"
+  }
+}

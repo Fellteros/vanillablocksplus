@@ -13,7 +13,7 @@
       "y": 90
     },
     "facing=east,half=top,open=true": {
-      "model": "vanillablocksplus:block/crimson_nylium_trapdoor_open",
+      "model": "vanillablocksplus:block/crimson_nylium_trapdoor_open_top",
       "x": 180,
       "y": 270
     },
@@ -27,7 +27,7 @@
       "model": "vanillablocksplus:block/crimson_nylium_trapdoor_top"
     },
     "facing=north,half=top,open=true": {
-      "model": "vanillablocksplus:block/crimson_nylium_trapdoor_open",
+      "model": "vanillablocksplus:block/crimson_nylium_trapdoor_open_top",
       "x": 180,
       "y": 180
     },
@@ -44,7 +44,7 @@
       "y": 180
     },
     "facing=south,half=top,open=true": {
-      "model": "vanillablocksplus:block/crimson_nylium_trapdoor_open",
+      "model": "vanillablocksplus:block/crimson_nylium_trapdoor_open_top",
       "x": 180,
       "y": 0
     },
@@ -61,7 +61,7 @@
       "y": 270
     },
     "facing=west,half=top,open=true": {
-      "model": "vanillablocksplus:block/crimson_nylium_trapdoor_open",
+      "model": "vanillablocksplus:block/crimson_nylium_trapdoor_open_top",
       "x": 180,
       "y": 90
     }

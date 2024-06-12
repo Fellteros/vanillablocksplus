@@ -2185,7 +2185,118 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE_GATE)
                 .add(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE)
                 .add(ModBlocks.DEEPSLATE_GOLD_ORE_BUTTON)
-                .add(ModBlocks.DEEPSLATE_GOLD_ORE_PRESSURE_PLATE);
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_PRESSURE_PLATE)
+                //redstone_ore
+                .add(ModBlocks.REDSTONE_ORE_STAIRS)
+                .add(ModBlocks.REDSTONE_ORE_SLAB)
+                .add(ModBlocks.REDSTONE_ORE_WALL)
+                .add(ModBlocks.REDSTONE_ORE_DOOR)
+                .add(ModBlocks.REDSTONE_ORE_TRAPDOOR)
+                .add(ModBlocks.REDSTONE_ORE_FENCE_GATE)
+                .add(ModBlocks.REDSTONE_ORE_FENCE)
+                .add(ModBlocks.REDSTONE_ORE_BUTTON)
+                .add(ModBlocks.REDSTONE_ORE_PRESSURE_PLATE)
+                //deepslate_redstone_ore
+                .add(ModBlocks.DEEPSLATE_REDSTONE_ORE_STAIRS)
+                .add(ModBlocks.DEEPSLATE_REDSTONE_ORE_SLAB)
+                .add(ModBlocks.DEEPSLATE_REDSTONE_ORE_WALL)
+                .add(ModBlocks.DEEPSLATE_REDSTONE_ORE_DOOR)
+                .add(ModBlocks.DEEPSLATE_REDSTONE_ORE_TRAPDOOR)
+                .add(ModBlocks.DEEPSLATE_REDSTONE_ORE_FENCE_GATE)
+                .add(ModBlocks.DEEPSLATE_REDSTONE_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_REDSTONE_ORE_BUTTON)
+                .add(ModBlocks.DEEPSLATE_REDSTONE_ORE_PRESSURE_PLATE)
+                //emerald_ore
+                .add(ModBlocks.EMERALD_ORE_STAIRS)
+                .add(ModBlocks.EMERALD_ORE_SLAB)
+                .add(ModBlocks.EMERALD_ORE_WALL)
+                .add(ModBlocks.EMERALD_ORE_DOOR)
+                .add(ModBlocks.EMERALD_ORE_TRAPDOOR)
+                .add(ModBlocks.EMERALD_ORE_FENCE_GATE)
+                .add(ModBlocks.EMERALD_ORE_FENCE)
+                .add(ModBlocks.EMERALD_ORE_BUTTON)
+                .add(ModBlocks.EMERALD_ORE_PRESSURE_PLATE)
+                //deepslate_emerald_ore
+                .add(ModBlocks.DEEPSLATE_EMERALD_ORE_STAIRS)
+                .add(ModBlocks.DEEPSLATE_EMERALD_ORE_SLAB)
+                .add(ModBlocks.DEEPSLATE_EMERALD_ORE_WALL)
+                .add(ModBlocks.DEEPSLATE_EMERALD_ORE_DOOR)
+                .add(ModBlocks.DEEPSLATE_EMERALD_ORE_TRAPDOOR)
+                .add(ModBlocks.DEEPSLATE_EMERALD_ORE_FENCE_GATE)
+                .add(ModBlocks.DEEPSLATE_EMERALD_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_EMERALD_ORE_BUTTON)
+                .add(ModBlocks.DEEPSLATE_EMERALD_ORE_PRESSURE_PLATE)
+                //lapis_ore
+                .add(ModBlocks.LAPIS_ORE_STAIRS)
+                .add(ModBlocks.LAPIS_ORE_SLAB)
+                .add(ModBlocks.LAPIS_ORE_WALL)
+                .add(ModBlocks.LAPIS_ORE_DOOR)
+                .add(ModBlocks.LAPIS_ORE_TRAPDOOR)
+                .add(ModBlocks.LAPIS_ORE_FENCE_GATE)
+                .add(ModBlocks.LAPIS_ORE_FENCE)
+                .add(ModBlocks.LAPIS_ORE_BUTTON)
+                .add(ModBlocks.LAPIS_ORE_PRESSURE_PLATE)
+                //deepslate_lapis_ore
+                .add(ModBlocks.DEEPSLATE_LAPIS_ORE_STAIRS)
+                .add(ModBlocks.DEEPSLATE_LAPIS_ORE_SLAB)
+                .add(ModBlocks.DEEPSLATE_LAPIS_ORE_WALL)
+                .add(ModBlocks.DEEPSLATE_LAPIS_ORE_DOOR)
+                .add(ModBlocks.DEEPSLATE_LAPIS_ORE_TRAPDOOR)
+                .add(ModBlocks.DEEPSLATE_LAPIS_ORE_FENCE_GATE)
+                .add(ModBlocks.DEEPSLATE_LAPIS_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_LAPIS_ORE_BUTTON)
+                .add(ModBlocks.DEEPSLATE_LAPIS_ORE_PRESSURE_PLATE)
+                //diamond_ore
+                .add(ModBlocks.DIAMOND_ORE_STAIRS)
+                .add(ModBlocks.DIAMOND_ORE_SLAB)
+                .add(ModBlocks.DIAMOND_ORE_WALL)
+                .add(ModBlocks.DIAMOND_ORE_DOOR)
+                .add(ModBlocks.DIAMOND_ORE_TRAPDOOR)
+                .add(ModBlocks.DIAMOND_ORE_FENCE_GATE)
+                .add(ModBlocks.DIAMOND_ORE_FENCE)
+                .add(ModBlocks.DIAMOND_ORE_BUTTON)
+                .add(ModBlocks.DIAMOND_ORE_PRESSURE_PLATE)
+                //deepslate_diamond_ore
+                .add(ModBlocks.DEEPSLATE_DIAMOND_ORE_STAIRS)
+                .add(ModBlocks.DEEPSLATE_DIAMOND_ORE_SLAB)
+                .add(ModBlocks.DEEPSLATE_DIAMOND_ORE_WALL)
+                .add(ModBlocks.DEEPSLATE_DIAMOND_ORE_DOOR)
+                .add(ModBlocks.DEEPSLATE_DIAMOND_ORE_TRAPDOOR)
+                .add(ModBlocks.DEEPSLATE_DIAMOND_ORE_FENCE_GATE)
+                .add(ModBlocks.DEEPSLATE_DIAMOND_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_DIAMOND_ORE_BUTTON)
+                .add(ModBlocks.DEEPSLATE_DIAMOND_ORE_PRESSURE_PLATE)
+                //nether_gold_ore
+                .add(ModBlocks.NETHER_GOLD_ORE_STAIRS)
+                .add(ModBlocks.NETHER_GOLD_ORE_SLAB)
+                .add(ModBlocks.NETHER_GOLD_ORE_WALL)
+                .add(ModBlocks.NETHER_GOLD_ORE_DOOR)
+                .add(ModBlocks.NETHER_GOLD_ORE_TRAPDOOR)
+                .add(ModBlocks.NETHER_GOLD_ORE_FENCE_GATE)
+                .add(ModBlocks.NETHER_GOLD_ORE_FENCE)
+                .add(ModBlocks.NETHER_GOLD_ORE_BUTTON)
+                .add(ModBlocks.NETHER_GOLD_ORE_PRESSURE_PLATE)
+                //nether_quartz_ore
+                .add(ModBlocks.NETHER_QUARTZ_ORE_STAIRS)
+                .add(ModBlocks.NETHER_QUARTZ_ORE_SLAB)
+                .add(ModBlocks.NETHER_QUARTZ_ORE_WALL)
+                .add(ModBlocks.NETHER_QUARTZ_ORE_DOOR)
+                .add(ModBlocks.NETHER_QUARTZ_ORE_TRAPDOOR)
+                .add(ModBlocks.NETHER_QUARTZ_ORE_FENCE_GATE)
+                .add(ModBlocks.NETHER_QUARTZ_ORE_FENCE)
+                .add(ModBlocks.NETHER_QUARTZ_ORE_BUTTON)
+                .add(ModBlocks.NETHER_QUARTZ_ORE_PRESSURE_PLATE)
+                //ancient_debris
+                .add(ModBlocks.ANCIENT_DEBRIS_STAIRS)
+                .add(ModBlocks.ANCIENT_DEBRIS_SLAB)
+                .add(ModBlocks.ANCIENT_DEBRIS_WALL)
+                .add(ModBlocks.ANCIENT_DEBRIS_DOOR)
+                .add(ModBlocks.ANCIENT_DEBRIS_TRAPDOOR)
+                .add(ModBlocks.ANCIENT_DEBRIS_FENCE_GATE)
+                .add(ModBlocks.ANCIENT_DEBRIS_FENCE)
+                .add(ModBlocks.ANCIENT_DEBRIS_BUTTON)
+                .add(ModBlocks.ANCIENT_DEBRIS_PRESSURE_PLATE);
+
 
 
 
@@ -2620,7 +2731,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COPPER_ORE_FENCE)
                 .add(ModBlocks.DEEPSLATE_COPPER_ORE_FENCE)
                 .add(ModBlocks.GOLD_ORE_FENCE)
-                .add(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE);
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE)
+                .add(ModBlocks.REDSTONE_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_REDSTONE_ORE_FENCE)
+                .add(ModBlocks.LAPIS_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_LAPIS_ORE_FENCE)
+                .add(ModBlocks.DIAMOND_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_DIAMOND_ORE_FENCE)
+                .add(ModBlocks.NETHER_GOLD_ORE_FENCE)
+                .add(ModBlocks.NETHER_QUARTZ_ORE_FENCE)
+                .add(ModBlocks.ANCIENT_DEBRIS_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -2850,7 +2970,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COPPER_ORE_FENCE)
                 .add(ModBlocks.DEEPSLATE_COPPER_ORE_FENCE)
                 .add(ModBlocks.GOLD_ORE_FENCE)
-                .add(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE);
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE)
+                .add(ModBlocks.REDSTONE_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_REDSTONE_ORE_FENCE)
+                .add(ModBlocks.EMERALD_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_EMERALD_ORE_FENCE)
+                .add(ModBlocks.LAPIS_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_LAPIS_ORE_FENCE)
+                .add(ModBlocks.DIAMOND_ORE_FENCE)
+                .add(ModBlocks.DEEPSLATE_DIAMOND_ORE_FENCE)
+                .add(ModBlocks.NETHER_GOLD_ORE_FENCE)
+                .add(ModBlocks.NETHER_QUARTZ_ORE_FENCE)
+                .add(ModBlocks.ANCIENT_DEBRIS_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -3074,7 +3205,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COPPER_ORE_FENCE_GATE)
                 .add(ModBlocks.DEEPSLATE_COPPER_ORE_FENCE_GATE)
                 .add(ModBlocks.GOLD_ORE_FENCE_GATE)
-                .add(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE_GATE);
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE_GATE)
+                .add(ModBlocks.REDSTONE_ORE_FENCE_GATE)
+                .add(ModBlocks.DEEPSLATE_REDSTONE_ORE_FENCE_GATE)
+                .add(ModBlocks.LAPIS_ORE_FENCE_GATE)
+                .add(ModBlocks.DEEPSLATE_LAPIS_ORE_FENCE_GATE)
+                .add(ModBlocks.DIAMOND_ORE_FENCE_GATE)
+                .add(ModBlocks.DEEPSLATE_DIAMOND_ORE_FENCE_GATE)
+                .add(ModBlocks.NETHER_GOLD_ORE_FENCE_GATE)
+                .add(ModBlocks.NETHER_QUARTZ_ORE_FENCE_GATE)
+                .add(ModBlocks.ANCIENT_DEBRIS_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -3265,10 +3405,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COPPER_ORE_WALL)
                 .add(ModBlocks.DEEPSLATE_COPPER_ORE_WALL)
                 .add(ModBlocks.GOLD_ORE_WALL)
-                .add(ModBlocks.DEEPSLATE_GOLD_ORE_WALL);
-
-
-
+                .add(ModBlocks.DEEPSLATE_GOLD_ORE_WALL)
+                .add(ModBlocks.REDSTONE_ORE_WALL)
+                .add(ModBlocks.DEEPSLATE_REDSTONE_ORE_WALL)
+                .add(ModBlocks.EMERALD_ORE_WALL)
+                .add(ModBlocks.DEEPSLATE_EMERALD_ORE_WALL)
+                .add(ModBlocks.LAPIS_ORE_WALL)
+                .add(ModBlocks.DEEPSLATE_LAPIS_ORE_WALL)
+                .add(ModBlocks.DIAMOND_ORE_WALL)
+                .add(ModBlocks.DEEPSLATE_DIAMOND_ORE_WALL)
+                .add(ModBlocks.NETHER_GOLD_ORE_WALL)
+                .add(ModBlocks.NETHER_QUARTZ_ORE_WALL)
+                .add(ModBlocks.ANCIENT_DEBRIS_WALL);
 
 
 

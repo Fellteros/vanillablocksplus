@@ -434,6 +434,26 @@ public class ModModelProvider extends FabricModelProvider {
                 bsmg.registerCubeAllModelTexturePool(Blocks.GOLD_ORE);
         BlockStateModelGenerator.BlockTexturePool deepslateGoldOrePool =
                 bsmg.registerCubeAllModelTexturePool(Blocks.DEEPSLATE_GOLD_ORE);
+        BlockStateModelGenerator.BlockTexturePool redstoneOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.REDSTONE_ORE);
+        BlockStateModelGenerator.BlockTexturePool deepslateRedstoneOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.DEEPSLATE_REDSTONE_ORE);
+        BlockStateModelGenerator.BlockTexturePool emeraldOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.EMERALD_ORE);
+        BlockStateModelGenerator.BlockTexturePool deepslateEmeraldOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.DEEPSLATE_EMERALD_ORE);
+        BlockStateModelGenerator.BlockTexturePool lapisOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.LAPIS_ORE);
+        BlockStateModelGenerator.BlockTexturePool deepslateLapisOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.DEEPSLATE_LAPIS_ORE);
+        BlockStateModelGenerator.BlockTexturePool diamondOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.DIAMOND_ORE);
+        BlockStateModelGenerator.BlockTexturePool deepslateDiamondOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.DEEPSLATE_DIAMOND_ORE);
+        BlockStateModelGenerator.BlockTexturePool netherGoldOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.NETHER_GOLD_ORE);
+        BlockStateModelGenerator.BlockTexturePool netherQuartzOrePool =
+                bsmg.registerCubeAllModelTexturePool(Blocks.NETHER_QUARTZ_ORE);
 
 
         //oak
@@ -2058,6 +2078,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerSTBFence(bsmg, ModBlocks.CRIMSON_NYLIUM_FENCE, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
         registerSTBFenceGate(bsmg, ModBlocks.CRIMSON_NYLIUM_FENCE_GATE, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
         registerSTBPressurePlate(bsmg, ModBlocks.CRIMSON_NYLIUM_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerSTBOrTrapdoor(bsmg, ModBlocks.CRIMSON_NYLIUM_TRAPDOOR, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, ModBlocks.CRIMSON_NYLIUM_TRAPDOOR, Blocks.NETHERRACK, "_side", "", ""));
         //warped_nylium
         registerSTBButton(bsmg, ModBlocks.WARPED_NYLIUM_BUTTON, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
         registerSTBWall(bsmg, ModBlocks.WARPED_NYLIUM_WALL, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
@@ -2066,6 +2087,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerSTBFence(bsmg, ModBlocks.WARPED_NYLIUM_FENCE, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
         registerSTBFenceGate(bsmg, ModBlocks.WARPED_NYLIUM_FENCE_GATE, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
         registerSTBPressurePlate(bsmg, ModBlocks.WARPED_NYLIUM_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerSTBOrTrapdoor(bsmg, ModBlocks.WARPED_NYLIUM_TRAPDOOR, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, ModBlocks.WARPED_NYLIUM_TRAPDOOR, Blocks.NETHERRACK, "_side", "", ""));
         //soul_sand
         soulSandPool.button(ModBlocks.SOUL_SAND_BUTTON);
         soulSandPool.wall(ModBlocks.SOUL_SAND_WALL);
@@ -2090,6 +2112,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerSTBFence(bsmg, ModBlocks.BONE_FENCE, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
         registerSTBFenceGate(bsmg, ModBlocks.BONE_FENCE_GATE, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
         registerSTBPressurePlate(bsmg, ModBlocks.BONE_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
+        registerSTBOrTrapdoor(bsmg, ModBlocks.BONE_TRAPDOOR, ModTextureMap.customSTB(Blocks.BONE_BLOCK, ModBlocks.BONE_TRAPDOOR, ModBlocks.BONE_TRAPDOOR, "_side", "", ""));
         //coal_ore
         coalOrePool.button(ModBlocks.COAL_ORE_BUTTON);
         coalOrePool.wall(ModBlocks.COAL_ORE_WALL);
@@ -2154,6 +2177,95 @@ public class ModModelProvider extends FabricModelProvider {
         deepslateGoldOrePool.fence(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE);
         deepslateGoldOrePool.fenceGate(ModBlocks.DEEPSLATE_GOLD_ORE_FENCE_GATE);
         deepslateGoldOrePool.pressurePlate(ModBlocks.DEEPSLATE_GOLD_ORE_PRESSURE_PLATE);
+        //redstone_ore
+        redstoneOrePool.button(ModBlocks.REDSTONE_ORE_BUTTON);
+        redstoneOrePool.wall(ModBlocks.REDSTONE_ORE_WALL);
+        redstoneOrePool.slab(ModBlocks.REDSTONE_ORE_SLAB);
+        redstoneOrePool.stairs(ModBlocks.REDSTONE_ORE_STAIRS);
+        redstoneOrePool.fence(ModBlocks.REDSTONE_ORE_FENCE);
+        redstoneOrePool.fenceGate(ModBlocks.REDSTONE_ORE_FENCE_GATE);
+        redstoneOrePool.pressurePlate(ModBlocks.REDSTONE_ORE_PRESSURE_PLATE);
+        //deepslate_redstone_ore
+        deepslateRedstoneOrePool.button(ModBlocks.DEEPSLATE_REDSTONE_ORE_BUTTON);
+        deepslateRedstoneOrePool.wall(ModBlocks.DEEPSLATE_REDSTONE_ORE_WALL);
+        deepslateRedstoneOrePool.slab(ModBlocks.DEEPSLATE_REDSTONE_ORE_SLAB);
+        deepslateRedstoneOrePool.stairs(ModBlocks.DEEPSLATE_REDSTONE_ORE_STAIRS);
+        deepslateRedstoneOrePool.fence(ModBlocks.DEEPSLATE_REDSTONE_ORE_FENCE);
+        deepslateRedstoneOrePool.fenceGate(ModBlocks.DEEPSLATE_REDSTONE_ORE_FENCE_GATE);
+        deepslateRedstoneOrePool.pressurePlate(ModBlocks.DEEPSLATE_REDSTONE_ORE_PRESSURE_PLATE);
+        //emerald_ore
+        emeraldOrePool.button(ModBlocks.EMERALD_ORE_BUTTON);
+        emeraldOrePool.wall(ModBlocks.EMERALD_ORE_WALL);
+        emeraldOrePool.slab(ModBlocks.EMERALD_ORE_SLAB);
+        emeraldOrePool.stairs(ModBlocks.EMERALD_ORE_STAIRS);
+        emeraldOrePool.fence(ModBlocks.EMERALD_ORE_FENCE);
+        emeraldOrePool.fenceGate(ModBlocks.EMERALD_ORE_FENCE_GATE);
+        emeraldOrePool.pressurePlate(ModBlocks.EMERALD_ORE_PRESSURE_PLATE);
+        //deepslate_emerald_ore
+        deepslateEmeraldOrePool.button(ModBlocks.DEEPSLATE_EMERALD_ORE_BUTTON);
+        deepslateEmeraldOrePool.wall(ModBlocks.DEEPSLATE_EMERALD_ORE_WALL);
+        deepslateEmeraldOrePool.slab(ModBlocks.DEEPSLATE_EMERALD_ORE_SLAB);
+        deepslateEmeraldOrePool.stairs(ModBlocks.DEEPSLATE_EMERALD_ORE_STAIRS);
+        deepslateEmeraldOrePool.fence(ModBlocks.DEEPSLATE_EMERALD_ORE_FENCE);
+        deepslateEmeraldOrePool.fenceGate(ModBlocks.DEEPSLATE_EMERALD_ORE_FENCE_GATE);
+        deepslateEmeraldOrePool.pressurePlate(ModBlocks.DEEPSLATE_EMERALD_ORE_PRESSURE_PLATE);
+        //lapis_ore
+        lapisOrePool.button(ModBlocks.LAPIS_ORE_BUTTON);
+        lapisOrePool.wall(ModBlocks.LAPIS_ORE_WALL);
+        lapisOrePool.slab(ModBlocks.LAPIS_ORE_SLAB);
+        lapisOrePool.stairs(ModBlocks.LAPIS_ORE_STAIRS);
+        lapisOrePool.fence(ModBlocks.LAPIS_ORE_FENCE);
+        lapisOrePool.fenceGate(ModBlocks.LAPIS_ORE_FENCE_GATE);
+        lapisOrePool.pressurePlate(ModBlocks.LAPIS_ORE_PRESSURE_PLATE);
+        //deepslate_lapis_ore
+        deepslateLapisOrePool.button(ModBlocks.DEEPSLATE_LAPIS_ORE_BUTTON);
+        deepslateLapisOrePool.wall(ModBlocks.DEEPSLATE_LAPIS_ORE_WALL);
+        deepslateLapisOrePool.slab(ModBlocks.DEEPSLATE_LAPIS_ORE_SLAB);
+        deepslateLapisOrePool.stairs(ModBlocks.DEEPSLATE_LAPIS_ORE_STAIRS);
+        deepslateLapisOrePool.fence(ModBlocks.DEEPSLATE_LAPIS_ORE_FENCE);
+        deepslateLapisOrePool.fenceGate(ModBlocks.DEEPSLATE_LAPIS_ORE_FENCE_GATE);
+        deepslateLapisOrePool.pressurePlate(ModBlocks.DEEPSLATE_LAPIS_ORE_PRESSURE_PLATE);
+        //diamond_ore
+        diamondOrePool.button(ModBlocks.DIAMOND_ORE_BUTTON);
+        diamondOrePool.wall(ModBlocks.DIAMOND_ORE_WALL);
+        diamondOrePool.slab(ModBlocks.DIAMOND_ORE_SLAB);
+        diamondOrePool.stairs(ModBlocks.DIAMOND_ORE_STAIRS);
+        diamondOrePool.fence(ModBlocks.DIAMOND_ORE_FENCE);
+        diamondOrePool.fenceGate(ModBlocks.DIAMOND_ORE_FENCE_GATE);
+        diamondOrePool.pressurePlate(ModBlocks.DIAMOND_ORE_PRESSURE_PLATE);
+        //deepslate_diamond_ore
+        deepslateDiamondOrePool.button(ModBlocks.DEEPSLATE_DIAMOND_ORE_BUTTON);
+        deepslateDiamondOrePool.wall(ModBlocks.DEEPSLATE_DIAMOND_ORE_WALL);
+        deepslateDiamondOrePool.slab(ModBlocks.DEEPSLATE_DIAMOND_ORE_SLAB);
+        deepslateDiamondOrePool.stairs(ModBlocks.DEEPSLATE_DIAMOND_ORE_STAIRS);
+        deepslateDiamondOrePool.fence(ModBlocks.DEEPSLATE_DIAMOND_ORE_FENCE);
+        deepslateDiamondOrePool.fenceGate(ModBlocks.DEEPSLATE_DIAMOND_ORE_FENCE_GATE);
+        deepslateDiamondOrePool.pressurePlate(ModBlocks.DEEPSLATE_DIAMOND_ORE_PRESSURE_PLATE);
+        //nether_gold_ore
+        netherGoldOrePool.button(ModBlocks.NETHER_GOLD_ORE_BUTTON);
+        netherGoldOrePool.wall(ModBlocks.NETHER_GOLD_ORE_WALL);
+        netherGoldOrePool.slab(ModBlocks.NETHER_GOLD_ORE_SLAB);
+        netherGoldOrePool.stairs(ModBlocks.NETHER_GOLD_ORE_STAIRS);
+        netherGoldOrePool.fence(ModBlocks.NETHER_GOLD_ORE_FENCE);
+        netherGoldOrePool.fenceGate(ModBlocks.NETHER_GOLD_ORE_FENCE_GATE);
+        netherGoldOrePool.pressurePlate(ModBlocks.NETHER_GOLD_ORE_PRESSURE_PLATE);
+        //nether_quartz_ore
+        netherQuartzOrePool.button(ModBlocks.NETHER_QUARTZ_ORE_BUTTON);
+        netherQuartzOrePool.wall(ModBlocks.NETHER_QUARTZ_ORE_WALL);
+        netherQuartzOrePool.slab(ModBlocks.NETHER_QUARTZ_ORE_SLAB);
+        netherQuartzOrePool.stairs(ModBlocks.NETHER_QUARTZ_ORE_STAIRS);
+        netherQuartzOrePool.fence(ModBlocks.NETHER_QUARTZ_ORE_FENCE);
+        netherQuartzOrePool.fenceGate(ModBlocks.NETHER_QUARTZ_ORE_FENCE_GATE);
+        netherQuartzOrePool.pressurePlate(ModBlocks.NETHER_QUARTZ_ORE_PRESSURE_PLATE);
+        //ancient_debris
+        registerSTBButton(bsmg, ModBlocks.ANCIENT_DEBRIS_BUTTON, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
+        registerSTBWall(bsmg, ModBlocks.ANCIENT_DEBRIS_WALL, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
+        registerSTBSlab(bsmg, ModBlocks.ANCIENT_DEBRIS_SLAB, Blocks.ANCIENT_DEBRIS, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
+        registerSTBStairs(bsmg, ModBlocks.ANCIENT_DEBRIS_STAIRS, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
+        registerSTBFence(bsmg, ModBlocks.ANCIENT_DEBRIS_FENCE, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
+        registerSTBFenceGate(bsmg, ModBlocks.ANCIENT_DEBRIS_FENCE_GATE, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
+        registerSTBPressurePlate(bsmg, ModBlocks.ANCIENT_DEBRIS_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
+        registerSTBOrTrapdoor(bsmg, ModBlocks.ANCIENT_DEBRIS_TRAPDOOR, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, ModBlocks.ANCIENT_DEBRIS_TRAPDOOR, ModBlocks.ANCIENT_DEBRIS_TRAPDOOR, "_side", "", ""));
 
 
 
@@ -2808,10 +2920,8 @@ public class ModModelProvider extends FabricModelProvider {
         bsmg.registerOrientableTrapdoor(ModBlocks.CRYING_OBSIDIAN_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.CRYING_OBSIDIAN_DOOR);
         //crimson_nylium
-        bsmg.registerOrientableTrapdoor(ModBlocks.CRIMSON_NYLIUM_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.CRIMSON_NYLIUM_DOOR);
         //warped_nylium
-        bsmg.registerOrientableTrapdoor(ModBlocks.WARPED_NYLIUM_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.WARPED_NYLIUM_DOOR);
         //soul_sand
         bsmg.registerOrientableTrapdoor(ModBlocks.SOUL_SAND_TRAPDOOR);
@@ -2820,7 +2930,6 @@ public class ModModelProvider extends FabricModelProvider {
         bsmg.registerOrientableTrapdoor(ModBlocks.SOUL_SOIL_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.SOUL_SOIL_DOOR);
         //bone
-        bsmg.registerOrientableTrapdoor(ModBlocks.BONE_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.BONE_DOOR);
         //coal_ore
         bsmg.registerOrientableTrapdoor(ModBlocks.COAL_ORE_TRAPDOOR);
@@ -2846,6 +2955,38 @@ public class ModModelProvider extends FabricModelProvider {
         //deepslate_gold_ore
         bsmg.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_GOLD_ORE_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.DEEPSLATE_GOLD_ORE_DOOR);
+        //redstone_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.REDSTONE_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.REDSTONE_ORE_DOOR);
+        //deepslate_redstone_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_REDSTONE_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DEEPSLATE_REDSTONE_ORE_DOOR);
+        //emerald_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.EMERALD_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.EMERALD_ORE_DOOR);
+        //deepslate_emerald_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_EMERALD_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DEEPSLATE_EMERALD_ORE_DOOR);
+        //lapis_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.LAPIS_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.LAPIS_ORE_DOOR);
+        //deepslate_lapis_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_LAPIS_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DEEPSLATE_LAPIS_ORE_DOOR);
+        //diamond_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.DIAMOND_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DIAMOND_ORE_DOOR);
+        //deepslate_diamond_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.DEEPSLATE_DIAMOND_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DEEPSLATE_DIAMOND_ORE_DOOR);
+        //nether_gold_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.NETHER_GOLD_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.NETHER_GOLD_ORE_DOOR);
+        //nether_quartz_ore
+        bsmg.registerOrientableTrapdoor(ModBlocks.NETHER_QUARTZ_ORE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.NETHER_QUARTZ_ORE_DOOR);
+        //ancient_debris
+        bsmg.registerDoor(ModBlocks.ANCIENT_DEBRIS_DOOR);
 
 
 

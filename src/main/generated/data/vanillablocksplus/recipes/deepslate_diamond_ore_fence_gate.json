@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:deepslate_diamond_ore_slab"
+    },
+    "W": {
+      "item": "minecraft:deepslate_diamond_ore"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "vanillablocksplus:deepslate_diamond_ore_fence_gate"
+  },
+  "show_notification": true
+}

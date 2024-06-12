@@ -2467,6 +2467,127 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_GOLD_ORE_BUTTON, Blocks.DEEPSLATE_GOLD_ORE, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_GOLD_ORE_WALL, (Blocks.DEEPSLATE_GOLD_ORE)).offerTo(exporter);
 
+        //redstone_ore
+        ModRecipes.DoorRecipe(ModBlocks.REDSTONE_ORE_DOOR, (Blocks.REDSTONE_ORE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_ORE_SLAB, (Blocks.REDSTONE_ORE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.REDSTONE_ORE_STAIRS, (Blocks.REDSTONE_ORE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.REDSTONE_ORE_FENCE, (Blocks.REDSTONE_ORE), (ModBlocks.REDSTONE_ORE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.REDSTONE_ORE_FENCE_GATE, (Blocks.REDSTONE_ORE), (ModBlocks.REDSTONE_ORE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.REDSTONE_ORE_TRAPDOOR, (ModBlocks.REDSTONE_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_ORE_PRESSURE_PLATE, (ModBlocks.REDSTONE_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_ORE_BUTTON, Blocks.REDSTONE_ORE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_ORE_WALL, (Blocks.REDSTONE_ORE)).offerTo(exporter);
+
+        //deepslate_redstone_ore
+        ModRecipes.DoorRecipe(ModBlocks.DEEPSLATE_REDSTONE_ORE_DOOR, (Blocks.DEEPSLATE_REDSTONE_ORE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_REDSTONE_ORE_SLAB, (Blocks.DEEPSLATE_REDSTONE_ORE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.DEEPSLATE_REDSTONE_ORE_STAIRS, (Blocks.DEEPSLATE_REDSTONE_ORE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.DEEPSLATE_REDSTONE_ORE_FENCE, (Blocks.DEEPSLATE_REDSTONE_ORE), (ModBlocks.DEEPSLATE_REDSTONE_ORE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.DEEPSLATE_REDSTONE_ORE_FENCE_GATE, (Blocks.DEEPSLATE_REDSTONE_ORE), (ModBlocks.DEEPSLATE_REDSTONE_ORE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.DEEPSLATE_REDSTONE_ORE_TRAPDOOR, (ModBlocks.DEEPSLATE_REDSTONE_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_REDSTONE_ORE_PRESSURE_PLATE, (ModBlocks.DEEPSLATE_REDSTONE_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_REDSTONE_ORE_BUTTON, Blocks.DEEPSLATE_REDSTONE_ORE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_REDSTONE_ORE_WALL, (Blocks.DEEPSLATE_REDSTONE_ORE)).offerTo(exporter);
+
+        //emerald_ore
+        ModRecipes.DoorRecipe(ModBlocks.EMERALD_ORE_DOOR, (Blocks.EMERALD_ORE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_ORE_SLAB, (Blocks.EMERALD_ORE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.EMERALD_ORE_STAIRS, (Blocks.EMERALD_ORE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.EMERALD_ORE_FENCE, (Blocks.EMERALD_ORE), (ModBlocks.EMERALD_ORE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.EMERALD_ORE_FENCE_GATE, (Blocks.EMERALD_ORE), (ModBlocks.EMERALD_ORE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.EMERALD_ORE_TRAPDOOR, (ModBlocks.EMERALD_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_ORE_PRESSURE_PLATE, (ModBlocks.EMERALD_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_ORE_BUTTON, Blocks.EMERALD_ORE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_ORE_WALL, (Blocks.EMERALD_ORE)).offerTo(exporter);
+
+        //deepslate_emerald_ore
+        ModRecipes.DoorRecipe(ModBlocks.DEEPSLATE_EMERALD_ORE_DOOR, (Blocks.DEEPSLATE_EMERALD_ORE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_EMERALD_ORE_SLAB, (Blocks.DEEPSLATE_EMERALD_ORE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.DEEPSLATE_EMERALD_ORE_STAIRS, (Blocks.DEEPSLATE_EMERALD_ORE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.DEEPSLATE_EMERALD_ORE_FENCE, (Blocks.DEEPSLATE_EMERALD_ORE), (ModBlocks.DEEPSLATE_EMERALD_ORE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.DEEPSLATE_EMERALD_ORE_FENCE_GATE, (Blocks.DEEPSLATE_EMERALD_ORE), (ModBlocks.DEEPSLATE_EMERALD_ORE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.DEEPSLATE_EMERALD_ORE_TRAPDOOR, (ModBlocks.DEEPSLATE_EMERALD_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_EMERALD_ORE_PRESSURE_PLATE, (ModBlocks.DEEPSLATE_EMERALD_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_EMERALD_ORE_BUTTON, Blocks.DEEPSLATE_EMERALD_ORE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_EMERALD_ORE_WALL, (Blocks.DEEPSLATE_EMERALD_ORE)).offerTo(exporter);
+
+        //lapis_ore
+        ModRecipes.DoorRecipe(ModBlocks.LAPIS_ORE_DOOR, (Blocks.LAPIS_ORE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_ORE_SLAB, (Blocks.LAPIS_ORE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.LAPIS_ORE_STAIRS, (Blocks.LAPIS_ORE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.LAPIS_ORE_FENCE, (Blocks.LAPIS_ORE), (ModBlocks.LAPIS_ORE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.LAPIS_ORE_FENCE_GATE, (Blocks.LAPIS_ORE), (ModBlocks.LAPIS_ORE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.LAPIS_ORE_TRAPDOOR, (ModBlocks.LAPIS_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_ORE_PRESSURE_PLATE, (ModBlocks.LAPIS_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_ORE_BUTTON, Blocks.LAPIS_ORE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_ORE_WALL, (Blocks.LAPIS_ORE)).offerTo(exporter);
+
+        //deepslate_lapis_ore
+        ModRecipes.DoorRecipe(ModBlocks.DEEPSLATE_LAPIS_ORE_DOOR, (Blocks.DEEPSLATE_LAPIS_ORE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_LAPIS_ORE_SLAB, (Blocks.DEEPSLATE_LAPIS_ORE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.DEEPSLATE_LAPIS_ORE_STAIRS, (Blocks.DEEPSLATE_LAPIS_ORE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.DEEPSLATE_LAPIS_ORE_FENCE, (Blocks.DEEPSLATE_LAPIS_ORE), (ModBlocks.DEEPSLATE_LAPIS_ORE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.DEEPSLATE_LAPIS_ORE_FENCE_GATE, (Blocks.DEEPSLATE_LAPIS_ORE), (ModBlocks.DEEPSLATE_LAPIS_ORE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.DEEPSLATE_LAPIS_ORE_TRAPDOOR, (ModBlocks.DEEPSLATE_LAPIS_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_LAPIS_ORE_PRESSURE_PLATE, (ModBlocks.DEEPSLATE_LAPIS_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_LAPIS_ORE_BUTTON, Blocks.DEEPSLATE_LAPIS_ORE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_LAPIS_ORE_WALL, (Blocks.DEEPSLATE_LAPIS_ORE)).offerTo(exporter);
+
+        //diamond_ore
+        ModRecipes.DoorRecipe(ModBlocks.DIAMOND_ORE_DOOR, (Blocks.DIAMOND_ORE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_ORE_SLAB, (Blocks.DIAMOND_ORE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.DIAMOND_ORE_STAIRS, (Blocks.DIAMOND_ORE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.DIAMOND_ORE_FENCE, (Blocks.DIAMOND_ORE), (ModBlocks.DIAMOND_ORE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.DIAMOND_ORE_FENCE_GATE, (Blocks.DIAMOND_ORE), (ModBlocks.DIAMOND_ORE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.DIAMOND_ORE_TRAPDOOR, (ModBlocks.DIAMOND_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_ORE_PRESSURE_PLATE, (ModBlocks.DIAMOND_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_ORE_BUTTON, Blocks.DIAMOND_ORE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_ORE_WALL, (Blocks.DIAMOND_ORE)).offerTo(exporter);
+
+        //deepslate_diamond_ore
+        ModRecipes.DoorRecipe(ModBlocks.DEEPSLATE_DIAMOND_ORE_DOOR, (Blocks.DEEPSLATE_DIAMOND_ORE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_DIAMOND_ORE_SLAB, (Blocks.DEEPSLATE_DIAMOND_ORE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.DEEPSLATE_DIAMOND_ORE_STAIRS, (Blocks.DEEPSLATE_DIAMOND_ORE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.DEEPSLATE_DIAMOND_ORE_FENCE, (Blocks.DEEPSLATE_DIAMOND_ORE), (ModBlocks.DEEPSLATE_DIAMOND_ORE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.DEEPSLATE_DIAMOND_ORE_FENCE_GATE, (Blocks.DEEPSLATE_DIAMOND_ORE), (ModBlocks.DEEPSLATE_DIAMOND_ORE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.DEEPSLATE_DIAMOND_ORE_TRAPDOOR, (ModBlocks.DEEPSLATE_DIAMOND_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_DIAMOND_ORE_PRESSURE_PLATE, (ModBlocks.DEEPSLATE_DIAMOND_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_DIAMOND_ORE_BUTTON, Blocks.DEEPSLATE_DIAMOND_ORE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEEPSLATE_DIAMOND_ORE_WALL, (Blocks.DEEPSLATE_DIAMOND_ORE)).offerTo(exporter);
+
+        //nether_gold_ore
+        ModRecipes.DoorRecipe(ModBlocks.NETHER_GOLD_ORE_DOOR, (Blocks.NETHER_GOLD_ORE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHER_GOLD_ORE_SLAB, (Blocks.NETHER_GOLD_ORE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.NETHER_GOLD_ORE_STAIRS, (Blocks.NETHER_GOLD_ORE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.NETHER_GOLD_ORE_FENCE, (Blocks.NETHER_GOLD_ORE), (ModBlocks.NETHER_GOLD_ORE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.NETHER_GOLD_ORE_FENCE_GATE, (Blocks.NETHER_GOLD_ORE), (ModBlocks.NETHER_GOLD_ORE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.NETHER_GOLD_ORE_TRAPDOOR, (ModBlocks.NETHER_GOLD_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHER_GOLD_ORE_PRESSURE_PLATE, (ModBlocks.NETHER_GOLD_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHER_GOLD_ORE_BUTTON, Blocks.NETHER_GOLD_ORE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHER_GOLD_ORE_WALL, (Blocks.NETHER_GOLD_ORE)).offerTo(exporter);
+
+        //nether_quartz_ore
+        ModRecipes.DoorRecipe(ModBlocks.NETHER_QUARTZ_ORE_DOOR, (Blocks.NETHER_QUARTZ_ORE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHER_QUARTZ_ORE_SLAB, (Blocks.NETHER_QUARTZ_ORE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.NETHER_QUARTZ_ORE_STAIRS, (Blocks.NETHER_QUARTZ_ORE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.NETHER_QUARTZ_ORE_FENCE, (Blocks.NETHER_QUARTZ_ORE), (ModBlocks.NETHER_QUARTZ_ORE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.NETHER_QUARTZ_ORE_FENCE_GATE, (Blocks.NETHER_QUARTZ_ORE), (ModBlocks.NETHER_QUARTZ_ORE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.NETHER_QUARTZ_ORE_TRAPDOOR, (ModBlocks.NETHER_QUARTZ_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHER_QUARTZ_ORE_PRESSURE_PLATE, (ModBlocks.NETHER_QUARTZ_ORE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHER_QUARTZ_ORE_BUTTON, Blocks.NETHER_QUARTZ_ORE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHER_QUARTZ_ORE_WALL, (Blocks.NETHER_QUARTZ_ORE)).offerTo(exporter);
+
+        //ancient_debris
+        ModRecipes.DoorRecipe(ModBlocks.ANCIENT_DEBRIS_DOOR, (Blocks.ANCIENT_DEBRIS)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.ANCIENT_DEBRIS_SLAB, (Blocks.ANCIENT_DEBRIS)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.ANCIENT_DEBRIS_STAIRS, (Blocks.ANCIENT_DEBRIS)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.ANCIENT_DEBRIS_FENCE, (Blocks.ANCIENT_DEBRIS), (ModBlocks.ANCIENT_DEBRIS_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.ANCIENT_DEBRIS_FENCE_GATE, (Blocks.ANCIENT_DEBRIS), (ModBlocks.ANCIENT_DEBRIS_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.ANCIENT_DEBRIS_TRAPDOOR, (ModBlocks.ANCIENT_DEBRIS_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.ANCIENT_DEBRIS_PRESSURE_PLATE, (ModBlocks.ANCIENT_DEBRIS_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.ANCIENT_DEBRIS_BUTTON, Blocks.ANCIENT_DEBRIS, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.ANCIENT_DEBRIS_WALL, (Blocks.ANCIENT_DEBRIS)).offerTo(exporter);
+
 
 
         

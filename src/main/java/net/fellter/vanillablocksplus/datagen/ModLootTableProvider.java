@@ -2191,6 +2191,127 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DEEPSLATE_GOLD_ORE_DOOR, doorDrops(ModBlocks.DEEPSLATE_GOLD_ORE_DOOR));
         addDrop(ModBlocks.DEEPSLATE_GOLD_ORE_SLAB, slabDrops(ModBlocks.DEEPSLATE_GOLD_ORE_SLAB));
         addDrop(ModBlocks.DEEPSLATE_GOLD_ORE_WALL);
+
+        //redstone_ore
+        addDrop(ModBlocks.REDSTONE_ORE_STAIRS);
+        addDrop(ModBlocks.REDSTONE_ORE_TRAPDOOR);
+        addDrop(ModBlocks.REDSTONE_ORE_BUTTON);
+        addDrop(ModBlocks.REDSTONE_ORE_PRESSURE_PLATE);
+        addDrop(ModBlocks.REDSTONE_ORE_FENCE);
+        addDrop(ModBlocks.REDSTONE_ORE_FENCE_GATE);
+        addDrop(ModBlocks.REDSTONE_ORE_DOOR, doorDrops(ModBlocks.REDSTONE_ORE_DOOR));
+        addDrop(ModBlocks.REDSTONE_ORE_SLAB, slabDrops(ModBlocks.REDSTONE_ORE_SLAB));
+        addDrop(ModBlocks.REDSTONE_ORE_WALL);
+
+        //deepslate_redstone_ore
+        addDrop(ModBlocks.DEEPSLATE_REDSTONE_ORE_STAIRS);
+        addDrop(ModBlocks.DEEPSLATE_REDSTONE_ORE_TRAPDOOR);
+        addDrop(ModBlocks.DEEPSLATE_REDSTONE_ORE_BUTTON);
+        addDrop(ModBlocks.DEEPSLATE_REDSTONE_ORE_PRESSURE_PLATE);
+        addDrop(ModBlocks.DEEPSLATE_REDSTONE_ORE_FENCE);
+        addDrop(ModBlocks.DEEPSLATE_REDSTONE_ORE_FENCE_GATE);
+        addDrop(ModBlocks.DEEPSLATE_REDSTONE_ORE_DOOR, doorDrops(ModBlocks.DEEPSLATE_REDSTONE_ORE_DOOR));
+        addDrop(ModBlocks.DEEPSLATE_REDSTONE_ORE_SLAB, slabDrops(ModBlocks.DEEPSLATE_REDSTONE_ORE_SLAB));
+        addDrop(ModBlocks.DEEPSLATE_REDSTONE_ORE_WALL);
+
+        //emerald_ore
+        addDrop(ModBlocks.EMERALD_ORE_STAIRS);
+        addDrop(ModBlocks.EMERALD_ORE_TRAPDOOR);
+        addDrop(ModBlocks.EMERALD_ORE_BUTTON);
+        addDrop(ModBlocks.EMERALD_ORE_PRESSURE_PLATE);
+        addDrop(ModBlocks.EMERALD_ORE_FENCE);
+        addDrop(ModBlocks.EMERALD_ORE_FENCE_GATE);
+        addDrop(ModBlocks.EMERALD_ORE_DOOR, doorDrops(ModBlocks.EMERALD_ORE_DOOR));
+        addDrop(ModBlocks.EMERALD_ORE_SLAB, slabDrops(ModBlocks.EMERALD_ORE_SLAB));
+        addDrop(ModBlocks.EMERALD_ORE_WALL);
+
+        //deepslate_emerald_ore
+        addDrop(ModBlocks.DEEPSLATE_EMERALD_ORE_STAIRS);
+        addDrop(ModBlocks.DEEPSLATE_EMERALD_ORE_TRAPDOOR);
+        addDrop(ModBlocks.DEEPSLATE_EMERALD_ORE_BUTTON);
+        addDrop(ModBlocks.DEEPSLATE_EMERALD_ORE_PRESSURE_PLATE);
+        addDrop(ModBlocks.DEEPSLATE_EMERALD_ORE_FENCE);
+        addDrop(ModBlocks.DEEPSLATE_EMERALD_ORE_FENCE_GATE);
+        addDrop(ModBlocks.DEEPSLATE_EMERALD_ORE_DOOR, doorDrops(ModBlocks.DEEPSLATE_EMERALD_ORE_DOOR));
+        addDrop(ModBlocks.DEEPSLATE_EMERALD_ORE_SLAB, slabDrops(ModBlocks.DEEPSLATE_EMERALD_ORE_SLAB));
+        addDrop(ModBlocks.DEEPSLATE_EMERALD_ORE_WALL);
+
+        //lapis_ore
+        addDrop(ModBlocks.LAPIS_ORE_STAIRS);
+        addDrop(ModBlocks.LAPIS_ORE_TRAPDOOR);
+        addDrop(ModBlocks.LAPIS_ORE_BUTTON);
+        addDrop(ModBlocks.LAPIS_ORE_PRESSURE_PLATE);
+        addDrop(ModBlocks.LAPIS_ORE_FENCE);
+        addDrop(ModBlocks.LAPIS_ORE_FENCE_GATE);
+        addDrop(ModBlocks.LAPIS_ORE_DOOR, doorDrops(ModBlocks.LAPIS_ORE_DOOR));
+        addDrop(ModBlocks.LAPIS_ORE_SLAB, slabDrops(ModBlocks.LAPIS_ORE_SLAB));
+        addDrop(ModBlocks.LAPIS_ORE_WALL);
+
+        //deepslate_lapis_ore
+        addDrop(ModBlocks.DEEPSLATE_LAPIS_ORE_STAIRS);
+        addDrop(ModBlocks.DEEPSLATE_LAPIS_ORE_TRAPDOOR);
+        addDrop(ModBlocks.DEEPSLATE_LAPIS_ORE_BUTTON);
+        addDrop(ModBlocks.DEEPSLATE_LAPIS_ORE_PRESSURE_PLATE);
+        addDrop(ModBlocks.DEEPSLATE_LAPIS_ORE_FENCE);
+        addDrop(ModBlocks.DEEPSLATE_LAPIS_ORE_FENCE_GATE);
+        addDrop(ModBlocks.DEEPSLATE_LAPIS_ORE_DOOR, doorDrops(ModBlocks.DEEPSLATE_LAPIS_ORE_DOOR));
+        addDrop(ModBlocks.DEEPSLATE_LAPIS_ORE_SLAB, slabDrops(ModBlocks.DEEPSLATE_LAPIS_ORE_SLAB));
+        addDrop(ModBlocks.DEEPSLATE_LAPIS_ORE_WALL);
+
+        //diamond_ore
+        addDrop(ModBlocks.DIAMOND_ORE_STAIRS);
+        addDrop(ModBlocks.DIAMOND_ORE_TRAPDOOR);
+        addDrop(ModBlocks.DIAMOND_ORE_BUTTON);
+        addDrop(ModBlocks.DIAMOND_ORE_PRESSURE_PLATE);
+        addDrop(ModBlocks.DIAMOND_ORE_FENCE);
+        addDrop(ModBlocks.DIAMOND_ORE_FENCE_GATE);
+        addDrop(ModBlocks.DIAMOND_ORE_DOOR, doorDrops(ModBlocks.DIAMOND_ORE_DOOR));
+        addDrop(ModBlocks.DIAMOND_ORE_SLAB, slabDrops(ModBlocks.DIAMOND_ORE_SLAB));
+        addDrop(ModBlocks.DIAMOND_ORE_WALL);
+
+        //deepslate_diamond_ore
+        addDrop(ModBlocks.DEEPSLATE_DIAMOND_ORE_STAIRS);
+        addDrop(ModBlocks.DEEPSLATE_DIAMOND_ORE_TRAPDOOR);
+        addDrop(ModBlocks.DEEPSLATE_DIAMOND_ORE_BUTTON);
+        addDrop(ModBlocks.DEEPSLATE_DIAMOND_ORE_PRESSURE_PLATE);
+        addDrop(ModBlocks.DEEPSLATE_DIAMOND_ORE_FENCE);
+        addDrop(ModBlocks.DEEPSLATE_DIAMOND_ORE_FENCE_GATE);
+        addDrop(ModBlocks.DEEPSLATE_DIAMOND_ORE_DOOR, doorDrops(ModBlocks.DEEPSLATE_DIAMOND_ORE_DOOR));
+        addDrop(ModBlocks.DEEPSLATE_DIAMOND_ORE_SLAB, slabDrops(ModBlocks.DEEPSLATE_DIAMOND_ORE_SLAB));
+        addDrop(ModBlocks.DEEPSLATE_DIAMOND_ORE_WALL);
+
+        //nether_gold_ore
+        addDrop(ModBlocks.NETHER_GOLD_ORE_STAIRS);
+        addDrop(ModBlocks.NETHER_GOLD_ORE_TRAPDOOR);
+        addDrop(ModBlocks.NETHER_GOLD_ORE_BUTTON);
+        addDrop(ModBlocks.NETHER_GOLD_ORE_PRESSURE_PLATE);
+        addDrop(ModBlocks.NETHER_GOLD_ORE_FENCE);
+        addDrop(ModBlocks.NETHER_GOLD_ORE_FENCE_GATE);
+        addDrop(ModBlocks.NETHER_GOLD_ORE_DOOR, doorDrops(ModBlocks.NETHER_GOLD_ORE_DOOR));
+        addDrop(ModBlocks.NETHER_GOLD_ORE_SLAB, slabDrops(ModBlocks.NETHER_GOLD_ORE_SLAB));
+        addDrop(ModBlocks.NETHER_GOLD_ORE_WALL);
+
+        //nether_quartz_ore
+        addDrop(ModBlocks.NETHER_QUARTZ_ORE_STAIRS);
+        addDrop(ModBlocks.NETHER_QUARTZ_ORE_TRAPDOOR);
+        addDrop(ModBlocks.NETHER_QUARTZ_ORE_BUTTON);
+        addDrop(ModBlocks.NETHER_QUARTZ_ORE_PRESSURE_PLATE);
+        addDrop(ModBlocks.NETHER_QUARTZ_ORE_FENCE);
+        addDrop(ModBlocks.NETHER_QUARTZ_ORE_FENCE_GATE);
+        addDrop(ModBlocks.NETHER_QUARTZ_ORE_DOOR, doorDrops(ModBlocks.NETHER_QUARTZ_ORE_DOOR));
+        addDrop(ModBlocks.NETHER_QUARTZ_ORE_SLAB, slabDrops(ModBlocks.NETHER_QUARTZ_ORE_SLAB));
+        addDrop(ModBlocks.NETHER_QUARTZ_ORE_WALL);
+
+        //ancient_debris
+        addDrop(ModBlocks.ANCIENT_DEBRIS_STAIRS);
+        addDrop(ModBlocks.ANCIENT_DEBRIS_TRAPDOOR);
+        addDrop(ModBlocks.ANCIENT_DEBRIS_BUTTON);
+        addDrop(ModBlocks.ANCIENT_DEBRIS_PRESSURE_PLATE);
+        addDrop(ModBlocks.ANCIENT_DEBRIS_FENCE);
+        addDrop(ModBlocks.ANCIENT_DEBRIS_FENCE_GATE);
+        addDrop(ModBlocks.ANCIENT_DEBRIS_DOOR, doorDrops(ModBlocks.ANCIENT_DEBRIS_DOOR));
+        addDrop(ModBlocks.ANCIENT_DEBRIS_SLAB, slabDrops(ModBlocks.ANCIENT_DEBRIS_SLAB));
+        addDrop(ModBlocks.ANCIENT_DEBRIS_WALL);
         
         
         

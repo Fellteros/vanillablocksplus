@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/emerald_ore_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/emerald_ore"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/emerald_ore_slab_top"
+    }
+  }
+}

@@ -188,6 +188,17 @@
     "vanillablocksplus:copper_ore_wall",
     "vanillablocksplus:deepslate_copper_ore_wall",
     "vanillablocksplus:gold_ore_wall",
-    "vanillablocksplus:deepslate_gold_ore_wall"
+    "vanillablocksplus:deepslate_gold_ore_wall",
+    "vanillablocksplus:redstone_ore_wall",
+    "vanillablocksplus:deepslate_redstone_ore_wall",
+    "vanillablocksplus:emerald_ore_wall",
+    "vanillablocksplus:deepslate_emerald_ore_wall",
+    "vanillablocksplus:lapis_ore_wall",
+    "vanillablocksplus:deepslate_lapis_ore_wall",
+    "vanillablocksplus:diamond_ore_wall",
+    "vanillablocksplus:deepslate_diamond_ore_wall",
+    "vanillablocksplus:nether_gold_ore_wall",
+    "vanillablocksplus:nether_quartz_ore_wall",
+    "vanillablocksplus:ancient_debris_wall"
   ]
 }

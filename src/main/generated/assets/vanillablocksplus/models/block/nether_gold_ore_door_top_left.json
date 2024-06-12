@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "vanillablocksplus:block/nether_gold_ore_door_bottom",
+    "top": "vanillablocksplus:block/nether_gold_ore_door_top"
+  }
+}
