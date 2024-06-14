@@ -2312,6 +2312,39 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ANCIENT_DEBRIS_DOOR, doorDrops(ModBlocks.ANCIENT_DEBRIS_DOOR));
         addDrop(ModBlocks.ANCIENT_DEBRIS_SLAB, slabDrops(ModBlocks.ANCIENT_DEBRIS_SLAB));
         addDrop(ModBlocks.ANCIENT_DEBRIS_WALL);
+
+        //raw_iron_block
+        addDrop(ModBlocks.RAW_IRON_STAIRS);
+        addDrop(ModBlocks.RAW_IRON_TRAPDOOR);
+        addDrop(ModBlocks.RAW_IRON_BUTTON);
+        addDrop(ModBlocks.RAW_IRON_PRESSURE_PLATE);
+        addDrop(ModBlocks.RAW_IRON_FENCE);
+        addDrop(ModBlocks.RAW_IRON_FENCE_GATE);
+        addDrop(ModBlocks.RAW_IRON_DOOR, doorDrops(ModBlocks.RAW_IRON_DOOR));
+        addDrop(ModBlocks.RAW_IRON_SLAB, slabDrops(ModBlocks.RAW_IRON_SLAB));
+        addDrop(ModBlocks.RAW_IRON_WALL);
+
+        //raw_copper_block
+        addDrop(ModBlocks.RAW_COPPER_STAIRS);
+        addDrop(ModBlocks.RAW_COPPER_TRAPDOOR);
+        addDrop(ModBlocks.RAW_COPPER_BUTTON);
+        addDrop(ModBlocks.RAW_COPPER_PRESSURE_PLATE);
+        addDrop(ModBlocks.RAW_COPPER_FENCE);
+        addDrop(ModBlocks.RAW_COPPER_FENCE_GATE);
+        addDrop(ModBlocks.RAW_COPPER_DOOR, doorDrops(ModBlocks.RAW_COPPER_DOOR));
+        addDrop(ModBlocks.RAW_COPPER_SLAB, slabDrops(ModBlocks.RAW_COPPER_SLAB));
+        addDrop(ModBlocks.RAW_COPPER_WALL);
+
+        //raw_gold_block
+        addDrop(ModBlocks.RAW_GOLD_STAIRS);
+        addDrop(ModBlocks.RAW_GOLD_TRAPDOOR);
+        addDrop(ModBlocks.RAW_GOLD_BUTTON);
+        addDrop(ModBlocks.RAW_GOLD_PRESSURE_PLATE);
+        addDrop(ModBlocks.RAW_GOLD_FENCE);
+        addDrop(ModBlocks.RAW_GOLD_FENCE_GATE);
+        addDrop(ModBlocks.RAW_GOLD_DOOR, doorDrops(ModBlocks.RAW_GOLD_DOOR));
+        addDrop(ModBlocks.RAW_GOLD_SLAB, slabDrops(ModBlocks.RAW_GOLD_SLAB));
+        addDrop(ModBlocks.RAW_GOLD_WALL);
         
         
         

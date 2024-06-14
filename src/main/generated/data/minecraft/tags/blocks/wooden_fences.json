@@ -235,6 +235,9 @@
     "vanillablocksplus:deepslate_diamond_ore_fence",
     "vanillablocksplus:nether_gold_ore_fence",
     "vanillablocksplus:nether_quartz_ore_fence",
-    "vanillablocksplus:ancient_debris_fence"
+    "vanillablocksplus:ancient_debris_fence",
+    "vanillablocksplus:raw_iron_fence",
+    "vanillablocksplus:raw_copper_fence",
+    "vanillablocksplus:raw_gold_fence"
   ]
 }

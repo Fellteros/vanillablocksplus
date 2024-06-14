@@ -2295,7 +2295,37 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ANCIENT_DEBRIS_FENCE_GATE)
                 .add(ModBlocks.ANCIENT_DEBRIS_FENCE)
                 .add(ModBlocks.ANCIENT_DEBRIS_BUTTON)
-                .add(ModBlocks.ANCIENT_DEBRIS_PRESSURE_PLATE);
+                .add(ModBlocks.ANCIENT_DEBRIS_PRESSURE_PLATE)
+                //raw_iron_block
+                .add(ModBlocks.RAW_IRON_STAIRS)
+                .add(ModBlocks.RAW_IRON_SLAB)
+                .add(ModBlocks.RAW_IRON_WALL)
+                .add(ModBlocks.RAW_IRON_DOOR)
+                .add(ModBlocks.RAW_IRON_TRAPDOOR)
+                .add(ModBlocks.RAW_IRON_FENCE_GATE)
+                .add(ModBlocks.RAW_IRON_FENCE)
+                .add(ModBlocks.RAW_IRON_BUTTON)
+                .add(ModBlocks.RAW_IRON_PRESSURE_PLATE)
+                //raw_copper_block
+                .add(ModBlocks.RAW_COPPER_STAIRS)
+                .add(ModBlocks.RAW_COPPER_SLAB)
+                .add(ModBlocks.RAW_COPPER_WALL)
+                .add(ModBlocks.RAW_COPPER_DOOR)
+                .add(ModBlocks.RAW_COPPER_TRAPDOOR)
+                .add(ModBlocks.RAW_COPPER_FENCE_GATE)
+                .add(ModBlocks.RAW_COPPER_FENCE)
+                .add(ModBlocks.RAW_COPPER_BUTTON)
+                .add(ModBlocks.RAW_COPPER_PRESSURE_PLATE)
+                //raw_gold_block
+                .add(ModBlocks.RAW_GOLD_STAIRS)
+                .add(ModBlocks.RAW_GOLD_SLAB)
+                .add(ModBlocks.RAW_GOLD_WALL)
+                .add(ModBlocks.RAW_GOLD_DOOR)
+                .add(ModBlocks.RAW_GOLD_TRAPDOOR)
+                .add(ModBlocks.RAW_GOLD_FENCE_GATE)
+                .add(ModBlocks.RAW_GOLD_FENCE)
+                .add(ModBlocks.RAW_GOLD_BUTTON)
+                .add(ModBlocks.RAW_GOLD_PRESSURE_PLATE);
 
 
 
@@ -2740,7 +2770,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_DIAMOND_ORE_FENCE)
                 .add(ModBlocks.NETHER_GOLD_ORE_FENCE)
                 .add(ModBlocks.NETHER_QUARTZ_ORE_FENCE)
-                .add(ModBlocks.ANCIENT_DEBRIS_FENCE);
+                .add(ModBlocks.ANCIENT_DEBRIS_FENCE)
+                .add(ModBlocks.RAW_IRON_FENCE)
+                .add(ModBlocks.RAW_COPPER_FENCE)
+                .add(ModBlocks.RAW_GOLD_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -2981,7 +3014,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_DIAMOND_ORE_FENCE)
                 .add(ModBlocks.NETHER_GOLD_ORE_FENCE)
                 .add(ModBlocks.NETHER_QUARTZ_ORE_FENCE)
-                .add(ModBlocks.ANCIENT_DEBRIS_FENCE);
+                .add(ModBlocks.ANCIENT_DEBRIS_FENCE)
+                .add(ModBlocks.RAW_IRON_FENCE)
+                .add(ModBlocks.RAW_COPPER_FENCE)
+                .add(ModBlocks.RAW_GOLD_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -3214,7 +3250,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_DIAMOND_ORE_FENCE_GATE)
                 .add(ModBlocks.NETHER_GOLD_ORE_FENCE_GATE)
                 .add(ModBlocks.NETHER_QUARTZ_ORE_FENCE_GATE)
-                .add(ModBlocks.ANCIENT_DEBRIS_FENCE_GATE);
+                .add(ModBlocks.ANCIENT_DEBRIS_FENCE_GATE)
+                .add(ModBlocks.RAW_IRON_FENCE_GATE)
+                .add(ModBlocks.RAW_COPPER_FENCE_GATE)
+                .add(ModBlocks.RAW_GOLD_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -3416,7 +3455,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_DIAMOND_ORE_WALL)
                 .add(ModBlocks.NETHER_GOLD_ORE_WALL)
                 .add(ModBlocks.NETHER_QUARTZ_ORE_WALL)
-                .add(ModBlocks.ANCIENT_DEBRIS_WALL);
+                .add(ModBlocks.ANCIENT_DEBRIS_WALL)
+                .add(ModBlocks.RAW_IRON_WALL)
+                .add(ModBlocks.RAW_COPPER_WALL)
+                .add(ModBlocks.RAW_GOLD_WALL);
 
 
 

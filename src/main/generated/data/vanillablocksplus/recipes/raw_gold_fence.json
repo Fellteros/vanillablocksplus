@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:raw_gold_slab"
+    },
+    "W": {
+      "item": "minecraft:raw_gold_block"
+    }
+  },
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "result": {
+    "count": 3,
+    "item": "vanillablocksplus:raw_gold_fence"
+  },
+  "show_notification": true
+}

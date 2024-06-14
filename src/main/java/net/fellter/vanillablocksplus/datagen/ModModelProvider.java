@@ -2266,7 +2266,33 @@ public class ModModelProvider extends FabricModelProvider {
         registerSTBFenceGate(bsmg, ModBlocks.ANCIENT_DEBRIS_FENCE_GATE, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
         registerSTBPressurePlate(bsmg, ModBlocks.ANCIENT_DEBRIS_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
         registerSTBOrTrapdoor(bsmg, ModBlocks.ANCIENT_DEBRIS_TRAPDOOR, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, ModBlocks.ANCIENT_DEBRIS_TRAPDOOR, ModBlocks.ANCIENT_DEBRIS_TRAPDOOR, "_side", "", ""));
-
+        //raw_iron_block
+        bsmg.registerCubeAllModelTexturePool(Blocks.RAW_IRON_BLOCK)
+                .button(ModBlocks.RAW_IRON_BUTTON)
+                .wall(ModBlocks.RAW_IRON_WALL)
+                .slab(ModBlocks.RAW_IRON_SLAB)
+                .stairs(ModBlocks.RAW_IRON_STAIRS)
+                .fence(ModBlocks.RAW_IRON_FENCE)
+                .fenceGate(ModBlocks.RAW_IRON_FENCE_GATE)
+                .pressurePlate(ModBlocks.RAW_IRON_PRESSURE_PLATE);
+        //raw_copper_block
+        bsmg.registerCubeAllModelTexturePool(Blocks.RAW_COPPER_BLOCK)
+                .button(ModBlocks.RAW_COPPER_BUTTON)
+                .wall(ModBlocks.RAW_COPPER_WALL)
+                .slab(ModBlocks.RAW_COPPER_SLAB)
+                .stairs(ModBlocks.RAW_COPPER_STAIRS)
+                .fence(ModBlocks.RAW_COPPER_FENCE)
+                .fenceGate(ModBlocks.RAW_COPPER_FENCE_GATE)
+                .pressurePlate(ModBlocks.RAW_COPPER_PRESSURE_PLATE);
+        //raw_gold_block
+        bsmg.registerCubeAllModelTexturePool(Blocks.RAW_GOLD_BLOCK)
+                .button(ModBlocks.RAW_GOLD_BUTTON)
+                .wall(ModBlocks.RAW_GOLD_WALL)
+                .slab(ModBlocks.RAW_GOLD_SLAB)
+                .stairs(ModBlocks.RAW_GOLD_STAIRS)
+                .fence(ModBlocks.RAW_GOLD_FENCE)
+                .fenceGate(ModBlocks.RAW_GOLD_FENCE_GATE)
+                .pressurePlate(ModBlocks.RAW_GOLD_PRESSURE_PLATE);
 
 
         //oak
@@ -2987,6 +3013,15 @@ public class ModModelProvider extends FabricModelProvider {
         bsmg.registerDoor(ModBlocks.NETHER_QUARTZ_ORE_DOOR);
         //ancient_debris
         bsmg.registerDoor(ModBlocks.ANCIENT_DEBRIS_DOOR);
+        //raw_iron
+        bsmg.registerOrientableTrapdoor(ModBlocks.RAW_IRON_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.RAW_IRON_DOOR);
+        //raw_copper
+        bsmg.registerOrientableTrapdoor(ModBlocks.RAW_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.RAW_COPPER_DOOR);
+        //raw_gold
+        bsmg.registerOrientableTrapdoor(ModBlocks.RAW_GOLD_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.RAW_GOLD_DOOR);
 
 
 

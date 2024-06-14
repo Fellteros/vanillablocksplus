@@ -2588,6 +2588,39 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.ANCIENT_DEBRIS_BUTTON, Blocks.ANCIENT_DEBRIS, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.ANCIENT_DEBRIS_WALL, (Blocks.ANCIENT_DEBRIS)).offerTo(exporter);
 
+        //raw_iron_block
+        ModRecipes.DoorRecipe(ModBlocks.RAW_IRON_DOOR, (Blocks.RAW_IRON_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.RAW_IRON_SLAB, (Blocks.RAW_IRON_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.RAW_IRON_STAIRS, (Blocks.RAW_IRON_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.RAW_IRON_FENCE, (Blocks.RAW_IRON_BLOCK), (ModBlocks.RAW_IRON_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.RAW_IRON_FENCE_GATE, (Blocks.RAW_IRON_BLOCK), (ModBlocks.RAW_IRON_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.RAW_IRON_TRAPDOOR, (ModBlocks.RAW_IRON_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.RAW_IRON_PRESSURE_PLATE, (ModBlocks.RAW_IRON_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.RAW_IRON_BUTTON, Blocks.RAW_IRON_BLOCK, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.RAW_IRON_WALL, (Blocks.RAW_IRON_BLOCK)).offerTo(exporter);
+
+        //raw_copper_block
+        ModRecipes.DoorRecipe(ModBlocks.RAW_COPPER_DOOR, (Blocks.RAW_COPPER_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.RAW_COPPER_SLAB, (Blocks.RAW_COPPER_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.RAW_COPPER_STAIRS, (Blocks.RAW_COPPER_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.RAW_COPPER_FENCE, (Blocks.RAW_COPPER_BLOCK), (ModBlocks.RAW_COPPER_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.RAW_COPPER_FENCE_GATE, (Blocks.RAW_COPPER_BLOCK), (ModBlocks.RAW_COPPER_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.RAW_COPPER_TRAPDOOR, (ModBlocks.RAW_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.RAW_COPPER_PRESSURE_PLATE, (ModBlocks.RAW_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.RAW_COPPER_BUTTON, Blocks.RAW_COPPER_BLOCK, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.RAW_COPPER_WALL, (Blocks.RAW_COPPER_BLOCK)).offerTo(exporter);
+
+        //raw_gold_block
+        ModRecipes.DoorRecipe(ModBlocks.RAW_GOLD_DOOR, (Blocks.RAW_GOLD_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.RAW_GOLD_SLAB, (Blocks.RAW_GOLD_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.RAW_GOLD_STAIRS, (Blocks.RAW_GOLD_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.RAW_GOLD_FENCE, (Blocks.RAW_GOLD_BLOCK), (ModBlocks.RAW_GOLD_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.RAW_GOLD_FENCE_GATE, (Blocks.RAW_GOLD_BLOCK), (ModBlocks.RAW_GOLD_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.RAW_GOLD_TRAPDOOR, (ModBlocks.RAW_GOLD_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.RAW_GOLD_PRESSURE_PLATE, (ModBlocks.RAW_GOLD_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.RAW_GOLD_BUTTON, Blocks.RAW_GOLD_BLOCK, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.RAW_GOLD_WALL, (Blocks.RAW_GOLD_BLOCK)).offerTo(exporter);
+
 
 
         

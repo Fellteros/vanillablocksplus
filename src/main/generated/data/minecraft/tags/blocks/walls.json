@@ -199,6 +199,9 @@
     "vanillablocksplus:deepslate_diamond_ore_wall",
     "vanillablocksplus:nether_gold_ore_wall",
     "vanillablocksplus:nether_quartz_ore_wall",
-    "vanillablocksplus:ancient_debris_wall"
+    "vanillablocksplus:ancient_debris_wall",
+    "vanillablocksplus:raw_iron_wall",
+    "vanillablocksplus:raw_copper_wall",
+    "vanillablocksplus:raw_gold_wall"
   ]
 }

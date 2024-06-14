@@ -5620,6 +5620,69 @@ public class ModBlocks {
     public static final Block ANCIENT_DEBRIS_WALL = registerBlock("ancient_debris_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
 
+    //raw_iron_block
+    public static final Block RAW_IRON_STAIRS = registerBlock("raw_iron_stairs",
+            new StairsBlock(Blocks.RAW_IRON_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
+    public static final Block RAW_IRON_SLAB = registerBlock("raw_iron_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
+    public static final Block RAW_IRON_BUTTON = registerBlock("raw_iron_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block RAW_IRON_PRESSURE_PLATE = registerBlock("raw_iron_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK), BlockSetType.STONE));
+    public static final Block RAW_IRON_FENCE = registerBlock("raw_iron_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
+    public static final Block RAW_IRON_FENCE_GATE = registerBlock("raw_iron_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK), WoodType.OAK));
+    public static final Block RAW_IRON_DOOR = registerBlock("raw_iron_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK), BlockSetType.STONE));
+    public static final Block RAW_IRON_TRAPDOOR = registerBlock("raw_iron_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK), BlockSetType.STONE));
+    public static final Block RAW_IRON_WALL = registerBlock("raw_iron_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
+
+    //raw_copper_block
+    public static final Block RAW_COPPER_STAIRS = registerBlock("raw_copper_stairs",
+            new StairsBlock(Blocks.RAW_COPPER_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.RAW_COPPER_BLOCK)));
+    public static final Block RAW_COPPER_SLAB = registerBlock("raw_copper_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.RAW_COPPER_BLOCK)));
+    public static final Block RAW_COPPER_BUTTON = registerBlock("raw_copper_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.RAW_COPPER_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block RAW_COPPER_PRESSURE_PLATE = registerBlock("raw_copper_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.RAW_COPPER_BLOCK), BlockSetType.STONE));
+    public static final Block RAW_COPPER_FENCE = registerBlock("raw_copper_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.RAW_COPPER_BLOCK)));
+    public static final Block RAW_COPPER_FENCE_GATE = registerBlock("raw_copper_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.RAW_COPPER_BLOCK), WoodType.OAK));
+    public static final Block RAW_COPPER_DOOR = registerBlock("raw_copper_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.RAW_COPPER_BLOCK), BlockSetType.STONE));
+    public static final Block RAW_COPPER_TRAPDOOR = registerBlock("raw_copper_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.RAW_COPPER_BLOCK), BlockSetType.STONE));
+    public static final Block RAW_COPPER_WALL = registerBlock("raw_copper_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.RAW_COPPER_BLOCK)));
+
+    //raw_gold_block
+    public static final Block RAW_GOLD_STAIRS = registerBlock("raw_gold_stairs",
+            new StairsBlock(Blocks.RAW_GOLD_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.RAW_GOLD_BLOCK)));
+    public static final Block RAW_GOLD_SLAB = registerBlock("raw_gold_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.RAW_GOLD_BLOCK)));
+    public static final Block RAW_GOLD_BUTTON = registerBlock("raw_gold_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.RAW_GOLD_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block RAW_GOLD_PRESSURE_PLATE = registerBlock("raw_gold_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.RAW_GOLD_BLOCK), BlockSetType.STONE));
+    public static final Block RAW_GOLD_FENCE = registerBlock("raw_gold_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.RAW_GOLD_BLOCK)));
+    public static final Block RAW_GOLD_FENCE_GATE = registerBlock("raw_gold_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.RAW_GOLD_BLOCK), WoodType.OAK));
+    public static final Block RAW_GOLD_DOOR = registerBlock("raw_gold_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.RAW_GOLD_BLOCK), BlockSetType.STONE));
+    public static final Block RAW_GOLD_TRAPDOOR = registerBlock("raw_gold_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.RAW_GOLD_BLOCK), BlockSetType.STONE));
+    public static final Block RAW_GOLD_WALL = registerBlock("raw_gold_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.RAW_GOLD_BLOCK)));
+
 
 
 

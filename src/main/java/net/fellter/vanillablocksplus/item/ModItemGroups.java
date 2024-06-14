@@ -2311,6 +2311,36 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ANCIENT_DEBRIS_TRAPDOOR);
                         entries.add(ModBlocks.ANCIENT_DEBRIS_PRESSURE_PLATE);
                         entries.add(ModBlocks.ANCIENT_DEBRIS_BUTTON);
+                        //raw_iron_block
+                        entries.add(ModBlocks.RAW_IRON_STAIRS);
+                        entries.add(ModBlocks.RAW_IRON_SLAB);
+                        entries.add(ModBlocks.RAW_IRON_WALL);
+                        entries.add(ModBlocks.RAW_IRON_FENCE);
+                        entries.add(ModBlocks.RAW_IRON_FENCE_GATE);
+                        entries.add(ModBlocks.RAW_IRON_DOOR);
+                        entries.add(ModBlocks.RAW_IRON_TRAPDOOR);
+                        entries.add(ModBlocks.RAW_IRON_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RAW_IRON_BUTTON);
+                        //raw_copper_block
+                        entries.add(ModBlocks.RAW_COPPER_STAIRS);
+                        entries.add(ModBlocks.RAW_COPPER_SLAB);
+                        entries.add(ModBlocks.RAW_COPPER_WALL);
+                        entries.add(ModBlocks.RAW_COPPER_FENCE);
+                        entries.add(ModBlocks.RAW_COPPER_FENCE_GATE);
+                        entries.add(ModBlocks.RAW_COPPER_DOOR);
+                        entries.add(ModBlocks.RAW_COPPER_TRAPDOOR);
+                        entries.add(ModBlocks.RAW_COPPER_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RAW_COPPER_BUTTON);
+                        //raw_gold_block
+                        entries.add(ModBlocks.RAW_GOLD_STAIRS);
+                        entries.add(ModBlocks.RAW_GOLD_SLAB);
+                        entries.add(ModBlocks.RAW_GOLD_WALL);
+                        entries.add(ModBlocks.RAW_GOLD_FENCE);
+                        entries.add(ModBlocks.RAW_GOLD_FENCE_GATE);
+                        entries.add(ModBlocks.RAW_GOLD_DOOR);
+                        entries.add(ModBlocks.RAW_GOLD_TRAPDOOR);
+                        entries.add(ModBlocks.RAW_GOLD_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RAW_GOLD_BUTTON);
 
 
 
