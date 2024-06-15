@@ -202,6 +202,8 @@
     "vanillablocksplus:ancient_debris_wall",
     "vanillablocksplus:raw_iron_wall",
     "vanillablocksplus:raw_copper_wall",
-    "vanillablocksplus:raw_gold_wall"
+    "vanillablocksplus:raw_gold_wall",
+    "vanillablocksplus:glowstone_wall",
+    "vanillablocksplus:oak_leaves_wall"
   ]
 }

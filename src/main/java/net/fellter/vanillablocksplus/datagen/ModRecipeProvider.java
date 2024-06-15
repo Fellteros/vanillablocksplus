@@ -2621,6 +2621,28 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.RAW_GOLD_BUTTON, Blocks.RAW_GOLD_BLOCK, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.RAW_GOLD_WALL, (Blocks.RAW_GOLD_BLOCK)).offerTo(exporter);
 
+        //glowstone
+        ModRecipes.DoorRecipe(ModBlocks.GLOWSTONE_DOOR, (Blocks.GLOWSTONE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.GLOWSTONE_SLAB, (Blocks.GLOWSTONE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.GLOWSTONE_STAIRS, (Blocks.GLOWSTONE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.GLOWSTONE_FENCE, (Blocks.GLOWSTONE), (ModBlocks.GLOWSTONE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.GLOWSTONE_FENCE_GATE, (Blocks.GLOWSTONE), (ModBlocks.GLOWSTONE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.GLOWSTONE_TRAPDOOR, (ModBlocks.GLOWSTONE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.GLOWSTONE_PRESSURE_PLATE, (ModBlocks.GLOWSTONE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.GLOWSTONE_BUTTON, Blocks.GLOWSTONE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.GLOWSTONE_WALL, (Blocks.GLOWSTONE)).offerTo(exporter);
+
+        //oak_leaves
+        ModRecipes.DoorRecipe(ModBlocks.OAK_LEAVES_DOOR, (Blocks.OAK_LEAVES)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.OAK_LEAVES_SLAB, (Blocks.OAK_LEAVES)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.OAK_LEAVES_STAIRS, (Blocks.OAK_LEAVES)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.OAK_LEAVES_FENCE, (Blocks.OAK_LEAVES), (ModBlocks.OAK_LEAVES_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.OAK_LEAVES_FENCE_GATE, (Blocks.OAK_LEAVES), (ModBlocks.OAK_LEAVES_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.OAK_LEAVES_TRAPDOOR, (ModBlocks.OAK_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.OAK_LEAVES_PRESSURE_PLATE, (ModBlocks.OAK_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.OAK_LEAVES_BUTTON, Blocks.OAK_LEAVES, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.OAK_LEAVES_WALL, (Blocks.OAK_LEAVES)).offerTo(exporter);
+
 
 
         

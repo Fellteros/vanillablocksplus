@@ -515,18 +515,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                  .add(ModBlocks.SOUL_SOIL_FENCE)
                  .add(ModBlocks.SOUL_SOIL_BUTTON)
                  .add(ModBlocks.SOUL_SOIL_PRESSURE_PLATE);
-         
-         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
-                 //moss
-                 .add(ModBlocks.MOSS_STAIRS)
-                 .add(ModBlocks.MOSS_SLAB)
-                 .add(ModBlocks.MOSS_WALL)
-                 .add(ModBlocks.MOSS_DOOR)
-                 .add(ModBlocks.MOSS_TRAPDOOR)
-                 .add(ModBlocks.MOSS_FENCE_GATE)
-                 .add(ModBlocks.MOSS_FENCE)
-                 .add(ModBlocks.MOSS_BUTTON)
-                 .add(ModBlocks.MOSS_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.TERRACOTTA)
                 //terracotta
@@ -2325,7 +2313,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_GOLD_FENCE_GATE)
                 .add(ModBlocks.RAW_GOLD_FENCE)
                 .add(ModBlocks.RAW_GOLD_BUTTON)
-                .add(ModBlocks.RAW_GOLD_PRESSURE_PLATE);
+                .add(ModBlocks.RAW_GOLD_PRESSURE_PLATE)
+                //glowstone_block
+                .add(ModBlocks.GLOWSTONE_STAIRS)
+                .add(ModBlocks.GLOWSTONE_SLAB)
+                .add(ModBlocks.GLOWSTONE_WALL)
+                .add(ModBlocks.GLOWSTONE_DOOR)
+                .add(ModBlocks.GLOWSTONE_TRAPDOOR)
+                .add(ModBlocks.GLOWSTONE_FENCE_GATE)
+                .add(ModBlocks.GLOWSTONE_FENCE)
+                .add(ModBlocks.GLOWSTONE_BUTTON)
+                .add(ModBlocks.GLOWSTONE_PRESSURE_PLATE);
 
 
 
@@ -2532,6 +2530,28 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SAND_FENCE)
                 .add(ModBlocks.SAND_BUTTON)
                 .add(ModBlocks.SAND_PRESSURE_PLATE);
+
+        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
+                //moss
+                .add(ModBlocks.MOSS_STAIRS)
+                .add(ModBlocks.MOSS_SLAB)
+                .add(ModBlocks.MOSS_WALL)
+                .add(ModBlocks.MOSS_DOOR)
+                .add(ModBlocks.MOSS_TRAPDOOR)
+                .add(ModBlocks.MOSS_FENCE_GATE)
+                .add(ModBlocks.MOSS_FENCE)
+                .add(ModBlocks.MOSS_BUTTON)
+                .add(ModBlocks.MOSS_PRESSURE_PLATE)
+                //oak_leaves
+                .add(ModBlocks.OAK_LEAVES_STAIRS)
+                .add(ModBlocks.OAK_LEAVES_SLAB)
+                .add(ModBlocks.OAK_LEAVES_WALL)
+                .add(ModBlocks.OAK_LEAVES_DOOR)
+                .add(ModBlocks.OAK_LEAVES_TRAPDOOR)
+                .add(ModBlocks.OAK_LEAVES_FENCE_GATE)
+                .add(ModBlocks.OAK_LEAVES_FENCE)
+                .add(ModBlocks.OAK_LEAVES_BUTTON)
+                .add(ModBlocks.OAK_LEAVES_PRESSURE_PLATE);
 
 
 
@@ -2773,7 +2793,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ANCIENT_DEBRIS_FENCE)
                 .add(ModBlocks.RAW_IRON_FENCE)
                 .add(ModBlocks.RAW_COPPER_FENCE)
-                .add(ModBlocks.RAW_GOLD_FENCE);
+                .add(ModBlocks.RAW_GOLD_FENCE)
+                .add(ModBlocks.GLOWSTONE_FENCE)
+                .add(ModBlocks.OAK_LEAVES_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -3017,7 +3039,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ANCIENT_DEBRIS_FENCE)
                 .add(ModBlocks.RAW_IRON_FENCE)
                 .add(ModBlocks.RAW_COPPER_FENCE)
-                .add(ModBlocks.RAW_GOLD_FENCE);
+                .add(ModBlocks.RAW_GOLD_FENCE)
+                .add(ModBlocks.GLOWSTONE_FENCE)
+                .add(ModBlocks.OAK_LEAVES_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -3253,7 +3277,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ANCIENT_DEBRIS_FENCE_GATE)
                 .add(ModBlocks.RAW_IRON_FENCE_GATE)
                 .add(ModBlocks.RAW_COPPER_FENCE_GATE)
-                .add(ModBlocks.RAW_GOLD_FENCE_GATE);
+                .add(ModBlocks.RAW_GOLD_FENCE_GATE)
+                .add(ModBlocks.GLOWSTONE_FENCE_GATE)
+                .add(ModBlocks.OAK_LEAVES_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -3458,7 +3484,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ANCIENT_DEBRIS_WALL)
                 .add(ModBlocks.RAW_IRON_WALL)
                 .add(ModBlocks.RAW_COPPER_WALL)
-                .add(ModBlocks.RAW_GOLD_WALL);
+                .add(ModBlocks.RAW_GOLD_WALL)
+                .add(ModBlocks.GLOWSTONE_WALL)
+                .add(ModBlocks.OAK_LEAVES_WALL);
 
 
 

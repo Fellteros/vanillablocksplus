@@ -1450,6 +1450,15 @@
     "vanillablocksplus:raw_gold_fence_gate",
     "vanillablocksplus:raw_gold_fence",
     "vanillablocksplus:raw_gold_button",
-    "vanillablocksplus:raw_gold_pressure_plate"
+    "vanillablocksplus:raw_gold_pressure_plate",
+    "vanillablocksplus:glowstone_stairs",
+    "vanillablocksplus:glowstone_slab",
+    "vanillablocksplus:glowstone_wall",
+    "vanillablocksplus:glowstone_door",
+    "vanillablocksplus:glowstone_trapdoor",
+    "vanillablocksplus:glowstone_fence_gate",
+    "vanillablocksplus:glowstone_fence",
+    "vanillablocksplus:glowstone_button",
+    "vanillablocksplus:glowstone_pressure_plate"
   ]
 }

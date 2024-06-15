@@ -9,6 +9,15 @@
     "vanillablocksplus:moss_fence_gate",
     "vanillablocksplus:moss_fence",
     "vanillablocksplus:moss_button",
-    "vanillablocksplus:moss_pressure_plate"
+    "vanillablocksplus:moss_pressure_plate",
+    "vanillablocksplus:oak_leaves_stairs",
+    "vanillablocksplus:oak_leaves_slab",
+    "vanillablocksplus:oak_leaves_wall",
+    "vanillablocksplus:oak_leaves_door",
+    "vanillablocksplus:oak_leaves_trapdoor",
+    "vanillablocksplus:oak_leaves_fence_gate",
+    "vanillablocksplus:oak_leaves_fence",
+    "vanillablocksplus:oak_leaves_button",
+    "vanillablocksplus:oak_leaves_pressure_plate"
   ]
 }

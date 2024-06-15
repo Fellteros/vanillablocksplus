@@ -1,23 +1,21 @@
 package net.fellter.vanillablocksplus.custom_blocks.copper;
 
-import net.minecraft.block.*;
+import net.minecraft.block.BlockSetType;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.DoorBlock;
+import net.minecraft.block.Oxidizable;
 import net.minecraft.block.enums.DoubleBlockHalf;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.HoneycombItem;
 import net.minecraft.server.world.ServerWorld;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.Hand;
-import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
-import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 
 import java.util.Optional;
 
-import static net.minecraft.item.HoneycombItem.UNWAXED_TO_WAXED_BLOCKS;
 import static net.minecraft.item.HoneycombItem.WAXED_TO_UNWAXED_BLOCKS;
+import static net.minecraft.item.HoneycombItem.getWaxedState;
 
 public class OxidizableDoorBlock extends DoorBlock implements Oxidizable {
 
@@ -54,19 +52,22 @@ public class OxidizableDoorBlock extends DoorBlock implements Oxidizable {
             if (getUnwaxedState(state).isPresent() && getUnwaxedState(state).get().getBlock().equals(neighborState.getBlock())) {
                 return neighborState.withIfExists(HALF, state.get(HALF).equals(DoubleBlockHalf.UPPER) ? DoubleBlockHalf.UPPER : DoubleBlockHalf.LOWER);
             }
+
+            if (getUnwaxedState(state).isPresent() && getUnwaxedState(state).get().getBlock().equals(neighborState.getBlock())) {
+                return neighborState.withIfExists(HALF, state.get(HALF).equals(DoubleBlockHalf.LOWER) ? DoubleBlockHalf.LOWER : DoubleBlockHalf.UPPER);
+            }
         }
 
         return super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
     }
 
     public static Optional<BlockState> getUnwaxedState(BlockState state) {
-        return Optional.ofNullable(WAXED_TO_UNWAXED_BLOCKS.get().get(state.getBlock())).map(block -> block.getStateWithProperties(state));
+        return Optional.ofNullable(HoneycombItem.WAXED_TO_UNWAXED_BLOCKS.get().get(state.getBlock())).map(block -> block.getStateWithProperties(state));
     }
 
-    public static Optional<BlockState> getWaxedState(BlockState state) {
-        return Optional.ofNullable(UNWAXED_TO_WAXED_BLOCKS.get().get(state.getBlock())).map(block -> block.getStateWithProperties(state));
-    }
 
+
+    @Override
     public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
         this.tickDegradation(state, world, pos, random);
     }

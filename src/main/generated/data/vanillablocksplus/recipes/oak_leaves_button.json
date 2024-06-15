@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:oak_leaves"
+    }
+  },
+  "pattern": [
+    " # "
+  ],
+  "result": {
+    "item": "vanillablocksplus:oak_leaves_button"
+  },
+  "show_notification": true
+}

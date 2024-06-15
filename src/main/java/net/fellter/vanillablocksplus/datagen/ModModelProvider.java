@@ -9,6 +9,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.data.client.TexturedModel;
 
 import static net.fellter.vanillablocksplus.test.ModBlockStateModelGenerator.*;
 
@@ -2293,6 +2294,26 @@ public class ModModelProvider extends FabricModelProvider {
                 .fence(ModBlocks.RAW_GOLD_FENCE)
                 .fenceGate(ModBlocks.RAW_GOLD_FENCE_GATE)
                 .pressurePlate(ModBlocks.RAW_GOLD_PRESSURE_PLATE);
+        //glowstone
+        bsmg.registerCubeAllModelTexturePool(Blocks.GLOWSTONE)
+                .button(ModBlocks.GLOWSTONE_BUTTON)
+                .wall(ModBlocks.GLOWSTONE_WALL)
+                .slab(ModBlocks.GLOWSTONE_SLAB)
+                .stairs(ModBlocks.GLOWSTONE_STAIRS)
+                .fence(ModBlocks.GLOWSTONE_FENCE)
+                .fenceGate(ModBlocks.GLOWSTONE_FENCE_GATE)
+                .pressurePlate(ModBlocks.GLOWSTONE_PRESSURE_PLATE);
+        //oak_leaves
+        registerSTBButton(bsmg, ModBlocks.OAK_LEAVES_BUTTON, ModTextureMap.customAll(Blocks.OAK_LEAVES, ""));
+        registerSTBWall(bsmg, ModBlocks.OAK_LEAVES_WALL, ModTextureMap.customAll(Blocks.OAK_LEAVES, ""));
+        registerSTBSlab(bsmg, ModBlocks.OAK_LEAVES_SLAB, Blocks.OAK_LEAVES, ModTextureMap.customAll(Blocks.OAK_LEAVES, ""));
+        registerSTBStairs(bsmg, ModBlocks.OAK_LEAVES_STAIRS, ModTextureMap.customAll(Blocks.OAK_LEAVES, ""));
+        registerSTBFence(bsmg, ModBlocks.OAK_LEAVES_FENCE, ModTextureMap.customAll(Blocks.OAK_LEAVES, ""));
+        registerSTBFenceGate(bsmg, ModBlocks.OAK_LEAVES_FENCE_GATE, ModTextureMap.customAll(Blocks.OAK_LEAVES, ""));
+        registerSTBPressurePlate(bsmg, ModBlocks.OAK_LEAVES_PRESSURE_PLATE, ModTextureMap.customAll(Blocks.OAK_LEAVES, ""));
+
+
+
 
 
         //oak
@@ -3022,6 +3043,12 @@ public class ModModelProvider extends FabricModelProvider {
         //raw_gold
         bsmg.registerOrientableTrapdoor(ModBlocks.RAW_GOLD_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.RAW_GOLD_DOOR);
+        //glowstone
+        bsmg.registerOrientableTrapdoor(ModBlocks.GLOWSTONE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.GLOWSTONE_DOOR);
+        //oak_leaves
+        bsmg.registerOrientableTrapdoor(ModBlocks.OAK_LEAVES_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.OAK_LEAVES_DOOR);
 
 
 

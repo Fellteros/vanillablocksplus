@@ -2345,6 +2345,28 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_GOLD_DOOR, doorDrops(ModBlocks.RAW_GOLD_DOOR));
         addDrop(ModBlocks.RAW_GOLD_SLAB, slabDrops(ModBlocks.RAW_GOLD_SLAB));
         addDrop(ModBlocks.RAW_GOLD_WALL);
+
+        //glowstone_block
+        addDrop(ModBlocks.GLOWSTONE_STAIRS);
+        addDrop(ModBlocks.GLOWSTONE_TRAPDOOR);
+        addDrop(ModBlocks.GLOWSTONE_BUTTON);
+        addDrop(ModBlocks.GLOWSTONE_PRESSURE_PLATE);
+        addDrop(ModBlocks.GLOWSTONE_FENCE);
+        addDrop(ModBlocks.GLOWSTONE_FENCE_GATE);
+        addDrop(ModBlocks.GLOWSTONE_DOOR, doorDrops(ModBlocks.GLOWSTONE_DOOR));
+        addDrop(ModBlocks.GLOWSTONE_SLAB, slabDrops(ModBlocks.GLOWSTONE_SLAB));
+        addDrop(ModBlocks.GLOWSTONE_WALL);
+
+        //oak_leaves_block
+        addDrop(ModBlocks.OAK_LEAVES_STAIRS);
+        addDrop(ModBlocks.OAK_LEAVES_TRAPDOOR);
+        addDrop(ModBlocks.OAK_LEAVES_BUTTON);
+        addDrop(ModBlocks.OAK_LEAVES_PRESSURE_PLATE);
+        addDrop(ModBlocks.OAK_LEAVES_FENCE);
+        addDrop(ModBlocks.OAK_LEAVES_FENCE_GATE);
+        addDrop(ModBlocks.OAK_LEAVES_DOOR, doorDrops(ModBlocks.OAK_LEAVES_DOOR));
+        addDrop(ModBlocks.OAK_LEAVES_SLAB, slabDrops(ModBlocks.OAK_LEAVES_SLAB));
+        addDrop(ModBlocks.OAK_LEAVES_WALL);
         
         
         

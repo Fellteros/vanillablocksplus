@@ -2341,6 +2341,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_GOLD_TRAPDOOR);
                         entries.add(ModBlocks.RAW_GOLD_PRESSURE_PLATE);
                         entries.add(ModBlocks.RAW_GOLD_BUTTON);
+                        //glowstone_block
+                        entries.add(ModBlocks.GLOWSTONE_STAIRS);
+                        entries.add(ModBlocks.GLOWSTONE_SLAB);
+                        entries.add(ModBlocks.GLOWSTONE_WALL);
+                        entries.add(ModBlocks.GLOWSTONE_FENCE);
+                        entries.add(ModBlocks.GLOWSTONE_FENCE_GATE);
+                        entries.add(ModBlocks.GLOWSTONE_DOOR);
+                        entries.add(ModBlocks.GLOWSTONE_TRAPDOOR);
+                        entries.add(ModBlocks.GLOWSTONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.GLOWSTONE_BUTTON);
+                        //oak_leaves_block
+                        entries.add(ModBlocks.OAK_LEAVES_STAIRS);
+                        entries.add(ModBlocks.OAK_LEAVES_SLAB);
+                        entries.add(ModBlocks.OAK_LEAVES_WALL);
+                        entries.add(ModBlocks.OAK_LEAVES_FENCE);
+                        entries.add(ModBlocks.OAK_LEAVES_FENCE_GATE);
+                        entries.add(ModBlocks.OAK_LEAVES_DOOR);
+                        entries.add(ModBlocks.OAK_LEAVES_TRAPDOOR);
+                        entries.add(ModBlocks.OAK_LEAVES_PRESSURE_PLATE);
+                        entries.add(ModBlocks.OAK_LEAVES_BUTTON);
 
 
 

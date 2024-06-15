@@ -5,14 +5,13 @@ import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.color.world.FoliageColors;
 
-public class GrassBlocksRegistry {
-    public static void grassBlocksMethod() {
+public class FoliageBlocksRegistry {
+    public static void foliageBlocksMethod() {
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
                     if (world == null || pos == null) {
                         return FoliageColors.getDefaultColor();
                     }
                     return BiomeColors.getGrassColor(world, pos);
-
                 },
                 ModBlocks.GRASS_SLAB,
                 ModBlocks.GRASS_BUTTON,
@@ -24,6 +23,22 @@ public class GrassBlocksRegistry {
                 ModBlocks.GRASS_TRAPDOOR,
                 ModBlocks.GRASS_PRESSURE_PLATE);
 
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+                    if (world == null || pos == null) {
+                        return FoliageColors.getDefaultColor();
+                    }
+                    return BiomeColors.getFoliageColor(world, pos);
+                },
+                ModBlocks.OAK_LEAVES_SLAB,
+                ModBlocks.OAK_LEAVES_BUTTON,
+                ModBlocks.OAK_LEAVES_FENCE,
+                ModBlocks.OAK_LEAVES_STAIRS,
+                ModBlocks.OAK_LEAVES_WALL,
+                ModBlocks.OAK_LEAVES_FENCE_GATE,
+                ModBlocks.OAK_LEAVES_DOOR,
+                ModBlocks.OAK_LEAVES_TRAPDOOR,
+                ModBlocks.OAK_LEAVES_PRESSURE_PLATE);
+
         ColorProviderRegistry.ITEM.register(((stack, tintIndex) -> FoliageColors.getDefaultColor()),
                 ModBlocks.GRASS_SLAB,
                 ModBlocks.GRASS_BUTTON,
@@ -32,6 +47,16 @@ public class GrassBlocksRegistry {
                 ModBlocks.GRASS_WALL,
                 ModBlocks.GRASS_FENCE_GATE,
                 ModBlocks.GRASS_TRAPDOOR,
-                ModBlocks.GRASS_PRESSURE_PLATE);
+                ModBlocks.GRASS_PRESSURE_PLATE,
+                ModBlocks.OAK_LEAVES_SLAB,
+                ModBlocks.OAK_LEAVES_BUTTON,
+                ModBlocks.OAK_LEAVES_FENCE,
+                ModBlocks.OAK_LEAVES_STAIRS,
+                ModBlocks.OAK_LEAVES_WALL,
+                ModBlocks.OAK_LEAVES_FENCE_GATE,
+                ModBlocks.OAK_LEAVES_DOOR,
+                ModBlocks.OAK_LEAVES_TRAPDOOR,
+                ModBlocks.OAK_LEAVES_PRESSURE_PLATE);
+
     }
 }
