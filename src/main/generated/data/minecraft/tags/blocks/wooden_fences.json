@@ -240,6 +240,7 @@
     "vanillablocksplus:raw_copper_fence",
     "vanillablocksplus:raw_gold_fence",
     "vanillablocksplus:glowstone_fence",
-    "vanillablocksplus:oak_leaves_fence"
+    "vanillablocksplus:oak_leaves_fence",
+    "vanillablocksplus:spruce_leaves_fence"
   ]
 }

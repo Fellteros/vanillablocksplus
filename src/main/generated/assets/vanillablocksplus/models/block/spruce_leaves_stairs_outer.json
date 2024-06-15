@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/stairs_stb_outer",
+  "textures": {
+    "bottom": "minecraft:block/spruce_leaves",
+    "side": "minecraft:block/spruce_leaves",
+    "top": "minecraft:block/spruce_leaves"
+  }
+}

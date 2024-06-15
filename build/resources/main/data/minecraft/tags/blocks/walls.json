@@ -204,6 +204,7 @@
     "vanillablocksplus:raw_copper_wall",
     "vanillablocksplus:raw_gold_wall",
     "vanillablocksplus:glowstone_wall",
-    "vanillablocksplus:oak_leaves_wall"
+    "vanillablocksplus:oak_leaves_wall",
+    "vanillablocksplus:spruce_leaves_wall"
   ]
 }

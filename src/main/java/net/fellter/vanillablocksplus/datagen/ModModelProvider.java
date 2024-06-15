@@ -2311,6 +2311,14 @@ public class ModModelProvider extends FabricModelProvider {
         registerSTBFence(bsmg, ModBlocks.OAK_LEAVES_FENCE, ModTextureMap.customAll(Blocks.OAK_LEAVES, ""));
         registerSTBFenceGate(bsmg, ModBlocks.OAK_LEAVES_FENCE_GATE, ModTextureMap.customAll(Blocks.OAK_LEAVES, ""));
         registerSTBPressurePlate(bsmg, ModBlocks.OAK_LEAVES_PRESSURE_PLATE, ModTextureMap.customAll(Blocks.OAK_LEAVES, ""));
+        //spruce_leaves
+        registerSTBButton(bsmg, ModBlocks.SPRUCE_LEAVES_BUTTON, ModTextureMap.customAll(Blocks.SPRUCE_LEAVES, ""));
+        registerSTBWall(bsmg, ModBlocks.SPRUCE_LEAVES_WALL, ModTextureMap.customAll(Blocks.SPRUCE_LEAVES, ""));
+        registerSTBSlab(bsmg, ModBlocks.SPRUCE_LEAVES_SLAB, Blocks.SPRUCE_LEAVES, ModTextureMap.customAll(Blocks.SPRUCE_LEAVES, ""));
+        registerSTBStairs(bsmg, ModBlocks.SPRUCE_LEAVES_STAIRS, ModTextureMap.customAll(Blocks.SPRUCE_LEAVES, ""));
+        registerSTBFence(bsmg, ModBlocks.SPRUCE_LEAVES_FENCE, ModTextureMap.customAll(Blocks.SPRUCE_LEAVES, ""));
+        registerSTBFenceGate(bsmg, ModBlocks.SPRUCE_LEAVES_FENCE_GATE, ModTextureMap.customAll(Blocks.SPRUCE_LEAVES, ""));
+        registerSTBPressurePlate(bsmg, ModBlocks.SPRUCE_LEAVES_PRESSURE_PLATE, ModTextureMap.customAll(Blocks.SPRUCE_LEAVES, ""));
 
 
 
@@ -3049,6 +3057,9 @@ public class ModModelProvider extends FabricModelProvider {
         //oak_leaves
         bsmg.registerOrientableTrapdoor(ModBlocks.OAK_LEAVES_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.OAK_LEAVES_DOOR);
+        //spruce_leaves
+        bsmg.registerOrientableTrapdoor(ModBlocks.SPRUCE_LEAVES_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.SPRUCE_LEAVES_DOOR);
 
 
 

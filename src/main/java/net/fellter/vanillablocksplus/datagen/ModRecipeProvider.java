@@ -2643,6 +2643,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.OAK_LEAVES_BUTTON, Blocks.OAK_LEAVES, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.OAK_LEAVES_WALL, (Blocks.OAK_LEAVES)).offerTo(exporter);
 
+        //spruce_leaves
+        ModRecipes.DoorRecipe(ModBlocks.SPRUCE_LEAVES_DOOR, (Blocks.SPRUCE_LEAVES)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.SPRUCE_LEAVES_SLAB, (Blocks.SPRUCE_LEAVES)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.SPRUCE_LEAVES_STAIRS, (Blocks.SPRUCE_LEAVES)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.SPRUCE_LEAVES_FENCE, (Blocks.SPRUCE_LEAVES), (ModBlocks.SPRUCE_LEAVES_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.SPRUCE_LEAVES_FENCE_GATE, (Blocks.SPRUCE_LEAVES), (ModBlocks.SPRUCE_LEAVES_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.SPRUCE_LEAVES_TRAPDOOR, (ModBlocks.SPRUCE_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.SPRUCE_LEAVES_PRESSURE_PLATE, (ModBlocks.SPRUCE_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.SPRUCE_LEAVES_BUTTON, Blocks.SPRUCE_LEAVES, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.SPRUCE_LEAVES_WALL, (Blocks.SPRUCE_LEAVES)).offerTo(exporter);
+
 
 
         

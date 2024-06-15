@@ -4986,27 +4986,53 @@ public class ModBlocks {
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.GLOWSTONE), BlockSetType.STONE));
     public static final Block GLOWSTONE_WALL = registerBlock("glowstone_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.GLOWSTONE)));
+    
+    //leaves_def
+    public static final Block LEAVES_DEF = registerBlock("leaves_def", new Block(FabricBlockSettings.create().strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque()
+            .allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never)
+            .blockVision(Blocks::never).burnable().pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never)));
 
     //oak_leaves
     public static final Block OAK_LEAVES_STAIRS = registerBlock("oak_leaves_stairs",
-            new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.create().strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque().allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never).blockVision(Blocks::never).burnable().pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never)));
+            new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
     public static final Block OAK_LEAVES_SLAB = registerBlock("oak_leaves_slab",
-            new SlabBlock(FabricBlockSettings.create().strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque().allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never).blockVision(Blocks::never).burnable().pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never)));
+            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
     public static final Block OAK_LEAVES_BUTTON = registerBlock("oak_leaves_button",
-            new ButtonBlock(FabricBlockSettings.create().strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque().allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never).blockVision(Blocks::never).burnable().pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never), BlockSetType.STONE, 10, false));
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE, 10, false));
     public static final Block OAK_LEAVES_PRESSURE_PLATE = registerBlock("oak_leaves_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.create().strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque().allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never).blockVision(Blocks::never).burnable().pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never), BlockSetType.STONE));
+                    FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
     public static final Block OAK_LEAVES_FENCE = registerBlock("oak_leaves_fence",
-            new FenceBlock(FabricBlockSettings.create().strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque().allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never).blockVision(Blocks::never).burnable().pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never)));
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
     public static final Block OAK_LEAVES_FENCE_GATE = registerBlock("oak_leaves_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.create().strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque().allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never).blockVision(Blocks::never).burnable().pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never), WoodType.OAK));
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), WoodType.OAK));
     public static final Block OAK_LEAVES_DOOR = registerBlock("oak_leaves_door",
-            new DoorBlock(FabricBlockSettings.create().strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque().allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never).blockVision(Blocks::never).burnable().pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never), BlockSetType.STONE));
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
     public static final Block OAK_LEAVES_TRAPDOOR = registerBlock("oak_leaves_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.create().strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque().allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never).blockVision(Blocks::never).burnable().pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never), BlockSetType.STONE));
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
     public static final Block OAK_LEAVES_WALL = registerBlock("oak_leaves_wall",
-            new WallBlock(FabricBlockSettings.create().strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque().allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never).blockVision(Blocks::never).burnable().pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never)));
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+
+    //spruce_leaves
+    public static final Block SPRUCE_LEAVES_STAIRS = registerBlock("spruce_leaves_stairs",
+            new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block SPRUCE_LEAVES_SLAB = registerBlock("spruce_leaves_slab",
+            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block SPRUCE_LEAVES_BUTTON = registerBlock("spruce_leaves_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE, 10, false));
+    public static final Block SPRUCE_LEAVES_PRESSURE_PLATE = registerBlock("spruce_leaves_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block SPRUCE_LEAVES_FENCE = registerBlock("spruce_leaves_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block SPRUCE_LEAVES_FENCE_GATE = registerBlock("spruce_leaves_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), WoodType.SPRUCE));
+    public static final Block SPRUCE_LEAVES_DOOR = registerBlock("spruce_leaves_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block SPRUCE_LEAVES_TRAPDOOR = registerBlock("spruce_leaves_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block SPRUCE_LEAVES_WALL = registerBlock("spruce_leaves_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
 
 
 

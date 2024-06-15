@@ -25,7 +25,16 @@ public class TransparentBlocksRegistry {
                ModBlocks.OAK_LEAVES_FENCE_GATE,
                ModBlocks.OAK_LEAVES_DOOR,
                ModBlocks.OAK_LEAVES_TRAPDOOR,
-               ModBlocks.OAK_LEAVES_PRESSURE_PLATE);
+               ModBlocks.OAK_LEAVES_PRESSURE_PLATE,
+               ModBlocks.SPRUCE_LEAVES_BUTTON,
+               ModBlocks.SPRUCE_LEAVES_FENCE,
+               ModBlocks.SPRUCE_LEAVES_SLAB,
+               ModBlocks.SPRUCE_LEAVES_STAIRS,
+               ModBlocks.SPRUCE_LEAVES_WALL,
+               ModBlocks.SPRUCE_LEAVES_FENCE_GATE,
+               ModBlocks.SPRUCE_LEAVES_DOOR,
+               ModBlocks.SPRUCE_LEAVES_TRAPDOOR,
+               ModBlocks.SPRUCE_LEAVES_PRESSURE_PLATE);
 
 
        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getTranslucent(),
