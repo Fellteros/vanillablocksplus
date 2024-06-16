@@ -205,6 +205,11 @@
     "vanillablocksplus:raw_gold_wall",
     "vanillablocksplus:glowstone_wall",
     "vanillablocksplus:oak_leaves_wall",
-    "vanillablocksplus:spruce_leaves_wall"
+    "vanillablocksplus:spruce_leaves_wall",
+    "vanillablocksplus:birch_leaves_wall",
+    "vanillablocksplus:jungle_leaves_wall",
+    "vanillablocksplus:acacia_leaves_wall",
+    "vanillablocksplus:dark_oak_leaves_wall",
+    "vanillablocksplus:mangrove_leaves_wall"
   ]
 }

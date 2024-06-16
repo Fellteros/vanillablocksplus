@@ -2371,6 +2371,56 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SPRUCE_LEAVES_TRAPDOOR);
                         entries.add(ModBlocks.SPRUCE_LEAVES_PRESSURE_PLATE);
                         entries.add(ModBlocks.SPRUCE_LEAVES_BUTTON);
+                        //birch_leaves_block
+                        entries.add(ModBlocks.BIRCH_LEAVES_STAIRS);
+                        entries.add(ModBlocks.BIRCH_LEAVES_SLAB);
+                        entries.add(ModBlocks.BIRCH_LEAVES_WALL);
+                        entries.add(ModBlocks.BIRCH_LEAVES_FENCE);
+                        entries.add(ModBlocks.BIRCH_LEAVES_FENCE_GATE);
+                        entries.add(ModBlocks.BIRCH_LEAVES_DOOR);
+                        entries.add(ModBlocks.BIRCH_LEAVES_TRAPDOOR);
+                        entries.add(ModBlocks.BIRCH_LEAVES_PRESSURE_PLATE);
+                        entries.add(ModBlocks.BIRCH_LEAVES_BUTTON);
+                        //jungle_leaves_block
+                        entries.add(ModBlocks.JUNGLE_LEAVES_STAIRS);
+                        entries.add(ModBlocks.JUNGLE_LEAVES_SLAB);
+                        entries.add(ModBlocks.JUNGLE_LEAVES_WALL);
+                        entries.add(ModBlocks.JUNGLE_LEAVES_FENCE);
+                        entries.add(ModBlocks.JUNGLE_LEAVES_FENCE_GATE);
+                        entries.add(ModBlocks.JUNGLE_LEAVES_DOOR);
+                        entries.add(ModBlocks.JUNGLE_LEAVES_TRAPDOOR);
+                        entries.add(ModBlocks.JUNGLE_LEAVES_PRESSURE_PLATE);
+                        entries.add(ModBlocks.JUNGLE_LEAVES_BUTTON);
+                        //acacia_leaves_block
+                        entries.add(ModBlocks.ACACIA_LEAVES_STAIRS);
+                        entries.add(ModBlocks.ACACIA_LEAVES_SLAB);
+                        entries.add(ModBlocks.ACACIA_LEAVES_WALL);
+                        entries.add(ModBlocks.ACACIA_LEAVES_FENCE);
+                        entries.add(ModBlocks.ACACIA_LEAVES_FENCE_GATE);
+                        entries.add(ModBlocks.ACACIA_LEAVES_DOOR);
+                        entries.add(ModBlocks.ACACIA_LEAVES_TRAPDOOR);
+                        entries.add(ModBlocks.ACACIA_LEAVES_PRESSURE_PLATE);
+                        entries.add(ModBlocks.ACACIA_LEAVES_BUTTON);
+                        //dark_oak_leaves_block
+                        entries.add(ModBlocks.DARK_OAK_LEAVES_STAIRS);
+                        entries.add(ModBlocks.DARK_OAK_LEAVES_SLAB);
+                        entries.add(ModBlocks.DARK_OAK_LEAVES_WALL);
+                        entries.add(ModBlocks.DARK_OAK_LEAVES_FENCE);
+                        entries.add(ModBlocks.DARK_OAK_LEAVES_FENCE_GATE);
+                        entries.add(ModBlocks.DARK_OAK_LEAVES_DOOR);
+                        entries.add(ModBlocks.DARK_OAK_LEAVES_TRAPDOOR);
+                        entries.add(ModBlocks.DARK_OAK_LEAVES_PRESSURE_PLATE);
+                        entries.add(ModBlocks.DARK_OAK_LEAVES_BUTTON);
+                        //mangrove_leaves_block
+                        entries.add(ModBlocks.MANGROVE_LEAVES_STAIRS);
+                        entries.add(ModBlocks.MANGROVE_LEAVES_SLAB);
+                        entries.add(ModBlocks.MANGROVE_LEAVES_WALL);
+                        entries.add(ModBlocks.MANGROVE_LEAVES_FENCE);
+                        entries.add(ModBlocks.MANGROVE_LEAVES_FENCE_GATE);
+                        entries.add(ModBlocks.MANGROVE_LEAVES_DOOR);
+                        entries.add(ModBlocks.MANGROVE_LEAVES_TRAPDOOR);
+                        entries.add(ModBlocks.MANGROVE_LEAVES_PRESSURE_PLATE);
+                        entries.add(ModBlocks.MANGROVE_LEAVES_BUTTON);
 
 
 

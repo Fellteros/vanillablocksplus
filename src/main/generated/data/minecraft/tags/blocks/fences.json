@@ -244,6 +244,11 @@
     "vanillablocksplus:raw_gold_fence",
     "vanillablocksplus:glowstone_fence",
     "vanillablocksplus:oak_leaves_fence",
-    "vanillablocksplus:spruce_leaves_fence"
+    "vanillablocksplus:spruce_leaves_fence",
+    "vanillablocksplus:birch_leaves_fence",
+    "vanillablocksplus:jungle_leaves_fence",
+    "vanillablocksplus:acacia_leaves_fence",
+    "vanillablocksplus:dark_oak_leaves_fence",
+    "vanillablocksplus:mangrove_leaves_fence"
   ]
 }

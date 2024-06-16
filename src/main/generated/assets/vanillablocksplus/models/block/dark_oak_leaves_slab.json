@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/slab_stb",
+  "textures": {
+    "bottom": "minecraft:block/dark_oak_leaves",
+    "side": "minecraft:block/dark_oak_leaves",
+    "top": "minecraft:block/dark_oak_leaves"
+  }
+}

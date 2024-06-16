@@ -2562,7 +2562,57 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SPRUCE_LEAVES_FENCE_GATE)
                 .add(ModBlocks.SPRUCE_LEAVES_FENCE)
                 .add(ModBlocks.SPRUCE_LEAVES_BUTTON)
-                .add(ModBlocks.SPRUCE_LEAVES_PRESSURE_PLATE);
+                .add(ModBlocks.SPRUCE_LEAVES_PRESSURE_PLATE)
+                //birch_leaves
+                .add(ModBlocks.BIRCH_LEAVES_STAIRS)
+                .add(ModBlocks.BIRCH_LEAVES_SLAB)
+                .add(ModBlocks.BIRCH_LEAVES_WALL)
+                .add(ModBlocks.BIRCH_LEAVES_DOOR)
+                .add(ModBlocks.BIRCH_LEAVES_TRAPDOOR)
+                .add(ModBlocks.BIRCH_LEAVES_FENCE_GATE)
+                .add(ModBlocks.BIRCH_LEAVES_FENCE)
+                .add(ModBlocks.BIRCH_LEAVES_BUTTON)
+                .add(ModBlocks.BIRCH_LEAVES_PRESSURE_PLATE)
+                //jungle_leaves
+                .add(ModBlocks.JUNGLE_LEAVES_STAIRS)
+                .add(ModBlocks.JUNGLE_LEAVES_SLAB)
+                .add(ModBlocks.JUNGLE_LEAVES_WALL)
+                .add(ModBlocks.JUNGLE_LEAVES_DOOR)
+                .add(ModBlocks.JUNGLE_LEAVES_TRAPDOOR)
+                .add(ModBlocks.JUNGLE_LEAVES_FENCE_GATE)
+                .add(ModBlocks.JUNGLE_LEAVES_FENCE)
+                .add(ModBlocks.JUNGLE_LEAVES_BUTTON)
+                .add(ModBlocks.JUNGLE_LEAVES_PRESSURE_PLATE)
+                //acacia_leaves
+                .add(ModBlocks.ACACIA_LEAVES_STAIRS)
+                .add(ModBlocks.ACACIA_LEAVES_SLAB)
+                .add(ModBlocks.ACACIA_LEAVES_WALL)
+                .add(ModBlocks.ACACIA_LEAVES_DOOR)
+                .add(ModBlocks.ACACIA_LEAVES_TRAPDOOR)
+                .add(ModBlocks.ACACIA_LEAVES_FENCE_GATE)
+                .add(ModBlocks.ACACIA_LEAVES_FENCE)
+                .add(ModBlocks.ACACIA_LEAVES_BUTTON)
+                .add(ModBlocks.ACACIA_LEAVES_PRESSURE_PLATE)
+                //dark_oak_leaves
+                .add(ModBlocks.DARK_OAK_LEAVES_STAIRS)
+                .add(ModBlocks.DARK_OAK_LEAVES_SLAB)
+                .add(ModBlocks.DARK_OAK_LEAVES_WALL)
+                .add(ModBlocks.DARK_OAK_LEAVES_DOOR)
+                .add(ModBlocks.DARK_OAK_LEAVES_TRAPDOOR)
+                .add(ModBlocks.DARK_OAK_LEAVES_FENCE_GATE)
+                .add(ModBlocks.DARK_OAK_LEAVES_FENCE)
+                .add(ModBlocks.DARK_OAK_LEAVES_BUTTON)
+                .add(ModBlocks.DARK_OAK_LEAVES_PRESSURE_PLATE)
+                //mangrove_leaves
+                .add(ModBlocks.MANGROVE_LEAVES_STAIRS)
+                .add(ModBlocks.MANGROVE_LEAVES_SLAB)
+                .add(ModBlocks.MANGROVE_LEAVES_WALL)
+                .add(ModBlocks.MANGROVE_LEAVES_DOOR)
+                .add(ModBlocks.MANGROVE_LEAVES_TRAPDOOR)
+                .add(ModBlocks.MANGROVE_LEAVES_FENCE_GATE)
+                .add(ModBlocks.MANGROVE_LEAVES_FENCE)
+                .add(ModBlocks.MANGROVE_LEAVES_BUTTON)
+                .add(ModBlocks.MANGROVE_LEAVES_PRESSURE_PLATE);
 
 
 
@@ -2807,7 +2857,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_GOLD_FENCE)
                 .add(ModBlocks.GLOWSTONE_FENCE)
                 .add(ModBlocks.OAK_LEAVES_FENCE)
-                .add(ModBlocks.SPRUCE_LEAVES_FENCE);
+                .add(ModBlocks.SPRUCE_LEAVES_FENCE)
+                .add(ModBlocks.BIRCH_LEAVES_FENCE)
+                .add(ModBlocks.JUNGLE_LEAVES_FENCE)
+                .add(ModBlocks.ACACIA_LEAVES_FENCE)
+                .add(ModBlocks.DARK_OAK_LEAVES_FENCE)
+                .add(ModBlocks.MANGROVE_LEAVES_FENCE);
+
 
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -3054,7 +3110,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_GOLD_FENCE)
                 .add(ModBlocks.GLOWSTONE_FENCE)
                 .add(ModBlocks.OAK_LEAVES_FENCE)
-                .add(ModBlocks.SPRUCE_LEAVES_FENCE);
+                .add(ModBlocks.SPRUCE_LEAVES_FENCE)
+                .add(ModBlocks.BIRCH_LEAVES_FENCE)
+                .add(ModBlocks.JUNGLE_LEAVES_FENCE)
+                .add(ModBlocks.ACACIA_LEAVES_FENCE)
+                .add(ModBlocks.DARK_OAK_LEAVES_FENCE)
+                .add(ModBlocks.MANGROVE_LEAVES_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -3293,7 +3354,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_GOLD_FENCE_GATE)
                 .add(ModBlocks.GLOWSTONE_FENCE_GATE)
                 .add(ModBlocks.OAK_LEAVES_FENCE_GATE)
-                .add(ModBlocks.SPRUCE_LEAVES_FENCE_GATE);
+                .add(ModBlocks.SPRUCE_LEAVES_FENCE_GATE)
+                .add(ModBlocks.BIRCH_LEAVES_FENCE_GATE)
+                .add(ModBlocks.JUNGLE_LEAVES_FENCE_GATE)
+                .add(ModBlocks.ACACIA_LEAVES_FENCE_GATE)
+                .add(ModBlocks.DARK_OAK_LEAVES_FENCE_GATE)
+                .add(ModBlocks.MANGROVE_LEAVES_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -3501,7 +3567,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_GOLD_WALL)
                 .add(ModBlocks.GLOWSTONE_WALL)
                 .add(ModBlocks.OAK_LEAVES_WALL)
-                .add(ModBlocks.SPRUCE_LEAVES_WALL);
+                .add(ModBlocks.SPRUCE_LEAVES_WALL)
+                .add(ModBlocks.BIRCH_LEAVES_WALL)
+                .add(ModBlocks.JUNGLE_LEAVES_WALL)
+                .add(ModBlocks.ACACIA_LEAVES_WALL)
+                .add(ModBlocks.DARK_OAK_LEAVES_WALL)
+                .add(ModBlocks.MANGROVE_LEAVES_WALL);
 
 
 

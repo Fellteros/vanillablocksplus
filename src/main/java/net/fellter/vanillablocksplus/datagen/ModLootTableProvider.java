@@ -2378,6 +2378,61 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SPRUCE_LEAVES_DOOR, doorDrops(ModBlocks.SPRUCE_LEAVES_DOOR));
         addDrop(ModBlocks.SPRUCE_LEAVES_SLAB, slabDrops(ModBlocks.SPRUCE_LEAVES_SLAB));
         addDrop(ModBlocks.SPRUCE_LEAVES_WALL);
+
+        //birch_leaves_block
+        addDrop(ModBlocks.BIRCH_LEAVES_STAIRS);
+        addDrop(ModBlocks.BIRCH_LEAVES_TRAPDOOR);
+        addDrop(ModBlocks.BIRCH_LEAVES_BUTTON);
+        addDrop(ModBlocks.BIRCH_LEAVES_PRESSURE_PLATE);
+        addDrop(ModBlocks.BIRCH_LEAVES_FENCE);
+        addDrop(ModBlocks.BIRCH_LEAVES_FENCE_GATE);
+        addDrop(ModBlocks.BIRCH_LEAVES_DOOR, doorDrops(ModBlocks.BIRCH_LEAVES_DOOR));
+        addDrop(ModBlocks.BIRCH_LEAVES_SLAB, slabDrops(ModBlocks.BIRCH_LEAVES_SLAB));
+        addDrop(ModBlocks.BIRCH_LEAVES_WALL);
+
+        //jungle_leaves_block
+        addDrop(ModBlocks.JUNGLE_LEAVES_STAIRS);
+        addDrop(ModBlocks.JUNGLE_LEAVES_TRAPDOOR);
+        addDrop(ModBlocks.JUNGLE_LEAVES_BUTTON);
+        addDrop(ModBlocks.JUNGLE_LEAVES_PRESSURE_PLATE);
+        addDrop(ModBlocks.JUNGLE_LEAVES_FENCE);
+        addDrop(ModBlocks.JUNGLE_LEAVES_FENCE_GATE);
+        addDrop(ModBlocks.JUNGLE_LEAVES_DOOR, doorDrops(ModBlocks.JUNGLE_LEAVES_DOOR));
+        addDrop(ModBlocks.JUNGLE_LEAVES_SLAB, slabDrops(ModBlocks.JUNGLE_LEAVES_SLAB));
+        addDrop(ModBlocks.JUNGLE_LEAVES_WALL);
+
+        //acacia_leaves_block
+        addDrop(ModBlocks.ACACIA_LEAVES_STAIRS);
+        addDrop(ModBlocks.ACACIA_LEAVES_TRAPDOOR);
+        addDrop(ModBlocks.ACACIA_LEAVES_BUTTON);
+        addDrop(ModBlocks.ACACIA_LEAVES_PRESSURE_PLATE);
+        addDrop(ModBlocks.ACACIA_LEAVES_FENCE);
+        addDrop(ModBlocks.ACACIA_LEAVES_FENCE_GATE);
+        addDrop(ModBlocks.ACACIA_LEAVES_DOOR, doorDrops(ModBlocks.ACACIA_LEAVES_DOOR));
+        addDrop(ModBlocks.ACACIA_LEAVES_SLAB, slabDrops(ModBlocks.ACACIA_LEAVES_SLAB));
+        addDrop(ModBlocks.ACACIA_LEAVES_WALL);
+
+        //dark_oak_leaves_block
+        addDrop(ModBlocks.DARK_OAK_LEAVES_STAIRS);
+        addDrop(ModBlocks.DARK_OAK_LEAVES_TRAPDOOR);
+        addDrop(ModBlocks.DARK_OAK_LEAVES_BUTTON);
+        addDrop(ModBlocks.DARK_OAK_LEAVES_PRESSURE_PLATE);
+        addDrop(ModBlocks.DARK_OAK_LEAVES_FENCE);
+        addDrop(ModBlocks.DARK_OAK_LEAVES_FENCE_GATE);
+        addDrop(ModBlocks.DARK_OAK_LEAVES_DOOR, doorDrops(ModBlocks.DARK_OAK_LEAVES_DOOR));
+        addDrop(ModBlocks.DARK_OAK_LEAVES_SLAB, slabDrops(ModBlocks.DARK_OAK_LEAVES_SLAB));
+        addDrop(ModBlocks.DARK_OAK_LEAVES_WALL);
+
+        //mangrove_leaves_block
+        addDrop(ModBlocks.MANGROVE_LEAVES_STAIRS);
+        addDrop(ModBlocks.MANGROVE_LEAVES_TRAPDOOR);
+        addDrop(ModBlocks.MANGROVE_LEAVES_BUTTON);
+        addDrop(ModBlocks.MANGROVE_LEAVES_PRESSURE_PLATE);
+        addDrop(ModBlocks.MANGROVE_LEAVES_FENCE);
+        addDrop(ModBlocks.MANGROVE_LEAVES_FENCE_GATE);
+        addDrop(ModBlocks.MANGROVE_LEAVES_DOOR, doorDrops(ModBlocks.MANGROVE_LEAVES_DOOR));
+        addDrop(ModBlocks.MANGROVE_LEAVES_SLAB, slabDrops(ModBlocks.MANGROVE_LEAVES_SLAB));
+        addDrop(ModBlocks.MANGROVE_LEAVES_WALL);
         
         
         

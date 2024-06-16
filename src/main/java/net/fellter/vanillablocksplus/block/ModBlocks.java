@@ -17,6 +17,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import org.jetbrains.annotations.Contract;
 
 public class ModBlocks {
 
@@ -4988,7 +4989,7 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.GLOWSTONE)));
     
     //leaves_def
-    public static final Block LEAVES_DEF = registerBlock("leaves_def", new Block(FabricBlockSettings.create().strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque()
+    private static final Block LEAVES_DEF = registerBlock("leaves_def", new Block(FabricBlockSettings.create().strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque()
             .allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never)
             .blockVision(Blocks::never).burnable().pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never)));
 
@@ -5032,6 +5033,111 @@ public class ModBlocks {
     public static final Block SPRUCE_LEAVES_TRAPDOOR = registerBlock("spruce_leaves_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
     public static final Block SPRUCE_LEAVES_WALL = registerBlock("spruce_leaves_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+
+    //birch_leaves
+    public static final Block BIRCH_LEAVES_STAIRS = registerBlock("birch_leaves_stairs",
+            new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block BIRCH_LEAVES_SLAB = registerBlock("birch_leaves_slab",
+            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block BIRCH_LEAVES_BUTTON = registerBlock("birch_leaves_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE, 10, false));
+    public static final Block BIRCH_LEAVES_PRESSURE_PLATE = registerBlock("birch_leaves_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block BIRCH_LEAVES_FENCE = registerBlock("birch_leaves_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block BIRCH_LEAVES_FENCE_GATE = registerBlock("birch_leaves_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), WoodType.BIRCH));
+    public static final Block BIRCH_LEAVES_DOOR = registerBlock("birch_leaves_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block BIRCH_LEAVES_TRAPDOOR = registerBlock("birch_leaves_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block BIRCH_LEAVES_WALL = registerBlock("birch_leaves_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+
+    //jungle_leaves
+    public static final Block JUNGLE_LEAVES_STAIRS = registerBlock("jungle_leaves_stairs",
+            new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block JUNGLE_LEAVES_SLAB = registerBlock("jungle_leaves_slab",
+            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block JUNGLE_LEAVES_BUTTON = registerBlock("jungle_leaves_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE, 10, false));
+    public static final Block JUNGLE_LEAVES_PRESSURE_PLATE = registerBlock("jungle_leaves_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block JUNGLE_LEAVES_FENCE = registerBlock("jungle_leaves_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block JUNGLE_LEAVES_FENCE_GATE = registerBlock("jungle_leaves_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), WoodType.JUNGLE));
+    public static final Block JUNGLE_LEAVES_DOOR = registerBlock("jungle_leaves_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block JUNGLE_LEAVES_TRAPDOOR = registerBlock("jungle_leaves_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block JUNGLE_LEAVES_WALL = registerBlock("jungle_leaves_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+
+    //acacia_leaves
+    public static final Block ACACIA_LEAVES_STAIRS = registerBlock("acacia_leaves_stairs",
+            new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block ACACIA_LEAVES_SLAB = registerBlock("acacia_leaves_slab",
+            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block ACACIA_LEAVES_BUTTON = registerBlock("acacia_leaves_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE, 10, false));
+    public static final Block ACACIA_LEAVES_PRESSURE_PLATE = registerBlock("acacia_leaves_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block ACACIA_LEAVES_FENCE = registerBlock("acacia_leaves_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block ACACIA_LEAVES_FENCE_GATE = registerBlock("acacia_leaves_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), WoodType.ACACIA));
+    public static final Block ACACIA_LEAVES_DOOR = registerBlock("acacia_leaves_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block ACACIA_LEAVES_TRAPDOOR = registerBlock("acacia_leaves_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block ACACIA_LEAVES_WALL = registerBlock("acacia_leaves_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+
+    //dark_oak_leaves
+    public static final Block DARK_OAK_LEAVES_STAIRS = registerBlock("dark_oak_leaves_stairs",
+            new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block DARK_OAK_LEAVES_SLAB = registerBlock("dark_oak_leaves_slab",
+            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block DARK_OAK_LEAVES_BUTTON = registerBlock("dark_oak_leaves_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE, 10, false));
+    public static final Block DARK_OAK_LEAVES_PRESSURE_PLATE = registerBlock("dark_oak_leaves_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block DARK_OAK_LEAVES_FENCE = registerBlock("dark_oak_leaves_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block DARK_OAK_LEAVES_FENCE_GATE = registerBlock("dark_oak_leaves_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), WoodType.DARK_OAK));
+    public static final Block DARK_OAK_LEAVES_DOOR = registerBlock("dark_oak_leaves_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block DARK_OAK_LEAVES_TRAPDOOR = registerBlock("dark_oak_leaves_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block DARK_OAK_LEAVES_WALL = registerBlock("dark_oak_leaves_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+
+    //mangrove_leaves
+    public static final Block MANGROVE_LEAVES_STAIRS = registerBlock("mangrove_leaves_stairs",
+            new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block MANGROVE_LEAVES_SLAB = registerBlock("mangrove_leaves_slab",
+            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block MANGROVE_LEAVES_BUTTON = registerBlock("mangrove_leaves_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE, 10, false));
+    public static final Block MANGROVE_LEAVES_PRESSURE_PLATE = registerBlock("mangrove_leaves_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block MANGROVE_LEAVES_FENCE = registerBlock("mangrove_leaves_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+    public static final Block MANGROVE_LEAVES_FENCE_GATE = registerBlock("mangrove_leaves_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), WoodType.MANGROVE));
+    public static final Block MANGROVE_LEAVES_DOOR = registerBlock("mangrove_leaves_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block MANGROVE_LEAVES_TRAPDOOR = registerBlock("mangrove_leaves_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
+    public static final Block MANGROVE_LEAVES_WALL = registerBlock("mangrove_leaves_wall",
             new WallBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
 
 

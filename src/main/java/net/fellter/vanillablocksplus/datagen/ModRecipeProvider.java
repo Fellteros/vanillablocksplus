@@ -2654,6 +2654,61 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.SPRUCE_LEAVES_BUTTON, Blocks.SPRUCE_LEAVES, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.SPRUCE_LEAVES_WALL, (Blocks.SPRUCE_LEAVES)).offerTo(exporter);
 
+        //birch_leaves
+        ModRecipes.DoorRecipe(ModBlocks.BIRCH_LEAVES_DOOR, (Blocks.BIRCH_LEAVES)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.BIRCH_LEAVES_SLAB, (Blocks.BIRCH_LEAVES)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.BIRCH_LEAVES_STAIRS, (Blocks.BIRCH_LEAVES)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.BIRCH_LEAVES_FENCE, (Blocks.BIRCH_LEAVES), (ModBlocks.BIRCH_LEAVES_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.BIRCH_LEAVES_FENCE_GATE, (Blocks.BIRCH_LEAVES), (ModBlocks.BIRCH_LEAVES_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.BIRCH_LEAVES_TRAPDOOR, (ModBlocks.BIRCH_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.BIRCH_LEAVES_PRESSURE_PLATE, (ModBlocks.BIRCH_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BIRCH_LEAVES_BUTTON, Blocks.BIRCH_LEAVES, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.BIRCH_LEAVES_WALL, (Blocks.BIRCH_LEAVES)).offerTo(exporter);
+
+        //jungle_leaves
+        ModRecipes.DoorRecipe(ModBlocks.JUNGLE_LEAVES_DOOR, (Blocks.JUNGLE_LEAVES)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.JUNGLE_LEAVES_SLAB, (Blocks.JUNGLE_LEAVES)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.JUNGLE_LEAVES_STAIRS, (Blocks.JUNGLE_LEAVES)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.JUNGLE_LEAVES_FENCE, (Blocks.JUNGLE_LEAVES), (ModBlocks.JUNGLE_LEAVES_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.JUNGLE_LEAVES_FENCE_GATE, (Blocks.JUNGLE_LEAVES), (ModBlocks.JUNGLE_LEAVES_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.JUNGLE_LEAVES_TRAPDOOR, (ModBlocks.JUNGLE_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.JUNGLE_LEAVES_PRESSURE_PLATE, (ModBlocks.JUNGLE_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.JUNGLE_LEAVES_BUTTON, Blocks.JUNGLE_LEAVES, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.JUNGLE_LEAVES_WALL, (Blocks.JUNGLE_LEAVES)).offerTo(exporter);
+
+        //acacia_leaves
+        ModRecipes.DoorRecipe(ModBlocks.ACACIA_LEAVES_DOOR, (Blocks.ACACIA_LEAVES)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.ACACIA_LEAVES_SLAB, (Blocks.ACACIA_LEAVES)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.ACACIA_LEAVES_STAIRS, (Blocks.ACACIA_LEAVES)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.ACACIA_LEAVES_FENCE, (Blocks.ACACIA_LEAVES), (ModBlocks.ACACIA_LEAVES_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.ACACIA_LEAVES_FENCE_GATE, (Blocks.ACACIA_LEAVES), (ModBlocks.ACACIA_LEAVES_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.ACACIA_LEAVES_TRAPDOOR, (ModBlocks.ACACIA_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.ACACIA_LEAVES_PRESSURE_PLATE, (ModBlocks.ACACIA_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.ACACIA_LEAVES_BUTTON, Blocks.ACACIA_LEAVES, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.ACACIA_LEAVES_WALL, (Blocks.ACACIA_LEAVES)).offerTo(exporter);
+
+        //dark_oak_leaves
+        ModRecipes.DoorRecipe(ModBlocks.DARK_OAK_LEAVES_DOOR, (Blocks.DARK_OAK_LEAVES)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DARK_OAK_LEAVES_SLAB, (Blocks.DARK_OAK_LEAVES)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.DARK_OAK_LEAVES_STAIRS, (Blocks.DARK_OAK_LEAVES)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.DARK_OAK_LEAVES_FENCE, (Blocks.DARK_OAK_LEAVES), (ModBlocks.DARK_OAK_LEAVES_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.DARK_OAK_LEAVES_FENCE_GATE, (Blocks.DARK_OAK_LEAVES), (ModBlocks.DARK_OAK_LEAVES_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.DARK_OAK_LEAVES_TRAPDOOR, (ModBlocks.DARK_OAK_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.DARK_OAK_LEAVES_PRESSURE_PLATE, (ModBlocks.DARK_OAK_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DARK_OAK_LEAVES_BUTTON, Blocks.DARK_OAK_LEAVES, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DARK_OAK_LEAVES_WALL, (Blocks.DARK_OAK_LEAVES)).offerTo(exporter);
+
+        //mangrove_leaves
+        ModRecipes.DoorRecipe(ModBlocks.MANGROVE_LEAVES_DOOR, (Blocks.MANGROVE_LEAVES)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.MANGROVE_LEAVES_SLAB, (Blocks.MANGROVE_LEAVES)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.MANGROVE_LEAVES_STAIRS, (Blocks.MANGROVE_LEAVES)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.MANGROVE_LEAVES_FENCE, (Blocks.MANGROVE_LEAVES), (ModBlocks.MANGROVE_LEAVES_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.MANGROVE_LEAVES_FENCE_GATE, (Blocks.MANGROVE_LEAVES), (ModBlocks.MANGROVE_LEAVES_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.MANGROVE_LEAVES_TRAPDOOR, (ModBlocks.MANGROVE_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.MANGROVE_LEAVES_PRESSURE_PLATE, (ModBlocks.MANGROVE_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.MANGROVE_LEAVES_BUTTON, Blocks.MANGROVE_LEAVES, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.MANGROVE_LEAVES_WALL, (Blocks.MANGROVE_LEAVES)).offerTo(exporter);
+
 
 
         

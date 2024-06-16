@@ -17,7 +17,7 @@ public class ModBlockStateModelGenerator {
 
 
 
-    public static void registerSTBButton(BlockStateModelGenerator blockStateModelGenerator, Block buttonBlock, TextureMap textureMap) {
+    public static void registerCustomButton(BlockStateModelGenerator blockStateModelGenerator, Block buttonBlock, TextureMap textureMap) {
         Identifier identifier = ModModels.BUTTON_STB.upload(buttonBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier2 = ModModels.BUTTON_STB_PRESSED.upload(buttonBlock, textureMap, blockStateModelGenerator.modelCollector);
         blockStateModelGenerator.blockStateCollector.accept(ModBlockStateModelGenerator.createButtonBlockState(buttonBlock, identifier, identifier2));
@@ -25,15 +25,15 @@ public class ModBlockStateModelGenerator {
         blockStateModelGenerator.registerParentedItemModel(buttonBlock, identifier3);
     }
 
-    public static void registerSTBFenceGate(BlockStateModelGenerator blockStateModelGenerator, Block fenceGateBlock, TextureMap textureMap) {
+    public static void registerCustomFenceGate(BlockStateModelGenerator blockStateModelGenerator, Block fenceGateBlock, TextureMap textureMap) {
         Identifier identifier = ModModels.FENCE_GATE_STB.upload(fenceGateBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier2 = ModModels.FENCE_GATE_STB_OPEN.upload(fenceGateBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier3 = ModModels.FENCE_GATE_STB_WALL.upload(fenceGateBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier4 = ModModels.FENCE_GATE_STB_WALL_OPEN.upload(fenceGateBlock, textureMap, blockStateModelGenerator.modelCollector);
-        blockStateModelGenerator.blockStateCollector.accept(ModBlockStateModelGenerator.createFenceGateBlockState(fenceGateBlock, identifier2, identifier, identifier3, identifier4, true));
+        blockStateModelGenerator.blockStateCollector.accept(ModBlockStateModelGenerator.createFenceGateBlockState(fenceGateBlock, identifier2, identifier, identifier4, identifier3, true));
     }
 
-    public static void registerSTBFence(BlockStateModelGenerator blockStateModelGenerator, Block fenceBlock, TextureMap textureMap) {
+    public static void registerCustomFence(BlockStateModelGenerator blockStateModelGenerator, Block fenceBlock, TextureMap textureMap) {
         Identifier identifier = ModModels.FENCE_STB_POST.upload(fenceBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier2 = ModModels.FENCE_STB_SIDE.upload(fenceBlock, textureMap, blockStateModelGenerator.modelCollector);
         blockStateModelGenerator.blockStateCollector.accept(ModBlockStateModelGenerator.createFenceBlockState(fenceBlock, identifier, identifier2));
@@ -41,13 +41,13 @@ public class ModBlockStateModelGenerator {
         blockStateModelGenerator.registerParentedItemModel(fenceBlock, identifier3);
     }
 
-    public static void registerSTBPressurePlate(BlockStateModelGenerator blockStateModelGenerator, Block pressurePlateBlock, TextureMap textureMap) {
+    public static void registerCustomPressurePlate(BlockStateModelGenerator blockStateModelGenerator, Block pressurePlateBlock, TextureMap textureMap) {
         Identifier identifier = ModModels.PRESSURE_PLATE_STB.upload(pressurePlateBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier2 = ModModels.PRESSURE_PLATE_STB_DOWN.upload(pressurePlateBlock, textureMap, blockStateModelGenerator.modelCollector);
         blockStateModelGenerator.blockStateCollector.accept(ModBlockStateModelGenerator.createPressurePlateBlockState(pressurePlateBlock, identifier, identifier2));
     }
 
-    public static void registerSTBSlab(BlockStateModelGenerator blockStateModelGenerator, Block slabBlock, Block fullBlock, TextureMap textureMap) {
+    public static void registerCustomSlab(BlockStateModelGenerator blockStateModelGenerator, Block slabBlock, Block fullBlock, TextureMap textureMap) {
         Identifier name = Registries.BLOCK.getId(fullBlock).withPrefixedPath("block/");
         Identifier identifier = ModModels.SLAB_STB.upload(slabBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier2 = ModModels.SLAB_STB_TOP.upload(slabBlock, textureMap, blockStateModelGenerator.modelCollector);
@@ -55,7 +55,7 @@ public class ModBlockStateModelGenerator {
         blockStateModelGenerator.registerParentedItemModel(slabBlock, identifier);
     }
 
-    public static void registerSTBStairs(BlockStateModelGenerator blockStateModelGenerator, Block stairBlock, TextureMap textureMap) {
+    public static void registerCustomStairs(BlockStateModelGenerator blockStateModelGenerator, Block stairBlock, TextureMap textureMap) {
         Identifier identifier = ModModels.STAIRS_STB.upload(stairBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier2 = ModModels.STAIRS_STB_INNER.upload(stairBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier3 = ModModels.STAIRS_STB_OUTER.upload(stairBlock, textureMap, blockStateModelGenerator.modelCollector);
@@ -66,7 +66,7 @@ public class ModBlockStateModelGenerator {
         blockStateModelGenerator.registerParentedItemModel(stairBlock, identifier);
     }
 
-    public static void registerSTBOrTrapdoor(BlockStateModelGenerator blockStateModelGenerator, Block trapdoorBlock, TextureMap textureMap) {
+    public static void registerCustomOrTrapdoor(BlockStateModelGenerator blockStateModelGenerator, Block trapdoorBlock, TextureMap textureMap) {
         Identifier identifier = ModModels.TRAPDOOR_STB_BOTTOM.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier2 = ModModels.TRAPDOOR_STB_OPEN.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier3 = ModModels.TRAPDOOR_STB_TOP.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
@@ -75,7 +75,7 @@ public class ModBlockStateModelGenerator {
         blockStateModelGenerator.registerParentedItemModel(trapdoorBlock, identifier);
     }
 
-    public static void registerSTBWall(BlockStateModelGenerator blockStateModelGenerator, Block wallBlock, TextureMap textureMap) {
+    public static void registerCustomWall(BlockStateModelGenerator blockStateModelGenerator, Block wallBlock, TextureMap textureMap) {
         Identifier identifier = ModModels.WALL_STB_POST.upload(wallBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier2 = ModModels.WALL_STB_SIDE.upload(wallBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier3 = ModModels.WALL_STB_SIDE_TALL.upload(wallBlock, textureMap, blockStateModelGenerator.modelCollector);

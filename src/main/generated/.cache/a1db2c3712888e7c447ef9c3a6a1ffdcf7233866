@@ -1,14 +1,14 @@
-// 1.20.1	2024-06-15T15:15:50.3200481	Vanilla+ Blocks/Tags for minecraft:block
-a4bced0e6d13b7a67c60842c4dc6a124ae018d0c data\minecraft\tags\blocks\terracotta.json
-a0c4146f80dbc86b197197b34bbb729f892e2f68 data\minecraft\tags\blocks\mineable\shovel.json
-8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_iron_tool.json
-b598091c209d5891cc08fce0fe21cd399ac4e036 data\minecraft\tags\blocks\fences.json
-a7634a2f315d1399ecf0d7aaf3b9471147d80ff3 data\minecraft\tags\blocks\walls.json
-b4ff6fbe534d84aa01ecf66451cdc290b0c7d49c data\minecraft\tags\blocks\fence_gates.json
-723cefe17dade88c4d5d1da138109975dd671e64 data\minecraft\tags\blocks\wool.json
-8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json
-0c6a230b5d7c5ab1a852a2fb8700cf1bff288793 data\minecraft\tags\blocks\mineable\pickaxe.json
+// 1.20.1	2024-06-16T08:37:46.0556418	Vanilla+ Blocks/Tags for minecraft:block
 a4273301709d701b83117e82670037d92b13baaa data\minecraft\tags\blocks\sand.json
-aa5508b5c9c29ba7d2bf588032c02428e92fb20b data\minecraft\tags\blocks\mineable\hoe.json
+723cefe17dade88c4d5d1da138109975dd671e64 data\minecraft\tags\blocks\wool.json
+a0c4146f80dbc86b197197b34bbb729f892e2f68 data\minecraft\tags\blocks\mineable\shovel.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_iron_tool.json
+ff65de956d74669f769e13d9e08e7d9219f29b35 data\minecraft\tags\blocks\walls.json
+0c6a230b5d7c5ab1a852a2fb8700cf1bff288793 data\minecraft\tags\blocks\mineable\pickaxe.json
+d2b8cb4c42485a2afdcffda81029124de72f11d6 data\minecraft\tags\blocks\fence_gates.json
+a4bced0e6d13b7a67c60842c4dc6a124ae018d0c data\minecraft\tags\blocks\terracotta.json
+568f01172fb0dd3c02f7ba73235f9a41465f33a2 data\minecraft\tags\blocks\mineable\hoe.json
 997cd50059a2cadfbe5bdf4dcf82c14c85e33cc6 data\minecraft\tags\blocks\mineable\axe.json
-b51ec5b65f6857ccf1f5d664ae9bd547b6d2e0ca data\minecraft\tags\blocks\wooden_fences.json
+5be5259d2845f9deb1c23c619cecaeeb99467468 data\minecraft\tags\blocks\fences.json
+6cff85815d0a2e88112053fabe46810e4e6ec703 data\minecraft\tags\blocks\wooden_fences.json

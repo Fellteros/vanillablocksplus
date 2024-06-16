@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/pressure_plate_up",
   "textures": {
-    "texture": "minecraft:block/snow"
+    "texture": "minecraft:block/snow_block"
   }
 }
