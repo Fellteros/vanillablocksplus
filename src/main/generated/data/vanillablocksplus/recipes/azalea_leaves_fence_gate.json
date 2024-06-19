@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:azalea_leaves_slab"
+    },
+    "W": {
+      "item": "minecraft:azalea_leaves"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "vanillablocksplus:azalea_leaves_fence_gate"
+  },
+  "show_notification": true
+}

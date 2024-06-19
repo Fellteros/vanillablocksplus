@@ -168,6 +168,22 @@
     "vanillablocksplus:str_warped_hyphae_door",
     "vanillablocksplus:str_warped_hyphae_trapdoor",
     "vanillablocksplus:str_warped_hyphae_pressure_plate",
-    "vanillablocksplus:str_warped_hyphae_button"
+    "vanillablocksplus:str_warped_hyphae_button",
+    "vanillablocksplus:brown_mushroom_stairs",
+    "vanillablocksplus:brown_mushroom_slab",
+    "vanillablocksplus:brown_mushroom_fence",
+    "vanillablocksplus:brown_mushroom_fence_gate",
+    "vanillablocksplus:brown_mushroom_door",
+    "vanillablocksplus:brown_mushroom_trapdoor",
+    "vanillablocksplus:brown_mushroom_pressure_plate",
+    "vanillablocksplus:brown_mushroom_button",
+    "vanillablocksplus:red_mushroom_stairs",
+    "vanillablocksplus:red_mushroom_slab",
+    "vanillablocksplus:red_mushroom_fence",
+    "vanillablocksplus:red_mushroom_fence_gate",
+    "vanillablocksplus:red_mushroom_door",
+    "vanillablocksplus:red_mushroom_trapdoor",
+    "vanillablocksplus:red_mushroom_pressure_plate",
+    "vanillablocksplus:red_mushroom_button"
   ]
 }

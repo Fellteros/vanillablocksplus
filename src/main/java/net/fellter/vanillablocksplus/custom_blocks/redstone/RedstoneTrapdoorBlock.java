@@ -12,6 +12,7 @@ import net.minecraft.particle.DustParticleEffect;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
+import net.minecraft.state.property.Properties;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
@@ -25,7 +26,7 @@ public class RedstoneTrapdoorBlock extends TrapdoorBlock {
         super(settings, blockSetType);
     }
 
-    public static final BooleanProperty LIT = RedstoneTorchBlock.LIT;
+    public static final BooleanProperty LIT = Properties.LIT;
 
     @Override
     public void onBlockBreakStart(BlockState state, World world, BlockPos pos, PlayerEntity player) {
@@ -45,20 +46,16 @@ public class RedstoneTrapdoorBlock extends TrapdoorBlock {
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if (world.isClient) {
             spawnParticles(world, pos);
-        } else {
-            light(state, world, pos);
         }
-        ItemStack itemStack = player.getStackInHand(hand);
-        if (itemStack.getItem() instanceof BlockItem && new ItemPlacementContext(player, hand, itemStack, hit).canPlace()) {
-            return ActionResult.PASS;
-        }
+        light(state, world, pos);
+        super.onUse(state, world, pos, player, hand, hit);
         return ActionResult.SUCCESS;
     }
 
     private static void light(BlockState state, World world, BlockPos pos) {
         spawnParticles(world, pos);
         if (!state.get(LIT)) {
-            world.setBlockState(pos, (BlockState)state.with(LIT, true), Block.NOTIFY_ALL);
+            world.setBlockState(pos, state.with(LIT, true), Block.NOTIFY_ALL);
         }
     }
 
@@ -70,7 +67,7 @@ public class RedstoneTrapdoorBlock extends TrapdoorBlock {
     @Override
     public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
         if (state.get(LIT)) {
-            world.setBlockState(pos, (BlockState)state.with(LIT, false), Block.NOTIFY_ALL);
+            world.setBlockState(pos, state.with(LIT, false), Block.NOTIFY_ALL);
         }
     }
 

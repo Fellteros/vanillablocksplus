@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/red_mushroom_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/red_mushroom_block"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/red_mushroom_slab_top"
+    }
+  }
+}

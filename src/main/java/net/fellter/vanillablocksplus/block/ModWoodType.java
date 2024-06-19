@@ -59,4 +59,5 @@ public class ModWoodType {
     public static final WoodType NETHER_WOOD = registerModWoodTypes("nether_wood", ModBlockSetType.NETHER_WOOD, BlockSoundGroup.NETHER_WOOD);
     public static final WoodType CHERRY_WOOD = registerModWoodTypes("cherry_wood", ModBlockSetType.CHERRY_WOOD, BlockSoundGroup.CHERRY_WOOD);
     public static final WoodType CHERRY_LEAVES = registerModWoodTypes("cherry_leaves", ModBlockSetType.CHERRY_LEAVES, BlockSoundGroup.CHERRY_LEAVES);
+    public static final WoodType WART_BLOCK = registerModWoodTypes("cherry_leaves", ModBlockSetType.WART_BLOCK, BlockSoundGroup.WART_BLOCK);
 }

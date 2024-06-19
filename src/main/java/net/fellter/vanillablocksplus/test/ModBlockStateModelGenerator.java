@@ -3,6 +3,7 @@ package net.fellter.vanillablocksplus.test;
 import net.minecraft.block.Block;
 import net.minecraft.block.enums.*;
 import net.minecraft.data.client.*;
+import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.Identifier;
@@ -15,7 +16,9 @@ public class ModBlockStateModelGenerator {
     }
 
 
-
+    public static void registerItemModel(Item item, BlockStateModelGenerator blockStateModelGenerator) {
+        Models.GENERATED.upload(ModelIds.getItemModelId(item), TextureMap.layer0(item), blockStateModelGenerator.modelCollector);
+    }
 
     public static void registerCustomButton(BlockStateModelGenerator blockStateModelGenerator, Block buttonBlock, TextureMap textureMap) {
         Identifier identifier = ModModels.BUTTON_STB.upload(buttonBlock, textureMap, blockStateModelGenerator.modelCollector);
@@ -82,6 +85,57 @@ public class ModBlockStateModelGenerator {
         blockStateModelGenerator.blockStateCollector.accept(ModBlockStateModelGenerator.createWallBlockState(wallBlock, identifier, identifier2, identifier3));
         Identifier identifier4 = ModModels.WALL_STB_INVENTORY.upload(wallBlock, textureMap, blockStateModelGenerator.modelCollector);
         blockStateModelGenerator.registerParentedItemModel(wallBlock, identifier4);
+    }
+
+    public static void registerTI0Door(BlockStateModelGenerator blockStateModelGenerator, Block doorBlock) {
+        TextureMap textureMap = TextureMap.topBottom(doorBlock);
+        Identifier identifier = ModModels.DOOR_TI0_BOTTOM_LEFT.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier2 = ModModels.DOOR_TI0_BOTTOM_LEFT_OPEN.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier3 = ModModels.DOOR_TI0_BOTTOM_RIGHT.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier4 = ModModels.DOOR_TI0_BOTTOM_RIGHT_OPEN.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier5 = ModModels.DOOR_TI0_TOP_LEFT.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier6 = ModModels.DOOR_TI0_TOP_LEFT_OPEN.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier7 = ModModels.DOOR_TI0_TOP_RIGHT.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier8 = ModModels.DOOR_TI0_TOP_RIGHT_OPEN.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        ModBlockStateModelGenerator.registerItemModel(doorBlock.asItem(), blockStateModelGenerator);
+        blockStateModelGenerator.blockStateCollector.accept(createDoorBlockState(doorBlock, identifier, identifier2, identifier3, identifier4, identifier5, identifier6, identifier7, identifier8));
+    }
+
+    public static void registerTI0OrTrapdoor(BlockStateModelGenerator blockStateModelGenerator, Block trapdoorBlock) {
+        TextureMap textureMap = TextureMap.all(trapdoorBlock);
+        Identifier identifier = ModModels.TRAPDOOR_STB_TOP.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier2 = ModModels.TRAPDOOR_STB_BOTTOM.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier3 = ModModels.TRAPDOOR_STB_OPEN.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        blockStateModelGenerator.blockStateCollector.accept(ModBlockStateModelGenerator.createOrientableTrapdoorBlockState(trapdoorBlock, identifier, identifier2, identifier3));
+        blockStateModelGenerator.registerParentedItemModel(trapdoorBlock, identifier2);
+    }
+
+    public static BlockStateSupplier createOrientableTrapdoorBlockState(Block trapdoorBlock, Identifier topModelId, Identifier bottomModelId, Identifier openModelId) {
+        return VariantsBlockStateSupplier.create(trapdoorBlock).coordinate(BlockStateVariantMap.create(Properties.HORIZONTAL_FACING, Properties.BLOCK_HALF, Properties.OPEN)
+                .register(Direction.NORTH, BlockHalf.BOTTOM, false, BlockStateVariant.create().put(VariantSettings.MODEL, bottomModelId))
+                .register(Direction.SOUTH, BlockHalf.BOTTOM, false, BlockStateVariant.create().put(VariantSettings.MODEL, bottomModelId).put(VariantSettings.Y, VariantSettings.Rotation.R180))
+                .register(Direction.EAST, BlockHalf.BOTTOM, false, BlockStateVariant.create().put(VariantSettings.MODEL, bottomModelId).put(VariantSettings.Y, VariantSettings.Rotation.R90))
+                .register(Direction.WEST, BlockHalf.BOTTOM, false, BlockStateVariant.create().put(VariantSettings.MODEL, bottomModelId).put(VariantSettings.Y, VariantSettings.Rotation.R270))
+                .register(Direction.NORTH, BlockHalf.TOP, false, BlockStateVariant.create().put(VariantSettings.MODEL, topModelId))
+                .register(Direction.SOUTH, BlockHalf.TOP, false, BlockStateVariant.create().put(VariantSettings.MODEL, topModelId).put(VariantSettings.Y, VariantSettings.Rotation.R180))
+                .register(Direction.EAST, BlockHalf.TOP, false, BlockStateVariant.create().put(VariantSettings.MODEL, topModelId).put(VariantSettings.Y, VariantSettings.Rotation.R90))
+                .register(Direction.WEST, BlockHalf.TOP, false, BlockStateVariant.create().put(VariantSettings.MODEL, topModelId).put(VariantSettings.Y, VariantSettings.Rotation.R270))
+                .register(Direction.NORTH, BlockHalf.BOTTOM, true, BlockStateVariant.create().put(VariantSettings.MODEL, openModelId))
+                .register(Direction.SOUTH, BlockHalf.BOTTOM, true, BlockStateVariant.create().put(VariantSettings.MODEL, openModelId).put(VariantSettings.Y, VariantSettings.Rotation.R180))
+                .register(Direction.EAST, BlockHalf.BOTTOM, true, BlockStateVariant.create().put(VariantSettings.MODEL, openModelId).put(VariantSettings.Y, VariantSettings.Rotation.R90))
+                .register(Direction.WEST, BlockHalf.BOTTOM, true, BlockStateVariant.create().put(VariantSettings.MODEL, openModelId).put(VariantSettings.Y, VariantSettings.Rotation.R270))
+                .register(Direction.NORTH, BlockHalf.TOP, true, BlockStateVariant.create().put(VariantSettings.MODEL, openModelId).put(VariantSettings.X, VariantSettings.Rotation.R180).put(VariantSettings.Y, VariantSettings.Rotation.R180))
+                .register(Direction.SOUTH, BlockHalf.TOP, true, BlockStateVariant.create().put(VariantSettings.MODEL, openModelId).put(VariantSettings.X, VariantSettings.Rotation.R180).put(VariantSettings.Y, VariantSettings.Rotation.R0))
+                .register(Direction.EAST, BlockHalf.TOP, true, BlockStateVariant.create().put(VariantSettings.MODEL, openModelId).put(VariantSettings.X, VariantSettings.Rotation.R180).put(VariantSettings.Y, VariantSettings.Rotation.R270))
+                .register(Direction.WEST, BlockHalf.TOP, true, BlockStateVariant.create().put(VariantSettings.MODEL, openModelId).put(VariantSettings.X, VariantSettings.Rotation.R180).put(VariantSettings.Y, VariantSettings.Rotation.R90)));
+    }
+
+    public static BlockStateSupplier createDoorBlockState(Block doorBlock, Identifier bottomLeftHingeClosedModelId, Identifier bottomLeftHingeOpenModelId, Identifier bottomRightHingeClosedModelId, Identifier bottomRightHingeOpenModelId,
+                                                          Identifier topLeftHingeClosedModelId, Identifier topLeftHingeOpenModelId, Identifier topRightHingeClosedModelId, Identifier topRightHingeOpenModelId) {
+        return VariantsBlockStateSupplier.create(doorBlock).coordinate(BlockStateModelGenerator.fillDoorVariantMap(BlockStateModelGenerator.fillDoorVariantMap(BlockStateVariantMap
+                .create(Properties.HORIZONTAL_FACING, Properties.DOUBLE_BLOCK_HALF, Properties.DOOR_HINGE, Properties.OPEN),
+                        DoubleBlockHalf.LOWER, bottomLeftHingeClosedModelId, bottomLeftHingeOpenModelId, bottomRightHingeClosedModelId, bottomRightHingeOpenModelId),
+                        DoubleBlockHalf.UPPER, topLeftHingeClosedModelId, topLeftHingeOpenModelId, topRightHingeClosedModelId, topRightHingeOpenModelId));
     }
 
     public static BlockStateSupplier createButtonBlockState(Block buttonBlock, Identifier regularModelId, Identifier pressedModelId) {

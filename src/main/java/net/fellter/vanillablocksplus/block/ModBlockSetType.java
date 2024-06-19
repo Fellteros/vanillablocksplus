@@ -60,5 +60,6 @@ public class ModBlockSetType {
     public static final BlockSetType NETHER_WOOD = registerModBlockSetType("nether_wood", true, BlockSoundGroup.NETHER_WOOD);
     public static final BlockSetType CHERRY_WOOD = registerModBlockSetType("cherry_wood", true, BlockSoundGroup.CHERRY_WOOD);
     public static final BlockSetType CHERRY_LEAVES = registerModBlockSetType("cherry_leaves", true, BlockSoundGroup.CHERRY_LEAVES);
+    public static final BlockSetType WART_BLOCK = registerModBlockSetType("wart_block", true, BlockSoundGroup.WART_BLOCK);
 
 }

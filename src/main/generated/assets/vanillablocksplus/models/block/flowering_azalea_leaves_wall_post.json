@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/wall_stb_post",
+  "textures": {
+    "bottom": "minecraft:block/flowering_azalea_leaves",
+    "side": "minecraft:block/flowering_azalea_leaves",
+    "top": "minecraft:block/flowering_azalea_leaves"
+  }
+}

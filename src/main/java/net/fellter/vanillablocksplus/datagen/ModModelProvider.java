@@ -2358,6 +2358,66 @@ public class ModModelProvider extends FabricModelProvider {
         registerCustomFence(bsmg, ModBlocks.MANGROVE_LEAVES_FENCE, ModTextureMap.customAll(Blocks.MANGROVE_LEAVES, ""));
         registerCustomFenceGate(bsmg, ModBlocks.MANGROVE_LEAVES_FENCE_GATE, ModTextureMap.customAll(Blocks.MANGROVE_LEAVES, ""));
         registerCustomPressurePlate(bsmg, ModBlocks.MANGROVE_LEAVES_PRESSURE_PLATE, ModTextureMap.customAll(Blocks.MANGROVE_LEAVES, ""));
+        //cherry_leaves
+        registerCustomButton(bsmg, ModBlocks.CHERRY_LEAVES_BUTTON, ModTextureMap.customAll(Blocks.CHERRY_LEAVES, ""));
+        registerCustomWall(bsmg, ModBlocks.CHERRY_LEAVES_WALL, ModTextureMap.customAll(Blocks.CHERRY_LEAVES, ""));
+        registerCustomSlab(bsmg, ModBlocks.CHERRY_LEAVES_SLAB, Blocks.CHERRY_LEAVES, ModTextureMap.customAll(Blocks.CHERRY_LEAVES, ""));
+        registerCustomStairs(bsmg, ModBlocks.CHERRY_LEAVES_STAIRS, ModTextureMap.customAll(Blocks.CHERRY_LEAVES, ""));
+        registerCustomFence(bsmg, ModBlocks.CHERRY_LEAVES_FENCE, ModTextureMap.customAll(Blocks.CHERRY_LEAVES, ""));
+        registerCustomFenceGate(bsmg, ModBlocks.CHERRY_LEAVES_FENCE_GATE, ModTextureMap.customAll(Blocks.CHERRY_LEAVES, ""));
+        registerCustomPressurePlate(bsmg, ModBlocks.CHERRY_LEAVES_PRESSURE_PLATE, ModTextureMap.customAll(Blocks.CHERRY_LEAVES, ""));
+        //azalea_leaves
+        registerCustomButton(bsmg, ModBlocks.AZALEA_LEAVES_BUTTON, ModTextureMap.customAll(Blocks.AZALEA_LEAVES, ""));
+        registerCustomWall(bsmg, ModBlocks.AZALEA_LEAVES_WALL, ModTextureMap.customAll(Blocks.AZALEA_LEAVES, ""));
+        registerCustomSlab(bsmg, ModBlocks.AZALEA_LEAVES_SLAB, Blocks.AZALEA_LEAVES, ModTextureMap.customAll(Blocks.AZALEA_LEAVES, ""));
+        registerCustomStairs(bsmg, ModBlocks.AZALEA_LEAVES_STAIRS, ModTextureMap.customAll(Blocks.AZALEA_LEAVES, ""));
+        registerCustomFence(bsmg, ModBlocks.AZALEA_LEAVES_FENCE, ModTextureMap.customAll(Blocks.AZALEA_LEAVES, ""));
+        registerCustomFenceGate(bsmg, ModBlocks.AZALEA_LEAVES_FENCE_GATE, ModTextureMap.customAll(Blocks.AZALEA_LEAVES, ""));
+        registerCustomPressurePlate(bsmg, ModBlocks.AZALEA_LEAVES_PRESSURE_PLATE, ModTextureMap.customAll(Blocks.AZALEA_LEAVES, ""));
+        //flowering_azalea_leaves
+        registerCustomButton(bsmg, ModBlocks.FLOWERING_AZALEA_LEAVES_BUTTON, ModTextureMap.customAll(Blocks.FLOWERING_AZALEA_LEAVES, ""));
+        registerCustomWall(bsmg, ModBlocks.FLOWERING_AZALEA_LEAVES_WALL, ModTextureMap.customAll(Blocks.FLOWERING_AZALEA_LEAVES, ""));
+        registerCustomSlab(bsmg, ModBlocks.FLOWERING_AZALEA_LEAVES_SLAB, Blocks.FLOWERING_AZALEA_LEAVES, ModTextureMap.customAll(Blocks.FLOWERING_AZALEA_LEAVES, ""));
+        registerCustomStairs(bsmg, ModBlocks.FLOWERING_AZALEA_LEAVES_STAIRS, ModTextureMap.customAll(Blocks.FLOWERING_AZALEA_LEAVES, ""));
+        registerCustomFence(bsmg, ModBlocks.FLOWERING_AZALEA_LEAVES_FENCE, ModTextureMap.customAll(Blocks.FLOWERING_AZALEA_LEAVES, ""));
+        registerCustomFenceGate(bsmg, ModBlocks.FLOWERING_AZALEA_LEAVES_FENCE_GATE, ModTextureMap.customAll(Blocks.FLOWERING_AZALEA_LEAVES, ""));
+        registerCustomPressurePlate(bsmg, ModBlocks.FLOWERING_AZALEA_LEAVES_PRESSURE_PLATE, ModTextureMap.customAll(Blocks.FLOWERING_AZALEA_LEAVES, ""));
+        //brown_mushroom
+        bsmg.registerCubeAllModelTexturePool(Blocks.BROWN_MUSHROOM_BLOCK)
+                .button(ModBlocks.BROWN_MUSHROOM_BUTTON)
+                .wall(ModBlocks.BROWN_MUSHROOM_WALL)
+                .slab(ModBlocks.BROWN_MUSHROOM_SLAB)
+                .stairs(ModBlocks.BROWN_MUSHROOM_STAIRS)
+                .fence(ModBlocks.BROWN_MUSHROOM_FENCE)
+                .fenceGate(ModBlocks.BROWN_MUSHROOM_FENCE_GATE)
+                .pressurePlate(ModBlocks.BROWN_MUSHROOM_PRESSURE_PLATE);
+        //red_mushroom
+        bsmg.registerCubeAllModelTexturePool(Blocks.RED_MUSHROOM_BLOCK)
+                .button(ModBlocks.RED_MUSHROOM_BUTTON)
+                .wall(ModBlocks.RED_MUSHROOM_WALL)
+                .slab(ModBlocks.RED_MUSHROOM_SLAB)
+                .stairs(ModBlocks.RED_MUSHROOM_STAIRS)
+                .fence(ModBlocks.RED_MUSHROOM_FENCE)
+                .fenceGate(ModBlocks.RED_MUSHROOM_FENCE_GATE)
+                .pressurePlate(ModBlocks.RED_MUSHROOM_PRESSURE_PLATE);
+        //nether_wart
+        bsmg.registerCubeAllModelTexturePool(Blocks.NETHER_WART_BLOCK)
+                .button(ModBlocks.NETHER_WART_BUTTON)
+                .wall(ModBlocks.NETHER_WART_WALL)
+                .slab(ModBlocks.NETHER_WART_SLAB)
+                .stairs(ModBlocks.NETHER_WART_STAIRS)
+                .fence(ModBlocks.NETHER_WART_FENCE)
+                .fenceGate(ModBlocks.NETHER_WART_FENCE_GATE)
+                .pressurePlate(ModBlocks.NETHER_WART_PRESSURE_PLATE);
+        //warped_wart
+        bsmg.registerCubeAllModelTexturePool(Blocks.WARPED_WART_BLOCK)
+                .button(ModBlocks.WARPED_WART_BUTTON)
+                .wall(ModBlocks.WARPED_WART_WALL)
+                .slab(ModBlocks.WARPED_WART_SLAB)
+                .stairs(ModBlocks.WARPED_WART_STAIRS)
+                .fence(ModBlocks.WARPED_WART_FENCE)
+                .fenceGate(ModBlocks.WARPED_WART_FENCE_GATE)
+                .pressurePlate(ModBlocks.WARPED_WART_PRESSURE_PLATE);
 
 
 
@@ -3094,26 +3154,47 @@ public class ModModelProvider extends FabricModelProvider {
         bsmg.registerOrientableTrapdoor(ModBlocks.GLOWSTONE_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.GLOWSTONE_DOOR);
         //oak_leaves
-        bsmg.registerOrientableTrapdoor(ModBlocks.OAK_LEAVES_TRAPDOOR);
-        bsmg.registerDoor(ModBlocks.OAK_LEAVES_DOOR);
+        registerTI0Door(bsmg, ModBlocks.OAK_LEAVES_DOOR);
+        registerTI0OrTrapdoor(bsmg, ModBlocks.OAK_LEAVES_TRAPDOOR);
         //spruce_leaves
-        bsmg.registerOrientableTrapdoor(ModBlocks.SPRUCE_LEAVES_TRAPDOOR);
-        bsmg.registerDoor(ModBlocks.SPRUCE_LEAVES_DOOR);
+        registerTI0Door(bsmg, ModBlocks.SPRUCE_LEAVES_DOOR);
+        registerTI0OrTrapdoor(bsmg, ModBlocks.SPRUCE_LEAVES_TRAPDOOR);
         //birch_leaves
-        bsmg.registerOrientableTrapdoor(ModBlocks.BIRCH_LEAVES_TRAPDOOR);
-        bsmg.registerDoor(ModBlocks.BIRCH_LEAVES_DOOR);
+        registerTI0Door(bsmg, ModBlocks.BIRCH_LEAVES_DOOR);
+        registerTI0OrTrapdoor(bsmg, ModBlocks.BIRCH_LEAVES_TRAPDOOR);
         //jungle_leaves
-        bsmg.registerOrientableTrapdoor(ModBlocks.JUNGLE_LEAVES_TRAPDOOR);
-        bsmg.registerDoor(ModBlocks.JUNGLE_LEAVES_DOOR);
+        registerTI0Door(bsmg, ModBlocks.JUNGLE_LEAVES_DOOR);
+        registerTI0OrTrapdoor(bsmg, ModBlocks.JUNGLE_LEAVES_TRAPDOOR);
         //acacia_leaves
-        bsmg.registerOrientableTrapdoor(ModBlocks.ACACIA_LEAVES_TRAPDOOR);
-        bsmg.registerDoor(ModBlocks.ACACIA_LEAVES_DOOR);
+        registerTI0Door(bsmg, ModBlocks.ACACIA_LEAVES_DOOR);
+        registerTI0OrTrapdoor(bsmg, ModBlocks.ACACIA_LEAVES_TRAPDOOR);
         //dark_oak_leaves
-        bsmg.registerOrientableTrapdoor(ModBlocks.DARK_OAK_LEAVES_TRAPDOOR);
-        bsmg.registerDoor(ModBlocks.DARK_OAK_LEAVES_DOOR);
+        registerTI0Door(bsmg, ModBlocks.DARK_OAK_LEAVES_DOOR);
+        registerTI0OrTrapdoor(bsmg, ModBlocks.DARK_OAK_LEAVES_TRAPDOOR);
         //mangrove_leaves
-        bsmg.registerOrientableTrapdoor(ModBlocks.MANGROVE_LEAVES_TRAPDOOR);
-        bsmg.registerDoor(ModBlocks.MANGROVE_LEAVES_DOOR);
+        registerTI0Door(bsmg, ModBlocks.MANGROVE_LEAVES_DOOR);
+        registerTI0OrTrapdoor(bsmg, ModBlocks.MANGROVE_LEAVES_TRAPDOOR);
+        //cherry_leaves
+        bsmg.registerOrientableTrapdoor(ModBlocks.CHERRY_LEAVES_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CHERRY_LEAVES_DOOR);
+        //azalea_leaves
+        bsmg.registerOrientableTrapdoor(ModBlocks.AZALEA_LEAVES_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.AZALEA_LEAVES_DOOR);
+        //flowering_azalea_leaves
+        bsmg.registerOrientableTrapdoor(ModBlocks.FLOWERING_AZALEA_LEAVES_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.FLOWERING_AZALEA_LEAVES_DOOR);
+        //brown_mushroom
+        bsmg.registerOrientableTrapdoor(ModBlocks.BROWN_MUSHROOM_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BROWN_MUSHROOM_DOOR);
+        //red_mushroom
+        bsmg.registerOrientableTrapdoor(ModBlocks.RED_MUSHROOM_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.RED_MUSHROOM_DOOR);
+        //nether_wart
+        bsmg.registerOrientableTrapdoor(ModBlocks.NETHER_WART_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.NETHER_WART_DOOR);
+        //warped_wart
+        bsmg.registerOrientableTrapdoor(ModBlocks.WARPED_WART_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WARPED_WART_DOOR);
 
 
 

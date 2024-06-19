@@ -7,6 +7,7 @@ import net.fellter.vanillablocksplus.VanillaBlocksPlus;
 import net.fellter.vanillablocksplus.custom_blocks.concrete_powder.*;
 import net.fellter.vanillablocksplus.custom_blocks.copper.*;
 import net.fellter.vanillablocksplus.custom_blocks.glass.*;
+import net.fellter.vanillablocksplus.custom_blocks.redstone.*;
 import net.fellter.vanillablocksplus.custom_blocks.sand.*;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
@@ -17,11 +18,8 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import org.jetbrains.annotations.Contract;
 
 public class ModBlocks {
-
-
     //oak wood set
     public static final Block OAK_WOOD_MOD = registerBlock("oak_wood_mod",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_WOOD)));
@@ -43,7 +41,7 @@ public class ModBlocks {
     public static final Block OAK_WOOD_TRAPDOOR = registerBlock("oak_wood_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD), BlockSetType.OAK));
 
-    //Striped oak wood set
+    //str oak wood set
     public static final Block STR_OAK_WOOD_MOD = registerBlock("str_oak_wood_mod",
             new Block(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD)));
     public static final Block STR_OAK_WOOD_STAIRS = registerBlock("str_oak_wood_stairs",
@@ -4675,43 +4673,43 @@ public class ModBlocks {
 
     //redstone_ore
     public static final Block REDSTONE_ORE_STAIRS = registerBlock("redstone_ore_stairs",
-            new StairsBlock(Blocks.COAL_ORE.getDefaultState(), FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
+            new RedstoneStairsBlock(Blocks.REDSTONE_ORE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.REDSTONE_ORE)));
     public static final Block REDSTONE_ORE_SLAB = registerBlock("redstone_ore_slab",
-            new SlabBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
+            new RedstoneSlabBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_ORE)));
     public static final Block REDSTONE_ORE_BUTTON = registerBlock("redstone_ore_button",
-            new ButtonBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), BlockSetType.STONE, 10, false));
+            new RedstoneButtonBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_ORE), BlockSetType.STONE, 10, false));
     public static final Block REDSTONE_ORE_PRESSURE_PLATE = registerBlock("redstone_ore_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), BlockSetType.STONE));
+            new RedstonePressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.REDSTONE_ORE), BlockSetType.STONE));
     public static final Block REDSTONE_ORE_FENCE = registerBlock("redstone_ore_fence",
-            new FenceBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
+            new RedstoneFenceBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_ORE)));
     public static final Block REDSTONE_ORE_FENCE_GATE = registerBlock("redstone_ore_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), WoodType.OAK));
+            new RedstoneFenceGateBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_ORE), WoodType.OAK));
     public static final Block REDSTONE_ORE_DOOR = registerBlock("redstone_ore_door",
-            new DoorBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), BlockSetType.STONE));
+            new RedstoneDoorBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_ORE), BlockSetType.STONE));
     public static final Block REDSTONE_ORE_TRAPDOOR = registerBlock("redstone_ore_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), BlockSetType.STONE));
+            new RedstoneTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_ORE), BlockSetType.STONE));
     public static final Block REDSTONE_ORE_WALL = registerBlock("redstone_ore_wall",
             new WallBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
 
     //deepslate_redstone_ore
     public static final Block DEEPSLATE_REDSTONE_ORE_STAIRS = registerBlock("deepslate_redstone_ore_stairs",
-            new StairsBlock(Blocks.DEEPSLATE_COAL_ORE.getDefaultState(), FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
+            new RedstoneStairsBlock(Blocks.DEEPSLATE_REDSTONE_ORE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DEEPSLATE_REDSTONE_ORE)));
     public static final Block DEEPSLATE_REDSTONE_ORE_SLAB = registerBlock("deepslate_redstone_ore_slab",
-            new SlabBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
+            new RedstoneSlabBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_REDSTONE_ORE)));
     public static final Block DEEPSLATE_REDSTONE_ORE_BUTTON = registerBlock("deepslate_redstone_ore_button",
-            new ButtonBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), BlockSetType.STONE, 10, false));
+            new RedstoneButtonBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_REDSTONE_ORE), BlockSetType.STONE, 10, false));
     public static final Block DEEPSLATE_REDSTONE_ORE_PRESSURE_PLATE = registerBlock("deepslate_redstone_ore_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), BlockSetType.STONE));
+            new RedstonePressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.DEEPSLATE_REDSTONE_ORE), BlockSetType.STONE));
     public static final Block DEEPSLATE_REDSTONE_ORE_FENCE = registerBlock("deepslate_redstone_ore_fence",
-            new FenceBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
+            new RedstoneFenceBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_REDSTONE_ORE)));
     public static final Block DEEPSLATE_REDSTONE_ORE_FENCE_GATE = registerBlock("deepslate_redstone_ore_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), WoodType.OAK));
+            new RedstoneFenceGateBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_REDSTONE_ORE), WoodType.OAK));
     public static final Block DEEPSLATE_REDSTONE_ORE_DOOR = registerBlock("deepslate_redstone_ore_door",
-            new DoorBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), BlockSetType.STONE));
+            new RedstoneDoorBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_REDSTONE_ORE), BlockSetType.STONE));
     public static final Block DEEPSLATE_REDSTONE_ORE_TRAPDOOR = registerBlock("deepslate_redstone_ore_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f), BlockSetType.STONE));
+            new RedstoneTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_REDSTONE_ORE), BlockSetType.STONE));
     public static final Block DEEPSLATE_REDSTONE_ORE_WALL = registerBlock("deepslate_redstone_ore_wall",
             new WallBlock(FabricBlockSettings.create().instrument(Instrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
 
@@ -5139,6 +5137,153 @@ public class ModBlocks {
             new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE));
     public static final Block MANGROVE_LEAVES_WALL = registerBlock("mangrove_leaves_wall",
             new WallBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+
+    //cherry_leaves
+    public static final Block CHERRY_LEAVES_STAIRS = registerBlock("cherry_leaves_stairs",
+            new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES)));
+    public static final Block CHERRY_LEAVES_SLAB = registerBlock("cherry_leaves_slab",
+            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES)));
+    public static final Block CHERRY_LEAVES_BUTTON = registerBlock("cherry_leaves_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES), BlockSetType.STONE, 10, false));
+    public static final Block CHERRY_LEAVES_PRESSURE_PLATE = registerBlock("cherry_leaves_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES), BlockSetType.STONE));
+    public static final Block CHERRY_LEAVES_FENCE = registerBlock("cherry_leaves_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES)));
+    public static final Block CHERRY_LEAVES_FENCE_GATE = registerBlock("cherry_leaves_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES), WoodType.CHERRY));
+    public static final Block CHERRY_LEAVES_DOOR = registerBlock("cherry_leaves_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES), BlockSetType.STONE));
+    public static final Block CHERRY_LEAVES_TRAPDOOR = registerBlock("cherry_leaves_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES), BlockSetType.STONE));
+    public static final Block CHERRY_LEAVES_WALL = registerBlock("cherry_leaves_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES)));
+
+    //azalea_leaves
+    public static final Block AZALEA_LEAVES_STAIRS = registerBlock("azalea_leaves_stairs",
+            new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES)));
+    public static final Block AZALEA_LEAVES_SLAB = registerBlock("azalea_leaves_slab",
+            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES)));
+    public static final Block AZALEA_LEAVES_BUTTON = registerBlock("azalea_leaves_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES), BlockSetType.STONE, 10, false));
+    public static final Block AZALEA_LEAVES_PRESSURE_PLATE = registerBlock("azalea_leaves_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES), BlockSetType.STONE));
+    public static final Block AZALEA_LEAVES_FENCE = registerBlock("azalea_leaves_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES)));
+    public static final Block AZALEA_LEAVES_FENCE_GATE = registerBlock("azalea_leaves_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES), WoodType.OAK));
+    public static final Block AZALEA_LEAVES_DOOR = registerBlock("azalea_leaves_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES), BlockSetType.STONE));
+    public static final Block AZALEA_LEAVES_TRAPDOOR = registerBlock("azalea_leaves_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES), BlockSetType.STONE));
+    public static final Block AZALEA_LEAVES_WALL = registerBlock("azalea_leaves_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES)));
+
+    //flowering_azalea_leaves
+    public static final Block FLOWERING_AZALEA_LEAVES_STAIRS = registerBlock("flowering_azalea_leaves_stairs",
+            new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES)));
+    public static final Block FLOWERING_AZALEA_LEAVES_SLAB = registerBlock("flowering_azalea_leaves_slab",
+            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES)));
+    public static final Block FLOWERING_AZALEA_LEAVES_BUTTON = registerBlock("flowering_azalea_leaves_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES), BlockSetType.STONE, 10, false));
+    public static final Block FLOWERING_AZALEA_LEAVES_PRESSURE_PLATE = registerBlock("flowering_azalea_leaves_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES), BlockSetType.STONE));
+    public static final Block FLOWERING_AZALEA_LEAVES_FENCE = registerBlock("flowering_azalea_leaves_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES)));
+    public static final Block FLOWERING_AZALEA_LEAVES_FENCE_GATE = registerBlock("flowering_azalea_leaves_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES), WoodType.OAK));
+    public static final Block FLOWERING_AZALEA_LEAVES_DOOR = registerBlock("flowering_azalea_leaves_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES), BlockSetType.STONE));
+    public static final Block FLOWERING_AZALEA_LEAVES_TRAPDOOR = registerBlock("flowering_azalea_leaves_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES), BlockSetType.STONE));
+    public static final Block FLOWERING_AZALEA_LEAVES_WALL = registerBlock("flowering_azalea_leaves_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES)));
+
+    //brown_mushroom
+    public static final Block BROWN_MUSHROOM_STAIRS = registerBlock("brown_mushroom_stairs",
+            new StairsBlock(Blocks.BROWN_MUSHROOM_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BROWN_MUSHROOM_BLOCK)));
+    public static final Block BROWN_MUSHROOM_SLAB = registerBlock("brown_mushroom_slab",
+            new SlabBlock (FabricBlockSettings.copyOf(Blocks.BROWN_MUSHROOM_BLOCK)));
+    public static final Block BROWN_MUSHROOM_BUTTON = registerBlock("brown_mushroom_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.BROWN_MUSHROOM_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block BROWN_MUSHROOM_PRESSURE_PLATE = registerBlock("brown_mushroom_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.BROWN_MUSHROOM_BLOCK), BlockSetType.STONE));
+    public static final Block BROWN_MUSHROOM_FENCE = registerBlock("brown_mushroom_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.BROWN_MUSHROOM_BLOCK)));
+    public static final Block BROWN_MUSHROOM_FENCE_GATE = registerBlock("brown_mushroom_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.BROWN_MUSHROOM_BLOCK), WoodType.OAK));
+    public static final Block BROWN_MUSHROOM_DOOR = registerBlock("brown_mushroom_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.BROWN_MUSHROOM_BLOCK), BlockSetType.STONE));
+    public static final Block BROWN_MUSHROOM_TRAPDOOR = registerBlock("brown_mushroom_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BROWN_MUSHROOM_BLOCK), BlockSetType.STONE));
+    public static final Block BROWN_MUSHROOM_WALL = registerBlock("brown_mushroom_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.BROWN_MUSHROOM_BLOCK)));
+
+    //red_mushroom
+    public static final Block RED_MUSHROOM_STAIRS = registerBlock("red_mushroom_stairs",
+            new StairsBlock(Blocks.RED_MUSHROOM_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK)));
+    public static final Block RED_MUSHROOM_SLAB = registerBlock("red_mushroom_slab",
+            new SlabBlock (FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK)));
+    public static final Block RED_MUSHROOM_BUTTON = registerBlock("red_mushroom_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block RED_MUSHROOM_PRESSURE_PLATE = registerBlock("red_mushroom_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK), BlockSetType.STONE));
+    public static final Block RED_MUSHROOM_FENCE = registerBlock("red_mushroom_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK)));
+    public static final Block RED_MUSHROOM_FENCE_GATE = registerBlock("red_mushroom_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK), WoodType.OAK));
+    public static final Block RED_MUSHROOM_DOOR = registerBlock("red_mushroom_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK), BlockSetType.STONE));
+    public static final Block RED_MUSHROOM_TRAPDOOR = registerBlock("red_mushroom_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK), BlockSetType.STONE));
+    public static final Block RED_MUSHROOM_WALL = registerBlock("red_mushroom_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK)));
+
+    //nether_wart
+    public static final Block NETHER_WART_STAIRS = registerBlock("nether_wart_stairs",
+            new StairsBlock(Blocks.NETHER_WART_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.NETHER_WART_BLOCK)));
+    public static final Block NETHER_WART_SLAB = registerBlock("nether_wart_slab",
+            new SlabBlock (FabricBlockSettings.copyOf(Blocks.NETHER_WART_BLOCK)));
+    public static final Block NETHER_WART_BUTTON = registerBlock("nether_wart_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.NETHER_WART_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block NETHER_WART_PRESSURE_PLATE = registerBlock("nether_wart_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.NETHER_WART_BLOCK), BlockSetType.STONE));
+    public static final Block NETHER_WART_FENCE = registerBlock("nether_wart_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.NETHER_WART_BLOCK)));
+    public static final Block NETHER_WART_FENCE_GATE = registerBlock("nether_wart_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.NETHER_WART_BLOCK), WoodType.OAK));
+    public static final Block NETHER_WART_DOOR = registerBlock("nether_wart_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.NETHER_WART_BLOCK), BlockSetType.STONE));
+    public static final Block NETHER_WART_TRAPDOOR = registerBlock("nether_wart_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.NETHER_WART_BLOCK), BlockSetType.STONE));
+    public static final Block NETHER_WART_WALL = registerBlock("nether_wart_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.NETHER_WART_BLOCK)));
+
+    //warped_wart
+    public static final Block WARPED_WART_STAIRS = registerBlock("warped_wart_stairs",
+            new StairsBlock(Blocks.WARPED_WART_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK)));
+    public static final Block WARPED_WART_SLAB = registerBlock("warped_wart_slab",
+            new SlabBlock (FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK)));
+    public static final Block WARPED_WART_BUTTON = registerBlock("warped_wart_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block WARPED_WART_PRESSURE_PLATE = registerBlock("warped_wart_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK), BlockSetType.STONE));
+    public static final Block WARPED_WART_FENCE = registerBlock("warped_wart_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK)));
+    public static final Block WARPED_WART_FENCE_GATE = registerBlock("warped_wart_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK), WoodType.OAK));
+    public static final Block WARPED_WART_DOOR = registerBlock("warped_wart_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK), BlockSetType.STONE));
+    public static final Block WARPED_WART_TRAPDOOR = registerBlock("warped_wart_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK), BlockSetType.STONE));
+    public static final Block WARPED_WART_WALL = registerBlock("warped_wart_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK)));
 
 
 

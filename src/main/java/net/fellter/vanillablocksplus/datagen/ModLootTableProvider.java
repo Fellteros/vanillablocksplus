@@ -2433,6 +2433,83 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MANGROVE_LEAVES_DOOR, doorDrops(ModBlocks.MANGROVE_LEAVES_DOOR));
         addDrop(ModBlocks.MANGROVE_LEAVES_SLAB, slabDrops(ModBlocks.MANGROVE_LEAVES_SLAB));
         addDrop(ModBlocks.MANGROVE_LEAVES_WALL);
+
+        //cherry_leaves_block
+        addDrop(ModBlocks.CHERRY_LEAVES_STAIRS);
+        addDrop(ModBlocks.CHERRY_LEAVES_TRAPDOOR);
+        addDrop(ModBlocks.CHERRY_LEAVES_BUTTON);
+        addDrop(ModBlocks.CHERRY_LEAVES_PRESSURE_PLATE);
+        addDrop(ModBlocks.CHERRY_LEAVES_FENCE);
+        addDrop(ModBlocks.CHERRY_LEAVES_FENCE_GATE);
+        addDrop(ModBlocks.CHERRY_LEAVES_DOOR, doorDrops(ModBlocks.CHERRY_LEAVES_DOOR));
+        addDrop(ModBlocks.CHERRY_LEAVES_SLAB, slabDrops(ModBlocks.CHERRY_LEAVES_SLAB));
+        addDrop(ModBlocks.CHERRY_LEAVES_WALL);
+
+        //azalea_leaves_block
+        addDrop(ModBlocks.AZALEA_LEAVES_STAIRS);
+        addDrop(ModBlocks.AZALEA_LEAVES_TRAPDOOR);
+        addDrop(ModBlocks.AZALEA_LEAVES_BUTTON);
+        addDrop(ModBlocks.AZALEA_LEAVES_PRESSURE_PLATE);
+        addDrop(ModBlocks.AZALEA_LEAVES_FENCE);
+        addDrop(ModBlocks.AZALEA_LEAVES_FENCE_GATE);
+        addDrop(ModBlocks.AZALEA_LEAVES_DOOR, doorDrops(ModBlocks.AZALEA_LEAVES_DOOR));
+        addDrop(ModBlocks.AZALEA_LEAVES_SLAB, slabDrops(ModBlocks.AZALEA_LEAVES_SLAB));
+        addDrop(ModBlocks.AZALEA_LEAVES_WALL);
+
+        //flowering_azalea_leaves_block
+        addDrop(ModBlocks.FLOWERING_AZALEA_LEAVES_STAIRS);
+        addDrop(ModBlocks.FLOWERING_AZALEA_LEAVES_TRAPDOOR);
+        addDrop(ModBlocks.FLOWERING_AZALEA_LEAVES_BUTTON);
+        addDrop(ModBlocks.FLOWERING_AZALEA_LEAVES_PRESSURE_PLATE);
+        addDrop(ModBlocks.FLOWERING_AZALEA_LEAVES_FENCE);
+        addDrop(ModBlocks.FLOWERING_AZALEA_LEAVES_FENCE_GATE);
+        addDrop(ModBlocks.FLOWERING_AZALEA_LEAVES_DOOR, doorDrops(ModBlocks.FLOWERING_AZALEA_LEAVES_DOOR));
+        addDrop(ModBlocks.FLOWERING_AZALEA_LEAVES_SLAB, slabDrops(ModBlocks.FLOWERING_AZALEA_LEAVES_SLAB));
+        addDrop(ModBlocks.FLOWERING_AZALEA_LEAVES_WALL);
+
+        //brown_mushroom_block
+        addDrop(ModBlocks.BROWN_MUSHROOM_STAIRS);
+        addDrop(ModBlocks.BROWN_MUSHROOM_TRAPDOOR);
+        addDrop(ModBlocks.BROWN_MUSHROOM_BUTTON);
+        addDrop(ModBlocks.BROWN_MUSHROOM_PRESSURE_PLATE);
+        addDrop(ModBlocks.BROWN_MUSHROOM_FENCE);
+        addDrop(ModBlocks.BROWN_MUSHROOM_FENCE_GATE);
+        addDrop(ModBlocks.BROWN_MUSHROOM_DOOR, doorDrops(ModBlocks.BROWN_MUSHROOM_DOOR));
+        addDrop(ModBlocks.BROWN_MUSHROOM_SLAB, slabDrops(ModBlocks.BROWN_MUSHROOM_SLAB));
+        addDrop(ModBlocks.BROWN_MUSHROOM_WALL);
+
+        //red_mushroom_block
+        addDrop(ModBlocks.RED_MUSHROOM_STAIRS);
+        addDrop(ModBlocks.RED_MUSHROOM_TRAPDOOR);
+        addDrop(ModBlocks.RED_MUSHROOM_BUTTON);
+        addDrop(ModBlocks.RED_MUSHROOM_PRESSURE_PLATE);
+        addDrop(ModBlocks.RED_MUSHROOM_FENCE);
+        addDrop(ModBlocks.RED_MUSHROOM_FENCE_GATE);
+        addDrop(ModBlocks.RED_MUSHROOM_DOOR, doorDrops(ModBlocks.RED_MUSHROOM_DOOR));
+        addDrop(ModBlocks.RED_MUSHROOM_SLAB, slabDrops(ModBlocks.RED_MUSHROOM_SLAB));
+        addDrop(ModBlocks.RED_MUSHROOM_WALL);
+
+        //nether_wart_block
+        addDrop(ModBlocks.NETHER_WART_STAIRS);
+        addDrop(ModBlocks.NETHER_WART_TRAPDOOR);
+        addDrop(ModBlocks.NETHER_WART_BUTTON);
+        addDrop(ModBlocks.NETHER_WART_PRESSURE_PLATE);
+        addDrop(ModBlocks.NETHER_WART_FENCE);
+        addDrop(ModBlocks.NETHER_WART_FENCE_GATE);
+        addDrop(ModBlocks.NETHER_WART_DOOR, doorDrops(ModBlocks.NETHER_WART_DOOR));
+        addDrop(ModBlocks.NETHER_WART_SLAB, slabDrops(ModBlocks.NETHER_WART_SLAB));
+        addDrop(ModBlocks.NETHER_WART_WALL);
+
+        //warped_wart_block
+        addDrop(ModBlocks.WARPED_WART_STAIRS);
+        addDrop(ModBlocks.WARPED_WART_TRAPDOOR);
+        addDrop(ModBlocks.WARPED_WART_BUTTON);
+        addDrop(ModBlocks.WARPED_WART_PRESSURE_PLATE);
+        addDrop(ModBlocks.WARPED_WART_FENCE);
+        addDrop(ModBlocks.WARPED_WART_FENCE_GATE);
+        addDrop(ModBlocks.WARPED_WART_DOOR, doorDrops(ModBlocks.WARPED_WART_DOOR));
+        addDrop(ModBlocks.WARPED_WART_SLAB, slabDrops(ModBlocks.WARPED_WART_SLAB));
+        addDrop(ModBlocks.WARPED_WART_WALL);
         
         
         

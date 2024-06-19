@@ -110,6 +110,7 @@ public class FoliageBlocksRegistry {
                 ModBlocks.OAK_LEAVES_FENCE_GATE,
                 ModBlocks.OAK_LEAVES_TRAPDOOR,
                 ModBlocks.OAK_LEAVES_PRESSURE_PLATE,
+                ModBlocks.OAK_LEAVES_DOOR,
                 ModBlocks.SPRUCE_LEAVES_SLAB,
                 ModBlocks.SPRUCE_LEAVES_BUTTON,
                 ModBlocks.SPRUCE_LEAVES_FENCE,
@@ -118,6 +119,7 @@ public class FoliageBlocksRegistry {
                 ModBlocks.SPRUCE_LEAVES_FENCE_GATE,
                 ModBlocks.SPRUCE_LEAVES_TRAPDOOR,
                 ModBlocks.SPRUCE_LEAVES_PRESSURE_PLATE,
+                ModBlocks.SPRUCE_LEAVES_DOOR,
                 ModBlocks.BIRCH_LEAVES_SLAB,
                 ModBlocks.BIRCH_LEAVES_BUTTON,
                 ModBlocks.BIRCH_LEAVES_FENCE,
@@ -126,6 +128,7 @@ public class FoliageBlocksRegistry {
                 ModBlocks.BIRCH_LEAVES_FENCE_GATE,
                 ModBlocks.BIRCH_LEAVES_TRAPDOOR,
                 ModBlocks.BIRCH_LEAVES_PRESSURE_PLATE,
+                ModBlocks.BIRCH_LEAVES_DOOR,
                 ModBlocks.JUNGLE_LEAVES_SLAB,
                 ModBlocks.JUNGLE_LEAVES_BUTTON,
                 ModBlocks.JUNGLE_LEAVES_FENCE,
@@ -134,6 +137,7 @@ public class FoliageBlocksRegistry {
                 ModBlocks.JUNGLE_LEAVES_FENCE_GATE,
                 ModBlocks.JUNGLE_LEAVES_TRAPDOOR,
                 ModBlocks.JUNGLE_LEAVES_PRESSURE_PLATE,
+                ModBlocks.JUNGLE_LEAVES_DOOR,
                 ModBlocks.ACACIA_LEAVES_SLAB,
                 ModBlocks.ACACIA_LEAVES_BUTTON,
                 ModBlocks.ACACIA_LEAVES_FENCE,
@@ -142,6 +146,7 @@ public class FoliageBlocksRegistry {
                 ModBlocks.ACACIA_LEAVES_FENCE_GATE,
                 ModBlocks.ACACIA_LEAVES_TRAPDOOR,
                 ModBlocks.ACACIA_LEAVES_PRESSURE_PLATE,
+                ModBlocks.ACACIA_LEAVES_DOOR,
                 ModBlocks.DARK_OAK_LEAVES_SLAB,
                 ModBlocks.DARK_OAK_LEAVES_BUTTON,
                 ModBlocks.DARK_OAK_LEAVES_FENCE,
@@ -150,6 +155,7 @@ public class FoliageBlocksRegistry {
                 ModBlocks.DARK_OAK_LEAVES_FENCE_GATE,
                 ModBlocks.DARK_OAK_LEAVES_TRAPDOOR,
                 ModBlocks.DARK_OAK_LEAVES_PRESSURE_PLATE,
+                ModBlocks.DARK_OAK_LEAVES_DOOR,
                 ModBlocks.MANGROVE_LEAVES_SLAB,
                 ModBlocks.MANGROVE_LEAVES_BUTTON,
                 ModBlocks.MANGROVE_LEAVES_FENCE,
@@ -157,7 +163,8 @@ public class FoliageBlocksRegistry {
                 ModBlocks.MANGROVE_LEAVES_WALL,
                 ModBlocks.MANGROVE_LEAVES_FENCE_GATE,
                 ModBlocks.MANGROVE_LEAVES_TRAPDOOR,
-                ModBlocks.MANGROVE_LEAVES_PRESSURE_PLATE);
+                ModBlocks.MANGROVE_LEAVES_PRESSURE_PLATE,
+                ModBlocks.MANGROVE_LEAVES_DOOR);
 
     }
 }

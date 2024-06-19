@@ -2421,6 +2421,76 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MANGROVE_LEAVES_TRAPDOOR);
                         entries.add(ModBlocks.MANGROVE_LEAVES_PRESSURE_PLATE);
                         entries.add(ModBlocks.MANGROVE_LEAVES_BUTTON);
+                        //cherry_leaves_block
+                        entries.add(ModBlocks.CHERRY_LEAVES_STAIRS);
+                        entries.add(ModBlocks.CHERRY_LEAVES_SLAB);
+                        entries.add(ModBlocks.CHERRY_LEAVES_WALL);
+                        entries.add(ModBlocks.CHERRY_LEAVES_FENCE);
+                        entries.add(ModBlocks.CHERRY_LEAVES_FENCE_GATE);
+                        entries.add(ModBlocks.CHERRY_LEAVES_DOOR);
+                        entries.add(ModBlocks.CHERRY_LEAVES_TRAPDOOR);
+                        entries.add(ModBlocks.CHERRY_LEAVES_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CHERRY_LEAVES_BUTTON);
+                        //azalea_leaves_block
+                        entries.add(ModBlocks.AZALEA_LEAVES_STAIRS);
+                        entries.add(ModBlocks.AZALEA_LEAVES_SLAB);
+                        entries.add(ModBlocks.AZALEA_LEAVES_WALL);
+                        entries.add(ModBlocks.AZALEA_LEAVES_FENCE);
+                        entries.add(ModBlocks.AZALEA_LEAVES_FENCE_GATE);
+                        entries.add(ModBlocks.AZALEA_LEAVES_DOOR);
+                        entries.add(ModBlocks.AZALEA_LEAVES_TRAPDOOR);
+                        entries.add(ModBlocks.AZALEA_LEAVES_PRESSURE_PLATE);
+                        entries.add(ModBlocks.AZALEA_LEAVES_BUTTON);
+                        //flowering_azalea_leaves_block
+                        entries.add(ModBlocks.FLOWERING_AZALEA_LEAVES_STAIRS);
+                        entries.add(ModBlocks.FLOWERING_AZALEA_LEAVES_SLAB);
+                        entries.add(ModBlocks.FLOWERING_AZALEA_LEAVES_WALL);
+                        entries.add(ModBlocks.FLOWERING_AZALEA_LEAVES_FENCE);
+                        entries.add(ModBlocks.FLOWERING_AZALEA_LEAVES_FENCE_GATE);
+                        entries.add(ModBlocks.FLOWERING_AZALEA_LEAVES_DOOR);
+                        entries.add(ModBlocks.FLOWERING_AZALEA_LEAVES_TRAPDOOR);
+                        entries.add(ModBlocks.FLOWERING_AZALEA_LEAVES_PRESSURE_PLATE);
+                        entries.add(ModBlocks.FLOWERING_AZALEA_LEAVES_BUTTON);
+                        //brown mushroom_block
+                        entries.add(ModBlocks.BROWN_MUSHROOM_STAIRS);
+                        entries.add(ModBlocks.BROWN_MUSHROOM_SLAB);
+                        entries.add(ModBlocks.BROWN_MUSHROOM_WALL);
+                        entries.add(ModBlocks.BROWN_MUSHROOM_FENCE);
+                        entries.add(ModBlocks.BROWN_MUSHROOM_FENCE_GATE);
+                        entries.add(ModBlocks.BROWN_MUSHROOM_DOOR);
+                        entries.add(ModBlocks.BROWN_MUSHROOM_TRAPDOOR);
+                        entries.add(ModBlocks.BROWN_MUSHROOM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.BROWN_MUSHROOM_BUTTON);
+                        //red mushroom_block
+                        entries.add(ModBlocks.RED_MUSHROOM_STAIRS);
+                        entries.add(ModBlocks.RED_MUSHROOM_SLAB);
+                        entries.add(ModBlocks.RED_MUSHROOM_WALL);
+                        entries.add(ModBlocks.RED_MUSHROOM_FENCE);
+                        entries.add(ModBlocks.RED_MUSHROOM_FENCE_GATE);
+                        entries.add(ModBlocks.RED_MUSHROOM_DOOR);
+                        entries.add(ModBlocks.RED_MUSHROOM_TRAPDOOR);
+                        entries.add(ModBlocks.RED_MUSHROOM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RED_MUSHROOM_BUTTON);
+                        //red mushroom_block
+                        entries.add(ModBlocks.NETHER_WART_STAIRS);
+                        entries.add(ModBlocks.NETHER_WART_SLAB);
+                        entries.add(ModBlocks.NETHER_WART_WALL);
+                        entries.add(ModBlocks.NETHER_WART_FENCE);
+                        entries.add(ModBlocks.NETHER_WART_FENCE_GATE);
+                        entries.add(ModBlocks.NETHER_WART_DOOR);
+                        entries.add(ModBlocks.NETHER_WART_TRAPDOOR);
+                        entries.add(ModBlocks.NETHER_WART_PRESSURE_PLATE);
+                        entries.add(ModBlocks.NETHER_WART_BUTTON);
+                        //red mushroom_block
+                        entries.add(ModBlocks.WARPED_WART_STAIRS);
+                        entries.add(ModBlocks.WARPED_WART_SLAB);
+                        entries.add(ModBlocks.WARPED_WART_WALL);
+                        entries.add(ModBlocks.WARPED_WART_FENCE);
+                        entries.add(ModBlocks.WARPED_WART_FENCE_GATE);
+                        entries.add(ModBlocks.WARPED_WART_DOOR);
+                        entries.add(ModBlocks.WARPED_WART_TRAPDOOR);
+                        entries.add(ModBlocks.WARPED_WART_PRESSURE_PLATE);
+                        entries.add(ModBlocks.WARPED_WART_BUTTON);
 
 
 

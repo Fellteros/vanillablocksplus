@@ -12,6 +12,7 @@ import net.minecraft.particle.DustParticleEffect;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
+import net.minecraft.state.property.Properties;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
@@ -26,7 +27,7 @@ public class RedstoneFenceGateBlock extends FenceGateBlock {
     }
 
 
-    public static final BooleanProperty LIT = RedstoneTorchBlock.LIT;
+    public static final BooleanProperty LIT = Properties.LIT;
 
     @Override
     public void onBlockBreakStart(BlockState state, World world, BlockPos pos, PlayerEntity player) {
@@ -40,20 +41,6 @@ public class RedstoneFenceGateBlock extends FenceGateBlock {
             light(state, world, pos);
         }
         super.onSteppedOn(world, pos, state, entity);
-    }
-
-    @Override
-    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-        if (world.isClient) {
-            spawnParticles(world, pos);
-        } else {
-            light(state, world, pos);
-        }
-        ItemStack itemStack = player.getStackInHand(hand);
-        if (itemStack.getItem() instanceof BlockItem && new ItemPlacementContext(player, hand, itemStack, hit).canPlace()) {
-            return ActionResult.PASS;
-        }
-        return ActionResult.SUCCESS;
     }
 
     private static void light(BlockState state, World world, BlockPos pos) {

@@ -210,6 +210,13 @@
     "vanillablocksplus:jungle_leaves_wall",
     "vanillablocksplus:acacia_leaves_wall",
     "vanillablocksplus:dark_oak_leaves_wall",
-    "vanillablocksplus:mangrove_leaves_wall"
+    "vanillablocksplus:mangrove_leaves_wall",
+    "vanillablocksplus:cherry_leaves_wall",
+    "vanillablocksplus:azalea_leaves_wall",
+    "vanillablocksplus:flowering_azalea_leaves_wall",
+    "vanillablocksplus:brown_mushroom_wall",
+    "vanillablocksplus:red_mushroom_wall",
+    "vanillablocksplus:nether_wart_wall",
+    "vanillablocksplus:warped_wart_wall"
   ]
 }

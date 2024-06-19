@@ -15,6 +15,7 @@ import net.minecraft.particle.DustParticleEffect;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
+import net.minecraft.state.property.Properties;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
@@ -28,7 +29,7 @@ public class RedstoneWallBlock extends WallBlock {
         super(settings);
     }
 
-    public static final BooleanProperty LIT = RedstoneTorchBlock.LIT;
+    public static final BooleanProperty LIT = Properties.LIT;
 
     @Override
     public void onBlockBreakStart(BlockState state, World world, BlockPos pos, PlayerEntity player) {
@@ -61,7 +62,7 @@ public class RedstoneWallBlock extends WallBlock {
     private static void light(BlockState state, World world, BlockPos pos) {
         spawnParticles(world, pos);
         if (!state.get(LIT)) {
-            world.setBlockState(pos, (BlockState)state.with(LIT, true), Block.NOTIFY_ALL);
+            world.setBlockState(pos, state.with(LIT, true), Block.NOTIFY_ALL);
         }
     }
 
@@ -73,18 +74,10 @@ public class RedstoneWallBlock extends WallBlock {
     @Override
     public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
         if (state.get(LIT)) {
-            world.setBlockState(pos, (BlockState)state.with(LIT, false), Block.NOTIFY_ALL);
+            world.setBlockState(pos, state.with(LIT, false), Block.NOTIFY_ALL);
         }
     }
 
-    @Override
-    public void onStacksDropped(BlockState state, ServerWorld world, BlockPos pos, ItemStack tool, boolean dropExperience) {
-        super.onStacksDropped(state, world, pos, tool, dropExperience);
-        if (dropExperience && EnchantmentHelper.getLevel(Enchantments.SILK_TOUCH, tool) == 0) {
-            int i = 1 + world.random.nextInt(5);
-            this.dropExperience(world, pos, i);
-        }
-    }
 
     @Override
     public void randomDisplayTick(BlockState state, World world, BlockPos pos, Random random) {

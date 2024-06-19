@@ -249,6 +249,13 @@
     "vanillablocksplus:jungle_leaves_fence",
     "vanillablocksplus:acacia_leaves_fence",
     "vanillablocksplus:dark_oak_leaves_fence",
-    "vanillablocksplus:mangrove_leaves_fence"
+    "vanillablocksplus:mangrove_leaves_fence",
+    "vanillablocksplus:cherry_leaves_fence",
+    "vanillablocksplus:azalea_leaves_fence",
+    "vanillablocksplus:flowering_azalea_leaves_fence",
+    "vanillablocksplus:brown_mushroom_fence",
+    "vanillablocksplus:red_mushroom_fence",
+    "vanillablocksplus:nether_wart_fence",
+    "vanillablocksplus:warped_wart_fence"
   ]
 }

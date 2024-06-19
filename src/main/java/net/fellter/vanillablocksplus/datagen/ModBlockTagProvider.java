@@ -2327,6 +2327,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
 
 
+        getOrCreateTagBuilder(BlockTags.SAND)
+                //sand
+                .add(ModBlocks.SAND_STAIRS)
+                .add(ModBlocks.SAND_SLAB)
+                .add(ModBlocks.SAND_WALL)
+                .add(ModBlocks.SAND_DOOR)
+                .add(ModBlocks.SAND_TRAPDOOR)
+                .add(ModBlocks.SAND_FENCE_GATE)
+                .add(ModBlocks.SAND_FENCE)
+                .add(ModBlocks.SAND_BUTTON)
+                .add(ModBlocks.SAND_PRESSURE_PLATE);
+
+
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 //oak
@@ -2517,19 +2530,26 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STR_WARPED_HYPHAE_DOOR)
                 .add(ModBlocks.STR_WARPED_HYPHAE_TRAPDOOR)
                 .add(ModBlocks.STR_WARPED_HYPHAE_PRESSURE_PLATE)
-                .add(ModBlocks.STR_WARPED_HYPHAE_BUTTON);
+                .add(ModBlocks.STR_WARPED_HYPHAE_BUTTON)
+                //brown_mushroom
+                .add(ModBlocks.BROWN_MUSHROOM_STAIRS)
+                .add(ModBlocks.BROWN_MUSHROOM_SLAB)
+                .add(ModBlocks.BROWN_MUSHROOM_FENCE)
+                .add(ModBlocks.BROWN_MUSHROOM_FENCE_GATE)
+                .add(ModBlocks.BROWN_MUSHROOM_DOOR)
+                .add(ModBlocks.BROWN_MUSHROOM_TRAPDOOR)
+                .add(ModBlocks.BROWN_MUSHROOM_PRESSURE_PLATE)
+                .add(ModBlocks.BROWN_MUSHROOM_BUTTON)
+                //red_mushroom
+                .add(ModBlocks.RED_MUSHROOM_STAIRS)
+                .add(ModBlocks.RED_MUSHROOM_SLAB)
+                .add(ModBlocks.RED_MUSHROOM_FENCE)
+                .add(ModBlocks.RED_MUSHROOM_FENCE_GATE)
+                .add(ModBlocks.RED_MUSHROOM_DOOR)
+                .add(ModBlocks.RED_MUSHROOM_TRAPDOOR)
+                .add(ModBlocks.RED_MUSHROOM_PRESSURE_PLATE)
+                .add(ModBlocks.RED_MUSHROOM_BUTTON);
 
-        getOrCreateTagBuilder(BlockTags.SAND)
-                //sand
-                .add(ModBlocks.SAND_STAIRS)
-                .add(ModBlocks.SAND_SLAB)
-                .add(ModBlocks.SAND_WALL)
-                .add(ModBlocks.SAND_DOOR)
-                .add(ModBlocks.SAND_TRAPDOOR)
-                .add(ModBlocks.SAND_FENCE_GATE)
-                .add(ModBlocks.SAND_FENCE)
-                .add(ModBlocks.SAND_BUTTON)
-                .add(ModBlocks.SAND_PRESSURE_PLATE);
 
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
@@ -2612,9 +2632,57 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MANGROVE_LEAVES_FENCE_GATE)
                 .add(ModBlocks.MANGROVE_LEAVES_FENCE)
                 .add(ModBlocks.MANGROVE_LEAVES_BUTTON)
-                .add(ModBlocks.MANGROVE_LEAVES_PRESSURE_PLATE);
-
-
+                .add(ModBlocks.MANGROVE_LEAVES_PRESSURE_PLATE)
+                //cherry_leaves
+                .add(ModBlocks.CHERRY_LEAVES_STAIRS)
+                .add(ModBlocks.CHERRY_LEAVES_SLAB)
+                .add(ModBlocks.CHERRY_LEAVES_WALL)
+                .add(ModBlocks.CHERRY_LEAVES_DOOR)
+                .add(ModBlocks.CHERRY_LEAVES_TRAPDOOR)
+                .add(ModBlocks.CHERRY_LEAVES_FENCE_GATE)
+                .add(ModBlocks.CHERRY_LEAVES_FENCE)
+                .add(ModBlocks.CHERRY_LEAVES_BUTTON)
+                .add(ModBlocks.CHERRY_LEAVES_PRESSURE_PLATE)
+                //azalea_leaves
+                .add(ModBlocks.AZALEA_LEAVES_STAIRS)
+                .add(ModBlocks.AZALEA_LEAVES_SLAB)
+                .add(ModBlocks.AZALEA_LEAVES_WALL)
+                .add(ModBlocks.AZALEA_LEAVES_DOOR)
+                .add(ModBlocks.AZALEA_LEAVES_TRAPDOOR)
+                .add(ModBlocks.AZALEA_LEAVES_FENCE_GATE)
+                .add(ModBlocks.AZALEA_LEAVES_FENCE)
+                .add(ModBlocks.AZALEA_LEAVES_BUTTON)
+                .add(ModBlocks.AZALEA_LEAVES_PRESSURE_PLATE)
+                //flowering_azalea_leaves
+                .add(ModBlocks.FLOWERING_AZALEA_LEAVES_STAIRS)
+                .add(ModBlocks.FLOWERING_AZALEA_LEAVES_SLAB)
+                .add(ModBlocks.FLOWERING_AZALEA_LEAVES_WALL)
+                .add(ModBlocks.FLOWERING_AZALEA_LEAVES_DOOR)
+                .add(ModBlocks.FLOWERING_AZALEA_LEAVES_TRAPDOOR)
+                .add(ModBlocks.FLOWERING_AZALEA_LEAVES_FENCE_GATE)
+                .add(ModBlocks.FLOWERING_AZALEA_LEAVES_FENCE)
+                .add(ModBlocks.FLOWERING_AZALEA_LEAVES_BUTTON)
+                .add(ModBlocks.FLOWERING_AZALEA_LEAVES_PRESSURE_PLATE)
+                //nether_wart
+                .add(ModBlocks.NETHER_WART_STAIRS)
+                .add(ModBlocks.NETHER_WART_SLAB)
+                .add(ModBlocks.NETHER_WART_WALL)
+                .add(ModBlocks.NETHER_WART_DOOR)
+                .add(ModBlocks.NETHER_WART_TRAPDOOR)
+                .add(ModBlocks.NETHER_WART_FENCE_GATE)
+                .add(ModBlocks.NETHER_WART_FENCE)
+                .add(ModBlocks.NETHER_WART_BUTTON)
+                .add(ModBlocks.NETHER_WART_PRESSURE_PLATE)
+                //warped_wart
+                .add(ModBlocks.WARPED_WART_STAIRS)
+                .add(ModBlocks.WARPED_WART_SLAB)
+                .add(ModBlocks.WARPED_WART_WALL)
+                .add(ModBlocks.WARPED_WART_DOOR)
+                .add(ModBlocks.WARPED_WART_TRAPDOOR)
+                .add(ModBlocks.WARPED_WART_FENCE_GATE)
+                .add(ModBlocks.WARPED_WART_FENCE)
+                .add(ModBlocks.WARPED_WART_BUTTON)
+                .add(ModBlocks.WARPED_WART_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
                 .add(ModBlocks.OAK_WOOD_FENCE)
@@ -2862,7 +2930,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.JUNGLE_LEAVES_FENCE)
                 .add(ModBlocks.ACACIA_LEAVES_FENCE)
                 .add(ModBlocks.DARK_OAK_LEAVES_FENCE)
-                .add(ModBlocks.MANGROVE_LEAVES_FENCE);
+                .add(ModBlocks.MANGROVE_LEAVES_FENCE)
+                .add(ModBlocks.CHERRY_LEAVES_FENCE)
+                .add(ModBlocks.AZALEA_LEAVES_FENCE)
+                .add(ModBlocks.FLOWERING_AZALEA_LEAVES_FENCE)
+                .add(ModBlocks.BROWN_MUSHROOM_FENCE)
+                .add(ModBlocks.RED_MUSHROOM_FENCE)
+                .add(ModBlocks.NETHER_WART_FENCE)
+                .add(ModBlocks.WARPED_WART_FENCE);
 
 
 
@@ -3115,7 +3190,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.JUNGLE_LEAVES_FENCE)
                 .add(ModBlocks.ACACIA_LEAVES_FENCE)
                 .add(ModBlocks.DARK_OAK_LEAVES_FENCE)
-                .add(ModBlocks.MANGROVE_LEAVES_FENCE);
+                .add(ModBlocks.MANGROVE_LEAVES_FENCE)
+                .add(ModBlocks.CHERRY_LEAVES_FENCE)
+                .add(ModBlocks.AZALEA_LEAVES_FENCE)
+                .add(ModBlocks.FLOWERING_AZALEA_LEAVES_FENCE)
+                .add(ModBlocks.BROWN_MUSHROOM_FENCE)
+                .add(ModBlocks.RED_MUSHROOM_FENCE)
+                .add(ModBlocks.NETHER_WART_FENCE)
+                .add(ModBlocks.WARPED_WART_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -3359,7 +3441,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.JUNGLE_LEAVES_FENCE_GATE)
                 .add(ModBlocks.ACACIA_LEAVES_FENCE_GATE)
                 .add(ModBlocks.DARK_OAK_LEAVES_FENCE_GATE)
-                .add(ModBlocks.MANGROVE_LEAVES_FENCE_GATE);
+                .add(ModBlocks.MANGROVE_LEAVES_FENCE_GATE)
+                .add(ModBlocks.CHERRY_LEAVES_FENCE_GATE)
+                .add(ModBlocks.AZALEA_LEAVES_FENCE_GATE)
+                .add(ModBlocks.FLOWERING_AZALEA_LEAVES_FENCE_GATE)
+                .add(ModBlocks.BROWN_MUSHROOM_FENCE_GATE)
+                .add(ModBlocks.RED_MUSHROOM_FENCE_GATE)
+                .add(ModBlocks.NETHER_WART_FENCE_GATE)
+                .add(ModBlocks.WARPED_WART_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -3572,7 +3661,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.JUNGLE_LEAVES_WALL)
                 .add(ModBlocks.ACACIA_LEAVES_WALL)
                 .add(ModBlocks.DARK_OAK_LEAVES_WALL)
-                .add(ModBlocks.MANGROVE_LEAVES_WALL);
+                .add(ModBlocks.MANGROVE_LEAVES_WALL)
+                .add(ModBlocks.CHERRY_LEAVES_WALL)
+                .add(ModBlocks.AZALEA_LEAVES_WALL)
+                .add(ModBlocks.FLOWERING_AZALEA_LEAVES_WALL)
+                .add(ModBlocks.BROWN_MUSHROOM_WALL)
+                .add(ModBlocks.RED_MUSHROOM_WALL)
+                .add(ModBlocks.NETHER_WART_WALL)
+                .add(ModBlocks.WARPED_WART_WALL);
 
 
 

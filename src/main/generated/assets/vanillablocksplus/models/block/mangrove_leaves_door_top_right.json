@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/door_top_right",
+  "parent": "vanillablocksplus:blockmodels/door_ti0_top_right",
   "textures": {
     "bottom": "vanillablocksplus:block/mangrove_leaves_door_bottom",
     "top": "vanillablocksplus:block/mangrove_leaves_door_top"

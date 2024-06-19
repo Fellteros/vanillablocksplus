@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "vanillablocksplus:item/cherry_leaves_door"
+  }
+}

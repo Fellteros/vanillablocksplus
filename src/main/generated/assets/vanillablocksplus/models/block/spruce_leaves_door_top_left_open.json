@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/door_top_left_open",
+  "parent": "vanillablocksplus:blockmodels/door_ti0_top_left_open",
   "textures": {
     "bottom": "vanillablocksplus:block/spruce_leaves_door_bottom",
     "top": "vanillablocksplus:block/spruce_leaves_door_top"

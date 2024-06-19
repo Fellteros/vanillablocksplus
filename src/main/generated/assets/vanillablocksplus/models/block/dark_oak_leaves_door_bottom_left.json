@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/door_bottom_left",
+  "parent": "vanillablocksplus:blockmodels/door_ti0_bottom_left",
   "textures": {
     "bottom": "vanillablocksplus:block/dark_oak_leaves_door_bottom",
     "top": "vanillablocksplus:block/dark_oak_leaves_door_top"

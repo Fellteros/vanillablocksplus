@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:flowering_azalea_leaves_slab"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "item": "vanillablocksplus:flowering_azalea_leaves_trapdoor"
+  },
+  "show_notification": true
+}

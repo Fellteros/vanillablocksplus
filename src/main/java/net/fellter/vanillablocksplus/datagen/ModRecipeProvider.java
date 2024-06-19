@@ -2709,6 +2709,83 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.MANGROVE_LEAVES_BUTTON, Blocks.MANGROVE_LEAVES, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.MANGROVE_LEAVES_WALL, (Blocks.MANGROVE_LEAVES)).offerTo(exporter);
 
+        //cherry_leaves
+        ModRecipes.DoorRecipe(ModBlocks.CHERRY_LEAVES_DOOR, (Blocks.CHERRY_LEAVES)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.CHERRY_LEAVES_SLAB, (Blocks.CHERRY_LEAVES)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.CHERRY_LEAVES_STAIRS, (Blocks.CHERRY_LEAVES)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.CHERRY_LEAVES_FENCE, (Blocks.CHERRY_LEAVES), (ModBlocks.CHERRY_LEAVES_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.CHERRY_LEAVES_FENCE_GATE, (Blocks.CHERRY_LEAVES), (ModBlocks.CHERRY_LEAVES_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.CHERRY_LEAVES_TRAPDOOR, (ModBlocks.CHERRY_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.CHERRY_LEAVES_PRESSURE_PLATE, (ModBlocks.CHERRY_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.CHERRY_LEAVES_BUTTON, Blocks.CHERRY_LEAVES, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.CHERRY_LEAVES_WALL, (Blocks.CHERRY_LEAVES)).offerTo(exporter);
+
+        //azalea_leaves
+        ModRecipes.DoorRecipe(ModBlocks.AZALEA_LEAVES_DOOR, (Blocks.AZALEA_LEAVES)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.AZALEA_LEAVES_SLAB, (Blocks.AZALEA_LEAVES)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.AZALEA_LEAVES_STAIRS, (Blocks.AZALEA_LEAVES)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.AZALEA_LEAVES_FENCE, (Blocks.AZALEA_LEAVES), (ModBlocks.AZALEA_LEAVES_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.AZALEA_LEAVES_FENCE_GATE, (Blocks.AZALEA_LEAVES), (ModBlocks.AZALEA_LEAVES_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.AZALEA_LEAVES_TRAPDOOR, (ModBlocks.AZALEA_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.AZALEA_LEAVES_PRESSURE_PLATE, (ModBlocks.AZALEA_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.AZALEA_LEAVES_BUTTON, Blocks.AZALEA_LEAVES, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.AZALEA_LEAVES_WALL, (Blocks.AZALEA_LEAVES)).offerTo(exporter);
+
+        //flowering_azalea_leaves
+        ModRecipes.DoorRecipe(ModBlocks.FLOWERING_AZALEA_LEAVES_DOOR, (Blocks.FLOWERING_AZALEA_LEAVES)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.FLOWERING_AZALEA_LEAVES_SLAB, (Blocks.FLOWERING_AZALEA_LEAVES)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.FLOWERING_AZALEA_LEAVES_STAIRS, (Blocks.FLOWERING_AZALEA_LEAVES)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.FLOWERING_AZALEA_LEAVES_FENCE, (Blocks.FLOWERING_AZALEA_LEAVES), (ModBlocks.FLOWERING_AZALEA_LEAVES_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.FLOWERING_AZALEA_LEAVES_FENCE_GATE, (Blocks.FLOWERING_AZALEA_LEAVES), (ModBlocks.FLOWERING_AZALEA_LEAVES_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.FLOWERING_AZALEA_LEAVES_TRAPDOOR, (ModBlocks.FLOWERING_AZALEA_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.FLOWERING_AZALEA_LEAVES_PRESSURE_PLATE, (ModBlocks.FLOWERING_AZALEA_LEAVES_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.FLOWERING_AZALEA_LEAVES_BUTTON, Blocks.FLOWERING_AZALEA_LEAVES, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.FLOWERING_AZALEA_LEAVES_WALL, (Blocks.FLOWERING_AZALEA_LEAVES)).offerTo(exporter);
+
+        //brown_mushroom
+        ModRecipes.DoorRecipe(ModBlocks.BROWN_MUSHROOM_DOOR, (Blocks.BROWN_MUSHROOM_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.BROWN_MUSHROOM_SLAB, (Blocks.BROWN_MUSHROOM_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.BROWN_MUSHROOM_STAIRS, (Blocks.BROWN_MUSHROOM_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.BROWN_MUSHROOM_FENCE, (Blocks.BROWN_MUSHROOM_BLOCK), (ModBlocks.BROWN_MUSHROOM_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.BROWN_MUSHROOM_FENCE_GATE, (Blocks.BROWN_MUSHROOM_BLOCK), (ModBlocks.BROWN_MUSHROOM_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.BROWN_MUSHROOM_TRAPDOOR, (ModBlocks.BROWN_MUSHROOM_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.BROWN_MUSHROOM_PRESSURE_PLATE, (ModBlocks.BROWN_MUSHROOM_SLAB)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BROWN_MUSHROOM_BUTTON, Blocks.BROWN_MUSHROOM_BLOCK).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.BROWN_MUSHROOM_WALL, (Blocks.BROWN_MUSHROOM_BLOCK)).offerTo(exporter);
+
+        //red_mushroom
+        ModRecipes.DoorRecipe(ModBlocks.RED_MUSHROOM_DOOR, (Blocks.RED_MUSHROOM_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_MUSHROOM_SLAB, (Blocks.RED_MUSHROOM_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.RED_MUSHROOM_STAIRS, (Blocks.RED_MUSHROOM_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.RED_MUSHROOM_FENCE, (Blocks.RED_MUSHROOM_BLOCK), (ModBlocks.RED_MUSHROOM_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.RED_MUSHROOM_FENCE_GATE, (Blocks.RED_MUSHROOM_BLOCK), (ModBlocks.RED_MUSHROOM_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.RED_MUSHROOM_TRAPDOOR, (ModBlocks.RED_MUSHROOM_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_MUSHROOM_PRESSURE_PLATE, (ModBlocks.RED_MUSHROOM_SLAB)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_MUSHROOM_BUTTON, Blocks.RED_MUSHROOM_BLOCK).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_MUSHROOM_WALL, (Blocks.RED_MUSHROOM_BLOCK)).offerTo(exporter);
+
+        //nether_wart
+        ModRecipes.DoorRecipe(ModBlocks.NETHER_WART_DOOR, (Blocks.NETHER_WART_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHER_WART_SLAB, (Blocks.NETHER_WART_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.NETHER_WART_STAIRS, (Blocks.NETHER_WART_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.NETHER_WART_FENCE, (Blocks.NETHER_WART_BLOCK), (ModBlocks.NETHER_WART_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.NETHER_WART_FENCE_GATE, (Blocks.NETHER_WART_BLOCK), (ModBlocks.NETHER_WART_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.NETHER_WART_TRAPDOOR, (ModBlocks.NETHER_WART_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHER_WART_PRESSURE_PLATE, (ModBlocks.NETHER_WART_SLAB)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHER_WART_BUTTON, Blocks.NETHER_WART_BLOCK).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHER_WART_WALL, (Blocks.NETHER_WART_BLOCK)).offerTo(exporter);
+
+        //warped_wart
+        ModRecipes.DoorRecipe(ModBlocks.WARPED_WART_DOOR, (Blocks.WARPED_WART_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WARPED_WART_SLAB, (Blocks.WARPED_WART_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.WARPED_WART_STAIRS, (Blocks.WARPED_WART_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.WARPED_WART_FENCE, (Blocks.WARPED_WART_BLOCK), (ModBlocks.WARPED_WART_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.WARPED_WART_FENCE_GATE, (Blocks.WARPED_WART_BLOCK), (ModBlocks.WARPED_WART_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.WARPED_WART_TRAPDOOR, (ModBlocks.WARPED_WART_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WARPED_WART_PRESSURE_PLATE, (ModBlocks.WARPED_WART_SLAB)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WARPED_WART_BUTTON, Blocks.WARPED_WART_BLOCK).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WARPED_WART_WALL, (Blocks.WARPED_WART_BLOCK)).offerTo(exporter);
+
 
 
         

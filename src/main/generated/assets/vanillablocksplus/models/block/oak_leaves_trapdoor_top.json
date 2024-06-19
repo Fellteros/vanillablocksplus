@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/template_orientable_trapdoor_top",
+  "parent": "vanillablocksplus:blockmodels/trapdoor_stb_top",
   "textures": {
-    "texture": "vanillablocksplus:block/oak_leaves_trapdoor"
+    "bottom": "vanillablocksplus:block/oak_leaves_trapdoor",
+    "side": "vanillablocksplus:block/oak_leaves_trapdoor",
+    "top": "vanillablocksplus:block/oak_leaves_trapdoor"
   }
 }
