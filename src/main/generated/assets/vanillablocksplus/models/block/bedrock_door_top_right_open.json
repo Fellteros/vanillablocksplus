@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "vanillablocksplus:block/bedrock_door_bottom",
+    "top": "vanillablocksplus:block/bedrock_door_top"
+  }
+}

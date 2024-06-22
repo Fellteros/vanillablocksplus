@@ -162,6 +162,15 @@
     "vanillablocksplus:hay_block_fence_gate",
     "vanillablocksplus:hay_block_fence",
     "vanillablocksplus:hay_block_button",
-    "vanillablocksplus:hay_block_pressure_plate"
+    "vanillablocksplus:hay_block_pressure_plate",
+    "vanillablocksplus:sculk_stairs",
+    "vanillablocksplus:sculk_slab",
+    "vanillablocksplus:sculk_wall",
+    "vanillablocksplus:sculk_door",
+    "vanillablocksplus:sculk_trapdoor",
+    "vanillablocksplus:sculk_fence_gate",
+    "vanillablocksplus:sculk_fence",
+    "vanillablocksplus:sculk_button",
+    "vanillablocksplus:sculk_pressure_plate"
   ]
 }

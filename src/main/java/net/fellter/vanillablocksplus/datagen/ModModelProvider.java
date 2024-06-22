@@ -2618,6 +2618,24 @@ public class ModModelProvider extends FabricModelProvider {
         registerCustomFence(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
         registerCustomFenceGate(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
         registerCustomPressurePlate(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
+        //sculk
+        bsmg.registerCubeAllModelTexturePool(Blocks.SCULK)
+                .button(ModBlocks.SCULK_BUTTON)
+                .wall(ModBlocks.SCULK_WALL)
+                .slab(ModBlocks.SCULK_SLAB)
+                .stairs(ModBlocks.SCULK_STAIRS)
+                .fence(ModBlocks.SCULK_FENCE)
+                .fenceGate(ModBlocks.SCULK_FENCE_GATE)
+                .pressurePlate(ModBlocks.SCULK_PRESSURE_PLATE);
+        //bedrock
+        bsmg.registerCubeAllModelTexturePool(Blocks.BEDROCK)
+                .button(ModBlocks.BEDROCK_BUTTON)
+                .wall(ModBlocks.BEDROCK_WALL)
+                .slab(ModBlocks.BEDROCK_SLAB)
+                .stairs(ModBlocks.BEDROCK_STAIRS)
+                .fence(ModBlocks.BEDROCK_FENCE)
+                .fenceGate(ModBlocks.BEDROCK_FENCE_GATE)
+                .pressurePlate(ModBlocks.BEDROCK_PRESSURE_PLATE);
 
 
 
@@ -3464,6 +3482,13 @@ public class ModModelProvider extends FabricModelProvider {
         //pearlescent_froglight
         bsmg.registerOrientableTrapdoor(ModBlocks.PEARLESCENT_FROGLIGHT_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.PEARLESCENT_FROGLIGHT_DOOR);
+        //sculk
+        bsmg.registerOrientableTrapdoor(ModBlocks.SCULK_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.SCULK_DOOR);
+        //bedrock
+        bsmg.registerOrientableTrapdoor(ModBlocks.BEDROCK_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BEDROCK_DOOR);
+
 
 
 

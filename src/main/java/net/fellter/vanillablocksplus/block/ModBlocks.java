@@ -5771,6 +5771,48 @@ public class ModBlocks {
     public static final Block PEARLESCENT_FROGLIGHT_WALL = registerBlock("pearlescent_froglight_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.PEARLESCENT_FROGLIGHT)));
 
+    //sculk
+    public static final Block SCULK_STAIRS = registerBlock("sculk_stairs",
+            new StairsBlock(Blocks.SCULK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SCULK)));
+    public static final Block SCULK_SLAB = registerBlock("sculk_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.SCULK)));
+    public static final Block SCULK_BUTTON = registerBlock("sculk_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.SCULK), BlockSetType.STONE, 10, false));
+    public static final Block SCULK_PRESSURE_PLATE = registerBlock("sculk_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.SCULK), BlockSetType.STONE));
+    public static final Block SCULK_FENCE = registerBlock("sculk_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.SCULK)));
+    public static final Block SCULK_FENCE_GATE = registerBlock("sculk_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.SCULK), WoodType.OAK));
+    public static final Block SCULK_DOOR = registerBlock("sculk_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.SCULK), BlockSetType.STONE));
+    public static final Block SCULK_TRAPDOOR = registerBlock("sculk_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.SCULK), BlockSetType.STONE));
+    public static final Block SCULK_WALL = registerBlock("sculk_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.SCULK)));
+
+    //bedrock
+    public static final Block BEDROCK_STAIRS = registerBlock("bedrock_stairs",
+            new StairsBlock(Blocks.BEDROCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BEDROCK)));
+    public static final Block BEDROCK_SLAB = registerBlock("bedrock_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.BEDROCK)));
+    public static final Block BEDROCK_BUTTON = registerBlock("bedrock_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.BEDROCK), BlockSetType.STONE, 10, false));
+    public static final Block BEDROCK_PRESSURE_PLATE = registerBlock("bedrock_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.BEDROCK), BlockSetType.STONE));
+    public static final Block BEDROCK_FENCE = registerBlock("bedrock_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.BEDROCK)));
+    public static final Block BEDROCK_FENCE_GATE = registerBlock("bedrock_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.BEDROCK), WoodType.OAK));
+    public static final Block BEDROCK_DOOR = registerBlock("bedrock_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.BEDROCK), BlockSetType.STONE));
+    public static final Block BEDROCK_TRAPDOOR = registerBlock("bedrock_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BEDROCK), BlockSetType.STONE));
+    public static final Block BEDROCK_WALL = registerBlock("bedrock_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.BEDROCK)));
+
 
 
 

@@ -3039,6 +3039,28 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.PEARLESCENT_FROGLIGHT_BUTTON, Blocks.PEARLESCENT_FROGLIGHT, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.PEARLESCENT_FROGLIGHT_WALL, (Blocks.PEARLESCENT_FROGLIGHT)).offerTo(exporter);
 
+        //SCULK
+        ModRecipes.DoorRecipe(ModBlocks.SCULK_DOOR, (Blocks.SCULK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.SCULK_SLAB, (Blocks.SCULK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.SCULK_STAIRS, (Blocks.SCULK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.SCULK_FENCE, (Blocks.SCULK), (ModBlocks.SCULK_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.SCULK_FENCE_GATE, (Blocks.SCULK), (ModBlocks.SCULK_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.SCULK_TRAPDOOR, (ModBlocks.SCULK_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.SCULK_PRESSURE_PLATE, (ModBlocks.SCULK_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.SCULK_BUTTON, Blocks.SCULK, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.SCULK_WALL, (Blocks.SCULK)).offerTo(exporter);
+
+        //BEDROCK
+        ModRecipes.DoorRecipe(ModBlocks.BEDROCK_DOOR, (Blocks.BEDROCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.BEDROCK_SLAB, (Blocks.BEDROCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.BEDROCK_STAIRS, (Blocks.BEDROCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.BEDROCK_FENCE, (Blocks.BEDROCK), (ModBlocks.BEDROCK_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.BEDROCK_FENCE_GATE, (Blocks.BEDROCK), (ModBlocks.BEDROCK_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.BEDROCK_TRAPDOOR, (ModBlocks.BEDROCK_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.BEDROCK_PRESSURE_PLATE, (ModBlocks.BEDROCK_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BEDROCK_BUTTON, Blocks.BEDROCK, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.BEDROCK_WALL, (Blocks.BEDROCK)).offerTo(exporter);
+
 
 
         

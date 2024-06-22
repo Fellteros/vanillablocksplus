@@ -271,6 +271,8 @@
     "vanillablocksplus:honey_fence_gate",
     "vanillablocksplus:ochre_froglight_fence_gate",
     "vanillablocksplus:verdant_froglight_fence_gate",
-    "vanillablocksplus:pearlescent_froglight_fence_gate"
+    "vanillablocksplus:pearlescent_froglight_fence_gate",
+    "vanillablocksplus:sculk_fence_gate",
+    "vanillablocksplus:bedrock_fence_gate"
   ]
 }

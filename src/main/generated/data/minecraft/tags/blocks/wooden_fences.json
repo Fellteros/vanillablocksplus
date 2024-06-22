@@ -276,6 +276,8 @@
     "vanillablocksplus:honey_fence",
     "vanillablocksplus:ochre_froglight_fence",
     "vanillablocksplus:verdant_froglight_fence",
-    "vanillablocksplus:pearlescent_froglight_fence"
+    "vanillablocksplus:pearlescent_froglight_fence",
+    "vanillablocksplus:sculk_fence",
+    "vanillablocksplus:bedrock_fence"
   ]
 }

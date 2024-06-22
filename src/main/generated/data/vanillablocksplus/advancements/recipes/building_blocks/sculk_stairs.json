@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sculk": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sculk"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sculk_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:sculk_stairs"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:sculk_stairs"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sculk_stairs",
+      "has_sculk",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:sculk_stairs"
+    ]
+  },
+  "sends_telemetry_event": false
+}

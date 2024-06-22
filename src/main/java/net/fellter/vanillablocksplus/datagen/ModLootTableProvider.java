@@ -2763,6 +2763,28 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PEARLESCENT_FROGLIGHT_DOOR, doorDrops(ModBlocks.PEARLESCENT_FROGLIGHT_DOOR));
         addDrop(ModBlocks.PEARLESCENT_FROGLIGHT_SLAB, slabDrops(ModBlocks.PEARLESCENT_FROGLIGHT_SLAB));
         addDrop(ModBlocks.PEARLESCENT_FROGLIGHT_WALL);
+
+        //SCULK_block
+        addDrop(ModBlocks.SCULK_STAIRS);
+        addDrop(ModBlocks.SCULK_TRAPDOOR);
+        addDrop(ModBlocks.SCULK_BUTTON);
+        addDrop(ModBlocks.SCULK_PRESSURE_PLATE);
+        addDrop(ModBlocks.SCULK_FENCE);
+        addDrop(ModBlocks.SCULK_FENCE_GATE);
+        addDrop(ModBlocks.SCULK_DOOR, doorDrops(ModBlocks.SCULK_DOOR));
+        addDrop(ModBlocks.SCULK_SLAB, slabDrops(ModBlocks.SCULK_SLAB));
+        addDrop(ModBlocks.SCULK_WALL);
+
+        //BEDROCK_block
+        addDrop(ModBlocks.BEDROCK_STAIRS);
+        addDrop(ModBlocks.BEDROCK_TRAPDOOR);
+        addDrop(ModBlocks.BEDROCK_BUTTON);
+        addDrop(ModBlocks.BEDROCK_PRESSURE_PLATE);
+        addDrop(ModBlocks.BEDROCK_FENCE);
+        addDrop(ModBlocks.BEDROCK_FENCE_GATE);
+        addDrop(ModBlocks.BEDROCK_DOOR, doorDrops(ModBlocks.BEDROCK_DOOR));
+        addDrop(ModBlocks.BEDROCK_SLAB, slabDrops(ModBlocks.BEDROCK_SLAB));
+        addDrop(ModBlocks.BEDROCK_WALL);
         
         
         

@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bedrock": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bedrock"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_bedrock_fence_gate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:bedrock_fence_gate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_bedrock_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:bedrock_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:bedrock_fence_gate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bedrock_fence_gate",
+      "has_bedrock",
+      "has_bedrock_slab",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:bedrock_fence_gate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

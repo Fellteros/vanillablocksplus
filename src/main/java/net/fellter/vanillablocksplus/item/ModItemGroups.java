@@ -2721,6 +2721,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PEARLESCENT_FROGLIGHT_TRAPDOOR);
                         entries.add(ModBlocks.PEARLESCENT_FROGLIGHT_PRESSURE_PLATE);
                         entries.add(ModBlocks.PEARLESCENT_FROGLIGHT_BUTTON);
+                        //sculk
+                        entries.add(ModBlocks.SCULK_STAIRS);
+                        entries.add(ModBlocks.SCULK_SLAB);
+                        entries.add(ModBlocks.SCULK_WALL);
+                        entries.add(ModBlocks.SCULK_FENCE);
+                        entries.add(ModBlocks.SCULK_FENCE_GATE);
+                        entries.add(ModBlocks.SCULK_DOOR);
+                        entries.add(ModBlocks.SCULK_TRAPDOOR);
+                        entries.add(ModBlocks.SCULK_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SCULK_BUTTON);
+                        //bedrock
+                        entries.add(ModBlocks.BEDROCK_STAIRS);
+                        entries.add(ModBlocks.BEDROCK_SLAB);
+                        entries.add(ModBlocks.BEDROCK_WALL);
+                        entries.add(ModBlocks.BEDROCK_FENCE);
+                        entries.add(ModBlocks.BEDROCK_FENCE_GATE);
+                        entries.add(ModBlocks.BEDROCK_DOOR);
+                        entries.add(ModBlocks.BEDROCK_TRAPDOOR);
+                        entries.add(ModBlocks.BEDROCK_PRESSURE_PLATE);
+                        entries.add(ModBlocks.BEDROCK_BUTTON);
 
 
 

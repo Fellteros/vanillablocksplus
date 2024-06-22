@@ -240,6 +240,8 @@
     "vanillablocksplus:honey_wall",
     "vanillablocksplus:ochre_froglight_wall",
     "vanillablocksplus:verdant_froglight_wall",
-    "vanillablocksplus:pearlescent_froglight_wall"
+    "vanillablocksplus:pearlescent_froglight_wall",
+    "vanillablocksplus:sculk_wall",
+    "vanillablocksplus:bedrock_wall"
   ]
 }
