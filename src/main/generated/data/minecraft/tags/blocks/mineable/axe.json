@@ -184,6 +184,22 @@
     "vanillablocksplus:red_mushroom_door",
     "vanillablocksplus:red_mushroom_trapdoor",
     "vanillablocksplus:red_mushroom_pressure_plate",
-    "vanillablocksplus:red_mushroom_button"
+    "vanillablocksplus:red_mushroom_button",
+    "vanillablocksplus:melon_stairs",
+    "vanillablocksplus:melon_slab",
+    "vanillablocksplus:melon_fence",
+    "vanillablocksplus:melon_fence_gate",
+    "vanillablocksplus:melon_door",
+    "vanillablocksplus:melon_trapdoor",
+    "vanillablocksplus:melon_pressure_plate",
+    "vanillablocksplus:melon_button",
+    "vanillablocksplus:pumpkin_stairs",
+    "vanillablocksplus:pumpkin_slab",
+    "vanillablocksplus:pumpkin_fence",
+    "vanillablocksplus:pumpkin_fence_gate",
+    "vanillablocksplus:pumpkin_door",
+    "vanillablocksplus:pumpkin_trapdoor",
+    "vanillablocksplus:pumpkin_pressure_plate",
+    "vanillablocksplus:pumpkin_button"
   ]
 }

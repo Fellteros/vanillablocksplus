@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/honey_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/honey_block"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/honey_slab_top"
+    }
+  }
+}

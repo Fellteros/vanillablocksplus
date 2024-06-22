@@ -2510,6 +2510,237 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WARPED_WART_DOOR, doorDrops(ModBlocks.WARPED_WART_DOOR));
         addDrop(ModBlocks.WARPED_WART_SLAB, slabDrops(ModBlocks.WARPED_WART_SLAB));
         addDrop(ModBlocks.WARPED_WART_WALL);
+
+        //shroomlight_block
+        addDrop(ModBlocks.SHROOMLIGHT_STAIRS);
+        addDrop(ModBlocks.SHROOMLIGHT_TRAPDOOR);
+        addDrop(ModBlocks.SHROOMLIGHT_BUTTON);
+        addDrop(ModBlocks.SHROOMLIGHT_PRESSURE_PLATE);
+        addDrop(ModBlocks.SHROOMLIGHT_FENCE);
+        addDrop(ModBlocks.SHROOMLIGHT_FENCE_GATE);
+        addDrop(ModBlocks.SHROOMLIGHT_DOOR, doorDrops(ModBlocks.SHROOMLIGHT_DOOR));
+        addDrop(ModBlocks.SHROOMLIGHT_SLAB, slabDrops(ModBlocks.SHROOMLIGHT_SLAB));
+        addDrop(ModBlocks.SHROOMLIGHT_WALL);
+
+        //dried_kelp_block
+        addDrop(ModBlocks.DRIED_KELP_STAIRS);
+        addDrop(ModBlocks.DRIED_KELP_TRAPDOOR);
+        addDrop(ModBlocks.DRIED_KELP_BUTTON);
+        addDrop(ModBlocks.DRIED_KELP_PRESSURE_PLATE);
+        addDrop(ModBlocks.DRIED_KELP_FENCE);
+        addDrop(ModBlocks.DRIED_KELP_FENCE_GATE);
+        addDrop(ModBlocks.DRIED_KELP_DOOR, doorDrops(ModBlocks.DRIED_KELP_DOOR));
+        addDrop(ModBlocks.DRIED_KELP_SLAB, slabDrops(ModBlocks.DRIED_KELP_SLAB));
+        addDrop(ModBlocks.DRIED_KELP_WALL);
+
+        //TUBE_CORAL_block
+        addDrop(ModBlocks.TUBE_CORAL_STAIRS);
+        addDrop(ModBlocks.TUBE_CORAL_TRAPDOOR);
+        addDrop(ModBlocks.TUBE_CORAL_BUTTON);
+        addDrop(ModBlocks.TUBE_CORAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.TUBE_CORAL_FENCE);
+        addDrop(ModBlocks.TUBE_CORAL_FENCE_GATE);
+        addDrop(ModBlocks.TUBE_CORAL_DOOR, doorDrops(ModBlocks.TUBE_CORAL_DOOR));
+        addDrop(ModBlocks.TUBE_CORAL_SLAB, slabDrops(ModBlocks.TUBE_CORAL_SLAB));
+        addDrop(ModBlocks.TUBE_CORAL_WALL);
+
+        //DEAD_TUBE_CORAL_block
+        addDrop(ModBlocks.DEAD_TUBE_CORAL_STAIRS);
+        addDrop(ModBlocks.DEAD_TUBE_CORAL_TRAPDOOR);
+        addDrop(ModBlocks.DEAD_TUBE_CORAL_BUTTON);
+        addDrop(ModBlocks.DEAD_TUBE_CORAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.DEAD_TUBE_CORAL_FENCE);
+        addDrop(ModBlocks.DEAD_TUBE_CORAL_FENCE_GATE);
+        addDrop(ModBlocks.DEAD_TUBE_CORAL_DOOR, doorDrops(ModBlocks.DEAD_TUBE_CORAL_DOOR));
+        addDrop(ModBlocks.DEAD_TUBE_CORAL_SLAB, slabDrops(ModBlocks.DEAD_TUBE_CORAL_SLAB));
+        addDrop(ModBlocks.DEAD_TUBE_CORAL_WALL);
+
+        //BRAIN_CORAL_block
+        addDrop(ModBlocks.BRAIN_CORAL_STAIRS);
+        addDrop(ModBlocks.BRAIN_CORAL_TRAPDOOR);
+        addDrop(ModBlocks.BRAIN_CORAL_BUTTON);
+        addDrop(ModBlocks.BRAIN_CORAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.BRAIN_CORAL_FENCE);
+        addDrop(ModBlocks.BRAIN_CORAL_FENCE_GATE);
+        addDrop(ModBlocks.BRAIN_CORAL_DOOR, doorDrops(ModBlocks.BRAIN_CORAL_DOOR));
+        addDrop(ModBlocks.BRAIN_CORAL_SLAB, slabDrops(ModBlocks.BRAIN_CORAL_SLAB));
+        addDrop(ModBlocks.BRAIN_CORAL_WALL);
+
+        //DEAD_BRAIN_CORAL_block
+        addDrop(ModBlocks.DEAD_BRAIN_CORAL_STAIRS);
+        addDrop(ModBlocks.DEAD_BRAIN_CORAL_TRAPDOOR);
+        addDrop(ModBlocks.DEAD_BRAIN_CORAL_BUTTON);
+        addDrop(ModBlocks.DEAD_BRAIN_CORAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.DEAD_BRAIN_CORAL_FENCE);
+        addDrop(ModBlocks.DEAD_BRAIN_CORAL_FENCE_GATE);
+        addDrop(ModBlocks.DEAD_BRAIN_CORAL_DOOR, doorDrops(ModBlocks.DEAD_BRAIN_CORAL_DOOR));
+        addDrop(ModBlocks.DEAD_BRAIN_CORAL_SLAB, slabDrops(ModBlocks.DEAD_BRAIN_CORAL_SLAB));
+        addDrop(ModBlocks.DEAD_BRAIN_CORAL_WALL);
+
+        //BUBBLE_CORAL_block
+        addDrop(ModBlocks.BUBBLE_CORAL_STAIRS);
+        addDrop(ModBlocks.BUBBLE_CORAL_TRAPDOOR);
+        addDrop(ModBlocks.BUBBLE_CORAL_BUTTON);
+        addDrop(ModBlocks.BUBBLE_CORAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.BUBBLE_CORAL_FENCE);
+        addDrop(ModBlocks.BUBBLE_CORAL_FENCE_GATE);
+        addDrop(ModBlocks.BUBBLE_CORAL_DOOR, doorDrops(ModBlocks.BUBBLE_CORAL_DOOR));
+        addDrop(ModBlocks.BUBBLE_CORAL_SLAB, slabDrops(ModBlocks.BUBBLE_CORAL_SLAB));
+        addDrop(ModBlocks.BUBBLE_CORAL_WALL);
+
+        //DEAD_BUBBLE_CORAL_block
+        addDrop(ModBlocks.DEAD_BUBBLE_CORAL_STAIRS);
+        addDrop(ModBlocks.DEAD_BUBBLE_CORAL_TRAPDOOR);
+        addDrop(ModBlocks.DEAD_BUBBLE_CORAL_BUTTON);
+        addDrop(ModBlocks.DEAD_BUBBLE_CORAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.DEAD_BUBBLE_CORAL_FENCE);
+        addDrop(ModBlocks.DEAD_BUBBLE_CORAL_FENCE_GATE);
+        addDrop(ModBlocks.DEAD_BUBBLE_CORAL_DOOR, doorDrops(ModBlocks.DEAD_BUBBLE_CORAL_DOOR));
+        addDrop(ModBlocks.DEAD_BUBBLE_CORAL_SLAB, slabDrops(ModBlocks.DEAD_BUBBLE_CORAL_SLAB));
+        addDrop(ModBlocks.DEAD_BUBBLE_CORAL_WALL);
+
+        //FIRE_CORAL_block
+        addDrop(ModBlocks.FIRE_CORAL_STAIRS);
+        addDrop(ModBlocks.FIRE_CORAL_TRAPDOOR);
+        addDrop(ModBlocks.FIRE_CORAL_BUTTON);
+        addDrop(ModBlocks.FIRE_CORAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.FIRE_CORAL_FENCE);
+        addDrop(ModBlocks.FIRE_CORAL_FENCE_GATE);
+        addDrop(ModBlocks.FIRE_CORAL_DOOR, doorDrops(ModBlocks.FIRE_CORAL_DOOR));
+        addDrop(ModBlocks.FIRE_CORAL_SLAB, slabDrops(ModBlocks.FIRE_CORAL_SLAB));
+        addDrop(ModBlocks.FIRE_CORAL_WALL);
+
+        //DEAD_FIRE_CORAL_block
+        addDrop(ModBlocks.DEAD_FIRE_CORAL_STAIRS);
+        addDrop(ModBlocks.DEAD_FIRE_CORAL_TRAPDOOR);
+        addDrop(ModBlocks.DEAD_FIRE_CORAL_BUTTON);
+        addDrop(ModBlocks.DEAD_FIRE_CORAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.DEAD_FIRE_CORAL_FENCE);
+        addDrop(ModBlocks.DEAD_FIRE_CORAL_FENCE_GATE);
+        addDrop(ModBlocks.DEAD_FIRE_CORAL_DOOR, doorDrops(ModBlocks.DEAD_FIRE_CORAL_DOOR));
+        addDrop(ModBlocks.DEAD_FIRE_CORAL_SLAB, slabDrops(ModBlocks.DEAD_FIRE_CORAL_SLAB));
+        addDrop(ModBlocks.DEAD_FIRE_CORAL_WALL);
+
+        //HORN_CORAL_block
+        addDrop(ModBlocks.HORN_CORAL_STAIRS);
+        addDrop(ModBlocks.HORN_CORAL_TRAPDOOR);
+        addDrop(ModBlocks.HORN_CORAL_BUTTON);
+        addDrop(ModBlocks.HORN_CORAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.HORN_CORAL_FENCE);
+        addDrop(ModBlocks.HORN_CORAL_FENCE_GATE);
+        addDrop(ModBlocks.HORN_CORAL_DOOR, doorDrops(ModBlocks.HORN_CORAL_DOOR));
+        addDrop(ModBlocks.HORN_CORAL_SLAB, slabDrops(ModBlocks.HORN_CORAL_SLAB));
+        addDrop(ModBlocks.HORN_CORAL_WALL);
+
+        //DEAD_HORN_CORAL_block
+        addDrop(ModBlocks.DEAD_HORN_CORAL_STAIRS);
+        addDrop(ModBlocks.DEAD_HORN_CORAL_TRAPDOOR);
+        addDrop(ModBlocks.DEAD_HORN_CORAL_BUTTON);
+        addDrop(ModBlocks.DEAD_HORN_CORAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.DEAD_HORN_CORAL_FENCE);
+        addDrop(ModBlocks.DEAD_HORN_CORAL_FENCE_GATE);
+        addDrop(ModBlocks.DEAD_HORN_CORAL_DOOR, doorDrops(ModBlocks.DEAD_HORN_CORAL_DOOR));
+        addDrop(ModBlocks.DEAD_HORN_CORAL_SLAB, slabDrops(ModBlocks.DEAD_HORN_CORAL_SLAB));
+        addDrop(ModBlocks.DEAD_HORN_CORAL_WALL);
+
+        //sponge_block
+        addDrop(ModBlocks.SPONGE_STAIRS);
+        addDrop(ModBlocks.SPONGE_TRAPDOOR);
+        addDrop(ModBlocks.SPONGE_BUTTON);
+        addDrop(ModBlocks.SPONGE_PRESSURE_PLATE);
+        addDrop(ModBlocks.SPONGE_FENCE);
+        addDrop(ModBlocks.SPONGE_FENCE_GATE);
+        addDrop(ModBlocks.SPONGE_DOOR, doorDrops(ModBlocks.SPONGE_DOOR));
+        addDrop(ModBlocks.SPONGE_SLAB, slabDrops(ModBlocks.SPONGE_SLAB));
+        addDrop(ModBlocks.SPONGE_WALL);
+
+        //wet_sponge_block
+        addDrop(ModBlocks.WET_SPONGE_STAIRS);
+        addDrop(ModBlocks.WET_SPONGE_TRAPDOOR);
+        addDrop(ModBlocks.WET_SPONGE_BUTTON);
+        addDrop(ModBlocks.WET_SPONGE_PRESSURE_PLATE);
+        addDrop(ModBlocks.WET_SPONGE_FENCE);
+        addDrop(ModBlocks.WET_SPONGE_FENCE_GATE);
+        addDrop(ModBlocks.WET_SPONGE_DOOR, doorDrops(ModBlocks.WET_SPONGE_DOOR));
+        addDrop(ModBlocks.WET_SPONGE_SLAB, slabDrops(ModBlocks.WET_SPONGE_SLAB));
+        addDrop(ModBlocks.WET_SPONGE_WALL);
+
+        //melon_block
+        addDrop(ModBlocks.MELON_STAIRS);
+        addDrop(ModBlocks.MELON_TRAPDOOR);
+        addDrop(ModBlocks.MELON_BUTTON);
+        addDrop(ModBlocks.MELON_PRESSURE_PLATE);
+        addDrop(ModBlocks.MELON_FENCE);
+        addDrop(ModBlocks.MELON_FENCE_GATE);
+        addDrop(ModBlocks.MELON_DOOR, doorDrops(ModBlocks.MELON_DOOR));
+        addDrop(ModBlocks.MELON_SLAB, slabDrops(ModBlocks.MELON_SLAB));
+        addDrop(ModBlocks.MELON_WALL);
+
+        //pumpkin_block
+        addDrop(ModBlocks.PUMPKIN_STAIRS);
+        addDrop(ModBlocks.PUMPKIN_TRAPDOOR);
+        addDrop(ModBlocks.PUMPKIN_BUTTON);
+        addDrop(ModBlocks.PUMPKIN_PRESSURE_PLATE);
+        addDrop(ModBlocks.PUMPKIN_FENCE);
+        addDrop(ModBlocks.PUMPKIN_FENCE_GATE);
+        addDrop(ModBlocks.PUMPKIN_DOOR, doorDrops(ModBlocks.PUMPKIN_DOOR));
+        addDrop(ModBlocks.PUMPKIN_SLAB, slabDrops(ModBlocks.PUMPKIN_SLAB));
+        addDrop(ModBlocks.PUMPKIN_WALL);
+
+        //hay_block_block
+        addDrop(ModBlocks.HAY_BLOCK_STAIRS);
+        addDrop(ModBlocks.HAY_BLOCK_TRAPDOOR);
+        addDrop(ModBlocks.HAY_BLOCK_BUTTON);
+        addDrop(ModBlocks.HAY_BLOCK_PRESSURE_PLATE);
+        addDrop(ModBlocks.HAY_BLOCK_FENCE);
+        addDrop(ModBlocks.HAY_BLOCK_FENCE_GATE);
+        addDrop(ModBlocks.HAY_BLOCK_DOOR, doorDrops(ModBlocks.HAY_BLOCK_DOOR));
+        addDrop(ModBlocks.HAY_BLOCK_SLAB, slabDrops(ModBlocks.HAY_BLOCK_SLAB));
+        addDrop(ModBlocks.HAY_BLOCK_WALL);
+
+        //honeycomb_block
+        addDrop(ModBlocks.HONEYCOMB_STAIRS);
+        addDrop(ModBlocks.HONEYCOMB_TRAPDOOR);
+        addDrop(ModBlocks.HONEYCOMB_BUTTON);
+        addDrop(ModBlocks.HONEYCOMB_PRESSURE_PLATE);
+        addDrop(ModBlocks.HONEYCOMB_FENCE);
+        addDrop(ModBlocks.HONEYCOMB_FENCE_GATE);
+        addDrop(ModBlocks.HONEYCOMB_DOOR, doorDrops(ModBlocks.HONEYCOMB_DOOR));
+        addDrop(ModBlocks.HONEYCOMB_SLAB, slabDrops(ModBlocks.HONEYCOMB_SLAB));
+        addDrop(ModBlocks.HONEYCOMB_WALL);
+
+        //SLIME_block
+        addDrop(ModBlocks.SLIME_STAIRS);
+        addDrop(ModBlocks.SLIME_TRAPDOOR);
+        addDrop(ModBlocks.SLIME_BUTTON);
+        addDrop(ModBlocks.SLIME_PRESSURE_PLATE);
+        addDrop(ModBlocks.SLIME_FENCE);
+        addDrop(ModBlocks.SLIME_FENCE_GATE);
+        addDrop(ModBlocks.SLIME_DOOR, doorDrops(ModBlocks.SLIME_DOOR));
+        addDrop(ModBlocks.SLIME_SLAB, slabDrops(ModBlocks.SLIME_SLAB));
+        addDrop(ModBlocks.SLIME_WALL);
+
+        //HONEY_block
+        addDrop(ModBlocks.HONEY_STAIRS);
+        addDrop(ModBlocks.HONEY_TRAPDOOR);
+        addDrop(ModBlocks.HONEY_BUTTON);
+        addDrop(ModBlocks.HONEY_PRESSURE_PLATE);
+        addDrop(ModBlocks.HONEY_FENCE);
+        addDrop(ModBlocks.HONEY_FENCE_GATE);
+        addDrop(ModBlocks.HONEY_DOOR, doorDrops(ModBlocks.HONEY_DOOR));
+        addDrop(ModBlocks.HONEY_SLAB, slabDrops(ModBlocks.HONEY_SLAB));
+        addDrop(ModBlocks.HONEY_WALL);
+
+        //OCHRE_FROGLIGHT_block
+        addDrop(ModBlocks.OCHRE_FROGLIGHT_STAIRS);
+        addDrop(ModBlocks.OCHRE_FROGLIGHT_TRAPDOOR);
+        addDrop(ModBlocks.OCHRE_FROGLIGHT_BUTTON);
+        addDrop(ModBlocks.OCHRE_FROGLIGHT_PRESSURE_PLATE);
+        addDrop(ModBlocks.OCHRE_FROGLIGHT_FENCE);
+        addDrop(ModBlocks.OCHRE_FROGLIGHT_FENCE_GATE);
+        addDrop(ModBlocks.OCHRE_FROGLIGHT_DOOR, doorDrops(ModBlocks.OCHRE_FROGLIGHT_DOOR));
+        addDrop(ModBlocks.OCHRE_FROGLIGHT_SLAB, slabDrops(ModBlocks.OCHRE_FROGLIGHT_SLAB));
+        addDrop(ModBlocks.OCHRE_FROGLIGHT_WALL);
         
         
         

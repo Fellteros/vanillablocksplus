@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/hay_block_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/hay_block"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/hay_block_slab_top"
+    }
+  }
+}

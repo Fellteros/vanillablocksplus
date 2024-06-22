@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/pumpkin_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/pumpkin"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/pumpkin_slab_top"
+    }
+  }
+}

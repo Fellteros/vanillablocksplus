@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/wall_stb_post",
+  "textures": {
+    "bottom": "minecraft:block/melon_top",
+    "side": "minecraft:block/melon_side",
+    "top": "minecraft:block/melon_top"
+  }
+}

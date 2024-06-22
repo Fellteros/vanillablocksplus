@@ -217,6 +217,27 @@
     "vanillablocksplus:brown_mushroom_wall",
     "vanillablocksplus:red_mushroom_wall",
     "vanillablocksplus:nether_wart_wall",
-    "vanillablocksplus:warped_wart_wall"
+    "vanillablocksplus:warped_wart_wall",
+    "vanillablocksplus:shroomlight_wall",
+    "vanillablocksplus:dried_kelp_wall",
+    "vanillablocksplus:tube_coral_wall",
+    "vanillablocksplus:dead_tube_coral_wall",
+    "vanillablocksplus:brain_coral_wall",
+    "vanillablocksplus:dead_brain_coral_wall",
+    "vanillablocksplus:bubble_coral_wall",
+    "vanillablocksplus:dead_bubble_coral_wall",
+    "vanillablocksplus:fire_coral_wall",
+    "vanillablocksplus:dead_fire_coral_wall",
+    "vanillablocksplus:horn_coral_wall",
+    "vanillablocksplus:dead_horn_coral_wall",
+    "vanillablocksplus:sponge_wall",
+    "vanillablocksplus:wet_sponge_wall",
+    "vanillablocksplus:melon_wall",
+    "vanillablocksplus:pumpkin_wall",
+    "vanillablocksplus:hay_block_wall",
+    "vanillablocksplus:honeycomb_wall",
+    "vanillablocksplus:slime_wall",
+    "vanillablocksplus:honey_wall",
+    "vanillablocksplus:ochre_froglight_wall"
   ]
 }

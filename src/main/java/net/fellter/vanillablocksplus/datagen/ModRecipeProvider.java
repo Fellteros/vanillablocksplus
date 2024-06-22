@@ -2772,7 +2772,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.NWFenceGateRecipe(ModBlocks.NETHER_WART_FENCE_GATE, (Blocks.NETHER_WART_BLOCK), (ModBlocks.NETHER_WART_SLAB), 1).offerTo(exporter);
         ModRecipes.TrapdoorRecipe(ModBlocks.NETHER_WART_TRAPDOOR, (ModBlocks.NETHER_WART_SLAB)).offerTo(exporter);
         ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHER_WART_PRESSURE_PLATE, (ModBlocks.NETHER_WART_SLAB)).offerTo(exporter);
-        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHER_WART_BUTTON, Blocks.NETHER_WART_BLOCK).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHER_WART_BUTTON, Blocks.NETHER_WART_BLOCK, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHER_WART_WALL, (Blocks.NETHER_WART_BLOCK)).offerTo(exporter);
 
         //warped_wart
@@ -2783,8 +2783,239 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.NWFenceGateRecipe(ModBlocks.WARPED_WART_FENCE_GATE, (Blocks.WARPED_WART_BLOCK), (ModBlocks.WARPED_WART_SLAB), 1).offerTo(exporter);
         ModRecipes.TrapdoorRecipe(ModBlocks.WARPED_WART_TRAPDOOR, (ModBlocks.WARPED_WART_SLAB)).offerTo(exporter);
         ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WARPED_WART_PRESSURE_PLATE, (ModBlocks.WARPED_WART_SLAB)).offerTo(exporter);
-        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WARPED_WART_BUTTON, Blocks.WARPED_WART_BLOCK).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WARPED_WART_BUTTON, Blocks.WARPED_WART_BLOCK, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WARPED_WART_WALL, (Blocks.WARPED_WART_BLOCK)).offerTo(exporter);
+
+        //shroomlight
+        ModRecipes.DoorRecipe(ModBlocks.SHROOMLIGHT_DOOR, (Blocks.SHROOMLIGHT)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.SHROOMLIGHT_SLAB, (Blocks.SHROOMLIGHT)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.SHROOMLIGHT_STAIRS, (Blocks.SHROOMLIGHT)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.SHROOMLIGHT_FENCE, (Blocks.SHROOMLIGHT), (ModBlocks.SHROOMLIGHT_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.SHROOMLIGHT_FENCE_GATE, (Blocks.SHROOMLIGHT), (ModBlocks.SHROOMLIGHT_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.SHROOMLIGHT_TRAPDOOR, (ModBlocks.SHROOMLIGHT_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.SHROOMLIGHT_PRESSURE_PLATE, (ModBlocks.SHROOMLIGHT_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.SHROOMLIGHT_BUTTON, Blocks.SHROOMLIGHT, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.SHROOMLIGHT_WALL, (Blocks.SHROOMLIGHT)).offerTo(exporter);
+
+        //dried_kelp
+        ModRecipes.DoorRecipe(ModBlocks.DRIED_KELP_DOOR, (Blocks.DRIED_KELP_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DRIED_KELP_SLAB, (Blocks.DRIED_KELP_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.DRIED_KELP_STAIRS, (Blocks.DRIED_KELP_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.DRIED_KELP_FENCE, (Blocks.DRIED_KELP_BLOCK), (ModBlocks.DRIED_KELP_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.DRIED_KELP_FENCE_GATE, (Blocks.DRIED_KELP_BLOCK), (ModBlocks.DRIED_KELP_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.DRIED_KELP_TRAPDOOR, (ModBlocks.DRIED_KELP_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.DRIED_KELP_PRESSURE_PLATE, (ModBlocks.DRIED_KELP_SLAB)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DRIED_KELP_BUTTON, Blocks.DRIED_KELP_BLOCK).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DRIED_KELP_WALL, (Blocks.DRIED_KELP_BLOCK)).offerTo(exporter);
+
+        //tube_coral
+        ModRecipes.DoorRecipe(ModBlocks.TUBE_CORAL_DOOR, (Blocks.TUBE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.TUBE_CORAL_SLAB, (Blocks.TUBE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.TUBE_CORAL_STAIRS, (Blocks.TUBE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.TUBE_CORAL_FENCE, (Blocks.TUBE_CORAL_BLOCK), (ModBlocks.TUBE_CORAL_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.TUBE_CORAL_FENCE_GATE, (Blocks.TUBE_CORAL_BLOCK), (ModBlocks.TUBE_CORAL_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.TUBE_CORAL_TRAPDOOR, (ModBlocks.TUBE_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.TUBE_CORAL_PRESSURE_PLATE, (ModBlocks.TUBE_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.TUBE_CORAL_BUTTON, Blocks.TUBE_CORAL_BLOCK, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.TUBE_CORAL_WALL, (Blocks.TUBE_CORAL_BLOCK)).offerTo(exporter);
+
+        //dead_tube_coral
+        ModRecipes.DoorRecipe(ModBlocks.DEAD_TUBE_CORAL_DOOR, (Blocks.DEAD_TUBE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_TUBE_CORAL_SLAB, (Blocks.DEAD_TUBE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.DEAD_TUBE_CORAL_STAIRS, (Blocks.DEAD_TUBE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.DEAD_TUBE_CORAL_FENCE, (Blocks.DEAD_TUBE_CORAL_BLOCK), (ModBlocks.DEAD_TUBE_CORAL_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.DEAD_TUBE_CORAL_FENCE_GATE, (Blocks.DEAD_TUBE_CORAL_BLOCK), (ModBlocks.DEAD_TUBE_CORAL_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.DEAD_TUBE_CORAL_TRAPDOOR, (ModBlocks.DEAD_TUBE_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_TUBE_CORAL_PRESSURE_PLATE, (ModBlocks.DEAD_TUBE_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_TUBE_CORAL_BUTTON, Blocks.DEAD_TUBE_CORAL_BLOCK, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_TUBE_CORAL_WALL, (Blocks.DEAD_TUBE_CORAL_BLOCK)).offerTo(exporter);
+
+        //brain_coral
+        ModRecipes.DoorRecipe(ModBlocks.BRAIN_CORAL_DOOR, (Blocks.BRAIN_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.BRAIN_CORAL_SLAB, (Blocks.BRAIN_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.BRAIN_CORAL_STAIRS, (Blocks.BRAIN_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.BRAIN_CORAL_FENCE, (Blocks.BRAIN_CORAL_BLOCK), (ModBlocks.BRAIN_CORAL_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.BRAIN_CORAL_FENCE_GATE, (Blocks.BRAIN_CORAL_BLOCK), (ModBlocks.BRAIN_CORAL_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.BRAIN_CORAL_TRAPDOOR, (ModBlocks.BRAIN_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.BRAIN_CORAL_PRESSURE_PLATE, (ModBlocks.BRAIN_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BRAIN_CORAL_BUTTON, Blocks.BRAIN_CORAL_BLOCK, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.BRAIN_CORAL_WALL, (Blocks.BRAIN_CORAL_BLOCK)).offerTo(exporter);
+
+        //dead_brain_coral
+        ModRecipes.DoorRecipe(ModBlocks.DEAD_BRAIN_CORAL_DOOR, (Blocks.DEAD_BRAIN_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_BRAIN_CORAL_SLAB, (Blocks.DEAD_BRAIN_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.DEAD_BRAIN_CORAL_STAIRS, (Blocks.DEAD_BRAIN_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.DEAD_BRAIN_CORAL_FENCE, (Blocks.DEAD_BRAIN_CORAL_BLOCK), (ModBlocks.DEAD_BRAIN_CORAL_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.DEAD_BRAIN_CORAL_FENCE_GATE, (Blocks.DEAD_BRAIN_CORAL_BLOCK), (ModBlocks.DEAD_BRAIN_CORAL_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.DEAD_BRAIN_CORAL_TRAPDOOR, (ModBlocks.DEAD_BRAIN_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_BRAIN_CORAL_PRESSURE_PLATE, (ModBlocks.DEAD_BRAIN_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_BRAIN_CORAL_BUTTON, Blocks.DEAD_BRAIN_CORAL_BLOCK, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_BRAIN_CORAL_WALL, (Blocks.DEAD_BRAIN_CORAL_BLOCK)).offerTo(exporter);
+
+        //bubble_coral
+        ModRecipes.DoorRecipe(ModBlocks.BUBBLE_CORAL_DOOR, (Blocks.BUBBLE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.BUBBLE_CORAL_SLAB, (Blocks.BUBBLE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.BUBBLE_CORAL_STAIRS, (Blocks.BUBBLE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.BUBBLE_CORAL_FENCE, (Blocks.BUBBLE_CORAL_BLOCK), (ModBlocks.BUBBLE_CORAL_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.BUBBLE_CORAL_FENCE_GATE, (Blocks.BUBBLE_CORAL_BLOCK), (ModBlocks.BUBBLE_CORAL_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.BUBBLE_CORAL_TRAPDOOR, (ModBlocks.BUBBLE_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.BUBBLE_CORAL_PRESSURE_PLATE, (ModBlocks.BUBBLE_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BUBBLE_CORAL_BUTTON, Blocks.BUBBLE_CORAL_BLOCK, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.BUBBLE_CORAL_WALL, (Blocks.BUBBLE_CORAL_BLOCK)).offerTo(exporter);
+
+        //dead_bubble_coral
+        ModRecipes.DoorRecipe(ModBlocks.DEAD_BUBBLE_CORAL_DOOR, (Blocks.DEAD_BUBBLE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_BUBBLE_CORAL_SLAB, (Blocks.DEAD_BUBBLE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.DEAD_BUBBLE_CORAL_STAIRS, (Blocks.DEAD_BUBBLE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.DEAD_BUBBLE_CORAL_FENCE, (Blocks.DEAD_BUBBLE_CORAL_BLOCK), (ModBlocks.DEAD_BUBBLE_CORAL_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.DEAD_BUBBLE_CORAL_FENCE_GATE, (Blocks.DEAD_BUBBLE_CORAL_BLOCK), (ModBlocks.DEAD_BUBBLE_CORAL_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.DEAD_BUBBLE_CORAL_TRAPDOOR, (ModBlocks.DEAD_BUBBLE_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_BUBBLE_CORAL_PRESSURE_PLATE, (ModBlocks.DEAD_BUBBLE_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_BUBBLE_CORAL_BUTTON, Blocks.DEAD_BUBBLE_CORAL_BLOCK, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_BUBBLE_CORAL_WALL, (Blocks.DEAD_BUBBLE_CORAL_BLOCK)).offerTo(exporter);
+
+        //fire_coral
+        ModRecipes.DoorRecipe(ModBlocks.FIRE_CORAL_DOOR, (Blocks.FIRE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.FIRE_CORAL_SLAB, (Blocks.FIRE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.FIRE_CORAL_STAIRS, (Blocks.FIRE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.FIRE_CORAL_FENCE, (Blocks.FIRE_CORAL_BLOCK), (ModBlocks.FIRE_CORAL_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.FIRE_CORAL_FENCE_GATE, (Blocks.FIRE_CORAL_BLOCK), (ModBlocks.FIRE_CORAL_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.FIRE_CORAL_TRAPDOOR, (ModBlocks.FIRE_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.FIRE_CORAL_PRESSURE_PLATE, (ModBlocks.FIRE_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.FIRE_CORAL_BUTTON, Blocks.FIRE_CORAL_BLOCK, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.FIRE_CORAL_WALL, (Blocks.FIRE_CORAL_BLOCK)).offerTo(exporter);
+
+        //dead_fire_coral
+        ModRecipes.DoorRecipe(ModBlocks.DEAD_FIRE_CORAL_DOOR, (Blocks.DEAD_FIRE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_FIRE_CORAL_SLAB, (Blocks.DEAD_FIRE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.DEAD_FIRE_CORAL_STAIRS, (Blocks.DEAD_FIRE_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.DEAD_FIRE_CORAL_FENCE, (Blocks.DEAD_FIRE_CORAL_BLOCK), (ModBlocks.DEAD_FIRE_CORAL_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.DEAD_FIRE_CORAL_FENCE_GATE, (Blocks.DEAD_FIRE_CORAL_BLOCK), (ModBlocks.DEAD_FIRE_CORAL_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.DEAD_FIRE_CORAL_TRAPDOOR, (ModBlocks.DEAD_FIRE_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_FIRE_CORAL_PRESSURE_PLATE, (ModBlocks.DEAD_FIRE_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_FIRE_CORAL_BUTTON, Blocks.DEAD_FIRE_CORAL_BLOCK, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_FIRE_CORAL_WALL, (Blocks.DEAD_FIRE_CORAL_BLOCK)).offerTo(exporter);
+
+        //horn_coral
+        ModRecipes.DoorRecipe(ModBlocks.HORN_CORAL_DOOR, (Blocks.HORN_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.HORN_CORAL_SLAB, (Blocks.HORN_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.HORN_CORAL_STAIRS, (Blocks.HORN_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.HORN_CORAL_FENCE, (Blocks.HORN_CORAL_BLOCK), (ModBlocks.HORN_CORAL_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.HORN_CORAL_FENCE_GATE, (Blocks.HORN_CORAL_BLOCK), (ModBlocks.HORN_CORAL_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.HORN_CORAL_TRAPDOOR, (ModBlocks.HORN_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.HORN_CORAL_PRESSURE_PLATE, (ModBlocks.HORN_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.HORN_CORAL_BUTTON, Blocks.HORN_CORAL_BLOCK, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.HORN_CORAL_WALL, (Blocks.HORN_CORAL_BLOCK)).offerTo(exporter);
+
+        //dead_horn_coral
+        ModRecipes.DoorRecipe(ModBlocks.DEAD_HORN_CORAL_DOOR, (Blocks.DEAD_HORN_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_HORN_CORAL_SLAB, (Blocks.DEAD_HORN_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.DEAD_HORN_CORAL_STAIRS, (Blocks.DEAD_HORN_CORAL_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.DEAD_HORN_CORAL_FENCE, (Blocks.DEAD_HORN_CORAL_BLOCK), (ModBlocks.DEAD_HORN_CORAL_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.DEAD_HORN_CORAL_FENCE_GATE, (Blocks.DEAD_HORN_CORAL_BLOCK), (ModBlocks.DEAD_HORN_CORAL_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.DEAD_HORN_CORAL_TRAPDOOR, (ModBlocks.DEAD_HORN_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_HORN_CORAL_PRESSURE_PLATE, (ModBlocks.DEAD_HORN_CORAL_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_HORN_CORAL_BUTTON, Blocks.DEAD_HORN_CORAL_BLOCK, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DEAD_HORN_CORAL_WALL, (Blocks.DEAD_HORN_CORAL_BLOCK)).offerTo(exporter);
+
+        //sponge
+        ModRecipes.DoorRecipe(ModBlocks.SPONGE_DOOR, (Blocks.SPONGE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.SPONGE_SLAB, (Blocks.SPONGE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.SPONGE_STAIRS, (Blocks.SPONGE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.SPONGE_FENCE, (Blocks.SPONGE), (ModBlocks.SPONGE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.SPONGE_FENCE_GATE, (Blocks.SPONGE), (ModBlocks.SPONGE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.SPONGE_TRAPDOOR, (ModBlocks.SPONGE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.SPONGE_PRESSURE_PLATE, (ModBlocks.SPONGE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.SPONGE_BUTTON, Blocks.SPONGE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.SPONGE_WALL, (Blocks.SPONGE)).offerTo(exporter);
+
+        //wet_sponge
+        ModRecipes.DoorRecipe(ModBlocks.WET_SPONGE_DOOR, (Blocks.WET_SPONGE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WET_SPONGE_SLAB, (Blocks.WET_SPONGE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.WET_SPONGE_STAIRS, (Blocks.WET_SPONGE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.WET_SPONGE_FENCE, (Blocks.WET_SPONGE), (ModBlocks.WET_SPONGE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.WET_SPONGE_FENCE_GATE, (Blocks.WET_SPONGE), (ModBlocks.WET_SPONGE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.WET_SPONGE_TRAPDOOR, (ModBlocks.WET_SPONGE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WET_SPONGE_PRESSURE_PLATE, (ModBlocks.WET_SPONGE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WET_SPONGE_BUTTON, Blocks.WET_SPONGE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WET_SPONGE_WALL, (Blocks.WET_SPONGE)).offerTo(exporter);
+
+        //melon
+        ModRecipes.DoorRecipe(ModBlocks.MELON_DOOR, (Blocks.MELON)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.MELON_SLAB, (Blocks.MELON)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.MELON_STAIRS, (Blocks.MELON)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.MELON_FENCE, (Blocks.MELON), (ModBlocks.MELON_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.MELON_FENCE_GATE, (Blocks.MELON), (ModBlocks.MELON_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.MELON_TRAPDOOR, (ModBlocks.MELON_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.MELON_PRESSURE_PLATE, (ModBlocks.MELON_SLAB)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.MELON_BUTTON, Blocks.MELON).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.MELON_WALL, (Blocks.MELON)).offerTo(exporter);
+
+        //pumpkin
+        ModRecipes.DoorRecipe(ModBlocks.PUMPKIN_DOOR, (Blocks.PUMPKIN)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.PUMPKIN_SLAB, (Blocks.PUMPKIN)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.PUMPKIN_STAIRS, (Blocks.PUMPKIN)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.PUMPKIN_FENCE, (Blocks.PUMPKIN), (ModBlocks.PUMPKIN_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.PUMPKIN_FENCE_GATE, (Blocks.PUMPKIN), (ModBlocks.PUMPKIN_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.PUMPKIN_TRAPDOOR, (ModBlocks.PUMPKIN_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.PUMPKIN_PRESSURE_PLATE, (ModBlocks.PUMPKIN_SLAB)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.PUMPKIN_BUTTON, Blocks.PUMPKIN).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.PUMPKIN_WALL, (Blocks.PUMPKIN)).offerTo(exporter);
+
+        //hay_block
+        ModRecipes.DoorRecipe(ModBlocks.HAY_BLOCK_DOOR, (Blocks.HAY_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.HAY_BLOCK_SLAB, (Blocks.HAY_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.HAY_BLOCK_STAIRS, (Blocks.HAY_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.HAY_BLOCK_FENCE, (Blocks.HAY_BLOCK), (ModBlocks.HAY_BLOCK_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.HAY_BLOCK_FENCE_GATE, (Blocks.HAY_BLOCK), (ModBlocks.HAY_BLOCK_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.HAY_BLOCK_TRAPDOOR, (ModBlocks.HAY_BLOCK_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.HAY_BLOCK_PRESSURE_PLATE, (ModBlocks.HAY_BLOCK_SLAB)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.HAY_BLOCK_BUTTON, Blocks.HAY_BLOCK).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.HAY_BLOCK_WALL, (Blocks.HAY_BLOCK)).offerTo(exporter);
+
+        //honeycomb
+        ModRecipes.DoorRecipe(ModBlocks.HONEYCOMB_DOOR, (Blocks.HONEYCOMB_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.HONEYCOMB_SLAB, (Blocks.HONEYCOMB_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.HONEYCOMB_STAIRS, (Blocks.HONEYCOMB_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.HONEYCOMB_FENCE, (Blocks.HONEYCOMB_BLOCK), (ModBlocks.HONEYCOMB_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.HONEYCOMB_FENCE_GATE, (Blocks.HONEYCOMB_BLOCK), (ModBlocks.HONEYCOMB_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.HONEYCOMB_TRAPDOOR, (ModBlocks.HONEYCOMB_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.HONEYCOMB_PRESSURE_PLATE, (ModBlocks.HONEYCOMB_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.HONEYCOMB_BUTTON, Blocks.HONEYCOMB_BLOCK, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.HONEYCOMB_WALL, (Blocks.HONEYCOMB_BLOCK)).offerTo(exporter);
+
+        //SLIME
+        ModRecipes.DoorRecipe(ModBlocks.SLIME_DOOR, (Blocks.SLIME_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.SLIME_SLAB, (Blocks.SLIME_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.SLIME_STAIRS, (Blocks.SLIME_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.SLIME_FENCE, (Blocks.SLIME_BLOCK), (ModBlocks.SLIME_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.SLIME_FENCE_GATE, (Blocks.SLIME_BLOCK), (ModBlocks.SLIME_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.SLIME_TRAPDOOR, (ModBlocks.SLIME_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.SLIME_PRESSURE_PLATE, (ModBlocks.SLIME_SLAB)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.SLIME_BUTTON, Blocks.SLIME_BLOCK).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.SLIME_WALL, (Blocks.SLIME_BLOCK)).offerTo(exporter);
+
+        //HONEY
+        ModRecipes.DoorRecipe(ModBlocks.HONEY_DOOR, (Blocks.HONEY_BLOCK)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.HONEY_SLAB, (Blocks.HONEY_BLOCK)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.HONEY_STAIRS, (Blocks.HONEY_BLOCK)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.HONEY_FENCE, (Blocks.HONEY_BLOCK), (ModBlocks.HONEY_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.HONEY_FENCE_GATE, (Blocks.HONEY_BLOCK), (ModBlocks.HONEY_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.HONEY_TRAPDOOR, (ModBlocks.HONEY_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.HONEY_PRESSURE_PLATE, (ModBlocks.HONEY_SLAB)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.HONEY_BUTTON, Blocks.HONEY_BLOCK).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.HONEY_WALL, (Blocks.HONEY_BLOCK)).offerTo(exporter);
+
+        //OCHRE_FROGLIGHT
+        ModRecipes.DoorRecipe(ModBlocks.OCHRE_FROGLIGHT_DOOR, (Blocks.OCHRE_FROGLIGHT)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.OCHRE_FROGLIGHT_SLAB, (Blocks.OCHRE_FROGLIGHT)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.OCHRE_FROGLIGHT_STAIRS, (Blocks.OCHRE_FROGLIGHT)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.OCHRE_FROGLIGHT_FENCE, (Blocks.OCHRE_FROGLIGHT), (ModBlocks.OCHRE_FROGLIGHT_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.OCHRE_FROGLIGHT_FENCE_GATE, (Blocks.OCHRE_FROGLIGHT), (ModBlocks.OCHRE_FROGLIGHT_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.OCHRE_FROGLIGHT_TRAPDOOR, (ModBlocks.OCHRE_FROGLIGHT_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.OCHRE_FROGLIGHT_PRESSURE_PLATE, (ModBlocks.OCHRE_FROGLIGHT_SLAB)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.OCHRE_FROGLIGHT_BUTTON, Blocks.OCHRE_FROGLIGHT).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.OCHRE_FROGLIGHT_WALL, (Blocks.OCHRE_FROGLIGHT)).offerTo(exporter);
 
 
 
@@ -2813,14 +3044,5 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.IngredientRecipe(RecipeCategory.MISC, ModItems.COPPER_BIT, Items.COPPER_INGOT)
                 .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT)).offerTo(exporter);
     }
-
-
-
-
-
-
-
-
-
 }
 

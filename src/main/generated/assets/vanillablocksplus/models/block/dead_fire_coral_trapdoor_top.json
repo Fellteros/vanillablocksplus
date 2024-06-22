@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "vanillablocksplus:block/dead_fire_coral_trapdoor"
+  }
+}

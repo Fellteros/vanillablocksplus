@@ -1,21 +1,34 @@
 package net.fellter.vanillablocksplus.custom_blocks.sand;
 
-import net.minecraft.block.BlockState;
-import net.minecraft.block.LandingBlock;
-import net.minecraft.block.WallBlock;
+import com.google.common.collect.ImmutableMap;
+import com.google.common.collect.Maps;
+import net.minecraft.block.*;
+import net.minecraft.block.enums.WallShape;
 import net.minecraft.client.util.ParticleUtil;
 import net.minecraft.entity.FallingBlockEntity;
+import net.minecraft.fluid.FluidState;
+import net.minecraft.fluid.Fluids;
 import net.minecraft.particle.BlockStateParticleEffect;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.state.property.BooleanProperty;
+import net.minecraft.state.property.EnumProperty;
+import net.minecraft.util.Util;
+import net.minecraft.util.function.BooleanBiFunction;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 
+import java.util.Map;
+
 public class FallingWallBlock extends WallBlock implements LandingBlock {
+    
+
     public FallingWallBlock(Settings settings) {
         super(settings);
     }

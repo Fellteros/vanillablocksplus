@@ -248,6 +248,27 @@
     "vanillablocksplus:brown_mushroom_fence_gate",
     "vanillablocksplus:red_mushroom_fence_gate",
     "vanillablocksplus:nether_wart_fence_gate",
-    "vanillablocksplus:warped_wart_fence_gate"
+    "vanillablocksplus:warped_wart_fence_gate",
+    "vanillablocksplus:shroomlight_fence_gate",
+    "vanillablocksplus:dried_kelp_fence_gate",
+    "vanillablocksplus:tube_coral_fence_gate",
+    "vanillablocksplus:dead_tube_coral_fence_gate",
+    "vanillablocksplus:brain_coral_fence_gate",
+    "vanillablocksplus:dead_brain_coral_fence_gate",
+    "vanillablocksplus:bubble_coral_fence_gate",
+    "vanillablocksplus:dead_bubble_coral_fence_gate",
+    "vanillablocksplus:fire_coral_fence_gate",
+    "vanillablocksplus:dead_fire_coral_fence_gate",
+    "vanillablocksplus:horn_coral_fence_gate",
+    "vanillablocksplus:dead_horn_coral_fence_gate",
+    "vanillablocksplus:sponge_fence_gate",
+    "vanillablocksplus:wet_sponge_fence_gate",
+    "vanillablocksplus:melon_fence_gate",
+    "vanillablocksplus:pumpkin_fence_gate",
+    "vanillablocksplus:hay_block_fence_gate",
+    "vanillablocksplus:honeycomb_fence_gate",
+    "vanillablocksplus:slime_fence_gate",
+    "vanillablocksplus:honey_fence_gate",
+    "vanillablocksplus:ochre_froglight_fence_gate"
   ]
 }

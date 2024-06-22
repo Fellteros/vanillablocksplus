@@ -9,6 +9,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.data.client.TextureMap;
 
 import static net.fellter.vanillablocksplus.test.ModBlockStateModelGenerator.*;
 
@@ -2418,6 +2419,189 @@ public class ModModelProvider extends FabricModelProvider {
                 .fence(ModBlocks.WARPED_WART_FENCE)
                 .fenceGate(ModBlocks.WARPED_WART_FENCE_GATE)
                 .pressurePlate(ModBlocks.WARPED_WART_PRESSURE_PLATE);
+        //shroomlight
+        bsmg.registerCubeAllModelTexturePool(Blocks.SHROOMLIGHT)
+                .button(ModBlocks.SHROOMLIGHT_BUTTON)
+                .wall(ModBlocks.SHROOMLIGHT_WALL)
+                .slab(ModBlocks.SHROOMLIGHT_SLAB)
+                .stairs(ModBlocks.SHROOMLIGHT_STAIRS)
+                .fence(ModBlocks.SHROOMLIGHT_FENCE)
+                .fenceGate(ModBlocks.SHROOMLIGHT_FENCE_GATE)
+                .pressurePlate(ModBlocks.SHROOMLIGHT_PRESSURE_PLATE);
+        //dried_kelp
+        registerCustomButton(bsmg, ModBlocks.DRIED_KELP_BUTTON, ModTextureMap.customSTB(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomWall(bsmg, ModBlocks.DRIED_KELP_WALL, ModTextureMap.customSTB(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomSlab(bsmg, ModBlocks.DRIED_KELP_SLAB, Blocks.DRIED_KELP_BLOCK, ModTextureMap.customSTB(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomStairs(bsmg, ModBlocks.DRIED_KELP_STAIRS, ModTextureMap.customSTB(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomFence(bsmg, ModBlocks.DRIED_KELP_FENCE, ModTextureMap.customSTB(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomFenceGate(bsmg, ModBlocks.DRIED_KELP_FENCE_GATE, ModTextureMap.customSTB(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomPressurePlate(bsmg, ModBlocks.DRIED_KELP_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
+        //tube_coral_block
+        bsmg.registerCubeAllModelTexturePool(Blocks.TUBE_CORAL_BLOCK)
+                .button(ModBlocks.TUBE_CORAL_BUTTON)
+                .wall(ModBlocks.TUBE_CORAL_WALL)
+                .slab(ModBlocks.TUBE_CORAL_SLAB)
+                .stairs(ModBlocks.TUBE_CORAL_STAIRS)
+                .fence(ModBlocks.TUBE_CORAL_FENCE)
+                .fenceGate(ModBlocks.TUBE_CORAL_FENCE_GATE)
+                .pressurePlate(ModBlocks.TUBE_CORAL_PRESSURE_PLATE);
+        //dead_tube_coral_block
+        bsmg.registerCubeAllModelTexturePool(Blocks.DEAD_TUBE_CORAL_BLOCK)
+                .button(ModBlocks.DEAD_TUBE_CORAL_BUTTON)
+                .wall(ModBlocks.DEAD_TUBE_CORAL_WALL)
+                .slab(ModBlocks.DEAD_TUBE_CORAL_SLAB)
+                .stairs(ModBlocks.DEAD_TUBE_CORAL_STAIRS)
+                .fence(ModBlocks.DEAD_TUBE_CORAL_FENCE)
+                .fenceGate(ModBlocks.DEAD_TUBE_CORAL_FENCE_GATE)
+                .pressurePlate(ModBlocks.DEAD_TUBE_CORAL_PRESSURE_PLATE);
+        //brain_coral_block
+        bsmg.registerCubeAllModelTexturePool(Blocks.BRAIN_CORAL_BLOCK)
+                .button(ModBlocks.BRAIN_CORAL_BUTTON)
+                .wall(ModBlocks.BRAIN_CORAL_WALL)
+                .slab(ModBlocks.BRAIN_CORAL_SLAB)
+                .stairs(ModBlocks.BRAIN_CORAL_STAIRS)
+                .fence(ModBlocks.BRAIN_CORAL_FENCE)
+                .fenceGate(ModBlocks.BRAIN_CORAL_FENCE_GATE)
+                .pressurePlate(ModBlocks.BRAIN_CORAL_PRESSURE_PLATE);
+        //dead_brain_coral_block
+        bsmg.registerCubeAllModelTexturePool(Blocks.DEAD_BRAIN_CORAL_BLOCK)
+                .button(ModBlocks.DEAD_BRAIN_CORAL_BUTTON)
+                .wall(ModBlocks.DEAD_BRAIN_CORAL_WALL)
+                .slab(ModBlocks.DEAD_BRAIN_CORAL_SLAB)
+                .stairs(ModBlocks.DEAD_BRAIN_CORAL_STAIRS)
+                .fence(ModBlocks.DEAD_BRAIN_CORAL_FENCE)
+                .fenceGate(ModBlocks.DEAD_BRAIN_CORAL_FENCE_GATE)
+                .pressurePlate(ModBlocks.DEAD_BRAIN_CORAL_PRESSURE_PLATE);
+        //bubble_coral_block
+        bsmg.registerCubeAllModelTexturePool(Blocks.BUBBLE_CORAL_BLOCK)
+                .button(ModBlocks.BUBBLE_CORAL_BUTTON)
+                .wall(ModBlocks.BUBBLE_CORAL_WALL)
+                .slab(ModBlocks.BUBBLE_CORAL_SLAB)
+                .stairs(ModBlocks.BUBBLE_CORAL_STAIRS)
+                .fence(ModBlocks.BUBBLE_CORAL_FENCE)
+                .fenceGate(ModBlocks.BUBBLE_CORAL_FENCE_GATE)
+                .pressurePlate(ModBlocks.BUBBLE_CORAL_PRESSURE_PLATE);
+        //dead_bubble_coral_block
+        bsmg.registerCubeAllModelTexturePool(Blocks.DEAD_BUBBLE_CORAL_BLOCK)
+                .button(ModBlocks.DEAD_BUBBLE_CORAL_BUTTON)
+                .wall(ModBlocks.DEAD_BUBBLE_CORAL_WALL)
+                .slab(ModBlocks.DEAD_BUBBLE_CORAL_SLAB)
+                .stairs(ModBlocks.DEAD_BUBBLE_CORAL_STAIRS)
+                .fence(ModBlocks.DEAD_BUBBLE_CORAL_FENCE)
+                .fenceGate(ModBlocks.DEAD_BUBBLE_CORAL_FENCE_GATE)
+                .pressurePlate(ModBlocks.DEAD_BUBBLE_CORAL_PRESSURE_PLATE);
+        //fire_coral_block
+        bsmg.registerCubeAllModelTexturePool(Blocks.FIRE_CORAL_BLOCK)
+                .button(ModBlocks.FIRE_CORAL_BUTTON)
+                .wall(ModBlocks.FIRE_CORAL_WALL)
+                .slab(ModBlocks.FIRE_CORAL_SLAB)
+                .stairs(ModBlocks.FIRE_CORAL_STAIRS)
+                .fence(ModBlocks.FIRE_CORAL_FENCE)
+                .fenceGate(ModBlocks.FIRE_CORAL_FENCE_GATE)
+                .pressurePlate(ModBlocks.FIRE_CORAL_PRESSURE_PLATE);
+        //dead_fire_coral_block
+        bsmg.registerCubeAllModelTexturePool(Blocks.DEAD_FIRE_CORAL_BLOCK)
+                .button(ModBlocks.DEAD_FIRE_CORAL_BUTTON)
+                .wall(ModBlocks.DEAD_FIRE_CORAL_WALL)
+                .slab(ModBlocks.DEAD_FIRE_CORAL_SLAB)
+                .stairs(ModBlocks.DEAD_FIRE_CORAL_STAIRS)
+                .fence(ModBlocks.DEAD_FIRE_CORAL_FENCE)
+                .fenceGate(ModBlocks.DEAD_FIRE_CORAL_FENCE_GATE)
+                .pressurePlate(ModBlocks.DEAD_FIRE_CORAL_PRESSURE_PLATE);
+        //horn_coral_block
+        bsmg.registerCubeAllModelTexturePool(Blocks.HORN_CORAL_BLOCK)
+                .button(ModBlocks.HORN_CORAL_BUTTON)
+                .wall(ModBlocks.HORN_CORAL_WALL)
+                .slab(ModBlocks.HORN_CORAL_SLAB)
+                .stairs(ModBlocks.HORN_CORAL_STAIRS)
+                .fence(ModBlocks.HORN_CORAL_FENCE)
+                .fenceGate(ModBlocks.HORN_CORAL_FENCE_GATE)
+                .pressurePlate(ModBlocks.HORN_CORAL_PRESSURE_PLATE);
+        //dead_horn_coral_block
+        bsmg.registerCubeAllModelTexturePool(Blocks.DEAD_HORN_CORAL_BLOCK)
+                .button(ModBlocks.DEAD_HORN_CORAL_BUTTON)
+                .wall(ModBlocks.DEAD_HORN_CORAL_WALL)
+                .slab(ModBlocks.DEAD_HORN_CORAL_SLAB)
+                .stairs(ModBlocks.DEAD_HORN_CORAL_STAIRS)
+                .fence(ModBlocks.DEAD_HORN_CORAL_FENCE)
+                .fenceGate(ModBlocks.DEAD_HORN_CORAL_FENCE_GATE)
+                .pressurePlate(ModBlocks.DEAD_HORN_CORAL_PRESSURE_PLATE);
+        //sponge_block
+        bsmg.registerCubeAllModelTexturePool(Blocks.SPONGE)
+                .button(ModBlocks.SPONGE_BUTTON)
+                .wall(ModBlocks.SPONGE_WALL)
+                .slab(ModBlocks.SPONGE_SLAB)
+                .stairs(ModBlocks.SPONGE_STAIRS)
+                .fence(ModBlocks.SPONGE_FENCE)
+                .fenceGate(ModBlocks.SPONGE_FENCE_GATE)
+                .pressurePlate(ModBlocks.SPONGE_PRESSURE_PLATE);
+        //wet_sponge_block
+        bsmg.registerCubeAllModelTexturePool(Blocks.WET_SPONGE)
+                .button(ModBlocks.WET_SPONGE_BUTTON)
+                .wall(ModBlocks.WET_SPONGE_WALL)
+                .slab(ModBlocks.WET_SPONGE_SLAB)
+                .stairs(ModBlocks.WET_SPONGE_STAIRS)
+                .fence(ModBlocks.WET_SPONGE_FENCE)
+                .fenceGate(ModBlocks.WET_SPONGE_FENCE_GATE)
+                .pressurePlate(ModBlocks.WET_SPONGE_PRESSURE_PLATE);
+        //melon
+        registerCustomButton(bsmg, ModBlocks.MELON_BUTTON, ModTextureMap.sideAndTopForEnds(Blocks.MELON));
+        registerCustomWall(bsmg, ModBlocks.MELON_WALL, ModTextureMap.sideAndTopForEnds(Blocks.MELON));
+        registerCustomSlab(bsmg, ModBlocks.MELON_SLAB, Blocks.MELON, ModTextureMap.sideAndTopForEnds(Blocks.MELON));
+        registerCustomStairs(bsmg, ModBlocks.MELON_STAIRS, ModTextureMap.sideAndTopForEnds(Blocks.MELON));
+        registerCustomFence(bsmg, ModBlocks.MELON_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.MELON));
+        registerCustomFenceGate(bsmg, ModBlocks.MELON_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.MELON));
+        registerCustomPressurePlate(bsmg, ModBlocks.MELON_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.MELON));
+        //pumpkin
+        registerCustomButton(bsmg, ModBlocks.PUMPKIN_BUTTON, ModTextureMap.sideAndTopForEnds(Blocks.PUMPKIN));
+        registerCustomWall(bsmg, ModBlocks.PUMPKIN_WALL, ModTextureMap.sideAndTopForEnds(Blocks.PUMPKIN));
+        registerCustomSlab(bsmg, ModBlocks.PUMPKIN_SLAB, Blocks.PUMPKIN, ModTextureMap.sideAndTopForEnds(Blocks.PUMPKIN));
+        registerCustomStairs(bsmg, ModBlocks.PUMPKIN_STAIRS, ModTextureMap.sideAndTopForEnds(Blocks.PUMPKIN));
+        registerCustomFence(bsmg, ModBlocks.PUMPKIN_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.PUMPKIN));
+        registerCustomFenceGate(bsmg, ModBlocks.PUMPKIN_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.PUMPKIN));
+        registerCustomPressurePlate(bsmg, ModBlocks.PUMPKIN_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.PUMPKIN));
+        //hay_block
+        registerCustomButton(bsmg, ModBlocks.HAY_BLOCK_BUTTON, ModTextureMap.sideAndTopForEnds(Blocks.HAY_BLOCK));
+        registerCustomWall(bsmg, ModBlocks.HAY_BLOCK_WALL, ModTextureMap.sideAndTopForEnds(Blocks.HAY_BLOCK));
+        registerCustomSlab(bsmg, ModBlocks.HAY_BLOCK_SLAB, Blocks.HAY_BLOCK, ModTextureMap.sideAndTopForEnds(Blocks.HAY_BLOCK));
+        registerCustomStairs(bsmg, ModBlocks.HAY_BLOCK_STAIRS, ModTextureMap.sideAndTopForEnds(Blocks.HAY_BLOCK));
+        registerCustomFence(bsmg, ModBlocks.HAY_BLOCK_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.HAY_BLOCK));
+        registerCustomFenceGate(bsmg, ModBlocks.HAY_BLOCK_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.HAY_BLOCK));
+        registerCustomPressurePlate(bsmg, ModBlocks.HAY_BLOCK_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.HAY_BLOCK));
+        //honeycomb
+        bsmg.registerCubeAllModelTexturePool(Blocks.HONEYCOMB_BLOCK)
+                .button(ModBlocks.HONEYCOMB_BUTTON)
+                .wall(ModBlocks.HONEYCOMB_WALL)
+                .slab(ModBlocks.HONEYCOMB_SLAB)
+                .stairs(ModBlocks.HONEYCOMB_STAIRS)
+                .fence(ModBlocks.HONEYCOMB_FENCE)
+                .fenceGate(ModBlocks.HONEYCOMB_FENCE_GATE)
+                .pressurePlate(ModBlocks.HONEYCOMB_PRESSURE_PLATE);
+        //slime
+        bsmg.registerCubeAllModelTexturePool(Blocks.SLIME_BLOCK)
+                .button(ModBlocks.SLIME_BUTTON)
+                .wall(ModBlocks.SLIME_WALL)
+                .slab(ModBlocks.SLIME_SLAB)
+                .stairs(ModBlocks.SLIME_STAIRS)
+                .fence(ModBlocks.SLIME_FENCE)
+                .fenceGate(ModBlocks.SLIME_FENCE_GATE)
+                .pressurePlate(ModBlocks.SLIME_PRESSURE_PLATE);
+        //honey
+        registerCustomButton(bsmg, ModBlocks.HONEY_BUTTON, TextureMap.sideTopBottom(Blocks.HONEY_BLOCK));
+        registerCustomWall(bsmg, ModBlocks.HONEY_WALL, TextureMap.sideTopBottom(Blocks.HONEY_BLOCK));
+        registerCustomSlab(bsmg, ModBlocks.HONEY_SLAB, Blocks.HONEY_BLOCK, TextureMap.sideTopBottom(Blocks.HONEY_BLOCK));
+        registerCustomStairs(bsmg, ModBlocks.HONEY_STAIRS, TextureMap.sideTopBottom(Blocks.HONEY_BLOCK));
+        registerCustomFence(bsmg, ModBlocks.HONEY_FENCE, TextureMap.sideTopBottom(Blocks.HONEY_BLOCK));
+        registerCustomFenceGate(bsmg, ModBlocks.HONEY_FENCE_GATE, TextureMap.sideTopBottom(Blocks.HONEY_BLOCK));
+        registerCustomPressurePlate(bsmg, ModBlocks.HONEY_PRESSURE_PLATE, TextureMap.sideTopBottom(Blocks.HONEY_BLOCK));
+        //ochre_froglight
+        registerCustomButton(bsmg, ModBlocks.OCHRE_FROGLIGHT_BUTTON, ModTextureMap.sideAndTopForEnds(Blocks.OCHRE_FROGLIGHT));
+        registerCustomWall(bsmg, ModBlocks.OCHRE_FROGLIGHT_WALL, ModTextureMap.sideAndTopForEnds(Blocks.OCHRE_FROGLIGHT));
+        registerCustomSlab(bsmg, ModBlocks.OCHRE_FROGLIGHT_SLAB, Blocks.OCHRE_FROGLIGHT, ModTextureMap.sideAndTopForEnds(Blocks.OCHRE_FROGLIGHT));
+        registerCustomStairs(bsmg, ModBlocks.OCHRE_FROGLIGHT_STAIRS, ModTextureMap.sideAndTopForEnds(Blocks.OCHRE_FROGLIGHT));
+        registerCustomFence(bsmg, ModBlocks.OCHRE_FROGLIGHT_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.OCHRE_FROGLIGHT));
+        registerCustomFenceGate(bsmg, ModBlocks.OCHRE_FROGLIGHT_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.OCHRE_FROGLIGHT));
+        registerCustomPressurePlate(bsmg, ModBlocks.OCHRE_FROGLIGHT_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.OCHRE_FROGLIGHT));
 
 
 
@@ -3195,6 +3379,69 @@ public class ModModelProvider extends FabricModelProvider {
         //warped_wart
         bsmg.registerOrientableTrapdoor(ModBlocks.WARPED_WART_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.WARPED_WART_DOOR);
+        //shroomlight
+        bsmg.registerOrientableTrapdoor(ModBlocks.SHROOMLIGHT_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.SHROOMLIGHT_DOOR);
+        //dried_kelp
+        bsmg.registerOrientableTrapdoor(ModBlocks.DRIED_KELP_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DRIED_KELP_DOOR);
+        //tube_coral_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.TUBE_CORAL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.TUBE_CORAL_DOOR);
+        //dead_tube_coral_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.DEAD_TUBE_CORAL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DEAD_TUBE_CORAL_DOOR);
+        //brain_coral_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.BRAIN_CORAL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BRAIN_CORAL_DOOR);
+        //dead_brain_coral_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.DEAD_BRAIN_CORAL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DEAD_BRAIN_CORAL_DOOR);
+        //bubble_coral_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.BUBBLE_CORAL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.BUBBLE_CORAL_DOOR);
+        //dead_bubble_coral_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.DEAD_BUBBLE_CORAL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DEAD_BUBBLE_CORAL_DOOR);
+        //fire_coral_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.FIRE_CORAL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.FIRE_CORAL_DOOR);
+        //dead_fire_coral_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.DEAD_FIRE_CORAL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DEAD_FIRE_CORAL_DOOR);
+        //horn_coral_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.HORN_CORAL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.HORN_CORAL_DOOR);
+        //dead_horn_coral_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.DEAD_HORN_CORAL_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.DEAD_HORN_CORAL_DOOR);
+        //sponge_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.SPONGE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.SPONGE_DOOR);
+        //wet_sponge_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.WET_SPONGE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WET_SPONGE_DOOR);
+        //melon_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.MELON_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.MELON_DOOR);
+        //pumpkin_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.PUMPKIN_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PUMPKIN_DOOR);
+        //hay_block_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.HAY_BLOCK_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.HAY_BLOCK_DOOR);
+        //honeycomb_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.HONEYCOMB_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.HONEYCOMB_DOOR);
+        //slime_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.SLIME_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.SLIME_DOOR);
+        //honey_block
+        bsmg.registerOrientableTrapdoor(ModBlocks.HONEY_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.HONEY_DOOR);
+        //ochre_froglight
+        bsmg.registerOrientableTrapdoor(ModBlocks.OCHRE_FROGLIGHT_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.OCHRE_FROGLIGHT_DOOR);
 
 
 

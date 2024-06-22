@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "minecraft:block/dead_fire_coral_block"
+  }
+}

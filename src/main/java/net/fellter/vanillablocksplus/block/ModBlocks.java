@@ -9,6 +9,9 @@ import net.fellter.vanillablocksplus.custom_blocks.copper.*;
 import net.fellter.vanillablocksplus.custom_blocks.glass.*;
 import net.fellter.vanillablocksplus.custom_blocks.redstone.*;
 import net.fellter.vanillablocksplus.custom_blocks.sand.*;
+import net.fellter.vanillablocksplus.custom_blocks.slime.*;
+import net.fellter.vanillablocksplus.custom_blocks.sponge.*;
+import net.fellter.vanillablocksplus.custom_blocks.wet_sponge.*;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
 import net.minecraft.block.piston.PistonBehavior;
@@ -4995,7 +4998,7 @@ public class ModBlocks {
     public static final Block OAK_LEAVES_STAIRS = registerBlock("oak_leaves_stairs",
             new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
     public static final Block OAK_LEAVES_SLAB = registerBlock("oak_leaves_slab",
-            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
     public static final Block OAK_LEAVES_BUTTON = registerBlock("oak_leaves_button",
             new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE, 10, false));
     public static final Block OAK_LEAVES_PRESSURE_PLATE = registerBlock("oak_leaves_pressure_plate",
@@ -5016,7 +5019,7 @@ public class ModBlocks {
     public static final Block SPRUCE_LEAVES_STAIRS = registerBlock("spruce_leaves_stairs",
             new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
     public static final Block SPRUCE_LEAVES_SLAB = registerBlock("spruce_leaves_slab",
-            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
     public static final Block SPRUCE_LEAVES_BUTTON = registerBlock("spruce_leaves_button",
             new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE, 10, false));
     public static final Block SPRUCE_LEAVES_PRESSURE_PLATE = registerBlock("spruce_leaves_pressure_plate",
@@ -5037,7 +5040,7 @@ public class ModBlocks {
     public static final Block BIRCH_LEAVES_STAIRS = registerBlock("birch_leaves_stairs",
             new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
     public static final Block BIRCH_LEAVES_SLAB = registerBlock("birch_leaves_slab",
-            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
     public static final Block BIRCH_LEAVES_BUTTON = registerBlock("birch_leaves_button",
             new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE, 10, false));
     public static final Block BIRCH_LEAVES_PRESSURE_PLATE = registerBlock("birch_leaves_pressure_plate",
@@ -5058,7 +5061,7 @@ public class ModBlocks {
     public static final Block JUNGLE_LEAVES_STAIRS = registerBlock("jungle_leaves_stairs",
             new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
     public static final Block JUNGLE_LEAVES_SLAB = registerBlock("jungle_leaves_slab",
-            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
     public static final Block JUNGLE_LEAVES_BUTTON = registerBlock("jungle_leaves_button",
             new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE, 10, false));
     public static final Block JUNGLE_LEAVES_PRESSURE_PLATE = registerBlock("jungle_leaves_pressure_plate",
@@ -5079,7 +5082,7 @@ public class ModBlocks {
     public static final Block ACACIA_LEAVES_STAIRS = registerBlock("acacia_leaves_stairs",
             new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
     public static final Block ACACIA_LEAVES_SLAB = registerBlock("acacia_leaves_slab",
-            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
     public static final Block ACACIA_LEAVES_BUTTON = registerBlock("acacia_leaves_button",
             new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE, 10, false));
     public static final Block ACACIA_LEAVES_PRESSURE_PLATE = registerBlock("acacia_leaves_pressure_plate",
@@ -5100,7 +5103,7 @@ public class ModBlocks {
     public static final Block DARK_OAK_LEAVES_STAIRS = registerBlock("dark_oak_leaves_stairs",
             new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
     public static final Block DARK_OAK_LEAVES_SLAB = registerBlock("dark_oak_leaves_slab",
-            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
     public static final Block DARK_OAK_LEAVES_BUTTON = registerBlock("dark_oak_leaves_button",
             new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE, 10, false));
     public static final Block DARK_OAK_LEAVES_PRESSURE_PLATE = registerBlock("dark_oak_leaves_pressure_plate",
@@ -5121,7 +5124,7 @@ public class ModBlocks {
     public static final Block MANGROVE_LEAVES_STAIRS = registerBlock("mangrove_leaves_stairs",
             new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
     public static final Block MANGROVE_LEAVES_SLAB = registerBlock("mangrove_leaves_slab",
-            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF)));
     public static final Block MANGROVE_LEAVES_BUTTON = registerBlock("mangrove_leaves_button",
             new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF), BlockSetType.STONE, 10, false));
     public static final Block MANGROVE_LEAVES_PRESSURE_PLATE = registerBlock("mangrove_leaves_pressure_plate",
@@ -5142,7 +5145,7 @@ public class ModBlocks {
     public static final Block CHERRY_LEAVES_STAIRS = registerBlock("cherry_leaves_stairs",
             new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES)));
     public static final Block CHERRY_LEAVES_SLAB = registerBlock("cherry_leaves_slab",
-            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES)));
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES)));
     public static final Block CHERRY_LEAVES_BUTTON = registerBlock("cherry_leaves_button",
             new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES), BlockSetType.STONE, 10, false));
     public static final Block CHERRY_LEAVES_PRESSURE_PLATE = registerBlock("cherry_leaves_pressure_plate",
@@ -5163,7 +5166,7 @@ public class ModBlocks {
     public static final Block AZALEA_LEAVES_STAIRS = registerBlock("azalea_leaves_stairs",
             new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES)));
     public static final Block AZALEA_LEAVES_SLAB = registerBlock("azalea_leaves_slab",
-            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES)));
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES)));
     public static final Block AZALEA_LEAVES_BUTTON = registerBlock("azalea_leaves_button",
             new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES), BlockSetType.STONE, 10, false));
     public static final Block AZALEA_LEAVES_PRESSURE_PLATE = registerBlock("azalea_leaves_pressure_plate",
@@ -5184,7 +5187,7 @@ public class ModBlocks {
     public static final Block FLOWERING_AZALEA_LEAVES_STAIRS = registerBlock("flowering_azalea_leaves_stairs",
             new StairsBlock(Blocks.AIR.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES)));
     public static final Block FLOWERING_AZALEA_LEAVES_SLAB = registerBlock("flowering_azalea_leaves_slab",
-            new SlabBlock (FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES)));
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES)));
     public static final Block FLOWERING_AZALEA_LEAVES_BUTTON = registerBlock("flowering_azalea_leaves_button",
             new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES), BlockSetType.STONE, 10, false));
     public static final Block FLOWERING_AZALEA_LEAVES_PRESSURE_PLATE = registerBlock("flowering_azalea_leaves_pressure_plate",
@@ -5205,7 +5208,7 @@ public class ModBlocks {
     public static final Block BROWN_MUSHROOM_STAIRS = registerBlock("brown_mushroom_stairs",
             new StairsBlock(Blocks.BROWN_MUSHROOM_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BROWN_MUSHROOM_BLOCK)));
     public static final Block BROWN_MUSHROOM_SLAB = registerBlock("brown_mushroom_slab",
-            new SlabBlock (FabricBlockSettings.copyOf(Blocks.BROWN_MUSHROOM_BLOCK)));
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.BROWN_MUSHROOM_BLOCK)));
     public static final Block BROWN_MUSHROOM_BUTTON = registerBlock("brown_mushroom_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.BROWN_MUSHROOM_BLOCK), BlockSetType.STONE, 10, false));
     public static final Block BROWN_MUSHROOM_PRESSURE_PLATE = registerBlock("brown_mushroom_pressure_plate",
@@ -5226,7 +5229,7 @@ public class ModBlocks {
     public static final Block RED_MUSHROOM_STAIRS = registerBlock("red_mushroom_stairs",
             new StairsBlock(Blocks.RED_MUSHROOM_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK)));
     public static final Block RED_MUSHROOM_SLAB = registerBlock("red_mushroom_slab",
-            new SlabBlock (FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK)));
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK)));
     public static final Block RED_MUSHROOM_BUTTON = registerBlock("red_mushroom_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK), BlockSetType.STONE, 10, false));
     public static final Block RED_MUSHROOM_PRESSURE_PLATE = registerBlock("red_mushroom_pressure_plate",
@@ -5247,7 +5250,7 @@ public class ModBlocks {
     public static final Block NETHER_WART_STAIRS = registerBlock("nether_wart_stairs",
             new StairsBlock(Blocks.NETHER_WART_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.NETHER_WART_BLOCK)));
     public static final Block NETHER_WART_SLAB = registerBlock("nether_wart_slab",
-            new SlabBlock (FabricBlockSettings.copyOf(Blocks.NETHER_WART_BLOCK)));
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.NETHER_WART_BLOCK)));
     public static final Block NETHER_WART_BUTTON = registerBlock("nether_wart_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.NETHER_WART_BLOCK), BlockSetType.STONE, 10, false));
     public static final Block NETHER_WART_PRESSURE_PLATE = registerBlock("nether_wart_pressure_plate",
@@ -5268,7 +5271,7 @@ public class ModBlocks {
     public static final Block WARPED_WART_STAIRS = registerBlock("warped_wart_stairs",
             new StairsBlock(Blocks.WARPED_WART_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK)));
     public static final Block WARPED_WART_SLAB = registerBlock("warped_wart_slab",
-            new SlabBlock (FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK)));
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK)));
     public static final Block WARPED_WART_BUTTON = registerBlock("warped_wart_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK), BlockSetType.STONE, 10, false));
     public static final Block WARPED_WART_PRESSURE_PLATE = registerBlock("warped_wart_pressure_plate",
@@ -5284,6 +5287,447 @@ public class ModBlocks {
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK), BlockSetType.STONE));
     public static final Block WARPED_WART_WALL = registerBlock("warped_wart_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK)));
+
+    //shroomlight
+    public static final Block SHROOMLIGHT_STAIRS = registerBlock("shroomlight_stairs",
+            new StairsBlock(Blocks.SHROOMLIGHT.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SHROOMLIGHT)));
+    public static final Block SHROOMLIGHT_SLAB = registerBlock("shroomlight_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.SHROOMLIGHT)));
+    public static final Block SHROOMLIGHT_BUTTON = registerBlock("shroomlight_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.SHROOMLIGHT), BlockSetType.STONE, 10, false));
+    public static final Block SHROOMLIGHT_PRESSURE_PLATE = registerBlock("shroomlight_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.SHROOMLIGHT), BlockSetType.STONE));
+    public static final Block SHROOMLIGHT_FENCE = registerBlock("shroomlight_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.SHROOMLIGHT)));
+    public static final Block SHROOMLIGHT_FENCE_GATE = registerBlock("shroomlight_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.SHROOMLIGHT), WoodType.OAK));
+    public static final Block SHROOMLIGHT_DOOR = registerBlock("shroomlight_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.SHROOMLIGHT), BlockSetType.STONE));
+    public static final Block SHROOMLIGHT_TRAPDOOR = registerBlock("shroomlight_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.SHROOMLIGHT), BlockSetType.STONE));
+    public static final Block SHROOMLIGHT_WALL = registerBlock("shroomlight_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.SHROOMLIGHT)));
+
+    //dried_kelp
+    public static final Block DRIED_KELP_STAIRS = registerBlock("dried_kelp_stairs",
+            new StairsBlock(Blocks.DRIED_KELP_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DRIED_KELP_BLOCK)));
+    public static final Block DRIED_KELP_SLAB = registerBlock("dried_kelp_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DRIED_KELP_BLOCK)));
+    public static final Block DRIED_KELP_BUTTON = registerBlock("dried_kelp_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.DRIED_KELP_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block DRIED_KELP_PRESSURE_PLATE = registerBlock("dried_kelp_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.DRIED_KELP_BLOCK), BlockSetType.STONE));
+    public static final Block DRIED_KELP_FENCE = registerBlock("dried_kelp_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.DRIED_KELP_BLOCK)));
+    public static final Block DRIED_KELP_FENCE_GATE = registerBlock("dried_kelp_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.DRIED_KELP_BLOCK), WoodType.OAK));
+    public static final Block DRIED_KELP_DOOR = registerBlock("dried_kelp_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.DRIED_KELP_BLOCK), BlockSetType.STONE));
+    public static final Block DRIED_KELP_TRAPDOOR = registerBlock("dried_kelp_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.DRIED_KELP_BLOCK), BlockSetType.STONE));
+    public static final Block DRIED_KELP_WALL = registerBlock("dried_kelp_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.DRIED_KELP_BLOCK)));
+
+    //TUBE_CORAL
+    public static final Block TUBE_CORAL_STAIRS = registerBlock("tube_coral_stairs",
+            new StairsBlock(Blocks.TUBE_CORAL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.TUBE_CORAL_BLOCK)));
+    public static final Block TUBE_CORAL_SLAB = registerBlock("tube_coral_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.TUBE_CORAL_BLOCK)));
+    public static final Block TUBE_CORAL_BUTTON = registerBlock("tube_coral_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.TUBE_CORAL_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block TUBE_CORAL_PRESSURE_PLATE = registerBlock("tube_coral_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.TUBE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block TUBE_CORAL_FENCE = registerBlock("tube_coral_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.TUBE_CORAL_BLOCK)));
+    public static final Block TUBE_CORAL_FENCE_GATE = registerBlock("tube_coral_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.TUBE_CORAL_BLOCK), WoodType.OAK));
+    public static final Block TUBE_CORAL_DOOR = registerBlock("tube_coral_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.TUBE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block TUBE_CORAL_TRAPDOOR = registerBlock("tube_coral_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.TUBE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block TUBE_CORAL_WALL = registerBlock("tube_coral_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.TUBE_CORAL_BLOCK)));
+
+    //DEAD_TUBE_CORAL
+    public static final Block DEAD_TUBE_CORAL_STAIRS = registerBlock("dead_tube_coral_stairs",
+            new StairsBlock(Blocks.DEAD_TUBE_CORAL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DEAD_TUBE_CORAL_BLOCK)));
+    public static final Block DEAD_TUBE_CORAL_SLAB = registerBlock("dead_tube_coral_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DEAD_TUBE_CORAL_BLOCK)));
+    public static final Block DEAD_TUBE_CORAL_BUTTON = registerBlock("dead_tube_coral_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.DEAD_TUBE_CORAL_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block DEAD_TUBE_CORAL_PRESSURE_PLATE = registerBlock("dead_tube_coral_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.DEAD_TUBE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block DEAD_TUBE_CORAL_FENCE = registerBlock("dead_tube_coral_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.DEAD_TUBE_CORAL_BLOCK)));
+    public static final Block DEAD_TUBE_CORAL_FENCE_GATE = registerBlock("dead_tube_coral_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.DEAD_TUBE_CORAL_BLOCK), WoodType.OAK));
+    public static final Block DEAD_TUBE_CORAL_DOOR = registerBlock("dead_tube_coral_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.DEAD_TUBE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block DEAD_TUBE_CORAL_TRAPDOOR = registerBlock("dead_tube_coral_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.DEAD_TUBE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block DEAD_TUBE_CORAL_WALL = registerBlock("dead_tube_coral_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.DEAD_TUBE_CORAL_BLOCK)));
+
+    //BRAIN_CORAL
+    public static final Block BRAIN_CORAL_STAIRS = registerBlock("brain_coral_stairs",
+            new StairsBlock(Blocks.BRAIN_CORAL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BRAIN_CORAL_BLOCK)));
+    public static final Block BRAIN_CORAL_SLAB = registerBlock("brain_coral_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.BRAIN_CORAL_BLOCK)));
+    public static final Block BRAIN_CORAL_BUTTON = registerBlock("brain_coral_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.BRAIN_CORAL_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block BRAIN_CORAL_PRESSURE_PLATE = registerBlock("brain_coral_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.BRAIN_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block BRAIN_CORAL_FENCE = registerBlock("brain_coral_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.BRAIN_CORAL_BLOCK)));
+    public static final Block BRAIN_CORAL_FENCE_GATE = registerBlock("brain_coral_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.BRAIN_CORAL_BLOCK), WoodType.OAK));
+    public static final Block BRAIN_CORAL_DOOR = registerBlock("brain_coral_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.BRAIN_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block BRAIN_CORAL_TRAPDOOR = registerBlock("brain_coral_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BRAIN_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block BRAIN_CORAL_WALL = registerBlock("brain_coral_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.BRAIN_CORAL_BLOCK)));
+
+    //DEAD_BRAIN_CORAL
+    public static final Block DEAD_BRAIN_CORAL_STAIRS = registerBlock("dead_brain_coral_stairs",
+            new StairsBlock(Blocks.DEAD_BRAIN_CORAL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DEAD_BRAIN_CORAL_BLOCK)));
+    public static final Block DEAD_BRAIN_CORAL_SLAB = registerBlock("dead_brain_coral_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DEAD_BRAIN_CORAL_BLOCK)));
+    public static final Block DEAD_BRAIN_CORAL_BUTTON = registerBlock("dead_brain_coral_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.DEAD_BRAIN_CORAL_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block DEAD_BRAIN_CORAL_PRESSURE_PLATE = registerBlock("dead_brain_coral_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.DEAD_BRAIN_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block DEAD_BRAIN_CORAL_FENCE = registerBlock("dead_brain_coral_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.DEAD_BRAIN_CORAL_BLOCK)));
+    public static final Block DEAD_BRAIN_CORAL_FENCE_GATE = registerBlock("dead_brain_coral_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.DEAD_BRAIN_CORAL_BLOCK), WoodType.OAK));
+    public static final Block DEAD_BRAIN_CORAL_DOOR = registerBlock("dead_brain_coral_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.DEAD_BRAIN_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block DEAD_BRAIN_CORAL_TRAPDOOR = registerBlock("dead_brain_coral_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.DEAD_BRAIN_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block DEAD_BRAIN_CORAL_WALL = registerBlock("dead_brain_coral_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.DEAD_BRAIN_CORAL_BLOCK)));
+
+    //BUBBLE_CORAL
+    public static final Block BUBBLE_CORAL_STAIRS = registerBlock("bubble_coral_stairs",
+            new StairsBlock(Blocks.BUBBLE_CORAL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BUBBLE_CORAL_BLOCK)));
+    public static final Block BUBBLE_CORAL_SLAB = registerBlock("bubble_coral_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.BUBBLE_CORAL_BLOCK)));
+    public static final Block BUBBLE_CORAL_BUTTON = registerBlock("bubble_coral_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.BUBBLE_CORAL_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block BUBBLE_CORAL_PRESSURE_PLATE = registerBlock("bubble_coral_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.BUBBLE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block BUBBLE_CORAL_FENCE = registerBlock("bubble_coral_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.BUBBLE_CORAL_BLOCK)));
+    public static final Block BUBBLE_CORAL_FENCE_GATE = registerBlock("bubble_coral_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.BUBBLE_CORAL_BLOCK), WoodType.OAK));
+    public static final Block BUBBLE_CORAL_DOOR = registerBlock("bubble_coral_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.BUBBLE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block BUBBLE_CORAL_TRAPDOOR = registerBlock("bubble_coral_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BUBBLE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block BUBBLE_CORAL_WALL = registerBlock("bubble_coral_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.BUBBLE_CORAL_BLOCK)));
+
+    //DEAD_BUBBLE_CORAL
+    public static final Block DEAD_BUBBLE_CORAL_STAIRS = registerBlock("dead_bubble_coral_stairs",
+            new StairsBlock(Blocks.DEAD_BUBBLE_CORAL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DEAD_BUBBLE_CORAL_BLOCK)));
+    public static final Block DEAD_BUBBLE_CORAL_SLAB = registerBlock("dead_bubble_coral_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DEAD_BUBBLE_CORAL_BLOCK)));
+    public static final Block DEAD_BUBBLE_CORAL_BUTTON = registerBlock("dead_bubble_coral_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.DEAD_BUBBLE_CORAL_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block DEAD_BUBBLE_CORAL_PRESSURE_PLATE = registerBlock("dead_bubble_coral_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.DEAD_BUBBLE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block DEAD_BUBBLE_CORAL_FENCE = registerBlock("dead_bubble_coral_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.DEAD_BUBBLE_CORAL_BLOCK)));
+    public static final Block DEAD_BUBBLE_CORAL_FENCE_GATE = registerBlock("dead_bubble_coral_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.DEAD_BUBBLE_CORAL_BLOCK), WoodType.OAK));
+    public static final Block DEAD_BUBBLE_CORAL_DOOR = registerBlock("dead_bubble_coral_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.DEAD_BUBBLE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block DEAD_BUBBLE_CORAL_TRAPDOOR = registerBlock("dead_bubble_coral_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.DEAD_BUBBLE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block DEAD_BUBBLE_CORAL_WALL = registerBlock("dead_bubble_coral_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.DEAD_BUBBLE_CORAL_BLOCK)));
+
+    //FIRE_CORAL
+    public static final Block FIRE_CORAL_STAIRS = registerBlock("fire_coral_stairs",
+            new StairsBlock(Blocks.FIRE_CORAL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.FIRE_CORAL_BLOCK)));
+    public static final Block FIRE_CORAL_SLAB = registerBlock("fire_coral_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.FIRE_CORAL_BLOCK)));
+    public static final Block FIRE_CORAL_BUTTON = registerBlock("fire_coral_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.FIRE_CORAL_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block FIRE_CORAL_PRESSURE_PLATE = registerBlock("fire_coral_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.FIRE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block FIRE_CORAL_FENCE = registerBlock("fire_coral_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.FIRE_CORAL_BLOCK)));
+    public static final Block FIRE_CORAL_FENCE_GATE = registerBlock("fire_coral_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.FIRE_CORAL_BLOCK), WoodType.OAK));
+    public static final Block FIRE_CORAL_DOOR = registerBlock("fire_coral_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.FIRE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block FIRE_CORAL_TRAPDOOR = registerBlock("fire_coral_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.FIRE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block FIRE_CORAL_WALL = registerBlock("fire_coral_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.FIRE_CORAL_BLOCK)));
+
+    //DEAD_FIRE_CORAL
+    public static final Block DEAD_FIRE_CORAL_STAIRS = registerBlock("dead_fire_coral_stairs",
+            new StairsBlock(Blocks.DEAD_FIRE_CORAL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DEAD_FIRE_CORAL_BLOCK)));
+    public static final Block DEAD_FIRE_CORAL_SLAB = registerBlock("dead_fire_coral_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DEAD_FIRE_CORAL_BLOCK)));
+    public static final Block DEAD_FIRE_CORAL_BUTTON = registerBlock("dead_fire_coral_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.DEAD_FIRE_CORAL_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block DEAD_FIRE_CORAL_PRESSURE_PLATE = registerBlock("dead_fire_coral_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.DEAD_FIRE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block DEAD_FIRE_CORAL_FENCE = registerBlock("dead_fire_coral_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.DEAD_FIRE_CORAL_BLOCK)));
+    public static final Block DEAD_FIRE_CORAL_FENCE_GATE = registerBlock("dead_fire_coral_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.DEAD_FIRE_CORAL_BLOCK), WoodType.OAK));
+    public static final Block DEAD_FIRE_CORAL_DOOR = registerBlock("dead_fire_coral_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.DEAD_FIRE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block DEAD_FIRE_CORAL_TRAPDOOR = registerBlock("dead_fire_coral_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.DEAD_FIRE_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block DEAD_FIRE_CORAL_WALL = registerBlock("dead_fire_coral_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.DEAD_FIRE_CORAL_BLOCK)));
+
+    //HORN_CORAL
+    public static final Block HORN_CORAL_STAIRS = registerBlock("horn_coral_stairs",
+            new StairsBlock(Blocks.HORN_CORAL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.HORN_CORAL_BLOCK)));
+    public static final Block HORN_CORAL_SLAB = registerBlock("horn_coral_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.HORN_CORAL_BLOCK)));
+    public static final Block HORN_CORAL_BUTTON = registerBlock("horn_coral_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.HORN_CORAL_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block HORN_CORAL_PRESSURE_PLATE = registerBlock("horn_coral_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.HORN_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block HORN_CORAL_FENCE = registerBlock("horn_coral_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.HORN_CORAL_BLOCK)));
+    public static final Block HORN_CORAL_FENCE_GATE = registerBlock("horn_coral_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.HORN_CORAL_BLOCK), WoodType.OAK));
+    public static final Block HORN_CORAL_DOOR = registerBlock("horn_coral_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.HORN_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block HORN_CORAL_TRAPDOOR = registerBlock("horn_coral_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.HORN_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block HORN_CORAL_WALL = registerBlock("horn_coral_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.HORN_CORAL_BLOCK)));
+
+    //dead_horn_coral
+    public static final Block DEAD_HORN_CORAL_STAIRS = registerBlock("dead_horn_coral_stairs",
+            new StairsBlock(Blocks.DEAD_HORN_CORAL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DEAD_HORN_CORAL_BLOCK)));
+    public static final Block DEAD_HORN_CORAL_SLAB = registerBlock("dead_horn_coral_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DEAD_HORN_CORAL_BLOCK)));
+    public static final Block DEAD_HORN_CORAL_BUTTON = registerBlock("dead_horn_coral_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.DEAD_HORN_CORAL_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block DEAD_HORN_CORAL_PRESSURE_PLATE = registerBlock("dead_horn_coral_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.DEAD_HORN_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block DEAD_HORN_CORAL_FENCE = registerBlock("dead_horn_coral_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.DEAD_HORN_CORAL_BLOCK)));
+    public static final Block DEAD_HORN_CORAL_FENCE_GATE = registerBlock("dead_horn_coral_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.DEAD_HORN_CORAL_BLOCK), WoodType.OAK));
+    public static final Block DEAD_HORN_CORAL_DOOR = registerBlock("dead_horn_coral_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.DEAD_HORN_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block DEAD_HORN_CORAL_TRAPDOOR = registerBlock("dead_horn_coral_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.DEAD_HORN_CORAL_BLOCK), BlockSetType.STONE));
+    public static final Block DEAD_HORN_CORAL_WALL = registerBlock("dead_horn_coral_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.DEAD_HORN_CORAL_BLOCK)));
+
+    //sponge
+    public static final Block SPONGE_STAIRS = registerBlock("sponge_stairs",
+            new SpongeStairsBlock(Blocks.SPONGE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SPONGE)));
+    public static final Block SPONGE_SLAB = registerBlock("sponge_slab",
+            new SpongeSlabBlock(FabricBlockSettings.copyOf(Blocks.SPONGE)));
+    public static final Block SPONGE_BUTTON = registerBlock("sponge_button",
+            new SpongeButtonBlock(FabricBlockSettings.copyOf(Blocks.SPONGE), BlockSetType.STONE, 10, false));
+    public static final Block SPONGE_PRESSURE_PLATE = registerBlock("sponge_pressure_plate",
+            new SpongePressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.SPONGE), BlockSetType.STONE));
+    public static final Block SPONGE_FENCE = registerBlock("sponge_fence",
+            new SpongeFenceBlock(FabricBlockSettings.copyOf(Blocks.SPONGE)));
+    public static final Block SPONGE_FENCE_GATE = registerBlock("sponge_fence_gate",
+            new SpongeFenceGateBlock(FabricBlockSettings.copyOf(Blocks.SPONGE), WoodType.OAK));
+    public static final Block SPONGE_DOOR = registerBlock("sponge_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.SPONGE), BlockSetType.STONE));
+    public static final Block SPONGE_TRAPDOOR = registerBlock("sponge_trapdoor",
+            new SpongeTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.SPONGE), BlockSetType.STONE));
+    public static final Block SPONGE_WALL = registerBlock("sponge_wall",
+            new SpongeWallBlock(FabricBlockSettings.copyOf(Blocks.SPONGE)));
+
+    //wet_sponge
+    public static final Block WET_SPONGE_STAIRS = registerBlock("wet_sponge_stairs",
+            new WetSpongeStairsBlock(Blocks.WET_SPONGE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.WET_SPONGE)));
+    public static final Block WET_SPONGE_SLAB = registerBlock("wet_sponge_slab",
+            new WetSpongeSlabBlock(FabricBlockSettings.copyOf(Blocks.WET_SPONGE)));
+    public static final Block WET_SPONGE_BUTTON = registerBlock("wet_sponge_button",
+            new WetSpongeButtonBlock(FabricBlockSettings.copyOf(Blocks.WET_SPONGE), BlockSetType.STONE, 10, false));
+    public static final Block WET_SPONGE_PRESSURE_PLATE = registerBlock("wet_sponge_pressure_plate",
+            new WetSpongePressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.WET_SPONGE), BlockSetType.STONE));
+    public static final Block WET_SPONGE_FENCE = registerBlock("wet_sponge_fence",
+            new WetSpongeFenceBlock(FabricBlockSettings.copyOf(Blocks.WET_SPONGE)));
+    public static final Block WET_SPONGE_FENCE_GATE = registerBlock("wet_sponge_fence_gate",
+            new WetSpongeFenceGateBlock(FabricBlockSettings.copyOf(Blocks.WET_SPONGE), WoodType.OAK));
+    public static final Block WET_SPONGE_DOOR = registerBlock("wet_sponge_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.WET_SPONGE), BlockSetType.STONE));
+    public static final Block WET_SPONGE_TRAPDOOR = registerBlock("wet_sponge_trapdoor",
+            new WetSpongeTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.WET_SPONGE), BlockSetType.STONE));
+    public static final Block WET_SPONGE_WALL = registerBlock("wet_sponge_wall",
+            new WetSpongeWallBlock(FabricBlockSettings.copyOf(Blocks.WET_SPONGE)));
+
+    //melon
+    public static final Block MELON_STAIRS = registerBlock("melon_stairs",
+            new StairsBlock(Blocks.MELON.getDefaultState(), FabricBlockSettings.copyOf(Blocks.MELON)));
+    public static final Block MELON_SLAB = registerBlock("melon_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.MELON)));
+    public static final Block MELON_BUTTON = registerBlock("melon_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.MELON), BlockSetType.STONE, 10, false));
+    public static final Block MELON_PRESSURE_PLATE = registerBlock("melon_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.MELON), BlockSetType.STONE));
+    public static final Block MELON_FENCE = registerBlock("melon_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.MELON)));
+    public static final Block MELON_FENCE_GATE = registerBlock("melon_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.MELON), WoodType.OAK));
+    public static final Block MELON_DOOR = registerBlock("melon_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.MELON), BlockSetType.STONE));
+    public static final Block MELON_TRAPDOOR = registerBlock("melon_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.MELON), BlockSetType.STONE));
+    public static final Block MELON_WALL = registerBlock("melon_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.MELON)));
+
+    //pumpkin
+    public static final Block PUMPKIN_STAIRS = registerBlock("pumpkin_stairs",
+            new StairsBlock(Blocks.PUMPKIN.getDefaultState(), FabricBlockSettings.copyOf(Blocks.PUMPKIN)));
+    public static final Block PUMPKIN_SLAB = registerBlock("pumpkin_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.PUMPKIN)));
+    public static final Block PUMPKIN_BUTTON = registerBlock("pumpkin_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.PUMPKIN), BlockSetType.STONE, 10, false));
+    public static final Block PUMPKIN_PRESSURE_PLATE = registerBlock("pumpkin_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.PUMPKIN), BlockSetType.STONE));
+    public static final Block PUMPKIN_FENCE = registerBlock("pumpkin_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.PUMPKIN)));
+    public static final Block PUMPKIN_FENCE_GATE = registerBlock("pumpkin_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.PUMPKIN), WoodType.OAK));
+    public static final Block PUMPKIN_DOOR = registerBlock("pumpkin_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.PUMPKIN), BlockSetType.STONE));
+    public static final Block PUMPKIN_TRAPDOOR = registerBlock("pumpkin_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.PUMPKIN), BlockSetType.STONE));
+    public static final Block PUMPKIN_WALL = registerBlock("pumpkin_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.PUMPKIN)));
+
+    //hay_block
+    public static final Block HAY_BLOCK_STAIRS = registerBlock("hay_block_stairs",
+            new StairsBlock(Blocks.HAY_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.HAY_BLOCK)));
+    public static final Block HAY_BLOCK_SLAB = registerBlock("hay_block_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK)));
+    public static final Block HAY_BLOCK_BUTTON = registerBlock("hay_block_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block HAY_BLOCK_PRESSURE_PLATE = registerBlock("hay_block_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.HAY_BLOCK), BlockSetType.STONE));
+    public static final Block HAY_BLOCK_FENCE = registerBlock("hay_block_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK)));
+    public static final Block HAY_BLOCK_FENCE_GATE = registerBlock("hay_block_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK), WoodType.OAK));
+    public static final Block HAY_BLOCK_DOOR = registerBlock("hay_block_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK), BlockSetType.STONE));
+    public static final Block HAY_BLOCK_TRAPDOOR = registerBlock("hay_block_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK), BlockSetType.STONE));
+    public static final Block HAY_BLOCK_WALL = registerBlock("hay_block_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK)));
+
+    //honeycomb_block
+    public static final Block HONEYCOMB_STAIRS = registerBlock("honeycomb_stairs",
+            new StairsBlock(Blocks.HONEYCOMB_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.HONEYCOMB_BLOCK)));
+    public static final Block HONEYCOMB_SLAB = registerBlock("honeycomb_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.HONEYCOMB_BLOCK)));
+    public static final Block HONEYCOMB_BUTTON = registerBlock("honeycomb_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.HONEYCOMB_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block HONEYCOMB_PRESSURE_PLATE = registerBlock("honeycomb_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.HONEYCOMB_BLOCK), BlockSetType.STONE));
+    public static final Block HONEYCOMB_FENCE = registerBlock("honeycomb_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.HONEYCOMB_BLOCK)));
+    public static final Block HONEYCOMB_FENCE_GATE = registerBlock("honeycomb_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.HONEYCOMB_BLOCK), WoodType.OAK));
+    public static final Block HONEYCOMB_DOOR = registerBlock("honeycomb_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.HONEYCOMB_BLOCK), BlockSetType.STONE));
+    public static final Block HONEYCOMB_TRAPDOOR = registerBlock("honeycomb_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.HONEYCOMB_BLOCK), BlockSetType.STONE));
+    public static final Block HONEYCOMB_WALL = registerBlock("honeycomb_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.HONEYCOMB_BLOCK)));
+
+    //slime_block
+    public static final Block SLIME_STAIRS = registerBlock("slime_stairs",
+            new SlimeStairsBlock(Blocks.SLIME_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SLIME_BLOCK)));
+    public static final Block SLIME_SLAB = registerBlock("slime_slab",
+            new SlimeSlabBlock(FabricBlockSettings.copyOf(Blocks.SLIME_BLOCK)));
+    public static final Block SLIME_BUTTON = registerBlock("slime_button",
+            new SlimeButtonBlock(FabricBlockSettings.copyOf(Blocks.SLIME_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block SLIME_PRESSURE_PLATE = registerBlock("slime_pressure_plate",
+            new SlimePressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.SLIME_BLOCK), BlockSetType.STONE));
+    public static final Block SLIME_FENCE = registerBlock("slime_fence",
+            new SlimeFenceBlock(FabricBlockSettings.copyOf(Blocks.SLIME_BLOCK)));
+    public static final Block SLIME_FENCE_GATE = registerBlock("slime_fence_gate",
+            new SlimeFenceGateBlock(FabricBlockSettings.copyOf(Blocks.SLIME_BLOCK), WoodType.OAK));
+    public static final Block SLIME_DOOR = registerBlock("slime_door",
+            new SlimeDoorBlock(FabricBlockSettings.copyOf(Blocks.SLIME_BLOCK), BlockSetType.STONE));
+    public static final Block SLIME_TRAPDOOR = registerBlock("slime_trapdoor",
+            new SlimeTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.SLIME_BLOCK), BlockSetType.STONE));
+    public static final Block SLIME_WALL = registerBlock("slime_wall",
+            new SlimeWallBlock(FabricBlockSettings.copyOf(Blocks.SLIME_BLOCK)));
+
+    //honey_block
+    public static final Block HONEY_STAIRS = registerBlock("honey_stairs",
+            new StairsBlock(Blocks.HONEY_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.HONEY_BLOCK)));
+    public static final Block HONEY_SLAB = registerBlock("honey_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.HONEY_BLOCK)));
+    public static final Block HONEY_BUTTON = registerBlock("honey_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.HONEY_BLOCK), BlockSetType.STONE, 10, false));
+    public static final Block HONEY_PRESSURE_PLATE = registerBlock("honey_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.HONEY_BLOCK), BlockSetType.STONE));
+    public static final Block HONEY_FENCE = registerBlock("honey_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.HONEY_BLOCK)));
+    public static final Block HONEY_FENCE_GATE = registerBlock("honey_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.HONEY_BLOCK), WoodType.OAK));
+    public static final Block HONEY_DOOR = registerBlock("honey_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.HONEY_BLOCK), BlockSetType.STONE));
+    public static final Block HONEY_TRAPDOOR = registerBlock("honey_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.HONEY_BLOCK), BlockSetType.STONE));
+    public static final Block HONEY_WALL = registerBlock("honey_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.HONEY_BLOCK)));
+
+    //ochre_froglight
+    public static final Block OCHRE_FROGLIGHT_STAIRS = registerBlock("ochre_froglight_stairs",
+            new StairsBlock(Blocks.OCHRE_FROGLIGHT.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OCHRE_FROGLIGHT)));
+    public static final Block OCHRE_FROGLIGHT_SLAB = registerBlock("ochre_froglight_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OCHRE_FROGLIGHT)));
+    public static final Block OCHRE_FROGLIGHT_BUTTON = registerBlock("ochre_froglight_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.OCHRE_FROGLIGHT), BlockSetType.STONE, 10, false));
+    public static final Block OCHRE_FROGLIGHT_PRESSURE_PLATE = registerBlock("ochre_froglight_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.OCHRE_FROGLIGHT), BlockSetType.STONE));
+    public static final Block OCHRE_FROGLIGHT_FENCE = registerBlock("ochre_froglight_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OCHRE_FROGLIGHT)));
+    public static final Block OCHRE_FROGLIGHT_FENCE_GATE = registerBlock("ochre_froglight_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OCHRE_FROGLIGHT), WoodType.OAK));
+    public static final Block OCHRE_FROGLIGHT_DOOR = registerBlock("ochre_froglight_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.OCHRE_FROGLIGHT), BlockSetType.STONE));
+    public static final Block OCHRE_FROGLIGHT_TRAPDOOR = registerBlock("ochre_froglight_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OCHRE_FROGLIGHT), BlockSetType.STONE));
+    public static final Block OCHRE_FROGLIGHT_WALL = registerBlock("ochre_froglight_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.OCHRE_FROGLIGHT)));
 
 
 

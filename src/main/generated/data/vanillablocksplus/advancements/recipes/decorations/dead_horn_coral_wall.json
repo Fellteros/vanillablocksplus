@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dead_horn_coral_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dead_horn_coral_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dead_horn_coral_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vanillablocksplus:dead_horn_coral_wall"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:dead_horn_coral_wall"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_dead_horn_coral_wall",
+      "has_dead_horn_coral_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:dead_horn_coral_wall"
+    ]
+  },
+  "sends_telemetry_event": false
+}

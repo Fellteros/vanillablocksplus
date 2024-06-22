@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/slime_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/slime_block"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/slime_slab_top"
+    }
+  }
+}

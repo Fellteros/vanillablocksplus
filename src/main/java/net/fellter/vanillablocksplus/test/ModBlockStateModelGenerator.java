@@ -156,7 +156,9 @@ public class ModBlockStateModelGenerator {
     }
 
     public static BlockStateSupplier createFenceGateBlockState(Block fenceGateBlock, Identifier openModelId, Identifier closedModelId, Identifier openWallModelId, Identifier closedWallModelId, boolean uvlock) {
-        return VariantsBlockStateSupplier.create(fenceGateBlock, BlockStateVariant.create().put(VariantSettings.UVLOCK, uvlock)).coordinate(BlockStateModelGenerator.createSouthDefaultHorizontalRotationStates()).coordinate(BlockStateVariantMap.create(Properties.IN_WALL, Properties.OPEN)
+        return VariantsBlockStateSupplier.create(fenceGateBlock, BlockStateVariant.create().put(VariantSettings.UVLOCK, uvlock))
+                .coordinate(BlockStateModelGenerator.createSouthDefaultHorizontalRotationStates())
+                .coordinate(BlockStateVariantMap.create(Properties.IN_WALL, Properties.OPEN)
                 .register(false, false, BlockStateVariant.create().put(VariantSettings.MODEL, closedModelId))
                 .register(true, false, BlockStateVariant.create().put(VariantSettings.MODEL, closedWallModelId))
                 .register(false, true, BlockStateVariant.create().put(VariantSettings.MODEL, openModelId))

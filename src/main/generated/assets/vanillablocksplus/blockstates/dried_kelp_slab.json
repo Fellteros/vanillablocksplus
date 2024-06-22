@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/dried_kelp_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/dried_kelp_block"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/dried_kelp_slab_top"
+    }
+  }
+}

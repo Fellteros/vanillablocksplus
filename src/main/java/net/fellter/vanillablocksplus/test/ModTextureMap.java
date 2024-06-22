@@ -17,4 +17,11 @@ public class ModTextureMap extends TextureMap {
     public static TextureMap customAll(Block block, String suffix) {
         return new TextureMap().put(TextureKey.ALL, TextureMap.getSubId(block, suffix));
     }
+    //sideAndTopForEnd
+    public static TextureMap sideAndTopForEnds(Block block) {
+        return new TextureMap()
+                .put(TextureKey.SIDE, TextureMap.getSubId(block, "_side"))
+                .put(TextureKey.TOP, TextureMap.getSubId(block, "_top"))
+                .put(TextureKey.BOTTOM, TextureMap.getSubId(block, "_top"));
+    }
 }

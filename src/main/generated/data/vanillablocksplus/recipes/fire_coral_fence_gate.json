@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:fire_coral_slab"
+    },
+    "W": {
+      "item": "minecraft:fire_coral_block"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "vanillablocksplus:fire_coral_fence_gate"
+  },
+  "show_notification": true
+}

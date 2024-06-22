@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "textures": {
+    "bottom": "vanillablocksplus:block/dead_brain_coral_door_bottom",
+    "top": "vanillablocksplus:block/dead_brain_coral_door_top"
+  }
+}
