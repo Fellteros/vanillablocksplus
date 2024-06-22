@@ -3003,7 +3003,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.NWFenceGateRecipe(ModBlocks.HONEY_FENCE_GATE, (Blocks.HONEY_BLOCK), (ModBlocks.HONEY_SLAB), 1).offerTo(exporter);
         ModRecipes.TrapdoorRecipe(ModBlocks.HONEY_TRAPDOOR, (ModBlocks.HONEY_SLAB)).offerTo(exporter);
         ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.HONEY_PRESSURE_PLATE, (ModBlocks.HONEY_SLAB)).offerTo(exporter);
-        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.HONEY_BUTTON, Blocks.HONEY_BLOCK).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.HONEY_BUTTON, Blocks.HONEY_BLOCK, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.HONEY_WALL, (Blocks.HONEY_BLOCK)).offerTo(exporter);
 
         //OCHRE_FROGLIGHT
@@ -3014,8 +3014,30 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.NWFenceGateRecipe(ModBlocks.OCHRE_FROGLIGHT_FENCE_GATE, (Blocks.OCHRE_FROGLIGHT), (ModBlocks.OCHRE_FROGLIGHT_SLAB), 1).offerTo(exporter);
         ModRecipes.TrapdoorRecipe(ModBlocks.OCHRE_FROGLIGHT_TRAPDOOR, (ModBlocks.OCHRE_FROGLIGHT_SLAB)).offerTo(exporter);
         ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.OCHRE_FROGLIGHT_PRESSURE_PLATE, (ModBlocks.OCHRE_FROGLIGHT_SLAB)).offerTo(exporter);
-        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.OCHRE_FROGLIGHT_BUTTON, Blocks.OCHRE_FROGLIGHT).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.OCHRE_FROGLIGHT_BUTTON, Blocks.OCHRE_FROGLIGHT, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.OCHRE_FROGLIGHT_WALL, (Blocks.OCHRE_FROGLIGHT)).offerTo(exporter);
+
+        //VERDANT_FROGLIGHT
+        ModRecipes.DoorRecipe(ModBlocks.VERDANT_FROGLIGHT_DOOR, (Blocks.VERDANT_FROGLIGHT)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.VERDANT_FROGLIGHT_SLAB, (Blocks.VERDANT_FROGLIGHT)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.VERDANT_FROGLIGHT_STAIRS, (Blocks.VERDANT_FROGLIGHT)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.VERDANT_FROGLIGHT_FENCE, (Blocks.VERDANT_FROGLIGHT), (ModBlocks.VERDANT_FROGLIGHT_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.VERDANT_FROGLIGHT_FENCE_GATE, (Blocks.VERDANT_FROGLIGHT), (ModBlocks.VERDANT_FROGLIGHT_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.VERDANT_FROGLIGHT_TRAPDOOR, (ModBlocks.VERDANT_FROGLIGHT_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.VERDANT_FROGLIGHT_PRESSURE_PLATE, (ModBlocks.VERDANT_FROGLIGHT_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.VERDANT_FROGLIGHT_BUTTON, Blocks.VERDANT_FROGLIGHT, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.VERDANT_FROGLIGHT_WALL, (Blocks.VERDANT_FROGLIGHT)).offerTo(exporter);
+
+        //PEARLESCENT_FROGLIGHT
+        ModRecipes.DoorRecipe(ModBlocks.PEARLESCENT_FROGLIGHT_DOOR, (Blocks.PEARLESCENT_FROGLIGHT)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.PEARLESCENT_FROGLIGHT_SLAB, (Blocks.PEARLESCENT_FROGLIGHT)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.PEARLESCENT_FROGLIGHT_STAIRS, (Blocks.PEARLESCENT_FROGLIGHT)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.PEARLESCENT_FROGLIGHT_FENCE, (Blocks.PEARLESCENT_FROGLIGHT), (ModBlocks.PEARLESCENT_FROGLIGHT_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.PEARLESCENT_FROGLIGHT_FENCE_GATE, (Blocks.PEARLESCENT_FROGLIGHT), (ModBlocks.PEARLESCENT_FROGLIGHT_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.PEARLESCENT_FROGLIGHT_TRAPDOOR, (ModBlocks.PEARLESCENT_FROGLIGHT_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.PEARLESCENT_FROGLIGHT_PRESSURE_PLATE, (ModBlocks.PEARLESCENT_FROGLIGHT_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.PEARLESCENT_FROGLIGHT_BUTTON, Blocks.PEARLESCENT_FROGLIGHT, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.PEARLESCENT_FROGLIGHT_WALL, (Blocks.PEARLESCENT_FROGLIGHT)).offerTo(exporter);
 
 
 

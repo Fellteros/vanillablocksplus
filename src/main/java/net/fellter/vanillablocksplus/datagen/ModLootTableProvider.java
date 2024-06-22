@@ -2741,6 +2741,28 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.OCHRE_FROGLIGHT_DOOR, doorDrops(ModBlocks.OCHRE_FROGLIGHT_DOOR));
         addDrop(ModBlocks.OCHRE_FROGLIGHT_SLAB, slabDrops(ModBlocks.OCHRE_FROGLIGHT_SLAB));
         addDrop(ModBlocks.OCHRE_FROGLIGHT_WALL);
+
+        //VERDANT_FROGLIGHT_block
+        addDrop(ModBlocks.VERDANT_FROGLIGHT_STAIRS);
+        addDrop(ModBlocks.VERDANT_FROGLIGHT_TRAPDOOR);
+        addDrop(ModBlocks.VERDANT_FROGLIGHT_BUTTON);
+        addDrop(ModBlocks.VERDANT_FROGLIGHT_PRESSURE_PLATE);
+        addDrop(ModBlocks.VERDANT_FROGLIGHT_FENCE);
+        addDrop(ModBlocks.VERDANT_FROGLIGHT_FENCE_GATE);
+        addDrop(ModBlocks.VERDANT_FROGLIGHT_DOOR, doorDrops(ModBlocks.VERDANT_FROGLIGHT_DOOR));
+        addDrop(ModBlocks.VERDANT_FROGLIGHT_SLAB, slabDrops(ModBlocks.VERDANT_FROGLIGHT_SLAB));
+        addDrop(ModBlocks.VERDANT_FROGLIGHT_WALL);
+
+        //PEARLESCENT_FROGLIGHT_block
+        addDrop(ModBlocks.PEARLESCENT_FROGLIGHT_STAIRS);
+        addDrop(ModBlocks.PEARLESCENT_FROGLIGHT_TRAPDOOR);
+        addDrop(ModBlocks.PEARLESCENT_FROGLIGHT_BUTTON);
+        addDrop(ModBlocks.PEARLESCENT_FROGLIGHT_PRESSURE_PLATE);
+        addDrop(ModBlocks.PEARLESCENT_FROGLIGHT_FENCE);
+        addDrop(ModBlocks.PEARLESCENT_FROGLIGHT_FENCE_GATE);
+        addDrop(ModBlocks.PEARLESCENT_FROGLIGHT_DOOR, doorDrops(ModBlocks.PEARLESCENT_FROGLIGHT_DOOR));
+        addDrop(ModBlocks.PEARLESCENT_FROGLIGHT_SLAB, slabDrops(ModBlocks.PEARLESCENT_FROGLIGHT_SLAB));
+        addDrop(ModBlocks.PEARLESCENT_FROGLIGHT_WALL);
         
         
         

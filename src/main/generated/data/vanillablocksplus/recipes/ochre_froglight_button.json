@@ -7,11 +7,9 @@
     }
   },
   "pattern": [
-    "##",
-    "##"
+    " # "
   ],
   "result": {
-    "count": 8,
     "item": "vanillablocksplus:ochre_froglight_button"
   },
   "show_notification": true

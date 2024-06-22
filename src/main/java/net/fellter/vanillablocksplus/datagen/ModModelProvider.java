@@ -2602,6 +2602,22 @@ public class ModModelProvider extends FabricModelProvider {
         registerCustomFence(bsmg, ModBlocks.OCHRE_FROGLIGHT_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.OCHRE_FROGLIGHT));
         registerCustomFenceGate(bsmg, ModBlocks.OCHRE_FROGLIGHT_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.OCHRE_FROGLIGHT));
         registerCustomPressurePlate(bsmg, ModBlocks.OCHRE_FROGLIGHT_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.OCHRE_FROGLIGHT));
+        //verdant_froglight
+        registerCustomButton(bsmg, ModBlocks.VERDANT_FROGLIGHT_BUTTON, ModTextureMap.sideAndTopForEnds(Blocks.VERDANT_FROGLIGHT));
+        registerCustomWall(bsmg, ModBlocks.VERDANT_FROGLIGHT_WALL, ModTextureMap.sideAndTopForEnds(Blocks.VERDANT_FROGLIGHT));
+        registerCustomSlab(bsmg, ModBlocks.VERDANT_FROGLIGHT_SLAB, Blocks.VERDANT_FROGLIGHT, ModTextureMap.sideAndTopForEnds(Blocks.VERDANT_FROGLIGHT));
+        registerCustomStairs(bsmg, ModBlocks.VERDANT_FROGLIGHT_STAIRS, ModTextureMap.sideAndTopForEnds(Blocks.VERDANT_FROGLIGHT));
+        registerCustomFence(bsmg, ModBlocks.VERDANT_FROGLIGHT_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.VERDANT_FROGLIGHT));
+        registerCustomFenceGate(bsmg, ModBlocks.VERDANT_FROGLIGHT_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.VERDANT_FROGLIGHT));
+        registerCustomPressurePlate(bsmg, ModBlocks.VERDANT_FROGLIGHT_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.VERDANT_FROGLIGHT));
+        //pearlescent_froglight
+        registerCustomButton(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_BUTTON, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
+        registerCustomWall(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_WALL, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
+        registerCustomSlab(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_SLAB, Blocks.PEARLESCENT_FROGLIGHT, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
+        registerCustomStairs(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_STAIRS, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
+        registerCustomFence(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
+        registerCustomFenceGate(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
+        registerCustomPressurePlate(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
 
 
 
@@ -3442,6 +3458,12 @@ public class ModModelProvider extends FabricModelProvider {
         //ochre_froglight
         bsmg.registerOrientableTrapdoor(ModBlocks.OCHRE_FROGLIGHT_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.OCHRE_FROGLIGHT_DOOR);
+        //verdant_froglight
+        bsmg.registerOrientableTrapdoor(ModBlocks.VERDANT_FROGLIGHT_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.VERDANT_FROGLIGHT_DOOR);
+        //pearlescent_froglight
+        bsmg.registerOrientableTrapdoor(ModBlocks.PEARLESCENT_FROGLIGHT_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PEARLESCENT_FROGLIGHT_DOOR);
 
 
 

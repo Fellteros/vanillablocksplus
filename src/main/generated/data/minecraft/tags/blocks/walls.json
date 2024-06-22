@@ -238,6 +238,8 @@
     "vanillablocksplus:honeycomb_wall",
     "vanillablocksplus:slime_wall",
     "vanillablocksplus:honey_wall",
-    "vanillablocksplus:ochre_froglight_wall"
+    "vanillablocksplus:ochre_froglight_wall",
+    "vanillablocksplus:verdant_froglight_wall",
+    "vanillablocksplus:pearlescent_froglight_wall"
   ]
 }

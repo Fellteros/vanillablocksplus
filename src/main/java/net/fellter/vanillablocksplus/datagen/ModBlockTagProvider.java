@@ -3128,7 +3128,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.HONEYCOMB_FENCE)
                 .add(ModBlocks.SLIME_FENCE)
                 .add(ModBlocks.HONEY_FENCE)
-                .add(ModBlocks.OCHRE_FROGLIGHT_FENCE);
+                .add(ModBlocks.OCHRE_FROGLIGHT_FENCE)
+                .add(ModBlocks.VERDANT_FROGLIGHT_FENCE)
+                .add(ModBlocks.PEARLESCENT_FROGLIGHT_FENCE);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.OAK_WOOD_FENCE)
@@ -3407,7 +3409,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.HONEYCOMB_FENCE)
                 .add(ModBlocks.SLIME_FENCE)
                 .add(ModBlocks.HONEY_FENCE)
-                .add(ModBlocks.OCHRE_FROGLIGHT_FENCE);
+                .add(ModBlocks.OCHRE_FROGLIGHT_FENCE)
+                .add(ModBlocks.VERDANT_FROGLIGHT_FENCE)
+                .add(ModBlocks.PEARLESCENT_FROGLIGHT_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -3679,7 +3683,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.HONEYCOMB_FENCE_GATE)
                 .add(ModBlocks.SLIME_FENCE_GATE)
                 .add(ModBlocks.HONEY_FENCE_GATE)
-                .add(ModBlocks.OCHRE_FROGLIGHT_FENCE_GATE);
+                .add(ModBlocks.OCHRE_FROGLIGHT_FENCE_GATE)
+                .add(ModBlocks.VERDANT_FROGLIGHT_FENCE_GATE)
+                .add(ModBlocks.PEARLESCENT_FROGLIGHT_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -3920,7 +3926,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.HONEYCOMB_WALL)
                 .add(ModBlocks.SLIME_WALL)
                 .add(ModBlocks.HONEY_WALL)
-                .add(ModBlocks.OCHRE_FROGLIGHT_WALL);
+                .add(ModBlocks.OCHRE_FROGLIGHT_WALL)
+                .add(ModBlocks.VERDANT_FROGLIGHT_WALL)
+                .add(ModBlocks.PEARLESCENT_FROGLIGHT_WALL);
 
 
 

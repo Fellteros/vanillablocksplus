@@ -5729,6 +5729,48 @@ public class ModBlocks {
     public static final Block OCHRE_FROGLIGHT_WALL = registerBlock("ochre_froglight_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.OCHRE_FROGLIGHT)));
 
+    //verdant_froglight
+    public static final Block VERDANT_FROGLIGHT_STAIRS = registerBlock("verdant_froglight_stairs",
+            new StairsBlock(Blocks.VERDANT_FROGLIGHT.getDefaultState(), FabricBlockSettings.copyOf(Blocks.VERDANT_FROGLIGHT)));
+    public static final Block VERDANT_FROGLIGHT_SLAB = registerBlock("verdant_froglight_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.VERDANT_FROGLIGHT)));
+    public static final Block VERDANT_FROGLIGHT_BUTTON = registerBlock("verdant_froglight_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.VERDANT_FROGLIGHT), BlockSetType.STONE, 10, false));
+    public static final Block VERDANT_FROGLIGHT_PRESSURE_PLATE = registerBlock("verdant_froglight_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.VERDANT_FROGLIGHT), BlockSetType.STONE));
+    public static final Block VERDANT_FROGLIGHT_FENCE = registerBlock("verdant_froglight_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.VERDANT_FROGLIGHT)));
+    public static final Block VERDANT_FROGLIGHT_FENCE_GATE = registerBlock("verdant_froglight_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.VERDANT_FROGLIGHT), WoodType.OAK));
+    public static final Block VERDANT_FROGLIGHT_DOOR = registerBlock("verdant_froglight_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.VERDANT_FROGLIGHT), BlockSetType.STONE));
+    public static final Block VERDANT_FROGLIGHT_TRAPDOOR = registerBlock("verdant_froglight_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.VERDANT_FROGLIGHT), BlockSetType.STONE));
+    public static final Block VERDANT_FROGLIGHT_WALL = registerBlock("verdant_froglight_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.VERDANT_FROGLIGHT)));
+
+    //pearlescent_froglight
+    public static final Block PEARLESCENT_FROGLIGHT_STAIRS = registerBlock("pearlescent_froglight_stairs",
+            new StairsBlock(Blocks.PEARLESCENT_FROGLIGHT.getDefaultState(), FabricBlockSettings.copyOf(Blocks.PEARLESCENT_FROGLIGHT)));
+    public static final Block PEARLESCENT_FROGLIGHT_SLAB = registerBlock("pearlescent_froglight_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.PEARLESCENT_FROGLIGHT)));
+    public static final Block PEARLESCENT_FROGLIGHT_BUTTON = registerBlock("pearlescent_froglight_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.PEARLESCENT_FROGLIGHT), BlockSetType.STONE, 10, false));
+    public static final Block PEARLESCENT_FROGLIGHT_PRESSURE_PLATE = registerBlock("pearlescent_froglight_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.PEARLESCENT_FROGLIGHT), BlockSetType.STONE));
+    public static final Block PEARLESCENT_FROGLIGHT_FENCE = registerBlock("pearlescent_froglight_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.PEARLESCENT_FROGLIGHT)));
+    public static final Block PEARLESCENT_FROGLIGHT_FENCE_GATE = registerBlock("pearlescent_froglight_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.PEARLESCENT_FROGLIGHT), WoodType.OAK));
+    public static final Block PEARLESCENT_FROGLIGHT_DOOR = registerBlock("pearlescent_froglight_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.PEARLESCENT_FROGLIGHT), BlockSetType.STONE));
+    public static final Block PEARLESCENT_FROGLIGHT_TRAPDOOR = registerBlock("pearlescent_froglight_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.PEARLESCENT_FROGLIGHT), BlockSetType.STONE));
+    public static final Block PEARLESCENT_FROGLIGHT_WALL = registerBlock("pearlescent_froglight_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.PEARLESCENT_FROGLIGHT)));
+
 
 
 

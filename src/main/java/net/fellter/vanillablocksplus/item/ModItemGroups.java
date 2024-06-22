@@ -2701,6 +2701,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.OCHRE_FROGLIGHT_TRAPDOOR);
                         entries.add(ModBlocks.OCHRE_FROGLIGHT_PRESSURE_PLATE);
                         entries.add(ModBlocks.OCHRE_FROGLIGHT_BUTTON);
+                        //verdant_froglight
+                        entries.add(ModBlocks.VERDANT_FROGLIGHT_STAIRS);
+                        entries.add(ModBlocks.VERDANT_FROGLIGHT_SLAB);
+                        entries.add(ModBlocks.VERDANT_FROGLIGHT_WALL);
+                        entries.add(ModBlocks.VERDANT_FROGLIGHT_FENCE);
+                        entries.add(ModBlocks.VERDANT_FROGLIGHT_FENCE_GATE);
+                        entries.add(ModBlocks.VERDANT_FROGLIGHT_DOOR);
+                        entries.add(ModBlocks.VERDANT_FROGLIGHT_TRAPDOOR);
+                        entries.add(ModBlocks.VERDANT_FROGLIGHT_PRESSURE_PLATE);
+                        entries.add(ModBlocks.VERDANT_FROGLIGHT_BUTTON);
+                        //pearlescent_froglight
+                        entries.add(ModBlocks.PEARLESCENT_FROGLIGHT_STAIRS);
+                        entries.add(ModBlocks.PEARLESCENT_FROGLIGHT_SLAB);
+                        entries.add(ModBlocks.PEARLESCENT_FROGLIGHT_WALL);
+                        entries.add(ModBlocks.PEARLESCENT_FROGLIGHT_FENCE);
+                        entries.add(ModBlocks.PEARLESCENT_FROGLIGHT_FENCE_GATE);
+                        entries.add(ModBlocks.PEARLESCENT_FROGLIGHT_DOOR);
+                        entries.add(ModBlocks.PEARLESCENT_FROGLIGHT_TRAPDOOR);
+                        entries.add(ModBlocks.PEARLESCENT_FROGLIGHT_PRESSURE_PLATE);
+                        entries.add(ModBlocks.PEARLESCENT_FROGLIGHT_BUTTON);
 
 
 

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "bottom": "vanillablocksplus:block/pearlescent_froglight_door_bottom",
+    "top": "vanillablocksplus:block/pearlescent_froglight_door_top"
+  }
+}
