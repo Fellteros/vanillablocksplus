@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:cut_sandstone_slab"
+    },
+    "W": {
+      "item": "minecraft:cut_sandstone"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:cut_sandstone_fence_gate"
+  }
+}

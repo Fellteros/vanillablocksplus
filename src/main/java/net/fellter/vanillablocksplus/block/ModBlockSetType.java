@@ -6,8 +6,8 @@ import net.minecraft.sound.SoundEvents;
 
 public class ModBlockSetType {
 
-    public static BlockSetType registerModBlockSetType(String name, boolean canOpenByHand, BlockSoundGroup sounds) {
-        return new BlockSetType(name, canOpenByHand, sounds, SoundEvents.BLOCK_IRON_DOOR_CLOSE, SoundEvents.BLOCK_IRON_DOOR_OPEN,
+    private static BlockSetType registerModBlockSetType(String name, boolean canOpenByHand, BlockSoundGroup sounds) {
+        return new BlockSetType(name, canOpenByHand, true, true, BlockSetType.ActivationRule.EVERYTHING, sounds, SoundEvents.BLOCK_IRON_DOOR_CLOSE, SoundEvents.BLOCK_IRON_DOOR_OPEN,
                 SoundEvents.BLOCK_IRON_TRAPDOOR_CLOSE, SoundEvents.BLOCK_IRON_TRAPDOOR_OPEN, SoundEvents.BLOCK_STONE_PRESSURE_PLATE_CLICK_OFF,
                 SoundEvents.BLOCK_STONE_PRESSURE_PLATE_CLICK_ON, SoundEvents.BLOCK_STONE_BUTTON_CLICK_OFF, SoundEvents.BLOCK_STONE_BUTTON_CLICK_ON);
     }

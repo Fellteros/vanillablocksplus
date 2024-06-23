@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:yellow_terracotta"
+    }
+  },
+  "pattern": [
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:yellow_terracotta_button"
+  }
+}

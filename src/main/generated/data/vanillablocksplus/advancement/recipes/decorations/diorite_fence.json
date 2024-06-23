@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_diorite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diorite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_diorite_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:diorite_fence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_diorite_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diorite_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:diorite_fence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_diorite_fence",
+      "has_diorite",
+      "has_diorite_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:diorite_fence"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:wet_sponge_slab"
+    },
+    "W": {
+      "item": "minecraft:wet_sponge"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:wet_sponge_fence_gate"
+  }
+}

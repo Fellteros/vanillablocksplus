@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:pink_terracotta"
+    }
+  },
+  "pattern": [
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:pink_terracotta_button"
+  }
+}

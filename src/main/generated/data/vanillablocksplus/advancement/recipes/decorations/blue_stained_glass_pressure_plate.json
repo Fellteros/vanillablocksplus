@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blue_stained_glass_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:blue_stained_glass_pressure_plate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_blue_stained_glass_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:blue_stained_glass_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:blue_stained_glass_pressure_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_blue_stained_glass_pressure_plate",
+      "has_blue_stained_glass_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:blue_stained_glass_pressure_plate"
+    ]
+  }
+}

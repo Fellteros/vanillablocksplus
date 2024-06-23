@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_iron_bit": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:iron_bit"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_iron_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:iron_button"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:iron_button"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_iron_button",
+      "has_iron_bit"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:iron_button"
+    ]
+  }
+}

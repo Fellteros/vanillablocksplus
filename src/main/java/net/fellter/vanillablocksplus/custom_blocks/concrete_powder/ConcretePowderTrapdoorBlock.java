@@ -1,11 +1,11 @@
 package net.fellter.vanillablocksplus.custom_blocks.concrete_powder;
 
 import net.minecraft.block.*;
-import net.minecraft.client.util.ParticleUtil;
 import net.minecraft.entity.FallingBlockEntity;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.particle.BlockStateParticleEffect;
 import net.minecraft.particle.ParticleTypes;
+import net.minecraft.particle.ParticleUtil;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.FluidTags;
 import net.minecraft.server.world.ServerWorld;
@@ -19,8 +19,8 @@ import net.minecraft.world.WorldAccess;
 public class ConcretePowderTrapdoorBlock extends TrapdoorBlock implements LandingBlock {
     private final BlockState hardenedState;
 
-    public ConcretePowderTrapdoorBlock(Settings settings, BlockSetType blockSetType, Block hardened) {
-        super(settings, blockSetType);
+    public ConcretePowderTrapdoorBlock(BlockSetType type, AbstractBlock.Settings settings, Block hardened) {
+        super(type, settings);
         this.hardenedState = hardened.getDefaultState();
     }
 

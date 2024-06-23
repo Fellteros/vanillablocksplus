@@ -51,14 +51,14 @@ public class ModModels {
     }
 
     private static Model block(String parent, TextureKey ... requiredTextureKeys) {
-        return new Model(Optional.of(new Identifier("vanillablocksplus", "blockmodels/" + parent)), Optional.empty(), requiredTextureKeys);
+        return new Model(Optional.of(Identifier.of("vanillablocksplus", "blockmodels/" + parent)), Optional.empty(), requiredTextureKeys);
     }
 
     private static Model item(String parent, TextureKey ... requiredTextureKeys) {
-        return new Model(Optional.of(new Identifier("vanillablocksplus", "item/" + parent)), Optional.empty(), requiredTextureKeys);
+        return new Model(Optional.of(Identifier.of("vanillablocksplus", "item/" + parent)), Optional.empty(), requiredTextureKeys);
     }
 
     private static Model block(String parent, String variant, TextureKey ... requiredTextureKeys) {
-        return new Model(Optional.of(new Identifier("vanillablocksplus", "blockmodels/" + parent)), Optional.of(variant), requiredTextureKeys);
+        return new Model(Optional.of(Identifier.of("vanillablocksplus", "blockmodels/" + parent)), Optional.of(variant), requiredTextureKeys);
     }
 }

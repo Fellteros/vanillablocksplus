@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stone_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stone_bricks_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:stone_bricks_pressure_plate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:stone_bricks_pressure_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stone_bricks_pressure_plate",
+      "has_stone_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:stone_bricks_pressure_plate"
+    ]
+  }
+}

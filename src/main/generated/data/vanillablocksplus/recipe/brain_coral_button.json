@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:brain_coral_block"
+    }
+  },
+  "pattern": [
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:brain_coral_button"
+  }
+}

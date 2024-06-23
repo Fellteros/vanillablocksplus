@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:dead_bubble_coral_slab"
+    },
+    "W": {
+      "item": "minecraft:dead_bubble_coral_block"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:dead_bubble_coral_fence_gate"
+  }
+}

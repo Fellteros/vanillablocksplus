@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sculk": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sculk"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sculk_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:sculk_fence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sculk_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:sculk_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:sculk_fence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sculk_fence",
+      "has_sculk",
+      "has_sculk_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:sculk_fence"
+    ]
+  }
+}

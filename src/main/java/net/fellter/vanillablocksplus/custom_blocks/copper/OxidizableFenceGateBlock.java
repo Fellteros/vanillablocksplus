@@ -12,7 +12,7 @@ public class OxidizableFenceGateBlock extends FenceGateBlock implements Oxidizab
     private final Oxidizable.OxidationLevel oxidationLevel;
 
     public OxidizableFenceGateBlock(Oxidizable.OxidationLevel oxidationLevel, Settings settings, WoodType type) {
-        super(settings, type);
+        super(type, settings);
         this.oxidationLevel = oxidationLevel;
     }
 

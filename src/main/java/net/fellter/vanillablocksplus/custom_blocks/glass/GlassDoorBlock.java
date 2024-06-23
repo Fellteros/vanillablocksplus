@@ -10,8 +10,8 @@ import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
 public class GlassDoorBlock extends DoorBlock {
-    public GlassDoorBlock(Settings settings, BlockSetType blockSetType) {
-        super(settings, blockSetType);
+    public GlassDoorBlock(BlockSetType blockSetType, Settings settings) {
+        super(blockSetType, settings);
     }
 
     @Override

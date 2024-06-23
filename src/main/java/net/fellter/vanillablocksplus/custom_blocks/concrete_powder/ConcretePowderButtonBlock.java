@@ -1,11 +1,11 @@
 package net.fellter.vanillablocksplus.custom_blocks.concrete_powder;
 
 import net.minecraft.block.*;
-import net.minecraft.client.util.ParticleUtil;
 import net.minecraft.entity.FallingBlockEntity;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.particle.BlockStateParticleEffect;
 import net.minecraft.particle.ParticleTypes;
+import net.minecraft.particle.ParticleUtil;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.FluidTags;
 import net.minecraft.server.world.ServerWorld;
@@ -19,8 +19,8 @@ import net.minecraft.world.WorldAccess;
 public class ConcretePowderButtonBlock extends ButtonBlock implements LandingBlock {
     private final BlockState hardenedState;
 
-    public ConcretePowderButtonBlock(Settings settings, BlockSetType blockSetType, int pressTicks, boolean wooden, Block hardened) {
-        super(settings, blockSetType, pressTicks, wooden);
+    public ConcretePowderButtonBlock(BlockSetType blockSetType, int pressTicks, Settings settings, Block hardened) {
+        super(blockSetType, pressTicks, settings);
         this.hardenedState = hardened.getDefaultState();
     }
 

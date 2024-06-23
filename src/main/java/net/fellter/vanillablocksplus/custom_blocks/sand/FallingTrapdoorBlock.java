@@ -1,13 +1,10 @@
 package net.fellter.vanillablocksplus.custom_blocks.sand;
 
-import net.minecraft.block.BlockSetType;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.LandingBlock;
-import net.minecraft.block.TrapdoorBlock;
-import net.minecraft.client.util.ParticleUtil;
+import net.minecraft.block.*;
 import net.minecraft.entity.FallingBlockEntity;
 import net.minecraft.particle.BlockStateParticleEffect;
 import net.minecraft.particle.ParticleTypes;
+import net.minecraft.particle.ParticleUtil;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
@@ -17,8 +14,8 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 
 public class FallingTrapdoorBlock extends TrapdoorBlock implements LandingBlock {
-    public FallingTrapdoorBlock(Settings settings, BlockSetType blockSetType) {
-        super(settings, blockSetType);
+    public FallingTrapdoorBlock(BlockSetType type, AbstractBlock.Settings settings) {
+        super(type, settings);
     }
 
     @Override

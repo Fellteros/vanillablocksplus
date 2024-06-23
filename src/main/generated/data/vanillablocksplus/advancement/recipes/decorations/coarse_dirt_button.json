@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_coarse_dirt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:coarse_dirt"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_coarse_dirt_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:coarse_dirt_button"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:coarse_dirt_button"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_coarse_dirt_button",
+      "has_coarse_dirt"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:coarse_dirt_button"
+    ]
+  }
+}

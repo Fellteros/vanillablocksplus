@@ -15,15 +15,17 @@ import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
+import net.minecraft.util.ItemActionResult;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 
+
 public class RedstoneTrapdoorBlock extends TrapdoorBlock {
-    public RedstoneTrapdoorBlock(Settings settings, BlockSetType blockSetType) {
-        super(settings, blockSetType);
+    public RedstoneTrapdoorBlock(BlockSetType blockSetType, Settings settings) {
+        super(blockSetType, settings);
     }
 
     public static final BooleanProperty LIT = Properties.LIT;
@@ -42,14 +44,14 @@ public class RedstoneTrapdoorBlock extends TrapdoorBlock {
         super.onSteppedOn(world, pos, state, entity);
     }
 
-    @Override
-    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
+    protected ItemActionResult onUseWithItem(ItemStack stack, BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if (world.isClient) {
             spawnParticles(world, pos);
+        } else {
+            light(state, world, pos);
         }
-        light(state, world, pos);
-        super.onUse(state, world, pos, player, hand, hit);
-        return ActionResult.SUCCESS;
+
+        return stack.getItem() instanceof BlockItem && (new ItemPlacementContext(player, hand, stack, hit)).canPlace() ? ItemActionResult.SKIP_DEFAULT_BLOCK_INTERACTION : ItemActionResult.SUCCESS;
     }
 
     private static void light(BlockState state, World world, BlockPos pos) {
@@ -71,14 +73,6 @@ public class RedstoneTrapdoorBlock extends TrapdoorBlock {
         }
     }
 
-    @Override
-    public void onStacksDropped(BlockState state, ServerWorld world, BlockPos pos, ItemStack tool, boolean dropExperience) {
-        super.onStacksDropped(state, world, pos, tool, dropExperience);
-        if (dropExperience && EnchantmentHelper.getLevel(Enchantments.SILK_TOUCH, tool) == 0) {
-            int i = 1 + world.random.nextInt(5);
-            this.dropExperience(world, pos, i);
-        }
-    }
 
     @Override
     public void randomDisplayTick(BlockState state, World world, BlockPos pos, Random random) {

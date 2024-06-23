@@ -1,27 +1,32 @@
 package net.fellter.vanillablocksplus.custom_blocks.redstone;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockSetType;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.ButtonBlock;
+import net.minecraft.block.*;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.enchantment.EnchantmentLevelEntry;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.particle.DustParticleEffect;
+import net.minecraft.predicate.item.EnchantmentsPredicate;
+import net.minecraft.registry.DynamicRegistryManager;
+import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.Properties;
+import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 
 public class RedstoneButtonBlock extends ButtonBlock {
-    public RedstoneButtonBlock(Settings settings, BlockSetType blockSetType, int pressTicks, boolean wooden) {
-        super(settings, blockSetType, pressTicks, wooden);
+    public RedstoneButtonBlock(BlockSetType blockSetType, int pressTicks, AbstractBlock.Settings settings) {
+        super(blockSetType, pressTicks, settings);
     }
 
     public static final BooleanProperty LIT = Properties.LIT;
@@ -56,15 +61,6 @@ public class RedstoneButtonBlock extends ButtonBlock {
     public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
         if (state.get(LIT)) {
             world.setBlockState(pos, state.with(LIT, false), Block.NOTIFY_ALL);
-        }
-    }
-
-    @Override
-    public void onStacksDropped(BlockState state, ServerWorld world, BlockPos pos, ItemStack tool, boolean dropExperience) {
-        super.onStacksDropped(state, world, pos, tool, dropExperience);
-        if (dropExperience && EnchantmentHelper.getLevel(Enchantments.SILK_TOUCH, tool) == 0) {
-            int i = 1 + world.random.nextInt(5);
-            this.dropExperience(world, pos, i);
         }
     }
 

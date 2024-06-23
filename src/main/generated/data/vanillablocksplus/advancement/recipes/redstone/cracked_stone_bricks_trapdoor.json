@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cracked_stone_bricks_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:cracked_stone_bricks_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cracked_stone_bricks_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:cracked_stone_bricks_trapdoor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:cracked_stone_bricks_trapdoor"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cracked_stone_bricks_trapdoor",
+      "has_cracked_stone_bricks_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:cracked_stone_bricks_trapdoor"
+    ]
+  }
+}

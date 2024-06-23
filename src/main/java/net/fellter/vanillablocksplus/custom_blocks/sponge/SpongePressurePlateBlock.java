@@ -13,8 +13,8 @@ import net.minecraft.world.WorldEvents;
 public class SpongePressurePlateBlock extends PressurePlateBlock {
     private static final Direction[] field_43257 = Direction.values();
 
-    public SpongePressurePlateBlock(ActivationRule type, Settings settings, BlockSetType blockSetType) {
-        super(type, settings, blockSetType);
+    public SpongePressurePlateBlock(BlockSetType type, AbstractBlock.Settings settings) {
+        super(type, settings);
     }
 
 
@@ -57,7 +57,7 @@ public class SpongePressurePlateBlock extends PressurePlateBlock {
                 return false;
             }
             Block block = blockState.getBlock();
-            if (block instanceof FluidDrainable && !((FluidDrainable) block).tryDrainFluid(world, currentPos, blockState).isEmpty()) {
+            if (block instanceof FluidDrainable && !((FluidDrainable) block).tryDrainFluid(null, world, currentPos, blockState).isEmpty()) {
                 return true;
             }
             if (blockState.getBlock() instanceof FluidBlock) {

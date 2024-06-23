@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:orange_stained_glass_slab"
+    },
+    "W": {
+      "item": "minecraft:orange_stained_glass"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:orange_stained_glass_fence_gate"
+  }
+}

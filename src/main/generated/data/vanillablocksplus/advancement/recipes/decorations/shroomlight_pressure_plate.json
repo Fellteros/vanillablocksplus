@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_shroomlight_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:shroomlight_pressure_plate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_shroomlight_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:shroomlight_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:shroomlight_pressure_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_shroomlight_pressure_plate",
+      "has_shroomlight_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:shroomlight_pressure_plate"
+    ]
+  }
+}

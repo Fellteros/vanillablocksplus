@@ -3,6 +3,7 @@ package net.fellter.vanillablocksplus.custom_blocks.sponge;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.registry.tag.FluidTags;
 import net.minecraft.util.math.BlockPos;
@@ -13,8 +14,8 @@ import net.minecraft.world.WorldEvents;
 public class SpongeButtonBlock extends ButtonBlock {
     private static final Direction[] field_43257 = Direction.values();
 
-    public SpongeButtonBlock(Settings settings, BlockSetType blockSetType, int pressTicks, boolean wooden) {
-        super(settings, blockSetType, pressTicks, wooden);
+    public SpongeButtonBlock(BlockSetType blockSetType, int pressTicks, AbstractBlock.Settings settings) {
+        super(blockSetType, pressTicks, settings);
     }
 
     @Override
@@ -57,7 +58,8 @@ public class SpongeButtonBlock extends ButtonBlock {
                 return false;
             }
             Block block = blockState.getBlock();
-            if (block instanceof FluidDrainable && !((FluidDrainable) block).tryDrainFluid(world, currentPos, blockState).isEmpty()) {
+
+            if (block instanceof FluidDrainable && !((FluidDrainable) block).tryDrainFluid(null, world, currentPos, blockState).isEmpty()) {
                 return true;
             }
             if (blockState.getBlock() instanceof FluidBlock) {

@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_diamond_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:diamond_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_diamond_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:diamond_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:diamond_door"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_diamond_door",
+      "has_diamond_dust"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:diamond_door"
+    ]
+  }
+}

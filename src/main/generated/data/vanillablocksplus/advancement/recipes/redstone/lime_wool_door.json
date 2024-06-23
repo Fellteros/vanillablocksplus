@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lime_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lime_wool"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lime_wool_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:lime_wool_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:lime_wool_door"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lime_wool_door",
+      "has_lime_wool"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:lime_wool_door"
+    ]
+  }
+}

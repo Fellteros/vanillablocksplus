@@ -1,10 +1,7 @@
 package net.fellter.vanillablocksplus.custom_blocks.wet_sponge;
 
 import net.fellter.vanillablocksplus.block.ModBlocks;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.FenceGateBlock;
-import net.minecraft.block.WoodType;
+import net.minecraft.block.*;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
@@ -15,8 +12,8 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldEvents;
 
 public class WetSpongeFenceGateBlock extends FenceGateBlock {
-    public WetSpongeFenceGateBlock(Settings settings, WoodType type) {
-        super(settings, type);
+    public WetSpongeFenceGateBlock(WoodType type, AbstractBlock.Settings settings) {
+        super(type, settings);
     }
 
     @Override

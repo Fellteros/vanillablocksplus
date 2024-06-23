@@ -12,8 +12,8 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldEvents;
 
 public class WetSpongeButtonBlock extends ButtonBlock {
-    public WetSpongeButtonBlock(Settings settings, BlockSetType blockSetType, int pressTicks, boolean wooden) {
-        super(settings, blockSetType, pressTicks, wooden);
+    public WetSpongeButtonBlock(BlockSetType blockSetType, int pressTicks, AbstractBlock.Settings settings) {
+        super(blockSetType, pressTicks, settings);
     }
 
 

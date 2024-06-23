@@ -58,7 +58,7 @@ public class SpongeStairsBlock extends StairsBlock {
                 return false;
             }
             Block block = blockState.getBlock();
-            if (block instanceof FluidDrainable && !((FluidDrainable) block).tryDrainFluid(world, currentPos, blockState).isEmpty()) {
+            if (block instanceof FluidDrainable && !((FluidDrainable) block).tryDrainFluid(null, world, currentPos, blockState).isEmpty()) {
                 return true;
             }
             if (blockState.getBlock() instanceof FluidBlock) {

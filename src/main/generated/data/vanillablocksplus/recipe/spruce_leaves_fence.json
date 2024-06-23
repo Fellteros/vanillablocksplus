@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:spruce_leaves_slab"
+    },
+    "W": {
+      "item": "minecraft:spruce_leaves"
+    }
+  },
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "result": {
+    "count": 3,
+    "id": "vanillablocksplus:spruce_leaves_fence"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:brown_concrete_powder_slab"
+    },
+    "W": {
+      "item": "minecraft:brown_concrete_powder"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:brown_concrete_powder_fence_gate"
+  }
+}

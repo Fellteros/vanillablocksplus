@@ -13,8 +13,8 @@ import net.minecraft.world.WorldEvents;
 public class SpongeTrapdoorBlock extends TrapdoorBlock {
     private static final Direction[] field_43257 = Direction.values();
 
-    public SpongeTrapdoorBlock(Settings settings, BlockSetType blockSetType) {
-        super(settings, blockSetType);
+    public SpongeTrapdoorBlock(BlockSetType type, AbstractBlock.Settings settings) {
+        super(type, settings);
     }
 
 
@@ -60,7 +60,7 @@ public class SpongeTrapdoorBlock extends TrapdoorBlock {
                 return false;
             }
             Block block = blockState.getBlock();
-            if (block instanceof FluidDrainable && !((FluidDrainable) block).tryDrainFluid(world, currentPos, blockState).isEmpty()) {
+            if (block instanceof FluidDrainable && !((FluidDrainable) block).tryDrainFluid(null, world, currentPos, blockState).isEmpty()) {
                 return true;
             }
             if (blockState.getBlock() instanceof FluidBlock) {

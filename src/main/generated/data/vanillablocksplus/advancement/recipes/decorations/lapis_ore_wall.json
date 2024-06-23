@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lapis_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lapis_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lapis_ore_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:lapis_ore_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:lapis_ore_wall"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lapis_ore_wall",
+      "has_lapis_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:lapis_ore_wall"
+    ]
+  }
+}

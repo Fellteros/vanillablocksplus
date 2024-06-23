@@ -1,5 +1,6 @@
 package net.fellter.vanillablocksplus.custom_blocks.slime;
 
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.FenceBlock;
 import net.minecraft.entity.Entity;
@@ -10,7 +11,7 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
 public class SlimeFenceBlock extends FenceBlock {
-    public SlimeFenceBlock(Settings settings) {
+    public SlimeFenceBlock(AbstractBlock.Settings settings) {
         super(settings);
     }
 

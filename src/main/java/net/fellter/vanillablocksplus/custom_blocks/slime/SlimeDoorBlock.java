@@ -1,5 +1,6 @@
 package net.fellter.vanillablocksplus.custom_blocks.slime;
 
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.BlockSetType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.DoorBlock;
@@ -11,8 +12,8 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
 public class SlimeDoorBlock extends DoorBlock {
-    public SlimeDoorBlock(Settings settings, BlockSetType blockSetType) {
-        super(settings, blockSetType);
+    public SlimeDoorBlock(BlockSetType blockSetType, AbstractBlock.Settings settings) {
+        super(blockSetType, settings);
     }
 
     @Override

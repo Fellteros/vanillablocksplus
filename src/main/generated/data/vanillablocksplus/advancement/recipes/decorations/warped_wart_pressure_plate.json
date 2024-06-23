@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:warped_wart_pressure_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warped_wart_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:warped_wart_pressure_plate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_warped_wart_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:warped_wart_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_warped_wart_pressure_plate",
+      "has_warped_wart_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:warped_wart_pressure_plate"
+    ]
+  }
+}

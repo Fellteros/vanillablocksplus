@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mangrove_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mangrove_wood_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:mangrove_wood_fence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:mangrove_wood_fence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mangrove_wood_fence",
+      "has_mangrove_wood"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:mangrove_wood_fence"
+    ]
+  }
+}

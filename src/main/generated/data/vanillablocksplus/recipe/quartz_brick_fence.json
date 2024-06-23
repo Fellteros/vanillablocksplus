@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:quartz_brick_slab"
+    },
+    "W": {
+      "item": "minecraft:quartz_bricks"
+    }
+  },
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "result": {
+    "count": 3,
+    "id": "vanillablocksplus:quartz_brick_fence"
+  }
+}

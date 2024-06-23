@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mossy_cobblestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mossy_cobblestone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mossy_cobblestone_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:mossy_cobblestone_fence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mossy_cobblestone_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mossy_cobblestone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:mossy_cobblestone_fence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mossy_cobblestone_fence",
+      "has_mossy_cobblestone",
+      "has_mossy_cobblestone_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:mossy_cobblestone_fence"
+    ]
+  }
+}

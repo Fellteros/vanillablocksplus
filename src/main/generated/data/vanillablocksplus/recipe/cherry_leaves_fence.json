@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:cherry_leaves_slab"
+    },
+    "W": {
+      "item": "minecraft:cherry_leaves"
+    }
+  },
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "result": {
+    "count": 3,
+    "id": "vanillablocksplus:cherry_leaves_fence"
+  }
+}

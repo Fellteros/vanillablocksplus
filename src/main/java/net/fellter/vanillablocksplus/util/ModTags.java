@@ -13,7 +13,7 @@ public class ModTags {
         public static final TagKey<Block> STRIPPED_BLOCKS = createTag("stripped_blocks");
 
         private static TagKey<Block> createTag(String name) {
-            return TagKey.of(RegistryKeys.BLOCK, new Identifier(VanillaBlocksPlus.MOD_ID, name));
+            return TagKey.of(RegistryKeys.BLOCK, Identifier.of(VanillaBlocksPlus.MOD_ID, name));
         }
     }
 
@@ -22,7 +22,7 @@ public class ModTags {
 
 
         private static TagKey<Item> createTag(String name) {
-            return TagKey.of(RegistryKeys.ITEM, new Identifier(VanillaBlocksPlus.MOD_ID, name));
+            return TagKey.of(RegistryKeys.ITEM, Identifier.of(VanillaBlocksPlus.MOD_ID, name));
         }
     }
 }

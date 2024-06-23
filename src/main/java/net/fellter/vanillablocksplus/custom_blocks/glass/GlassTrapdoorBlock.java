@@ -1,17 +1,14 @@
 package net.fellter.vanillablocksplus.custom_blocks.glass;
 
-import net.minecraft.block.BlockSetType;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.ShapeContext;
-import net.minecraft.block.TrapdoorBlock;
+import net.minecraft.block.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
 public class GlassTrapdoorBlock extends TrapdoorBlock {
-    public GlassTrapdoorBlock(Settings settings, BlockSetType blockSetType) {
-        super(settings, blockSetType);
+    public GlassTrapdoorBlock(BlockSetType type, AbstractBlock.Settings settings) {
+        super(type, settings);
     }
 
     @Override

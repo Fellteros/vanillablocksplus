@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:warped_nylium_fence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warped_nylium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_nylium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_warped_nylium_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:warped_nylium_fence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_warped_nylium_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:warped_nylium_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_warped_nylium_fence",
+      "has_warped_nylium",
+      "has_warped_nylium_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:warped_nylium_fence"
+    ]
+  }
+}

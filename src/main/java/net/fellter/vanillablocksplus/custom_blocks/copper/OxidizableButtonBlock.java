@@ -1,9 +1,6 @@
 package net.fellter.vanillablocksplus.custom_blocks.copper;
 
-import net.minecraft.block.BlockSetType;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.ButtonBlock;
-import net.minecraft.block.Oxidizable;
+import net.minecraft.block.*;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
@@ -11,8 +8,8 @@ import net.minecraft.util.math.random.Random;
 public class OxidizableButtonBlock extends ButtonBlock implements Oxidizable {
     private final Oxidizable.OxidationLevel oxidationLevel;
 
-    public OxidizableButtonBlock(OxidationLevel oxidationLevel, Settings settings, BlockSetType blockSetType, int pressTicks, boolean wooden) {
-        super(settings, blockSetType, pressTicks, wooden);
+    public OxidizableButtonBlock(OxidationLevel oxidationLevel, BlockSetType blockSetType, int pressTicks, AbstractBlock.Settings settings) {
+        super(blockSetType, pressTicks, settings);
         this.oxidationLevel = oxidationLevel;
     }
 

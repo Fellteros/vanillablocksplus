@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_target": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:target"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_target_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:target_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:target_door"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_target_door",
+      "has_target"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:target_door"
+    ]
+  }
+}

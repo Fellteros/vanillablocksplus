@@ -1,17 +1,14 @@
 package net.fellter.vanillablocksplus.custom_blocks.glass;
 
-import net.minecraft.block.BlockSetType;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.PressurePlateBlock;
-import net.minecraft.block.ShapeContext;
+import net.minecraft.block.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
 public class GlassPressurePlateBlock extends PressurePlateBlock {
-    public GlassPressurePlateBlock(ActivationRule type, Settings settings, BlockSetType blockSetType) {
-        super(type, settings, blockSetType);
+    public GlassPressurePlateBlock(BlockSetType type, AbstractBlock.Settings settings) {
+        super(type, settings);
     }
 
     @Override

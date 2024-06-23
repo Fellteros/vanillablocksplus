@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:raw_iron_slab"
+    },
+    "W": {
+      "item": "minecraft:raw_iron_block"
+    }
+  },
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "result": {
+    "count": 3,
+    "id": "vanillablocksplus:raw_iron_fence"
+  }
+}

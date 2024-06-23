@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sea_lantern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sea_lantern"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sea_lantern_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:sea_lantern_fence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sea_lantern_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:sea_lantern_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:sea_lantern_fence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sea_lantern_fence",
+      "has_sea_lantern",
+      "has_sea_lantern_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:sea_lantern_fence"
+    ]
+  }
+}

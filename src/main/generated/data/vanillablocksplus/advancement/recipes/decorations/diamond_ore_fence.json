@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_diamond_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_diamond_ore_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:diamond_ore_fence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_diamond_ore_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:diamond_ore_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:diamond_ore_fence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_diamond_ore_fence",
+      "has_diamond_ore",
+      "has_diamond_ore_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:diamond_ore_fence"
+    ]
+  }
+}

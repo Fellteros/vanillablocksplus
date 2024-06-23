@@ -3,7 +3,7 @@ package net.fellter.vanillablocksplus.registry;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.minecraft.client.color.world.BiomeColors;
-import net.minecraft.client.color.world.FoliageColors;
+import net.minecraft.world.biome.FoliageColors;
 
 public class FoliageBlocksRegistry {
     public static void foliageBlocksMethod() {

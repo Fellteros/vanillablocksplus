@@ -1,17 +1,14 @@
 package net.fellter.vanillablocksplus.custom_blocks.glass;
 
-import net.minecraft.block.BlockSetType;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.ButtonBlock;
-import net.minecraft.block.ShapeContext;
+import net.minecraft.block.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
 public class GlassButtonBlock extends ButtonBlock {
-    public GlassButtonBlock(Settings settings, BlockSetType blockSetType, int pressTicks, boolean wooden) {
-        super(settings, blockSetType, pressTicks, wooden);
+    public GlassButtonBlock(BlockSetType blockSetType, int pressTicks, AbstractBlock.Settings settings) {
+        super(blockSetType, pressTicks, settings);
     }
 
     @Override

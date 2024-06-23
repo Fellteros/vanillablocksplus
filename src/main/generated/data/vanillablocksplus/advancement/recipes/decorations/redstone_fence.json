@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_redstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:redstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_redstone_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:redstone_fence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_redstone_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:redstone_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:redstone_fence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_redstone_fence",
+      "has_redstone_shard",
+      "has_redstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:redstone_fence"
+    ]
+  }
+}

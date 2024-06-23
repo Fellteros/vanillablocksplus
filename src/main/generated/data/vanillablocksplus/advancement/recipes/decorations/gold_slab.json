@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gold_bit": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:gold_bit"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gold_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:gold_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:gold_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gold_slab",
+      "has_gold_bit"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:gold_slab"
+    ]
+  }
+}

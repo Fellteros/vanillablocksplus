@@ -1,5 +1,6 @@
 package net.fellter.vanillablocksplus.custom_blocks.slime;
 
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.BlockSetType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ButtonBlock;
@@ -11,8 +12,8 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
 public class SlimeButtonBlock extends ButtonBlock {
-    public SlimeButtonBlock(Settings settings, BlockSetType blockSetType, int pressTicks, boolean wooden) {
-        super(settings, blockSetType, pressTicks, wooden);
+    public SlimeButtonBlock(BlockSetType blockSetType, int pressTicks, AbstractBlock.Settings settings) {
+        super(blockSetType, pressTicks, settings);
     }
 
     @Override

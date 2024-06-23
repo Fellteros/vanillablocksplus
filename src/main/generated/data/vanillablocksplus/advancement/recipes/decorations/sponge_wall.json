@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sponge": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sponge"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sponge_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:sponge_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:sponge_wall"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sponge_wall",
+      "has_sponge"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:sponge_wall"
+    ]
+  }
+}

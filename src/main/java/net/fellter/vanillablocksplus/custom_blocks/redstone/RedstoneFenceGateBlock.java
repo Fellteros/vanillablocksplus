@@ -22,8 +22,8 @@ import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 
 public class RedstoneFenceGateBlock extends FenceGateBlock {
-    public RedstoneFenceGateBlock(Settings settings, WoodType type) {
-        super(settings, type);
+    public RedstoneFenceGateBlock(WoodType type, AbstractBlock.Settings settings) {
+        super(type, settings);
     }
 
 
@@ -62,14 +62,6 @@ public class RedstoneFenceGateBlock extends FenceGateBlock {
         }
     }
 
-    @Override
-    public void onStacksDropped(BlockState state, ServerWorld world, BlockPos pos, ItemStack tool, boolean dropExperience) {
-        super.onStacksDropped(state, world, pos, tool, dropExperience);
-        if (dropExperience && EnchantmentHelper.getLevel(Enchantments.SILK_TOUCH, tool) == 0) {
-            int i = 1 + world.random.nextInt(5);
-            this.dropExperience(world, pos, i);
-        }
-    }
 
     @Override
     public void randomDisplayTick(BlockState state, World world, BlockPos pos, Random random) {

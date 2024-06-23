@@ -13,8 +13,8 @@ import net.minecraft.world.WorldEvents;
 public class SpongeFenceGateBlock extends FenceGateBlock {
     private static final Direction[] field_43257 = Direction.values();
 
-    public SpongeFenceGateBlock(Settings settings, WoodType type) {
-        super(settings, type);
+    public SpongeFenceGateBlock(WoodType type, AbstractBlock.Settings settings) {
+        super(type, settings);
     }
 
     @Override
@@ -58,7 +58,7 @@ public class SpongeFenceGateBlock extends FenceGateBlock {
                 return false;
             }
             Block block = blockState.getBlock();
-            if (block instanceof FluidDrainable && !((FluidDrainable) block).tryDrainFluid(world, currentPos, blockState).isEmpty()) {
+            if (block instanceof FluidDrainable && !((FluidDrainable) block).tryDrainFluid(null, world, currentPos, blockState).isEmpty()) {
                 return true;
             }
             if (blockState.getBlock() instanceof FluidBlock) {

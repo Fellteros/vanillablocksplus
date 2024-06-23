@@ -1,10 +1,7 @@
 package net.fellter.vanillablocksplus.custom_blocks.wet_sponge;
 
 import net.fellter.vanillablocksplus.block.ModBlocks;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockSetType;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.TrapdoorBlock;
+import net.minecraft.block.*;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
@@ -15,8 +12,8 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldEvents;
 
 public class WetSpongeTrapdoorBlock extends TrapdoorBlock {
-    public WetSpongeTrapdoorBlock(Settings settings, BlockSetType blockSetType) {
-        super(settings, blockSetType);
+    public WetSpongeTrapdoorBlock(BlockSetType type, AbstractBlock.Settings settings) {
+        super(type, settings);
     }
 
     @Override

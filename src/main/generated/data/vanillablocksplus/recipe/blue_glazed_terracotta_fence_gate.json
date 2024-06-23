@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:blue_glazed_terracotta_slab"
+    },
+    "W": {
+      "item": "minecraft:blue_glazed_terracotta"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:blue_glazed_terracotta_fence_gate"
+  }
+}

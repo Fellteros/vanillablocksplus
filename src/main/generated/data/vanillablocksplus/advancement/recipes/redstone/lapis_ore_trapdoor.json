@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lapis_ore_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:lapis_ore_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lapis_ore_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:lapis_ore_trapdoor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:lapis_ore_trapdoor"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lapis_ore_trapdoor",
+      "has_lapis_ore_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:lapis_ore_trapdoor"
+    ]
+  }
+}

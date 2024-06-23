@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_quartz_brick_fence_gate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:quartz_brick_fence_gate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_quartz_brick_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:quartz_brick_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_quartz_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:quartz_brick_fence_gate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_quartz_brick_fence_gate",
+      "has_quartz_bricks",
+      "has_quartz_brick_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:quartz_brick_fence_gate"
+    ]
+  }
+}

@@ -1,5 +1,6 @@
 package net.fellter.vanillablocksplus.custom_blocks.slime;
 
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.BlockSetType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.PressurePlateBlock;
@@ -11,8 +12,8 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
 public class SlimePressurePlateBlock extends PressurePlateBlock {
-    public SlimePressurePlateBlock(ActivationRule type, Settings settings, BlockSetType blockSetType) {
-        super(type, settings, blockSetType);
+    public SlimePressurePlateBlock(BlockSetType type, AbstractBlock.Settings settings) {
+        super(type, settings);
     }
 
     @Override

@@ -1,5 +1,6 @@
 package net.fellter.vanillablocksplus.custom_blocks.slime;
 
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.FenceGateBlock;
 import net.minecraft.block.WoodType;
@@ -11,8 +12,8 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
 public class SlimeFenceGateBlock extends FenceGateBlock {
-    public SlimeFenceGateBlock(Settings settings, WoodType type) {
-        super(settings, type);
+    public SlimeFenceGateBlock(WoodType type, AbstractBlock.Settings settings) {
+        super(type, settings);
     }
 
     @Override

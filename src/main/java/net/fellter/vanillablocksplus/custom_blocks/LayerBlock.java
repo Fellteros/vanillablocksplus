@@ -40,7 +40,7 @@ public class LayerBlock extends Block {
     }
 
     @Override
-    public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type) {
+    public boolean canPathfindThrough(BlockState state, NavigationType type) {
         switch (type) {
             case AIR -> {
                 return state.get(LAYERS) < 5;

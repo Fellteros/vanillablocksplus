@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:deepslate_iron_ore_slab"
+    },
+    "W": {
+      "item": "minecraft:deepslate_iron_ore"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:deepslate_iron_ore_fence_gate"
+  }
+}
