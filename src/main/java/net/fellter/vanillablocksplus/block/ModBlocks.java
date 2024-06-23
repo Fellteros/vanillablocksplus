@@ -5813,6 +5813,27 @@ public class ModBlocks {
     public static final Block BEDROCK_WALL = registerBlock("bedrock_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.BEDROCK)));
 
+    //target
+    public static final Block TARGET_STAIRS = registerBlock("target_stairs",
+            new StairsBlock(Blocks.TARGET.getDefaultState(), FabricBlockSettings.copyOf(Blocks.TARGET)));
+    public static final Block TARGET_SLAB = registerBlock("target_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.TARGET)));
+    public static final Block TARGET_BUTTON = registerBlock("target_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.TARGET), BlockSetType.STONE, 10, false));
+    public static final Block TARGET_PRESSURE_PLATE = registerBlock("target_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.TARGET), BlockSetType.STONE));
+    public static final Block TARGET_FENCE = registerBlock("target_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.TARGET)));
+    public static final Block TARGET_FENCE_GATE = registerBlock("target_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.TARGET), WoodType.OAK));
+    public static final Block TARGET_DOOR = registerBlock("target_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.TARGET), BlockSetType.STONE));
+    public static final Block TARGET_TRAPDOOR = registerBlock("target_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.TARGET), BlockSetType.STONE));
+    public static final Block TARGET_WALL = registerBlock("target_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.TARGET)));
+
 
 
 

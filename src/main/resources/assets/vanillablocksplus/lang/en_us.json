@@ -2723,6 +2723,16 @@
   "block.vanillablocksplus.bedrock_pressure_plate": "Bedrock Pressure Plate",
   "block.vanillablocksplus.bedrock_button": "Bedrock Button",
   "block.vanillablocksplus.bedrock_wall": "Bedrock Wall",
+
+  "block.vanillablocksplus.target_stairs": "Target Stairs",
+  "block.vanillablocksplus.target_slab": "Target Slab",
+  "block.vanillablocksplus.target_door": "Target Door",
+  "block.vanillablocksplus.target_trapdoor": "Target Trapdoor",
+  "block.vanillablocksplus.target_fence": "Target Fence",
+  "block.vanillablocksplus.target_fence_gate": "Target Fence Gate",
+  "block.vanillablocksplus.target_pressure_plate": "Target Pressure Plate",
+  "block.vanillablocksplus.target_button": "Target Button",
+  "block.vanillablocksplus.target_wall": "Target Wall",
   
 
   

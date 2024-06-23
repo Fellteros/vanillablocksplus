@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/template_orientable_trapdoor_open",
+  "parent": "vanillablocksplus:blockmodels/trapdoor_stb_open",
   "textures": {
-    "texture": "vanillablocksplus:block/hay_block_trapdoor"
+    "bottom": "vanillablocksplus:block/hay_block_trapdoor",
+    "side": "minecraft:block/hay_block_side",
+    "top": "vanillablocksplus:block/hay_block_trapdoor"
   }
 }

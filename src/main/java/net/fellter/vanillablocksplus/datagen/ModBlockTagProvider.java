@@ -3142,7 +3142,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.VERDANT_FROGLIGHT_FENCE)
                 .add(ModBlocks.PEARLESCENT_FROGLIGHT_FENCE)
                 .add(ModBlocks.SCULK_FENCE)
-                .add(ModBlocks.BEDROCK_FENCE);
+                .add(ModBlocks.BEDROCK_FENCE)
+                .add(ModBlocks.TARGET_FENCE);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.OAK_WOOD_FENCE)
@@ -3425,7 +3426,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.VERDANT_FROGLIGHT_FENCE)
                 .add(ModBlocks.PEARLESCENT_FROGLIGHT_FENCE)
                 .add(ModBlocks.SCULK_FENCE)
-                .add(ModBlocks.BEDROCK_FENCE);
+                .add(ModBlocks.BEDROCK_FENCE)
+                .add(ModBlocks.TARGET_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -3701,7 +3703,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.VERDANT_FROGLIGHT_FENCE_GATE)
                 .add(ModBlocks.PEARLESCENT_FROGLIGHT_FENCE_GATE)
                 .add(ModBlocks.SCULK_FENCE_GATE)
-                .add(ModBlocks.BEDROCK_FENCE_GATE);
+                .add(ModBlocks.BEDROCK_FENCE_GATE)
+                .add(ModBlocks.TARGET_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -3946,7 +3949,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.VERDANT_FROGLIGHT_WALL)
                 .add(ModBlocks.PEARLESCENT_FROGLIGHT_WALL)
                 .add(ModBlocks.SCULK_WALL)
-                .add(ModBlocks.BEDROCK_WALL);
+                .add(ModBlocks.BEDROCK_WALL)
+                .add(ModBlocks.TARGET_WALL);
 
 
 

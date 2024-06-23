@@ -3061,6 +3061,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BEDROCK_BUTTON, Blocks.BEDROCK, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.BEDROCK_WALL, (Blocks.BEDROCK)).offerTo(exporter);
 
+        //TARGET
+        ModRecipes.DoorRecipe(ModBlocks.TARGET_DOOR, (Blocks.TARGET)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.TARGET_SLAB, (Blocks.TARGET)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.TARGET_STAIRS, (Blocks.TARGET)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.TARGET_FENCE, (Blocks.TARGET), (ModBlocks.TARGET_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.TARGET_FENCE_GATE, (Blocks.TARGET), (ModBlocks.TARGET_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.TARGET_TRAPDOOR, (ModBlocks.TARGET_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.TARGET_PRESSURE_PLATE, (ModBlocks.TARGET_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.TARGET_BUTTON, Blocks.TARGET, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.TARGET_WALL, (Blocks.TARGET)).offerTo(exporter);
+
 
 
         

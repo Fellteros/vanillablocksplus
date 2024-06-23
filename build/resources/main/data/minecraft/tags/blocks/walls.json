@@ -242,6 +242,7 @@
     "vanillablocksplus:verdant_froglight_wall",
     "vanillablocksplus:pearlescent_froglight_wall",
     "vanillablocksplus:sculk_wall",
-    "vanillablocksplus:bedrock_wall"
+    "vanillablocksplus:bedrock_wall",
+    "vanillablocksplus:target_wall"
   ]
 }

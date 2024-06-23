@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/trapdoor_stb_open_top",
+  "textures": {
+    "bottom": "vanillablocksplus:block/melon_trapdoor",
+    "side": "minecraft:block/melon_side",
+    "top": "vanillablocksplus:block/melon_trapdoor"
+  }
+}

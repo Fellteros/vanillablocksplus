@@ -2552,6 +2552,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerCustomFence(bsmg, ModBlocks.MELON_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.MELON));
         registerCustomFenceGate(bsmg, ModBlocks.MELON_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.MELON));
         registerCustomPressurePlate(bsmg, ModBlocks.MELON_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.MELON));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.MELON_TRAPDOOR, ModTextureMap.customSTB(Blocks.MELON, ModBlocks.MELON_TRAPDOOR, ModBlocks.MELON_TRAPDOOR, "_side", "", ""));
         //pumpkin
         registerCustomButton(bsmg, ModBlocks.PUMPKIN_BUTTON, ModTextureMap.sideAndTopForEnds(Blocks.PUMPKIN));
         registerCustomWall(bsmg, ModBlocks.PUMPKIN_WALL, ModTextureMap.sideAndTopForEnds(Blocks.PUMPKIN));
@@ -2560,6 +2561,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerCustomFence(bsmg, ModBlocks.PUMPKIN_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.PUMPKIN));
         registerCustomFenceGate(bsmg, ModBlocks.PUMPKIN_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.PUMPKIN));
         registerCustomPressurePlate(bsmg, ModBlocks.PUMPKIN_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.PUMPKIN));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.PUMPKIN_TRAPDOOR, ModTextureMap.customSTB(Blocks.PUMPKIN, ModBlocks.PUMPKIN_TRAPDOOR, ModBlocks.PUMPKIN_TRAPDOOR, "_side", "", ""));
         //hay_block
         registerCustomButton(bsmg, ModBlocks.HAY_BLOCK_BUTTON, ModTextureMap.sideAndTopForEnds(Blocks.HAY_BLOCK));
         registerCustomWall(bsmg, ModBlocks.HAY_BLOCK_WALL, ModTextureMap.sideAndTopForEnds(Blocks.HAY_BLOCK));
@@ -2568,6 +2570,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerCustomFence(bsmg, ModBlocks.HAY_BLOCK_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.HAY_BLOCK));
         registerCustomFenceGate(bsmg, ModBlocks.HAY_BLOCK_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.HAY_BLOCK));
         registerCustomPressurePlate(bsmg, ModBlocks.HAY_BLOCK_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.HAY_BLOCK));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.HAY_BLOCK_TRAPDOOR, ModTextureMap.customSTB(Blocks.HAY_BLOCK, ModBlocks.HAY_BLOCK_TRAPDOOR, ModBlocks.HAY_BLOCK_TRAPDOOR, "_side", "", ""));
         //honeycomb
         bsmg.registerCubeAllModelTexturePool(Blocks.HONEYCOMB_BLOCK)
                 .button(ModBlocks.HONEYCOMB_BUTTON)
@@ -2602,6 +2605,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerCustomFence(bsmg, ModBlocks.OCHRE_FROGLIGHT_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.OCHRE_FROGLIGHT));
         registerCustomFenceGate(bsmg, ModBlocks.OCHRE_FROGLIGHT_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.OCHRE_FROGLIGHT));
         registerCustomPressurePlate(bsmg, ModBlocks.OCHRE_FROGLIGHT_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.OCHRE_FROGLIGHT));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.OCHRE_FROGLIGHT_TRAPDOOR, ModTextureMap.customSTB(Blocks.OCHRE_FROGLIGHT, ModBlocks.OCHRE_FROGLIGHT_TRAPDOOR, ModBlocks.OCHRE_FROGLIGHT_TRAPDOOR, "_side", "", ""));
         //verdant_froglight
         registerCustomButton(bsmg, ModBlocks.VERDANT_FROGLIGHT_BUTTON, ModTextureMap.sideAndTopForEnds(Blocks.VERDANT_FROGLIGHT));
         registerCustomWall(bsmg, ModBlocks.VERDANT_FROGLIGHT_WALL, ModTextureMap.sideAndTopForEnds(Blocks.VERDANT_FROGLIGHT));
@@ -2610,6 +2614,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerCustomFence(bsmg, ModBlocks.VERDANT_FROGLIGHT_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.VERDANT_FROGLIGHT));
         registerCustomFenceGate(bsmg, ModBlocks.VERDANT_FROGLIGHT_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.VERDANT_FROGLIGHT));
         registerCustomPressurePlate(bsmg, ModBlocks.VERDANT_FROGLIGHT_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.VERDANT_FROGLIGHT));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.VERDANT_FROGLIGHT_TRAPDOOR, ModTextureMap.customSTB(Blocks.VERDANT_FROGLIGHT, ModBlocks.VERDANT_FROGLIGHT_TRAPDOOR, ModBlocks.VERDANT_FROGLIGHT_TRAPDOOR, "_side", "", ""));
         //pearlescent_froglight
         registerCustomButton(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_BUTTON, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
         registerCustomWall(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_WALL, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
@@ -2618,6 +2623,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerCustomFence(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
         registerCustomFenceGate(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
         registerCustomPressurePlate(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_TRAPDOOR, ModTextureMap.customSTB(Blocks.PEARLESCENT_FROGLIGHT, ModBlocks.PEARLESCENT_FROGLIGHT_TRAPDOOR, ModBlocks.PEARLESCENT_FROGLIGHT_TRAPDOOR, "_side", "", ""));
         //sculk
         bsmg.registerCubeAllModelTexturePool(Blocks.SCULK)
                 .button(ModBlocks.SCULK_BUTTON)
@@ -2636,7 +2642,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .fence(ModBlocks.BEDROCK_FENCE)
                 .fenceGate(ModBlocks.BEDROCK_FENCE_GATE)
                 .pressurePlate(ModBlocks.BEDROCK_PRESSURE_PLATE);
-
+        //target
+        registerCustomButton(bsmg, ModBlocks.TARGET_BUTTON, ModTextureMap.sideAndTopForEnds(Blocks.TARGET));
+        registerCustomWall(bsmg, ModBlocks.TARGET_WALL, ModTextureMap.sideAndTopForEnds(Blocks.TARGET));
+        registerCustomSlab(bsmg, ModBlocks.TARGET_SLAB, Blocks.TARGET, ModTextureMap.sideAndTopForEnds(Blocks.TARGET));
+        registerCustomStairs(bsmg, ModBlocks.TARGET_STAIRS, ModTextureMap.sideAndTopForEnds(Blocks.TARGET));
+        registerCustomFence(bsmg, ModBlocks.TARGET_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.TARGET));
+        registerCustomFenceGate(bsmg, ModBlocks.TARGET_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.TARGET));
+        registerCustomPressurePlate(bsmg, ModBlocks.TARGET_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.TARGET));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.TARGET_TRAPDOOR, ModTextureMap.customSTB(Blocks.TARGET, ModBlocks.TARGET_TRAPDOOR, ModBlocks.TARGET_TRAPDOOR, "_side", "", ""));
 
 
 
@@ -3456,13 +3470,10 @@ public class ModModelProvider extends FabricModelProvider {
         bsmg.registerOrientableTrapdoor(ModBlocks.WET_SPONGE_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.WET_SPONGE_DOOR);
         //melon_block
-        bsmg.registerOrientableTrapdoor(ModBlocks.MELON_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.MELON_DOOR);
         //pumpkin_block
-        bsmg.registerOrientableTrapdoor(ModBlocks.PUMPKIN_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.PUMPKIN_DOOR);
         //hay_block_block
-        bsmg.registerOrientableTrapdoor(ModBlocks.HAY_BLOCK_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.HAY_BLOCK_DOOR);
         //honeycomb_block
         bsmg.registerOrientableTrapdoor(ModBlocks.HONEYCOMB_TRAPDOOR);
@@ -3474,13 +3485,10 @@ public class ModModelProvider extends FabricModelProvider {
         bsmg.registerOrientableTrapdoor(ModBlocks.HONEY_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.HONEY_DOOR);
         //ochre_froglight
-        bsmg.registerOrientableTrapdoor(ModBlocks.OCHRE_FROGLIGHT_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.OCHRE_FROGLIGHT_DOOR);
         //verdant_froglight
-        bsmg.registerOrientableTrapdoor(ModBlocks.VERDANT_FROGLIGHT_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.VERDANT_FROGLIGHT_DOOR);
         //pearlescent_froglight
-        bsmg.registerOrientableTrapdoor(ModBlocks.PEARLESCENT_FROGLIGHT_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.PEARLESCENT_FROGLIGHT_DOOR);
         //sculk
         bsmg.registerOrientableTrapdoor(ModBlocks.SCULK_TRAPDOOR);
@@ -3488,6 +3496,8 @@ public class ModModelProvider extends FabricModelProvider {
         //bedrock
         bsmg.registerOrientableTrapdoor(ModBlocks.BEDROCK_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.BEDROCK_DOOR);
+        //target
+        bsmg.registerDoor(ModBlocks.TARGET_DOOR);
 
 
 

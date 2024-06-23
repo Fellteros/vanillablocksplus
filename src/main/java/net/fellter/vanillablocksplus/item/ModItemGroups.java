@@ -2741,6 +2741,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BEDROCK_TRAPDOOR);
                         entries.add(ModBlocks.BEDROCK_PRESSURE_PLATE);
                         entries.add(ModBlocks.BEDROCK_BUTTON);
+                        //target
+                        entries.add(ModBlocks.TARGET_STAIRS);
+                        entries.add(ModBlocks.TARGET_SLAB);
+                        entries.add(ModBlocks.TARGET_WALL);
+                        entries.add(ModBlocks.TARGET_FENCE);
+                        entries.add(ModBlocks.TARGET_FENCE_GATE);
+                        entries.add(ModBlocks.TARGET_DOOR);
+                        entries.add(ModBlocks.TARGET_TRAPDOOR);
+                        entries.add(ModBlocks.TARGET_PRESSURE_PLATE);
+                        entries.add(ModBlocks.TARGET_BUTTON);
 
 
 

@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/template_orientable_trapdoor_top",
+  "parent": "vanillablocksplus:blockmodels/trapdoor_stb_top",
   "textures": {
-    "texture": "vanillablocksplus:block/pearlescent_froglight_trapdoor"
+    "bottom": "vanillablocksplus:block/pearlescent_froglight_trapdoor",
+    "side": "minecraft:block/pearlescent_froglight_side",
+    "top": "vanillablocksplus:block/pearlescent_froglight_trapdoor"
   }
 }
