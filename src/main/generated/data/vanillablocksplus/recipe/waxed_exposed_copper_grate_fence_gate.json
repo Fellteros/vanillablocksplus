@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:waxed_exposed_copper_grate_slab"
+    },
+    "W": {
+      "item": "minecraft:waxed_exposed_copper_grate"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:waxed_exposed_copper_grate_fence_gate"
+  }
+}

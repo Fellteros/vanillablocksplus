@@ -11,7 +11,7 @@ import net.minecraft.util.math.random.Random;
 public class OxidizableFenceGateBlock extends FenceGateBlock implements Oxidizable {
     private final Oxidizable.OxidationLevel oxidationLevel;
 
-    public OxidizableFenceGateBlock(Oxidizable.OxidationLevel oxidationLevel, Settings settings, WoodType type) {
+    public OxidizableFenceGateBlock(Oxidizable.OxidationLevel oxidationLevel, WoodType type, Settings settings) {
         super(type, settings);
         this.oxidationLevel = oxidationLevel;
     }

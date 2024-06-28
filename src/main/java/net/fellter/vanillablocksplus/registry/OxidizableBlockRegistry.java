@@ -24,12 +24,6 @@ public class OxidizableBlockRegistry implements Oxidizable {
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.COPPER_FENCE_GATE, ModBlocks.EXPOSED_COPPER_FENCE_GATE);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_COPPER_FENCE_GATE, ModBlocks.WEATHERED_COPPER_FENCE_GATE);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_COPPER_FENCE_GATE, ModBlocks.OXIDIZED_COPPER_FENCE_GATE);
-        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.COPPER_DOOR, ModBlocks.EXPOSED_COPPER_DOOR);
-        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_COPPER_DOOR, ModBlocks.WEATHERED_COPPER_DOOR);
-        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_COPPER_DOOR, ModBlocks.OXIDIZED_COPPER_DOOR);
-        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.COPPER_TRAPDOOR, ModBlocks.EXPOSED_COPPER_TRAPDOOR);
-        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_COPPER_TRAPDOOR, ModBlocks.WEATHERED_COPPER_TRAPDOOR);
-        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_COPPER_TRAPDOOR, ModBlocks.OXIDIZED_COPPER_TRAPDOOR);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.COPPER_PRESSURE_PLATE, ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE, ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE, ModBlocks.OXIDIZED_COPPER_PRESSURE_PLATE);
@@ -59,6 +53,64 @@ public class OxidizableBlockRegistry implements Oxidizable {
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.CUT_COPPER_BUTTON, ModBlocks.EXPOSED_CUT_COPPER_BUTTON);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_CUT_COPPER_BUTTON, ModBlocks.WEATHERED_CUT_COPPER_BUTTON);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_CUT_COPPER_BUTTON, ModBlocks.OXIDIZED_CUT_COPPER_BUTTON);
+        
+        //chiseled_copper
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.CHISELED_COPPER_STAIRS, ModBlocks.EXPOSED_CHISELED_COPPER_STAIRS);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_STAIRS, ModBlocks.WEATHERED_CHISELED_COPPER_STAIRS);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_STAIRS, ModBlocks.OXIDIZED_CHISELED_COPPER_STAIRS);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.CHISELED_COPPER_SLAB, ModBlocks.EXPOSED_CHISELED_COPPER_SLAB);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_SLAB, ModBlocks.WEATHERED_CHISELED_COPPER_SLAB);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_SLAB, ModBlocks.OXIDIZED_CHISELED_COPPER_SLAB);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.CHISELED_COPPER_WALL, ModBlocks.EXPOSED_CHISELED_COPPER_WALL);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_WALL, ModBlocks.WEATHERED_CHISELED_COPPER_WALL);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_WALL, ModBlocks.OXIDIZED_CHISELED_COPPER_WALL);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.CHISELED_COPPER_FENCE, ModBlocks.EXPOSED_CHISELED_COPPER_FENCE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_FENCE, ModBlocks.WEATHERED_CHISELED_COPPER_FENCE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_FENCE, ModBlocks.OXIDIZED_CHISELED_COPPER_FENCE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.CHISELED_COPPER_FENCE_GATE, ModBlocks.EXPOSED_CHISELED_COPPER_FENCE_GATE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_FENCE_GATE, ModBlocks.WEATHERED_CHISELED_COPPER_FENCE_GATE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_FENCE_GATE, ModBlocks.OXIDIZED_CHISELED_COPPER_FENCE_GATE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.CHISELED_COPPER_DOOR, ModBlocks.EXPOSED_CHISELED_COPPER_DOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_DOOR, ModBlocks.WEATHERED_CHISELED_COPPER_DOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_DOOR, ModBlocks.OXIDIZED_CHISELED_COPPER_DOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.CHISELED_COPPER_TRAPDOOR, ModBlocks.EXPOSED_CHISELED_COPPER_TRAPDOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_TRAPDOOR, ModBlocks.WEATHERED_CHISELED_COPPER_TRAPDOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_TRAPDOOR, ModBlocks.OXIDIZED_CHISELED_COPPER_TRAPDOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.CHISELED_COPPER_PRESSURE_PLATE, ModBlocks.EXPOSED_CHISELED_COPPER_PRESSURE_PLATE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_PRESSURE_PLATE, ModBlocks.WEATHERED_CHISELED_COPPER_PRESSURE_PLATE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_PRESSURE_PLATE, ModBlocks.OXIDIZED_CHISELED_COPPER_PRESSURE_PLATE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.CHISELED_COPPER_BUTTON, ModBlocks.EXPOSED_CHISELED_COPPER_BUTTON);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_BUTTON, ModBlocks.WEATHERED_CHISELED_COPPER_BUTTON);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_BUTTON, ModBlocks.OXIDIZED_CHISELED_COPPER_BUTTON);
+        
+        //copper_grate
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.COPPER_GRATE_STAIRS, ModBlocks.EXPOSED_COPPER_GRATE_STAIRS);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_STAIRS, ModBlocks.WEATHERED_COPPER_GRATE_STAIRS);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_STAIRS, ModBlocks.OXIDIZED_COPPER_GRATE_STAIRS);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.COPPER_GRATE_SLAB, ModBlocks.EXPOSED_COPPER_GRATE_SLAB);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_SLAB, ModBlocks.WEATHERED_COPPER_GRATE_SLAB);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_SLAB, ModBlocks.OXIDIZED_COPPER_GRATE_SLAB);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.COPPER_GRATE_WALL, ModBlocks.EXPOSED_COPPER_GRATE_WALL);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_WALL, ModBlocks.WEATHERED_COPPER_GRATE_WALL);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_WALL, ModBlocks.OXIDIZED_COPPER_GRATE_WALL);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.COPPER_GRATE_FENCE, ModBlocks.EXPOSED_COPPER_GRATE_FENCE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_FENCE, ModBlocks.WEATHERED_COPPER_GRATE_FENCE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_FENCE, ModBlocks.OXIDIZED_COPPER_GRATE_FENCE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.COPPER_GRATE_FENCE_GATE, ModBlocks.EXPOSED_COPPER_GRATE_FENCE_GATE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_FENCE_GATE, ModBlocks.WEATHERED_COPPER_GRATE_FENCE_GATE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_FENCE_GATE, ModBlocks.OXIDIZED_COPPER_GRATE_FENCE_GATE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.COPPER_GRATE_DOOR, ModBlocks.EXPOSED_COPPER_GRATE_DOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_DOOR, ModBlocks.WEATHERED_COPPER_GRATE_DOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_DOOR, ModBlocks.OXIDIZED_COPPER_GRATE_DOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.COPPER_GRATE_TRAPDOOR, ModBlocks.EXPOSED_COPPER_GRATE_TRAPDOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_TRAPDOOR, ModBlocks.WEATHERED_COPPER_GRATE_TRAPDOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_TRAPDOOR, ModBlocks.OXIDIZED_COPPER_GRATE_TRAPDOOR);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.COPPER_GRATE_PRESSURE_PLATE, ModBlocks.EXPOSED_COPPER_GRATE_PRESSURE_PLATE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_PRESSURE_PLATE, ModBlocks.WEATHERED_COPPER_GRATE_PRESSURE_PLATE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_PRESSURE_PLATE, ModBlocks.OXIDIZED_COPPER_GRATE_PRESSURE_PLATE);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.COPPER_GRATE_BUTTON, ModBlocks.EXPOSED_COPPER_GRATE_BUTTON);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_BUTTON, ModBlocks.WEATHERED_COPPER_GRATE_BUTTON);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_BUTTON, ModBlocks.OXIDIZED_COPPER_GRATE_BUTTON);
 
         //wax copper
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.COPPER_STAIRS, ModBlocks.WAXED_COPPER_STAIRS);
@@ -66,8 +118,6 @@ public class OxidizableBlockRegistry implements Oxidizable {
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.COPPER_WALL, ModBlocks.WAXED_COPPER_WALL);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.COPPER_FENCE, ModBlocks.WAXED_COPPER_FENCE);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.COPPER_FENCE_GATE, ModBlocks.WAXED_COPPER_FENCE_GATE);
-        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.COPPER_DOOR, ModBlocks.WAXED_COPPER_DOOR);
-        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.COPPER_TRAPDOOR, ModBlocks.WAXED_COPPER_TRAPDOOR);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.COPPER_PRESSURE_PLATE, ModBlocks.WAXED_COPPER_PRESSURE_PLATE);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.COPPER_BUTTON, ModBlocks.WAXED_COPPER_BUTTON);
         
@@ -76,8 +126,6 @@ public class OxidizableBlockRegistry implements Oxidizable {
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_COPPER_WALL, ModBlocks.WAXED_EXPOSED_COPPER_WALL);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_COPPER_FENCE, ModBlocks.WAXED_EXPOSED_COPPER_FENCE);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_COPPER_FENCE_GATE, ModBlocks.WAXED_EXPOSED_COPPER_FENCE_GATE);
-        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_COPPER_DOOR, ModBlocks.WAXED_EXPOSED_COPPER_DOOR);
-        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_COPPER_TRAPDOOR, ModBlocks.WAXED_EXPOSED_COPPER_TRAPDOOR);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE, ModBlocks.WAXED_EXPOSED_COPPER_PRESSURE_PLATE);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_COPPER_BUTTON, ModBlocks.WAXED_EXPOSED_COPPER_BUTTON);
         
@@ -86,8 +134,6 @@ public class OxidizableBlockRegistry implements Oxidizable {
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_COPPER_WALL, ModBlocks.WAXED_WEATHERED_COPPER_WALL);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_COPPER_FENCE, ModBlocks.WAXED_WEATHERED_COPPER_FENCE);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_COPPER_FENCE_GATE, ModBlocks.WAXED_WEATHERED_COPPER_FENCE_GATE);
-        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_COPPER_DOOR, ModBlocks.WAXED_WEATHERED_COPPER_DOOR);
-        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_COPPER_TRAPDOOR, ModBlocks.WAXED_WEATHERED_COPPER_TRAPDOOR);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE, ModBlocks.WAXED_WEATHERED_COPPER_PRESSURE_PLATE);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_COPPER_BUTTON, ModBlocks.WAXED_WEATHERED_COPPER_BUTTON);
         
@@ -96,8 +142,6 @@ public class OxidizableBlockRegistry implements Oxidizable {
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_COPPER_WALL, ModBlocks.WAXED_OXIDIZED_COPPER_WALL);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_COPPER_FENCE, ModBlocks.WAXED_OXIDIZED_COPPER_FENCE);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_COPPER_FENCE_GATE, ModBlocks.WAXED_OXIDIZED_COPPER_FENCE_GATE);
-        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_COPPER_DOOR, ModBlocks.WAXED_OXIDIZED_COPPER_DOOR);
-        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_COPPER_TRAPDOOR, ModBlocks.WAXED_OXIDIZED_COPPER_TRAPDOOR);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_COPPER_PRESSURE_PLATE, ModBlocks.WAXED_OXIDIZED_COPPER_PRESSURE_PLATE);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_COPPER_BUTTON, ModBlocks.WAXED_OXIDIZED_COPPER_BUTTON);
 
@@ -132,6 +176,87 @@ public class OxidizableBlockRegistry implements Oxidizable {
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_CUT_COPPER_TRAPDOOR, ModBlocks.WAXED_OXIDIZED_CUT_COPPER_TRAPDOOR);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_CUT_COPPER_PRESSURE_PLATE, ModBlocks.WAXED_OXIDIZED_CUT_COPPER_PRESSURE_PLATE);
         OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_CUT_COPPER_BUTTON, ModBlocks.WAXED_OXIDIZED_CUT_COPPER_BUTTON);
+
+        //wax copper
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.CHISELED_COPPER_STAIRS, ModBlocks.WAXED_CHISELED_COPPER_STAIRS);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.CHISELED_COPPER_DOOR, ModBlocks.WAXED_CHISELED_COPPER_DOOR);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.CHISELED_COPPER_TRAPDOOR, ModBlocks.WAXED_CHISELED_COPPER_TRAPDOOR);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.CHISELED_COPPER_SLAB, ModBlocks.WAXED_CHISELED_COPPER_SLAB);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.CHISELED_COPPER_WALL, ModBlocks.WAXED_CHISELED_COPPER_WALL);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.CHISELED_COPPER_FENCE, ModBlocks.WAXED_CHISELED_COPPER_FENCE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.CHISELED_COPPER_FENCE_GATE, ModBlocks.WAXED_CHISELED_COPPER_FENCE_GATE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.CHISELED_COPPER_PRESSURE_PLATE, ModBlocks.WAXED_CHISELED_COPPER_PRESSURE_PLATE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.CHISELED_COPPER_BUTTON, ModBlocks.WAXED_CHISELED_COPPER_BUTTON);
+
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_STAIRS, ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_STAIRS);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_DOOR, ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_DOOR);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_TRAPDOOR, ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_TRAPDOOR);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_SLAB, ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_SLAB);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_WALL, ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_WALL);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_FENCE, ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_FENCE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_FENCE_GATE, ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_FENCE_GATE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_PRESSURE_PLATE, ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_PRESSURE_PLATE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_CHISELED_COPPER_BUTTON, ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_BUTTON);
+
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_STAIRS, ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_STAIRS);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_DOOR, ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_DOOR);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_TRAPDOOR, ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_TRAPDOOR);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_SLAB, ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_SLAB);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_WALL, ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_WALL);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_FENCE, ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_FENCE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_FENCE_GATE, ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_FENCE_GATE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_PRESSURE_PLATE, ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_PRESSURE_PLATE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_CHISELED_COPPER_BUTTON, ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_BUTTON);
+
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_CHISELED_COPPER_STAIRS, ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_STAIRS);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_CHISELED_COPPER_DOOR, ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_DOOR);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_CHISELED_COPPER_TRAPDOOR, ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_TRAPDOOR);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_CHISELED_COPPER_SLAB, ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_SLAB);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_CHISELED_COPPER_WALL, ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_WALL);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_CHISELED_COPPER_FENCE, ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_FENCE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_CHISELED_COPPER_FENCE_GATE, ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_FENCE_GATE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_CHISELED_COPPER_PRESSURE_PLATE, ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_PRESSURE_PLATE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_CHISELED_COPPER_BUTTON, ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_BUTTON);
+
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.COPPER_GRATE_STAIRS, ModBlocks.WAXED_COPPER_GRATE_STAIRS);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.COPPER_GRATE_DOOR, ModBlocks.WAXED_COPPER_GRATE_DOOR);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.COPPER_GRATE_TRAPDOOR, ModBlocks.WAXED_COPPER_GRATE_TRAPDOOR);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.COPPER_GRATE_SLAB, ModBlocks.WAXED_COPPER_GRATE_SLAB);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.COPPER_GRATE_WALL, ModBlocks.WAXED_COPPER_GRATE_WALL);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.COPPER_GRATE_FENCE, ModBlocks.WAXED_COPPER_GRATE_FENCE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.COPPER_GRATE_FENCE_GATE, ModBlocks.WAXED_COPPER_GRATE_FENCE_GATE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.COPPER_GRATE_PRESSURE_PLATE, ModBlocks.WAXED_COPPER_GRATE_PRESSURE_PLATE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.COPPER_GRATE_BUTTON, ModBlocks.WAXED_COPPER_GRATE_BUTTON);
+
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_STAIRS, ModBlocks.WAXED_EXPOSED_COPPER_GRATE_STAIRS);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_DOOR, ModBlocks.WAXED_EXPOSED_COPPER_GRATE_DOOR);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_TRAPDOOR, ModBlocks.WAXED_EXPOSED_COPPER_GRATE_TRAPDOOR);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_SLAB, ModBlocks.WAXED_EXPOSED_COPPER_GRATE_SLAB);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_WALL, ModBlocks.WAXED_EXPOSED_COPPER_GRATE_WALL);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_FENCE, ModBlocks.WAXED_EXPOSED_COPPER_GRATE_FENCE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_FENCE_GATE, ModBlocks.WAXED_EXPOSED_COPPER_GRATE_FENCE_GATE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_PRESSURE_PLATE, ModBlocks.WAXED_EXPOSED_COPPER_GRATE_PRESSURE_PLATE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.EXPOSED_COPPER_GRATE_BUTTON, ModBlocks.WAXED_EXPOSED_COPPER_GRATE_BUTTON);
+
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_STAIRS, ModBlocks.WAXED_WEATHERED_COPPER_GRATE_STAIRS);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_DOOR, ModBlocks.WAXED_WEATHERED_COPPER_GRATE_DOOR);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_TRAPDOOR, ModBlocks.WAXED_WEATHERED_COPPER_GRATE_TRAPDOOR);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_SLAB, ModBlocks.WAXED_WEATHERED_COPPER_GRATE_SLAB);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_WALL, ModBlocks.WAXED_WEATHERED_COPPER_GRATE_WALL);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_FENCE, ModBlocks.WAXED_WEATHERED_COPPER_GRATE_FENCE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_FENCE_GATE, ModBlocks.WAXED_WEATHERED_COPPER_GRATE_FENCE_GATE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_PRESSURE_PLATE, ModBlocks.WAXED_WEATHERED_COPPER_GRATE_PRESSURE_PLATE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.WEATHERED_COPPER_GRATE_BUTTON, ModBlocks.WAXED_WEATHERED_COPPER_GRATE_BUTTON);
+
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_COPPER_GRATE_STAIRS, ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_STAIRS);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_COPPER_GRATE_DOOR, ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_DOOR);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_COPPER_GRATE_TRAPDOOR, ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_TRAPDOOR);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_COPPER_GRATE_SLAB, ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_SLAB);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_COPPER_GRATE_WALL, ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_WALL);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_COPPER_GRATE_FENCE, ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_COPPER_GRATE_FENCE_GATE, ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE_GATE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_COPPER_GRATE_PRESSURE_PLATE, ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_PRESSURE_PLATE);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(ModBlocks.OXIDIZED_COPPER_GRATE_BUTTON, ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_BUTTON);
 
         
         

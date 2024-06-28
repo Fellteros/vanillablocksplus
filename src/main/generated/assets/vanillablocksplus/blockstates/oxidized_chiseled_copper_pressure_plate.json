@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "vanillablocksplus:block/oxidized_chiseled_copper_pressure_plate"
+    },
+    "powered=true": {
+      "model": "vanillablocksplus:block/oxidized_chiseled_copper_pressure_plate_down"
+    }
+  }
+}

@@ -828,50 +828,40 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.AMETHYST_PRESSURE_PLATE, (Blocks.AMETHYST_BLOCK)).offerTo(exporter);
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.AMETHYST_BUTTON, Blocks.AMETHYST_BLOCK, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.AMETHYST_WALL, (Blocks.AMETHYST_BLOCK)).offerTo(exporter);
-
-
-
+        
         //copper
-        ModRecipes.DoorRecipe(ModBlocks.COPPER_DOOR, (ModItems.COPPER_BIT)).offerTo(exporter);
         ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.COPPER_SLAB, (ModItems.COPPER_BIT)).offerTo(exporter);
         ModRecipes.StairsRecipe(ModBlocks.COPPER_STAIRS, (ModItems.COPPER_BIT)).offerTo(exporter);
         ModRecipes.NWFenceRecipe(ModBlocks.COPPER_FENCE, (Items.COPPER_INGOT), (ModItems.COPPER_BIT), 3).offerTo(exporter);
         ModRecipes.NWFenceGateRecipe(ModBlocks.COPPER_FENCE_GATE, (Items.COPPER_INGOT), (ModItems.COPPER_BIT), 1).offerTo(exporter);
-        ModRecipes.TrapdoorRecipe(ModBlocks.COPPER_TRAPDOOR, (Items.COPPER_INGOT)).offerTo(exporter);
         ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.COPPER_PRESSURE_PLATE, (ModItems.COPPER_BIT)).offerTo(exporter);
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.COPPER_BUTTON, ModItems.COPPER_BIT, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.COPPER_WALL, (ModItems.COPPER_BIT)).offerTo(exporter);
 
 
         //exposed_copper
-        ModRecipes.DoorRecipe(ModBlocks.EXPOSED_COPPER_DOOR, (Blocks.EXPOSED_COPPER)).offerTo(exporter);
         ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_COPPER_SLAB, (Blocks.EXPOSED_COPPER)).offerTo(exporter);
         ModRecipes.StairsRecipe(ModBlocks.EXPOSED_COPPER_STAIRS, (Blocks.EXPOSED_COPPER)).offerTo(exporter);
         ModRecipes.NWFenceRecipe(ModBlocks.EXPOSED_COPPER_FENCE, (Blocks.EXPOSED_COPPER), (ModBlocks.EXPOSED_COPPER_SLAB), 3).offerTo(exporter);
         ModRecipes.NWFenceGateRecipe(ModBlocks.EXPOSED_COPPER_FENCE_GATE, (Blocks.EXPOSED_COPPER), (ModBlocks.EXPOSED_COPPER_SLAB), 1).offerTo(exporter);
-        ModRecipes.TrapdoorRecipe(ModBlocks.EXPOSED_COPPER_TRAPDOOR, (ModBlocks.EXPOSED_COPPER_SLAB)).offerTo(exporter);
         ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE, (Blocks.EXPOSED_COPPER)).offerTo(exporter);
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_COPPER_BUTTON, Blocks.EXPOSED_COPPER, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_COPPER_WALL, (Blocks.EXPOSED_COPPER)).offerTo(exporter);
 
         //weathered_copper
-        ModRecipes.DoorRecipe(ModBlocks.WEATHERED_COPPER_DOOR, (Blocks.WEATHERED_COPPER)).offerTo(exporter);
         ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_COPPER_SLAB, (Blocks.WEATHERED_COPPER)).offerTo(exporter);
         ModRecipes.StairsRecipe(ModBlocks.WEATHERED_COPPER_STAIRS, (Blocks.WEATHERED_COPPER)).offerTo(exporter);
         ModRecipes.NWFenceRecipe(ModBlocks.WEATHERED_COPPER_FENCE, (Blocks.WEATHERED_COPPER), (ModBlocks.WEATHERED_COPPER_SLAB), 3).offerTo(exporter);
         ModRecipes.NWFenceGateRecipe(ModBlocks.WEATHERED_COPPER_FENCE_GATE, (Blocks.WEATHERED_COPPER), (ModBlocks.WEATHERED_COPPER_SLAB), 1).offerTo(exporter);
-        ModRecipes.TrapdoorRecipe(ModBlocks.WEATHERED_COPPER_TRAPDOOR, (ModBlocks.WEATHERED_COPPER_SLAB)).offerTo(exporter);
         ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE, (Blocks.WEATHERED_COPPER)).offerTo(exporter);
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_COPPER_BUTTON, Blocks.WEATHERED_COPPER, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_COPPER_WALL, (Blocks.WEATHERED_COPPER)).offerTo(exporter);
 
         //oxidized_copper
-        ModRecipes.DoorRecipe(ModBlocks.OXIDIZED_COPPER_DOOR, (Blocks.OXIDIZED_COPPER)).offerTo(exporter);
         ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_COPPER_SLAB, (Blocks.OXIDIZED_COPPER)).offerTo(exporter);
         ModRecipes.StairsRecipe(ModBlocks.OXIDIZED_COPPER_STAIRS, (Blocks.OXIDIZED_COPPER)).offerTo(exporter);
         ModRecipes.NWFenceRecipe(ModBlocks.OXIDIZED_COPPER_FENCE, (Blocks.OXIDIZED_COPPER), (ModBlocks.OXIDIZED_COPPER_SLAB), 3).offerTo(exporter);
         ModRecipes.NWFenceGateRecipe(ModBlocks.OXIDIZED_COPPER_FENCE_GATE, (Blocks.OXIDIZED_COPPER), (ModBlocks.OXIDIZED_COPPER_SLAB), 1).offerTo(exporter);
-        ModRecipes.TrapdoorRecipe(ModBlocks.OXIDIZED_COPPER_TRAPDOOR, (ModBlocks.OXIDIZED_COPPER_SLAB)).offerTo(exporter);
         ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_COPPER_PRESSURE_PLATE, (Blocks.OXIDIZED_COPPER)).offerTo(exporter);
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_COPPER_BUTTON, Blocks.OXIDIZED_COPPER, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_COPPER_WALL, (Blocks.OXIDIZED_COPPER)).offerTo(exporter);
@@ -915,45 +905,37 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
         //waxed copper
-        ModRecipes.DoorRecipe(ModBlocks.WAXED_COPPER_DOOR, (Blocks.WAXED_COPPER_BLOCK)).offerTo(exporter);
         ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_COPPER_SLAB, (Blocks.WAXED_COPPER_BLOCK)).offerTo(exporter);
         ModRecipes.StairsRecipe(ModBlocks.WAXED_COPPER_STAIRS, (Blocks.WAXED_COPPER_BLOCK)).offerTo(exporter);
         ModRecipes.NWFenceRecipe(ModBlocks.WAXED_COPPER_FENCE, (Blocks.WAXED_COPPER_BLOCK), (ModBlocks.WAXED_COPPER_SLAB), 3).offerTo(exporter);
         ModRecipes.NWFenceGateRecipe(ModBlocks.WAXED_COPPER_FENCE_GATE, (Blocks.WAXED_COPPER_BLOCK), (ModBlocks.WAXED_COPPER_SLAB), 1).offerTo(exporter);
-        ModRecipes.TrapdoorRecipe(ModBlocks.WAXED_COPPER_TRAPDOOR, (ModBlocks.WAXED_COPPER_SLAB)).offerTo(exporter);
         ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_COPPER_PRESSURE_PLATE, (Blocks.WAXED_COPPER_BLOCK)).offerTo(exporter);
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_COPPER_BUTTON, Blocks.WAXED_COPPER_BLOCK, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_COPPER_WALL, (Blocks.WAXED_COPPER_BLOCK)).offerTo(exporter);
 
         //waxed exposed_copper
-        ModRecipes.DoorRecipe(ModBlocks.WAXED_EXPOSED_COPPER_DOOR, (Blocks.WAXED_EXPOSED_COPPER)).offerTo(exporter);
         ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_COPPER_SLAB, (Blocks.WAXED_EXPOSED_COPPER)).offerTo(exporter);
         ModRecipes.StairsRecipe(ModBlocks.WAXED_EXPOSED_COPPER_STAIRS, (Blocks.WAXED_EXPOSED_COPPER)).offerTo(exporter);
         ModRecipes.NWFenceRecipe(ModBlocks.WAXED_EXPOSED_COPPER_FENCE, (Blocks.WAXED_EXPOSED_COPPER), (ModBlocks.WAXED_EXPOSED_COPPER_SLAB), 3).offerTo(exporter);
         ModRecipes.NWFenceGateRecipe(ModBlocks.WAXED_EXPOSED_COPPER_FENCE_GATE, (Blocks.WAXED_EXPOSED_COPPER), (ModBlocks.WAXED_EXPOSED_COPPER_SLAB), 1).offerTo(exporter);
-        ModRecipes.TrapdoorRecipe(ModBlocks.WAXED_EXPOSED_COPPER_TRAPDOOR, (ModBlocks.WAXED_EXPOSED_COPPER_SLAB)).offerTo(exporter);
         ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_COPPER_PRESSURE_PLATE, (Blocks.WAXED_EXPOSED_COPPER)).offerTo(exporter);
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_COPPER_BUTTON, Blocks.WAXED_EXPOSED_COPPER, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_COPPER_WALL, (Blocks.WAXED_EXPOSED_COPPER)).offerTo(exporter);
 
         //waxed weathered_copper
-        ModRecipes.DoorRecipe(ModBlocks.WAXED_WEATHERED_COPPER_DOOR, (Blocks.WAXED_WEATHERED_COPPER)).offerTo(exporter);
         ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_COPPER_SLAB, (Blocks.WAXED_WEATHERED_COPPER)).offerTo(exporter);
         ModRecipes.StairsRecipe(ModBlocks.WAXED_WEATHERED_COPPER_STAIRS, (Blocks.WAXED_WEATHERED_COPPER)).offerTo(exporter);
         ModRecipes.NWFenceRecipe(ModBlocks.WAXED_WEATHERED_COPPER_FENCE, (Blocks.WAXED_WEATHERED_COPPER), (ModBlocks.WAXED_WEATHERED_COPPER_SLAB), 3).offerTo(exporter);
         ModRecipes.NWFenceGateRecipe(ModBlocks.WAXED_WEATHERED_COPPER_FENCE_GATE, (Blocks.WAXED_WEATHERED_COPPER), (ModBlocks.WAXED_WEATHERED_COPPER_SLAB), 1).offerTo(exporter);
-        ModRecipes.TrapdoorRecipe(ModBlocks.WAXED_WEATHERED_COPPER_TRAPDOOR, (ModBlocks.WAXED_WEATHERED_COPPER_SLAB)).offerTo(exporter);
         ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_COPPER_PRESSURE_PLATE, (Blocks.WAXED_WEATHERED_COPPER)).offerTo(exporter);
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_COPPER_BUTTON, Blocks.WAXED_WEATHERED_COPPER, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_COPPER_WALL, (Blocks.WAXED_WEATHERED_COPPER)).offerTo(exporter);
 
-        //waxed oxidized_copper
-        ModRecipes.DoorRecipe(ModBlocks.WAXED_OXIDIZED_COPPER_DOOR, (Blocks.WAXED_OXIDIZED_COPPER)).offerTo(exporter);
+        //waxed oxidized_copper;
         ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_COPPER_SLAB, (Blocks.WAXED_OXIDIZED_COPPER)).offerTo(exporter);
         ModRecipes.StairsRecipe(ModBlocks.WAXED_OXIDIZED_COPPER_STAIRS, (Blocks.WAXED_OXIDIZED_COPPER)).offerTo(exporter);
         ModRecipes.NWFenceRecipe(ModBlocks.WAXED_OXIDIZED_COPPER_FENCE, (Blocks.WAXED_OXIDIZED_COPPER), (ModBlocks.WAXED_OXIDIZED_COPPER_SLAB), 3).offerTo(exporter);
         ModRecipes.NWFenceGateRecipe(ModBlocks.WAXED_OXIDIZED_COPPER_FENCE_GATE, (Blocks.WAXED_OXIDIZED_COPPER), (ModBlocks.WAXED_OXIDIZED_COPPER_SLAB), 1).offerTo(exporter);
-        ModRecipes.TrapdoorRecipe(ModBlocks.WAXED_OXIDIZED_COPPER_TRAPDOOR, (ModBlocks.WAXED_OXIDIZED_COPPER_SLAB)).offerTo(exporter);
         ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_COPPER_PRESSURE_PLATE, (Blocks.WAXED_OXIDIZED_COPPER)).offerTo(exporter);
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_COPPER_BUTTON, Blocks.WAXED_OXIDIZED_COPPER, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_COPPER_WALL, (Blocks.WAXED_OXIDIZED_COPPER)).offerTo(exporter);
@@ -3072,6 +3054,182 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.TARGET_PRESSURE_PLATE, (ModBlocks.TARGET_SLAB)).offerTo(exporter);
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.TARGET_BUTTON, Blocks.TARGET, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.TARGET_WALL, (Blocks.TARGET)).offerTo(exporter);
+
+        //chiseled_copper
+        ModRecipes.DoorRecipe(ModBlocks.CHISELED_COPPER_DOOR, (Blocks.CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.CHISELED_COPPER_SLAB, (Blocks.CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.CHISELED_COPPER_STAIRS, (Blocks.CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.CHISELED_COPPER_FENCE, (Blocks.CHISELED_COPPER), (ModBlocks.CHISELED_COPPER_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.CHISELED_COPPER_FENCE_GATE, (Blocks.CHISELED_COPPER), (ModBlocks.CHISELED_COPPER_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.CHISELED_COPPER_TRAPDOOR, (ModBlocks.CHISELED_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.CHISELED_COPPER_PRESSURE_PLATE, (ModBlocks.CHISELED_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.CHISELED_COPPER_BUTTON, Blocks.CHISELED_COPPER, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.CHISELED_COPPER_WALL, (Blocks.CHISELED_COPPER)).offerTo(exporter);
+
+        //exposed_chiseled_copper
+        ModRecipes.DoorRecipe(ModBlocks.EXPOSED_CHISELED_COPPER_DOOR, (Blocks.EXPOSED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_CHISELED_COPPER_SLAB, (Blocks.EXPOSED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.EXPOSED_CHISELED_COPPER_STAIRS, (Blocks.EXPOSED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.EXPOSED_CHISELED_COPPER_FENCE, (Blocks.EXPOSED_CHISELED_COPPER), (ModBlocks.EXPOSED_CHISELED_COPPER_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.EXPOSED_CHISELED_COPPER_FENCE_GATE, (Blocks.EXPOSED_CHISELED_COPPER), (ModBlocks.EXPOSED_CHISELED_COPPER_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.EXPOSED_CHISELED_COPPER_TRAPDOOR, (ModBlocks.EXPOSED_CHISELED_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_CHISELED_COPPER_PRESSURE_PLATE, (ModBlocks.EXPOSED_CHISELED_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_CHISELED_COPPER_BUTTON, Blocks.EXPOSED_CHISELED_COPPER, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_CHISELED_COPPER_WALL, (Blocks.EXPOSED_CHISELED_COPPER)).offerTo(exporter);
+
+        //weathered_chiseled_copper
+        ModRecipes.DoorRecipe(ModBlocks.WEATHERED_CHISELED_COPPER_DOOR, (Blocks.WEATHERED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_CHISELED_COPPER_SLAB, (Blocks.WEATHERED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.WEATHERED_CHISELED_COPPER_STAIRS, (Blocks.WEATHERED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.WEATHERED_CHISELED_COPPER_FENCE, (Blocks.WEATHERED_CHISELED_COPPER), (ModBlocks.WEATHERED_CHISELED_COPPER_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.WEATHERED_CHISELED_COPPER_FENCE_GATE, (Blocks.WEATHERED_CHISELED_COPPER), (ModBlocks.WEATHERED_CHISELED_COPPER_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.WEATHERED_CHISELED_COPPER_TRAPDOOR, (ModBlocks.WEATHERED_CHISELED_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_CHISELED_COPPER_PRESSURE_PLATE, (ModBlocks.WEATHERED_CHISELED_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_CHISELED_COPPER_BUTTON, Blocks.WEATHERED_CHISELED_COPPER, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_CHISELED_COPPER_WALL, (Blocks.WEATHERED_CHISELED_COPPER)).offerTo(exporter);
+
+        //oxidized_chiseled_copper
+        ModRecipes.DoorRecipe(ModBlocks.OXIDIZED_CHISELED_COPPER_DOOR, (Blocks.OXIDIZED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_CHISELED_COPPER_SLAB, (Blocks.OXIDIZED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.OXIDIZED_CHISELED_COPPER_STAIRS, (Blocks.OXIDIZED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.OXIDIZED_CHISELED_COPPER_FENCE, (Blocks.OXIDIZED_CHISELED_COPPER), (ModBlocks.OXIDIZED_CHISELED_COPPER_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.OXIDIZED_CHISELED_COPPER_FENCE_GATE, (Blocks.OXIDIZED_CHISELED_COPPER), (ModBlocks.OXIDIZED_CHISELED_COPPER_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.OXIDIZED_CHISELED_COPPER_TRAPDOOR, (ModBlocks.OXIDIZED_CHISELED_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_CHISELED_COPPER_PRESSURE_PLATE, (ModBlocks.OXIDIZED_CHISELED_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_CHISELED_COPPER_BUTTON, Blocks.OXIDIZED_CHISELED_COPPER, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_CHISELED_COPPER_WALL, (Blocks.OXIDIZED_CHISELED_COPPER)).offerTo(exporter);
+
+        //copper_grate
+        ModRecipes.DoorRecipe(ModBlocks.COPPER_GRATE_DOOR, (Blocks.COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.COPPER_GRATE_SLAB, (Blocks.COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.COPPER_GRATE_STAIRS, (Blocks.COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.COPPER_GRATE_FENCE, (Blocks.COPPER_GRATE), (ModBlocks.COPPER_GRATE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.COPPER_GRATE_FENCE_GATE, (Blocks.COPPER_GRATE), (ModBlocks.COPPER_GRATE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.COPPER_GRATE_TRAPDOOR, (ModBlocks.COPPER_GRATE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.COPPER_GRATE_PRESSURE_PLATE, (ModBlocks.COPPER_GRATE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.COPPER_GRATE_BUTTON, Blocks.COPPER_GRATE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.COPPER_GRATE_WALL, (Blocks.COPPER_GRATE)).offerTo(exporter);
+
+        //exposed_copper_grate
+        ModRecipes.DoorRecipe(ModBlocks.EXPOSED_COPPER_GRATE_DOOR, (Blocks.EXPOSED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_COPPER_GRATE_SLAB, (Blocks.EXPOSED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.EXPOSED_COPPER_GRATE_STAIRS, (Blocks.EXPOSED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.EXPOSED_COPPER_GRATE_FENCE, (Blocks.EXPOSED_COPPER_GRATE), (ModBlocks.EXPOSED_COPPER_GRATE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.EXPOSED_COPPER_GRATE_FENCE_GATE, (Blocks.EXPOSED_COPPER_GRATE), (ModBlocks.EXPOSED_COPPER_GRATE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.EXPOSED_COPPER_GRATE_TRAPDOOR, (ModBlocks.EXPOSED_COPPER_GRATE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_COPPER_GRATE_PRESSURE_PLATE, (ModBlocks.EXPOSED_COPPER_GRATE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_COPPER_GRATE_BUTTON, Blocks.EXPOSED_COPPER_GRATE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.EXPOSED_COPPER_GRATE_WALL, (Blocks.EXPOSED_COPPER_GRATE)).offerTo(exporter);
+
+        //weathered_copper_grate
+        ModRecipes.DoorRecipe(ModBlocks.WEATHERED_COPPER_GRATE_DOOR, (Blocks.WEATHERED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_COPPER_GRATE_SLAB, (Blocks.WEATHERED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.WEATHERED_COPPER_GRATE_STAIRS, (Blocks.WEATHERED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.WEATHERED_COPPER_GRATE_FENCE, (Blocks.WEATHERED_COPPER_GRATE), (ModBlocks.WEATHERED_COPPER_GRATE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.WEATHERED_COPPER_GRATE_FENCE_GATE, (Blocks.WEATHERED_COPPER_GRATE), (ModBlocks.WEATHERED_COPPER_GRATE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.WEATHERED_COPPER_GRATE_TRAPDOOR, (ModBlocks.WEATHERED_COPPER_GRATE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_COPPER_GRATE_PRESSURE_PLATE, (ModBlocks.WEATHERED_COPPER_GRATE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_COPPER_GRATE_BUTTON, Blocks.WEATHERED_COPPER_GRATE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WEATHERED_COPPER_GRATE_WALL, (Blocks.WEATHERED_COPPER_GRATE)).offerTo(exporter);
+
+        //oxidized_copper_grate
+        ModRecipes.DoorRecipe(ModBlocks.OXIDIZED_COPPER_GRATE_DOOR, (Blocks.OXIDIZED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_COPPER_GRATE_SLAB, (Blocks.OXIDIZED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.OXIDIZED_COPPER_GRATE_STAIRS, (Blocks.OXIDIZED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.OXIDIZED_COPPER_GRATE_FENCE, (Blocks.OXIDIZED_COPPER_GRATE), (ModBlocks.OXIDIZED_COPPER_GRATE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.OXIDIZED_COPPER_GRATE_FENCE_GATE, (Blocks.OXIDIZED_COPPER_GRATE), (ModBlocks.OXIDIZED_COPPER_GRATE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.OXIDIZED_COPPER_GRATE_TRAPDOOR, (ModBlocks.OXIDIZED_COPPER_GRATE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_COPPER_GRATE_PRESSURE_PLATE, (ModBlocks.OXIDIZED_COPPER_GRATE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_COPPER_GRATE_BUTTON, Blocks.OXIDIZED_COPPER_GRATE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.OXIDIZED_COPPER_GRATE_WALL, (Blocks.OXIDIZED_COPPER_GRATE)).offerTo(exporter);
+
+        //waxed_chiseled_copper
+        ModRecipes.DoorRecipe(ModBlocks.WAXED_CHISELED_COPPER_DOOR, (Blocks.WAXED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_CHISELED_COPPER_SLAB, (Blocks.WAXED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.WAXED_CHISELED_COPPER_STAIRS, (Blocks.WAXED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.WAXED_CHISELED_COPPER_FENCE, (Blocks.WAXED_CHISELED_COPPER), (ModBlocks.WAXED_CHISELED_COPPER_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.WAXED_CHISELED_COPPER_FENCE_GATE, (Blocks.WAXED_CHISELED_COPPER), (ModBlocks.WAXED_CHISELED_COPPER_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.WAXED_CHISELED_COPPER_TRAPDOOR, (ModBlocks.WAXED_CHISELED_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_CHISELED_COPPER_PRESSURE_PLATE, (ModBlocks.WAXED_CHISELED_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_CHISELED_COPPER_BUTTON, Blocks.WAXED_CHISELED_COPPER, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_CHISELED_COPPER_WALL, (Blocks.WAXED_CHISELED_COPPER)).offerTo(exporter);
+
+        //waxed_exposed_chiseled_copper
+        ModRecipes.DoorRecipe(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_DOOR, (Blocks.WAXED_EXPOSED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_SLAB, (Blocks.WAXED_EXPOSED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_STAIRS, (Blocks.WAXED_EXPOSED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_FENCE, (Blocks.WAXED_EXPOSED_CHISELED_COPPER), (ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_FENCE_GATE, (Blocks.WAXED_EXPOSED_CHISELED_COPPER), (ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_TRAPDOOR, (ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_PRESSURE_PLATE, (ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_BUTTON, Blocks.WAXED_EXPOSED_CHISELED_COPPER, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_WALL, (Blocks.WAXED_EXPOSED_CHISELED_COPPER)).offerTo(exporter);
+
+        //waxed_weathered_chiseled_copper
+        ModRecipes.DoorRecipe(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_DOOR, (Blocks.WAXED_WEATHERED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_SLAB, (Blocks.WAXED_WEATHERED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_STAIRS, (Blocks.WAXED_WEATHERED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_FENCE, (Blocks.WAXED_WEATHERED_CHISELED_COPPER), (ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_FENCE_GATE, (Blocks.WAXED_WEATHERED_CHISELED_COPPER), (ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_TRAPDOOR, (ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_PRESSURE_PLATE, (ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_BUTTON, Blocks.WAXED_WEATHERED_CHISELED_COPPER, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_WALL, (Blocks.WAXED_WEATHERED_CHISELED_COPPER)).offerTo(exporter);
+
+        //waxed_oxidized_chiseled_copper
+        ModRecipes.DoorRecipe(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_DOOR, (Blocks.WAXED_OXIDIZED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_SLAB, (Blocks.WAXED_OXIDIZED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_STAIRS, (Blocks.WAXED_OXIDIZED_CHISELED_COPPER)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_FENCE, (Blocks.WAXED_OXIDIZED_CHISELED_COPPER), (ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_FENCE_GATE, (Blocks.WAXED_OXIDIZED_CHISELED_COPPER), (ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_TRAPDOOR, (ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_PRESSURE_PLATE, (ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_BUTTON, Blocks.WAXED_OXIDIZED_CHISELED_COPPER, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_WALL, (Blocks.WAXED_OXIDIZED_CHISELED_COPPER)).offerTo(exporter);
+
+        //waxed_copper_grate
+        ModRecipes.DoorRecipe(ModBlocks.WAXED_COPPER_GRATE_DOOR, (Blocks.WAXED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_COPPER_GRATE_SLAB, (Blocks.WAXED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.WAXED_COPPER_GRATE_STAIRS, (Blocks.WAXED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.WAXED_COPPER_GRATE_FENCE, (Blocks.WAXED_COPPER_GRATE), (ModBlocks.WAXED_COPPER_GRATE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.WAXED_COPPER_GRATE_FENCE_GATE, (Blocks.WAXED_COPPER_GRATE), (ModBlocks.WAXED_COPPER_GRATE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.WAXED_COPPER_GRATE_TRAPDOOR, (ModBlocks.WAXED_COPPER_GRATE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_COPPER_GRATE_PRESSURE_PLATE, (ModBlocks.WAXED_COPPER_GRATE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_COPPER_GRATE_BUTTON, Blocks.WAXED_COPPER_GRATE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_COPPER_GRATE_WALL, (Blocks.WAXED_COPPER_GRATE)).offerTo(exporter);
+
+        //waxed_exposed_copper_grate
+        ModRecipes.DoorRecipe(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_DOOR, (Blocks.WAXED_EXPOSED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_COPPER_GRATE_SLAB, (Blocks.WAXED_EXPOSED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_STAIRS, (Blocks.WAXED_EXPOSED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_FENCE, (Blocks.WAXED_EXPOSED_COPPER_GRATE), (ModBlocks.WAXED_EXPOSED_COPPER_GRATE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_FENCE_GATE, (Blocks.WAXED_EXPOSED_COPPER_GRATE), (ModBlocks.WAXED_EXPOSED_COPPER_GRATE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_TRAPDOOR, (ModBlocks.WAXED_EXPOSED_COPPER_GRATE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_COPPER_GRATE_PRESSURE_PLATE, (ModBlocks.WAXED_EXPOSED_COPPER_GRATE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_COPPER_GRATE_BUTTON, Blocks.WAXED_EXPOSED_COPPER_GRATE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_EXPOSED_COPPER_GRATE_WALL, (Blocks.WAXED_EXPOSED_COPPER_GRATE)).offerTo(exporter);
+
+        //waxed_weathered_copper_grate
+        ModRecipes.DoorRecipe(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_DOOR, (Blocks.WAXED_WEATHERED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_COPPER_GRATE_SLAB, (Blocks.WAXED_WEATHERED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_STAIRS, (Blocks.WAXED_WEATHERED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_FENCE, (Blocks.WAXED_WEATHERED_COPPER_GRATE), (ModBlocks.WAXED_WEATHERED_COPPER_GRATE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_FENCE_GATE, (Blocks.WAXED_WEATHERED_COPPER_GRATE), (ModBlocks.WAXED_WEATHERED_COPPER_GRATE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_TRAPDOOR, (ModBlocks.WAXED_WEATHERED_COPPER_GRATE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_COPPER_GRATE_PRESSURE_PLATE, (ModBlocks.WAXED_WEATHERED_COPPER_GRATE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_COPPER_GRATE_BUTTON, Blocks.WAXED_WEATHERED_COPPER_GRATE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_WEATHERED_COPPER_GRATE_WALL, (Blocks.WAXED_WEATHERED_COPPER_GRATE)).offerTo(exporter);
+
+        //waxed_oxidized_copper_grate
+        ModRecipes.DoorRecipe(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_DOOR, (Blocks.WAXED_OXIDIZED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_SLAB, (Blocks.WAXED_OXIDIZED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_STAIRS, (Blocks.WAXED_OXIDIZED_COPPER_GRATE)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE, (Blocks.WAXED_OXIDIZED_COPPER_GRATE), (ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE_GATE, (Blocks.WAXED_OXIDIZED_COPPER_GRATE), (ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_TRAPDOOR, (ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_PRESSURE_PLATE, (ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_BUTTON, Blocks.WAXED_OXIDIZED_COPPER_GRATE, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_WALL, (Blocks.WAXED_OXIDIZED_COPPER_GRATE)).offerTo(exporter);
 
 
 

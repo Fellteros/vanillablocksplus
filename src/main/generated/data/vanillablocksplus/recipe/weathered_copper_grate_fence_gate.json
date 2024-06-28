@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillablocksplus:weathered_copper_grate_slab"
+    },
+    "W": {
+      "item": "minecraft:weathered_copper_grate"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:weathered_copper_grate_fence_gate"
+  }
+}

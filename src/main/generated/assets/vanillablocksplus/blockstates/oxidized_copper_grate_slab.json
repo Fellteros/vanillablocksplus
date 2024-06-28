@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/oxidized_copper_grate_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/oxidized_copper_grate"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/oxidized_copper_grate_slab_top"
+    }
+  }
+}

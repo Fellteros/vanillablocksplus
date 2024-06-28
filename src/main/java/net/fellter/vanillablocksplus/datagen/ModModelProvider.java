@@ -2651,8 +2651,134 @@ public class ModModelProvider extends FabricModelProvider {
         registerCustomFenceGate(bsmg, ModBlocks.TARGET_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.TARGET));
         registerCustomPressurePlate(bsmg, ModBlocks.TARGET_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.TARGET));
         registerCustomOrTrapdoor(bsmg, ModBlocks.TARGET_TRAPDOOR, ModTextureMap.customSTB(Blocks.TARGET, ModBlocks.TARGET_TRAPDOOR, ModBlocks.TARGET_TRAPDOOR, "_side", "", ""));
-
-
+        //chiseled_copper
+        bsmg.registerCubeAllModelTexturePool(Blocks.CHISELED_COPPER)
+                .button(ModBlocks.CHISELED_COPPER_BUTTON)
+                .wall(ModBlocks.CHISELED_COPPER_WALL)
+                .slab(ModBlocks.CHISELED_COPPER_SLAB)
+                .stairs(ModBlocks.CHISELED_COPPER_STAIRS)
+                .fence(ModBlocks.CHISELED_COPPER_FENCE)
+                .fenceGate(ModBlocks.CHISELED_COPPER_FENCE_GATE)
+                .pressurePlate(ModBlocks.CHISELED_COPPER_PRESSURE_PLATE)
+                .button(ModBlocks.WAXED_CHISELED_COPPER_BUTTON)
+                .wall(ModBlocks.WAXED_CHISELED_COPPER_WALL)
+                .slab(ModBlocks.WAXED_CHISELED_COPPER_SLAB)
+                .stairs(ModBlocks.WAXED_CHISELED_COPPER_STAIRS)
+                .fence(ModBlocks.WAXED_CHISELED_COPPER_FENCE)
+                .fenceGate(ModBlocks.WAXED_CHISELED_COPPER_FENCE_GATE)
+                .pressurePlate(ModBlocks.WAXED_CHISELED_COPPER_PRESSURE_PLATE);
+        //exposed_chiseled_copper
+        bsmg.registerCubeAllModelTexturePool(Blocks.EXPOSED_CHISELED_COPPER)
+                .button(ModBlocks.EXPOSED_CHISELED_COPPER_BUTTON)
+                .wall(ModBlocks.EXPOSED_CHISELED_COPPER_WALL)
+                .slab(ModBlocks.EXPOSED_CHISELED_COPPER_SLAB)
+                .stairs(ModBlocks.EXPOSED_CHISELED_COPPER_STAIRS)
+                .fence(ModBlocks.EXPOSED_CHISELED_COPPER_FENCE)
+                .fenceGate(ModBlocks.EXPOSED_CHISELED_COPPER_FENCE_GATE)
+                .pressurePlate(ModBlocks.EXPOSED_CHISELED_COPPER_PRESSURE_PLATE)
+                .button(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_BUTTON)
+                .wall(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_WALL)
+                .slab(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_SLAB)
+                .stairs(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_STAIRS)
+                .fence(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_FENCE)
+                .fenceGate(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_FENCE_GATE)
+                .pressurePlate(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_PRESSURE_PLATE);
+        //weathered_chiseled_copper
+        bsmg.registerCubeAllModelTexturePool(Blocks.WEATHERED_CHISELED_COPPER)
+                .button(ModBlocks.WEATHERED_CHISELED_COPPER_BUTTON)
+                .wall(ModBlocks.WEATHERED_CHISELED_COPPER_WALL)
+                .slab(ModBlocks.WEATHERED_CHISELED_COPPER_SLAB)
+                .stairs(ModBlocks.WEATHERED_CHISELED_COPPER_STAIRS)
+                .fence(ModBlocks.WEATHERED_CHISELED_COPPER_FENCE)
+                .fenceGate(ModBlocks.WEATHERED_CHISELED_COPPER_FENCE_GATE)
+                .pressurePlate(ModBlocks.WEATHERED_CHISELED_COPPER_PRESSURE_PLATE)
+                .button(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_BUTTON)
+                .wall(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_WALL)
+                .slab(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_SLAB)
+                .stairs(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_STAIRS)
+                .fence(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_FENCE)
+                .fenceGate(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_FENCE_GATE)
+                .pressurePlate(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_PRESSURE_PLATE);
+        //oxidized_chiseled_copper
+        bsmg.registerCubeAllModelTexturePool(Blocks.OXIDIZED_CHISELED_COPPER)
+                .button(ModBlocks.OXIDIZED_CHISELED_COPPER_BUTTON)
+                .wall(ModBlocks.OXIDIZED_CHISELED_COPPER_WALL)
+                .slab(ModBlocks.OXIDIZED_CHISELED_COPPER_SLAB)
+                .stairs(ModBlocks.OXIDIZED_CHISELED_COPPER_STAIRS)
+                .fence(ModBlocks.OXIDIZED_CHISELED_COPPER_FENCE)
+                .fenceGate(ModBlocks.OXIDIZED_CHISELED_COPPER_FENCE_GATE)
+                .pressurePlate(ModBlocks.OXIDIZED_CHISELED_COPPER_PRESSURE_PLATE)
+                .button(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_BUTTON)
+                .wall(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_WALL)
+                .slab(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_SLAB)
+                .stairs(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_STAIRS)
+                .fence(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_FENCE)
+                .fenceGate(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_FENCE_GATE)
+                .pressurePlate(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_PRESSURE_PLATE);
+        //copper_grate
+        bsmg.registerCubeAllModelTexturePool(Blocks.COPPER_GRATE)
+                .button(ModBlocks.COPPER_GRATE_BUTTON)
+                .wall(ModBlocks.COPPER_GRATE_WALL)
+                .slab(ModBlocks.COPPER_GRATE_SLAB)
+                .stairs(ModBlocks.COPPER_GRATE_STAIRS)
+                .fence(ModBlocks.COPPER_GRATE_FENCE)
+                .fenceGate(ModBlocks.COPPER_GRATE_FENCE_GATE)
+                .pressurePlate(ModBlocks.COPPER_GRATE_PRESSURE_PLATE)
+                .button(ModBlocks.WAXED_COPPER_GRATE_BUTTON)
+                .wall(ModBlocks.WAXED_COPPER_GRATE_WALL)
+                .slab(ModBlocks.WAXED_COPPER_GRATE_SLAB)
+                .stairs(ModBlocks.WAXED_COPPER_GRATE_STAIRS)
+                .fence(ModBlocks.WAXED_COPPER_GRATE_FENCE)
+                .fenceGate(ModBlocks.WAXED_COPPER_GRATE_FENCE_GATE)
+                .pressurePlate(ModBlocks.WAXED_COPPER_GRATE_PRESSURE_PLATE);
+        //exposed_copper_grate
+        bsmg.registerCubeAllModelTexturePool(Blocks.EXPOSED_COPPER_GRATE)
+                .button(ModBlocks.EXPOSED_COPPER_GRATE_BUTTON)
+                .wall(ModBlocks.EXPOSED_COPPER_GRATE_WALL)
+                .slab(ModBlocks.EXPOSED_COPPER_GRATE_SLAB)
+                .stairs(ModBlocks.EXPOSED_COPPER_GRATE_STAIRS)
+                .fence(ModBlocks.EXPOSED_COPPER_GRATE_FENCE)
+                .fenceGate(ModBlocks.EXPOSED_COPPER_GRATE_FENCE_GATE)
+                .pressurePlate(ModBlocks.EXPOSED_COPPER_GRATE_PRESSURE_PLATE)
+                .button(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_BUTTON)
+                .wall(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_WALL)
+                .slab(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_SLAB)
+                .stairs(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_STAIRS)
+                .fence(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_FENCE)
+                .fenceGate(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_FENCE_GATE)
+                .pressurePlate(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_PRESSURE_PLATE);
+        //weathered_copper_grate
+        bsmg.registerCubeAllModelTexturePool(Blocks.WEATHERED_COPPER_GRATE)
+                .button(ModBlocks.WEATHERED_COPPER_GRATE_BUTTON)
+                .wall(ModBlocks.WEATHERED_COPPER_GRATE_WALL)
+                .slab(ModBlocks.WEATHERED_COPPER_GRATE_SLAB)
+                .stairs(ModBlocks.WEATHERED_COPPER_GRATE_STAIRS)
+                .fence(ModBlocks.WEATHERED_COPPER_GRATE_FENCE)
+                .fenceGate(ModBlocks.WEATHERED_COPPER_GRATE_FENCE_GATE)
+                .pressurePlate(ModBlocks.WEATHERED_COPPER_GRATE_PRESSURE_PLATE)
+                .button(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_BUTTON)
+                .wall(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_WALL)
+                .slab(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_SLAB)
+                .stairs(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_STAIRS)
+                .fence(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_FENCE)
+                .fenceGate(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_FENCE_GATE)
+                .pressurePlate(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_PRESSURE_PLATE);
+        //oxidized_copper_grate
+        bsmg.registerCubeAllModelTexturePool(Blocks.OXIDIZED_COPPER_GRATE)
+                .button(ModBlocks.OXIDIZED_COPPER_GRATE_BUTTON)
+                .wall(ModBlocks.OXIDIZED_COPPER_GRATE_WALL)
+                .slab(ModBlocks.OXIDIZED_COPPER_GRATE_SLAB)
+                .stairs(ModBlocks.OXIDIZED_COPPER_GRATE_STAIRS)
+                .fence(ModBlocks.OXIDIZED_COPPER_GRATE_FENCE)
+                .fenceGate(ModBlocks.OXIDIZED_COPPER_GRATE_FENCE_GATE)
+                .pressurePlate(ModBlocks.OXIDIZED_COPPER_GRATE_PRESSURE_PLATE)
+                .button(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_BUTTON)
+                .wall(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_WALL)
+                .slab(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_SLAB)
+                .stairs(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_STAIRS)
+                .fence(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE)
+                .fenceGate(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE_GATE)
+                .pressurePlate(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_PRESSURE_PLATE);
 
 
         //oak
@@ -2898,18 +3024,6 @@ public class ModModelProvider extends FabricModelProvider {
         //amethyst
         bsmg.registerDoor(ModBlocks.AMETHYST_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.AMETHYST_TRAPDOOR);
-        //copper
-        bsmg.registerDoor(ModBlocks.COPPER_DOOR);
-        bsmg.registerOrientableTrapdoor(ModBlocks.COPPER_TRAPDOOR);
-        //exposed_copper
-        bsmg.registerDoor(ModBlocks.EXPOSED_COPPER_DOOR);
-        bsmg.registerOrientableTrapdoor(ModBlocks.EXPOSED_COPPER_TRAPDOOR);
-        //weathered_copper
-        bsmg.registerDoor(ModBlocks.WEATHERED_COPPER_DOOR);
-        bsmg.registerOrientableTrapdoor(ModBlocks.WEATHERED_COPPER_TRAPDOOR);
-        //oxidized_copper
-        bsmg.registerDoor(ModBlocks.OXIDIZED_COPPER_DOOR);
-        bsmg.registerOrientableTrapdoor(ModBlocks.OXIDIZED_COPPER_TRAPDOOR);
         //cut copper
         bsmg.registerDoor(ModBlocks.CUT_COPPER_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.CUT_COPPER_TRAPDOOR);
@@ -2922,18 +3036,6 @@ public class ModModelProvider extends FabricModelProvider {
         //cut oxidized_copper
         bsmg.registerDoor(ModBlocks.OXIDIZED_CUT_COPPER_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.OXIDIZED_CUT_COPPER_TRAPDOOR);
-        //waxed copper
-        bsmg.registerDoor(ModBlocks.WAXED_COPPER_DOOR);
-        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_COPPER_TRAPDOOR);
-        //waxed exposed_copper
-        bsmg.registerDoor(ModBlocks.WAXED_EXPOSED_COPPER_DOOR);
-        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_EXPOSED_COPPER_TRAPDOOR);
-        //waxed weathered_copper
-        bsmg.registerDoor(ModBlocks.WAXED_WEATHERED_COPPER_DOOR);
-        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_WEATHERED_COPPER_TRAPDOOR);
-        //waxed oxidized_copper
-        bsmg.registerDoor(ModBlocks.WAXED_OXIDIZED_COPPER_DOOR);
-        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_OXIDIZED_COPPER_TRAPDOOR);
         //waxed cut copper
         bsmg.registerDoor(ModBlocks.WAXED_CUT_COPPER_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_CUT_COPPER_TRAPDOOR);
@@ -3498,6 +3600,54 @@ public class ModModelProvider extends FabricModelProvider {
         bsmg.registerDoor(ModBlocks.BEDROCK_DOOR);
         //target
         bsmg.registerDoor(ModBlocks.TARGET_DOOR);
+        //chiseled_copper
+        bsmg.registerOrientableTrapdoor(ModBlocks.CHISELED_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CHISELED_COPPER_DOOR);
+        //exposed_chiseled_copper
+        bsmg.registerOrientableTrapdoor(ModBlocks.EXPOSED_CHISELED_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.EXPOSED_CHISELED_COPPER_DOOR);
+        //weathered_chiseled_copper
+        bsmg.registerOrientableTrapdoor(ModBlocks.WEATHERED_CHISELED_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WEATHERED_CHISELED_COPPER_DOOR);
+        //oxidized_chiseled_copper
+        bsmg.registerOrientableTrapdoor(ModBlocks.OXIDIZED_CHISELED_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.OXIDIZED_CHISELED_COPPER_DOOR);
+        //copper_grate
+        bsmg.registerOrientableTrapdoor(ModBlocks.COPPER_GRATE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.COPPER_GRATE_DOOR);
+        //exposed_copper_grate
+        bsmg.registerOrientableTrapdoor(ModBlocks.EXPOSED_COPPER_GRATE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.EXPOSED_COPPER_GRATE_DOOR);
+        //weathered_copper_grate
+        bsmg.registerOrientableTrapdoor(ModBlocks.WEATHERED_COPPER_GRATE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WEATHERED_COPPER_GRATE_DOOR);
+        //oxidized_copper_grate
+        bsmg.registerOrientableTrapdoor(ModBlocks.OXIDIZED_COPPER_GRATE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.OXIDIZED_COPPER_GRATE_DOOR);
+        //waxed_chiseled_copper
+        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_CHISELED_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WAXED_CHISELED_COPPER_DOOR);
+        //waxed_exposed_chiseled_copper
+        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_DOOR);
+        //waxed_weathered_chiseled_copper
+        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_DOOR);
+        //waxed_oxidized_chiseled_copper
+        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_DOOR);
+        //waxed_copper_grate
+        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_COPPER_GRATE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WAXED_COPPER_GRATE_DOOR);
+        //waxed_exposed_copper_grate
+        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_DOOR);
+        //waxed_weathered_copper_grate
+        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_DOOR);
+        //waxed_oxidized_copper_grate
+        bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_DOOR);
 
 
 

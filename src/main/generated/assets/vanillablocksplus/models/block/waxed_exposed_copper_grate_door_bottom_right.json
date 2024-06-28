@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "vanillablocksplus:block/waxed_exposed_copper_grate_door_bottom",
+    "top": "vanillablocksplus:block/waxed_exposed_copper_grate_door_top"
+  }
+}

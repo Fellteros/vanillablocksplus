@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/copper_grate_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/copper_grate"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/copper_grate_slab_top"
+    }
+  }
+}

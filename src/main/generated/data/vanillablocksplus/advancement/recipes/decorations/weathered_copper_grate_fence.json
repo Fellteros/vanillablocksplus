@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:weathered_copper_grate_fence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_weathered_copper_grate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:weathered_copper_grate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_weathered_copper_grate_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:weathered_copper_grate_fence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_weathered_copper_grate_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:weathered_copper_grate_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_weathered_copper_grate_fence",
+      "has_weathered_copper_grate",
+      "has_weathered_copper_grate_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:weathered_copper_grate_fence"
+    ]
+  }
+}

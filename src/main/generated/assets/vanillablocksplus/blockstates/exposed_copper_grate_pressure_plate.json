@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "vanillablocksplus:block/exposed_copper_grate_pressure_plate"
+    },
+    "powered=true": {
+      "model": "vanillablocksplus:block/exposed_copper_grate_pressure_plate_down"
+    }
+  }
+}

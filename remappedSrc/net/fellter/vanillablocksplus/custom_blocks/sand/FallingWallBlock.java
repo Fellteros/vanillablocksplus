@@ -1,4 +1,4 @@
-package net.fellter.vanillablocksplus.custom_blocks.sand;
+package net.fellter.vanillablocksplus.custom_blocks.falling;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;

@@ -1,4 +1,4 @@
-package net.fellter.vanillablocksplus.custom_blocks.sand;
+package net.fellter.vanillablocksplus.custom_blocks.falling;
 
 import net.minecraft.block.BlockSetType;
 import net.minecraft.block.BlockState;

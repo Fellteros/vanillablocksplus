@@ -6,7 +6,7 @@ import net.fellter.vanillablocksplus.custom_blocks.concrete_powder.*;
 import net.fellter.vanillablocksplus.custom_blocks.copper.*;
 import net.fellter.vanillablocksplus.custom_blocks.glass.*;
 import net.fellter.vanillablocksplus.custom_blocks.redstone.*;
-import net.fellter.vanillablocksplus.custom_blocks.sand.*;
+import net.fellter.vanillablocksplus.custom_blocks.falling.*;
 import net.fellter.vanillablocksplus.custom_blocks.slime.*;
 import net.fellter.vanillablocksplus.custom_blocks.sponge.*;
 import net.fellter.vanillablocksplus.custom_blocks.wet_sponge.*;
@@ -1471,11 +1471,7 @@ public class ModBlocks {
     public static final Block COPPER_FENCE = registerBlock("copper_fence",
             new OxidizableFenceBlock(Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK)));
     public static final Block COPPER_FENCE_GATE = registerBlock("copper_fence_gate",
-            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK), ModWoodType.COPPER));
-    public static final Block COPPER_DOOR = registerBlock("copper_door",
-            new OxidizableDoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK)));
-    public static final Block COPPER_TRAPDOOR = registerBlock("copper_trapdoor",
-            new OxidizableTrapdoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK)));
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.UNAFFECTED, ModWoodType.COPPER, AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK)));
     public static final Block COPPER_WALL = registerBlock("copper_wall",
             new OxidizableWallBlock(Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK)));
 
@@ -1487,7 +1483,7 @@ public class ModBlocks {
     public static final Block CUT_COPPER_FENCE = registerBlock("cut_copper_fence",
             new OxidizableFenceBlock(Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.CUT_COPPER)));
     public static final Block CUT_COPPER_FENCE_GATE = registerBlock("cut_copper_fence_gate",
-            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.CUT_COPPER), ModWoodType.COPPER));
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.UNAFFECTED, ModWoodType.COPPER, AbstractBlock.Settings.copy(Blocks.CUT_COPPER)));
     public static final Block CUT_COPPER_DOOR = registerBlock("cut_copper_door",
             new OxidizableDoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.CUT_COPPER)));
     public static final Block CUT_COPPER_TRAPDOOR = registerBlock("cut_copper_trapdoor",
@@ -1507,11 +1503,7 @@ public class ModBlocks {
     public static final Block EXPOSED_COPPER_FENCE = registerBlock("exposed_copper_fence",
             new OxidizableFenceBlock(Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_COPPER)));
     public static final Block EXPOSED_COPPER_FENCE_GATE = registerBlock("exposed_copper_fence_gate",
-            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_COPPER), ModWoodType.COPPER));
-    public static final Block EXPOSED_COPPER_DOOR = registerBlock("exposed_copper_door",
-            new OxidizableDoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_COPPER)));
-    public static final Block EXPOSED_COPPER_TRAPDOOR = registerBlock("exposed_copper_trapdoor",
-            new OxidizableTrapdoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_COPPER)));
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.EXPOSED, ModWoodType.COPPER, AbstractBlock.Settings.copy(Blocks.EXPOSED_COPPER)));
     public static final Block EXPOSED_COPPER_WALL = registerBlock("exposed_copper_wall",
             new OxidizableWallBlock(Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_COPPER)));
 
@@ -1523,7 +1515,7 @@ public class ModBlocks {
     public static final Block EXPOSED_CUT_COPPER_FENCE = registerBlock("exposed_cut_copper_fence",
             new OxidizableFenceBlock(Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_CUT_COPPER)));
     public static final Block EXPOSED_CUT_COPPER_FENCE_GATE = registerBlock("exposed_cut_copper_fence_gate",
-            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_CUT_COPPER), ModWoodType.COPPER));
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.EXPOSED, ModWoodType.COPPER, AbstractBlock.Settings.copy(Blocks.EXPOSED_CUT_COPPER)));
     public static final Block EXPOSED_CUT_COPPER_DOOR = registerBlock("exposed_cut_copper_door",
             new OxidizableDoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_CUT_COPPER)));
     public static final Block EXPOSED_CUT_COPPER_TRAPDOOR = registerBlock("exposed_cut_copper_trapdoor",
@@ -1543,11 +1535,7 @@ public class ModBlocks {
     public static final Block WEATHERED_COPPER_FENCE = registerBlock("weathered_copper_fence",
             new OxidizableFenceBlock(Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_COPPER)));
     public static final Block WEATHERED_COPPER_FENCE_GATE = registerBlock("weathered_copper_fence_gate",
-            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_COPPER), ModWoodType.COPPER));
-    public static final Block WEATHERED_COPPER_DOOR = registerBlock("weathered_copper_door",
-            new OxidizableDoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_COPPER)));
-    public static final Block WEATHERED_COPPER_TRAPDOOR = registerBlock("weathered_copper_trapdoor",
-            new OxidizableTrapdoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_COPPER)));
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.WEATHERED, ModWoodType.COPPER, AbstractBlock.Settings.copy(Blocks.WEATHERED_COPPER)));
     public static final Block WEATHERED_COPPER_WALL = registerBlock("weathered_copper_wall",
             new OxidizableWallBlock(Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_COPPER)));
 
@@ -1559,7 +1547,7 @@ public class ModBlocks {
     public static final Block WEATHERED_CUT_COPPER_FENCE = registerBlock("weathered_cut_copper_fence",
             new OxidizableFenceBlock(Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_CUT_COPPER)));
     public static final Block WEATHERED_CUT_COPPER_FENCE_GATE = registerBlock("weathered_cut_copper_fence_gate",
-            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_CUT_COPPER), ModWoodType.COPPER));
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.WEATHERED, ModWoodType.COPPER, AbstractBlock.Settings.copy(Blocks.WEATHERED_CUT_COPPER)));
     public static final Block WEATHERED_CUT_COPPER_DOOR = registerBlock("weathered_cut_copper_door",
             new OxidizableDoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_CUT_COPPER)));
     public static final Block WEATHERED_CUT_COPPER_TRAPDOOR = registerBlock("weathered_cut_copper_trapdoor",
@@ -1579,11 +1567,7 @@ public class ModBlocks {
     public static final Block OXIDIZED_COPPER_FENCE = registerBlock("oxidized_copper_fence",
             new OxidizableFenceBlock(Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_COPPER)));
     public static final Block OXIDIZED_COPPER_FENCE_GATE = registerBlock("oxidized_copper_fence_gate",
-            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_COPPER), ModWoodType.COPPER));
-    public static final Block OXIDIZED_COPPER_DOOR = registerBlock("oxidized_copper_door",
-            new OxidizableDoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_COPPER)));
-    public static final Block OXIDIZED_COPPER_TRAPDOOR = registerBlock("oxidized_copper_trapdoor",
-            new OxidizableTrapdoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_COPPER)));
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.OXIDIZED, ModWoodType.COPPER, AbstractBlock.Settings.copy(Blocks.OXIDIZED_COPPER)));
     public static final Block OXIDIZED_COPPER_WALL = registerBlock("oxidized_copper_wall",
             new OxidizableWallBlock(Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_COPPER)));
 
@@ -1595,7 +1579,7 @@ public class ModBlocks {
     public static final Block OXIDIZED_CUT_COPPER_FENCE = registerBlock("oxidized_cut_copper_fence",
             new OxidizableFenceBlock(Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_CUT_COPPER)));
     public static final Block OXIDIZED_CUT_COPPER_FENCE_GATE = registerBlock("oxidized_cut_copper_fence_gate",
-            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_CUT_COPPER), ModWoodType.COPPER));
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.OXIDIZED, ModWoodType.COPPER, AbstractBlock.Settings.copy(Blocks.OXIDIZED_CUT_COPPER)));
     public static final Block OXIDIZED_CUT_COPPER_DOOR = registerBlock("oxidized_cut_copper_door",
             new OxidizableDoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_CUT_COPPER)));
     public static final Block OXIDIZED_CUT_COPPER_TRAPDOOR = registerBlock("oxidized_cut_copper_trapdoor",
@@ -1616,10 +1600,6 @@ public class ModBlocks {
             new FenceBlock(AbstractBlock.Settings.copy(Blocks.WAXED_COPPER_BLOCK)));
     public static final Block WAXED_COPPER_FENCE_GATE = registerBlock("waxed_copper_fence_gate",
             new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.WAXED_COPPER_BLOCK)));
-    public static final Block WAXED_COPPER_DOOR = registerBlock("waxed_copper_door",
-            new DoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.WAXED_COPPER_BLOCK)));
-    public static final Block WAXED_COPPER_TRAPDOOR = registerBlock("waxed_copper_trapdoor",
-            new TrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.WAXED_COPPER_BLOCK)));
     public static final Block WAXED_COPPER_WALL = registerBlock("waxed_copper_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.WAXED_COPPER_BLOCK)));
 
@@ -1652,10 +1632,6 @@ public class ModBlocks {
             new FenceBlock(AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_COPPER)));
     public static final Block WAXED_EXPOSED_COPPER_FENCE_GATE = registerBlock("waxed_exposed_copper_fence_gate",
             new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_COPPER)));
-    public static final Block WAXED_EXPOSED_COPPER_DOOR = registerBlock("waxed_exposed_copper_door",
-            new DoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_COPPER)));
-    public static final Block WAXED_EXPOSED_COPPER_TRAPDOOR = registerBlock("waxed_exposed_copper_trapdoor",
-            new TrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_COPPER)));
     public static final Block WAXED_EXPOSED_COPPER_WALL = registerBlock("waxed_exposed_copper_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_COPPER)));
 
@@ -1688,10 +1664,6 @@ public class ModBlocks {
             new FenceBlock(AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_COPPER)));
     public static final Block WAXED_WEATHERED_COPPER_FENCE_GATE = registerBlock("waxed_weathered_copper_fence_gate",
             new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_COPPER)));
-    public static final Block WAXED_WEATHERED_COPPER_DOOR = registerBlock("waxed_weathered_copper_door",
-            new DoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_COPPER)));
-    public static final Block WAXED_WEATHERED_COPPER_TRAPDOOR = registerBlock("waxed_weathered_copper_trapdoor",
-            new TrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_COPPER)));
     public static final Block WAXED_WEATHERED_COPPER_WALL = registerBlock("waxed_weathered_copper_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_COPPER)));
 
@@ -1724,10 +1696,6 @@ public class ModBlocks {
             new FenceBlock(AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER)));
     public static final Block WAXED_OXIDIZED_COPPER_FENCE_GATE = registerBlock("waxed_oxidized_copper_fence_gate",
             new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER)));
-    public static final Block WAXED_OXIDIZED_COPPER_DOOR = registerBlock("waxed_oxidized_copper_door",
-            new DoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER)));
-    public static final Block WAXED_OXIDIZED_COPPER_TRAPDOOR = registerBlock("waxed_oxidized_copper_trapdoor",
-            new TrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER)));
     public static final Block WAXED_OXIDIZED_COPPER_WALL = registerBlock("waxed_oxidized_copper_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER)));
 
@@ -5548,6 +5516,326 @@ public class ModBlocks {
             new TrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.TARGET)));
     public static final Block TARGET_WALL = registerBlock("target_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.TARGET)));
+
+    //chiseled_copper
+    public static final Block CHISELED_COPPER_STAIRS = registerBlock("chiseled_copper_stairs",
+            new OxidizableStairsBlock(Oxidizable.OxidationLevel.UNAFFECTED, Blocks.CHISELED_COPPER.getDefaultState(), AbstractBlock.Settings.copy(Blocks.CHISELED_COPPER)));
+    public static final Block CHISELED_COPPER_SLAB = registerBlock("chiseled_copper_slab",
+            new OxidizableSlabBlock(Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.CHISELED_COPPER)));
+    public static final Block CHISELED_COPPER_BUTTON = registerBlock("chiseled_copper_button",
+            new OxidizableButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, BlockSetType.COPPER, 10, AbstractBlock.Settings.copy(Blocks.CHISELED_COPPER)));
+    public static final Block CHISELED_COPPER_PRESSURE_PLATE = registerBlock("chiseled_copper_pressure_plate",
+            new OxidizablePressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.CHISELED_COPPER)));
+    public static final Block CHISELED_COPPER_FENCE = registerBlock("chiseled_copper_fence",
+            new OxidizableFenceBlock(Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.CHISELED_COPPER)));
+    public static final Block CHISELED_COPPER_FENCE_GATE = registerBlock("chiseled_copper_fence_gate",
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.UNAFFECTED, WoodType.OAK, AbstractBlock.Settings.copy(Blocks.CHISELED_COPPER)));
+    public static final Block CHISELED_COPPER_DOOR = registerBlock("chiseled_copper_door",
+            new OxidizableDoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.CHISELED_COPPER)));
+    public static final Block CHISELED_COPPER_TRAPDOOR = registerBlock("chiseled_copper_trapdoor",
+            new OxidizableTrapdoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.CHISELED_COPPER)));
+    public static final Block CHISELED_COPPER_WALL = registerBlock("chiseled_copper_wall",
+            new OxidizableWallBlock(Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.CHISELED_COPPER)));
+
+    //copper_grate
+    public static final Block COPPER_GRATE_STAIRS = registerBlock("copper_grate_stairs",
+            new OxidizableStairsBlock(Oxidizable.OxidationLevel.UNAFFECTED, Blocks.COPPER_GRATE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.COPPER_GRATE)));
+    public static final Block COPPER_GRATE_SLAB = registerBlock("copper_grate_slab",
+            new OxidizableSlabBlock(Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.COPPER_GRATE)));
+    public static final Block COPPER_GRATE_BUTTON = registerBlock("copper_grate_button",
+            new OxidizableButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, BlockSetType.COPPER, 10, AbstractBlock.Settings.copy(Blocks.COPPER_GRATE)));
+    public static final Block COPPER_GRATE_PRESSURE_PLATE = registerBlock("copper_grate_pressure_plate",
+            new OxidizablePressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.COPPER_GRATE)));
+    public static final Block COPPER_GRATE_FENCE = registerBlock("copper_grate_fence",
+            new OxidizableFenceBlock(Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.COPPER_GRATE)));
+    public static final Block COPPER_GRATE_FENCE_GATE = registerBlock("copper_grate_fence_gate",
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.UNAFFECTED, WoodType.OAK, AbstractBlock.Settings.copy(Blocks.COPPER_GRATE)));
+    public static final Block COPPER_GRATE_DOOR = registerBlock("copper_grate_door",
+            new OxidizableDoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.COPPER_GRATE)));
+    public static final Block COPPER_GRATE_TRAPDOOR = registerBlock("copper_grate_trapdoor",
+            new OxidizableTrapdoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.COPPER_GRATE)));
+    public static final Block COPPER_GRATE_WALL = registerBlock("copper_grate_wall",
+            new OxidizableWallBlock(Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.COPPER_GRATE)));
+
+    //exposed_chiseled_copper
+    public static final Block EXPOSED_CHISELED_COPPER_STAIRS = registerBlock("exposed_chiseled_copper_stairs",
+            new OxidizableStairsBlock(Oxidizable.OxidationLevel.EXPOSED, Blocks.EXPOSED_CHISELED_COPPER.getDefaultState(), AbstractBlock.Settings.copy(Blocks.EXPOSED_CHISELED_COPPER)));
+    public static final Block EXPOSED_CHISELED_COPPER_SLAB = registerBlock("exposed_chiseled_copper_slab",
+            new OxidizableSlabBlock(Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_CHISELED_COPPER)));
+    public static final Block EXPOSED_CHISELED_COPPER_BUTTON = registerBlock("exposed_chiseled_copper_button",
+            new OxidizableButtonBlock(Oxidizable.OxidationLevel.EXPOSED, BlockSetType.COPPER, 10, AbstractBlock.Settings.copy(Blocks.EXPOSED_CHISELED_COPPER)));
+    public static final Block EXPOSED_CHISELED_COPPER_PRESSURE_PLATE = registerBlock("exposed_chiseled_copper_pressure_plate",
+            new OxidizablePressurePlateBlock(Oxidizable.OxidationLevel.EXPOSED, BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.EXPOSED_CHISELED_COPPER)));
+    public static final Block EXPOSED_CHISELED_COPPER_FENCE = registerBlock("exposed_chiseled_copper_fence",
+            new OxidizableFenceBlock(Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_CHISELED_COPPER)));
+    public static final Block EXPOSED_CHISELED_COPPER_FENCE_GATE = registerBlock("exposed_chiseled_copper_fence_gate",
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.EXPOSED, WoodType.OAK, AbstractBlock.Settings.copy(Blocks.EXPOSED_CHISELED_COPPER)));
+    public static final Block EXPOSED_CHISELED_COPPER_DOOR = registerBlock("exposed_chiseled_copper_door",
+            new OxidizableDoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_CHISELED_COPPER)));
+    public static final Block EXPOSED_CHISELED_COPPER_TRAPDOOR = registerBlock("exposed_chiseled_copper_trapdoor",
+            new OxidizableTrapdoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_CHISELED_COPPER)));
+    public static final Block EXPOSED_CHISELED_COPPER_WALL = registerBlock("exposed_chiseled_copper_wall",
+            new OxidizableWallBlock(Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_CHISELED_COPPER)));
+
+    //exposed_copper_grate
+    public static final Block EXPOSED_COPPER_GRATE_STAIRS = registerBlock("exposed_copper_grate_stairs",
+            new OxidizableStairsBlock(Oxidizable.OxidationLevel.EXPOSED, Blocks.EXPOSED_COPPER_GRATE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.EXPOSED_COPPER_GRATE)));
+    public static final Block EXPOSED_COPPER_GRATE_SLAB = registerBlock("exposed_copper_grate_slab",
+            new OxidizableSlabBlock(Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_COPPER_GRATE)));
+    public static final Block EXPOSED_COPPER_GRATE_BUTTON = registerBlock("exposed_copper_grate_button",
+            new OxidizableButtonBlock(Oxidizable.OxidationLevel.EXPOSED, BlockSetType.COPPER, 10, AbstractBlock.Settings.copy(Blocks.EXPOSED_COPPER_GRATE)));
+    public static final Block EXPOSED_COPPER_GRATE_PRESSURE_PLATE = registerBlock("exposed_copper_grate_pressure_plate",
+            new OxidizablePressurePlateBlock(Oxidizable.OxidationLevel.EXPOSED, BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.EXPOSED_COPPER_GRATE)));
+    public static final Block EXPOSED_COPPER_GRATE_FENCE = registerBlock("exposed_copper_grate_fence",
+            new OxidizableFenceBlock(Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_COPPER_GRATE)));
+    public static final Block EXPOSED_COPPER_GRATE_FENCE_GATE = registerBlock("exposed_copper_grate_fence_gate",
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.EXPOSED, WoodType.OAK, AbstractBlock.Settings.copy(Blocks.EXPOSED_COPPER_GRATE)));
+    public static final Block EXPOSED_COPPER_GRATE_DOOR = registerBlock("exposed_copper_grate_door",
+            new OxidizableDoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_COPPER_GRATE)));
+    public static final Block EXPOSED_COPPER_GRATE_TRAPDOOR = registerBlock("exposed_copper_grate_trapdoor",
+            new OxidizableTrapdoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_COPPER_GRATE)));
+    public static final Block EXPOSED_COPPER_GRATE_WALL = registerBlock("exposed_copper_grate_wall",
+            new OxidizableWallBlock(Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_COPPER_GRATE)));
+
+    //weathered_chiseled_copper
+    public static final Block WEATHERED_CHISELED_COPPER_STAIRS = registerBlock("weathered_chiseled_copper_stairs",
+            new OxidizableStairsBlock(Oxidizable.OxidationLevel.WEATHERED, Blocks.WEATHERED_CHISELED_COPPER.getDefaultState(), AbstractBlock.Settings.copy(Blocks.WEATHERED_CHISELED_COPPER)));
+    public static final Block WEATHERED_CHISELED_COPPER_SLAB = registerBlock("weathered_chiseled_copper_slab",
+            new OxidizableSlabBlock(Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_CHISELED_COPPER)));
+    public static final Block WEATHERED_CHISELED_COPPER_BUTTON = registerBlock("weathered_chiseled_copper_button",
+            new OxidizableButtonBlock(Oxidizable.OxidationLevel.WEATHERED, BlockSetType.COPPER, 10, AbstractBlock.Settings.copy(Blocks.WEATHERED_CHISELED_COPPER)));
+    public static final Block WEATHERED_CHISELED_COPPER_PRESSURE_PLATE = registerBlock("weathered_chiseled_copper_pressure_plate",
+            new OxidizablePressurePlateBlock(Oxidizable.OxidationLevel.WEATHERED, BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WEATHERED_CHISELED_COPPER)));
+    public static final Block WEATHERED_CHISELED_COPPER_FENCE = registerBlock("weathered_chiseled_copper_fence",
+            new OxidizableFenceBlock(Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_CHISELED_COPPER)));
+    public static final Block WEATHERED_CHISELED_COPPER_FENCE_GATE = registerBlock("weathered_chiseled_copper_fence_gate",
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.WEATHERED, WoodType.OAK, AbstractBlock.Settings.copy(Blocks.WEATHERED_CHISELED_COPPER)));
+    public static final Block WEATHERED_CHISELED_COPPER_DOOR = registerBlock("weathered_chiseled_copper_door",
+            new OxidizableDoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_CHISELED_COPPER)));
+    public static final Block WEATHERED_CHISELED_COPPER_TRAPDOOR = registerBlock("weathered_chiseled_copper_trapdoor",
+            new OxidizableTrapdoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_CHISELED_COPPER)));
+    public static final Block WEATHERED_CHISELED_COPPER_WALL = registerBlock("weathered_chiseled_copper_wall",
+            new OxidizableWallBlock(Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_CHISELED_COPPER)));
+
+    //weathered_copper_grate
+    public static final Block WEATHERED_COPPER_GRATE_STAIRS = registerBlock("weathered_copper_grate_stairs",
+            new OxidizableStairsBlock(Oxidizable.OxidationLevel.WEATHERED, Blocks.WEATHERED_COPPER_GRATE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.WEATHERED_COPPER_GRATE)));
+    public static final Block WEATHERED_COPPER_GRATE_SLAB = registerBlock("weathered_copper_grate_slab",
+            new OxidizableSlabBlock(Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_COPPER_GRATE)));
+    public static final Block WEATHERED_COPPER_GRATE_BUTTON = registerBlock("weathered_copper_grate_button",
+            new OxidizableButtonBlock(Oxidizable.OxidationLevel.WEATHERED, BlockSetType.COPPER, 10, AbstractBlock.Settings.copy(Blocks.WEATHERED_COPPER_GRATE)));
+    public static final Block WEATHERED_COPPER_GRATE_PRESSURE_PLATE = registerBlock("weathered_copper_grate_pressure_plate",
+            new OxidizablePressurePlateBlock(Oxidizable.OxidationLevel.WEATHERED, BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WEATHERED_COPPER_GRATE)));
+    public static final Block WEATHERED_COPPER_GRATE_FENCE = registerBlock("weathered_copper_grate_fence",
+            new OxidizableFenceBlock(Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_COPPER_GRATE)));
+    public static final Block WEATHERED_COPPER_GRATE_FENCE_GATE = registerBlock("weathered_copper_grate_fence_gate",
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.WEATHERED, WoodType.OAK, AbstractBlock.Settings.copy(Blocks.WEATHERED_COPPER_GRATE)));
+    public static final Block WEATHERED_COPPER_GRATE_DOOR = registerBlock("weathered_copper_grate_door",
+            new OxidizableDoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_COPPER_GRATE)));
+    public static final Block WEATHERED_COPPER_GRATE_TRAPDOOR = registerBlock("weathered_copper_grate_trapdoor",
+            new OxidizableTrapdoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_COPPER_GRATE)));
+    public static final Block WEATHERED_COPPER_GRATE_WALL = registerBlock("weathered_copper_grate_wall",
+            new OxidizableWallBlock(Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_COPPER_GRATE)));
+
+    //oxidized_chiseled_copper
+    public static final Block OXIDIZED_CHISELED_COPPER_STAIRS = registerBlock("oxidized_chiseled_copper_stairs",
+            new OxidizableStairsBlock(Oxidizable.OxidationLevel.OXIDIZED, Blocks.OXIDIZED_CHISELED_COPPER.getDefaultState(), AbstractBlock.Settings.copy(Blocks.OXIDIZED_CHISELED_COPPER)));
+    public static final Block OXIDIZED_CHISELED_COPPER_SLAB = registerBlock("oxidized_chiseled_copper_slab",
+            new OxidizableSlabBlock(Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_CHISELED_COPPER)));
+    public static final Block OXIDIZED_CHISELED_COPPER_BUTTON = registerBlock("oxidized_chiseled_copper_button",
+            new OxidizableButtonBlock(Oxidizable.OxidationLevel.OXIDIZED, BlockSetType.COPPER, 10, AbstractBlock.Settings.copy(Blocks.OXIDIZED_CHISELED_COPPER)));
+    public static final Block OXIDIZED_CHISELED_COPPER_PRESSURE_PLATE = registerBlock("oxidized_chiseled_copper_pressure_plate",
+            new OxidizablePressurePlateBlock(Oxidizable.OxidationLevel.OXIDIZED, BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.OXIDIZED_CHISELED_COPPER)));
+    public static final Block OXIDIZED_CHISELED_COPPER_FENCE = registerBlock("oxidized_chiseled_copper_fence",
+            new OxidizableFenceBlock(Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_CHISELED_COPPER)));
+    public static final Block OXIDIZED_CHISELED_COPPER_FENCE_GATE = registerBlock("oxidized_chiseled_copper_fence_gate",
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.OXIDIZED, WoodType.OAK, AbstractBlock.Settings.copy(Blocks.OXIDIZED_CHISELED_COPPER)));
+    public static final Block OXIDIZED_CHISELED_COPPER_DOOR = registerBlock("oxidized_chiseled_copper_door",
+            new OxidizableDoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_CHISELED_COPPER)));
+    public static final Block OXIDIZED_CHISELED_COPPER_TRAPDOOR = registerBlock("oxidized_chiseled_copper_trapdoor",
+            new OxidizableTrapdoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_CHISELED_COPPER)));
+    public static final Block OXIDIZED_CHISELED_COPPER_WALL = registerBlock("oxidized_chiseled_copper_wall",
+            new OxidizableWallBlock(Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_CHISELED_COPPER)));
+
+    //oxidized_copper_grate
+    public static final Block OXIDIZED_COPPER_GRATE_STAIRS = registerBlock("oxidized_copper_grate_stairs",
+            new OxidizableStairsBlock(Oxidizable.OxidationLevel.OXIDIZED, Blocks.OXIDIZED_COPPER_GRATE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.OXIDIZED_COPPER_GRATE)));
+    public static final Block OXIDIZED_COPPER_GRATE_SLAB = registerBlock("oxidized_copper_grate_slab",
+            new OxidizableSlabBlock(Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_COPPER_GRATE)));
+    public static final Block OXIDIZED_COPPER_GRATE_BUTTON = registerBlock("oxidized_copper_grate_button",
+            new OxidizableButtonBlock(Oxidizable.OxidationLevel.OXIDIZED, BlockSetType.COPPER, 10, AbstractBlock.Settings.copy(Blocks.OXIDIZED_COPPER_GRATE)));
+    public static final Block OXIDIZED_COPPER_GRATE_PRESSURE_PLATE = registerBlock("oxidized_copper_grate_pressure_plate",
+            new OxidizablePressurePlateBlock(Oxidizable.OxidationLevel.OXIDIZED, BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.OXIDIZED_COPPER_GRATE)));
+    public static final Block OXIDIZED_COPPER_GRATE_FENCE = registerBlock("oxidized_copper_grate_fence",
+            new OxidizableFenceBlock(Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_COPPER_GRATE)));
+    public static final Block OXIDIZED_COPPER_GRATE_FENCE_GATE = registerBlock("oxidized_copper_grate_fence_gate",
+            new OxidizableFenceGateBlock(Oxidizable.OxidationLevel.OXIDIZED, WoodType.OAK, AbstractBlock.Settings.copy(Blocks.OXIDIZED_COPPER_GRATE)));
+    public static final Block OXIDIZED_COPPER_GRATE_DOOR = registerBlock("oxidized_copper_grate_door",
+            new OxidizableDoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_COPPER_GRATE)));
+    public static final Block OXIDIZED_COPPER_GRATE_TRAPDOOR = registerBlock("oxidized_copper_grate_trapdoor",
+            new OxidizableTrapdoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_COPPER_GRATE)));
+    public static final Block OXIDIZED_COPPER_GRATE_WALL = registerBlock("oxidized_copper_grate_wall",
+            new OxidizableWallBlock(Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_COPPER_GRATE)));
+
+    //waxed_chiseled_copper
+    public static final Block WAXED_CHISELED_COPPER_STAIRS = registerBlock("waxed_chiseled_copper_stairs",
+            new StairsBlock(Blocks.WAXED_CHISELED_COPPER.getDefaultState(), AbstractBlock.Settings.copy(Blocks.WAXED_CHISELED_COPPER)));
+    public static final Block WAXED_CHISELED_COPPER_SLAB = registerBlock("waxed_chiseled_copper_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.WAXED_CHISELED_COPPER)));
+    public static final Block WAXED_CHISELED_COPPER_BUTTON = registerBlock("waxed_chiseled_copper_button",
+            new ButtonBlock(BlockSetType.COPPER, 10, AbstractBlock.Settings.copy(Blocks.WAXED_CHISELED_COPPER)));
+    public static final Block WAXED_CHISELED_COPPER_PRESSURE_PLATE = registerBlock("waxed_chiseled_copper_pressure_plate",
+            new PressurePlateBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_CHISELED_COPPER)));
+    public static final Block WAXED_CHISELED_COPPER_FENCE = registerBlock("waxed_chiseled_copper_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.WAXED_CHISELED_COPPER)));
+    public static final Block WAXED_CHISELED_COPPER_FENCE_GATE = registerBlock("waxed_chiseled_copper_fence_gate",
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.WAXED_CHISELED_COPPER)));
+    public static final Block WAXED_CHISELED_COPPER_DOOR = registerBlock("waxed_chiseled_copper_door",
+            new DoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_CHISELED_COPPER)));
+    public static final Block WAXED_CHISELED_COPPER_TRAPDOOR = registerBlock("waxed_chiseled_copper_trapdoor",
+            new TrapdoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_CHISELED_COPPER)));
+    public static final Block WAXED_CHISELED_COPPER_WALL = registerBlock("waxed_chiseled_copper_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.WAXED_CHISELED_COPPER)));
+
+    //waxed_copper_grate
+    public static final Block WAXED_COPPER_GRATE_STAIRS = registerBlock("waxed_copper_grate_stairs",
+            new StairsBlock(Blocks.WAXED_COPPER_GRATE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.WAXED_COPPER_GRATE)));
+    public static final Block WAXED_COPPER_GRATE_SLAB = registerBlock("waxed_copper_grate_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.WAXED_COPPER_GRATE)));
+    public static final Block WAXED_COPPER_GRATE_BUTTON = registerBlock("waxed_copper_grate_button",
+            new ButtonBlock(BlockSetType.COPPER, 10, AbstractBlock.Settings.copy(Blocks.WAXED_COPPER_GRATE)));
+    public static final Block WAXED_COPPER_GRATE_PRESSURE_PLATE = registerBlock("waxed_copper_grate_pressure_plate",
+            new PressurePlateBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_COPPER_GRATE)));
+    public static final Block WAXED_COPPER_GRATE_FENCE = registerBlock("waxed_copper_grate_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.WAXED_COPPER_GRATE)));
+    public static final Block WAXED_COPPER_GRATE_FENCE_GATE = registerBlock("waxed_copper_grate_fence_gate",
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.WAXED_COPPER_GRATE)));
+    public static final Block WAXED_COPPER_GRATE_DOOR = registerBlock("waxed_copper_grate_door",
+            new DoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_COPPER_GRATE)));
+    public static final Block WAXED_COPPER_GRATE_TRAPDOOR = registerBlock("waxed_copper_grate_trapdoor",
+            new TrapdoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_COPPER_GRATE)));
+    public static final Block WAXED_COPPER_GRATE_WALL = registerBlock("waxed_copper_grate_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.WAXED_COPPER_GRATE)));
+
+    //waxed_exposed_chiseled_copper
+    public static final Block WAXED_EXPOSED_CHISELED_COPPER_STAIRS = registerBlock("waxed_exposed_chiseled_copper_stairs",
+            new StairsBlock(Blocks.WAXED_EXPOSED_CHISELED_COPPER.getDefaultState(), AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_CHISELED_COPPER)));
+    public static final Block WAXED_EXPOSED_CHISELED_COPPER_SLAB = registerBlock("waxed_exposed_chiseled_copper_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_CHISELED_COPPER)));
+    public static final Block WAXED_EXPOSED_CHISELED_COPPER_BUTTON = registerBlock("waxed_exposed_chiseled_copper_button",
+            new ButtonBlock(BlockSetType.COPPER, 10, AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_CHISELED_COPPER)));
+    public static final Block WAXED_EXPOSED_CHISELED_COPPER_PRESSURE_PLATE = registerBlock("waxed_exposed_chiseled_copper_pressure_plate",
+            new PressurePlateBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_CHISELED_COPPER)));
+    public static final Block WAXED_EXPOSED_CHISELED_COPPER_FENCE = registerBlock("waxed_exposed_chiseled_copper_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_CHISELED_COPPER)));
+    public static final Block WAXED_EXPOSED_CHISELED_COPPER_FENCE_GATE = registerBlock("waxed_exposed_chiseled_copper_fence_gate",
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_CHISELED_COPPER)));
+    public static final Block WAXED_EXPOSED_CHISELED_COPPER_DOOR = registerBlock("waxed_exposed_chiseled_copper_door",
+            new DoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_CHISELED_COPPER)));
+    public static final Block WAXED_EXPOSED_CHISELED_COPPER_TRAPDOOR = registerBlock("waxed_exposed_chiseled_copper_trapdoor",
+            new TrapdoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_CHISELED_COPPER)));
+    public static final Block WAXED_EXPOSED_CHISELED_COPPER_WALL = registerBlock("waxed_exposed_chiseled_copper_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_CHISELED_COPPER)));
+
+    //waxed_exposed_copper_grate
+    public static final Block WAXED_EXPOSED_COPPER_GRATE_STAIRS = registerBlock("waxed_exposed_copper_grate_stairs",
+            new StairsBlock(Blocks.WAXED_EXPOSED_COPPER_GRATE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_COPPER_GRATE)));
+    public static final Block WAXED_EXPOSED_COPPER_GRATE_SLAB = registerBlock("waxed_exposed_copper_grate_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_COPPER_GRATE)));
+    public static final Block WAXED_EXPOSED_COPPER_GRATE_BUTTON = registerBlock("waxed_exposed_copper_grate_button",
+            new ButtonBlock(BlockSetType.COPPER, 10, AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_COPPER_GRATE)));
+    public static final Block WAXED_EXPOSED_COPPER_GRATE_PRESSURE_PLATE = registerBlock("waxed_exposed_copper_grate_pressure_plate",
+            new PressurePlateBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_COPPER_GRATE)));
+    public static final Block WAXED_EXPOSED_COPPER_GRATE_FENCE = registerBlock("waxed_exposed_copper_grate_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_COPPER_GRATE)));
+    public static final Block WAXED_EXPOSED_COPPER_GRATE_FENCE_GATE = registerBlock("waxed_exposed_copper_grate_fence_gate",
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_COPPER_GRATE)));
+    public static final Block WAXED_EXPOSED_COPPER_GRATE_DOOR = registerBlock("waxed_exposed_copper_grate_door",
+            new DoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_COPPER_GRATE)));
+    public static final Block WAXED_EXPOSED_COPPER_GRATE_TRAPDOOR = registerBlock("waxed_exposed_copper_grate_trapdoor",
+            new TrapdoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_COPPER_GRATE)));
+    public static final Block WAXED_EXPOSED_COPPER_GRATE_WALL = registerBlock("waxed_exposed_copper_grate_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_COPPER_GRATE)));
+
+    //waxed_weathered_chiseled_copper
+    public static final Block WAXED_WEATHERED_CHISELED_COPPER_STAIRS = registerBlock("waxed_weathered_chiseled_copper_stairs",
+            new StairsBlock(Blocks.WAXED_WEATHERED_CHISELED_COPPER.getDefaultState(), AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_CHISELED_COPPER)));
+    public static final Block WAXED_WEATHERED_CHISELED_COPPER_SLAB = registerBlock("waxed_weathered_chiseled_copper_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_CHISELED_COPPER)));
+    public static final Block WAXED_WEATHERED_CHISELED_COPPER_BUTTON = registerBlock("waxed_weathered_chiseled_copper_button",
+            new ButtonBlock(BlockSetType.COPPER, 10, AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_CHISELED_COPPER)));
+    public static final Block WAXED_WEATHERED_CHISELED_COPPER_PRESSURE_PLATE = registerBlock("waxed_weathered_chiseled_copper_pressure_plate",
+            new PressurePlateBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_CHISELED_COPPER)));
+    public static final Block WAXED_WEATHERED_CHISELED_COPPER_FENCE = registerBlock("waxed_weathered_chiseled_copper_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_CHISELED_COPPER)));
+    public static final Block WAXED_WEATHERED_CHISELED_COPPER_FENCE_GATE = registerBlock("waxed_weathered_chiseled_copper_fence_gate",
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_CHISELED_COPPER)));
+    public static final Block WAXED_WEATHERED_CHISELED_COPPER_DOOR = registerBlock("waxed_weathered_chiseled_copper_door",
+            new DoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_CHISELED_COPPER)));
+    public static final Block WAXED_WEATHERED_CHISELED_COPPER_TRAPDOOR = registerBlock("waxed_weathered_chiseled_copper_trapdoor",
+            new TrapdoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_CHISELED_COPPER)));
+    public static final Block WAXED_WEATHERED_CHISELED_COPPER_WALL = registerBlock("waxed_weathered_chiseled_copper_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_CHISELED_COPPER)));
+
+    //waxed_weathered_copper_grate
+    public static final Block WAXED_WEATHERED_COPPER_GRATE_STAIRS = registerBlock("waxed_weathered_copper_grate_stairs",
+            new StairsBlock(Blocks.WAXED_WEATHERED_COPPER_GRATE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_COPPER_GRATE)));
+    public static final Block WAXED_WEATHERED_COPPER_GRATE_SLAB = registerBlock("waxed_weathered_copper_grate_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_COPPER_GRATE)));
+    public static final Block WAXED_WEATHERED_COPPER_GRATE_BUTTON = registerBlock("waxed_weathered_copper_grate_button",
+            new ButtonBlock(BlockSetType.COPPER, 10, AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_COPPER_GRATE)));
+    public static final Block WAXED_WEATHERED_COPPER_GRATE_PRESSURE_PLATE = registerBlock("waxed_weathered_copper_grate_pressure_plate",
+            new PressurePlateBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_COPPER_GRATE)));
+    public static final Block WAXED_WEATHERED_COPPER_GRATE_FENCE = registerBlock("waxed_weathered_copper_grate_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_COPPER_GRATE)));
+    public static final Block WAXED_WEATHERED_COPPER_GRATE_FENCE_GATE = registerBlock("waxed_weathered_copper_grate_fence_gate",
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_COPPER_GRATE)));
+    public static final Block WAXED_WEATHERED_COPPER_GRATE_DOOR = registerBlock("waxed_weathered_copper_grate_door",
+            new DoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_COPPER_GRATE)));
+    public static final Block WAXED_WEATHERED_COPPER_GRATE_TRAPDOOR = registerBlock("waxed_weathered_copper_grate_trapdoor",
+            new TrapdoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_COPPER_GRATE)));
+    public static final Block WAXED_WEATHERED_COPPER_GRATE_WALL = registerBlock("waxed_weathered_copper_grate_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_COPPER_GRATE)));
+
+    //waxed_oxidized_chiseled_copper
+    public static final Block WAXED_OXIDIZED_CHISELED_COPPER_STAIRS = registerBlock("waxed_oxidized_chiseled_copper_stairs",
+            new StairsBlock(Blocks.WAXED_OXIDIZED_CHISELED_COPPER.getDefaultState(), AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_CHISELED_COPPER)));
+    public static final Block WAXED_OXIDIZED_CHISELED_COPPER_SLAB = registerBlock("waxed_oxidized_chiseled_copper_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_CHISELED_COPPER)));
+    public static final Block WAXED_OXIDIZED_CHISELED_COPPER_BUTTON = registerBlock("waxed_oxidized_chiseled_copper_button",
+            new ButtonBlock(BlockSetType.COPPER, 10, AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_CHISELED_COPPER)));
+    public static final Block WAXED_OXIDIZED_CHISELED_COPPER_PRESSURE_PLATE = registerBlock("waxed_oxidized_chiseled_copper_pressure_plate",
+            new PressurePlateBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_CHISELED_COPPER)));
+    public static final Block WAXED_OXIDIZED_CHISELED_COPPER_FENCE = registerBlock("waxed_oxidized_chiseled_copper_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_CHISELED_COPPER)));
+    public static final Block WAXED_OXIDIZED_CHISELED_COPPER_FENCE_GATE = registerBlock("waxed_oxidized_chiseled_copper_fence_gate",
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_CHISELED_COPPER)));
+    public static final Block WAXED_OXIDIZED_CHISELED_COPPER_DOOR = registerBlock("waxed_oxidized_chiseled_copper_door",
+            new DoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_CHISELED_COPPER)));
+    public static final Block WAXED_OXIDIZED_CHISELED_COPPER_TRAPDOOR = registerBlock("waxed_oxidized_chiseled_copper_trapdoor",
+            new TrapdoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_CHISELED_COPPER)));
+    public static final Block WAXED_OXIDIZED_CHISELED_COPPER_WALL = registerBlock("waxed_oxidized_chiseled_copper_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_CHISELED_COPPER)));
+
+    //waxed_oxidized_copper_grate
+    public static final Block WAXED_OXIDIZED_COPPER_GRATE_STAIRS = registerBlock("waxed_oxidized_copper_grate_stairs",
+            new StairsBlock(Blocks.WAXED_OXIDIZED_COPPER_GRATE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER_GRATE)));
+    public static final Block WAXED_OXIDIZED_COPPER_GRATE_SLAB = registerBlock("waxed_oxidized_copper_grate_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER_GRATE)));
+    public static final Block WAXED_OXIDIZED_COPPER_GRATE_BUTTON = registerBlock("waxed_oxidized_copper_grate_button",
+            new ButtonBlock(BlockSetType.COPPER, 10, AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER_GRATE)));
+    public static final Block WAXED_OXIDIZED_COPPER_GRATE_PRESSURE_PLATE = registerBlock("waxed_oxidized_copper_grate_pressure_plate",
+            new PressurePlateBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER_GRATE)));
+    public static final Block WAXED_OXIDIZED_COPPER_GRATE_FENCE = registerBlock("waxed_oxidized_copper_grate_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER_GRATE)));
+    public static final Block WAXED_OXIDIZED_COPPER_GRATE_FENCE_GATE = registerBlock("waxed_oxidized_copper_grate_fence_gate",
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER_GRATE)));
+    public static final Block WAXED_OXIDIZED_COPPER_GRATE_DOOR = registerBlock("waxed_oxidized_copper_grate_door",
+            new DoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER_GRATE)));
+    public static final Block WAXED_OXIDIZED_COPPER_GRATE_TRAPDOOR = registerBlock("waxed_oxidized_copper_grate_trapdoor",
+            new TrapdoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER_GRATE)));
+    public static final Block WAXED_OXIDIZED_COPPER_GRATE_WALL = registerBlock("waxed_oxidized_copper_grate_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER_GRATE)));
 
 
 

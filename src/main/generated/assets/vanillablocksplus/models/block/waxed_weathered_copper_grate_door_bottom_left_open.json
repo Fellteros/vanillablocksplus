@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "bottom": "vanillablocksplus:block/waxed_weathered_copper_grate_door_bottom",
+    "top": "vanillablocksplus:block/waxed_weathered_copper_grate_door_top"
+  }
+}

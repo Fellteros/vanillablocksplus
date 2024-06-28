@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_exposed_copper_grate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:exposed_copper_grate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_exposed_copper_grate_fence_gate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:exposed_copper_grate_fence_gate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_exposed_copper_grate_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:exposed_copper_grate_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:exposed_copper_grate_fence_gate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_exposed_copper_grate_fence_gate",
+      "has_exposed_copper_grate",
+      "has_exposed_copper_grate_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:exposed_copper_grate_fence_gate"
+    ]
+  }
+}

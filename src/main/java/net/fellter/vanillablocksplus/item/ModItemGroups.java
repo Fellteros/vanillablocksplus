@@ -723,11 +723,29 @@ public class ModItemGroups {
                         entries.add(ModBlocks.COPPER_WALL);
                         entries.add(ModBlocks.COPPER_FENCE);
                         entries.add(ModBlocks.COPPER_FENCE_GATE);
-                        entries.add(ModBlocks.COPPER_DOOR);
-                        entries.add(ModBlocks.COPPER_TRAPDOOR);
                         entries.add(ModBlocks.COPPER_PRESSURE_PLATE);
                         entries.add(ModBlocks.COPPER_BUTTON);
-                        //cut copper
+                        //chiseled_copper
+                        entries.add(ModBlocks.CHISELED_COPPER_STAIRS);
+                        entries.add(ModBlocks.CHISELED_COPPER_SLAB);
+                        entries.add(ModBlocks.CHISELED_COPPER_WALL);
+                        entries.add(ModBlocks.CHISELED_COPPER_FENCE);
+                        entries.add(ModBlocks.CHISELED_COPPER_FENCE_GATE);
+                        entries.add(ModBlocks.CHISELED_COPPER_DOOR);
+                        entries.add(ModBlocks.CHISELED_COPPER_TRAPDOOR);
+                        entries.add(ModBlocks.CHISELED_COPPER_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CHISELED_COPPER_BUTTON);
+                        //copper_grate
+                        entries.add(ModBlocks.COPPER_GRATE_STAIRS);
+                        entries.add(ModBlocks.COPPER_GRATE_SLAB);
+                        entries.add(ModBlocks.COPPER_GRATE_WALL);
+                        entries.add(ModBlocks.COPPER_GRATE_FENCE);
+                        entries.add(ModBlocks.COPPER_GRATE_FENCE_GATE);
+                        entries.add(ModBlocks.COPPER_GRATE_DOOR);
+                        entries.add(ModBlocks.COPPER_GRATE_TRAPDOOR);
+                        entries.add(ModBlocks.COPPER_GRATE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.COPPER_GRATE_BUTTON);
+                        //cut_copper
                         entries.add(ModBlocks.CUT_COPPER_WALL);
                         entries.add(ModBlocks.CUT_COPPER_FENCE);
                         entries.add(ModBlocks.CUT_COPPER_FENCE_GATE);
@@ -741,10 +759,28 @@ public class ModItemGroups {
                         entries.add(ModBlocks.EXPOSED_COPPER_WALL);
                         entries.add(ModBlocks.EXPOSED_COPPER_FENCE);
                         entries.add(ModBlocks.EXPOSED_COPPER_FENCE_GATE);
-                        entries.add(ModBlocks.EXPOSED_COPPER_DOOR);
-                        entries.add(ModBlocks.EXPOSED_COPPER_TRAPDOOR);
                         entries.add(ModBlocks.EXPOSED_COPPER_PRESSURE_PLATE);
                         entries.add(ModBlocks.EXPOSED_COPPER_BUTTON);
+                        //exposed_chiseled_copper
+                        entries.add(ModBlocks.EXPOSED_CHISELED_COPPER_STAIRS);
+                        entries.add(ModBlocks.EXPOSED_CHISELED_COPPER_SLAB);
+                        entries.add(ModBlocks.EXPOSED_CHISELED_COPPER_WALL);
+                        entries.add(ModBlocks.EXPOSED_CHISELED_COPPER_FENCE);
+                        entries.add(ModBlocks.EXPOSED_CHISELED_COPPER_FENCE_GATE);
+                        entries.add(ModBlocks.EXPOSED_CHISELED_COPPER_DOOR);
+                        entries.add(ModBlocks.EXPOSED_CHISELED_COPPER_TRAPDOOR);
+                        entries.add(ModBlocks.EXPOSED_CHISELED_COPPER_PRESSURE_PLATE);
+                        entries.add(ModBlocks.EXPOSED_CHISELED_COPPER_BUTTON);
+                        //exposed_copper_grate
+                        entries.add(ModBlocks.EXPOSED_COPPER_GRATE_STAIRS);
+                        entries.add(ModBlocks.EXPOSED_COPPER_GRATE_SLAB);
+                        entries.add(ModBlocks.EXPOSED_COPPER_GRATE_WALL);
+                        entries.add(ModBlocks.EXPOSED_COPPER_GRATE_FENCE);
+                        entries.add(ModBlocks.EXPOSED_COPPER_GRATE_FENCE_GATE);
+                        entries.add(ModBlocks.EXPOSED_COPPER_GRATE_DOOR);
+                        entries.add(ModBlocks.EXPOSED_COPPER_GRATE_TRAPDOOR);
+                        entries.add(ModBlocks.EXPOSED_COPPER_GRATE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.EXPOSED_COPPER_GRATE_BUTTON);
                         //exposed_cut_copper
                         entries.add(ModBlocks.EXPOSED_CUT_COPPER_WALL);
                         entries.add(ModBlocks.EXPOSED_CUT_COPPER_FENCE);
@@ -759,10 +795,28 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WEATHERED_COPPER_WALL);
                         entries.add(ModBlocks.WEATHERED_COPPER_FENCE);
                         entries.add(ModBlocks.WEATHERED_COPPER_FENCE_GATE);
-                        entries.add(ModBlocks.WEATHERED_COPPER_DOOR);
-                        entries.add(ModBlocks.WEATHERED_COPPER_TRAPDOOR);
                         entries.add(ModBlocks.WEATHERED_COPPER_PRESSURE_PLATE);
                         entries.add(ModBlocks.WEATHERED_COPPER_BUTTON);
+                        //weathered_chiseled_copper
+                        entries.add(ModBlocks.WEATHERED_CHISELED_COPPER_STAIRS);
+                        entries.add(ModBlocks.WEATHERED_CHISELED_COPPER_SLAB);
+                        entries.add(ModBlocks.WEATHERED_CHISELED_COPPER_WALL);
+                        entries.add(ModBlocks.WEATHERED_CHISELED_COPPER_FENCE);
+                        entries.add(ModBlocks.WEATHERED_CHISELED_COPPER_FENCE_GATE);
+                        entries.add(ModBlocks.WEATHERED_CHISELED_COPPER_DOOR);
+                        entries.add(ModBlocks.WEATHERED_CHISELED_COPPER_TRAPDOOR);
+                        entries.add(ModBlocks.WEATHERED_CHISELED_COPPER_PRESSURE_PLATE);
+                        entries.add(ModBlocks.WEATHERED_CHISELED_COPPER_BUTTON);
+                        //weathered_copper_grate
+                        entries.add(ModBlocks.WEATHERED_COPPER_GRATE_STAIRS);
+                        entries.add(ModBlocks.WEATHERED_COPPER_GRATE_SLAB);
+                        entries.add(ModBlocks.WEATHERED_COPPER_GRATE_WALL);
+                        entries.add(ModBlocks.WEATHERED_COPPER_GRATE_FENCE);
+                        entries.add(ModBlocks.WEATHERED_COPPER_GRATE_FENCE_GATE);
+                        entries.add(ModBlocks.WEATHERED_COPPER_GRATE_DOOR);
+                        entries.add(ModBlocks.WEATHERED_COPPER_GRATE_TRAPDOOR);
+                        entries.add(ModBlocks.WEATHERED_COPPER_GRATE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.WEATHERED_COPPER_GRATE_BUTTON);
                         //weathered_cut_copper
                         entries.add(ModBlocks.WEATHERED_CUT_COPPER_WALL);
                         entries.add(ModBlocks.WEATHERED_CUT_COPPER_FENCE);
@@ -777,10 +831,28 @@ public class ModItemGroups {
                         entries.add(ModBlocks.OXIDIZED_COPPER_WALL);
                         entries.add(ModBlocks.OXIDIZED_COPPER_FENCE);
                         entries.add(ModBlocks.OXIDIZED_COPPER_FENCE_GATE);
-                        entries.add(ModBlocks.OXIDIZED_COPPER_DOOR);
-                        entries.add(ModBlocks.OXIDIZED_COPPER_TRAPDOOR);
                         entries.add(ModBlocks.OXIDIZED_COPPER_PRESSURE_PLATE);
                         entries.add(ModBlocks.OXIDIZED_COPPER_BUTTON);
+                        //oxidized_chiseled_copper
+                        entries.add(ModBlocks.OXIDIZED_CHISELED_COPPER_STAIRS);
+                        entries.add(ModBlocks.OXIDIZED_CHISELED_COPPER_SLAB);
+                        entries.add(ModBlocks.OXIDIZED_CHISELED_COPPER_WALL);
+                        entries.add(ModBlocks.OXIDIZED_CHISELED_COPPER_FENCE);
+                        entries.add(ModBlocks.OXIDIZED_CHISELED_COPPER_FENCE_GATE);
+                        entries.add(ModBlocks.OXIDIZED_CHISELED_COPPER_DOOR);
+                        entries.add(ModBlocks.OXIDIZED_CHISELED_COPPER_TRAPDOOR);
+                        entries.add(ModBlocks.OXIDIZED_CHISELED_COPPER_PRESSURE_PLATE);
+                        entries.add(ModBlocks.OXIDIZED_CHISELED_COPPER_BUTTON);
+                        //oxidized_copper_grate
+                        entries.add(ModBlocks.OXIDIZED_COPPER_GRATE_STAIRS);
+                        entries.add(ModBlocks.OXIDIZED_COPPER_GRATE_SLAB);
+                        entries.add(ModBlocks.OXIDIZED_COPPER_GRATE_WALL);
+                        entries.add(ModBlocks.OXIDIZED_COPPER_GRATE_FENCE);
+                        entries.add(ModBlocks.OXIDIZED_COPPER_GRATE_FENCE_GATE);
+                        entries.add(ModBlocks.OXIDIZED_COPPER_GRATE_DOOR);
+                        entries.add(ModBlocks.OXIDIZED_COPPER_GRATE_TRAPDOOR);
+                        entries.add(ModBlocks.OXIDIZED_COPPER_GRATE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.OXIDIZED_COPPER_GRATE_BUTTON);
                         //oxidized_cut_copper
                         entries.add(ModBlocks.OXIDIZED_CUT_COPPER_WALL);
                         entries.add(ModBlocks.OXIDIZED_CUT_COPPER_FENCE);
@@ -795,10 +867,28 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WAXED_COPPER_WALL);
                         entries.add(ModBlocks.WAXED_COPPER_FENCE);
                         entries.add(ModBlocks.WAXED_COPPER_FENCE_GATE);
-                        entries.add(ModBlocks.WAXED_COPPER_DOOR);
-                        entries.add(ModBlocks.WAXED_COPPER_TRAPDOOR);
                         entries.add(ModBlocks.WAXED_COPPER_PRESSURE_PLATE);
                         entries.add(ModBlocks.WAXED_COPPER_BUTTON);
+                        //waxed_copper
+                        entries.add(ModBlocks.WAXED_CHISELED_COPPER_STAIRS);
+                        entries.add(ModBlocks.WAXED_CHISELED_COPPER_SLAB);
+                        entries.add(ModBlocks.WAXED_CHISELED_COPPER_WALL);
+                        entries.add(ModBlocks.WAXED_CHISELED_COPPER_FENCE);
+                        entries.add(ModBlocks.WAXED_CHISELED_COPPER_FENCE_GATE);
+                        entries.add(ModBlocks.WAXED_CHISELED_COPPER_DOOR);
+                        entries.add(ModBlocks.WAXED_CHISELED_COPPER_TRAPDOOR);
+                        entries.add(ModBlocks.WAXED_CHISELED_COPPER_PRESSURE_PLATE);
+                        entries.add(ModBlocks.WAXED_CHISELED_COPPER_BUTTON);
+                        //waxed_copper
+                        entries.add(ModBlocks.WAXED_COPPER_GRATE_STAIRS);
+                        entries.add(ModBlocks.WAXED_COPPER_GRATE_SLAB);
+                        entries.add(ModBlocks.WAXED_COPPER_GRATE_WALL);
+                        entries.add(ModBlocks.WAXED_COPPER_GRATE_FENCE);
+                        entries.add(ModBlocks.WAXED_COPPER_GRATE_FENCE_GATE);
+                        entries.add(ModBlocks.WAXED_COPPER_GRATE_DOOR);
+                        entries.add(ModBlocks.WAXED_COPPER_GRATE_TRAPDOOR);
+                        entries.add(ModBlocks.WAXED_COPPER_GRATE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.WAXED_COPPER_GRATE_BUTTON);
                         //waxed_cut copper
                         entries.add(ModBlocks.WAXED_CUT_COPPER_WALL);
                         entries.add(ModBlocks.WAXED_CUT_COPPER_FENCE);
@@ -813,10 +903,28 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WAXED_EXPOSED_COPPER_WALL);
                         entries.add(ModBlocks.WAXED_EXPOSED_COPPER_FENCE);
                         entries.add(ModBlocks.WAXED_EXPOSED_COPPER_FENCE_GATE);
-                        entries.add(ModBlocks.WAXED_EXPOSED_COPPER_DOOR);
-                        entries.add(ModBlocks.WAXED_EXPOSED_COPPER_TRAPDOOR);
                         entries.add(ModBlocks.WAXED_EXPOSED_COPPER_PRESSURE_PLATE);
                         entries.add(ModBlocks.WAXED_EXPOSED_COPPER_BUTTON);
+                        //waxed_copper
+                        entries.add(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_STAIRS);
+                        entries.add(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_SLAB);
+                        entries.add(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_WALL);
+                        entries.add(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_FENCE);
+                        entries.add(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_FENCE_GATE);
+                        entries.add(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_DOOR);
+                        entries.add(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_TRAPDOOR);
+                        entries.add(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_PRESSURE_PLATE);
+                        entries.add(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER_BUTTON);
+                        //waxed_copper
+                        entries.add(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_STAIRS);
+                        entries.add(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_SLAB);
+                        entries.add(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_WALL);
+                        entries.add(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_FENCE);
+                        entries.add(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_FENCE_GATE);
+                        entries.add(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_DOOR);
+                        entries.add(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_TRAPDOOR);
+                        entries.add(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_BUTTON);
                         //waxed_exposed_cut_copper
                         entries.add(ModBlocks.WAXED_EXPOSED_CUT_COPPER_WALL);
                         entries.add(ModBlocks.WAXED_EXPOSED_CUT_COPPER_FENCE);
@@ -831,10 +939,28 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WAXED_WEATHERED_COPPER_WALL);
                         entries.add(ModBlocks.WAXED_WEATHERED_COPPER_FENCE);
                         entries.add(ModBlocks.WAXED_WEATHERED_COPPER_FENCE_GATE);
-                        entries.add(ModBlocks.WAXED_WEATHERED_COPPER_DOOR);
-                        entries.add(ModBlocks.WAXED_WEATHERED_COPPER_TRAPDOOR);
                         entries.add(ModBlocks.WAXED_WEATHERED_COPPER_PRESSURE_PLATE);
                         entries.add(ModBlocks.WAXED_WEATHERED_COPPER_BUTTON);
+                        //waxed_copper
+                        entries.add(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_STAIRS);
+                        entries.add(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_SLAB);
+                        entries.add(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_WALL);
+                        entries.add(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_FENCE);
+                        entries.add(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_FENCE_GATE);
+                        entries.add(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_DOOR);
+                        entries.add(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_TRAPDOOR);
+                        entries.add(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_PRESSURE_PLATE);
+                        entries.add(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER_BUTTON);
+                        //waxed_copper
+                        entries.add(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_STAIRS);
+                        entries.add(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_SLAB);
+                        entries.add(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_WALL);
+                        entries.add(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_FENCE);
+                        entries.add(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_FENCE_GATE);
+                        entries.add(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_DOOR);
+                        entries.add(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_TRAPDOOR);
+                        entries.add(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_BUTTON);
                         //waxed_weathered_cut_copper
                         entries.add(ModBlocks.WAXED_WEATHERED_CUT_COPPER_WALL);
                         entries.add(ModBlocks.WAXED_WEATHERED_CUT_COPPER_FENCE);
@@ -849,10 +975,28 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WAXED_OXIDIZED_COPPER_WALL);
                         entries.add(ModBlocks.WAXED_OXIDIZED_COPPER_FENCE);
                         entries.add(ModBlocks.WAXED_OXIDIZED_COPPER_FENCE_GATE);
-                        entries.add(ModBlocks.WAXED_OXIDIZED_COPPER_DOOR);
-                        entries.add(ModBlocks.WAXED_OXIDIZED_COPPER_TRAPDOOR);
                         entries.add(ModBlocks.WAXED_OXIDIZED_COPPER_PRESSURE_PLATE);
                         entries.add(ModBlocks.WAXED_OXIDIZED_COPPER_BUTTON);
+                        //waxed_copper
+                        entries.add(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_STAIRS);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_SLAB);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_WALL);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_FENCE);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_FENCE_GATE);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_DOOR);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_TRAPDOOR);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_PRESSURE_PLATE);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER_BUTTON);
+                        //waxed_copper
+                        entries.add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_STAIRS);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_SLAB);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_WALL);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE_GATE);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_DOOR);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_TRAPDOOR);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_BUTTON);
                         //waxed_oxidized_cut_copper
                         entries.add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_WALL);
                         entries.add(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_FENCE);

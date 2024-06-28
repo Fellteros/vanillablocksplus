@@ -242,6 +242,22 @@
     "vanillablocksplus:pearlescent_froglight_wall",
     "vanillablocksplus:sculk_wall",
     "vanillablocksplus:bedrock_wall",
-    "vanillablocksplus:target_wall"
+    "vanillablocksplus:target_wall",
+    "vanillablocksplus:chiseled_copper_wall",
+    "vanillablocksplus:exposed_chiseled_copper_wall",
+    "vanillablocksplus:weathered_chiseled_copper_wall",
+    "vanillablocksplus:oxidized_chiseled_copper_wall",
+    "vanillablocksplus:copper_grate_wall",
+    "vanillablocksplus:exposed_copper_grate_wall",
+    "vanillablocksplus:weathered_copper_grate_wall",
+    "vanillablocksplus:oxidized_copper_grate_wall",
+    "vanillablocksplus:waxed_chiseled_copper_wall",
+    "vanillablocksplus:waxed_exposed_chiseled_copper_wall",
+    "vanillablocksplus:waxed_weathered_chiseled_copper_wall",
+    "vanillablocksplus:waxed_oxidized_chiseled_copper_wall",
+    "vanillablocksplus:waxed_copper_grate_wall",
+    "vanillablocksplus:waxed_exposed_copper_grate_wall",
+    "vanillablocksplus:waxed_weathered_copper_grate_wall",
+    "vanillablocksplus:waxed_oxidized_copper_grate_wall"
   ]
 }

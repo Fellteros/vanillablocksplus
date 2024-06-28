@@ -273,6 +273,22 @@
     "vanillablocksplus:pearlescent_froglight_fence_gate",
     "vanillablocksplus:sculk_fence_gate",
     "vanillablocksplus:bedrock_fence_gate",
-    "vanillablocksplus:target_fence_gate"
+    "vanillablocksplus:target_fence_gate",
+    "vanillablocksplus:chiseled_copper_fence_gate",
+    "vanillablocksplus:exposed_chiseled_copper_fence_gate",
+    "vanillablocksplus:weathered_chiseled_copper_fence_gate",
+    "vanillablocksplus:oxidized_chiseled_copper_fence_gate",
+    "vanillablocksplus:copper_grate_fence_gate",
+    "vanillablocksplus:exposed_copper_grate_fence_gate",
+    "vanillablocksplus:weathered_copper_grate_fence_gate",
+    "vanillablocksplus:oxidized_copper_grate_fence_gate",
+    "vanillablocksplus:waxed_chiseled_copper_fence_gate",
+    "vanillablocksplus:waxed_exposed_chiseled_copper_fence_gate",
+    "vanillablocksplus:waxed_weathered_chiseled_copper_fence_gate",
+    "vanillablocksplus:waxed_oxidized_chiseled_copper_fence_gate",
+    "vanillablocksplus:waxed_copper_grate_fence_gate",
+    "vanillablocksplus:waxed_exposed_copper_grate_fence_gate",
+    "vanillablocksplus:waxed_weathered_copper_grate_fence_gate",
+    "vanillablocksplus:waxed_oxidized_copper_grate_fence_gate"
   ]
 }
