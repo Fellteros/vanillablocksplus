@@ -4,8 +4,10 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
 import net.fellter.vanillablocksplus.block.ModBlocks;
+import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -2166,15 +2168,36 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CALCITE_PRESSURE_PLATE);
                         entries.add(ModBlocks.CALCITE_BUTTON);
                         //tuff
-                        entries.add(ModBlocks.TUFF_STAIRS);
-                        entries.add(ModBlocks.TUFF_SLAB);
-                        entries.add(ModBlocks.TUFF_WALL);
                         entries.add(ModBlocks.TUFF_FENCE);
                         entries.add(ModBlocks.TUFF_FENCE_GATE);
                         entries.add(ModBlocks.TUFF_DOOR);
                         entries.add(ModBlocks.TUFF_TRAPDOOR);
                         entries.add(ModBlocks.TUFF_PRESSURE_PLATE);
                         entries.add(ModBlocks.TUFF_BUTTON);
+                        //chiseled_tuff
+                        entries.add(ModBlocks.CHISELED_TUFF_STAIRS);
+                        entries.add(ModBlocks.CHISELED_TUFF_SLAB);
+                        entries.add(ModBlocks.CHISELED_TUFF_WALL);
+                        entries.add(ModBlocks.CHISELED_TUFF_FENCE);
+                        entries.add(ModBlocks.CHISELED_TUFF_FENCE_GATE);
+                        entries.add(ModBlocks.CHISELED_TUFF_DOOR);
+                        entries.add(ModBlocks.CHISELED_TUFF_TRAPDOOR);
+                        entries.add(ModBlocks.CHISELED_TUFF_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CHISELED_TUFF_BUTTON);
+                        //polished_tuff
+                        entries.add(ModBlocks.POLISHED_TUFF_FENCE);
+                        entries.add(ModBlocks.POLISHED_TUFF_FENCE_GATE);
+                        entries.add(ModBlocks.POLISHED_TUFF_DOOR);
+                        entries.add(ModBlocks.POLISHED_TUFF_TRAPDOOR);
+                        entries.add(ModBlocks.POLISHED_TUFF_PRESSURE_PLATE);
+                        entries.add(ModBlocks.POLISHED_TUFF_BUTTON);
+                        //tuff_bricks
+                        entries.add(ModBlocks2.TUFF_BRICKS_FENCE);
+                        entries.add(ModBlocks2.TUFF_BRICKS_FENCE_GATE);
+                        entries.add(ModBlocks2.TUFF_BRICKS_DOOR);
+                        entries.add(ModBlocks2.TUFF_BRICKS_TRAPDOOR);
+                        entries.add(ModBlocks2.TUFF_BRICKS_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.TUFF_BRICKS_BUTTON);
                         //dripstone
                         entries.add(ModBlocks.DRIPSTONE_STAIRS);
                         entries.add(ModBlocks.DRIPSTONE_SLAB);
@@ -2918,15 +2941,15 @@ public class ModItemGroups {
 
     public static void addItemsToIngredientsTab(FabricItemGroupEntries entries) {
                         //ingredients
-                        entries.add(ModItems.COAL_BIT);
-                        entries.add(ModItems.COPPER_BIT);
-                        entries.add(ModItems.IRON_BIT);
-                        entries.add(ModItems.GOLD_BIT);
-                        entries.add(ModItems.REDSTONE_SHARD);
-                        entries.add(ModItems.EMERALD_FRAGMENT);
-                        entries.add(ModItems.LAPIS_BIT);
-                        entries.add(ModItems.DIAMOND_DUST);
-                        entries.add(ModItems.NETHERITE_BIT);
+                        entries.addAfter(Items.COAL, ModItems.COAL_BIT);
+                        entries.addAfter(Items.COPPER_INGOT, ModItems.COPPER_BIT);
+                        entries.addAfter(Items.IRON_INGOT, ModItems.IRON_BIT);
+                        entries.addAfter(Items.GOLD_INGOT, ModItems.GOLD_BIT);
+                        entries.addAfter(Items.REDSTONE, ModItems.REDSTONE_SHARD);
+                        entries.addAfter(Items.EMERALD, ModItems.EMERALD_FRAGMENT);
+                        entries.addAfter(Items.LAPIS_LAZULI, ModItems.LAPIS_BIT);
+                        entries.addAfter(Items.DIAMOND, ModItems.DIAMOND_DUST);
+                        entries.addAfter(Items.NETHERITE_INGOT, ModItems.NETHERITE_BIT);
     }
 
     public static void registerItemGroups() {

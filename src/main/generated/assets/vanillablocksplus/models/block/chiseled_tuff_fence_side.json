@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/fence_stb_side",
+  "textures": {
+    "bottom": "minecraft:block/chiseled_tuff_top",
+    "side": "minecraft:block/chiseled_tuff",
+    "top": "minecraft:block/chiseled_tuff_top"
+  }
+}

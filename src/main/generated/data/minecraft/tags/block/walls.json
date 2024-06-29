@@ -170,7 +170,6 @@
     "vanillablocksplus:snow_wall",
     "vanillablocksplus:moss_wall",
     "vanillablocksplus:calcite_wall",
-    "vanillablocksplus:tuff_wall",
     "vanillablocksplus:dripstone_wall",
     "vanillablocksplus:magma_wall",
     "vanillablocksplus:obsidian_wall",
@@ -258,6 +257,7 @@
     "vanillablocksplus:waxed_copper_grate_wall",
     "vanillablocksplus:waxed_exposed_copper_grate_wall",
     "vanillablocksplus:waxed_weathered_copper_grate_wall",
-    "vanillablocksplus:waxed_oxidized_copper_grate_wall"
+    "vanillablocksplus:waxed_oxidized_copper_grate_wall",
+    "vanillablocksplus:chiseled_tuff_wall"
   ]
 }

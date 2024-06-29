@@ -3,16 +3,8 @@ package net.fellter.vanillablocksplus.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.fellter.vanillablocksplus.block.ModBlocks;
-import net.minecraft.block.Block;
-import net.minecraft.enchantment.Enchantments;
-import net.minecraft.item.Item;
-import net.minecraft.loot.LootTable;
-import net.minecraft.loot.entry.ItemEntry;
-import net.minecraft.loot.function.ApplyBonusLootFunction;
-import net.minecraft.loot.function.SetCountLootFunction;
-import net.minecraft.loot.provider.number.UniformLootNumberProvider;
+import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.minecraft.registry.RegistryWrapper;
-import net.minecraft.registry.entry.RegistryEntry;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -1984,15 +1976,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CALCITE_WALL);
 
         //tuff
-        addDrop(ModBlocks.TUFF_STAIRS);
         addDrop(ModBlocks.TUFF_TRAPDOOR);
         addDrop(ModBlocks.TUFF_BUTTON);
         addDrop(ModBlocks.TUFF_PRESSURE_PLATE);
         addDrop(ModBlocks.TUFF_FENCE);
         addDrop(ModBlocks.TUFF_FENCE_GATE);
         addDrop(ModBlocks.TUFF_DOOR, doorDrops(ModBlocks.TUFF_DOOR));
-        addDrop(ModBlocks.TUFF_SLAB, slabDrops(ModBlocks.TUFF_SLAB));
-        addDrop(ModBlocks.TUFF_WALL);
 
         //dripstone
         addDrop(ModBlocks.DRIPSTONE_STAIRS);
@@ -2961,6 +2950,33 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_DOOR, doorDrops(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_DOOR));
         addDrop(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_SLAB, slabDrops(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_SLAB));
         addDrop(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_WALL);
+
+        //chiseled_tuff
+        addDrop(ModBlocks.CHISELED_TUFF_STAIRS);
+        addDrop(ModBlocks.CHISELED_TUFF_TRAPDOOR);
+        addDrop(ModBlocks.CHISELED_TUFF_BUTTON);
+        addDrop(ModBlocks.CHISELED_TUFF_PRESSURE_PLATE);
+        addDrop(ModBlocks.CHISELED_TUFF_FENCE);
+        addDrop(ModBlocks.CHISELED_TUFF_FENCE_GATE);
+        addDrop(ModBlocks.CHISELED_TUFF_DOOR, doorDrops(ModBlocks.CHISELED_TUFF_DOOR));
+        addDrop(ModBlocks.CHISELED_TUFF_SLAB, slabDrops(ModBlocks.CHISELED_TUFF_SLAB));
+        addDrop(ModBlocks.CHISELED_TUFF_WALL);
+
+        //polished_tuff
+        addDrop(ModBlocks.POLISHED_TUFF_TRAPDOOR);
+        addDrop(ModBlocks.POLISHED_TUFF_BUTTON);
+        addDrop(ModBlocks.POLISHED_TUFF_PRESSURE_PLATE);
+        addDrop(ModBlocks.POLISHED_TUFF_FENCE);
+        addDrop(ModBlocks.POLISHED_TUFF_FENCE_GATE);
+        addDrop(ModBlocks.POLISHED_TUFF_DOOR, doorDrops(ModBlocks.POLISHED_TUFF_DOOR));
+
+        //tuff_bricks
+        addDrop(ModBlocks2.TUFF_BRICKS_TRAPDOOR);
+        addDrop(ModBlocks2.TUFF_BRICKS_BUTTON);
+        addDrop(ModBlocks2.TUFF_BRICKS_PRESSURE_PLATE);
+        addDrop(ModBlocks2.TUFF_BRICKS_FENCE);
+        addDrop(ModBlocks2.TUFF_BRICKS_FENCE_GATE);
+        addDrop(ModBlocks2.TUFF_BRICKS_DOOR, doorDrops(ModBlocks2.TUFF_BRICKS_DOOR));
         
         
         

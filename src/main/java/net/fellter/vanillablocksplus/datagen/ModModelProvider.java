@@ -3,6 +3,7 @@ package net.fellter.vanillablocksplus.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.fellter.vanillablocksplus.block.ModBlocks;
+import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.fellter.vanillablocksplus.item.ModItems;
 import net.fellter.vanillablocksplus.test.ModTextureMap;
 import net.minecraft.block.Blocks;
@@ -2033,9 +2034,6 @@ public class ModModelProvider extends FabricModelProvider {
         calcitePool.pressurePlate(ModBlocks.CALCITE_PRESSURE_PLATE);
         //tuff
         tuffPool.button(ModBlocks.TUFF_BUTTON);
-        tuffPool.wall(ModBlocks.TUFF_WALL);
-        tuffPool.slab(ModBlocks.TUFF_SLAB);
-        tuffPool.stairs(ModBlocks.TUFF_STAIRS);
         tuffPool.fence(ModBlocks.TUFF_FENCE);
         tuffPool.fenceGate(ModBlocks.TUFF_FENCE_GATE);
         tuffPool.pressurePlate(ModBlocks.TUFF_PRESSURE_PLATE);
@@ -2779,6 +2777,26 @@ public class ModModelProvider extends FabricModelProvider {
                 .fence(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE)
                 .fenceGate(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE_GATE)
                 .pressurePlate(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_PRESSURE_PLATE);
+        //chiseled_tuff
+        registerCustomButton(bsmg, ModBlocks.CHISELED_TUFF_BUTTON, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
+        registerCustomWall(bsmg, ModBlocks.CHISELED_TUFF_WALL, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
+        registerCustomSlab(bsmg, ModBlocks.CHISELED_TUFF_SLAB, Blocks.CHISELED_TUFF, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
+        registerCustomStairs(bsmg, ModBlocks.CHISELED_TUFF_STAIRS, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
+        registerCustomFence(bsmg, ModBlocks.CHISELED_TUFF_FENCE, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
+        registerCustomFenceGate(bsmg, ModBlocks.CHISELED_TUFF_FENCE_GATE, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
+        registerCustomPressurePlate(bsmg, ModBlocks.CHISELED_TUFF_PRESSURE_PLATE, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
+        //polished_tuff
+        bsmg.registerCubeAllModelTexturePool(Blocks.POLISHED_TUFF)
+                .button(ModBlocks.POLISHED_TUFF_BUTTON)
+                .fence(ModBlocks.POLISHED_TUFF_FENCE)
+                .fenceGate(ModBlocks.POLISHED_TUFF_FENCE_GATE)
+                .pressurePlate(ModBlocks.POLISHED_TUFF_PRESSURE_PLATE);
+        //tuff_bricks
+        bsmg.registerCubeAllModelTexturePool(Blocks.TUFF_BRICKS)
+                .button(ModBlocks2.TUFF_BRICKS_BUTTON)
+                .fence(ModBlocks2.TUFF_BRICKS_FENCE)
+                .fenceGate(ModBlocks2.TUFF_BRICKS_FENCE_GATE)
+                .pressurePlate(ModBlocks2.TUFF_BRICKS_PRESSURE_PLATE);
 
 
         //oak
@@ -3648,6 +3666,15 @@ public class ModModelProvider extends FabricModelProvider {
         //waxed_oxidized_copper_grate
         bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_DOOR);
+        //chiseled_tuff
+        bsmg.registerOrientableTrapdoor(ModBlocks.CHISELED_TUFF_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.CHISELED_TUFF_DOOR);
+        //polished_tuff
+        bsmg.registerOrientableTrapdoor(ModBlocks.POLISHED_TUFF_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.POLISHED_TUFF_DOOR);
+        //tuff_bricks
+        bsmg.registerOrientableTrapdoor(ModBlocks2.TUFF_BRICKS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks2.TUFF_BRICKS_DOOR);
 
 
 

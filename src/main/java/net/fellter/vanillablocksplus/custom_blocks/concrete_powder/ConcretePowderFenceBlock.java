@@ -1,10 +1,9 @@
 package net.fellter.vanillablocksplus.custom_blocks.concrete_powder;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.FenceBlock;
-import net.minecraft.block.LandingBlock;
+import net.minecraft.block.*;
 import net.minecraft.entity.FallingBlockEntity;
+import net.minecraft.fluid.FluidState;
+import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.particle.BlockStateParticleEffect;
 import net.minecraft.particle.ParticleTypes;
@@ -12,12 +11,15 @@ import net.minecraft.particle.ParticleUtil;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.FluidTags;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
+
+import java.util.Map;
 
 public class ConcretePowderFenceBlock extends FenceBlock implements LandingBlock {
     private final BlockState hardenedState;
@@ -29,14 +31,30 @@ public class ConcretePowderFenceBlock extends FenceBlock implements LandingBlock
 
     @Override
     public void onLanding(World world, BlockPos pos, BlockState fallingBlockState, BlockState currentStateInPos, FallingBlockEntity fallingBlockEntity) {
-        if (shouldHarden(world, pos, currentStateInPos) && pos != null) {
+        FluidState fluidState = world.getFluidState(pos);
+        BlockState state = fallingBlockState;
+        for (Map.Entry<Direction, BooleanProperty> entry : HorizontalConnectingBlock.FACING_PROPERTIES.entrySet()) {
+            Direction direction = entry.getKey();
+            BooleanProperty property = entry.getValue();
+
+            BlockPos neighborBlockPos = pos.offset(direction);
+            BlockState neighborBlockState = world.getBlockState(neighborBlockPos);
+            boolean isSideSolidFullSquare = neighborBlockState.isSideSolidFullSquare(world, neighborBlockPos, direction);
+            state = state.with(property, this.canConnect(neighborBlockState, isSideSolidFullSquare, direction));
+        }
+
+        world.setBlockState(pos, state);
+
+        if (shouldHarden(world, pos, state)) {
             world.setBlockState(pos, this.hardenedState
                     .with(EAST, world.getBlockState(pos).get(EAST))
-                    .with(WEST, world.getBlockState(pos).get(WEST))
-                    .with(NORTH, world.getBlockState(pos).get(NORTH))
                     .with(SOUTH, world.getBlockState(pos).get(SOUTH))
-                    .with(WATERLOGGED, world.getBlockState(pos).get(WATERLOGGED)), Block.NOTIFY_ALL);
+                    .with(NORTH, world.getBlockState(pos).get(NORTH))
+                    .with(WEST, world.getBlockState(pos).get(WEST))
+                    .with(WATERLOGGED, world.getBlockState(pos).get(WATERLOGGED)));
         }
+
+
     }
 
     @Override

@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": "vanillablocksplus:tuff_slab"
+            "items": "minecraft:tuff_slab"
           }
         ]
       },

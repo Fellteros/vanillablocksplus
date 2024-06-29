@@ -3,6 +3,7 @@ package net.fellter.vanillablocksplus.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.fellter.vanillablocksplus.block.ModBlocks;
+import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
@@ -2243,9 +2244,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CALCITE_BUTTON)
                 .add(ModBlocks.CALCITE_PRESSURE_PLATE)
                 //tuff
-                .add(ModBlocks.TUFF_STAIRS)
-                .add(ModBlocks.TUFF_SLAB)
-                .add(ModBlocks.TUFF_WALL)
                 .add(ModBlocks.TUFF_DOOR)
                 .add(ModBlocks.TUFF_TRAPDOOR)
                 .add(ModBlocks.TUFF_FENCE_GATE)
@@ -2811,7 +2809,31 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE_GATE)
                 .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE)
                 .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_BUTTON)
-                .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_PRESSURE_PLATE);
+                .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_PRESSURE_PLATE)
+                //chiseled_tuff
+                .add(ModBlocks.CHISELED_TUFF_STAIRS)
+                .add(ModBlocks.CHISELED_TUFF_SLAB)
+                .add(ModBlocks.CHISELED_TUFF_WALL)
+                .add(ModBlocks.CHISELED_TUFF_DOOR)
+                .add(ModBlocks.CHISELED_TUFF_TRAPDOOR)
+                .add(ModBlocks.CHISELED_TUFF_FENCE_GATE)
+                .add(ModBlocks.CHISELED_TUFF_FENCE)
+                .add(ModBlocks.CHISELED_TUFF_BUTTON)
+                .add(ModBlocks.CHISELED_TUFF_PRESSURE_PLATE)
+                //polished_tuff
+                .add(ModBlocks.POLISHED_TUFF_DOOR)
+                .add(ModBlocks.POLISHED_TUFF_TRAPDOOR)
+                .add(ModBlocks.POLISHED_TUFF_FENCE_GATE)
+                .add(ModBlocks.POLISHED_TUFF_FENCE)
+                .add(ModBlocks.POLISHED_TUFF_BUTTON)
+                .add(ModBlocks.POLISHED_TUFF_PRESSURE_PLATE)
+                //tuff_bricks
+                .add(ModBlocks2.TUFF_BRICKS_DOOR)
+                .add(ModBlocks2.TUFF_BRICKS_TRAPDOOR)
+                .add(ModBlocks2.TUFF_BRICKS_FENCE_GATE)
+                .add(ModBlocks2.TUFF_BRICKS_FENCE)
+                .add(ModBlocks2.TUFF_BRICKS_BUTTON)
+                .add(ModBlocks2.TUFF_BRICKS_PRESSURE_PLATE);
 
 
 
@@ -3303,7 +3325,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_COPPER_GRATE_FENCE)
                 .add(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_FENCE)
                 .add(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_FENCE)
-                .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE);
+                .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE)
+                .add(ModBlocks.CHISELED_TUFF_FENCE)
+                .add(ModBlocks.POLISHED_TUFF_FENCE)
+                .add(ModBlocks2.TUFF_BRICKS_FENCE);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.OAK_WOOD_FENCE)
@@ -3603,7 +3628,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_COPPER_GRATE_FENCE)
                 .add(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_FENCE)
                 .add(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_FENCE)
-                .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE);
+                .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE)
+                .add(ModBlocks.CHISELED_TUFF_FENCE)
+                .add(ModBlocks.POLISHED_TUFF_FENCE)
+                .add(ModBlocks2.TUFF_BRICKS_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -3896,7 +3924,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_COPPER_GRATE_FENCE_GATE)
                 .add(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_FENCE_GATE)
                 .add(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_FENCE_GATE)
-                .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE_GATE);
+                .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE_GATE)
+                .add(ModBlocks.CHISELED_TUFF_FENCE_GATE)
+                .add(ModBlocks.POLISHED_TUFF_FENCE_GATE)
+                .add(ModBlocks2.TUFF_BRICKS_FENCE_GATE);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -4070,7 +4101,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SNOW_WALL)
                 .add(ModBlocks.MOSS_WALL)
                 .add(ModBlocks.CALCITE_WALL)
-                .add(ModBlocks.TUFF_WALL)
                 .add(ModBlocks.DRIPSTONE_WALL)
                 .add(ModBlocks.MAGMA_WALL)
                 .add(ModBlocks.OBSIDIAN_WALL)
@@ -4158,7 +4188,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_COPPER_GRATE_WALL)
                 .add(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_WALL)
                 .add(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_WALL)
-                .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_WALL);
+                .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_WALL)
+                .add(ModBlocks.CHISELED_TUFF_WALL);
 
 
 

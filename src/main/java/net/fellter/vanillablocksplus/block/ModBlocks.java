@@ -20,6 +20,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
+import java.io.InputStream;
+import java.util.Properties;
+
 public class ModBlocks {
     //oak wood set
     public static final Block OAK_WOOD_MOD = registerBlock("oak_wood_mod",
@@ -1586,7 +1589,7 @@ public class ModBlocks {
             new OxidizableTrapdoorBlock(BlockSetType.COPPER, Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_CUT_COPPER)));
     public static final Block OXIDIZED_CUT_COPPER_WALL = registerBlock("oxidized_cut_copper_wall",
             new OxidizableWallBlock(Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_CUT_COPPER)));
-    
+
     //waxed copper
     public static final Block WAXED_COPPER_STAIRS = registerBlock("waxed_copper_stairs",
             new StairsBlock(Blocks.WAXED_COPPER_BLOCK.getDefaultState(), AbstractBlock.Settings.copy(Blocks.WAXED_COPPER_BLOCK)));
@@ -2702,7 +2705,7 @@ public class ModBlocks {
     public static final Block WHITE_CONCRETE_POWDER_SLAB = registerBlock("white_concrete_powder_slab",
             new ConcretePowderSlabBlock(AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE_POWDER), ModBlocks.WHITE_CONCRETE_SLAB));
     public static final Block WHITE_CONCRETE_POWDER_BUTTON = registerBlock("white_concrete_powder_button",
-            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE_POWDER), 
+            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE_POWDER),
                     ModBlocks.WHITE_CONCRETE_BUTTON));
     public static final Block WHITE_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("white_concrete_powder_pressure_plate",
             new ConcretePowderPressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE_POWDER), ModBlocks.WHITE_CONCRETE_PRESSURE_PLATE));
@@ -2723,7 +2726,7 @@ public class ModBlocks {
     public static final Block LIGHT_GRAY_CONCRETE_POWDER_SLAB = registerBlock("light_gray_concrete_powder_slab",
             new ConcretePowderSlabBlock(AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_CONCRETE_POWDER), ModBlocks.LIGHT_GRAY_CONCRETE_SLAB));
     public static final Block LIGHT_GRAY_CONCRETE_POWDER_BUTTON = registerBlock("light_gray_concrete_powder_button",
-            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_CONCRETE_POWDER), 
+            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_CONCRETE_POWDER),
                     ModBlocks.LIGHT_GRAY_CONCRETE_BUTTON));
     public static final Block LIGHT_GRAY_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("light_gray_concrete_powder_pressure_plate",
             new ConcretePowderPressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_CONCRETE_POWDER), ModBlocks.LIGHT_GRAY_CONCRETE_PRESSURE_PLATE));
@@ -2744,7 +2747,7 @@ public class ModBlocks {
     public static final Block GRAY_CONCRETE_POWDER_SLAB = registerBlock("gray_concrete_powder_slab",
             new ConcretePowderSlabBlock(AbstractBlock.Settings.copy(Blocks.GRAY_CONCRETE_POWDER), ModBlocks.GRAY_CONCRETE_SLAB));
     public static final Block GRAY_CONCRETE_POWDER_BUTTON = registerBlock("gray_concrete_powder_button",
-            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.GRAY_CONCRETE_POWDER), 
+            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.GRAY_CONCRETE_POWDER),
                     ModBlocks.GRAY_CONCRETE_BUTTON));
     public static final Block GRAY_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("gray_concrete_powder_pressure_plate",
             new ConcretePowderPressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.GRAY_CONCRETE_POWDER), ModBlocks.GRAY_CONCRETE_PRESSURE_PLATE));
@@ -2765,7 +2768,7 @@ public class ModBlocks {
     public static final Block BLACK_CONCRETE_POWDER_SLAB = registerBlock("black_concrete_powder_slab",
             new ConcretePowderSlabBlock(AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE_POWDER), ModBlocks.BLACK_CONCRETE_SLAB));
     public static final Block BLACK_CONCRETE_POWDER_BUTTON = registerBlock("black_concrete_powder_button",
-            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE_POWDER), 
+            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE_POWDER),
                     ModBlocks.BLACK_CONCRETE_BUTTON));
     public static final Block BLACK_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("black_concrete_powder_pressure_plate",
             new ConcretePowderPressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE_POWDER), ModBlocks.BLACK_CONCRETE_PRESSURE_PLATE));
@@ -2786,7 +2789,7 @@ public class ModBlocks {
     public static final Block BROWN_CONCRETE_POWDER_SLAB = registerBlock("brown_concrete_powder_slab",
             new ConcretePowderSlabBlock(AbstractBlock.Settings.copy(Blocks.BROWN_CONCRETE_POWDER), ModBlocks.BROWN_CONCRETE_SLAB));
     public static final Block BROWN_CONCRETE_POWDER_BUTTON = registerBlock("brown_concrete_powder_button",
-            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.BROWN_CONCRETE_POWDER), 
+            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.BROWN_CONCRETE_POWDER),
                     ModBlocks.BROWN_CONCRETE_BUTTON));
     public static final Block BROWN_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("brown_concrete_powder_pressure_plate",
             new ConcretePowderPressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.BROWN_CONCRETE_POWDER), ModBlocks.BROWN_CONCRETE_PRESSURE_PLATE));
@@ -2807,7 +2810,7 @@ public class ModBlocks {
     public static final Block RED_CONCRETE_POWDER_SLAB = registerBlock("red_concrete_powder_slab",
             new ConcretePowderSlabBlock(AbstractBlock.Settings.copy(Blocks.RED_CONCRETE_POWDER), ModBlocks.RED_CONCRETE_SLAB));
     public static final Block RED_CONCRETE_POWDER_BUTTON = registerBlock("red_concrete_powder_button",
-            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.RED_CONCRETE_POWDER), 
+            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.RED_CONCRETE_POWDER),
                     ModBlocks.RED_CONCRETE_BUTTON));
     public static final Block RED_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("red_concrete_powder_pressure_plate",
             new ConcretePowderPressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.RED_CONCRETE_POWDER), ModBlocks.RED_CONCRETE_PRESSURE_PLATE));
@@ -2828,7 +2831,7 @@ public class ModBlocks {
     public static final Block ORANGE_CONCRETE_POWDER_SLAB = registerBlock("orange_concrete_powder_slab",
             new ConcretePowderSlabBlock(AbstractBlock.Settings.copy(Blocks.ORANGE_CONCRETE_POWDER), ModBlocks.ORANGE_CONCRETE_SLAB));
     public static final Block ORANGE_CONCRETE_POWDER_BUTTON = registerBlock("orange_concrete_powder_button",
-            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.ORANGE_CONCRETE_POWDER), 
+            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.ORANGE_CONCRETE_POWDER),
                     ModBlocks.ORANGE_CONCRETE_BUTTON));
     public static final Block ORANGE_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("orange_concrete_powder_pressure_plate",
             new ConcretePowderPressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.ORANGE_CONCRETE_POWDER), ModBlocks.ORANGE_CONCRETE_PRESSURE_PLATE));
@@ -2849,7 +2852,7 @@ public class ModBlocks {
     public static final Block YELLOW_CONCRETE_POWDER_SLAB = registerBlock("yellow_concrete_powder_slab",
             new ConcretePowderSlabBlock(AbstractBlock.Settings.copy(Blocks.YELLOW_CONCRETE_POWDER), ModBlocks.YELLOW_CONCRETE_SLAB));
     public static final Block YELLOW_CONCRETE_POWDER_BUTTON = registerBlock("yellow_concrete_powder_button",
-            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.YELLOW_CONCRETE_POWDER), 
+            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.YELLOW_CONCRETE_POWDER),
                     ModBlocks.YELLOW_CONCRETE_BUTTON));
     public static final Block YELLOW_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("yellow_concrete_powder_pressure_plate",
             new ConcretePowderPressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.YELLOW_CONCRETE_POWDER), ModBlocks.YELLOW_CONCRETE_PRESSURE_PLATE));
@@ -2870,7 +2873,7 @@ public class ModBlocks {
     public static final Block LIME_CONCRETE_POWDER_SLAB = registerBlock("lime_concrete_powder_slab",
             new ConcretePowderSlabBlock(AbstractBlock.Settings.copy(Blocks.LIME_CONCRETE_POWDER), ModBlocks.LIME_CONCRETE_SLAB));
     public static final Block LIME_CONCRETE_POWDER_BUTTON = registerBlock("lime_concrete_powder_button",
-            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.LIME_CONCRETE_POWDER), 
+            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.LIME_CONCRETE_POWDER),
                     ModBlocks.LIME_CONCRETE_BUTTON));
     public static final Block LIME_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("lime_concrete_powder_pressure_plate",
             new ConcretePowderPressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.LIME_CONCRETE_POWDER), ModBlocks.LIME_CONCRETE_PRESSURE_PLATE));
@@ -2891,7 +2894,7 @@ public class ModBlocks {
     public static final Block GREEN_CONCRETE_POWDER_SLAB = registerBlock("green_concrete_powder_slab",
             new ConcretePowderSlabBlock(AbstractBlock.Settings.copy(Blocks.GREEN_CONCRETE_POWDER), ModBlocks.GREEN_CONCRETE_SLAB));
     public static final Block GREEN_CONCRETE_POWDER_BUTTON = registerBlock("green_concrete_powder_button",
-            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.GREEN_CONCRETE_POWDER), 
+            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.GREEN_CONCRETE_POWDER),
                     ModBlocks.GREEN_CONCRETE_BUTTON));
     public static final Block GREEN_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("green_concrete_powder_pressure_plate",
             new ConcretePowderPressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.GREEN_CONCRETE_POWDER), ModBlocks.GREEN_CONCRETE_PRESSURE_PLATE));
@@ -2912,7 +2915,7 @@ public class ModBlocks {
     public static final Block CYAN_CONCRETE_POWDER_SLAB = registerBlock("cyan_concrete_powder_slab",
             new ConcretePowderSlabBlock(AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE_POWDER), ModBlocks.CYAN_CONCRETE_SLAB));
     public static final Block CYAN_CONCRETE_POWDER_BUTTON = registerBlock("cyan_concrete_powder_button",
-            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE_POWDER), 
+            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE_POWDER),
                     ModBlocks.CYAN_CONCRETE_BUTTON));
     public static final Block CYAN_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("cyan_concrete_powder_pressure_plate",
             new ConcretePowderPressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE_POWDER), ModBlocks.CYAN_CONCRETE_PRESSURE_PLATE));
@@ -2953,7 +2956,7 @@ public class ModBlocks {
     public static final Block LIGHT_BLUE_CONCRETE_POWDER_SLAB = registerBlock("light_blue_concrete_powder_slab",
             new ConcretePowderSlabBlock(AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_CONCRETE_POWDER), ModBlocks.LIGHT_BLUE_CONCRETE_SLAB));
     public static final Block LIGHT_BLUE_CONCRETE_POWDER_BUTTON = registerBlock("light_blue_concrete_powder_button",
-            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_CONCRETE_POWDER), 
+            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_CONCRETE_POWDER),
                     ModBlocks.LIGHT_BLUE_CONCRETE_BUTTON));
     public static final Block LIGHT_BLUE_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("light_blue_concrete_powder_pressure_plate",
             new ConcretePowderPressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_CONCRETE_POWDER), LIGHT_BLUE_CONCRETE_PRESSURE_PLATE));
@@ -3017,7 +3020,7 @@ public class ModBlocks {
     public static final Block PINK_CONCRETE_POWDER_SLAB = registerBlock("pink_concrete_powder_slab",
             new ConcretePowderSlabBlock(AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE_POWDER), ModBlocks.PINK_CONCRETE_SLAB));
     public static final Block PINK_CONCRETE_POWDER_BUTTON = registerBlock("pink_concrete_powder_button",
-            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE_POWDER), 
+            new ConcretePowderButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE_POWDER),
                     ModBlocks.PINK_CONCRETE_BUTTON));
     public static final Block PINK_CONCRETE_POWDER_PRESSURE_PLATE = registerBlock("pink_concrete_powder_pressure_plate",
             new ConcretePowderPressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE_POWDER), ModBlocks.PINK_CONCRETE_PRESSURE_PLATE));
@@ -3691,7 +3694,7 @@ public class ModBlocks {
             new TrapdoorBlock(ModBlockSetType.GRASS, AbstractBlock.Settings.create().mapColor(MapColor.PALE_GREEN).strength(0.6f).sounds(BlockSoundGroup.GRASS)));
     public static final Block GRASS_WALL = registerBlock("grass_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(0.6f).sounds(BlockSoundGroup.GRASS)));
-    
+
     //podzol_block
     public static final Block PODZOL_STAIRS = registerBlock("podzol_stairs",
             new StairsBlock(Blocks.PODZOL.getDefaultState(), AbstractBlock.Settings.copy(Blocks.PODZOL)));
@@ -3711,7 +3714,7 @@ public class ModBlocks {
             new TrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.PODZOL)));
     public static final Block PODZOL_WALL = registerBlock("podzol_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.PODZOL)));
-    
+
     //dirt_block
     public static final Block DIRT_STAIRS = registerBlock("dirt_stairs",
             new StairsBlock(Blocks.DIRT.getDefaultState(), AbstractBlock.Settings.copy(Blocks.DIRT)));
@@ -3731,7 +3734,7 @@ public class ModBlocks {
             new TrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.DIRT)));
     public static final Block DIRT_WALL = registerBlock("dirt_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.DIRT)));
-    
+
     //mycelium_block
     public static final Block MYCELIUM_STAIRS = registerBlock("mycelium_stairs",
             new StairsBlock(Blocks.MYCELIUM.getDefaultState(), AbstractBlock.Settings.copy(Blocks.MYCELIUM)));
@@ -3751,7 +3754,7 @@ public class ModBlocks {
             new TrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.MYCELIUM)));
     public static final Block MYCELIUM_WALL = registerBlock("mycelium_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.MYCELIUM)));
-    
+
     //dirt_path_block
     public static final Block DIRT_PATH_STAIRS = registerBlock("dirt_path_stairs",
             new StairsBlock(Blocks.DIRT_PATH.getDefaultState(), AbstractBlock.Settings.copy(Blocks.DIRT_PATH)));
@@ -4052,11 +4055,6 @@ public class ModBlocks {
     public static final Block CALCITE_WALL = registerBlock("calcite_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.CALCITE)));
 
-    //tuff
-    public static final Block TUFF_STAIRS = registerBlock("tuff_stairs",
-            new StairsBlock(Blocks.TUFF.getDefaultState(), AbstractBlock.Settings.copy(Blocks.TUFF)));
-    public static final Block TUFF_SLAB = registerBlock("tuff_slab",
-            new SlabBlock(AbstractBlock.Settings.copy(Blocks.TUFF)));
     public static final Block TUFF_BUTTON = registerBlock("tuff_button",
             new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.TUFF)));
     public static final Block TUFF_PRESSURE_PLATE = registerBlock("tuff_pressure_plate",
@@ -4069,8 +4067,6 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.TUFF)));
     public static final Block TUFF_TRAPDOOR = registerBlock("tuff_trapdoor",
             new TrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.TUFF)));
-    public static final Block TUFF_WALL = registerBlock("tuff_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.TUFF)));
 
     //dripstone_block
     public static final Block DRIPSTONE_STAIRS = registerBlock("dripstone_stairs",
@@ -4711,7 +4707,7 @@ public class ModBlocks {
             new TrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.GLOWSTONE)));
     public static final Block GLOWSTONE_WALL = registerBlock("glowstone_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.GLOWSTONE)));
-    
+
     //leaves_def
     private static final Block LEAVES_DEF = registerBlock("leaves_def", new Block(AbstractBlock.Settings.create().strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque()
             .allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never)
@@ -5837,8 +5833,39 @@ public class ModBlocks {
     public static final Block WAXED_OXIDIZED_COPPER_GRATE_WALL = registerBlock("waxed_oxidized_copper_grate_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER_GRATE)));
 
+    //chiseled_tuff
+    public static final Block CHISELED_TUFF_STAIRS = registerBlock("chiseled_tuff_stairs",
+            new StairsBlock(Blocks.CHISELED_TUFF.getDefaultState(), AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
+    public static final Block CHISELED_TUFF_SLAB = registerBlock("chiseled_tuff_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
+    public static final Block CHISELED_TUFF_BUTTON = registerBlock("chiseled_tuff_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
+    public static final Block CHISELED_TUFF_PRESSURE_PLATE = registerBlock("chiseled_tuff_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
+    public static final Block CHISELED_TUFF_FENCE = registerBlock("chiseled_tuff_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
+    public static final Block CHISELED_TUFF_FENCE_GATE = registerBlock("chiseled_tuff_fence_gate",
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
+    public static final Block CHISELED_TUFF_DOOR = registerBlock("chiseled_tuff_door",
+            new DoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
+    public static final Block CHISELED_TUFF_TRAPDOOR = registerBlock("chiseled_tuff_trapdoor",
+            new TrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
+    public static final Block CHISELED_TUFF_WALL = registerBlock("chiseled_tuff_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
 
-
+    //polished_tuff
+    public static final Block POLISHED_TUFF_BUTTON = registerBlock("polished_tuff_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.POLISHED_TUFF)));
+    public static final Block POLISHED_TUFF_PRESSURE_PLATE = registerBlock("polished_tuff_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.POLISHED_TUFF)));
+    public static final Block POLISHED_TUFF_FENCE = registerBlock("polished_tuff_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.POLISHED_TUFF)));
+    public static final Block POLISHED_TUFF_FENCE_GATE = registerBlock("polished_tuff_fence_gate",
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.POLISHED_TUFF)));
+    public static final Block POLISHED_TUFF_DOOR = registerBlock("polished_tuff_door",
+            new DoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.POLISHED_TUFF)));
+    public static final Block POLISHED_TUFF_TRAPDOOR = registerBlock("polished_tuff_trapdoor",
+            new TrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.POLISHED_TUFF)));
 
 
 

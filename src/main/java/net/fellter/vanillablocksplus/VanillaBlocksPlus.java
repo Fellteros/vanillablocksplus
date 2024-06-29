@@ -2,6 +2,7 @@ package net.fellter.vanillablocksplus;
 
 import net.fabricmc.api.ModInitializer;
 import net.fellter.vanillablocksplus.block.ModBlocks;
+import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.fellter.vanillablocksplus.item.ModItemGroups;
 import net.fellter.vanillablocksplus.item.ModItems;
 import net.fellter.vanillablocksplus.registry.FlammableBlocksRegistry;
@@ -17,6 +18,7 @@ public class VanillaBlocksPlus implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModBlocks.registerModBlocks();
+		ModBlocks2.registerModBlocks2();
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 

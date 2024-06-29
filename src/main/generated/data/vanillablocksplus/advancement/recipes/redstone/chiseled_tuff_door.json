@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chiseled_tuff": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chiseled_tuff"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_chiseled_tuff_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:chiseled_tuff_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanillablocksplus:chiseled_tuff_door"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chiseled_tuff_door",
+      "has_chiseled_tuff"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanillablocksplus:chiseled_tuff_door"
+    ]
+  }
+}

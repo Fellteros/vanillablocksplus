@@ -294,6 +294,9 @@
     "vanillablocksplus:waxed_copper_grate_fence",
     "vanillablocksplus:waxed_exposed_copper_grate_fence",
     "vanillablocksplus:waxed_weathered_copper_grate_fence",
-    "vanillablocksplus:waxed_oxidized_copper_grate_fence"
+    "vanillablocksplus:waxed_oxidized_copper_grate_fence",
+    "vanillablocksplus:chiseled_tuff_fence",
+    "vanillablocksplus:polished_tuff_fence",
+    "vanillablocksplus:tuff_bricks_fence"
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "vanillablocksplus:block/tuff_bricks_pressure_plate"
+    },
+    "powered=true": {
+      "model": "vanillablocksplus:block/tuff_bricks_pressure_plate_down"
+    }
+  }
+}
