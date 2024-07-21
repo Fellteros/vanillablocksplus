@@ -4,7 +4,7 @@
       "model": "vanillablocksplus:block/acacia_wood_slab"
     },
     "type=double": {
-      "model": "vanillablocksplus:block/acacia_wood_mod"
+      "model": "minecraft:block/acacia_wood"
     },
     "type=top": {
       "model": "vanillablocksplus:block/acacia_wood_slab_top"

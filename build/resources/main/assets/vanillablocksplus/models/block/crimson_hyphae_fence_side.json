@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_side",
   "textures": {
-    "texture": "vanillablocksplus:block/crimson_hyphae_mod"
+    "texture": "minecraft:block/crimson_hyphae"
   }
 }

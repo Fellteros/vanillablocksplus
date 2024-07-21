@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/pressure_plate_up",
   "textures": {
-    "texture": "vanillablocksplus:block/mangrove_wood_mod"
+    "texture": "minecraft:block/mangrove_wood"
   }
 }

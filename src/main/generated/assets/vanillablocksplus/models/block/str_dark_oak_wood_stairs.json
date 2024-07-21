@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/stairs",
   "textures": {
-    "bottom": "vanillablocksplus:block/str_dark_oak_wood_mod",
-    "side": "vanillablocksplus:block/str_dark_oak_wood_mod",
-    "top": "vanillablocksplus:block/str_dark_oak_wood_mod"
+    "bottom": "minecraft:block/stripped_dark_oak_wood",
+    "side": "minecraft:block/stripped_dark_oak_wood",
+    "top": "minecraft:block/stripped_dark_oak_wood"
   }
 }

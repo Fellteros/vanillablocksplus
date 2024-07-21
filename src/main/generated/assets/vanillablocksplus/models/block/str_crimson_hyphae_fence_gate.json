@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_fence_gate",
   "textures": {
-    "texture": "vanillablocksplus:block/str_crimson_hyphae_mod"
+    "texture": "minecraft:block/stripped_crimson_hyphae"
   }
 }

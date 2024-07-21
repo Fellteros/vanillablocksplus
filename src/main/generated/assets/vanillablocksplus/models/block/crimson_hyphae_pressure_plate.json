@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/pressure_plate_up",
   "textures": {
-    "texture": "vanillablocksplus:block/crimson_hyphae_mod"
+    "texture": "minecraft:block/crimson_hyphae"
   }
 }

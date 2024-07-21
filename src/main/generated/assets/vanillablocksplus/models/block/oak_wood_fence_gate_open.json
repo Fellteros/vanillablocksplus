@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_fence_gate_open",
   "textures": {
-    "texture": "vanillablocksplus:block/oak_wood_mod"
+    "texture": "minecraft:block/oak_wood"
   }
 }

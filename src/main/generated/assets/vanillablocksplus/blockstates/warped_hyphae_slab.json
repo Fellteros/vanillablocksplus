@@ -4,7 +4,7 @@
       "model": "vanillablocksplus:block/warped_hyphae_slab"
     },
     "type=double": {
-      "model": "vanillablocksplus:block/warped_hyphae_mod"
+      "model": "minecraft:block/warped_hyphae"
     },
     "type=top": {
       "model": "vanillablocksplus:block/warped_hyphae_slab_top"

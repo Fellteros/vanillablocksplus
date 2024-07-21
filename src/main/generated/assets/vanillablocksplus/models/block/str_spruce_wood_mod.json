@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "vanillablocksplus:block/str_spruce_wood_mod"
-  }
-}

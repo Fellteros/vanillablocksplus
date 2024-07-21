@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_post",
   "textures": {
-    "texture": "vanillablocksplus:block/mangrove_wood_mod"
+    "texture": "minecraft:block/mangrove_wood"
   }
 }

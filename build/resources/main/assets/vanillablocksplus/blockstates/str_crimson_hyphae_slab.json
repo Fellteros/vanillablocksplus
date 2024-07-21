@@ -4,7 +4,7 @@
       "model": "vanillablocksplus:block/str_crimson_hyphae_slab"
     },
     "type=double": {
-      "model": "vanillablocksplus:block/str_crimson_hyphae_mod"
+      "model": "minecraft:block/stripped_crimson_hyphae"
     },
     "type=top": {
       "model": "vanillablocksplus:block/str_crimson_hyphae_slab_top"

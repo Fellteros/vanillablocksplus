@@ -4,7 +4,7 @@
       "model": "vanillablocksplus:block/str_birch_wood_slab"
     },
     "type=double": {
-      "model": "vanillablocksplus:block/str_birch_wood_mod"
+      "model": "minecraft:block/stripped_birch_wood"
     },
     "type=top": {
       "model": "vanillablocksplus:block/str_birch_wood_slab_top"

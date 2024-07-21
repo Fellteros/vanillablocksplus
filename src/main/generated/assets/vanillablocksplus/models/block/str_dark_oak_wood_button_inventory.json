@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/button_inventory",
   "textures": {
-    "texture": "vanillablocksplus:block/str_dark_oak_wood_mod"
+    "texture": "minecraft:block/stripped_dark_oak_wood"
   }
 }

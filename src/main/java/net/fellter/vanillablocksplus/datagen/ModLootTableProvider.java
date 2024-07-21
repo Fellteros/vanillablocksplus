@@ -17,7 +17,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         //oak
-        addDrop(ModBlocks.OAK_WOOD_MOD);
         addDrop(ModBlocks.OAK_WOOD_STAIRS);
         addDrop(ModBlocks.OAK_WOOD_TRAPDOOR);
         addDrop(ModBlocks.OAK_WOOD_BUTTON);
