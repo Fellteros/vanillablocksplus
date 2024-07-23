@@ -7,8 +7,8 @@ import net.minecraft.sound.SoundEvents;
 public class ModBlockSetType {
 
     private static BlockSetType registerModBlockSetType(String name, boolean canOpenByHand, BlockSoundGroup sounds) {
-        return new BlockSetType(name, canOpenByHand, true, true, BlockSetType.ActivationRule.EVERYTHING, sounds, SoundEvents.BLOCK_IRON_DOOR_CLOSE, SoundEvents.BLOCK_IRON_DOOR_OPEN,
-                SoundEvents.BLOCK_IRON_TRAPDOOR_CLOSE, SoundEvents.BLOCK_IRON_TRAPDOOR_OPEN, SoundEvents.BLOCK_STONE_PRESSURE_PLATE_CLICK_OFF,
+        return new BlockSetType(name, canOpenByHand, true, true, BlockSetType.ActivationRule.EVERYTHING, sounds, SoundEvents.BLOCK_WOODEN_DOOR_CLOSE, SoundEvents.BLOCK_WOODEN_DOOR_OPEN,
+                SoundEvents.BLOCK_WOODEN_TRAPDOOR_CLOSE, SoundEvents.BLOCK_WOODEN_TRAPDOOR_OPEN, SoundEvents.BLOCK_STONE_PRESSURE_PLATE_CLICK_OFF,
                 SoundEvents.BLOCK_STONE_PRESSURE_PLATE_CLICK_ON, SoundEvents.BLOCK_STONE_BUTTON_CLICK_OFF, SoundEvents.BLOCK_STONE_BUTTON_CLICK_ON);
     }
 
@@ -32,8 +32,8 @@ public class ModBlockSetType {
     public static final BlockSetType NETHER_BRICKS = registerModBlockSetType("nether_bricks", true, BlockSoundGroup.NETHER_BRICKS);
     public static final BlockSetType NETHER_ORE = registerModBlockSetType("nether_ore", true, BlockSoundGroup.NETHER_ORE);
     public static final BlockSetType BONE = registerModBlockSetType("bone", true, BlockSoundGroup.BONE);
-    public static final BlockSetType NETHERITE = registerModBlockSetType("netherite", true, BlockSoundGroup.NETHERITE);
-    public static final BlockSetType ANCIENT_DEBRIS = registerModBlockSetType("ancient_debris", true, BlockSoundGroup.ANCIENT_DEBRIS);
+    public static final BlockSetType NETHERITE = registerModBlockSetType("netherite", false, BlockSoundGroup.NETHERITE);
+    public static final BlockSetType ANCIENT_DEBRIS = registerModBlockSetType("ancient_debris", false, BlockSoundGroup.ANCIENT_DEBRIS);
     public static final BlockSetType NETHER_GOLD_ORE = registerModBlockSetType("nether_gold_ore", true, BlockSoundGroup.NETHER_GOLD_ORE);
     public static final BlockSetType GILDED_BLACKSTONE = registerModBlockSetType("gilded_blackstone", true, BlockSoundGroup.GILDED_BLACKSTONE);
     public static final BlockSetType AMETHYST_BLOCK = registerModBlockSetType("amethyst_block", true, BlockSoundGroup.AMETHYST_BLOCK);
@@ -41,6 +41,7 @@ public class ModBlockSetType {
     public static final BlockSetType CALCITE = registerModBlockSetType("calcite", true, BlockSoundGroup.CALCITE);
     public static final BlockSetType DRIPSTONE = registerModBlockSetType("dripstone", true, BlockSoundGroup.DRIPSTONE_BLOCK);
     public static final BlockSetType COPPER = registerModBlockSetType("copper", true, BlockSoundGroup.COPPER);
+    public static final BlockSetType COPPER_GRATE = registerModBlockSetType("copper_grate", true, BlockSoundGroup.COPPER_GRATE);
     public static final BlockSetType MOSS_BLOCK = registerModBlockSetType("moss_block", true, BlockSoundGroup.MOSS_BLOCK);
     public static final BlockSetType ROOTED_DIRT = registerModBlockSetType("rooted_dirt", true, BlockSoundGroup.ROOTED_DIRT);
     public static final BlockSetType AZALEA_LEAVES = registerModBlockSetType("azalea_leaves", true, BlockSoundGroup.AZALEA_LEAVES);
@@ -61,5 +62,8 @@ public class ModBlockSetType {
     public static final BlockSetType CHERRY_WOOD = registerModBlockSetType("cherry_wood", true, BlockSoundGroup.CHERRY_WOOD);
     public static final BlockSetType CHERRY_LEAVES = registerModBlockSetType("cherry_leaves", true, BlockSoundGroup.CHERRY_LEAVES);
     public static final BlockSetType WART_BLOCK = registerModBlockSetType("wart_block", true, BlockSoundGroup.WART_BLOCK);
+    public static final BlockSetType WOOD = registerModBlockSetType("wood", true, BlockSoundGroup.WOOD);
+    public static final BlockSetType SPONGE = registerModBlockSetType("sponge", true, BlockSoundGroup.SPONGE);
+    public static final BlockSetType WET_SPONGE = registerModBlockSetType("wet_sponge", true, BlockSoundGroup.WET_SPONGE);
 
 }

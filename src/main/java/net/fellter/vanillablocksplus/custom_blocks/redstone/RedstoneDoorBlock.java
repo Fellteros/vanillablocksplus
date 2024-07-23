@@ -50,7 +50,7 @@ public class RedstoneDoorBlock extends DoorBlock {
             light(state, world, pos);
         }
 
-        return stack.getItem() instanceof BlockItem && (new ItemPlacementContext(player, hand, stack, hit)).canPlace() ? ItemActionResult.SKIP_DEFAULT_BLOCK_INTERACTION : ItemActionResult.SUCCESS;
+        return stack.getItem() instanceof BlockItem && (new ItemPlacementContext(player, hand, stack, hit)).canPlace() ? ItemActionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION : ItemActionResult.SUCCESS;
     }
 
     private static void light(BlockState state, World world, BlockPos pos) {

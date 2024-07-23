@@ -31,7 +31,6 @@ public class ConcretePowderTrapdoorBlock extends TrapdoorBlock implements Landin
                     .with(FACING, world.getBlockState(pos).get(FACING))
                     .with(POWERED, world.getBlockState(pos).get(POWERED))
                     .with(OPEN, world.getBlockState(pos).get(OPEN))
-                    .with(HALF, world.getBlockState(pos).get(HALF))
                     .with(WATERLOGGED, world.getBlockState(pos).get(WATERLOGGED)), Block.NOTIFY_ALL);
         }
     }
@@ -47,7 +46,6 @@ public class ConcretePowderTrapdoorBlock extends TrapdoorBlock implements Landin
                         .with(FACING, placementState.get(FACING))
                         .with(POWERED, placementState.get(POWERED))
                         .with(OPEN, placementState.get(OPEN))
-                        .with(HALF, placementState.get(HALF))
                         .with(WATERLOGGED, placementState.get(WATERLOGGED));
             }
         }
@@ -85,7 +83,6 @@ public class ConcretePowderTrapdoorBlock extends TrapdoorBlock implements Landin
                     .with(FACING, world.getBlockState(pos).get(FACING))
                     .with(POWERED, world.getBlockState(pos).get(POWERED))
                     .with(OPEN, world.getBlockState(pos).get(OPEN))
-                    .with(HALF, world.getBlockState(pos).get(HALF))
                     .with(WATERLOGGED, world.getBlockState(pos).get(WATERLOGGED));
         }
         world.scheduleBlockTick(pos, this, this.getFallDelay());
