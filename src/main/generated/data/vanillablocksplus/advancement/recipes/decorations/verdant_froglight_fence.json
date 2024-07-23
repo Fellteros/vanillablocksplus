@@ -17,16 +17,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_verdant_froglight_fence": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:verdant_froglight_fence"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_verdant_froglight_slab": {
       "conditions": {
         "items": [
@@ -41,7 +31,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_verdant_froglight_fence",
       "has_verdant_froglight",
       "has_verdant_froglight_slab"
     ]

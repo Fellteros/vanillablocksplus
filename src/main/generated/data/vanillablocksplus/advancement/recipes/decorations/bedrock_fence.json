@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_bedrock_fence": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:bedrock_fence"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_bedrock_slab": {
       "conditions": {
         "items": [
@@ -41,7 +31,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_bedrock_fence",
       "has_bedrock",
       "has_bedrock_slab"
     ]

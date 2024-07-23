@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_diorite_fence": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:diorite_fence"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_diorite_slab": {
       "conditions": {
         "items": [
@@ -41,7 +31,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_diorite_fence",
       "has_diorite",
       "has_diorite_slab"
     ]

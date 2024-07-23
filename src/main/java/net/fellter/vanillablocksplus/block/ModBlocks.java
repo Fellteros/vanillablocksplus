@@ -4,26 +4,32 @@ package net.fellter.vanillablocksplus.block;
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
 import net.fellter.vanillablocksplus.custom_blocks.concrete_powder.*;
 import net.fellter.vanillablocksplus.custom_blocks.copper.*;
+import net.fellter.vanillablocksplus.custom_blocks.falling.*;
 import net.fellter.vanillablocksplus.custom_blocks.glass.*;
 import net.fellter.vanillablocksplus.custom_blocks.redstone.*;
-import net.fellter.vanillablocksplus.custom_blocks.falling.*;
 import net.fellter.vanillablocksplus.custom_blocks.slime.*;
 import net.fellter.vanillablocksplus.custom_blocks.sponge.*;
 import net.fellter.vanillablocksplus.custom_blocks.wet_sponge.*;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.AxeItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.util.ActionResult;
+import net.minecraft.util.Hand;
 import net.minecraft.util.Identifier;
-
-import java.io.InputStream;
-import java.util.Properties;
+import net.minecraft.util.hit.BlockHitResult;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 
 public class ModBlocks {
+
     //oak wood set
     public static final Block OAK_WOOD_STAIRS = registerBlock("oak_wood_stairs",
             new StairsBlock(Blocks.OAK_WOOD.getDefaultState(), AbstractBlock.Settings.copy(Blocks.OAK_WOOD)));
@@ -5792,42 +5798,6 @@ public class ModBlocks {
             new TrapdoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER_GRATE)));
     public static final Block WAXED_OXIDIZED_COPPER_GRATE_WALL = registerBlock("waxed_oxidized_copper_grate_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER_GRATE)));
-
-    //chiseled_tuff
-    public static final Block CHISELED_TUFF_STAIRS = registerBlock("chiseled_tuff_stairs",
-            new StairsBlock(Blocks.CHISELED_TUFF.getDefaultState(), AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
-    public static final Block CHISELED_TUFF_SLAB = registerBlock("chiseled_tuff_slab",
-            new SlabBlock(AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
-    public static final Block CHISELED_TUFF_BUTTON = registerBlock("chiseled_tuff_button",
-            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
-    public static final Block CHISELED_TUFF_PRESSURE_PLATE = registerBlock("chiseled_tuff_pressure_plate",
-            new PressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
-    public static final Block CHISELED_TUFF_FENCE = registerBlock("chiseled_tuff_fence",
-            new FenceBlock(AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
-    public static final Block CHISELED_TUFF_FENCE_GATE = registerBlock("chiseled_tuff_fence_gate",
-            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
-    public static final Block CHISELED_TUFF_DOOR = registerBlock("chiseled_tuff_door",
-            new DoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
-    public static final Block CHISELED_TUFF_TRAPDOOR = registerBlock("chiseled_tuff_trapdoor",
-            new TrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
-    public static final Block CHISELED_TUFF_WALL = registerBlock("chiseled_tuff_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF)));
-
-    //polished_tuff
-    public static final Block POLISHED_TUFF_BUTTON = registerBlock("polished_tuff_button",
-            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.POLISHED_TUFF)));
-    public static final Block POLISHED_TUFF_PRESSURE_PLATE = registerBlock("polished_tuff_pressure_plate",
-            new PressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.POLISHED_TUFF)));
-    public static final Block POLISHED_TUFF_FENCE = registerBlock("polished_tuff_fence",
-            new FenceBlock(AbstractBlock.Settings.copy(Blocks.POLISHED_TUFF)));
-    public static final Block POLISHED_TUFF_FENCE_GATE = registerBlock("polished_tuff_fence_gate",
-            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.POLISHED_TUFF)));
-    public static final Block POLISHED_TUFF_DOOR = registerBlock("polished_tuff_door",
-            new DoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.POLISHED_TUFF)));
-    public static final Block POLISHED_TUFF_TRAPDOOR = registerBlock("polished_tuff_trapdoor",
-            new TrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.POLISHED_TUFF)));
-
-
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

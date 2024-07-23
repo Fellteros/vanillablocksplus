@@ -3,6 +3,7 @@
   "package": "net.fellter.vanillablocksplus.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "MixinAxeItem",
     "VanillaBlocksPlusMixin"
   ],
   "injectors": {

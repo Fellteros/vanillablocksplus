@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_mud_fence_gate": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:mud_fence_gate"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_mud_slab": {
       "conditions": {
         "items": [
@@ -41,7 +31,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_mud_fence_gate",
       "has_mud",
       "has_mud_slab"
     ]

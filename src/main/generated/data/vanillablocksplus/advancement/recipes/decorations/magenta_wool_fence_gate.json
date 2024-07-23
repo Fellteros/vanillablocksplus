@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_magenta_wool_fence_gate": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:magenta_wool_fence_gate"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_magenta_wool_slab": {
       "conditions": {
         "items": [
@@ -41,7 +31,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_magenta_wool_fence_gate",
       "has_magenta_wool",
       "has_magenta_wool_slab"
     ]

@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_nether_quartz_ore_stairs": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:nether_quartz_ore_stairs"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:nether_quartz_ore_stairs"
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_nether_quartz_ore_stairs",
       "has_nether_quartz_ore"
     ]
   ],

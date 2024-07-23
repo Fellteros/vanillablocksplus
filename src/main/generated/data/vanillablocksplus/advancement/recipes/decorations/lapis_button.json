@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_lapis_button": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:lapis_button"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:lapis_button"
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_lapis_button",
       "has_lapis_bit"
     ]
   ],

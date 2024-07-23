@@ -2811,22 +2811,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_BUTTON)
                 .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_PRESSURE_PLATE)
                 //chiseled_tuff
-                .add(ModBlocks.CHISELED_TUFF_STAIRS)
-                .add(ModBlocks.CHISELED_TUFF_SLAB)
-                .add(ModBlocks.CHISELED_TUFF_WALL)
-                .add(ModBlocks.CHISELED_TUFF_DOOR)
-                .add(ModBlocks.CHISELED_TUFF_TRAPDOOR)
-                .add(ModBlocks.CHISELED_TUFF_FENCE_GATE)
-                .add(ModBlocks.CHISELED_TUFF_FENCE)
-                .add(ModBlocks.CHISELED_TUFF_BUTTON)
-                .add(ModBlocks.CHISELED_TUFF_PRESSURE_PLATE)
+                .add(ModBlocks2.CHISELED_TUFF_STAIRS)
+                .add(ModBlocks2.CHISELED_TUFF_SLAB)
+                .add(ModBlocks2.CHISELED_TUFF_WALL)
+                .add(ModBlocks2.CHISELED_TUFF_DOOR)
+                .add(ModBlocks2.CHISELED_TUFF_TRAPDOOR)
+                .add(ModBlocks2.CHISELED_TUFF_FENCE_GATE)
+                .add(ModBlocks2.CHISELED_TUFF_FENCE)
+                .add(ModBlocks2.CHISELED_TUFF_BUTTON)
+                .add(ModBlocks2.CHISELED_TUFF_PRESSURE_PLATE)
                 //polished_tuff
-                .add(ModBlocks.POLISHED_TUFF_DOOR)
-                .add(ModBlocks.POLISHED_TUFF_TRAPDOOR)
-                .add(ModBlocks.POLISHED_TUFF_FENCE_GATE)
-                .add(ModBlocks.POLISHED_TUFF_FENCE)
-                .add(ModBlocks.POLISHED_TUFF_BUTTON)
-                .add(ModBlocks.POLISHED_TUFF_PRESSURE_PLATE)
+                .add(ModBlocks2.POLISHED_TUFF_DOOR)
+                .add(ModBlocks2.POLISHED_TUFF_TRAPDOOR)
+                .add(ModBlocks2.POLISHED_TUFF_FENCE_GATE)
+                .add(ModBlocks2.POLISHED_TUFF_FENCE)
+                .add(ModBlocks2.POLISHED_TUFF_BUTTON)
+                .add(ModBlocks2.POLISHED_TUFF_PRESSURE_PLATE)
                 //tuff_bricks
                 .add(ModBlocks2.TUFF_BRICKS_DOOR)
                 .add(ModBlocks2.TUFF_BRICKS_TRAPDOOR)
@@ -3326,8 +3326,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_FENCE)
                 .add(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_FENCE)
                 .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE)
-                .add(ModBlocks.CHISELED_TUFF_FENCE)
-                .add(ModBlocks.POLISHED_TUFF_FENCE)
+                .add(ModBlocks2.CHISELED_TUFF_FENCE)
+                .add(ModBlocks2.POLISHED_TUFF_FENCE)
                 .add(ModBlocks2.TUFF_BRICKS_FENCE);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -3629,8 +3629,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_FENCE)
                 .add(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_FENCE)
                 .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE)
-                .add(ModBlocks.CHISELED_TUFF_FENCE)
-                .add(ModBlocks.POLISHED_TUFF_FENCE)
+                .add(ModBlocks2.CHISELED_TUFF_FENCE)
+                .add(ModBlocks2.POLISHED_TUFF_FENCE)
                 .add(ModBlocks2.TUFF_BRICKS_FENCE);
 
 
@@ -3925,8 +3925,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_FENCE_GATE)
                 .add(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_FENCE_GATE)
                 .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE_GATE)
-                .add(ModBlocks.CHISELED_TUFF_FENCE_GATE)
-                .add(ModBlocks.POLISHED_TUFF_FENCE_GATE)
+                .add(ModBlocks2.CHISELED_TUFF_FENCE_GATE)
+                .add(ModBlocks2.POLISHED_TUFF_FENCE_GATE)
                 .add(ModBlocks2.TUFF_BRICKS_FENCE_GATE);
 
 
@@ -4189,7 +4189,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WAXED_EXPOSED_COPPER_GRATE_WALL)
                 .add(ModBlocks.WAXED_WEATHERED_COPPER_GRATE_WALL)
                 .add(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_WALL)
-                .add(ModBlocks.CHISELED_TUFF_WALL);
+                .add(ModBlocks2.CHISELED_TUFF_WALL);
 
 
 

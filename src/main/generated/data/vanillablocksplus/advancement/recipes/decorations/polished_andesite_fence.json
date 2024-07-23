@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_polished_andesite_fence": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:polished_andesite_fence"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_polished_andesite_slab": {
       "conditions": {
         "items": [
@@ -41,7 +31,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_polished_andesite_fence",
       "has_polished_andesite",
       "has_polished_andesite_slab"
     ]

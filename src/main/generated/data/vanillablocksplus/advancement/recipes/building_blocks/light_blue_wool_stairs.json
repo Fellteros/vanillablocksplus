@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_light_blue_wool_stairs": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:light_blue_wool_stairs"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:light_blue_wool_stairs"
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_light_blue_wool_stairs",
       "has_light_blue_wool"
     ]
   ],

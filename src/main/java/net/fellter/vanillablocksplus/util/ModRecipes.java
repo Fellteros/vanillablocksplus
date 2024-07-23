@@ -22,7 +22,6 @@ public class ModRecipes {
         return ShapedRecipeJsonBuilder.create(category, output)
                 .input('#', input)
                 .pattern("##")
-                .criterion(hasItem(output), conditionsFromItem(output))
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
@@ -32,7 +31,6 @@ public class ModRecipes {
                 .input('W', input)
                 .pattern("W#W")
                 .pattern("W#W")
-                .criterion(hasItem(output), conditionsFromItem(output))
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .criterion(hasItem(likeStickItem), conditionsFromItem(likeStickItem))
                 .showNotification(true);
@@ -44,7 +42,6 @@ public class ModRecipes {
                 .input('W', input)
                 .pattern("#W#")
                 .pattern("#W#")
-                .criterion(hasItem(output), conditionsFromItem(output))
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .criterion(hasItem(likeStickItem), conditionsFromItem(likeStickItem))
                 .showNotification(true);
@@ -56,7 +53,6 @@ public class ModRecipes {
                 .input('#', input)
                 .pattern("##")
                 .pattern("##")
-                .criterion(hasItem(output), conditionsFromItem(output))
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
@@ -67,13 +63,13 @@ public class ModRecipes {
                 .pattern("##")
                 .pattern("##")
                 .criterion(hasItem(output), conditionsFromItem(output))
+                .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
     public static CraftingRecipeJsonBuilder ButtonRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input, int outputCount) {
         return ShapedRecipeJsonBuilder.create(category, output, outputCount)
                 .input('#', input)
                 .pattern(" # ")
-                .criterion(hasItem(output), conditionsFromItem(output))
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
@@ -81,7 +77,6 @@ public class ModRecipes {
         return ShapedRecipeJsonBuilder.create(category, output, 6)
                 .input('#', input)
                 .pattern("###")
-                .criterion(hasItem(output), conditionsFromItem(output))
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
@@ -90,7 +85,6 @@ public class ModRecipes {
                 .pattern("#  ")
                 .pattern("## ")
                 .pattern("###")
-                .criterion(hasItem(output), conditionsFromItem(output))
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
@@ -99,7 +93,6 @@ public class ModRecipes {
                 .input('#', input)
                 .pattern("###")
                 .pattern("###")
-                .criterion(hasItem(output), conditionsFromItem(output))
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
@@ -109,7 +102,6 @@ public class ModRecipes {
                 .input('W', input)
                 .pattern("#W#")
                 .pattern("#W#")
-                .criterion(hasItem(output), conditionsFromItem(output))
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
@@ -118,7 +110,6 @@ public class ModRecipes {
                 .input('W', input).input('#', Items.STICK)
                 .pattern("W#W")
                 .pattern("W#W")
-                .criterion(hasItem(output), conditionsFromItem(output))
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
@@ -127,7 +118,6 @@ public class ModRecipes {
                 .pattern("##")
                 .pattern("##")
                 .pattern("##")
-                .criterion(hasItem(output), conditionsFromItem(output))
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
@@ -136,7 +126,6 @@ public class ModRecipes {
                 .input('#', input)
                 .pattern("###")
                 .pattern("###")
-                .criterion(hasItem(output), conditionsFromItem(output))
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }

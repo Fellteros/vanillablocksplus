@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_rooted_dirt_door": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:rooted_dirt_door"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:rooted_dirt_door"
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_rooted_dirt_door",
       "has_rooted_dirt"
     ]
   ],

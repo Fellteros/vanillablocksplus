@@ -25,32 +25,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator bsmg) {
 
 
-
-
-        BlockStateModelGenerator.BlockTexturePool stonePool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.STONE);
-        BlockStateModelGenerator.BlockTexturePool cobblestonePool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.COBBLESTONE);
-        BlockStateModelGenerator.BlockTexturePool mossyCobblestonePool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.MOSSY_COBBLESTONE);
-        BlockStateModelGenerator.BlockTexturePool smoothStonePool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.SMOOTH_STONE);
-        BlockStateModelGenerator.BlockTexturePool stoneBricksPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.STONE_BRICKS);
-        BlockStateModelGenerator.BlockTexturePool crackedStoneBricksPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.CRACKED_STONE_BRICKS);
-        BlockStateModelGenerator.BlockTexturePool granitePool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.GRANITE);
-        BlockStateModelGenerator.BlockTexturePool polishedGranitePool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.POLISHED_GRANITE);
-        BlockStateModelGenerator.BlockTexturePool dioritePool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.DIORITE);
-        BlockStateModelGenerator.BlockTexturePool polishedDioritePool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.POLISHED_DIORITE);
-        BlockStateModelGenerator.BlockTexturePool andesitePool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.ANDESITE);
-        BlockStateModelGenerator.BlockTexturePool polishedAndesitePool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.POLISHED_ANDESITE);
         BlockStateModelGenerator.BlockTexturePool cobbledDeepslatePool =
                 bsmg.registerCubeAllModelTexturePool(Blocks.COBBLED_DEEPSLATE);
         BlockStateModelGenerator.BlockTexturePool chiseledDeepslatePool =
@@ -595,70 +569,82 @@ public class ModModelProvider extends FabricModelProvider {
             .slab(ModBlocks.STR_WARPED_HYPHAE_SLAB)
             .stairs(ModBlocks.STR_WARPED_HYPHAE_STAIRS);
         //stone
-        stonePool.fence(ModBlocks.STONE_FENCE);
-        stonePool.fenceGate(ModBlocks.STONE_FENCE_GATE);
-        stonePool.wall(ModBlocks.STONE_WALL);
+        bsmg.registerCubeAllModelTexturePool(Blocks.STONE)
+            .fence(ModBlocks.STONE_FENCE)
+            .fenceGate(ModBlocks.STONE_FENCE_GATE)
+            .wall(ModBlocks.STONE_WALL);
         //cobblestone
-        cobblestonePool.fence(ModBlocks.COBBLESTONE_FENCE);
-        cobblestonePool.fenceGate(ModBlocks.COBBLESTONE_FENCE_GATE);
+        bsmg.registerCubeAllModelTexturePool(Blocks.COBBLESTONE)
+            .fence(ModBlocks.COBBLESTONE_FENCE)
+            .fenceGate(ModBlocks.COBBLESTONE_FENCE_GATE);
         //mossy cobblestone
-        mossyCobblestonePool.fence(ModBlocks.MOSSY_COBBLESTONE_FENCE);
-        mossyCobblestonePool.fenceGate(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE);
-        mossyCobblestonePool.button(ModBlocks.MOSSY_COBBLESTONE_BUTTON);
-        mossyCobblestonePool.pressurePlate(ModBlocks.MOSSY_COBBLESTONE_PRESSURE_PLATE);
+        bsmg.registerCubeAllModelTexturePool(Blocks.MOSSY_COBBLESTONE)
+            .fence(ModBlocks.MOSSY_COBBLESTONE_FENCE)
+            .fenceGate(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE)
+            .button(ModBlocks.MOSSY_COBBLESTONE_BUTTON)
+            .pressurePlate(ModBlocks.MOSSY_COBBLESTONE_PRESSURE_PLATE);
         //smooth stone
-        smoothStonePool.button(ModBlocks.SMOOTH_STONE_BUTTON);
-        smoothStonePool.fence(ModBlocks.SMOOTH_STONE_FENCE);
-        smoothStonePool.fenceGate(ModBlocks.SMOOTH_STONE_FENCE_GATE);
-        smoothStonePool.pressurePlate(ModBlocks.SMOOTH_STONE_PRESSURE_PLATE);
-        smoothStonePool.stairs(ModBlocks.SMOOTH_STONE_STAIRS);
-        smoothStonePool.wall(ModBlocks.SMOOTH_STONE_WALL);
+        bsmg.registerCubeAllModelTexturePool(Blocks.SMOOTH_STONE)
+            .button(ModBlocks.SMOOTH_STONE_BUTTON)
+            .fence(ModBlocks.SMOOTH_STONE_FENCE)
+            .fenceGate(ModBlocks.SMOOTH_STONE_FENCE_GATE)
+            .pressurePlate(ModBlocks.SMOOTH_STONE_PRESSURE_PLATE)
+            .stairs(ModBlocks.SMOOTH_STONE_STAIRS)
+            .wall(ModBlocks.SMOOTH_STONE_WALL);
         //stone bricks
-        stoneBricksPool.button(ModBlocks.STONE_BRICKS_BUTTON);
-        stoneBricksPool.fence(ModBlocks.STONE_BRICKS_FENCE);
-        stoneBricksPool.fenceGate(ModBlocks.STONE_BRICKS_FENCE_GATE);
-        stoneBricksPool.pressurePlate(ModBlocks.STONE_BRICKS_PRESSURE_PLATE);
+        bsmg.registerCubeAllModelTexturePool(Blocks.STONE_BRICKS)
+            .button(ModBlocks.STONE_BRICKS_BUTTON)
+            .fence(ModBlocks.STONE_BRICKS_FENCE)
+            .fenceGate(ModBlocks.STONE_BRICKS_FENCE_GATE)
+            .pressurePlate(ModBlocks.STONE_BRICKS_PRESSURE_PLATE);
         //cracked stone bricks
-        crackedStoneBricksPool.button(ModBlocks.CRACKED_STONE_BRICKS_BUTTON);
-        crackedStoneBricksPool.wall(ModBlocks.CRACKED_STONE_BRICKS_WALL);
-        crackedStoneBricksPool.stairs(ModBlocks.CRACKED_STONE_BRICKS_STAIRS);
-        crackedStoneBricksPool.slab(ModBlocks.CRACKED_STONE_BRICKS_SLAB);
-        crackedStoneBricksPool.fence(ModBlocks.CRACKED_STONE_BRICKS_FENCE);
-        crackedStoneBricksPool.fenceGate(ModBlocks.CRACKED_STONE_BRICKS_FENCE_GATE);
-        crackedStoneBricksPool.pressurePlate(ModBlocks.CRACKED_STONE_BRICKS_PRESSURE_PLATE);
+        bsmg.registerCubeAllModelTexturePool(Blocks.CRACKED_STONE_BRICKS)
+            .button(ModBlocks.CRACKED_STONE_BRICKS_BUTTON)
+            .wall(ModBlocks.CRACKED_STONE_BRICKS_WALL)
+            .stairs(ModBlocks.CRACKED_STONE_BRICKS_STAIRS)
+            .slab(ModBlocks.CRACKED_STONE_BRICKS_SLAB)
+            .fence(ModBlocks.CRACKED_STONE_BRICKS_FENCE)
+            .fenceGate(ModBlocks.CRACKED_STONE_BRICKS_FENCE_GATE)
+            .pressurePlate(ModBlocks.CRACKED_STONE_BRICKS_PRESSURE_PLATE);
         //granite
-        granitePool.button(ModBlocks.GRANITE_BUTTON);
-        granitePool.fence(ModBlocks.GRANITE_FENCE);
-        granitePool.fenceGate(ModBlocks.GRANITE_FENCE_GATE);
-        granitePool.pressurePlate(ModBlocks.GRANITE_PRESSURE_PLATE);
+        bsmg.registerCubeAllModelTexturePool(Blocks.GRANITE)
+            .button(ModBlocks.GRANITE_BUTTON)
+            .fence(ModBlocks.GRANITE_FENCE)
+            .fenceGate(ModBlocks.GRANITE_FENCE_GATE)
+            .pressurePlate(ModBlocks.GRANITE_PRESSURE_PLATE);
         //polished granite
-        polishedGranitePool.button(ModBlocks.POLISHED_GRANITE_BUTTON);
-        polishedGranitePool.wall(ModBlocks.POLISHED_GRANITE_WALL);
-        polishedGranitePool.fence(ModBlocks.POLISHED_GRANITE_FENCE);
-        polishedGranitePool.fenceGate(ModBlocks.POLISHED_GRANITE_FENCE_GATE);
-        polishedGranitePool.pressurePlate(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE);
+        bsmg.registerCubeAllModelTexturePool(Blocks.POLISHED_GRANITE)
+            .button(ModBlocks.POLISHED_GRANITE_BUTTON)
+            .wall(ModBlocks.POLISHED_GRANITE_WALL)
+            .fence(ModBlocks.POLISHED_GRANITE_FENCE)
+            .fenceGate(ModBlocks.POLISHED_GRANITE_FENCE_GATE)
+            .pressurePlate(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE);
         //diorite
-        dioritePool.button(ModBlocks.DIORITE_BUTTON);
-        dioritePool.fence(ModBlocks.DIORITE_FENCE);
-        dioritePool.fenceGate(ModBlocks.DIORITE_FENCE_GATE);
-        dioritePool.pressurePlate(ModBlocks.DIORITE_PRESSURE_PLATE);
+        bsmg.registerCubeAllModelTexturePool(Blocks.DIORITE)
+            .button(ModBlocks.DIORITE_BUTTON)
+            .fence(ModBlocks.DIORITE_FENCE)
+            .fenceGate(ModBlocks.DIORITE_FENCE_GATE)
+            .pressurePlate(ModBlocks.DIORITE_PRESSURE_PLATE);
         //polished diorite
-        polishedDioritePool.button(ModBlocks.POLISHED_DIORITE_BUTTON);
-        polishedDioritePool.wall(ModBlocks.POLISHED_DIORITE_WALL);
-        polishedDioritePool.fence(ModBlocks.POLISHED_DIORITE_FENCE);
-        polishedDioritePool.fenceGate(ModBlocks.POLISHED_DIORITE_FENCE_GATE);
-        polishedDioritePool.pressurePlate(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE);
+        bsmg.registerCubeAllModelTexturePool(Blocks.POLISHED_DIORITE)
+            .button(ModBlocks.POLISHED_DIORITE_BUTTON)
+            .wall(ModBlocks.POLISHED_DIORITE_WALL)
+            .fence(ModBlocks.POLISHED_DIORITE_FENCE)
+            .fenceGate(ModBlocks.POLISHED_DIORITE_FENCE_GATE)
+            .pressurePlate(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE);
         //andesite
-        andesitePool.button(ModBlocks.ANDESITE_BUTTON);
-        andesitePool.fence(ModBlocks.ANDESITE_FENCE);
-        andesitePool.fenceGate(ModBlocks.ANDESITE_FENCE_GATE);
-        andesitePool.pressurePlate(ModBlocks.ANDESITE_PRESSURE_PLATE);
+        bsmg.registerCubeAllModelTexturePool(Blocks.ANDESITE)
+            .button(ModBlocks.ANDESITE_BUTTON)
+            .fence(ModBlocks.ANDESITE_FENCE)
+            .fenceGate(ModBlocks.ANDESITE_FENCE_GATE)
+            .pressurePlate(ModBlocks.ANDESITE_PRESSURE_PLATE);
         //polished andesite
-        polishedAndesitePool.button(ModBlocks.POLISHED_ANDESITE_BUTTON);
-        polishedAndesitePool.wall(ModBlocks.POLISHED_ANDESITE_WALL);
-        polishedAndesitePool.fence(ModBlocks.POLISHED_ANDESITE_FENCE);
-        polishedAndesitePool.fenceGate(ModBlocks.POLISHED_ANDESITE_FENCE_GATE);
-        polishedAndesitePool.pressurePlate(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE);
+        bsmg.registerCubeAllModelTexturePool(Blocks.POLISHED_ANDESITE)
+            .button(ModBlocks.POLISHED_ANDESITE_BUTTON)
+            .wall(ModBlocks.POLISHED_ANDESITE_WALL)
+            .fence(ModBlocks.POLISHED_ANDESITE_FENCE)
+            .fenceGate(ModBlocks.POLISHED_ANDESITE_FENCE_GATE)
+            .pressurePlate(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE);
         //deepslate
         registerCustomButton(bsmg, ModBlocks.DEEPSLATE_BUTTON, ModTextureMap.customSTB(Blocks.DEEPSLATE, Blocks.DEEPSLATE, Blocks.DEEPSLATE, "", "_top", "_top"));
         registerCustomFence(bsmg, ModBlocks.DEEPSLATE_FENCE, ModTextureMap.customSTB(Blocks.DEEPSLATE, Blocks.DEEPSLATE, Blocks.DEEPSLATE, "", "_top", "_top"));
@@ -2760,19 +2746,19 @@ public class ModModelProvider extends FabricModelProvider {
                 .fenceGate(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_FENCE_GATE)
                 .pressurePlate(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_PRESSURE_PLATE);
         //chiseled_tuff
-        registerCustomButton(bsmg, ModBlocks.CHISELED_TUFF_BUTTON, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
-        registerCustomWall(bsmg, ModBlocks.CHISELED_TUFF_WALL, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
-        registerCustomSlab(bsmg, ModBlocks.CHISELED_TUFF_SLAB, Blocks.CHISELED_TUFF, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
-        registerCustomStairs(bsmg, ModBlocks.CHISELED_TUFF_STAIRS, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
-        registerCustomFence(bsmg, ModBlocks.CHISELED_TUFF_FENCE, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
-        registerCustomFenceGate(bsmg, ModBlocks.CHISELED_TUFF_FENCE_GATE, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
-        registerCustomPressurePlate(bsmg, ModBlocks.CHISELED_TUFF_PRESSURE_PLATE, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
+        registerCustomButton(bsmg, ModBlocks2.CHISELED_TUFF_BUTTON, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
+        registerCustomWall(bsmg, ModBlocks2.CHISELED_TUFF_WALL, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
+        registerCustomSlab(bsmg, ModBlocks2.CHISELED_TUFF_SLAB, Blocks.CHISELED_TUFF, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
+        registerCustomStairs(bsmg, ModBlocks2.CHISELED_TUFF_STAIRS, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
+        registerCustomFence(bsmg, ModBlocks2.CHISELED_TUFF_FENCE, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
+        registerCustomFenceGate(bsmg, ModBlocks2.CHISELED_TUFF_FENCE_GATE, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
+        registerCustomPressurePlate(bsmg, ModBlocks2.CHISELED_TUFF_PRESSURE_PLATE, ModTextureMap.blockAndTopForEnds(Blocks.CHISELED_TUFF));
         //polished_tuff
         bsmg.registerCubeAllModelTexturePool(Blocks.POLISHED_TUFF)
-                .button(ModBlocks.POLISHED_TUFF_BUTTON)
-                .fence(ModBlocks.POLISHED_TUFF_FENCE)
-                .fenceGate(ModBlocks.POLISHED_TUFF_FENCE_GATE)
-                .pressurePlate(ModBlocks.POLISHED_TUFF_PRESSURE_PLATE);
+                .button(ModBlocks2.POLISHED_TUFF_BUTTON)
+                .fence(ModBlocks2.POLISHED_TUFF_FENCE)
+                .fenceGate(ModBlocks2.POLISHED_TUFF_FENCE_GATE)
+                .pressurePlate(ModBlocks2.POLISHED_TUFF_PRESSURE_PLATE);
         //tuff_bricks
         bsmg.registerCubeAllModelTexturePool(Blocks.TUFF_BRICKS)
                 .button(ModBlocks2.TUFF_BRICKS_BUTTON)
@@ -3649,11 +3635,11 @@ public class ModModelProvider extends FabricModelProvider {
         bsmg.registerOrientableTrapdoor(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_DOOR);
         //chiseled_tuff
-        bsmg.registerOrientableTrapdoor(ModBlocks.CHISELED_TUFF_TRAPDOOR);
-        bsmg.registerDoor(ModBlocks.CHISELED_TUFF_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks2.CHISELED_TUFF_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks2.CHISELED_TUFF_DOOR);
         //polished_tuff
-        bsmg.registerOrientableTrapdoor(ModBlocks.POLISHED_TUFF_TRAPDOOR);
-        bsmg.registerDoor(ModBlocks.POLISHED_TUFF_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks2.POLISHED_TUFF_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks2.POLISHED_TUFF_DOOR);
         //tuff_bricks
         bsmg.registerOrientableTrapdoor(ModBlocks2.TUFF_BRICKS_TRAPDOOR);
         bsmg.registerDoor(ModBlocks2.TUFF_BRICKS_DOOR);

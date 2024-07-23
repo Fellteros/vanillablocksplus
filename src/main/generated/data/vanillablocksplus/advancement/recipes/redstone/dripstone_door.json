@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_dripstone_door": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:dripstone_door"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:dripstone_door"
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_dripstone_door",
       "has_dripstone_block"
     ]
   ],

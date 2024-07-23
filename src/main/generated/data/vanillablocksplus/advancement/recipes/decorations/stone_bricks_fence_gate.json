@@ -21,16 +21,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_stone_bricks_fence_gate": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:stone_bricks_fence_gate"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:stone_bricks_fence_gate"
@@ -41,7 +31,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_stone_bricks_fence_gate",
       "has_stone_bricks",
       "has_stone_brick_slab"
     ]

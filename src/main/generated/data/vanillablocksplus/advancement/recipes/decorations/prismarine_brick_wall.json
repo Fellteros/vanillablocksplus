@@ -1,16 +1,6 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_prismarine_brick_wall": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:prismarine_brick_wall"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_prismarine_bricks": {
       "conditions": {
         "items": [
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_prismarine_brick_wall",
       "has_prismarine_bricks"
     ]
   ],

@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_brown_concrete_powder_stairs": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:brown_concrete_powder_stairs"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:brown_concrete_powder_stairs"
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_brown_concrete_powder_stairs",
       "has_brown_concrete_powder"
     ]
   ],

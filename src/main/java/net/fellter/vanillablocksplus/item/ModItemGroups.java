@@ -2175,22 +2175,22 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TUFF_PRESSURE_PLATE);
                         entries.add(ModBlocks.TUFF_BUTTON);
                         //chiseled_tuff
-                        entries.add(ModBlocks.CHISELED_TUFF_STAIRS);
-                        entries.add(ModBlocks.CHISELED_TUFF_SLAB);
-                        entries.add(ModBlocks.CHISELED_TUFF_WALL);
-                        entries.add(ModBlocks.CHISELED_TUFF_FENCE);
-                        entries.add(ModBlocks.CHISELED_TUFF_FENCE_GATE);
-                        entries.add(ModBlocks.CHISELED_TUFF_DOOR);
-                        entries.add(ModBlocks.CHISELED_TUFF_TRAPDOOR);
-                        entries.add(ModBlocks.CHISELED_TUFF_PRESSURE_PLATE);
-                        entries.add(ModBlocks.CHISELED_TUFF_BUTTON);
+                        entries.add(ModBlocks2.CHISELED_TUFF_STAIRS);
+                        entries.add(ModBlocks2.CHISELED_TUFF_SLAB);
+                        entries.add(ModBlocks2.CHISELED_TUFF_WALL);
+                        entries.add(ModBlocks2.CHISELED_TUFF_FENCE);
+                        entries.add(ModBlocks2.CHISELED_TUFF_FENCE_GATE);
+                        entries.add(ModBlocks2.CHISELED_TUFF_DOOR);
+                        entries.add(ModBlocks2.CHISELED_TUFF_TRAPDOOR);
+                        entries.add(ModBlocks2.CHISELED_TUFF_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.CHISELED_TUFF_BUTTON);
                         //polished_tuff
-                        entries.add(ModBlocks.POLISHED_TUFF_FENCE);
-                        entries.add(ModBlocks.POLISHED_TUFF_FENCE_GATE);
-                        entries.add(ModBlocks.POLISHED_TUFF_DOOR);
-                        entries.add(ModBlocks.POLISHED_TUFF_TRAPDOOR);
-                        entries.add(ModBlocks.POLISHED_TUFF_PRESSURE_PLATE);
-                        entries.add(ModBlocks.POLISHED_TUFF_BUTTON);
+                        entries.add(ModBlocks2.POLISHED_TUFF_FENCE);
+                        entries.add(ModBlocks2.POLISHED_TUFF_FENCE_GATE);
+                        entries.add(ModBlocks2.POLISHED_TUFF_DOOR);
+                        entries.add(ModBlocks2.POLISHED_TUFF_TRAPDOOR);
+                        entries.add(ModBlocks2.POLISHED_TUFF_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.POLISHED_TUFF_BUTTON);
                         //tuff_bricks
                         entries.add(ModBlocks2.TUFF_BRICKS_FENCE);
                         entries.add(ModBlocks2.TUFF_BRICKS_FENCE_GATE);

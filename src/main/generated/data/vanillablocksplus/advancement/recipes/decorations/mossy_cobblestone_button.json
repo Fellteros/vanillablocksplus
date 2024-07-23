@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_mossy_cobblestone_button": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:mossy_cobblestone_button"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:mossy_cobblestone_button"
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_mossy_cobblestone_button",
       "has_mossy_cobblestone"
     ]
   ],

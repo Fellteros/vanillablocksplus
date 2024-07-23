@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_cut_sandstone_trapdoor": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:cut_sandstone_trapdoor"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:cut_sandstone_trapdoor"
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_cut_sandstone_trapdoor",
       "has_cut_sandstone_slab"
     ]
   ],

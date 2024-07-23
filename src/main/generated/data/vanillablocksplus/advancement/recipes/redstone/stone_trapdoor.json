@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_stone_trapdoor": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:stone_trapdoor"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:stone_trapdoor"
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_stone_trapdoor",
       "has_stone_slab"
     ]
   ],

@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_ice_trapdoor": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:ice_trapdoor"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:ice_trapdoor"
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_ice_trapdoor",
       "has_ice_slab"
     ]
   ],

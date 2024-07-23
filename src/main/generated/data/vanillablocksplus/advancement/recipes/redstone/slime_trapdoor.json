@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_slime_trapdoor": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:slime_trapdoor"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:slime_trapdoor"
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_slime_trapdoor",
       "has_slime_slab"
     ]
   ],

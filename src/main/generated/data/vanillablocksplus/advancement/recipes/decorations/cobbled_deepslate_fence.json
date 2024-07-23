@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_cobbled_deepslate_fence": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:cobbled_deepslate_fence"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_cobbled_deepslate_slab": {
       "conditions": {
         "items": [
@@ -41,7 +31,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_cobbled_deepslate_fence",
       "has_cobbled_deepslate",
       "has_cobbled_deepslate_slab"
     ]

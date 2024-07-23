@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_lapis_stairs": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:lapis_stairs"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:lapis_stairs"
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_lapis_stairs",
       "has_lapis_bit"
     ]
   ],

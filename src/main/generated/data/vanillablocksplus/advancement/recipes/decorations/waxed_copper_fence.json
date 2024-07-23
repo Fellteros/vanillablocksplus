@@ -17,16 +17,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_waxed_copper_fence": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:waxed_copper_fence"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_waxed_copper_slab": {
       "conditions": {
         "items": [
@@ -41,7 +31,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_waxed_copper_fence",
       "has_waxed_copper_block",
       "has_waxed_copper_slab"
     ]

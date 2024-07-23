@@ -21,16 +21,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_coal_fence_gate": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:coal_fence_gate"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:coal_fence_gate"
@@ -41,7 +31,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_coal_fence_gate",
       "has_coal_bit",
       "has_coal"
     ]

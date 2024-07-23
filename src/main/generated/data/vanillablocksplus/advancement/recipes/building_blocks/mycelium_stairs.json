@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_mycelium_stairs": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:mycelium_stairs"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:mycelium_stairs"
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_mycelium_stairs",
       "has_mycelium"
     ]
   ],

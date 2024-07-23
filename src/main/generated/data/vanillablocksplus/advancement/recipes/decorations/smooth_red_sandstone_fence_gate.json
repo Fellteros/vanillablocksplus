@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_smooth_red_sandstone_fence_gate": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:smooth_red_sandstone_fence_gate"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_smooth_red_sandstone_slab": {
       "conditions": {
         "items": [
@@ -41,7 +31,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_smooth_red_sandstone_fence_gate",
       "has_smooth_red_sandstone",
       "has_smooth_red_sandstone_slab"
     ]

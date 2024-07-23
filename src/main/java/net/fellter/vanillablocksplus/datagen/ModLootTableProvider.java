@@ -2951,23 +2951,23 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_WALL);
 
         //chiseled_tuff
-        addDrop(ModBlocks.CHISELED_TUFF_STAIRS);
-        addDrop(ModBlocks.CHISELED_TUFF_TRAPDOOR);
-        addDrop(ModBlocks.CHISELED_TUFF_BUTTON);
-        addDrop(ModBlocks.CHISELED_TUFF_PRESSURE_PLATE);
-        addDrop(ModBlocks.CHISELED_TUFF_FENCE);
-        addDrop(ModBlocks.CHISELED_TUFF_FENCE_GATE);
-        addDrop(ModBlocks.CHISELED_TUFF_DOOR, doorDrops(ModBlocks.CHISELED_TUFF_DOOR));
-        addDrop(ModBlocks.CHISELED_TUFF_SLAB, slabDrops(ModBlocks.CHISELED_TUFF_SLAB));
-        addDrop(ModBlocks.CHISELED_TUFF_WALL);
+        addDrop(ModBlocks2.CHISELED_TUFF_STAIRS);
+        addDrop(ModBlocks2.CHISELED_TUFF_TRAPDOOR);
+        addDrop(ModBlocks2.CHISELED_TUFF_BUTTON);
+        addDrop(ModBlocks2.CHISELED_TUFF_PRESSURE_PLATE);
+        addDrop(ModBlocks2.CHISELED_TUFF_FENCE);
+        addDrop(ModBlocks2.CHISELED_TUFF_FENCE_GATE);
+        addDrop(ModBlocks2.CHISELED_TUFF_DOOR, doorDrops(ModBlocks2.CHISELED_TUFF_DOOR));
+        addDrop(ModBlocks2.CHISELED_TUFF_SLAB, slabDrops(ModBlocks2.CHISELED_TUFF_SLAB));
+        addDrop(ModBlocks2.CHISELED_TUFF_WALL);
 
         //polished_tuff
-        addDrop(ModBlocks.POLISHED_TUFF_TRAPDOOR);
-        addDrop(ModBlocks.POLISHED_TUFF_BUTTON);
-        addDrop(ModBlocks.POLISHED_TUFF_PRESSURE_PLATE);
-        addDrop(ModBlocks.POLISHED_TUFF_FENCE);
-        addDrop(ModBlocks.POLISHED_TUFF_FENCE_GATE);
-        addDrop(ModBlocks.POLISHED_TUFF_DOOR, doorDrops(ModBlocks.POLISHED_TUFF_DOOR));
+        addDrop(ModBlocks2.POLISHED_TUFF_TRAPDOOR);
+        addDrop(ModBlocks2.POLISHED_TUFF_BUTTON);
+        addDrop(ModBlocks2.POLISHED_TUFF_PRESSURE_PLATE);
+        addDrop(ModBlocks2.POLISHED_TUFF_FENCE);
+        addDrop(ModBlocks2.POLISHED_TUFF_FENCE_GATE);
+        addDrop(ModBlocks2.POLISHED_TUFF_DOOR, doorDrops(ModBlocks2.POLISHED_TUFF_DOOR));
 
         //tuff_bricks
         addDrop(ModBlocks2.TUFF_BRICKS_TRAPDOOR);

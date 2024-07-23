@@ -16,22 +16,11 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
-    },
-    "has_tube_coral_stairs": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:tube_coral_stairs"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_tube_coral_stairs",
       "has_tube_coral_block"
     ]
   ],

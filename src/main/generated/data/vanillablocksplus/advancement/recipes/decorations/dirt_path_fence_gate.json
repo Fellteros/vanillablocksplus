@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_dirt_path_fence_gate": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:dirt_path_fence_gate"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_dirt_path_slab": {
       "conditions": {
         "items": [
@@ -41,7 +31,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_dirt_path_fence_gate",
       "has_dirt_path",
       "has_dirt_path_slab"
     ]

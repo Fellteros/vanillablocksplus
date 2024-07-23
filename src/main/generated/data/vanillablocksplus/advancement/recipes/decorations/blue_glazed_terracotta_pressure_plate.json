@@ -1,16 +1,6 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_blue_glazed_terracotta_pressure_plate": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:blue_glazed_terracotta_pressure_plate"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_blue_glazed_terracotta_slab": {
       "conditions": {
         "items": [
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_blue_glazed_terracotta_pressure_plate",
       "has_blue_glazed_terracotta_slab"
     ]
   ],

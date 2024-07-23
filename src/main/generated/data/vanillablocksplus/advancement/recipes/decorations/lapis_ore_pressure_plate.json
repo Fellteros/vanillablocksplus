@@ -1,16 +1,6 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_lapis_ore_pressure_plate": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:lapis_ore_pressure_plate"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_lapis_ore_slab": {
       "conditions": {
         "items": [
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_lapis_ore_pressure_plate",
       "has_lapis_ore_slab"
     ]
   ],

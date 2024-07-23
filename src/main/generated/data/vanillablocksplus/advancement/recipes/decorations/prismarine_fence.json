@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_prismarine_fence": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:prismarine_fence"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_prismarine_slab": {
       "conditions": {
         "items": [
@@ -41,7 +31,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_prismarine_fence",
       "has_prismarine",
       "has_prismarine_slab"
     ]

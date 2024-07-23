@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_honeycomb_trapdoor": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:honeycomb_trapdoor"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:honeycomb_trapdoor"
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_honeycomb_trapdoor",
       "has_honeycomb_slab"
     ]
   ],

@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_pearlescent_froglight_slab": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:pearlescent_froglight_slab"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:pearlescent_froglight_slab"
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_pearlescent_froglight_slab",
       "has_pearlescent_froglight"
     ]
   ],

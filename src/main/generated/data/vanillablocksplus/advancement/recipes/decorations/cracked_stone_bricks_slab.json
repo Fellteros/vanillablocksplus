@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_cracked_stone_bricks_slab": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:cracked_stone_bricks_slab"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:cracked_stone_bricks_slab"
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_cracked_stone_bricks_slab",
       "has_cracked_stone_bricks"
     ]
   ],

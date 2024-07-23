@@ -1,16 +1,6 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cracked_polished_blackstone_brick_button": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:cracked_polished_blackstone_brick_button"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_cracked_polished_blackstone_bricks": {
       "conditions": {
         "items": [
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_cracked_polished_blackstone_brick_button",
       "has_cracked_polished_blackstone_bricks"
     ]
   ],

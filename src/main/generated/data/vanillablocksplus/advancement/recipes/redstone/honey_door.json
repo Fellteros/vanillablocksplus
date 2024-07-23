@@ -11,16 +11,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_honey_door": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:honey_door"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "vanillablocksplus:honey_door"
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_honey_door",
       "has_honey_block"
     ]
   ],

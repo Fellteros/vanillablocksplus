@@ -1,16 +1,6 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_redstone_button": {
-      "conditions": {
-        "items": [
-          {
-            "items": "vanillablocksplus:redstone_button"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_redstone_shard": {
       "conditions": {
         "items": [
@@ -31,7 +21,6 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_redstone_button",
       "has_redstone_shard"
     ]
   ],

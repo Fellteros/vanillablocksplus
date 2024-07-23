@@ -3229,23 +3229,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WAXED_OXIDIZED_COPPER_GRATE_WALL, (Blocks.WAXED_OXIDIZED_COPPER_GRATE)).offerTo(exporter);
 
         //chiseled_tuff
-        ModRecipes.DoorRecipe(ModBlocks.CHISELED_TUFF_DOOR, (Blocks.CHISELED_TUFF)).offerTo(exporter);
-        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.CHISELED_TUFF_SLAB, (Blocks.CHISELED_TUFF)).offerTo(exporter);
-        ModRecipes.StairsRecipe(ModBlocks.CHISELED_TUFF_STAIRS, (Blocks.CHISELED_TUFF)).offerTo(exporter);
-        ModRecipes.NWFenceRecipe(ModBlocks.CHISELED_TUFF_FENCE, (Blocks.CHISELED_TUFF), (ModBlocks.CHISELED_TUFF_SLAB), 3).offerTo(exporter);
-        ModRecipes.NWFenceGateRecipe(ModBlocks.CHISELED_TUFF_FENCE_GATE, (Blocks.CHISELED_TUFF), (ModBlocks.CHISELED_TUFF_SLAB), 1).offerTo(exporter);
-        ModRecipes.TrapdoorRecipe(ModBlocks.CHISELED_TUFF_TRAPDOOR, (ModBlocks.CHISELED_TUFF_SLAB)).offerTo(exporter);
-        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.CHISELED_TUFF_PRESSURE_PLATE, (ModBlocks.CHISELED_TUFF_SLAB)).offerTo(exporter);
-        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.CHISELED_TUFF_BUTTON, Blocks.CHISELED_TUFF, 1).offerTo(exporter);
-        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.CHISELED_TUFF_WALL, (Blocks.CHISELED_TUFF)).offerTo(exporter);
+        ModRecipes.DoorRecipe(ModBlocks2.CHISELED_TUFF_DOOR, (Blocks.CHISELED_TUFF)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks2.CHISELED_TUFF_SLAB, (Blocks.CHISELED_TUFF)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks2.CHISELED_TUFF_STAIRS, (Blocks.CHISELED_TUFF)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks2.CHISELED_TUFF_FENCE, (Blocks.CHISELED_TUFF), (ModBlocks2.CHISELED_TUFF_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks2.CHISELED_TUFF_FENCE_GATE, (Blocks.CHISELED_TUFF), (ModBlocks2.CHISELED_TUFF_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks2.CHISELED_TUFF_TRAPDOOR, (ModBlocks2.CHISELED_TUFF_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks2.CHISELED_TUFF_PRESSURE_PLATE, (ModBlocks2.CHISELED_TUFF_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks2.CHISELED_TUFF_BUTTON, Blocks.CHISELED_TUFF, 1).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks2.CHISELED_TUFF_WALL, (Blocks.CHISELED_TUFF)).offerTo(exporter);
 
         //polished_tuff
-        ModRecipes.DoorRecipe(ModBlocks.POLISHED_TUFF_DOOR, (Blocks.POLISHED_TUFF)).offerTo(exporter);
-        ModRecipes.NWFenceRecipe(ModBlocks.POLISHED_TUFF_FENCE, (Blocks.POLISHED_TUFF), (Blocks.POLISHED_TUFF_SLAB), 3).offerTo(exporter);
-        ModRecipes.NWFenceGateRecipe(ModBlocks.POLISHED_TUFF_FENCE_GATE, (Blocks.POLISHED_TUFF), (Blocks.POLISHED_TUFF_SLAB), 1).offerTo(exporter);
-        ModRecipes.TrapdoorRecipe(ModBlocks.POLISHED_TUFF_TRAPDOOR, (Blocks.POLISHED_TUFF_SLAB)).offerTo(exporter);
-        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.POLISHED_TUFF_PRESSURE_PLATE, (Blocks.POLISHED_TUFF_SLAB)).offerTo(exporter);
-        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.POLISHED_TUFF_BUTTON, Blocks.POLISHED_TUFF, 1).offerTo(exporter);
+        ModRecipes.DoorRecipe(ModBlocks2.POLISHED_TUFF_DOOR, (Blocks.POLISHED_TUFF)).offerTo(exporter);
+        ModRecipes.NWFenceRecipe(ModBlocks2.POLISHED_TUFF_FENCE, (Blocks.POLISHED_TUFF), (Blocks.POLISHED_TUFF_SLAB), 3).offerTo(exporter);
+        ModRecipes.NWFenceGateRecipe(ModBlocks2.POLISHED_TUFF_FENCE_GATE, (Blocks.POLISHED_TUFF), (Blocks.POLISHED_TUFF_SLAB), 1).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks2.POLISHED_TUFF_TRAPDOOR, (Blocks.POLISHED_TUFF_SLAB)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks2.POLISHED_TUFF_PRESSURE_PLATE, (Blocks.POLISHED_TUFF_SLAB)).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks2.POLISHED_TUFF_BUTTON, Blocks.POLISHED_TUFF, 1).offerTo(exporter);
 
         //tuff_bricks
         ModRecipes.DoorRecipe(ModBlocks2.TUFF_BRICKS_DOOR, (Blocks.TUFF_BRICKS)).offerTo(exporter);
