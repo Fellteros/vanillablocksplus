@@ -33,6 +33,5 @@ public class ModItems {
 
     public static void registerModItems() {
         VanillaBlocksPlus.LOGGER.info("Registering Mod Items for " + VanillaBlocksPlus.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItemGroups::addItemsToIngredientsTab);
     }
 }

@@ -22,6 +22,31 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
+    //plank walls
+    public static final Block OAK_WALL = registerBlock("oak_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_WALL = registerBlock("spruce_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block BIRCH_WALL = registerBlock("birch_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.BIRCH_PLANKS)));
+    public static final Block JUNGLE_WALL = registerBlock("jungle_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.JUNGLE_PLANKS)));
+    public static final Block ACACIA_WALL = registerBlock("acacia_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.ACACIA_PLANKS)));
+    public static final Block DARK_OAK_WALL = registerBlock("dark_oak_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.DARK_OAK_PLANKS)));
+    public static final Block MANGROVE_WALL = registerBlock("mangrove_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.MANGROVE_PLANKS)));
+    public static final Block CHERRY_WALL = registerBlock("cherry_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_PLANKS)));
+    public static final Block BAMBOO_WALL = registerBlock("bamboo_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.BAMBOO_PLANKS)));
+    public static final Block CRIMSON_WALL = registerBlock("crimson_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.CRIMSON_PLANKS)));
+    public static final Block WARPED_WALL = registerBlock("warped_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.WARPED_PLANKS)));
+
+
     //oak_wood_set
     public static final Block OAK_WOOD_STAIRS = registerBlock("oak_wood_stairs",
             new StairsBlock(Blocks.OAK_WOOD.getDefaultState(), AbstractBlock.Settings.copy(Blocks.OAK_WOOD)));
@@ -39,6 +64,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(Blocks.OAK_WOOD)));
     public static final Block OAK_WOOD_TRAPDOOR = registerBlock("oak_wood_trapdoor",
             new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(Blocks.OAK_WOOD)));
+    public static final Block OAK_WOOD_WALL = registerBlock("oak_wood_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD)));
 
     //str_oak_wood_set
     public static final Block STR_OAK_WOOD_STAIRS = registerBlock("str_oak_wood_stairs",
@@ -57,6 +84,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_WOOD)));
     public static final Block STR_OAK_WOOD_TRAPDOOR = registerBlock("str_oak_wood_trapdoor",
             new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_WOOD)));
+    public static final Block STR_OAK_WOOD_WALL = registerBlock("str_oak_wood_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_WOOD)));
 
     //spruce_wood_set
     public static final Block SPRUCE_WOOD_STAIRS = registerBlock("spruce_wood_stairs",
@@ -75,6 +104,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.SPRUCE, AbstractBlock.Settings.copy(Blocks.SPRUCE_WOOD)));
     public static final Block SPRUCE_WOOD_TRAPDOOR = registerBlock("spruce_wood_trapdoor",
             new TrapdoorBlock(BlockSetType.SPRUCE, AbstractBlock.Settings.copy(Blocks.SPRUCE_WOOD)));
+    public static final Block SPRUCE_WOOD_WALL = registerBlock("spruce_wood_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.SPRUCE_WOOD)));
 
     //str_spruce_wood_set
     public static final Block STR_SPRUCE_WOOD_STAIRS = registerBlock("str_spruce_wood_stairs",
@@ -93,6 +124,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.SPRUCE, AbstractBlock.Settings.copy(Blocks.STRIPPED_SPRUCE_WOOD)));
     public static final Block STR_SPRUCE_WOOD_TRAPDOOR = registerBlock("str_spruce_wood_trapdoor",
             new TrapdoorBlock(BlockSetType.SPRUCE, AbstractBlock.Settings.copy(Blocks.STRIPPED_SPRUCE_WOOD)));
+    public static final Block STR_SPRUCE_WOOD_WALL = registerBlock("str_spruce_wood_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_SPRUCE_WOOD)));
 
     //birch_wood_set
     public static final Block BIRCH_WOOD_STAIRS = registerBlock("birch_wood_stairs",
@@ -111,6 +144,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.BIRCH, AbstractBlock.Settings.copy(Blocks.BIRCH_WOOD)));
     public static final Block BIRCH_WOOD_TRAPDOOR = registerBlock("birch_wood_trapdoor",
             new TrapdoorBlock(BlockSetType.BIRCH, AbstractBlock.Settings.copy(Blocks.BIRCH_WOOD)));
+    public static final Block BIRCH_WOOD_WALL = registerBlock("birch_wood_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.BIRCH_WOOD)));
 
     //str_birch_wood_set
     public static final Block STR_BIRCH_WOOD_STAIRS = registerBlock("str_birch_wood_stairs",
@@ -129,6 +164,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.BIRCH, AbstractBlock.Settings.copy(Blocks.STRIPPED_BIRCH_WOOD)));
     public static final Block STR_BIRCH_WOOD_TRAPDOOR = registerBlock("str_birch_wood_trapdoor",
             new TrapdoorBlock(BlockSetType.BIRCH, AbstractBlock.Settings.copy(Blocks.STRIPPED_BIRCH_WOOD)));
+    public static final Block STR_BIRCH_WOOD_WALL = registerBlock("str_birch_wood_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_BIRCH_WOOD)));
 
     //jungle_wood_set
     public static final Block JUNGLE_WOOD_STAIRS = registerBlock("jungle_wood_stairs",
@@ -147,6 +184,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.JUNGLE, AbstractBlock.Settings.copy(Blocks.JUNGLE_WOOD)));
     public static final Block JUNGLE_WOOD_TRAPDOOR = registerBlock("jungle_wood_trapdoor",
             new TrapdoorBlock(BlockSetType.JUNGLE, AbstractBlock.Settings.copy(Blocks.JUNGLE_WOOD)));
+    public static final Block JUNGLE_WOOD_WALL = registerBlock("jungle_wood_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.JUNGLE_WOOD)));
 
     //str_jungle_wood_set
     public static final Block STR_JUNGLE_WOOD_STAIRS = registerBlock("str_jungle_wood_stairs",
@@ -165,6 +204,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.JUNGLE, AbstractBlock.Settings.copy(Blocks.STRIPPED_JUNGLE_WOOD)));
     public static final Block STR_JUNGLE_WOOD_TRAPDOOR = registerBlock("str_jungle_wood_trapdoor",
             new TrapdoorBlock(BlockSetType.JUNGLE, AbstractBlock.Settings.copy(Blocks.STRIPPED_JUNGLE_WOOD)));
+    public static final Block STR_JUNGLE_WOOD_WALL = registerBlock("str_jungle_wood_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_JUNGLE_WOOD)));
 
     //acacia_wood_set
     public static final Block ACACIA_WOOD_STAIRS = registerBlock("acacia_wood_stairs",
@@ -183,6 +224,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.copy(Blocks.ACACIA_WOOD)));
     public static final Block ACACIA_WOOD_TRAPDOOR = registerBlock("acacia_wood_trapdoor",
             new TrapdoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.copy(Blocks.ACACIA_WOOD)));
+    public static final Block ACACIA_WOOD_WALL = registerBlock("acacia_wood_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.ACACIA_WOOD)));
 
     //str_acacia_wood_set
     public static final Block STR_ACACIA_WOOD_STAIRS = registerBlock("str_acacia_wood_stairs",
@@ -201,6 +244,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.copy(Blocks.STRIPPED_ACACIA_WOOD)));
     public static final Block STR_ACACIA_WOOD_TRAPDOOR = registerBlock("str_acacia_wood_trapdoor",
             new TrapdoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.copy(Blocks.STRIPPED_ACACIA_WOOD)));
+    public static final Block STR_ACACIA_WOOD_WALL = registerBlock("str_acacia_wood_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_ACACIA_WOOD)));
 
     //dark_oak_wood_set
     public static final Block DARK_OAK_WOOD_STAIRS = registerBlock("dark_oak_wood_stairs",
@@ -219,6 +264,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.DARK_OAK, AbstractBlock.Settings.copy(Blocks.DARK_OAK_WOOD)));
     public static final Block DARK_OAK_WOOD_TRAPDOOR = registerBlock("dark_oak_wood_trapdoor",
             new TrapdoorBlock(BlockSetType.DARK_OAK, AbstractBlock.Settings.copy(Blocks.DARK_OAK_WOOD)));
+    public static final Block DARK_OAK_WOOD_WALL = registerBlock("dark_oak_wood_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.DARK_OAK_WOOD)));
 
     //str_dark_oak_wood_set
     public static final Block STR_DARK_OAK_WOOD_STAIRS = registerBlock("str_dark_oak_wood_stairs",
@@ -237,6 +284,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.DARK_OAK, AbstractBlock.Settings.copy(Blocks.STRIPPED_DARK_OAK_WOOD)));
     public static final Block STR_DARK_OAK_WOOD_TRAPDOOR = registerBlock("str_dark_oak_wood_trapdoor",
             new TrapdoorBlock(BlockSetType.DARK_OAK, AbstractBlock.Settings.copy(Blocks.STRIPPED_DARK_OAK_WOOD)));
+    public static final Block STR_DARK_OAK_WOOD_WALL = registerBlock("str_dark_oak_wood_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_DARK_OAK_WOOD)));
 
     //mangrove_wood_set
     public static final Block MANGROVE_WOOD_STAIRS = registerBlock("mangrove_wood_stairs",
@@ -255,6 +304,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.MANGROVE, AbstractBlock.Settings.copy(Blocks.MANGROVE_WOOD)));
     public static final Block MANGROVE_WOOD_TRAPDOOR = registerBlock("mangrove_wood_trapdoor",
             new TrapdoorBlock(BlockSetType.MANGROVE, AbstractBlock.Settings.copy(Blocks.MANGROVE_WOOD)));
+    public static final Block MANGROVE_WOOD_WALL = registerBlock("mangrove_wood_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.MANGROVE_WOOD)));
 
     //str_mangrove_wood_set
     public static final Block STR_MANGROVE_WOOD_STAIRS = registerBlock("str_mangrove_wood_stairs",
@@ -273,6 +324,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.MANGROVE, AbstractBlock.Settings.copy(Blocks.MANGROVE_WOOD)));
     public static final Block STR_MANGROVE_WOOD_TRAPDOOR = registerBlock("str_mangrove_wood_trapdoor",
             new TrapdoorBlock(BlockSetType.MANGROVE, AbstractBlock.Settings.copy(Blocks.MANGROVE_WOOD)));
+    public static final Block STR_MANGROVE_WOOD_WALL = registerBlock("str_mangrove_wood_wall",
+            new WallBlock(AbstractBlock.Settings.create().mapColor(MapColor.RED).instrument(NoteBlockInstrument.BASS).strength(2.0F).sounds(BlockSoundGroup.WOOD).burnable()));
 
     //cherry_wood_set
     public static final Block CHERRY_WOOD_STAIRS = registerBlock("cherry_wood_stairs",
@@ -291,6 +344,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(Blocks.CHERRY_WOOD)));
     public static final Block CHERRY_WOOD_TRAPDOOR = registerBlock("cherry_wood_trapdoor",
             new TrapdoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(Blocks.CHERRY_WOOD)));
+    public static final Block CHERRY_WOOD_WALL = registerBlock("cherry_wood_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_WOOD)));
 
     //str_cherry_wood_set
     public static final Block STR_CHERRY_WOOD_STAIRS = registerBlock("str_cherry_wood_stairs",
@@ -309,6 +364,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(Blocks.STRIPPED_CHERRY_WOOD)));
     public static final Block STR_CHERRY_WOOD_TRAPDOOR = registerBlock("str_cherry_wood_trapdoor",
             new TrapdoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(Blocks.STRIPPED_CHERRY_WOOD)));
+    public static final Block STR_CHERRY_WOOD_WALL = registerBlock("str_cherry_wood_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_CHERRY_WOOD)));
 
     //bamboo_wood_set
     public static final Block BAMBOO_BLOCK_STAIRS = registerBlock("bamboo_block_stairs",
@@ -327,6 +384,8 @@ public class ModBlocks {
             new DoorBlock(ModBlockSetType.BAMBOO_WOOD, AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2.0f).sounds(BlockSoundGroup.BAMBOO_WOOD).burnable()));
     public static final Block BAMBOO_BLOCK_TRAPDOOR = registerBlock("bamboo_block_trapdoor",
             new TrapdoorBlock(ModBlockSetType.BAMBOO_WOOD, AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2.0f).sounds(BlockSoundGroup.BAMBOO_WOOD).burnable()));
+    public static final Block BAMBOO_BLOCK_WALL = registerBlock("bamboo_block_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2.0f).instrument(NoteBlockInstrument.BASS).sounds(BlockSoundGroup.BAMBOO_WOOD)));
 
     //str_bamboo_wood_set
     public static final Block STR_BAMBOO_BLOCK_STAIRS = registerBlock("str_bamboo_block_stairs",
@@ -345,6 +404,8 @@ public class ModBlocks {
             new DoorBlock(ModBlockSetType.BAMBOO_WOOD, AbstractBlock.Settings.create().strength(2.0f).instrument(NoteBlockInstrument.BASS).sounds(BlockSoundGroup.BAMBOO_WOOD)));
     public static final Block STR_BAMBOO_BLOCK_TRAPDOOR = registerBlock("str_bamboo_block_trapdoor",
             new TrapdoorBlock(ModBlockSetType.BAMBOO_WOOD, AbstractBlock.Settings.create().strength(2.0f).instrument(NoteBlockInstrument.BASS).sounds(BlockSoundGroup.BAMBOO_WOOD)));
+    public static final Block STR_BAMBOO_BLOCK_WALL = registerBlock("str_bamboo_block_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2.0f).instrument(NoteBlockInstrument.BASS).sounds(BlockSoundGroup.BAMBOO_WOOD)));
 
     //crimson_hyphae_set
     public static final Block CRIMSON_HYPHAE_STAIRS = registerBlock("crimson_hyphae_stairs",
@@ -363,6 +424,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.CRIMSON, AbstractBlock.Settings.copy(Blocks.CRIMSON_HYPHAE)));
     public static final Block CRIMSON_HYPHAE_TRAPDOOR = registerBlock("crimson_hyphae_trapdoor",
             new TrapdoorBlock(BlockSetType.CRIMSON, AbstractBlock.Settings.copy(Blocks.CRIMSON_HYPHAE)));
+    public static final Block CRIMSON_HYPHAE_WALL = registerBlock("crimson_hyphae_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.CRIMSON_HYPHAE)));
 
     //str_crimson_hyphae_set
     public static final Block STR_CRIMSON_HYPHAE_STAIRS = registerBlock("str_crimson_hyphae_stairs",
@@ -381,6 +444,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.CRIMSON, AbstractBlock.Settings.copy(Blocks.STRIPPED_CRIMSON_HYPHAE)));
     public static final Block STR_CRIMSON_HYPHAE_TRAPDOOR = registerBlock("str_crimson_hyphae_trapdoor",
             new TrapdoorBlock(BlockSetType.CRIMSON, AbstractBlock.Settings.copy(Blocks.STRIPPED_CRIMSON_HYPHAE)));
+    public static final Block STR_CRIMSON_HYPHAE_WALL = registerBlock("str_crimson_hyphae_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_CRIMSON_HYPHAE)));
 
     //warped_hyphae_set
     public static final Block WARPED_HYPHAE_STAIRS = registerBlock("warped_hyphae_stairs",
@@ -399,6 +464,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.WARPED, AbstractBlock.Settings.copy(Blocks.WARPED_HYPHAE)));
     public static final Block WARPED_HYPHAE_TRAPDOOR = registerBlock("warped_hyphae_trapdoor",
             new TrapdoorBlock(BlockSetType.WARPED, AbstractBlock.Settings.copy(Blocks.WARPED_HYPHAE)));
+    public static final Block WARPED_HYPHAE_WALL = registerBlock("warped_hyphae_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.WARPED_HYPHAE)));
 
     //str_warped_hyphae_set
     public static final Block STR_WARPED_HYPHAE_STAIRS = registerBlock("str_warped_hyphae_stairs",
@@ -417,6 +484,8 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.WARPED, AbstractBlock.Settings.copy(Blocks.STRIPPED_WARPED_HYPHAE)));
     public static final Block STR_WARPED_HYPHAE_TRAPDOOR = registerBlock("str_warped_hyphae_trapdoor",
             new TrapdoorBlock(BlockSetType.WARPED, AbstractBlock.Settings.copy(Blocks.WARPED_TRAPDOOR)));
+    public static final Block STR_WARPED_HYPHAE_WALL = registerBlock("str_warped_hyphae_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_WARPED_HYPHAE)));
 
     //stone
     public static final Block STONE_FENCE = registerBlock("stone_fence",

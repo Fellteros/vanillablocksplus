@@ -7,6 +7,7 @@
   "block.vanillablocksplus.oak_wood_fence_gate": "Oak Wood Fence Gate",
   "block.vanillablocksplus.oak_wood_pressure_plate": "Oak Wood Pressure Plate",
   "block.vanillablocksplus.oak_wood_button": "Oak Wood Button",
+  "block.vanillablocksplus.oak_wood_wall": "Oak Wood Wall",
 
   "block.vanillablocksplus.str_oak_wood_stairs": "Stripped Oak Wood Stairs",
   "block.vanillablocksplus.str_oak_wood_slab": "Stripped Oak Wood Slab",
@@ -16,6 +17,7 @@
   "block.vanillablocksplus.str_oak_wood_fence_gate": "Stripped Oak Wood Fence Gate",
   "block.vanillablocksplus.str_oak_wood_pressure_plate": "Stripped Oak Wood Pressure Plate",
   "block.vanillablocksplus.str_oak_wood_button": "Stripped Oak Wood Button",
+  "block.vanillablocksplus.str_oak_wood_wall": "Stripped Oak Wood Wall",
 
   "block.vanillablocksplus.spruce_wood_stairs": "Spruce Wood Stairs",
   "block.vanillablocksplus.spruce_wood_slab": "Spruce Wood Slab",
@@ -25,6 +27,7 @@
   "block.vanillablocksplus.spruce_wood_fence_gate": "Spruce Wood Fence Gate",
   "block.vanillablocksplus.spruce_wood_pressure_plate": "Spruce Wood Pressure Plate",
   "block.vanillablocksplus.spruce_wood_button": "Spruce Wood Button",
+  "block.vanillablocksplus.spruce_wood_wall": "Spruce Wood Wall",
 
   "block.vanillablocksplus.str_spruce_wood_stairs": "Stripped Spruce Wood Stairs",
   "block.vanillablocksplus.str_spruce_wood_slab": "Stripped Spruce Wood Slab",
@@ -34,6 +37,7 @@
   "block.vanillablocksplus.str_spruce_wood_fence_gate": "Stripped Spruce Wood Fence Gate",
   "block.vanillablocksplus.str_spruce_wood_pressure_plate": "Stripped Spruce Wood Pressure Plate",
   "block.vanillablocksplus.str_spruce_wood_button": "Stripped Spruce Wood Button",
+  "block.vanillablocksplus.str_spruce_wood_wall": "Stripped Spruce Wood Wall",
 
   "block.vanillablocksplus.birch_wood_stairs": "Birch Wood Stairs",
   "block.vanillablocksplus.birch_wood_slab": "Birch Wood Slab",
@@ -43,6 +47,7 @@
   "block.vanillablocksplus.birch_wood_fence_gate": "Birch Wood Fence Gate",
   "block.vanillablocksplus.birch_wood_pressure_plate": "Birch Wood Pressure Plate",
   "block.vanillablocksplus.birch_wood_button": "Birch Wood Button",
+  "block.vanillablocksplus.birch_wood_wall": "Birch Wood Wall",
 
   "block.vanillablocksplus.str_birch_wood_stairs": "Stripped Birch Wood Stairs",
   "block.vanillablocksplus.str_birch_wood_slab": "Stripped Birch Wood Slab",
@@ -52,6 +57,7 @@
   "block.vanillablocksplus.str_birch_wood_fence_gate": "Stripped Birch Wood Fence Gate",
   "block.vanillablocksplus.str_birch_wood_pressure_plate": "Stripped Birch Wood Pressure Plate",
   "block.vanillablocksplus.str_birch_wood_button": "Stripped Birch Wood Button",
+  "block.vanillablocksplus.str_birch_wood_wall": "Stripped Birch Wood Wall",
 
   "block.vanillablocksplus.jungle_wood_stairs": "Jungle Wood Stairs",
   "block.vanillablocksplus.jungle_wood_slab": "Jungle Wood Slab",
@@ -61,6 +67,7 @@
   "block.vanillablocksplus.jungle_wood_fence_gate": "Jungle Wood Fence Gate",
   "block.vanillablocksplus.jungle_wood_pressure_plate": "Jungle Wood Pressure Plate",
   "block.vanillablocksplus.jungle_wood_button": "Jungle Wood Button",
+  "block.vanillablocksplus.jungle_wood_wall": "Jungle Wood Wall",
 
   "block.vanillablocksplus.str_jungle_wood_stairs": "Stripped Jungle Wood Stairs",
   "block.vanillablocksplus.str_jungle_wood_slab": "Stripped Jungle Wood Slab",
@@ -70,6 +77,7 @@
   "block.vanillablocksplus.str_jungle_wood_fence_gate": "Stripped Jungle Wood Fence Gate",
   "block.vanillablocksplus.str_jungle_wood_pressure_plate": "Stripped Jungle Wood Pressure Plate",
   "block.vanillablocksplus.str_jungle_wood_button": "Stripped Jungle Wood Button",
+  "block.vanillablocksplus.str_jungle_wood_wall": "Stripped Jungle Wood Wall",
 
   "block.vanillablocksplus.acacia_wood_stairs": "Acacia Wood Stairs",
   "block.vanillablocksplus.acacia_wood_slab": "Acacia Wood Slab",
@@ -79,6 +87,7 @@
   "block.vanillablocksplus.acacia_wood_fence_gate": "Acacia Wood Fence Gate",
   "block.vanillablocksplus.acacia_wood_pressure_plate": "Acacia Wood Pressure Plate",
   "block.vanillablocksplus.acacia_wood_button": "Acacia Wood Button",
+  "block.vanillablocksplus.acacia_wood_wall": "Acacia Wood Wall",
 
   "block.vanillablocksplus.str_acacia_wood_stairs": "Stripped Acacia Wood Stairs",
   "block.vanillablocksplus.str_acacia_wood_slab": "Stripped Acacia Wood Slab",
@@ -88,6 +97,7 @@
   "block.vanillablocksplus.str_acacia_wood_fence_gate": "Stripped Acacia Wood Fence Gate",
   "block.vanillablocksplus.str_acacia_wood_pressure_plate": "Stripped Acacia Wood Pressure Plate",
   "block.vanillablocksplus.str_acacia_wood_button": "Stripped Acacia Wood Button",
+  "block.vanillablocksplus.str_acacia_wood_wall": "Stripped Acacia Wood Wall",
 
   "block.vanillablocksplus.dark_oak_wood_stairs": "Dark Oak Wood Stairs",
   "block.vanillablocksplus.dark_oak_wood_slab": "Dark Oak Wood Slab",
@@ -97,6 +107,7 @@
   "block.vanillablocksplus.dark_oak_wood_fence_gate": "Dark Oak Wood Fence Gate",
   "block.vanillablocksplus.dark_oak_wood_pressure_plate": "Dark Oak Wood Pressure Plate",
   "block.vanillablocksplus.dark_oak_wood_button": "Dark Oak Wood Button",
+  "block.vanillablocksplus.dark_oak_wood_wall": "Dark Oak Wood Wall",
 
   "block.vanillablocksplus.str_dark_oak_wood_stairs": "Stripped Dark Oak Wood Stairs",
   "block.vanillablocksplus.str_dark_oak_wood_slab": "Stripped Dark Oak Wood Slab",
@@ -106,6 +117,7 @@
   "block.vanillablocksplus.str_dark_oak_wood_fence_gate": "Stripped Dark Oak Wood Fence Gate",
   "block.vanillablocksplus.str_dark_oak_wood_pressure_plate": "Stripped Dark Oak Wood Pressure Plate",
   "block.vanillablocksplus.str_dark_oak_wood_button": "Stripped Dark Oak Wood Button",
+  "block.vanillablocksplus.str_dark_oak_wood_wall": "Stripped Dark Oak Wood Wall",
 
   "block.vanillablocksplus.mangrove_wood_stairs": "Mangrove Wood Stairs",
   "block.vanillablocksplus.mangrove_wood_slab": "Mangrove Wood Slab",
@@ -115,6 +127,7 @@
   "block.vanillablocksplus.mangrove_wood_fence_gate": "Mangrove Wood Fence Gate",
   "block.vanillablocksplus.mangrove_wood_pressure_plate": "Mangrove Wood Pressure Plate",
   "block.vanillablocksplus.mangrove_wood_button": "Mangrove Wood Button",
+  "block.vanillablocksplus.mangrove_wood_wall": "Mangrove Wood Wall",
 
   "block.vanillablocksplus.str_mangrove_wood_stairs": "Stripped Mangrove Wood Stairs",
   "block.vanillablocksplus.str_mangrove_wood_slab": "Stripped Mangrove Wood Slab",
@@ -124,6 +137,7 @@
   "block.vanillablocksplus.str_mangrove_wood_fence_gate": "Stripped Mangrove Wood Fence Gate",
   "block.vanillablocksplus.str_mangrove_wood_pressure_plate": "Stripped Mangrove Wood Pressure Plate",
   "block.vanillablocksplus.str_mangrove_wood_button": "Stripped Mangrove Wood Button",
+  "block.vanillablocksplus.str_mangrove_wood_wall": "Stripped Mangrove Wood Wall",
 
   "block.vanillablocksplus.cherry_wood_stairs": "Cherry Wood Stairs",
   "block.vanillablocksplus.cherry_wood_slab": "Cherry Wood Slab",
@@ -133,6 +147,7 @@
   "block.vanillablocksplus.cherry_wood_fence_gate": "Cherry Wood Fence Gate",
   "block.vanillablocksplus.cherry_wood_pressure_plate": "Cherry Wood Pressure Plate",
   "block.vanillablocksplus.cherry_wood_button": "Cherry Wood Button",
+  "block.vanillablocksplus.cherry_wood_wall": "Cherry Wood Wall",
 
   "block.vanillablocksplus.str_cherry_wood_stairs": "Stripped Cherry Wood Stairs",
   "block.vanillablocksplus.str_cherry_wood_slab": "Stripped Cherry Wood Slab",
@@ -142,6 +157,7 @@
   "block.vanillablocksplus.str_cherry_wood_fence_gate": "Stripped Cherry Wood Fence Gate",
   "block.vanillablocksplus.str_cherry_wood_pressure_plate": "Stripped Cherry Wood Pressure Plate",
   "block.vanillablocksplus.str_cherry_wood_button": "Stripped Cherry Wood Button",
+  "block.vanillablocksplus.str_cherry_wood_wall": "Stripped Cherry Wood Wall",
 
   "block.vanillablocksplus.bamboo_block_stairs": "Bamboo Block Stairs",
   "block.vanillablocksplus.bamboo_block_slab": "Bamboo Block Slab",
@@ -151,6 +167,7 @@
   "block.vanillablocksplus.bamboo_block_fence_gate": "Bamboo Block Fence Gate",
   "block.vanillablocksplus.bamboo_block_pressure_plate": "Bamboo Block Pressure Plate",
   "block.vanillablocksplus.bamboo_block_button": "Bamboo Block Button",
+  "block.vanillablocksplus.bamboo_block_wall": "Bamboo Block Wall",
 
   "block.vanillablocksplus.str_bamboo_block_stairs": "Stripped Bamboo Block Stairs",
   "block.vanillablocksplus.str_bamboo_block_slab": "Stripped Bamboo Block Slab",
@@ -160,6 +177,7 @@
   "block.vanillablocksplus.str_bamboo_block_fence_gate": "Stripped Bamboo Block Fence Gate",
   "block.vanillablocksplus.str_bamboo_block_pressure_plate": "Stripped Bamboo Block Pressure Plate",
   "block.vanillablocksplus.str_bamboo_block_button": "Stripped Bamboo Block Button",
+  "block.vanillablocksplus.str_bamboo_block_wall": "Stripped Bamboo Block Wall",
 
   "block.vanillablocksplus.crimson_hyphae_stairs": "Crimson Hyphae Stairs",
   "block.vanillablocksplus.crimson_hyphae_slab": "Crimson Hyphae Slab",
@@ -169,6 +187,7 @@
   "block.vanillablocksplus.crimson_hyphae_fence_gate": "Crimson Hyphae Fence Gate",
   "block.vanillablocksplus.crimson_hyphae_pressure_plate": "Crimson Hyphae Pressure Plate",
   "block.vanillablocksplus.crimson_hyphae_button": "Crimson Hyphae Button",
+  "block.vanillablocksplus.crimson_hyphae_wall": "Crimson Hyphae Wall",
 
   "block.vanillablocksplus.str_crimson_hyphae_stairs": "Stripped Crimson Hyphae Stairs",
   "block.vanillablocksplus.str_crimson_hyphae_slab": "Stripped Crimson Hyphae Slab",
@@ -178,6 +197,7 @@
   "block.vanillablocksplus.str_crimson_hyphae_fence_gate": "Stripped Crimson Hyphae Fence Gate",
   "block.vanillablocksplus.str_crimson_hyphae_pressure_plate": "Stripped Crimson Hyphae Pressure Plate",
   "block.vanillablocksplus.str_crimson_hyphae_button": "Stripped Crimson Hyphae Button",
+  "block.vanillablocksplus.str_crimson_hyphae_wall": "Stripped Crimson Hyphae Wall",
 
   "block.vanillablocksplus.warped_hyphae_stairs": "Warped Hyphae Stairs",
   "block.vanillablocksplus.warped_hyphae_slab": "Warped Hyphae Slab",
@@ -187,6 +207,7 @@
   "block.vanillablocksplus.warped_hyphae_fence_gate": "Warped Hyphae Fence Gate",
   "block.vanillablocksplus.warped_hyphae_pressure_plate": "Warped Hyphae Pressure Plate",
   "block.vanillablocksplus.warped_hyphae_button": "Warped Hyphae Button",
+  "block.vanillablocksplus.warped_hyphae_wall": "Warped Hyphae Wall",
 
   "block.vanillablocksplus.str_warped_hyphae_stairs": "Stripped Warped Hyphae Stairs",
   "block.vanillablocksplus.str_warped_hyphae_slab": "Stripped Warped Hyphae Slab",
@@ -196,6 +217,7 @@
   "block.vanillablocksplus.str_warped_hyphae_fence_gate": "Stripped Warped Hyphae Fence Gate",
   "block.vanillablocksplus.str_warped_hyphae_pressure_plate": "Stripped Warped Hyphae Pressure Plate",
   "block.vanillablocksplus.str_warped_hyphae_button": "Stripped Warped Hyphae Button",
+  "block.vanillablocksplus.str_warped_hyphae_wall": "Stripped Warped Hyphae Wall",
 
   "block.vanillablocksplus.stone_door": "Stone Door",
   "block.vanillablocksplus.stone_trapdoor": "Stone Trapdoor",
@@ -2898,12 +2920,25 @@
   "block.vanillablocksplus.waxed_oxidized_copper_grate_pressure_plate": "Waxed Oxidized Copper Grate Pressure Plate",
   "block.vanillablocksplus.waxed_oxidized_copper_grate_button": "Waxed Oxidized Copper Grate Button",
   "block.vanillablocksplus.waxed_oxidized_copper_grate_wall": "Waxed Oxidized Copper Grate Wall",
-  
 
-  
-  
+  "block.vanillablocksplus.oak_wall": "Oak Wall",
+  "block.vanillablocksplus.spruce_wall": "Spruce Wall",
+  "block.vanillablocksplus.birch_wall": "Birch Wall",
+  "block.vanillablocksplus.jungle_wall": "Jungle Wall",
+  "block.vanillablocksplus.acacia_wall": "Acacia Wall",
+  "block.vanillablocksplus.dark_oak_wall": "Dark Oak Wall",
+  "block.vanillablocksplus.mangrove_wall": "Mangrove Wall",
+  "block.vanillablocksplus.cherry_wall": "Cherry Wall",
+  "block.vanillablocksplus.bamboo_wall": "Bamboo Wall",
+  "block.vanillablocksplus.crimson_wall": "Crimson Wall",
+  "block.vanillablocksplus.warped_wall": "Warped Wall",
 
-  
+
+
+
+
+
+
   "item.vanillablocksplus.coal_bit": "Coal Bit",
   "item.vanillablocksplus.diamond_dust": "Diamond Dust",
   "item.vanillablocksplus.gold_bit": "Gold Bit",

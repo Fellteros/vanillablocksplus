@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.block.ModBlocks2;
+import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryWrapper;
 
 import java.util.concurrent.CompletableFuture;
@@ -2976,6 +2977,41 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks2.TUFF_BRICKS_FENCE);
         addDrop(ModBlocks2.TUFF_BRICKS_FENCE_GATE);
         addDrop(ModBlocks2.TUFF_BRICKS_DOOR, doorDrops(ModBlocks2.TUFF_BRICKS_DOOR));
+
+        //plank_walls
+        addDrop(ModBlocks.OAK_WALL);
+        addDrop(ModBlocks.SPRUCE_WALL);
+        addDrop(ModBlocks.BIRCH_WALL);
+        addDrop(ModBlocks.JUNGLE_WALL);
+        addDrop(ModBlocks.ACACIA_WALL);
+        addDrop(ModBlocks.DARK_OAK_WALL);
+        addDrop(ModBlocks.MANGROVE_WALL);
+        addDrop(ModBlocks.CHERRY_WALL);
+        addDrop(ModBlocks.BAMBOO_WALL);
+        addDrop(ModBlocks.CRIMSON_WALL);
+        addDrop(ModBlocks.WARPED_WALL);
+        addDrop(ModBlocks.OAK_WOOD_WALL);
+        addDrop(ModBlocks.SPRUCE_WOOD_WALL);
+        addDrop(ModBlocks.BIRCH_WOOD_WALL);
+        addDrop(ModBlocks.JUNGLE_WOOD_WALL);
+        addDrop(ModBlocks.ACACIA_WOOD_WALL);
+        addDrop(ModBlocks.DARK_OAK_WOOD_WALL);
+        addDrop(ModBlocks.MANGROVE_WOOD_WALL);
+        addDrop(ModBlocks.CHERRY_WOOD_WALL);
+        addDrop(ModBlocks.BAMBOO_BLOCK_WALL);
+        addDrop(ModBlocks.CRIMSON_HYPHAE_WALL);
+        addDrop(ModBlocks.WARPED_HYPHAE_WALL);
+        addDrop(ModBlocks.STR_OAK_WOOD_WALL);
+        addDrop(ModBlocks.STR_SPRUCE_WOOD_WALL);
+        addDrop(ModBlocks.STR_BIRCH_WOOD_WALL);
+        addDrop(ModBlocks.STR_JUNGLE_WOOD_WALL);
+        addDrop(ModBlocks.STR_ACACIA_WOOD_WALL);
+        addDrop(ModBlocks.STR_DARK_OAK_WOOD_WALL);
+        addDrop(ModBlocks.STR_MANGROVE_WOOD_WALL);
+        addDrop(ModBlocks.STR_CHERRY_WOOD_WALL);
+        addDrop(ModBlocks.STR_BAMBOO_BLOCK_WALL);
+        addDrop(ModBlocks.STR_CRIMSON_HYPHAE_WALL);
+        addDrop(ModBlocks.STR_WARPED_HYPHAE_WALL);
         
         
         

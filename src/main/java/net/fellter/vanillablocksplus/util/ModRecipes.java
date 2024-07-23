@@ -129,5 +129,14 @@ public class ModRecipes {
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .showNotification(true);
     }
+    public static CraftingRecipeJsonBuilder PlankWallRecipe(RecipeCategory category, ItemConvertible output, ItemConvertible input) {
+        return ShapedRecipeJsonBuilder.create(category, output, 8)
+                .input('#', input)
+                .pattern(" # ")
+                .pattern("###")
+                .pattern("###")
+                .criterion(hasItem(input), conditionsFromItem(input))
+                .showNotification(true);
+    }
 
 }
