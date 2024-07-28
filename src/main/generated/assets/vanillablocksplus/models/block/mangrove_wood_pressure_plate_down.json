@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/pressure_plate_down",
+  "parent": "vanillablocksplus:blockmodels/pressure_plate_stb_down",
   "textures": {
-    "texture": "minecraft:block/mangrove_wood"
+    "bottom": "minecraft:block/mangrove_log",
+    "side": "minecraft:block/mangrove_log",
+    "top": "minecraft:block/mangrove_log"
   }
 }

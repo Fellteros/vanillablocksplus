@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/wall_inventory",
+  "parent": "vanillablocksplus:blockmodels/wall_stb_inventory",
   "textures": {
-    "wall": "minecraft:block/jungle_wood"
+    "bottom": "minecraft:block/jungle_log",
+    "side": "minecraft:block/jungle_log",
+    "top": "minecraft:block/jungle_log"
   }
 }

@@ -5865,6 +5865,7 @@ public class ModBlocks {
         return Registry.register(Registries.BLOCK, Identifier.of(VanillaBlocksPlus.MOD_ID, name), block);
     }
 
+
     private static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, Identifier.of(VanillaBlocksPlus.MOD_ID, name),
                 new BlockItem(block, new Item.Settings()));

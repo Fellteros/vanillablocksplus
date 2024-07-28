@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/fence_side",
+  "parent": "vanillablocksplus:blockmodels/fence_stb_side",
   "textures": {
-    "texture": "minecraft:block/spruce_wood"
+    "bottom": "minecraft:block/spruce_log",
+    "side": "minecraft:block/spruce_log",
+    "top": "minecraft:block/spruce_log"
   }
 }

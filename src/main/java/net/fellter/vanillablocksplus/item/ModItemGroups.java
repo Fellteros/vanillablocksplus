@@ -217,13 +217,13 @@ public class ModItemGroups {
                         //str crimson hyphae
                         entries.add(ModBlocks.STR_CRIMSON_HYPHAE_STAIRS);
                         entries.add(ModBlocks.STR_CRIMSON_HYPHAE_SLAB);
+                        entries.add(ModBlocks.STR_CRIMSON_HYPHAE_WALL);
                         entries.add(ModBlocks.STR_CRIMSON_HYPHAE_FENCE);
                         entries.add(ModBlocks.STR_CRIMSON_HYPHAE_FENCE_GATE);
                         entries.add(ModBlocks.STR_CRIMSON_HYPHAE_DOOR);
                         entries.add(ModBlocks.STR_CRIMSON_HYPHAE_TRAPDOOR);
                         entries.add(ModBlocks.STR_CRIMSON_HYPHAE_PRESSURE_PLATE);
                         entries.add(ModBlocks.STR_CRIMSON_HYPHAE_BUTTON);
-                        entries.add(ModBlocks.STR_CRIMSON_HYPHAE_WALL);
                         //warped hyphae
                         entries.add(ModBlocks.WARPED_HYPHAE_STAIRS);
                         entries.add(ModBlocks.WARPED_HYPHAE_SLAB);

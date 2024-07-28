@@ -1,9 +1,7 @@
 package net.fellter.vanillablocksplus.item;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -22,10 +20,6 @@ public class ModItems {
     public static final Item DIAMOND_DUST = registerItem("diamond_dust", new Item(new Item.Settings()));
     public static final Item NETHERITE_BIT = registerItem("netherite_bit", new Item(new Item.Settings()));
     public static final Item COPPER_BIT = registerItem("copper_bit", new Item(new Item.Settings()));
-
-
-
-
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(VanillaBlocksPlus.MOD_ID, name), item);

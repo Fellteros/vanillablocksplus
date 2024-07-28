@@ -395,201 +395,201 @@ public class ModModelProvider extends FabricModelProvider {
 
 
         //oak
-        bsmg.registerCubeAllModelTexturePool(Blocks.OAK_WOOD)
-            .button(ModBlocks.OAK_WOOD_BUTTON)
-            .fence(ModBlocks.OAK_WOOD_FENCE)
-            .fenceGate(ModBlocks.OAK_WOOD_FENCE_GATE)
-            .pressurePlate(ModBlocks.OAK_WOOD_PRESSURE_PLATE)
-            .slab(ModBlocks.OAK_WOOD_SLAB)
-            .stairs(ModBlocks.OAK_WOOD_STAIRS)
-            .wall(ModBlocks.OAK_WOOD_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.OAK_LOG), Blocks.OAK_WOOD)
+                .button(ModBlocks.OAK_WOOD_BUTTON)
+                .fence(ModBlocks.OAK_WOOD_FENCE)
+                .fenceGate(ModBlocks.OAK_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.OAK_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.OAK_WOOD_SLAB)
+                .stairs(ModBlocks.OAK_WOOD_STAIRS)
+                .wall(ModBlocks.OAK_WOOD_WALL);
         //str oak
-        bsmg.registerCubeAllModelTexturePool(Blocks.STRIPPED_OAK_WOOD)
-            .button(ModBlocks.STR_OAK_WOOD_BUTTON)
-            .fence(ModBlocks.STR_OAK_WOOD_FENCE)
-            .fenceGate(ModBlocks.STR_OAK_WOOD_FENCE_GATE)
-            .pressurePlate(ModBlocks.STR_OAK_WOOD_PRESSURE_PLATE)
-            .slab(ModBlocks.STR_OAK_WOOD_SLAB)
-            .stairs(ModBlocks.STR_OAK_WOOD_STAIRS)
-            .wall(ModBlocks.STR_OAK_WOOD_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_OAK_LOG), Blocks.STRIPPED_OAK_WOOD)
+                .button(ModBlocks.STR_OAK_WOOD_BUTTON)
+                .fence(ModBlocks.STR_OAK_WOOD_FENCE)
+                .fenceGate(ModBlocks.STR_OAK_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.STR_OAK_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.STR_OAK_WOOD_SLAB)
+                .stairs(ModBlocks.STR_OAK_WOOD_STAIRS)
+                .wall(ModBlocks.STR_OAK_WOOD_WALL);
         //spruce
-        bsmg.registerCubeAllModelTexturePool(Blocks.SPRUCE_WOOD)
-            .button(ModBlocks.SPRUCE_WOOD_BUTTON)
-            .fence(ModBlocks.SPRUCE_WOOD_FENCE)
-            .fenceGate(ModBlocks.SPRUCE_WOOD_FENCE_GATE)
-            .pressurePlate(ModBlocks.SPRUCE_WOOD_PRESSURE_PLATE)
-            .slab(ModBlocks.SPRUCE_WOOD_SLAB)
-            .stairs(ModBlocks.SPRUCE_WOOD_STAIRS)
-            .wall(ModBlocks.SPRUCE_WOOD_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.SPRUCE_LOG), Blocks.SPRUCE_WOOD)
+                .button(ModBlocks.SPRUCE_WOOD_BUTTON)
+                .fence(ModBlocks.SPRUCE_WOOD_FENCE)
+                .fenceGate(ModBlocks.SPRUCE_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.SPRUCE_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.SPRUCE_WOOD_SLAB)
+                .stairs(ModBlocks.SPRUCE_WOOD_STAIRS)
+                .wall(ModBlocks.SPRUCE_WOOD_WALL);
         //str spruce
-        bsmg.registerCubeAllModelTexturePool(Blocks.STRIPPED_SPRUCE_WOOD)
-            .button(ModBlocks.STR_SPRUCE_WOOD_BUTTON)
-            .fence(ModBlocks.STR_SPRUCE_WOOD_FENCE)
-            .fenceGate(ModBlocks.STR_SPRUCE_WOOD_FENCE_GATE)
-            .pressurePlate(ModBlocks.STR_SPRUCE_WOOD_PRESSURE_PLATE)
-            .slab(ModBlocks.STR_SPRUCE_WOOD_SLAB)
-            .stairs(ModBlocks.STR_SPRUCE_WOOD_STAIRS)
-            .wall(ModBlocks.STR_SPRUCE_WOOD_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_SPRUCE_LOG), Blocks.STRIPPED_SPRUCE_WOOD)
+                .button(ModBlocks.STR_SPRUCE_WOOD_BUTTON)
+                .fence(ModBlocks.STR_SPRUCE_WOOD_FENCE)
+                .fenceGate(ModBlocks.STR_SPRUCE_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.STR_SPRUCE_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.STR_SPRUCE_WOOD_SLAB)
+                .stairs(ModBlocks.STR_SPRUCE_WOOD_STAIRS)
+                .wall(ModBlocks.STR_SPRUCE_WOOD_WALL);
         //birch
-        bsmg.registerCubeAllModelTexturePool(Blocks.BIRCH_WOOD)
-            .button(ModBlocks.BIRCH_WOOD_BUTTON)
-            .fence(ModBlocks.BIRCH_WOOD_FENCE)
-            .fenceGate(ModBlocks.BIRCH_WOOD_FENCE_GATE)
-            .pressurePlate(ModBlocks.BIRCH_WOOD_PRESSURE_PLATE)
-            .slab(ModBlocks.BIRCH_WOOD_SLAB)
-            .stairs(ModBlocks.BIRCH_WOOD_STAIRS)
-            .wall(ModBlocks.BIRCH_WOOD_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.BIRCH_LOG), Blocks.BIRCH_WOOD)
+                .button(ModBlocks.BIRCH_WOOD_BUTTON)
+                .fence(ModBlocks.BIRCH_WOOD_FENCE)
+                .fenceGate(ModBlocks.BIRCH_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.BIRCH_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.BIRCH_WOOD_SLAB)
+                .stairs(ModBlocks.BIRCH_WOOD_STAIRS)
+                .wall(ModBlocks.BIRCH_WOOD_WALL);
         //str birch
-        bsmg.registerCubeAllModelTexturePool(Blocks.STRIPPED_BIRCH_WOOD)
-            .button(ModBlocks.STR_BIRCH_WOOD_BUTTON)
-            .fence(ModBlocks.STR_BIRCH_WOOD_FENCE)
-            .fenceGate(ModBlocks.STR_BIRCH_WOOD_FENCE_GATE)
-            .pressurePlate(ModBlocks.STR_BIRCH_WOOD_PRESSURE_PLATE)
-            .slab(ModBlocks.STR_BIRCH_WOOD_SLAB)
-            .stairs(ModBlocks.STR_BIRCH_WOOD_STAIRS)
-            .wall(ModBlocks.STR_BIRCH_WOOD_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_BIRCH_LOG), Blocks.STRIPPED_BIRCH_WOOD)
+                .button(ModBlocks.STR_BIRCH_WOOD_BUTTON)
+                .fence(ModBlocks.STR_BIRCH_WOOD_FENCE)
+                .fenceGate(ModBlocks.STR_BIRCH_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.STR_BIRCH_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.STR_BIRCH_WOOD_SLAB)
+                .stairs(ModBlocks.STR_BIRCH_WOOD_STAIRS)
+                .wall(ModBlocks.STR_BIRCH_WOOD_WALL);
         //jungle
-        bsmg.registerCubeAllModelTexturePool(Blocks.JUNGLE_WOOD)
-            .button(ModBlocks.JUNGLE_WOOD_BUTTON)
-            .fence(ModBlocks.JUNGLE_WOOD_FENCE)
-            .fenceGate(ModBlocks.JUNGLE_WOOD_FENCE_GATE)
-            .pressurePlate(ModBlocks.JUNGLE_WOOD_PRESSURE_PLATE)
-            .slab(ModBlocks.JUNGLE_WOOD_SLAB)
-            .stairs(ModBlocks.JUNGLE_WOOD_STAIRS)
-            .wall(ModBlocks.JUNGLE_WOOD_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.JUNGLE_LOG), Blocks.JUNGLE_WOOD)
+                .button(ModBlocks.JUNGLE_WOOD_BUTTON)
+                .fence(ModBlocks.JUNGLE_WOOD_FENCE)
+                .fenceGate(ModBlocks.JUNGLE_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.JUNGLE_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.JUNGLE_WOOD_SLAB)
+                .stairs(ModBlocks.JUNGLE_WOOD_STAIRS)
+                .wall(ModBlocks.JUNGLE_WOOD_WALL);
         //str jungle
-        bsmg.registerCubeAllModelTexturePool(Blocks.STRIPPED_JUNGLE_WOOD)
-            .button(ModBlocks.STR_JUNGLE_WOOD_BUTTON)
-            .fence(ModBlocks.STR_JUNGLE_WOOD_FENCE)
-            .fenceGate(ModBlocks.STR_JUNGLE_WOOD_FENCE_GATE)
-            .pressurePlate(ModBlocks.STR_JUNGLE_WOOD_PRESSURE_PLATE)
-            .slab(ModBlocks.STR_JUNGLE_WOOD_SLAB)
-            .stairs(ModBlocks.STR_JUNGLE_WOOD_STAIRS)
-            .wall(ModBlocks.STR_JUNGLE_WOOD_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_JUNGLE_LOG), Blocks.STRIPPED_JUNGLE_WOOD)
+                .button(ModBlocks.STR_JUNGLE_WOOD_BUTTON)
+                .fence(ModBlocks.STR_JUNGLE_WOOD_FENCE)
+                .fenceGate(ModBlocks.STR_JUNGLE_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.STR_JUNGLE_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.STR_JUNGLE_WOOD_SLAB)
+                .stairs(ModBlocks.STR_JUNGLE_WOOD_STAIRS)
+                .wall(ModBlocks.STR_JUNGLE_WOOD_WALL);
         //acacia
-        bsmg.registerCubeAllModelTexturePool(Blocks.ACACIA_WOOD)
-            .button(ModBlocks.ACACIA_WOOD_BUTTON)
-            .fence(ModBlocks.ACACIA_WOOD_FENCE)
-            .fenceGate(ModBlocks.ACACIA_WOOD_FENCE_GATE)
-            .pressurePlate(ModBlocks.ACACIA_WOOD_PRESSURE_PLATE)
-            .slab(ModBlocks.ACACIA_WOOD_SLAB)
-            .stairs(ModBlocks.ACACIA_WOOD_STAIRS)
-            .wall(ModBlocks.ACACIA_WOOD_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.ACACIA_LOG), Blocks.ACACIA_WOOD)
+                .button(ModBlocks.ACACIA_WOOD_BUTTON)
+                .fence(ModBlocks.ACACIA_WOOD_FENCE)
+                .fenceGate(ModBlocks.ACACIA_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.ACACIA_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.ACACIA_WOOD_SLAB)
+                .stairs(ModBlocks.ACACIA_WOOD_STAIRS)
+                .wall(ModBlocks.ACACIA_WOOD_WALL);
         //str acacia
-        bsmg.registerCubeAllModelTexturePool(Blocks.STRIPPED_ACACIA_WOOD)
-            .button(ModBlocks.STR_ACACIA_WOOD_BUTTON)
-            .fence(ModBlocks.STR_ACACIA_WOOD_FENCE)
-            .fenceGate(ModBlocks.STR_ACACIA_WOOD_FENCE_GATE)
-            .pressurePlate(ModBlocks.STR_ACACIA_WOOD_PRESSURE_PLATE)
-            .slab(ModBlocks.STR_ACACIA_WOOD_SLAB)
-            .stairs(ModBlocks.STR_ACACIA_WOOD_STAIRS)
-            .wall(ModBlocks.STR_ACACIA_WOOD_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_ACACIA_LOG), Blocks.STRIPPED_ACACIA_WOOD)
+                .button(ModBlocks.STR_ACACIA_WOOD_BUTTON)
+                .fence(ModBlocks.STR_ACACIA_WOOD_FENCE)
+                .fenceGate(ModBlocks.STR_ACACIA_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.STR_ACACIA_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.STR_ACACIA_WOOD_SLAB)
+                .stairs(ModBlocks.STR_ACACIA_WOOD_STAIRS)
+                .wall(ModBlocks.STR_ACACIA_WOOD_WALL);
         //dark oak
-        bsmg.registerCubeAllModelTexturePool(Blocks.DARK_OAK_WOOD)
-            .button(ModBlocks.DARK_OAK_WOOD_BUTTON)
-            .fence(ModBlocks.DARK_OAK_WOOD_FENCE)
-            .fenceGate(ModBlocks.DARK_OAK_WOOD_FENCE_GATE)
-            .pressurePlate(ModBlocks.DARK_OAK_WOOD_PRESSURE_PLATE)
-            .slab(ModBlocks.DARK_OAK_WOOD_SLAB)
-            .stairs(ModBlocks.DARK_OAK_WOOD_STAIRS)
-            .wall(ModBlocks.DARK_OAK_WOOD_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.DARK_OAK_LOG), Blocks.DARK_OAK_WOOD)
+                .button(ModBlocks.DARK_OAK_WOOD_BUTTON)
+                .fence(ModBlocks.DARK_OAK_WOOD_FENCE)
+                .fenceGate(ModBlocks.DARK_OAK_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.DARK_OAK_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.DARK_OAK_WOOD_SLAB)
+                .stairs(ModBlocks.DARK_OAK_WOOD_STAIRS)
+                .wall(ModBlocks.DARK_OAK_WOOD_WALL);
         //str dark oak
-        bsmg.registerCubeAllModelTexturePool(Blocks.STRIPPED_DARK_OAK_WOOD)
-            .button(ModBlocks.STR_DARK_OAK_WOOD_BUTTON)
-            .fence(ModBlocks.STR_DARK_OAK_WOOD_FENCE)
-            .fenceGate(ModBlocks.STR_DARK_OAK_WOOD_FENCE_GATE)
-            .pressurePlate(ModBlocks.STR_DARK_OAK_WOOD_PRESSURE_PLATE)
-            .slab(ModBlocks.STR_DARK_OAK_WOOD_SLAB)
-            .stairs(ModBlocks.STR_DARK_OAK_WOOD_STAIRS)
-            .wall(ModBlocks.STR_DARK_OAK_WOOD_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_DARK_OAK_LOG), Blocks.STRIPPED_DARK_OAK_WOOD)
+                .button(ModBlocks.STR_DARK_OAK_WOOD_BUTTON)
+                .fence(ModBlocks.STR_DARK_OAK_WOOD_FENCE)
+                .fenceGate(ModBlocks.STR_DARK_OAK_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.STR_DARK_OAK_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.STR_DARK_OAK_WOOD_SLAB)
+                .stairs(ModBlocks.STR_DARK_OAK_WOOD_STAIRS)
+                .wall(ModBlocks.STR_DARK_OAK_WOOD_WALL);
         //mangrove
-        bsmg.registerCubeAllModelTexturePool(Blocks.MANGROVE_WOOD)
-            .button(ModBlocks.MANGROVE_WOOD_BUTTON)
-            .fence(ModBlocks.MANGROVE_WOOD_FENCE)
-            .fenceGate(ModBlocks.MANGROVE_WOOD_FENCE_GATE)
-            .pressurePlate(ModBlocks.MANGROVE_WOOD_PRESSURE_PLATE)
-            .slab(ModBlocks.MANGROVE_WOOD_SLAB)
-            .stairs(ModBlocks.MANGROVE_WOOD_STAIRS)
-            .wall(ModBlocks.MANGROVE_WOOD_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.MANGROVE_LOG), Blocks.MANGROVE_WOOD)
+                .button(ModBlocks.MANGROVE_WOOD_BUTTON)
+                .fence(ModBlocks.MANGROVE_WOOD_FENCE)
+                .fenceGate(ModBlocks.MANGROVE_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.MANGROVE_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.MANGROVE_WOOD_SLAB)
+                .stairs(ModBlocks.MANGROVE_WOOD_STAIRS)
+                .wall(ModBlocks.MANGROVE_WOOD_WALL);
         //str mangrove
-        bsmg.registerCubeAllModelTexturePool(Blocks.STRIPPED_MANGROVE_WOOD)
-            .button(ModBlocks.STR_MANGROVE_WOOD_BUTTON)
-            .fence(ModBlocks.STR_MANGROVE_WOOD_FENCE)
-            .fenceGate(ModBlocks.STR_MANGROVE_WOOD_FENCE_GATE)
-            .pressurePlate(ModBlocks.STR_MANGROVE_WOOD_PRESSURE_PLATE)
-            .slab(ModBlocks.STR_MANGROVE_WOOD_SLAB)
-            .stairs(ModBlocks.STR_MANGROVE_WOOD_STAIRS)
-            .wall(ModBlocks.STR_MANGROVE_WOOD_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_MANGROVE_LOG), Blocks.STRIPPED_MANGROVE_WOOD)
+                .button(ModBlocks.STR_MANGROVE_WOOD_BUTTON)
+                .fence(ModBlocks.STR_MANGROVE_WOOD_FENCE)
+                .fenceGate(ModBlocks.STR_MANGROVE_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.STR_MANGROVE_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.STR_MANGROVE_WOOD_SLAB)
+                .stairs(ModBlocks.STR_MANGROVE_WOOD_STAIRS)
+                .wall(ModBlocks.STR_MANGROVE_WOOD_WALL);
         //cherry
-        bsmg.registerCubeAllModelTexturePool(Blocks.CHERRY_WOOD)
-            .button(ModBlocks.CHERRY_WOOD_BUTTON)
-            .fence(ModBlocks.CHERRY_WOOD_FENCE)
-            .fenceGate(ModBlocks.CHERRY_WOOD_FENCE_GATE)
-            .pressurePlate(ModBlocks.CHERRY_WOOD_PRESSURE_PLATE)
-            .slab(ModBlocks.CHERRY_WOOD_SLAB)
-            .stairs(ModBlocks.CHERRY_WOOD_STAIRS)
-            .wall(ModBlocks.CHERRY_WOOD_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.CHERRY_LOG), Blocks.CHERRY_WOOD)
+                .button(ModBlocks.CHERRY_WOOD_BUTTON)
+                .fence(ModBlocks.CHERRY_WOOD_FENCE)
+                .fenceGate(ModBlocks.CHERRY_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.CHERRY_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.CHERRY_WOOD_SLAB)
+                .stairs(ModBlocks.CHERRY_WOOD_STAIRS)
+                .wall(ModBlocks.CHERRY_WOOD_WALL);
         //str cherry
-        bsmg.registerCubeAllModelTexturePool(Blocks.STRIPPED_CHERRY_WOOD)
-            .button(ModBlocks.STR_CHERRY_WOOD_BUTTON)
-            .fence(ModBlocks.STR_CHERRY_WOOD_FENCE)
-            .fenceGate(ModBlocks.STR_CHERRY_WOOD_FENCE_GATE)
-            .pressurePlate(ModBlocks.STR_CHERRY_WOOD_PRESSURE_PLATE)
-            .slab(ModBlocks.STR_CHERRY_WOOD_SLAB)
-            .stairs(ModBlocks.STR_CHERRY_WOOD_STAIRS)
-            .wall(ModBlocks.STR_CHERRY_WOOD_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_CHERRY_LOG), Blocks.STRIPPED_CHERRY_WOOD)
+                .button(ModBlocks.STR_CHERRY_WOOD_BUTTON)
+                .fence(ModBlocks.STR_CHERRY_WOOD_FENCE)
+                .fenceGate(ModBlocks.STR_CHERRY_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.STR_CHERRY_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.STR_CHERRY_WOOD_SLAB)
+                .stairs(ModBlocks.STR_CHERRY_WOOD_STAIRS)
+                .wall(ModBlocks.STR_CHERRY_WOOD_WALL);
         //bamboo
-        registerCustomButton(bsmg, ModBlocks.BAMBOO_BLOCK_BUTTON, ModTextureMap.customSTB(Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK, "", "_top", "_top"));
-        registerCustomFence(bsmg, ModBlocks.BAMBOO_BLOCK_FENCE, ModTextureMap.customSTB(Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK, "", "_top", "_top"));
-        registerCustomFenceGate(bsmg, ModBlocks.BAMBOO_BLOCK_FENCE_GATE, ModTextureMap.customSTB(Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK, "", "_top", "_top"));
-        registerCustomPressurePlate(bsmg, ModBlocks.BAMBOO_BLOCK_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK, "", "_top", "_top"));
-        registerCustomSlab(bsmg, ModBlocks.BAMBOO_BLOCK_SLAB, Blocks.BAMBOO_BLOCK, ModTextureMap.customSTB(Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK, "", "_top", "_top"));
-        registerCustomStairs(bsmg, ModBlocks.BAMBOO_BLOCK_STAIRS, ModTextureMap.customSTB(Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK, "", "_top", "_top"));
-        registerCustomWall(bsmg, ModBlocks.BAMBOO_BLOCK_WALL, ModTextureMap.customSTB(Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK, "", "_top", "_top"));
+        registerCustomButton(bsmg, ModBlocks.BAMBOO_BLOCK_BUTTON, ModTextureMap.blockAndTopForEnds(Blocks.BAMBOO_BLOCK));
+        registerCustomFence(bsmg, ModBlocks.BAMBOO_BLOCK_FENCE, ModTextureMap.blockAndTopForEnds(Blocks.BAMBOO_BLOCK));
+        registerCustomFenceGate(bsmg, ModBlocks.BAMBOO_BLOCK_FENCE_GATE, ModTextureMap.blockAndTopForEnds(Blocks.BAMBOO_BLOCK));
+        registerCustomPressurePlate(bsmg, ModBlocks.BAMBOO_BLOCK_PRESSURE_PLATE, ModTextureMap.blockAndTopForEnds(Blocks.BAMBOO_BLOCK));
+        registerCustomSlab(bsmg, ModBlocks.BAMBOO_BLOCK_SLAB, Blocks.BAMBOO_BLOCK, ModTextureMap.blockAndTopForEnds(Blocks.BAMBOO_BLOCK));
+        registerCustomStairs(bsmg, ModBlocks.BAMBOO_BLOCK_STAIRS, ModTextureMap.blockAndTopForEnds(Blocks.BAMBOO_BLOCK));
+        registerCustomWall(bsmg, ModBlocks.BAMBOO_BLOCK_WALL, ModTextureMap.blockAndTopForEnds(Blocks.BAMBOO_BLOCK));
         //str_bamboo
-        registerCustomButton(bsmg, ModBlocks.STR_BAMBOO_BLOCK_BUTTON, ModTextureMap.customSTB(Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.STRIPPED_BAMBOO_BLOCK, "", "_top", "_top"));
-        registerCustomFence(bsmg, ModBlocks.STR_BAMBOO_BLOCK_FENCE, ModTextureMap.customSTB(Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.STRIPPED_BAMBOO_BLOCK, "", "_top", "_top"));
-        registerCustomFenceGate(bsmg, ModBlocks.STR_BAMBOO_BLOCK_FENCE_GATE, ModTextureMap.customSTB(Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.STRIPPED_BAMBOO_BLOCK, "", "_top", "_top"));
-        registerCustomPressurePlate(bsmg, ModBlocks.STR_BAMBOO_BLOCK_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.STRIPPED_BAMBOO_BLOCK, "", "_top", "_top"));
-        registerCustomSlab(bsmg, ModBlocks.STR_BAMBOO_BLOCK_SLAB, Blocks.STRIPPED_BAMBOO_BLOCK, ModTextureMap.customSTB(Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.STRIPPED_BAMBOO_BLOCK, "", "_top", "_top"));
-        registerCustomStairs(bsmg, ModBlocks.STR_BAMBOO_BLOCK_STAIRS, ModTextureMap.customSTB(Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.STRIPPED_BAMBOO_BLOCK, "", "_top", "_top"));
-        registerCustomWall(bsmg, ModBlocks.STR_BAMBOO_BLOCK_WALL, ModTextureMap.customSTB(Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.STRIPPED_BAMBOO_BLOCK, "", "_top", "_top"));
+        registerCustomButton(bsmg, ModBlocks.STR_BAMBOO_BLOCK_BUTTON, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_BAMBOO_BLOCK));
+        registerCustomFence(bsmg, ModBlocks.STR_BAMBOO_BLOCK_FENCE, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_BAMBOO_BLOCK));
+        registerCustomFenceGate(bsmg, ModBlocks.STR_BAMBOO_BLOCK_FENCE_GATE, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_BAMBOO_BLOCK));
+        registerCustomPressurePlate(bsmg, ModBlocks.STR_BAMBOO_BLOCK_PRESSURE_PLATE, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_BAMBOO_BLOCK));
+        registerCustomSlab(bsmg, ModBlocks.STR_BAMBOO_BLOCK_SLAB, Blocks.STRIPPED_BAMBOO_BLOCK, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_BAMBOO_BLOCK));
+        registerCustomStairs(bsmg, ModBlocks.STR_BAMBOO_BLOCK_STAIRS, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_BAMBOO_BLOCK));
+        registerCustomWall(bsmg, ModBlocks.STR_BAMBOO_BLOCK_WALL, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_BAMBOO_BLOCK));
         //crimson hyphae
-        bsmg.registerCubeAllModelTexturePool(Blocks.CRIMSON_HYPHAE)
-            .button(ModBlocks.CRIMSON_HYPHAE_BUTTON)
-            .fence(ModBlocks.CRIMSON_HYPHAE_FENCE)
-            .fenceGate(ModBlocks.CRIMSON_HYPHAE_FENCE_GATE)
-            .pressurePlate(ModBlocks.CRIMSON_HYPHAE_PRESSURE_PLATE)
-            .slab(ModBlocks.CRIMSON_HYPHAE_SLAB)
-            .stairs(ModBlocks.CRIMSON_HYPHAE_STAIRS)
-            .wall(ModBlocks.CRIMSON_HYPHAE_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.CRIMSON_STEM), Blocks.CRIMSON_HYPHAE)
+                .button(ModBlocks.CRIMSON_HYPHAE_BUTTON)
+                .fence(ModBlocks.CRIMSON_HYPHAE_FENCE)
+                .fenceGate(ModBlocks.CRIMSON_HYPHAE_FENCE_GATE)
+                .pressurePlate(ModBlocks.CRIMSON_HYPHAE_PRESSURE_PLATE)
+                .slab(ModBlocks.CRIMSON_HYPHAE_SLAB)
+                .stairs(ModBlocks.CRIMSON_HYPHAE_STAIRS)
+                .wall(ModBlocks.CRIMSON_HYPHAE_WALL);
         //str crimson hyphae
-        bsmg.registerCubeAllModelTexturePool(Blocks.STRIPPED_CRIMSON_HYPHAE)
-            .button(ModBlocks.STR_CRIMSON_HYPHAE_BUTTON)
-            .fence(ModBlocks.STR_CRIMSON_HYPHAE_FENCE)
-            .fenceGate(ModBlocks.STR_CRIMSON_HYPHAE_FENCE_GATE)
-            .pressurePlate(ModBlocks.STR_CRIMSON_HYPHAE_PRESSURE_PLATE)
-            .slab(ModBlocks.STR_CRIMSON_HYPHAE_SLAB)
-            .stairs(ModBlocks.STR_CRIMSON_HYPHAE_STAIRS)
-            .wall(ModBlocks.STR_CRIMSON_HYPHAE_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_CRIMSON_STEM), Blocks.STRIPPED_CRIMSON_HYPHAE)
+                .button(ModBlocks.STR_CRIMSON_HYPHAE_BUTTON)
+                .fence(ModBlocks.STR_CRIMSON_HYPHAE_FENCE)
+                .fenceGate(ModBlocks.STR_CRIMSON_HYPHAE_FENCE_GATE)
+                .pressurePlate(ModBlocks.STR_CRIMSON_HYPHAE_PRESSURE_PLATE)
+                .slab(ModBlocks.STR_CRIMSON_HYPHAE_SLAB)
+                .stairs(ModBlocks.STR_CRIMSON_HYPHAE_STAIRS)
+                .wall(ModBlocks.STR_CRIMSON_HYPHAE_WALL);
         //warped hyphae
-        bsmg.registerCubeAllModelTexturePool(Blocks.WARPED_HYPHAE)
-            .button(ModBlocks.WARPED_HYPHAE_BUTTON)
-            .fence(ModBlocks.WARPED_HYPHAE_FENCE)
-            .fenceGate(ModBlocks.WARPED_HYPHAE_FENCE_GATE)
-            .pressurePlate(ModBlocks.WARPED_HYPHAE_PRESSURE_PLATE)
-            .slab(ModBlocks.WARPED_HYPHAE_SLAB)
-            .stairs(ModBlocks.WARPED_HYPHAE_STAIRS)
-            .wall(ModBlocks.WARPED_HYPHAE_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.WARPED_STEM), Blocks.WARPED_HYPHAE)
+                .button(ModBlocks.WARPED_HYPHAE_BUTTON)
+                .fence(ModBlocks.WARPED_HYPHAE_FENCE)
+                .fenceGate(ModBlocks.WARPED_HYPHAE_FENCE_GATE)
+                .pressurePlate(ModBlocks.WARPED_HYPHAE_PRESSURE_PLATE)
+                .slab(ModBlocks.WARPED_HYPHAE_SLAB)
+                .stairs(ModBlocks.WARPED_HYPHAE_STAIRS)
+                .wall(ModBlocks.WARPED_HYPHAE_WALL);
         //str warped hyphae
-        bsmg.registerCubeAllModelTexturePool(Blocks.STRIPPED_WARPED_HYPHAE)
-            .button(ModBlocks.STR_WARPED_HYPHAE_BUTTON)
-            .fence(ModBlocks.STR_WARPED_HYPHAE_FENCE)
-            .fenceGate(ModBlocks.STR_WARPED_HYPHAE_FENCE_GATE)
-            .pressurePlate(ModBlocks.STR_WARPED_HYPHAE_PRESSURE_PLATE)
-            .slab(ModBlocks.STR_WARPED_HYPHAE_SLAB)
-            .stairs(ModBlocks.STR_WARPED_HYPHAE_STAIRS)
-            .wall(ModBlocks.STR_WARPED_HYPHAE_WALL);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_WARPED_STEM), Blocks.STRIPPED_WARPED_HYPHAE)
+                .button(ModBlocks.STR_WARPED_HYPHAE_BUTTON)
+                .fence(ModBlocks.STR_WARPED_HYPHAE_FENCE)
+                .fenceGate(ModBlocks.STR_WARPED_HYPHAE_FENCE_GATE)
+                .pressurePlate(ModBlocks.STR_WARPED_HYPHAE_PRESSURE_PLATE)
+                .slab(ModBlocks.STR_WARPED_HYPHAE_SLAB)
+                .stairs(ModBlocks.STR_WARPED_HYPHAE_STAIRS)
+                .wall(ModBlocks.STR_WARPED_HYPHAE_WALL);
         //stone
         bsmg.registerCubeAllModelTexturePool(Blocks.STONE)
             .fence(ModBlocks.STONE_FENCE)
@@ -668,13 +668,13 @@ public class ModModelProvider extends FabricModelProvider {
             .fenceGate(ModBlocks.POLISHED_ANDESITE_FENCE_GATE)
             .pressurePlate(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE);
         //deepslate
-        registerCustomButton(bsmg, ModBlocks.DEEPSLATE_BUTTON, ModTextureMap.customSTB(Blocks.DEEPSLATE, Blocks.DEEPSLATE, Blocks.DEEPSLATE, "", "_top", "_top"));
-        registerCustomFence(bsmg, ModBlocks.DEEPSLATE_FENCE, ModTextureMap.customSTB(Blocks.DEEPSLATE, Blocks.DEEPSLATE, Blocks.DEEPSLATE, "", "_top", "_top"));
-        registerCustomFenceGate(bsmg, ModBlocks.DEEPSLATE_FENCE_GATE, ModTextureMap.customSTB(Blocks.DEEPSLATE, Blocks.DEEPSLATE, Blocks.DEEPSLATE, "", "_top", "_top"));
-        registerCustomPressurePlate(bsmg, ModBlocks.DEEPSLATE_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.DEEPSLATE, Blocks.DEEPSLATE, Blocks.DEEPSLATE, "", "_top", "_top"));
-        registerCustomSlab(bsmg, ModBlocks.DEEPSLATE_SLAB, Blocks.DEEPSLATE, ModTextureMap.customSTB(Blocks.DEEPSLATE, Blocks.DEEPSLATE, Blocks.DEEPSLATE, "", "_top", "_top"));
-        registerCustomStairs(bsmg, ModBlocks.DEEPSLATE_STAIRS, ModTextureMap.customSTB(Blocks.DEEPSLATE, Blocks.DEEPSLATE, Blocks.DEEPSLATE, "", "_top", "_top"));
-        registerCustomWall(bsmg, ModBlocks.DEEPSLATE_WALL, ModTextureMap.customSTB(Blocks.DEEPSLATE, Blocks.DEEPSLATE, Blocks.DEEPSLATE, "", "_top", "_top"));
+        registerCustomButton(bsmg, ModBlocks.DEEPSLATE_BUTTON, ModTextureMap.custom(Blocks.DEEPSLATE, Blocks.DEEPSLATE, Blocks.DEEPSLATE, "", "_top", "_top"));
+        registerCustomFence(bsmg, ModBlocks.DEEPSLATE_FENCE, ModTextureMap.custom(Blocks.DEEPSLATE, Blocks.DEEPSLATE, Blocks.DEEPSLATE, "", "_top", "_top"));
+        registerCustomFenceGate(bsmg, ModBlocks.DEEPSLATE_FENCE_GATE, ModTextureMap.custom(Blocks.DEEPSLATE, Blocks.DEEPSLATE, Blocks.DEEPSLATE, "", "_top", "_top"));
+        registerCustomPressurePlate(bsmg, ModBlocks.DEEPSLATE_PRESSURE_PLATE, ModTextureMap.custom(Blocks.DEEPSLATE, Blocks.DEEPSLATE, Blocks.DEEPSLATE, "", "_top", "_top"));
+        registerCustomSlab(bsmg, ModBlocks.DEEPSLATE_SLAB, Blocks.DEEPSLATE, ModTextureMap.custom(Blocks.DEEPSLATE, Blocks.DEEPSLATE, Blocks.DEEPSLATE, "", "_top", "_top"));
+        registerCustomStairs(bsmg, ModBlocks.DEEPSLATE_STAIRS, ModTextureMap.custom(Blocks.DEEPSLATE, Blocks.DEEPSLATE, Blocks.DEEPSLATE, "", "_top", "_top"));
+        registerCustomWall(bsmg, ModBlocks.DEEPSLATE_WALL, ModTextureMap.custom(Blocks.DEEPSLATE, Blocks.DEEPSLATE, Blocks.DEEPSLATE, "", "_top", "_top"));
         //cobbled deepslate
         cobbledDeepslatePool.button(ModBlocks.COBBLED_DEEPSLATE_BUTTON);
         cobbledDeepslatePool.fence(ModBlocks.COBBLED_DEEPSLATE_FENCE);
@@ -738,10 +738,10 @@ public class ModModelProvider extends FabricModelProvider {
         mudBrickPool.fenceGate(ModBlocks.MUD_BRICK_FENCE_GATE);
         mudBrickPool.pressurePlate(ModBlocks.MUD_BRICK_PRESSURE_PLATE);
         //sandstone
-        registerCustomButton(bsmg, ModBlocks.SANDSTONE_BUTTON, ModTextureMap.customSTB(Blocks.SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_bottom"));
-        registerCustomFence(bsmg, ModBlocks.SANDSTONE_FENCE, ModTextureMap.customSTB(Blocks.SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_bottom"));
-        registerCustomFenceGate(bsmg, ModBlocks.SANDSTONE_FENCE_GATE, ModTextureMap.customSTB(Blocks.SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_bottom"));
-        registerCustomPressurePlate(bsmg, ModBlocks.SANDSTONE_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_bottom"));
+        registerCustomButton(bsmg, ModBlocks.SANDSTONE_BUTTON, ModTextureMap.custom(Blocks.SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_bottom"));
+        registerCustomFence(bsmg, ModBlocks.SANDSTONE_FENCE, ModTextureMap.custom(Blocks.SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_bottom"));
+        registerCustomFenceGate(bsmg, ModBlocks.SANDSTONE_FENCE_GATE, ModTextureMap.custom(Blocks.SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_bottom"));
+        registerCustomPressurePlate(bsmg, ModBlocks.SANDSTONE_PRESSURE_PLATE, ModTextureMap.custom(Blocks.SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_bottom"));
         //smooth sandstone
         smoothSandstonePool.button(ModBlocks.SMOOTH_SANDSTONE_BUTTON);
         smoothSandstonePool.fence(ModBlocks.SMOOTH_SANDSTONE_FENCE);
@@ -749,17 +749,17 @@ public class ModModelProvider extends FabricModelProvider {
         smoothSandstonePool.pressurePlate(ModBlocks.SMOOTH_SANDSTONE_PRESSURE_PLATE);
         smoothSandstonePool.wall(ModBlocks.SMOOTH_SANDSTONE_WALL);
         //cut sandstone
-        registerCustomStairs(bsmg, ModBlocks.CUT_SANDSTONE_STAIRS, ModTextureMap.customSTB(Blocks.CUT_SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_top"));
-        registerCustomButton(bsmg, ModBlocks.CUT_SANDSTONE_BUTTON, ModTextureMap.customSTB(Blocks.CUT_SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_top"));
-        registerCustomFence(bsmg, ModBlocks.CUT_SANDSTONE_FENCE, ModTextureMap.customSTB(Blocks.CUT_SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_top"));
-        registerCustomFenceGate(bsmg, ModBlocks.CUT_SANDSTONE_FENCE_GATE, ModTextureMap.customSTB(Blocks.CUT_SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_top"));
-        registerCustomPressurePlate(bsmg, ModBlocks.CUT_SANDSTONE_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.CUT_SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_top"));
-        registerCustomWall(bsmg, ModBlocks.CUT_SANDSTONE_WALL, ModTextureMap.customSTB(Blocks.CUT_SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_top"));
+        registerCustomStairs(bsmg, ModBlocks.CUT_SANDSTONE_STAIRS, ModTextureMap.custom(Blocks.CUT_SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_top"));
+        registerCustomButton(bsmg, ModBlocks.CUT_SANDSTONE_BUTTON, ModTextureMap.custom(Blocks.CUT_SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_top"));
+        registerCustomFence(bsmg, ModBlocks.CUT_SANDSTONE_FENCE, ModTextureMap.custom(Blocks.CUT_SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_top"));
+        registerCustomFenceGate(bsmg, ModBlocks.CUT_SANDSTONE_FENCE_GATE, ModTextureMap.custom(Blocks.CUT_SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_top"));
+        registerCustomPressurePlate(bsmg, ModBlocks.CUT_SANDSTONE_PRESSURE_PLATE, ModTextureMap.custom(Blocks.CUT_SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_top"));
+        registerCustomWall(bsmg, ModBlocks.CUT_SANDSTONE_WALL, ModTextureMap.custom(Blocks.CUT_SANDSTONE, Blocks.SANDSTONE, Blocks.SANDSTONE, "", "_top", "_top"));
         //red sandstone
-        registerCustomButton(bsmg, ModBlocks.RED_SANDSTONE_BUTTON, ModTextureMap.customSTB(Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_bottom"));
-        registerCustomFence(bsmg, ModBlocks.RED_SANDSTONE_FENCE, ModTextureMap.customSTB(Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_bottom"));
-        registerCustomFenceGate(bsmg, ModBlocks.RED_SANDSTONE_FENCE_GATE, ModTextureMap.customSTB(Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_bottom"));
-        registerCustomPressurePlate(bsmg, ModBlocks.RED_SANDSTONE_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_bottom"));
+        registerCustomButton(bsmg, ModBlocks.RED_SANDSTONE_BUTTON, ModTextureMap.custom(Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_bottom"));
+        registerCustomFence(bsmg, ModBlocks.RED_SANDSTONE_FENCE, ModTextureMap.custom(Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_bottom"));
+        registerCustomFenceGate(bsmg, ModBlocks.RED_SANDSTONE_FENCE_GATE, ModTextureMap.custom(Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_bottom"));
+        registerCustomPressurePlate(bsmg, ModBlocks.RED_SANDSTONE_PRESSURE_PLATE, ModTextureMap.custom(Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_bottom"));
         //smooth red sandstone
         smoothRedSandstonePool.button(ModBlocks.SMOOTH_RED_SANDSTONE_BUTTON);
         smoothRedSandstonePool.fence(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE);
@@ -767,12 +767,12 @@ public class ModModelProvider extends FabricModelProvider {
         smoothRedSandstonePool.pressurePlate(ModBlocks.SMOOTH_RED_SANDSTONE_PRESSURE_PLATE);
         smoothRedSandstonePool.wall(ModBlocks.SMOOTH_RED_SANDSTONE_WALL);
         //cut red sandstone
-        registerCustomStairs(bsmg, ModBlocks.CUT_RED_SANDSTONE_STAIRS, ModTextureMap.customSTB(Blocks.CUT_RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_top"));
-        registerCustomButton(bsmg, ModBlocks.CUT_RED_SANDSTONE_BUTTON, ModTextureMap.customSTB(Blocks.CUT_RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_top"));
-        registerCustomFence(bsmg, ModBlocks.CUT_RED_SANDSTONE_FENCE, ModTextureMap.customSTB(Blocks.CUT_RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_top"));
-        registerCustomFenceGate(bsmg, ModBlocks.CUT_RED_SANDSTONE_FENCE_GATE, ModTextureMap.customSTB(Blocks.CUT_RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_top"));
-        registerCustomPressurePlate(bsmg, ModBlocks.CUT_RED_SANDSTONE_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.CUT_RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_top"));
-        registerCustomWall(bsmg, ModBlocks.CUT_RED_SANDSTONE_WALL, ModTextureMap.customSTB(Blocks.CUT_RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_top"));
+        registerCustomStairs(bsmg, ModBlocks.CUT_RED_SANDSTONE_STAIRS, ModTextureMap.custom(Blocks.CUT_RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_top"));
+        registerCustomButton(bsmg, ModBlocks.CUT_RED_SANDSTONE_BUTTON, ModTextureMap.custom(Blocks.CUT_RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_top"));
+        registerCustomFence(bsmg, ModBlocks.CUT_RED_SANDSTONE_FENCE, ModTextureMap.custom(Blocks.CUT_RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_top"));
+        registerCustomFenceGate(bsmg, ModBlocks.CUT_RED_SANDSTONE_FENCE_GATE, ModTextureMap.custom(Blocks.CUT_RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_top"));
+        registerCustomPressurePlate(bsmg, ModBlocks.CUT_RED_SANDSTONE_PRESSURE_PLATE, ModTextureMap.custom(Blocks.CUT_RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_top"));
+        registerCustomWall(bsmg, ModBlocks.CUT_RED_SANDSTONE_WALL, ModTextureMap.custom(Blocks.CUT_RED_SANDSTONE, Blocks.RED_SANDSTONE, Blocks.RED_SANDSTONE, "", "_top", "_top"));
         //sea lantern
         seaLanternPool.button(ModBlocks.SEA_LANTERN_BUTTON);
         seaLanternPool.wall(ModBlocks.SEA_LANTERN_WALL);
@@ -824,13 +824,13 @@ public class ModModelProvider extends FabricModelProvider {
         redNetherBrickPool.fenceGate(ModBlocks.RED_NETHER_BRICK_FENCE_GATE);
         redNetherBrickPool.pressurePlate(ModBlocks.RED_NETHER_BRICK_PRESSURE_PLATE);
         //basalt
-        registerCustomButton(bsmg, ModBlocks.BASALT_BUTTON, ModTextureMap.customSTB(Blocks.BASALT, Blocks.BASALT, Blocks.BASALT, "_side", "_top", "_top"));
-        registerCustomWall(bsmg, ModBlocks.BASALT_WALL, ModTextureMap.customSTB(Blocks.BASALT, Blocks.BASALT, Blocks.BASALT, "_side", "_top", "_top"));
-        registerCustomSlab(bsmg, ModBlocks.BASALT_SLAB, Blocks.BASALT, ModTextureMap.customSTB(Blocks.BASALT, Blocks.BASALT, Blocks.BASALT, "_side", "_top", "_top"));
-        registerCustomStairs(bsmg, ModBlocks.BASALT_STAIRS, ModTextureMap.customSTB(Blocks.BASALT, Blocks.BASALT, Blocks.BASALT, "_side", "_top", "_top"));
-        registerCustomFence(bsmg, ModBlocks.BASALT_FENCE, ModTextureMap.customSTB(Blocks.BASALT, Blocks.BASALT, Blocks.BASALT, "_side", "_top", "_top"));
-        registerCustomFenceGate(bsmg, ModBlocks.BASALT_FENCE_GATE, ModTextureMap.customSTB(Blocks.BASALT, Blocks.BASALT, Blocks.BASALT, "_side", "_top", "_top"));
-        registerCustomPressurePlate(bsmg, ModBlocks.BASALT_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.BASALT, Blocks.BASALT, Blocks.BASALT, "_side", "_top", "_top"));
+        registerCustomButton(bsmg, ModBlocks.BASALT_BUTTON, ModTextureMap.custom(Blocks.BASALT, Blocks.BASALT, Blocks.BASALT, "_side", "_top", "_top"));
+        registerCustomWall(bsmg, ModBlocks.BASALT_WALL, ModTextureMap.custom(Blocks.BASALT, Blocks.BASALT, Blocks.BASALT, "_side", "_top", "_top"));
+        registerCustomSlab(bsmg, ModBlocks.BASALT_SLAB, Blocks.BASALT, ModTextureMap.custom(Blocks.BASALT, Blocks.BASALT, Blocks.BASALT, "_side", "_top", "_top"));
+        registerCustomStairs(bsmg, ModBlocks.BASALT_STAIRS, ModTextureMap.custom(Blocks.BASALT, Blocks.BASALT, Blocks.BASALT, "_side", "_top", "_top"));
+        registerCustomFence(bsmg, ModBlocks.BASALT_FENCE, ModTextureMap.custom(Blocks.BASALT, Blocks.BASALT, Blocks.BASALT, "_side", "_top", "_top"));
+        registerCustomFenceGate(bsmg, ModBlocks.BASALT_FENCE_GATE, ModTextureMap.custom(Blocks.BASALT, Blocks.BASALT, Blocks.BASALT, "_side", "_top", "_top"));
+        registerCustomPressurePlate(bsmg, ModBlocks.BASALT_PRESSURE_PLATE, ModTextureMap.custom(Blocks.BASALT, Blocks.BASALT, Blocks.BASALT, "_side", "_top", "_top"));
         //smooth basalt
         smoothBasaltPool.button(ModBlocks.SMOOTH_BASALT_BUTTON);
         smoothBasaltPool.wall(ModBlocks.SMOOTH_BASALT_WALL);
@@ -840,18 +840,18 @@ public class ModModelProvider extends FabricModelProvider {
         smoothBasaltPool.fenceGate(ModBlocks.SMOOTH_BASALT_FENCE_GATE);
         smoothBasaltPool.pressurePlate(ModBlocks.SMOOTH_BASALT_PRESSURE_PLATE);
         //polished basalt
-        registerCustomButton(bsmg, ModBlocks.POLISHED_BASALT_BUTTON, ModTextureMap.customSTB(Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, "_side", "_top", "_top"));
-        registerCustomWall(bsmg, ModBlocks.POLISHED_BASALT_WALL, ModTextureMap.customSTB(Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, "_side", "_top", "_top"));
-        registerCustomSlab(bsmg, ModBlocks.POLISHED_BASALT_SLAB, Blocks.POLISHED_BASALT, ModTextureMap.customSTB(Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, "_side", "_top", "_top"));
-        registerCustomStairs(bsmg, ModBlocks.POLISHED_BASALT_STAIRS, ModTextureMap.customSTB(Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, "_side", "_top", "_top"));
-        registerCustomFence(bsmg, ModBlocks.POLISHED_BASALT_FENCE, ModTextureMap.customSTB(Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, "_side", "_top", "_top"));
-        registerCustomFenceGate(bsmg, ModBlocks.POLISHED_BASALT_FENCE_GATE, ModTextureMap.customSTB(Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, "_side", "_top", "_top"));
-        registerCustomPressurePlate(bsmg, ModBlocks.POLISHED_BASALT_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, "_side", "_top", "_top"));
+        registerCustomButton(bsmg, ModBlocks.POLISHED_BASALT_BUTTON, ModTextureMap.custom(Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, "_side", "_top", "_top"));
+        registerCustomWall(bsmg, ModBlocks.POLISHED_BASALT_WALL, ModTextureMap.custom(Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, "_side", "_top", "_top"));
+        registerCustomSlab(bsmg, ModBlocks.POLISHED_BASALT_SLAB, Blocks.POLISHED_BASALT, ModTextureMap.custom(Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, "_side", "_top", "_top"));
+        registerCustomStairs(bsmg, ModBlocks.POLISHED_BASALT_STAIRS, ModTextureMap.custom(Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, "_side", "_top", "_top"));
+        registerCustomFence(bsmg, ModBlocks.POLISHED_BASALT_FENCE, ModTextureMap.custom(Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, "_side", "_top", "_top"));
+        registerCustomFenceGate(bsmg, ModBlocks.POLISHED_BASALT_FENCE_GATE, ModTextureMap.custom(Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, "_side", "_top", "_top"));
+        registerCustomPressurePlate(bsmg, ModBlocks.POLISHED_BASALT_PRESSURE_PLATE, ModTextureMap.custom(Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, Blocks.POLISHED_BASALT, "_side", "_top", "_top"));
         //polished basalt
-        registerCustomButton(bsmg, ModBlocks.BLACKSTONE_BUTTON, ModTextureMap.customSTB(Blocks.BLACKSTONE, Blocks.BLACKSTONE, Blocks.BLACKSTONE, "", "_top", "_top"));
-        registerCustomFence(bsmg, ModBlocks.BLACKSTONE_FENCE, ModTextureMap.customSTB(Blocks.BLACKSTONE, Blocks.BLACKSTONE, Blocks.BLACKSTONE, "", "_top", "_top"));
-        registerCustomFenceGate(bsmg, ModBlocks.BLACKSTONE_FENCE_GATE, ModTextureMap.customSTB(Blocks.BLACKSTONE, Blocks.BLACKSTONE, Blocks.BLACKSTONE, "", "_top", "_top"));
-        registerCustomPressurePlate(bsmg, ModBlocks.BLACKSTONE_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.BLACKSTONE, Blocks.BLACKSTONE, Blocks.BLACKSTONE, "", "_top", "_top"));
+        registerCustomButton(bsmg, ModBlocks.BLACKSTONE_BUTTON, ModTextureMap.custom(Blocks.BLACKSTONE, Blocks.BLACKSTONE, Blocks.BLACKSTONE, "", "_top", "_top"));
+        registerCustomFence(bsmg, ModBlocks.BLACKSTONE_FENCE, ModTextureMap.custom(Blocks.BLACKSTONE, Blocks.BLACKSTONE, Blocks.BLACKSTONE, "", "_top", "_top"));
+        registerCustomFenceGate(bsmg, ModBlocks.BLACKSTONE_FENCE_GATE, ModTextureMap.custom(Blocks.BLACKSTONE, Blocks.BLACKSTONE, Blocks.BLACKSTONE, "", "_top", "_top"));
+        registerCustomPressurePlate(bsmg, ModBlocks.BLACKSTONE_PRESSURE_PLATE, ModTextureMap.custom(Blocks.BLACKSTONE, Blocks.BLACKSTONE, Blocks.BLACKSTONE, "", "_top", "_top"));
         //gilded blackstone
         gildedBlackstonePool.button(ModBlocks.GILDED_BLACKSTONE_BUTTON);
         gildedBlackstonePool.wall(ModBlocks.GILDED_BLACKSTONE_WALL);
@@ -958,11 +958,11 @@ public class ModModelProvider extends FabricModelProvider {
         netheritePool.fenceGate(ModBlocks.NETHERITE_FENCE_GATE);
         netheritePool.pressurePlate(ModBlocks.NETHERITE_PRESSURE_PLATE);
         //quartz
-        registerCustomButton(bsmg, ModBlocks.QUARTZ_BUTTON, ModTextureMap.customSTB(Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, "_side", "_top", "_bottom"));
-        registerCustomWall(bsmg, ModBlocks.QUARTZ_WALL, ModTextureMap.customSTB(Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, "_side", "_top", "_bottom"));
-        registerCustomFence(bsmg, ModBlocks.QUARTZ_FENCE, ModTextureMap.customSTB(Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, "_side", "_top", "_bottom"));
-        registerCustomFenceGate(bsmg, ModBlocks.QUARTZ_FENCE_GATE, ModTextureMap.customSTB(Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, "_side", "_top", "_bottom"));
-        registerCustomPressurePlate(bsmg, ModBlocks.QUARTZ_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomButton(bsmg, ModBlocks.QUARTZ_BUTTON, ModTextureMap.custom(Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomWall(bsmg, ModBlocks.QUARTZ_WALL, ModTextureMap.custom(Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomFence(bsmg, ModBlocks.QUARTZ_FENCE, ModTextureMap.custom(Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomFenceGate(bsmg, ModBlocks.QUARTZ_FENCE_GATE, ModTextureMap.custom(Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomPressurePlate(bsmg, ModBlocks.QUARTZ_PRESSURE_PLATE, ModTextureMap.custom(Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_BLOCK, "_side", "_top", "_bottom"));
         //quartz_brick
         quartzBrickPool.button(ModBlocks.QUARTZ_BRICK_BUTTON);
         quartzBrickPool.wall(ModBlocks.QUARTZ_BRICK_WALL);
@@ -1883,32 +1883,32 @@ public class ModModelProvider extends FabricModelProvider {
         dirtPool.fenceGate(ModBlocks.DIRT_FENCE_GATE);
         dirtPool.pressurePlate(ModBlocks.DIRT_PRESSURE_PLATE);
         //podzol
-        registerCustomButton(bsmg, ModBlocks.PODZOL_BUTTON, ModTextureMap.customSTB(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomWall(bsmg, ModBlocks.PODZOL_WALL, ModTextureMap.customSTB(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomSlab(bsmg, ModBlocks.PODZOL_SLAB, Blocks.PODZOL, ModTextureMap.customSTB(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomStairs(bsmg, ModBlocks.PODZOL_STAIRS, ModTextureMap.customSTB(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomFence(bsmg, ModBlocks.PODZOL_FENCE, ModTextureMap.customSTB(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomFenceGate(bsmg, ModBlocks.PODZOL_FENCE_GATE, ModTextureMap.customSTB(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomPressurePlate(bsmg, ModBlocks.PODZOL_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomOrTrapdoor(bsmg, ModBlocks.PODZOL_TRAPDOOR, ModTextureMap.customSTB(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomButton(bsmg, ModBlocks.PODZOL_BUTTON, ModTextureMap.custom(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomWall(bsmg, ModBlocks.PODZOL_WALL, ModTextureMap.custom(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomSlab(bsmg, ModBlocks.PODZOL_SLAB, Blocks.PODZOL, ModTextureMap.custom(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomStairs(bsmg, ModBlocks.PODZOL_STAIRS, ModTextureMap.custom(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomFence(bsmg, ModBlocks.PODZOL_FENCE, ModTextureMap.custom(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomFenceGate(bsmg, ModBlocks.PODZOL_FENCE_GATE, ModTextureMap.custom(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomPressurePlate(bsmg, ModBlocks.PODZOL_PRESSURE_PLATE, ModTextureMap.custom(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.PODZOL_TRAPDOOR, ModTextureMap.custom(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
         //mycelium
-        registerCustomButton(bsmg, ModBlocks.MYCELIUM_BUTTON, ModTextureMap.customSTB(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomWall(bsmg, ModBlocks.MYCELIUM_WALL, ModTextureMap.customSTB(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomSlab(bsmg, ModBlocks.MYCELIUM_SLAB, Blocks.MYCELIUM, ModTextureMap.customSTB(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomStairs(bsmg, ModBlocks.MYCELIUM_STAIRS, ModTextureMap.customSTB(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomFence(bsmg, ModBlocks.MYCELIUM_FENCE, ModTextureMap.customSTB(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomFenceGate(bsmg, ModBlocks.MYCELIUM_FENCE_GATE, ModTextureMap.customSTB(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomPressurePlate(bsmg, ModBlocks.MYCELIUM_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomOrTrapdoor(bsmg, ModBlocks.MYCELIUM_TRAPDOOR, ModTextureMap.customSTB(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomButton(bsmg, ModBlocks.MYCELIUM_BUTTON, ModTextureMap.custom(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomWall(bsmg, ModBlocks.MYCELIUM_WALL, ModTextureMap.custom(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomSlab(bsmg, ModBlocks.MYCELIUM_SLAB, Blocks.MYCELIUM, ModTextureMap.custom(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomStairs(bsmg, ModBlocks.MYCELIUM_STAIRS, ModTextureMap.custom(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomFence(bsmg, ModBlocks.MYCELIUM_FENCE, ModTextureMap.custom(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomFenceGate(bsmg, ModBlocks.MYCELIUM_FENCE_GATE, ModTextureMap.custom(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomPressurePlate(bsmg, ModBlocks.MYCELIUM_PRESSURE_PLATE, ModTextureMap.custom(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.MYCELIUM_TRAPDOOR, ModTextureMap.custom(Blocks.MYCELIUM, Blocks.MYCELIUM, Blocks.DIRT, "_side", "_top", ""));
         //dirt_path
-        registerCustomButton(bsmg, ModBlocks.DIRT_PATH_BUTTON, ModTextureMap.customSTB(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomWall(bsmg, ModBlocks.DIRT_PATH_WALL, ModTextureMap.customSTB(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomSlab(bsmg, ModBlocks.DIRT_PATH_SLAB, Blocks.DIRT_PATH, ModTextureMap.customSTB(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomStairs(bsmg, ModBlocks.DIRT_PATH_STAIRS, ModTextureMap.customSTB(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomFence(bsmg, ModBlocks.DIRT_PATH_FENCE, ModTextureMap.customSTB(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomFenceGate(bsmg, ModBlocks.DIRT_PATH_FENCE_GATE, ModTextureMap.customSTB(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomPressurePlate(bsmg, ModBlocks.DIRT_PATH_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
-        registerCustomOrTrapdoor(bsmg, ModBlocks.DIRT_PATH_TRAPDOOR, ModTextureMap.customSTB(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomButton(bsmg, ModBlocks.DIRT_PATH_BUTTON, ModTextureMap.custom(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomWall(bsmg, ModBlocks.DIRT_PATH_WALL, ModTextureMap.custom(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomSlab(bsmg, ModBlocks.DIRT_PATH_SLAB, Blocks.DIRT_PATH, ModTextureMap.custom(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomStairs(bsmg, ModBlocks.DIRT_PATH_STAIRS, ModTextureMap.custom(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomFence(bsmg, ModBlocks.DIRT_PATH_FENCE, ModTextureMap.custom(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomFenceGate(bsmg, ModBlocks.DIRT_PATH_FENCE_GATE, ModTextureMap.custom(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomPressurePlate(bsmg, ModBlocks.DIRT_PATH_PRESSURE_PLATE, ModTextureMap.custom(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.DIRT_PATH_TRAPDOOR, ModTextureMap.custom(Blocks.DIRT_PATH, Blocks.DIRT_PATH, Blocks.DIRT, "_side", "_top", ""));
         //coarse_dirt
         coarseDirtPool.button(ModBlocks.COARSE_DIRT_BUTTON);
         coarseDirtPool.wall(ModBlocks.COARSE_DIRT_WALL);
@@ -1918,14 +1918,14 @@ public class ModModelProvider extends FabricModelProvider {
         coarseDirtPool.fenceGate(ModBlocks.COARSE_DIRT_FENCE_GATE);
         coarseDirtPool.pressurePlate(ModBlocks.COARSE_DIRT_PRESSURE_PLATE);
         //farmland
-        registerCustomButton(bsmg, ModBlocks.FARMLAND_BUTTON, ModTextureMap.customSTB(Blocks.DIRT, Blocks.FARMLAND, Blocks.DIRT, "", "", ""));
-        registerCustomWall(bsmg, ModBlocks.FARMLAND_WALL, ModTextureMap.customSTB(Blocks.DIRT, Blocks.FARMLAND, Blocks.DIRT, "", "", ""));
-        registerCustomSlab(bsmg, ModBlocks.FARMLAND_SLAB, Blocks.FARMLAND, ModTextureMap.customSTB(Blocks.DIRT, Blocks.FARMLAND, Blocks.DIRT, "", "", ""));
-        registerCustomStairs(bsmg, ModBlocks.FARMLAND_STAIRS, ModTextureMap.customSTB(Blocks.DIRT, Blocks.FARMLAND, Blocks.DIRT, "", "", ""));
-        registerCustomFence(bsmg, ModBlocks.FARMLAND_FENCE, ModTextureMap.customSTB(Blocks.DIRT, Blocks.FARMLAND, Blocks.DIRT, "", "", ""));
-        registerCustomFenceGate(bsmg, ModBlocks.FARMLAND_FENCE_GATE, ModTextureMap.customSTB(Blocks.DIRT, Blocks.FARMLAND, Blocks.DIRT, "", "", ""));
-        registerCustomPressurePlate(bsmg, ModBlocks.FARMLAND_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.DIRT, Blocks.FARMLAND, Blocks.DIRT, "", "", ""));
-        registerCustomOrTrapdoor(bsmg, ModBlocks.FARMLAND_TRAPDOOR, ModTextureMap.customSTB(Blocks.DIRT, Blocks.FARMLAND, Blocks.DIRT, "", "", ""));
+        registerCustomButton(bsmg, ModBlocks.FARMLAND_BUTTON, ModTextureMap.custom(Blocks.DIRT, Blocks.FARMLAND, Blocks.DIRT, "", "", ""));
+        registerCustomWall(bsmg, ModBlocks.FARMLAND_WALL, ModTextureMap.custom(Blocks.DIRT, Blocks.FARMLAND, Blocks.DIRT, "", "", ""));
+        registerCustomSlab(bsmg, ModBlocks.FARMLAND_SLAB, Blocks.FARMLAND, ModTextureMap.custom(Blocks.DIRT, Blocks.FARMLAND, Blocks.DIRT, "", "", ""));
+        registerCustomStairs(bsmg, ModBlocks.FARMLAND_STAIRS, ModTextureMap.custom(Blocks.DIRT, Blocks.FARMLAND, Blocks.DIRT, "", "", ""));
+        registerCustomFence(bsmg, ModBlocks.FARMLAND_FENCE, ModTextureMap.custom(Blocks.DIRT, Blocks.FARMLAND, Blocks.DIRT, "", "", ""));
+        registerCustomFenceGate(bsmg, ModBlocks.FARMLAND_FENCE_GATE, ModTextureMap.custom(Blocks.DIRT, Blocks.FARMLAND, Blocks.DIRT, "", "", ""));
+        registerCustomPressurePlate(bsmg, ModBlocks.FARMLAND_PRESSURE_PLATE, ModTextureMap.custom(Blocks.DIRT, Blocks.FARMLAND, Blocks.DIRT, "", "", ""));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.FARMLAND_TRAPDOOR, ModTextureMap.custom(Blocks.DIRT, Blocks.FARMLAND, Blocks.DIRT, "", "", ""));
         //rooted_dirt
         rootedDirtPool.button(ModBlocks.ROOTED_DIRT_BUTTON);
         rootedDirtPool.wall(ModBlocks.ROOTED_DIRT_WALL);
@@ -2060,23 +2060,23 @@ public class ModModelProvider extends FabricModelProvider {
         cryingObsidianPool.fenceGate(ModBlocks.CRYING_OBSIDIAN_FENCE_GATE);
         cryingObsidianPool.pressurePlate(ModBlocks.CRYING_OBSIDIAN_PRESSURE_PLATE);
         //crimson_nylium
-        registerCustomButton(bsmg, ModBlocks.CRIMSON_NYLIUM_BUTTON, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
-        registerCustomWall(bsmg, ModBlocks.CRIMSON_NYLIUM_WALL, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
-        registerCustomSlab(bsmg, ModBlocks.CRIMSON_NYLIUM_SLAB, Blocks.CRIMSON_NYLIUM, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
-        registerCustomStairs(bsmg, ModBlocks.CRIMSON_NYLIUM_STAIRS, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
-        registerCustomFence(bsmg, ModBlocks.CRIMSON_NYLIUM_FENCE, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
-        registerCustomFenceGate(bsmg, ModBlocks.CRIMSON_NYLIUM_FENCE_GATE, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
-        registerCustomPressurePlate(bsmg, ModBlocks.CRIMSON_NYLIUM_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
-        registerCustomOrTrapdoor(bsmg, ModBlocks.CRIMSON_NYLIUM_TRAPDOOR, ModTextureMap.customSTB(Blocks.CRIMSON_NYLIUM, ModBlocks.CRIMSON_NYLIUM_TRAPDOOR, Blocks.NETHERRACK, "_side", "", ""));
+        registerCustomButton(bsmg, ModBlocks.CRIMSON_NYLIUM_BUTTON, ModTextureMap.custom(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerCustomWall(bsmg, ModBlocks.CRIMSON_NYLIUM_WALL, ModTextureMap.custom(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerCustomSlab(bsmg, ModBlocks.CRIMSON_NYLIUM_SLAB, Blocks.CRIMSON_NYLIUM, ModTextureMap.custom(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerCustomStairs(bsmg, ModBlocks.CRIMSON_NYLIUM_STAIRS, ModTextureMap.custom(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerCustomFence(bsmg, ModBlocks.CRIMSON_NYLIUM_FENCE, ModTextureMap.custom(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerCustomFenceGate(bsmg, ModBlocks.CRIMSON_NYLIUM_FENCE_GATE, ModTextureMap.custom(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerCustomPressurePlate(bsmg, ModBlocks.CRIMSON_NYLIUM_PRESSURE_PLATE, ModTextureMap.custom(Blocks.CRIMSON_NYLIUM, Blocks.CRIMSON_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.CRIMSON_NYLIUM_TRAPDOOR, ModTextureMap.custom(Blocks.CRIMSON_NYLIUM, ModBlocks.CRIMSON_NYLIUM_TRAPDOOR, Blocks.NETHERRACK, "_side", "", ""));
         //warped_nylium
-        registerCustomButton(bsmg, ModBlocks.WARPED_NYLIUM_BUTTON, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
-        registerCustomWall(bsmg, ModBlocks.WARPED_NYLIUM_WALL, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
-        registerCustomSlab(bsmg, ModBlocks.WARPED_NYLIUM_SLAB, Blocks.WARPED_NYLIUM, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
-        registerCustomStairs(bsmg, ModBlocks.WARPED_NYLIUM_STAIRS, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
-        registerCustomFence(bsmg, ModBlocks.WARPED_NYLIUM_FENCE, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
-        registerCustomFenceGate(bsmg, ModBlocks.WARPED_NYLIUM_FENCE_GATE, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
-        registerCustomPressurePlate(bsmg, ModBlocks.WARPED_NYLIUM_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
-        registerCustomOrTrapdoor(bsmg, ModBlocks.WARPED_NYLIUM_TRAPDOOR, ModTextureMap.customSTB(Blocks.WARPED_NYLIUM, ModBlocks.WARPED_NYLIUM_TRAPDOOR, Blocks.NETHERRACK, "_side", "", ""));
+        registerCustomButton(bsmg, ModBlocks.WARPED_NYLIUM_BUTTON, ModTextureMap.custom(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerCustomWall(bsmg, ModBlocks.WARPED_NYLIUM_WALL, ModTextureMap.custom(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerCustomSlab(bsmg, ModBlocks.WARPED_NYLIUM_SLAB, Blocks.WARPED_NYLIUM, ModTextureMap.custom(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerCustomStairs(bsmg, ModBlocks.WARPED_NYLIUM_STAIRS, ModTextureMap.custom(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerCustomFence(bsmg, ModBlocks.WARPED_NYLIUM_FENCE, ModTextureMap.custom(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerCustomFenceGate(bsmg, ModBlocks.WARPED_NYLIUM_FENCE_GATE, ModTextureMap.custom(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerCustomPressurePlate(bsmg, ModBlocks.WARPED_NYLIUM_PRESSURE_PLATE, ModTextureMap.custom(Blocks.WARPED_NYLIUM, Blocks.WARPED_NYLIUM, Blocks.NETHERRACK, "_side", "", ""));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.WARPED_NYLIUM_TRAPDOOR, ModTextureMap.custom(Blocks.WARPED_NYLIUM, ModBlocks.WARPED_NYLIUM_TRAPDOOR, Blocks.NETHERRACK, "_side", "", ""));
         //soul_sand
         soulSandPool.button(ModBlocks.SOUL_SAND_BUTTON);
         soulSandPool.wall(ModBlocks.SOUL_SAND_WALL);
@@ -2094,14 +2094,14 @@ public class ModModelProvider extends FabricModelProvider {
         soulSoilPool.fenceGate(ModBlocks.SOUL_SOIL_FENCE_GATE);
         soulSoilPool.pressurePlate(ModBlocks.SOUL_SOIL_PRESSURE_PLATE);
         //bone
-        registerCustomButton(bsmg, ModBlocks.BONE_BUTTON, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
-        registerCustomWall(bsmg, ModBlocks.BONE_WALL, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
-        registerCustomSlab(bsmg, ModBlocks.BONE_SLAB, Blocks.BONE_BLOCK, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
-        registerCustomStairs(bsmg, ModBlocks.BONE_STAIRS, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
-        registerCustomFence(bsmg, ModBlocks.BONE_FENCE, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
-        registerCustomFenceGate(bsmg, ModBlocks.BONE_FENCE_GATE, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
-        registerCustomPressurePlate(bsmg, ModBlocks.BONE_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
-        registerCustomOrTrapdoor(bsmg, ModBlocks.BONE_TRAPDOOR, ModTextureMap.customSTB(Blocks.BONE_BLOCK, ModBlocks.BONE_TRAPDOOR, ModBlocks.BONE_TRAPDOOR, "_side", "", ""));
+        registerCustomButton(bsmg, ModBlocks.BONE_BUTTON, ModTextureMap.custom(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
+        registerCustomWall(bsmg, ModBlocks.BONE_WALL, ModTextureMap.custom(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
+        registerCustomSlab(bsmg, ModBlocks.BONE_SLAB, Blocks.BONE_BLOCK, ModTextureMap.custom(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
+        registerCustomStairs(bsmg, ModBlocks.BONE_STAIRS, ModTextureMap.custom(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
+        registerCustomFence(bsmg, ModBlocks.BONE_FENCE, ModTextureMap.custom(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
+        registerCustomFenceGate(bsmg, ModBlocks.BONE_FENCE_GATE, ModTextureMap.custom(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
+        registerCustomPressurePlate(bsmg, ModBlocks.BONE_PRESSURE_PLATE, ModTextureMap.custom(Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, Blocks.BONE_BLOCK, "_side", "_top", "_top"));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.BONE_TRAPDOOR, ModTextureMap.custom(Blocks.BONE_BLOCK, ModBlocks.BONE_TRAPDOOR, ModBlocks.BONE_TRAPDOOR, "_side", "", ""));
         //coal_ore
         coalOrePool.button(ModBlocks.COAL_ORE_BUTTON);
         coalOrePool.wall(ModBlocks.COAL_ORE_WALL);
@@ -2247,14 +2247,14 @@ public class ModModelProvider extends FabricModelProvider {
         netherQuartzOrePool.fenceGate(ModBlocks.NETHER_QUARTZ_ORE_FENCE_GATE);
         netherQuartzOrePool.pressurePlate(ModBlocks.NETHER_QUARTZ_ORE_PRESSURE_PLATE);
         //ancient_debris
-        registerCustomButton(bsmg, ModBlocks.ANCIENT_DEBRIS_BUTTON, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
-        registerCustomWall(bsmg, ModBlocks.ANCIENT_DEBRIS_WALL, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
-        registerCustomSlab(bsmg, ModBlocks.ANCIENT_DEBRIS_SLAB, Blocks.ANCIENT_DEBRIS, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
-        registerCustomStairs(bsmg, ModBlocks.ANCIENT_DEBRIS_STAIRS, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
-        registerCustomFence(bsmg, ModBlocks.ANCIENT_DEBRIS_FENCE, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
-        registerCustomFenceGate(bsmg, ModBlocks.ANCIENT_DEBRIS_FENCE_GATE, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
-        registerCustomPressurePlate(bsmg, ModBlocks.ANCIENT_DEBRIS_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
-        registerCustomOrTrapdoor(bsmg, ModBlocks.ANCIENT_DEBRIS_TRAPDOOR, ModTextureMap.customSTB(Blocks.ANCIENT_DEBRIS, ModBlocks.ANCIENT_DEBRIS_TRAPDOOR, ModBlocks.ANCIENT_DEBRIS_TRAPDOOR, "_side", "", ""));
+        registerCustomButton(bsmg, ModBlocks.ANCIENT_DEBRIS_BUTTON, ModTextureMap.custom(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
+        registerCustomWall(bsmg, ModBlocks.ANCIENT_DEBRIS_WALL, ModTextureMap.custom(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
+        registerCustomSlab(bsmg, ModBlocks.ANCIENT_DEBRIS_SLAB, Blocks.ANCIENT_DEBRIS, ModTextureMap.custom(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
+        registerCustomStairs(bsmg, ModBlocks.ANCIENT_DEBRIS_STAIRS, ModTextureMap.custom(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
+        registerCustomFence(bsmg, ModBlocks.ANCIENT_DEBRIS_FENCE, ModTextureMap.custom(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
+        registerCustomFenceGate(bsmg, ModBlocks.ANCIENT_DEBRIS_FENCE_GATE, ModTextureMap.custom(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
+        registerCustomPressurePlate(bsmg, ModBlocks.ANCIENT_DEBRIS_PRESSURE_PLATE, ModTextureMap.custom(Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, Blocks.ANCIENT_DEBRIS, "_side", "_top", "_top"));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.ANCIENT_DEBRIS_TRAPDOOR, ModTextureMap.custom(Blocks.ANCIENT_DEBRIS, ModBlocks.ANCIENT_DEBRIS_TRAPDOOR, ModBlocks.ANCIENT_DEBRIS_TRAPDOOR, "_side", "", ""));
         //raw_iron_block
         bsmg.registerCubeAllModelTexturePool(Blocks.RAW_IRON_BLOCK)
                 .button(ModBlocks.RAW_IRON_BUTTON)
@@ -2417,13 +2417,13 @@ public class ModModelProvider extends FabricModelProvider {
                 .fenceGate(ModBlocks.SHROOMLIGHT_FENCE_GATE)
                 .pressurePlate(ModBlocks.SHROOMLIGHT_PRESSURE_PLATE);
         //dried_kelp
-        registerCustomButton(bsmg, ModBlocks.DRIED_KELP_BUTTON, ModTextureMap.customSTB(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
-        registerCustomWall(bsmg, ModBlocks.DRIED_KELP_WALL, ModTextureMap.customSTB(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
-        registerCustomSlab(bsmg, ModBlocks.DRIED_KELP_SLAB, Blocks.DRIED_KELP_BLOCK, ModTextureMap.customSTB(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
-        registerCustomStairs(bsmg, ModBlocks.DRIED_KELP_STAIRS, ModTextureMap.customSTB(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
-        registerCustomFence(bsmg, ModBlocks.DRIED_KELP_FENCE, ModTextureMap.customSTB(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
-        registerCustomFenceGate(bsmg, ModBlocks.DRIED_KELP_FENCE_GATE, ModTextureMap.customSTB(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
-        registerCustomPressurePlate(bsmg, ModBlocks.DRIED_KELP_PRESSURE_PLATE, ModTextureMap.customSTB(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomButton(bsmg, ModBlocks.DRIED_KELP_BUTTON, ModTextureMap.custom(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomWall(bsmg, ModBlocks.DRIED_KELP_WALL, ModTextureMap.custom(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomSlab(bsmg, ModBlocks.DRIED_KELP_SLAB, Blocks.DRIED_KELP_BLOCK, ModTextureMap.custom(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomStairs(bsmg, ModBlocks.DRIED_KELP_STAIRS, ModTextureMap.custom(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomFence(bsmg, ModBlocks.DRIED_KELP_FENCE, ModTextureMap.custom(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomFenceGate(bsmg, ModBlocks.DRIED_KELP_FENCE_GATE, ModTextureMap.custom(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
+        registerCustomPressurePlate(bsmg, ModBlocks.DRIED_KELP_PRESSURE_PLATE, ModTextureMap.custom(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
         //tube_coral_block
         bsmg.registerCubeAllModelTexturePool(Blocks.TUBE_CORAL_BLOCK)
                 .button(ModBlocks.TUBE_CORAL_BUTTON)
@@ -2540,7 +2540,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerCustomFence(bsmg, ModBlocks.MELON_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.MELON));
         registerCustomFenceGate(bsmg, ModBlocks.MELON_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.MELON));
         registerCustomPressurePlate(bsmg, ModBlocks.MELON_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.MELON));
-        registerCustomOrTrapdoor(bsmg, ModBlocks.MELON_TRAPDOOR, ModTextureMap.customSTB(Blocks.MELON, ModBlocks.MELON_TRAPDOOR, ModBlocks.MELON_TRAPDOOR, "_side", "", ""));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.MELON_TRAPDOOR, ModTextureMap.custom(Blocks.MELON, ModBlocks.MELON_TRAPDOOR, ModBlocks.MELON_TRAPDOOR, "_side", "", ""));
         //pumpkin
         registerCustomButton(bsmg, ModBlocks.PUMPKIN_BUTTON, ModTextureMap.sideAndTopForEnds(Blocks.PUMPKIN));
         registerCustomWall(bsmg, ModBlocks.PUMPKIN_WALL, ModTextureMap.sideAndTopForEnds(Blocks.PUMPKIN));
@@ -2549,7 +2549,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerCustomFence(bsmg, ModBlocks.PUMPKIN_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.PUMPKIN));
         registerCustomFenceGate(bsmg, ModBlocks.PUMPKIN_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.PUMPKIN));
         registerCustomPressurePlate(bsmg, ModBlocks.PUMPKIN_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.PUMPKIN));
-        registerCustomOrTrapdoor(bsmg, ModBlocks.PUMPKIN_TRAPDOOR, ModTextureMap.customSTB(Blocks.PUMPKIN, ModBlocks.PUMPKIN_TRAPDOOR, ModBlocks.PUMPKIN_TRAPDOOR, "_side", "", ""));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.PUMPKIN_TRAPDOOR, ModTextureMap.custom(Blocks.PUMPKIN, ModBlocks.PUMPKIN_TRAPDOOR, ModBlocks.PUMPKIN_TRAPDOOR, "_side", "", ""));
         //hay_block
         registerCustomButton(bsmg, ModBlocks.HAY_BLOCK_BUTTON, ModTextureMap.sideAndTopForEnds(Blocks.HAY_BLOCK));
         registerCustomWall(bsmg, ModBlocks.HAY_BLOCK_WALL, ModTextureMap.sideAndTopForEnds(Blocks.HAY_BLOCK));
@@ -2558,7 +2558,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerCustomFence(bsmg, ModBlocks.HAY_BLOCK_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.HAY_BLOCK));
         registerCustomFenceGate(bsmg, ModBlocks.HAY_BLOCK_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.HAY_BLOCK));
         registerCustomPressurePlate(bsmg, ModBlocks.HAY_BLOCK_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.HAY_BLOCK));
-        registerCustomOrTrapdoor(bsmg, ModBlocks.HAY_BLOCK_TRAPDOOR, ModTextureMap.customSTB(Blocks.HAY_BLOCK, ModBlocks.HAY_BLOCK_TRAPDOOR, ModBlocks.HAY_BLOCK_TRAPDOOR, "_side", "", ""));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.HAY_BLOCK_TRAPDOOR, ModTextureMap.custom(Blocks.HAY_BLOCK, ModBlocks.HAY_BLOCK_TRAPDOOR, ModBlocks.HAY_BLOCK_TRAPDOOR, "_side", "", ""));
         //honeycomb
         bsmg.registerCubeAllModelTexturePool(Blocks.HONEYCOMB_BLOCK)
                 .button(ModBlocks.HONEYCOMB_BUTTON)
@@ -2593,7 +2593,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerCustomFence(bsmg, ModBlocks.OCHRE_FROGLIGHT_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.OCHRE_FROGLIGHT));
         registerCustomFenceGate(bsmg, ModBlocks.OCHRE_FROGLIGHT_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.OCHRE_FROGLIGHT));
         registerCustomPressurePlate(bsmg, ModBlocks.OCHRE_FROGLIGHT_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.OCHRE_FROGLIGHT));
-        registerCustomOrTrapdoor(bsmg, ModBlocks.OCHRE_FROGLIGHT_TRAPDOOR, ModTextureMap.customSTB(Blocks.OCHRE_FROGLIGHT, ModBlocks.OCHRE_FROGLIGHT_TRAPDOOR, ModBlocks.OCHRE_FROGLIGHT_TRAPDOOR, "_side", "", ""));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.OCHRE_FROGLIGHT_TRAPDOOR, ModTextureMap.custom(Blocks.OCHRE_FROGLIGHT, ModBlocks.OCHRE_FROGLIGHT_TRAPDOOR, ModBlocks.OCHRE_FROGLIGHT_TRAPDOOR, "_side", "", ""));
         //verdant_froglight
         registerCustomButton(bsmg, ModBlocks.VERDANT_FROGLIGHT_BUTTON, ModTextureMap.sideAndTopForEnds(Blocks.VERDANT_FROGLIGHT));
         registerCustomWall(bsmg, ModBlocks.VERDANT_FROGLIGHT_WALL, ModTextureMap.sideAndTopForEnds(Blocks.VERDANT_FROGLIGHT));
@@ -2602,7 +2602,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerCustomFence(bsmg, ModBlocks.VERDANT_FROGLIGHT_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.VERDANT_FROGLIGHT));
         registerCustomFenceGate(bsmg, ModBlocks.VERDANT_FROGLIGHT_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.VERDANT_FROGLIGHT));
         registerCustomPressurePlate(bsmg, ModBlocks.VERDANT_FROGLIGHT_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.VERDANT_FROGLIGHT));
-        registerCustomOrTrapdoor(bsmg, ModBlocks.VERDANT_FROGLIGHT_TRAPDOOR, ModTextureMap.customSTB(Blocks.VERDANT_FROGLIGHT, ModBlocks.VERDANT_FROGLIGHT_TRAPDOOR, ModBlocks.VERDANT_FROGLIGHT_TRAPDOOR, "_side", "", ""));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.VERDANT_FROGLIGHT_TRAPDOOR, ModTextureMap.custom(Blocks.VERDANT_FROGLIGHT, ModBlocks.VERDANT_FROGLIGHT_TRAPDOOR, ModBlocks.VERDANT_FROGLIGHT_TRAPDOOR, "_side", "", ""));
         //pearlescent_froglight
         registerCustomButton(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_BUTTON, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
         registerCustomWall(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_WALL, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
@@ -2611,7 +2611,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerCustomFence(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
         registerCustomFenceGate(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
         registerCustomPressurePlate(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.PEARLESCENT_FROGLIGHT));
-        registerCustomOrTrapdoor(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_TRAPDOOR, ModTextureMap.customSTB(Blocks.PEARLESCENT_FROGLIGHT, ModBlocks.PEARLESCENT_FROGLIGHT_TRAPDOOR, ModBlocks.PEARLESCENT_FROGLIGHT_TRAPDOOR, "_side", "", ""));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.PEARLESCENT_FROGLIGHT_TRAPDOOR, ModTextureMap.custom(Blocks.PEARLESCENT_FROGLIGHT, ModBlocks.PEARLESCENT_FROGLIGHT_TRAPDOOR, ModBlocks.PEARLESCENT_FROGLIGHT_TRAPDOOR, "_side", "", ""));
         //sculk
         bsmg.registerCubeAllModelTexturePool(Blocks.SCULK)
                 .button(ModBlocks.SCULK_BUTTON)
@@ -2638,7 +2638,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerCustomFence(bsmg, ModBlocks.TARGET_FENCE, ModTextureMap.sideAndTopForEnds(Blocks.TARGET));
         registerCustomFenceGate(bsmg, ModBlocks.TARGET_FENCE_GATE, ModTextureMap.sideAndTopForEnds(Blocks.TARGET));
         registerCustomPressurePlate(bsmg, ModBlocks.TARGET_PRESSURE_PLATE, ModTextureMap.sideAndTopForEnds(Blocks.TARGET));
-        registerCustomOrTrapdoor(bsmg, ModBlocks.TARGET_TRAPDOOR, ModTextureMap.customSTB(Blocks.TARGET, ModBlocks.TARGET_TRAPDOOR, ModBlocks.TARGET_TRAPDOOR, "_side", "", ""));
+        registerCustomOrTrapdoor(bsmg, ModBlocks.TARGET_TRAPDOOR, ModTextureMap.custom(Blocks.TARGET, ModBlocks.TARGET_TRAPDOOR, ModBlocks.TARGET_TRAPDOOR, "_side", "", ""));
         //chiseled_copper
         bsmg.registerCubeAllModelTexturePool(Blocks.CHISELED_COPPER)
                 .button(ModBlocks.CHISELED_COPPER_BUTTON)

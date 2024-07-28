@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/fence_inventory",
+  "parent": "vanillablocksplus:blockmodels/fence_stb_inventory",
   "textures": {
-    "texture": "minecraft:block/cherry_wood"
+    "bottom": "minecraft:block/cherry_log",
+    "side": "minecraft:block/cherry_log",
+    "top": "minecraft:block/cherry_log"
   }
 }

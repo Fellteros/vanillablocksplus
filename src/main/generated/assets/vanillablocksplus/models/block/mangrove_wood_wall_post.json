@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/template_wall_post",
+  "parent": "vanillablocksplus:blockmodels/wall_stb_post",
   "textures": {
-    "wall": "minecraft:block/mangrove_wood"
+    "bottom": "minecraft:block/mangrove_log",
+    "side": "minecraft:block/mangrove_log",
+    "top": "minecraft:block/mangrove_log"
   }
 }

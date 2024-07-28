@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/trapdoor_stb_open_top",
+  "textures": {
+    "bottom": "vanillablocksplus:block/dark_oak_leaves_trapdoor",
+    "side": "vanillablocksplus:block/dark_oak_leaves_trapdoor",
+    "top": "vanillablocksplus:block/dark_oak_leaves_trapdoor"
+  }
+}

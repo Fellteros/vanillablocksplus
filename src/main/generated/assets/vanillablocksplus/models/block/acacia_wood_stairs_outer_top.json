@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/stairs_stb_outer_top",
+  "textures": {
+    "bottom": "minecraft:block/acacia_log",
+    "side": "minecraft:block/acacia_log",
+    "top": "minecraft:block/acacia_log"
+  }
+}

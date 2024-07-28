@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/button_inventory",
+  "parent": "vanillablocksplus:blockmodels/button_stb_inventory",
   "textures": {
-    "texture": "minecraft:block/oak_wood"
+    "bottom": "minecraft:block/oak_log",
+    "side": "minecraft:block/oak_log",
+    "top": "minecraft:block/oak_log"
   }
 }
