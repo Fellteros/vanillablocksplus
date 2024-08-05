@@ -10,11 +10,98 @@
     },
     {
       "apply": {
+        "model": "vanillablocksplus:block/dried_kelp_wall_side_short",
+        "uvlock": true
+      },
+      "when": {
+        "north": "low",
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "vanillablocksplus:block/dried_kelp_wall_side_short",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "east": "low",
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "vanillablocksplus:block/dried_kelp_wall_side_short",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "south": "low",
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "vanillablocksplus:block/dried_kelp_wall_side_short",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "up": "true",
+        "west": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "vanillablocksplus:block/dried_kelp_wall_side_tall_short",
+        "uvlock": true
+      },
+      "when": {
+        "north": "tall",
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "vanillablocksplus:block/dried_kelp_wall_side_tall_short",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "east": "tall",
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "vanillablocksplus:block/dried_kelp_wall_side_tall_short",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "south": "tall",
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "vanillablocksplus:block/dried_kelp_wall_side_tall_short",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "up": "true",
+        "west": "tall"
+      }
+    },
+    {
+      "apply": {
         "model": "vanillablocksplus:block/dried_kelp_wall_side",
         "uvlock": true
       },
       "when": {
-        "north": "low"
+        "north": "low",
+        "up": "false"
       }
     },
     {
@@ -24,7 +111,8 @@
         "y": 90
       },
       "when": {
-        "east": "low"
+        "east": "low",
+        "up": "false"
       }
     },
     {
@@ -34,7 +122,8 @@
         "y": 180
       },
       "when": {
-        "south": "low"
+        "south": "low",
+        "up": "false"
       }
     },
     {
@@ -44,6 +133,7 @@
         "y": 270
       },
       "when": {
+        "up": "false",
         "west": "low"
       }
     },
@@ -53,7 +143,8 @@
         "uvlock": true
       },
       "when": {
-        "north": "tall"
+        "north": "tall",
+        "up": "false"
       }
     },
     {
@@ -63,7 +154,8 @@
         "y": 90
       },
       "when": {
-        "east": "tall"
+        "east": "tall",
+        "up": "false"
       }
     },
     {
@@ -73,7 +165,8 @@
         "y": 180
       },
       "when": {
-        "south": "tall"
+        "south": "tall",
+        "up": "false"
       }
     },
     {
@@ -83,6 +176,7 @@
         "y": 270
       },
       "when": {
+        "up": "false",
         "west": "tall"
       }
     }

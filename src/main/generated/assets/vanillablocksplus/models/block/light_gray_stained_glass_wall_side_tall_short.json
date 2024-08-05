@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/wall_stb_side_tall_short",
+  "textures": {
+    "bottom": "minecraft:block/light_gray_stained_glass",
+    "side": "minecraft:block/light_gray_stained_glass",
+    "top": "minecraft:block/light_gray_stained_glass"
+  }
+}

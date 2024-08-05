@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/stairs_stb_outer_top",
+  "textures": {
+    "bottom": "minecraft:block/brown_stained_glass",
+    "side": "minecraft:block/brown_stained_glass",
+    "top": "minecraft:block/brown_stained_glass"
+  }
+}

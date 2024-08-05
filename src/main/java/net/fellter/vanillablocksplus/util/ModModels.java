@@ -27,6 +27,7 @@ public class ModModels {
     public static final Model STAIRS_STB_OUTER = ModModels.block("stairs_stb_outer", "_outer", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
     public static final Model STAIRS_STB_OUTER_TOP = ModModels.block("stairs_stb_outer_top", "_outer_top", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
     public static final Model STAIRS_STB_TOP = ModModels.block("stairs_stb_top", "_top", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model STAIRS_STB_INVENTORY = ModModels.block("stairs_stb_inventory", "_inventory", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
     public static final Model TRAPDOOR_STB_BOTTOM = ModModels.block("trapdoor_stb_bottom", "_bottom", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
     public static final Model TRAPDOOR_STB_OPEN = ModModels.block("trapdoor_stb_open", "_open", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
     public static final Model TRAPDOOR_STB_OPEN_TOP = ModModels.block("trapdoor_stb_open_top", "_open_top", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
@@ -35,6 +36,8 @@ public class ModModels {
     public static final Model WALL_STB_POST = ModModels.block("wall_stb_post", "_post", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
     public static final Model WALL_STB_SIDE = ModModels.block("wall_stb_side", "_side", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
     public static final Model WALL_STB_SIDE_TALL = ModModels.block("wall_stb_side_tall", "_side_tall", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model WALL_STB_SIDE_SHORT = ModModels.block("wall_stb_side_short", "_side_short", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model WALL_STB_SIDE_TALL_SHORT = ModModels.block("wall_stb_side_tall_short", "_side_tall_short", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
     public static final Model DOOR_TI0_BOTTOM_LEFT = ModModels.block("door_ti0_bottom_left", "_bottom_left", TextureKey.TOP, TextureKey.BOTTOM);
     public static final Model DOOR_TI0_BOTTOM_LEFT_OPEN = ModModels.block("door_ti0_bottom_left_open", "_bottom_left_open", TextureKey.TOP, TextureKey.BOTTOM);
     public static final Model DOOR_TI0_BOTTOM_RIGHT = ModModels.block("door_ti0_bottom_right", "_bottom_right", TextureKey.TOP, TextureKey.BOTTOM);

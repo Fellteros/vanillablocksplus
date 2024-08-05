@@ -1,5 +1,7 @@
 package net.fellter.vanillablocksplus.custom_blocks.glass;
 
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.block.StairsBlock;

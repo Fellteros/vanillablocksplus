@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/fence_side",
+  "parent": "vanillablocksplus:blockmodels/fence_stb_side",
   "textures": {
-    "texture": "minecraft:block/light_gray_stained_glass"
+    "bottom": "minecraft:block/light_gray_stained_glass",
+    "side": "minecraft:block/light_gray_stained_glass",
+    "top": "minecraft:block/light_gray_stained_glass"
   }
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/wall_stb_side_short",
+  "textures": {
+    "bottom": "minecraft:block/hay_block_top",
+    "side": "minecraft:block/hay_block_side",
+    "top": "minecraft:block/hay_block_top"
+  }
+}

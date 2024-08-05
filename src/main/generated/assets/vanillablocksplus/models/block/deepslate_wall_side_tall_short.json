@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/wall_stb_side_tall_short",
+  "textures": {
+    "bottom": "minecraft:block/deepslate_top",
+    "side": "minecraft:block/deepslate",
+    "top": "minecraft:block/deepslate_top"
+  }
+}

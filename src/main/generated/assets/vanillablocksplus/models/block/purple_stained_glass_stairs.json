@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/stairs",
+  "parent": "vanillablocksplus:blockmodels/stairs_stb",
   "textures": {
     "bottom": "minecraft:block/purple_stained_glass",
     "side": "minecraft:block/purple_stained_glass",

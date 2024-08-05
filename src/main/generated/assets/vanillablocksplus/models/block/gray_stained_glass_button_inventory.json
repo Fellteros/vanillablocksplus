@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/button_inventory",
+  "parent": "vanillablocksplus:blockmodels/button_stb_inventory",
   "textures": {
-    "texture": "minecraft:block/gray_stained_glass"
+    "bottom": "minecraft:block/gray_stained_glass",
+    "side": "minecraft:block/gray_stained_glass",
+    "top": "minecraft:block/gray_stained_glass"
   }
 }

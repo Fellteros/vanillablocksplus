@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/template_fence_gate_open",
+  "parent": "vanillablocksplus:blockmodels/fence_gate_stb_open",
   "textures": {
-    "texture": "minecraft:block/light_gray_stained_glass"
+    "bottom": "minecraft:block/light_gray_stained_glass",
+    "side": "minecraft:block/light_gray_stained_glass",
+    "top": "minecraft:block/light_gray_stained_glass"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/slab",
+  "parent": "vanillablocksplus:blockmodels/slab_stb",
   "textures": {
     "bottom": "minecraft:block/purple_stained_glass",
     "side": "minecraft:block/purple_stained_glass",

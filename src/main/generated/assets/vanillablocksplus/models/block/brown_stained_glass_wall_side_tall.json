@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/template_wall_side_tall",
+  "parent": "vanillablocksplus:blockmodels/wall_stb_side_tall",
   "textures": {
-    "wall": "minecraft:block/brown_stained_glass"
+    "bottom": "minecraft:block/brown_stained_glass",
+    "side": "minecraft:block/brown_stained_glass",
+    "top": "minecraft:block/brown_stained_glass"
   }
 }

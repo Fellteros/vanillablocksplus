@@ -281,41 +281,7 @@ public class ModModelProvider extends FabricModelProvider {
                 bsmg.registerCubeAllModelTexturePool(Blocks.MAGENTA_GLAZED_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool pinkGlazedTerracottaPool =
                 bsmg.registerCubeAllModelTexturePool(Blocks.PINK_GLAZED_TERRACOTTA);
-        BlockStateModelGenerator.BlockTexturePool whiteStainedGlassPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.WHITE_STAINED_GLASS);
-        BlockStateModelGenerator.BlockTexturePool lightGrayStainedGlassPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_STAINED_GLASS);
-        BlockStateModelGenerator.BlockTexturePool grayStainedGlassPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.GRAY_STAINED_GLASS);
-        BlockStateModelGenerator.BlockTexturePool blackStainedGlassPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.BLACK_STAINED_GLASS);
-        BlockStateModelGenerator.BlockTexturePool brownStainedGlassPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.BROWN_STAINED_GLASS);
-        BlockStateModelGenerator.BlockTexturePool redStainedGlassPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.RED_STAINED_GLASS);
-        BlockStateModelGenerator.BlockTexturePool orangeStainedGlassPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.ORANGE_STAINED_GLASS);
-        BlockStateModelGenerator.BlockTexturePool yellowStainedGlassPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.YELLOW_STAINED_GLASS);
-        BlockStateModelGenerator.BlockTexturePool limeStainedGlassPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.LIME_STAINED_GLASS);
-        BlockStateModelGenerator.BlockTexturePool greenStainedGlassPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.GREEN_STAINED_GLASS);
-        BlockStateModelGenerator.BlockTexturePool cyanStainedGlassPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.CYAN_STAINED_GLASS);
-        BlockStateModelGenerator.BlockTexturePool blueStainedGlassPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.BLUE_STAINED_GLASS);
-        BlockStateModelGenerator.BlockTexturePool lightBlueStainedGlassPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_STAINED_GLASS);
-        BlockStateModelGenerator.BlockTexturePool purpleStainedGlassPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.PURPLE_STAINED_GLASS);
-        BlockStateModelGenerator.BlockTexturePool magentaStainedGlassPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.MAGENTA_STAINED_GLASS);
-        BlockStateModelGenerator.BlockTexturePool pinkStainedGlassPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.PINK_STAINED_GLASS);
         //GRASS BLOCKS MADE MANUALLY
-        BlockStateModelGenerator.BlockTexturePool dirtPool =
-                bsmg.registerCubeAllModelTexturePool(Blocks.DIRT);
         BlockStateModelGenerator.BlockTexturePool coarseDirtPool =
                 bsmg.registerCubeAllModelTexturePool(Blocks.COARSE_DIRT);
         BlockStateModelGenerator.BlockTexturePool rootedDirtPool =
@@ -1746,142 +1712,159 @@ public class ModModelProvider extends FabricModelProvider {
         pinkGlazedTerracottaPool.fenceGate(ModBlocks.PINK_GLAZED_TERRACOTTA_FENCE_GATE);
         pinkGlazedTerracottaPool.pressurePlate(ModBlocks.PINK_GLAZED_TERRACOTTA_PRESSURE_PLATE);
         //white_stained_glass
-        whiteStainedGlassPool.button(ModBlocks.WHITE_STAINED_GLASS_BUTTON);
-        whiteStainedGlassPool.wall(ModBlocks.WHITE_STAINED_GLASS_WALL);
-        whiteStainedGlassPool.slab(ModBlocks.WHITE_STAINED_GLASS_SLAB);
-        whiteStainedGlassPool.stairs(ModBlocks.WHITE_STAINED_GLASS_STAIRS);
-        whiteStainedGlassPool.fence(ModBlocks.WHITE_STAINED_GLASS_FENCE);
-        whiteStainedGlassPool.fenceGate(ModBlocks.WHITE_STAINED_GLASS_FENCE_GATE);
-        whiteStainedGlassPool.pressurePlate(ModBlocks.WHITE_STAINED_GLASS_PRESSURE_PLATE);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.WHITE_STAINED_GLASS), Blocks.WHITE_STAINED_GLASS)
+                .button(ModBlocks.WHITE_STAINED_GLASS_BUTTON)
+                .wall(ModBlocks.WHITE_STAINED_GLASS_WALL)
+                .slab(ModBlocks.WHITE_STAINED_GLASS_SLAB)
+                .stairs(ModBlocks.WHITE_STAINED_GLASS_STAIRS)
+                .fence(ModBlocks.WHITE_STAINED_GLASS_FENCE)
+                .fenceGate(ModBlocks.WHITE_STAINED_GLASS_FENCE_GATE)
+                .pressurePlate(ModBlocks.WHITE_STAINED_GLASS_PRESSURE_PLATE);
         //light_gray_stained_glass
-        lightGrayStainedGlassPool.button(ModBlocks.LIGHT_GRAY_STAINED_GLASS_BUTTON);
-        lightGrayStainedGlassPool.wall(ModBlocks.LIGHT_GRAY_STAINED_GLASS_WALL);
-        lightGrayStainedGlassPool.slab(ModBlocks.LIGHT_GRAY_STAINED_GLASS_SLAB);
-        lightGrayStainedGlassPool.stairs(ModBlocks.LIGHT_GRAY_STAINED_GLASS_STAIRS);
-        lightGrayStainedGlassPool.fence(ModBlocks.LIGHT_GRAY_STAINED_GLASS_FENCE);
-        lightGrayStainedGlassPool.fenceGate(ModBlocks.LIGHT_GRAY_STAINED_GLASS_FENCE_GATE);
-        lightGrayStainedGlassPool.pressurePlate(ModBlocks.LIGHT_GRAY_STAINED_GLASS_PRESSURE_PLATE);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.LIGHT_GRAY_STAINED_GLASS), Blocks.LIGHT_GRAY_STAINED_GLASS)
+                .button(ModBlocks.LIGHT_GRAY_STAINED_GLASS_BUTTON)
+                .wall(ModBlocks.LIGHT_GRAY_STAINED_GLASS_WALL)
+                .slab(ModBlocks.LIGHT_GRAY_STAINED_GLASS_SLAB)
+                .stairs(ModBlocks.LIGHT_GRAY_STAINED_GLASS_STAIRS)
+                .fence(ModBlocks.LIGHT_GRAY_STAINED_GLASS_FENCE)
+                .fenceGate(ModBlocks.LIGHT_GRAY_STAINED_GLASS_FENCE_GATE)
+                .pressurePlate(ModBlocks.LIGHT_GRAY_STAINED_GLASS_PRESSURE_PLATE);
         //gray_stained_glass
-        grayStainedGlassPool.button(ModBlocks.GRAY_STAINED_GLASS_BUTTON);
-        grayStainedGlassPool.wall(ModBlocks.GRAY_STAINED_GLASS_WALL);
-        grayStainedGlassPool.slab(ModBlocks.GRAY_STAINED_GLASS_SLAB);
-        grayStainedGlassPool.stairs(ModBlocks.GRAY_STAINED_GLASS_STAIRS);
-        grayStainedGlassPool.fence(ModBlocks.GRAY_STAINED_GLASS_FENCE);
-        grayStainedGlassPool.fenceGate(ModBlocks.GRAY_STAINED_GLASS_FENCE_GATE);
-        grayStainedGlassPool.pressurePlate(ModBlocks.GRAY_STAINED_GLASS_PRESSURE_PLATE);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.GRAY_STAINED_GLASS), Blocks.GRAY_STAINED_GLASS)
+                .button(ModBlocks.GRAY_STAINED_GLASS_BUTTON)
+                .wall(ModBlocks.GRAY_STAINED_GLASS_WALL)
+                .slab(ModBlocks.GRAY_STAINED_GLASS_SLAB)
+                .stairs(ModBlocks.GRAY_STAINED_GLASS_STAIRS)
+                .fence(ModBlocks.GRAY_STAINED_GLASS_FENCE)
+                .fenceGate(ModBlocks.GRAY_STAINED_GLASS_FENCE_GATE)
+                .pressurePlate(ModBlocks.GRAY_STAINED_GLASS_PRESSURE_PLATE);
         //black_stained_glass
-        blackStainedGlassPool.button(ModBlocks.BLACK_STAINED_GLASS_BUTTON);
-        blackStainedGlassPool.wall(ModBlocks.BLACK_STAINED_GLASS_WALL);
-        blackStainedGlassPool.slab(ModBlocks.BLACK_STAINED_GLASS_SLAB);
-        blackStainedGlassPool.stairs(ModBlocks.BLACK_STAINED_GLASS_STAIRS);
-        blackStainedGlassPool.fence(ModBlocks.BLACK_STAINED_GLASS_FENCE);
-        blackStainedGlassPool.fenceGate(ModBlocks.BLACK_STAINED_GLASS_FENCE_GATE);
-        blackStainedGlassPool.pressurePlate(ModBlocks.BLACK_STAINED_GLASS_PRESSURE_PLATE);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.BLACK_STAINED_GLASS), Blocks.BLACK_STAINED_GLASS)
+                .button(ModBlocks.BLACK_STAINED_GLASS_BUTTON)
+                .wall(ModBlocks.BLACK_STAINED_GLASS_WALL)
+                .slab(ModBlocks.BLACK_STAINED_GLASS_SLAB)
+                .stairs(ModBlocks.BLACK_STAINED_GLASS_STAIRS)
+                .fence(ModBlocks.BLACK_STAINED_GLASS_FENCE)
+                .fenceGate(ModBlocks.BLACK_STAINED_GLASS_FENCE_GATE)
+                .pressurePlate(ModBlocks.BLACK_STAINED_GLASS_PRESSURE_PLATE);
         //brown_stained_glass
-        brownStainedGlassPool.button(ModBlocks.BROWN_STAINED_GLASS_BUTTON);
-        brownStainedGlassPool.wall(ModBlocks.BROWN_STAINED_GLASS_WALL);
-        brownStainedGlassPool.slab(ModBlocks.BROWN_STAINED_GLASS_SLAB);
-        brownStainedGlassPool.stairs(ModBlocks.BROWN_STAINED_GLASS_STAIRS);
-        brownStainedGlassPool.fence(ModBlocks.BROWN_STAINED_GLASS_FENCE);
-        brownStainedGlassPool.fenceGate(ModBlocks.BROWN_STAINED_GLASS_FENCE_GATE);
-        brownStainedGlassPool.pressurePlate(ModBlocks.BROWN_STAINED_GLASS_PRESSURE_PLATE);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.BROWN_STAINED_GLASS), Blocks.BROWN_STAINED_GLASS)
+                .button(ModBlocks.BROWN_STAINED_GLASS_BUTTON)
+                .wall(ModBlocks.BROWN_STAINED_GLASS_WALL)
+                .slab(ModBlocks.BROWN_STAINED_GLASS_SLAB)
+                .stairs(ModBlocks.BROWN_STAINED_GLASS_STAIRS)
+                .fence(ModBlocks.BROWN_STAINED_GLASS_FENCE)
+                .fenceGate(ModBlocks.BROWN_STAINED_GLASS_FENCE_GATE)
+                .pressurePlate(ModBlocks.BROWN_STAINED_GLASS_PRESSURE_PLATE);
         //red_stained_glass
-        redStainedGlassPool.button(ModBlocks.RED_STAINED_GLASS_BUTTON);
-        redStainedGlassPool.wall(ModBlocks.RED_STAINED_GLASS_WALL);
-        redStainedGlassPool.slab(ModBlocks.RED_STAINED_GLASS_SLAB);
-        redStainedGlassPool.stairs(ModBlocks.RED_STAINED_GLASS_STAIRS);
-        redStainedGlassPool.fence(ModBlocks.RED_STAINED_GLASS_FENCE);
-        redStainedGlassPool.fenceGate(ModBlocks.RED_STAINED_GLASS_FENCE_GATE);
-        redStainedGlassPool.pressurePlate(ModBlocks.RED_STAINED_GLASS_PRESSURE_PLATE);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.RED_STAINED_GLASS), Blocks.RED_STAINED_GLASS)
+                .button(ModBlocks.RED_STAINED_GLASS_BUTTON)
+                .wall(ModBlocks.RED_STAINED_GLASS_WALL)
+                .slab(ModBlocks.RED_STAINED_GLASS_SLAB)
+                .stairs(ModBlocks.RED_STAINED_GLASS_STAIRS)
+                .fence(ModBlocks.RED_STAINED_GLASS_FENCE)
+                .fenceGate(ModBlocks.RED_STAINED_GLASS_FENCE_GATE)
+                .pressurePlate(ModBlocks.RED_STAINED_GLASS_PRESSURE_PLATE);
         //orange_terracotta
-        orangeStainedGlassPool.button(ModBlocks.ORANGE_STAINED_GLASS_BUTTON);
-        orangeStainedGlassPool.wall(ModBlocks.ORANGE_STAINED_GLASS_WALL);
-        orangeStainedGlassPool.slab(ModBlocks.ORANGE_STAINED_GLASS_SLAB);
-        orangeStainedGlassPool.stairs(ModBlocks.ORANGE_STAINED_GLASS_STAIRS);
-        orangeStainedGlassPool.fence(ModBlocks.ORANGE_STAINED_GLASS_FENCE);
-        orangeStainedGlassPool.fenceGate(ModBlocks.ORANGE_STAINED_GLASS_FENCE_GATE);
-        orangeStainedGlassPool.pressurePlate(ModBlocks.ORANGE_STAINED_GLASS_PRESSURE_PLATE);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.ORANGE_STAINED_GLASS), Blocks.ORANGE_STAINED_GLASS)
+                .button(ModBlocks.ORANGE_STAINED_GLASS_BUTTON)
+                .wall(ModBlocks.ORANGE_STAINED_GLASS_WALL)
+                .slab(ModBlocks.ORANGE_STAINED_GLASS_SLAB)
+                .stairs(ModBlocks.ORANGE_STAINED_GLASS_STAIRS)
+                .fence(ModBlocks.ORANGE_STAINED_GLASS_FENCE)
+                .fenceGate(ModBlocks.ORANGE_STAINED_GLASS_FENCE_GATE)
+                .pressurePlate(ModBlocks.ORANGE_STAINED_GLASS_PRESSURE_PLATE);
         //yellow_terracotta
-        yellowStainedGlassPool.button(ModBlocks.YELLOW_STAINED_GLASS_BUTTON);
-        yellowStainedGlassPool.wall(ModBlocks.YELLOW_STAINED_GLASS_WALL);
-        yellowStainedGlassPool.slab(ModBlocks.YELLOW_STAINED_GLASS_SLAB);
-        yellowStainedGlassPool.stairs(ModBlocks.YELLOW_STAINED_GLASS_STAIRS);
-        yellowStainedGlassPool.fence(ModBlocks.YELLOW_STAINED_GLASS_FENCE);
-        yellowStainedGlassPool.fenceGate(ModBlocks.YELLOW_STAINED_GLASS_FENCE_GATE);
-        yellowStainedGlassPool.pressurePlate(ModBlocks.YELLOW_STAINED_GLASS_PRESSURE_PLATE);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.YELLOW_STAINED_GLASS), Blocks.YELLOW_STAINED_GLASS)
+                .button(ModBlocks.YELLOW_STAINED_GLASS_BUTTON)
+                .wall(ModBlocks.YELLOW_STAINED_GLASS_WALL)
+                .slab(ModBlocks.YELLOW_STAINED_GLASS_SLAB)
+                .stairs(ModBlocks.YELLOW_STAINED_GLASS_STAIRS)
+                .fence(ModBlocks.YELLOW_STAINED_GLASS_FENCE)
+                .fenceGate(ModBlocks.YELLOW_STAINED_GLASS_FENCE_GATE)
+                .pressurePlate(ModBlocks.YELLOW_STAINED_GLASS_PRESSURE_PLATE);
         //lime_terracotta
-        limeStainedGlassPool.button(ModBlocks.LIME_STAINED_GLASS_BUTTON);
-        limeStainedGlassPool.wall(ModBlocks.LIME_STAINED_GLASS_WALL);
-        limeStainedGlassPool.slab(ModBlocks.LIME_STAINED_GLASS_SLAB);
-        limeStainedGlassPool.stairs(ModBlocks.LIME_STAINED_GLASS_STAIRS);
-        limeStainedGlassPool.fence(ModBlocks.LIME_STAINED_GLASS_FENCE);
-        limeStainedGlassPool.fenceGate(ModBlocks.LIME_STAINED_GLASS_FENCE_GATE);
-        limeStainedGlassPool.pressurePlate(ModBlocks.LIME_STAINED_GLASS_PRESSURE_PLATE);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.LIME_STAINED_GLASS), Blocks.LIME_STAINED_GLASS)
+                .button(ModBlocks.LIME_STAINED_GLASS_BUTTON)
+                .wall(ModBlocks.LIME_STAINED_GLASS_WALL)
+                .slab(ModBlocks.LIME_STAINED_GLASS_SLAB)
+                .stairs(ModBlocks.LIME_STAINED_GLASS_STAIRS)
+                .fence(ModBlocks.LIME_STAINED_GLASS_FENCE)
+                .fenceGate(ModBlocks.LIME_STAINED_GLASS_FENCE_GATE)
+                .pressurePlate(ModBlocks.LIME_STAINED_GLASS_PRESSURE_PLATE);
         //green_terracotta
-        greenStainedGlassPool.button(ModBlocks.GREEN_STAINED_GLASS_BUTTON);
-        greenStainedGlassPool.wall(ModBlocks.GREEN_STAINED_GLASS_WALL);
-        greenStainedGlassPool.slab(ModBlocks.GREEN_STAINED_GLASS_SLAB);
-        greenStainedGlassPool.stairs(ModBlocks.GREEN_STAINED_GLASS_STAIRS);
-        greenStainedGlassPool.fence(ModBlocks.GREEN_STAINED_GLASS_FENCE);
-        greenStainedGlassPool.fenceGate(ModBlocks.GREEN_STAINED_GLASS_FENCE_GATE);
-        greenStainedGlassPool.pressurePlate(ModBlocks.GREEN_STAINED_GLASS_PRESSURE_PLATE);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.GREEN_STAINED_GLASS), Blocks.GREEN_STAINED_GLASS)
+                .button(ModBlocks.GREEN_STAINED_GLASS_BUTTON)
+                .wall(ModBlocks.GREEN_STAINED_GLASS_WALL)
+                .slab(ModBlocks.GREEN_STAINED_GLASS_SLAB)
+                .stairs(ModBlocks.GREEN_STAINED_GLASS_STAIRS)
+                .fence(ModBlocks.GREEN_STAINED_GLASS_FENCE)
+                .fenceGate(ModBlocks.GREEN_STAINED_GLASS_FENCE_GATE)
+                .pressurePlate(ModBlocks.GREEN_STAINED_GLASS_PRESSURE_PLATE);
         //cyan_terracotta
-        cyanStainedGlassPool.button(ModBlocks.CYAN_STAINED_GLASS_BUTTON);
-        cyanStainedGlassPool.wall(ModBlocks.CYAN_STAINED_GLASS_WALL);
-        cyanStainedGlassPool.slab(ModBlocks.CYAN_STAINED_GLASS_SLAB);
-        cyanStainedGlassPool.stairs(ModBlocks.CYAN_STAINED_GLASS_STAIRS);
-        cyanStainedGlassPool.fence(ModBlocks.CYAN_STAINED_GLASS_FENCE);
-        cyanStainedGlassPool.fenceGate(ModBlocks.CYAN_STAINED_GLASS_FENCE_GATE);
-        cyanStainedGlassPool.pressurePlate(ModBlocks.CYAN_STAINED_GLASS_PRESSURE_PLATE);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.CYAN_STAINED_GLASS), Blocks.CYAN_STAINED_GLASS)
+                .button(ModBlocks.CYAN_STAINED_GLASS_BUTTON)
+                .wall(ModBlocks.CYAN_STAINED_GLASS_WALL)
+                .slab(ModBlocks.CYAN_STAINED_GLASS_SLAB)
+                .stairs(ModBlocks.CYAN_STAINED_GLASS_STAIRS)
+                .fence(ModBlocks.CYAN_STAINED_GLASS_FENCE)
+                .fenceGate(ModBlocks.CYAN_STAINED_GLASS_FENCE_GATE)
+                .pressurePlate(ModBlocks.CYAN_STAINED_GLASS_PRESSURE_PLATE);
         //blue_terracotta
-        blueStainedGlassPool.button(ModBlocks.BLUE_STAINED_GLASS_BUTTON);
-        blueStainedGlassPool.wall(ModBlocks.BLUE_STAINED_GLASS_WALL);
-        blueStainedGlassPool.slab(ModBlocks.BLUE_STAINED_GLASS_SLAB);
-        blueStainedGlassPool.stairs(ModBlocks.BLUE_STAINED_GLASS_STAIRS);
-        blueStainedGlassPool.fence(ModBlocks.BLUE_STAINED_GLASS_FENCE);
-        blueStainedGlassPool.fenceGate(ModBlocks.BLUE_STAINED_GLASS_FENCE_GATE);
-        blueStainedGlassPool.pressurePlate(ModBlocks.BLUE_STAINED_GLASS_PRESSURE_PLATE);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.BLUE_STAINED_GLASS), Blocks.BLUE_STAINED_GLASS)
+                .button(ModBlocks.BLUE_STAINED_GLASS_BUTTON)
+                .wall(ModBlocks.BLUE_STAINED_GLASS_WALL)
+                .slab(ModBlocks.BLUE_STAINED_GLASS_SLAB)
+                .stairs(ModBlocks.BLUE_STAINED_GLASS_STAIRS)
+                .fence(ModBlocks.BLUE_STAINED_GLASS_FENCE)
+                .fenceGate(ModBlocks.BLUE_STAINED_GLASS_FENCE_GATE)
+                .pressurePlate(ModBlocks.BLUE_STAINED_GLASS_PRESSURE_PLATE);
         //light_blue_terracotta
-        lightBlueStainedGlassPool.button(ModBlocks.LIGHT_BLUE_STAINED_GLASS_BUTTON);
-        lightBlueStainedGlassPool.wall(ModBlocks.LIGHT_BLUE_STAINED_GLASS_WALL);
-        lightBlueStainedGlassPool.slab(ModBlocks.LIGHT_BLUE_STAINED_GLASS_SLAB);
-        lightBlueStainedGlassPool.stairs(ModBlocks.LIGHT_BLUE_STAINED_GLASS_STAIRS);
-        lightBlueStainedGlassPool.fence(ModBlocks.LIGHT_BLUE_STAINED_GLASS_FENCE);
-        lightBlueStainedGlassPool.fenceGate(ModBlocks.LIGHT_BLUE_STAINED_GLASS_FENCE_GATE);
-        lightBlueStainedGlassPool.pressurePlate(ModBlocks.LIGHT_BLUE_STAINED_GLASS_PRESSURE_PLATE);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.LIGHT_BLUE_STAINED_GLASS), Blocks.LIGHT_BLUE_STAINED_GLASS)
+                .button(ModBlocks.LIGHT_BLUE_STAINED_GLASS_BUTTON)
+                .wall(ModBlocks.LIGHT_BLUE_STAINED_GLASS_WALL)
+                .slab(ModBlocks.LIGHT_BLUE_STAINED_GLASS_SLAB)
+                .stairs(ModBlocks.LIGHT_BLUE_STAINED_GLASS_STAIRS)
+                .fence(ModBlocks.LIGHT_BLUE_STAINED_GLASS_FENCE)
+                .fenceGate(ModBlocks.LIGHT_BLUE_STAINED_GLASS_FENCE_GATE)
+                .pressurePlate(ModBlocks.LIGHT_BLUE_STAINED_GLASS_PRESSURE_PLATE);
         //purple_terracotta
-        purpleStainedGlassPool.button(ModBlocks.PURPLE_STAINED_GLASS_BUTTON);
-        purpleStainedGlassPool.wall(ModBlocks.PURPLE_STAINED_GLASS_WALL);
-        purpleStainedGlassPool.slab(ModBlocks.PURPLE_STAINED_GLASS_SLAB);
-        purpleStainedGlassPool.stairs(ModBlocks.PURPLE_STAINED_GLASS_STAIRS);
-        purpleStainedGlassPool.fence(ModBlocks.PURPLE_STAINED_GLASS_FENCE);
-        purpleStainedGlassPool.fenceGate(ModBlocks.PURPLE_STAINED_GLASS_FENCE_GATE);
-        purpleStainedGlassPool.pressurePlate(ModBlocks.PURPLE_STAINED_GLASS_PRESSURE_PLATE);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.PURPLE_STAINED_GLASS), Blocks.PURPLE_STAINED_GLASS)
+                .button(ModBlocks.PURPLE_STAINED_GLASS_BUTTON)
+                .wall(ModBlocks.PURPLE_STAINED_GLASS_WALL)
+                .slab(ModBlocks.PURPLE_STAINED_GLASS_SLAB)
+                .stairs(ModBlocks.PURPLE_STAINED_GLASS_STAIRS)
+                .fence(ModBlocks.PURPLE_STAINED_GLASS_FENCE)
+                .fenceGate(ModBlocks.PURPLE_STAINED_GLASS_FENCE_GATE)
+                .pressurePlate(ModBlocks.PURPLE_STAINED_GLASS_PRESSURE_PLATE);
         //magenta_terracotta
-        magentaStainedGlassPool.button(ModBlocks.MAGENTA_STAINED_GLASS_BUTTON);
-        magentaStainedGlassPool.wall(ModBlocks.MAGENTA_STAINED_GLASS_WALL);
-        magentaStainedGlassPool.slab(ModBlocks.MAGENTA_STAINED_GLASS_SLAB);
-        magentaStainedGlassPool.stairs(ModBlocks.MAGENTA_STAINED_GLASS_STAIRS);
-        magentaStainedGlassPool.fence(ModBlocks.MAGENTA_STAINED_GLASS_FENCE);
-        magentaStainedGlassPool.fenceGate(ModBlocks.MAGENTA_STAINED_GLASS_FENCE_GATE);
-        magentaStainedGlassPool.pressurePlate(ModBlocks.MAGENTA_STAINED_GLASS_PRESSURE_PLATE);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.MAGENTA_STAINED_GLASS), Blocks.MAGENTA_STAINED_GLASS)
+                .button(ModBlocks.MAGENTA_STAINED_GLASS_BUTTON)
+                .wall(ModBlocks.MAGENTA_STAINED_GLASS_WALL)
+                .slab(ModBlocks.MAGENTA_STAINED_GLASS_SLAB)
+                .stairs(ModBlocks.MAGENTA_STAINED_GLASS_STAIRS)
+                .fence(ModBlocks.MAGENTA_STAINED_GLASS_FENCE)
+                .fenceGate(ModBlocks.MAGENTA_STAINED_GLASS_FENCE_GATE)
+                .pressurePlate(ModBlocks.MAGENTA_STAINED_GLASS_PRESSURE_PLATE);
         //pink_terracotta
-        pinkStainedGlassPool.button(ModBlocks.PINK_STAINED_GLASS_BUTTON);
-        pinkStainedGlassPool.wall(ModBlocks.PINK_STAINED_GLASS_WALL);
-        pinkStainedGlassPool.slab(ModBlocks.PINK_STAINED_GLASS_SLAB);
-        pinkStainedGlassPool.stairs(ModBlocks.PINK_STAINED_GLASS_STAIRS);
-        pinkStainedGlassPool.fence(ModBlocks.PINK_STAINED_GLASS_FENCE);
-        pinkStainedGlassPool.fenceGate(ModBlocks.PINK_STAINED_GLASS_FENCE_GATE);
-        pinkStainedGlassPool.pressurePlate(ModBlocks.PINK_STAINED_GLASS_PRESSURE_PLATE);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.PINK_STAINED_GLASS), Blocks.PINK_STAINED_GLASS)
+                .button(ModBlocks.PINK_STAINED_GLASS_BUTTON)
+                .wall(ModBlocks.PINK_STAINED_GLASS_WALL)
+                .slab(ModBlocks.PINK_STAINED_GLASS_SLAB)
+                .stairs(ModBlocks.PINK_STAINED_GLASS_STAIRS)
+                .fence(ModBlocks.PINK_STAINED_GLASS_FENCE)
+                .fenceGate(ModBlocks.PINK_STAINED_GLASS_FENCE_GATE)
+                .pressurePlate(ModBlocks.PINK_STAINED_GLASS_PRESSURE_PLATE);
         //GRASS BLOCKS MADE MANUALLY
         //dirt
-        dirtPool.button(ModBlocks.DIRT_BUTTON);
-        dirtPool.wall(ModBlocks.DIRT_WALL);
-        dirtPool.slab(ModBlocks.DIRT_SLAB);
-        dirtPool.stairs(ModBlocks.DIRT_STAIRS);
-        dirtPool.fence(ModBlocks.DIRT_FENCE);
-        dirtPool.fenceGate(ModBlocks.DIRT_FENCE_GATE);
-        dirtPool.pressurePlate(ModBlocks.DIRT_PRESSURE_PLATE);
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.DIRT), Blocks.DIRT)
+                .button(ModBlocks.DIRT_BUTTON)
+                .wall(ModBlocks.DIRT_WALL)
+                .slab(ModBlocks.DIRT_SLAB)
+                .stairs(ModBlocks.DIRT_STAIRS)
+                .fence(ModBlocks.DIRT_FENCE)
+                .fenceGate(ModBlocks.DIRT_FENCE_GATE)
+                .pressurePlate(ModBlocks.DIRT_PRESSURE_PLATE);
         //podzol
         registerCustomButton(bsmg, ModBlocks.PODZOL_BUTTON, ModTextureMap.custom(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));
         registerCustomWall(bsmg, ModBlocks.PODZOL_WALL, ModTextureMap.custom(Blocks.PODZOL, Blocks.PODZOL, Blocks.DIRT, "_side", "_top", ""));

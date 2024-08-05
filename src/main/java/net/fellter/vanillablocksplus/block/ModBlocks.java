@@ -5860,12 +5860,12 @@ public class ModBlocks {
     public static final Block WAXED_OXIDIZED_COPPER_GRATE_WALL = registerBlock("waxed_oxidized_copper_grate_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_COPPER_GRATE)));
 
+
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(VanillaBlocksPlus.MOD_ID, name), block);
     }
-
-
     private static void registerBlockItem(String name, Block block) {
         Registry.register(Registries.ITEM, Identifier.of(VanillaBlocksPlus.MOD_ID, name),
                 new BlockItem(block, new Item.Settings()));
