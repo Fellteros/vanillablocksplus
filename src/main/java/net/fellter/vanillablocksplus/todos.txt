@@ -1,3 +1,0 @@
-//TODO strippable blocky pridat moznost je stripnout: tryStrip v AxeItem
-
-//TODO BlockSetTypes a WoodTypes pridat vsem blockům

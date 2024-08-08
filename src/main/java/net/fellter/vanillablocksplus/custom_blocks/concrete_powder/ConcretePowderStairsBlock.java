@@ -1,5 +1,6 @@
 package net.fellter.vanillablocksplus.custom_blocks.concrete_powder;
 
+import net.fellter.vanillablocksplus.custom_blocks.falling.FallingStairsBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.LandingBlock;
@@ -19,7 +20,7 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 
-public class ConcretePowderStairsBlock extends StairsBlock implements LandingBlock {
+public class ConcretePowderStairsBlock extends FallingStairsBlock implements LandingBlock {
     private final BlockState hardenedState;
 
     public ConcretePowderStairsBlock(BlockState baseBlockState, Settings settings, Block hardened) {

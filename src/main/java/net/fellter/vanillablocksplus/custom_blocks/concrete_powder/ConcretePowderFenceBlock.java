@@ -1,5 +1,6 @@
 package net.fellter.vanillablocksplus.custom_blocks.concrete_powder;
 
+import net.fellter.vanillablocksplus.custom_blocks.falling.FallingFenceBlock;
 import net.minecraft.block.*;
 import net.minecraft.entity.FallingBlockEntity;
 import net.minecraft.fluid.FluidState;
@@ -21,7 +22,7 @@ import net.minecraft.world.WorldAccess;
 
 import java.util.Map;
 
-public class ConcretePowderFenceBlock extends FenceBlock implements LandingBlock {
+public class ConcretePowderFenceBlock extends FallingFenceBlock implements LandingBlock {
     private final BlockState hardenedState;
 
     public ConcretePowderFenceBlock(Settings settings, Block hardened) {

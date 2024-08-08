@@ -1,5 +1,6 @@
 package net.fellter.vanillablocksplus.item;
 
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -28,4 +29,6 @@ public class ModItems {
     public static void registerModItems() {
         VanillaBlocksPlus.LOGGER.info("Registering Mod Items for " + VanillaBlocksPlus.MOD_ID);
     }
+
+
 }

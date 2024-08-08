@@ -1,5 +1,6 @@
 package net.fellter.vanillablocksplus.custom_blocks.concrete_powder;
 
+import net.fellter.vanillablocksplus.custom_blocks.falling.FallingDoorBlock;
 import net.minecraft.block.*;
 import net.minecraft.entity.FallingBlockEntity;
 import net.minecraft.item.ItemPlacementContext;
@@ -16,7 +17,7 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 
-public class ConcretePowderDoorBlock extends DoorBlock implements LandingBlock {
+public class ConcretePowderDoorBlock extends FallingDoorBlock implements LandingBlock {
     private final BlockState hardenedState;
 
     public ConcretePowderDoorBlock(BlockSetType type, AbstractBlock.Settings settings, Block hardened) {

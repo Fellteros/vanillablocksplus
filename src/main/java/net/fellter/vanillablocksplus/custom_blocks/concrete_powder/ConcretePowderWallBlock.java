@@ -24,7 +24,7 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
 
-public class ConcretePowderWallBlock extends WallBlock implements LandingBlock {
+public class ConcretePowderWallBlock extends FallingWallBlock implements LandingBlock {
     private static final VoxelShape TALL_POST_SHAPE = createCuboidShape(7, 0, 7, 9, 16, 9);
     private static final VoxelShape TALL_NORTH_SHAPE = createCuboidShape(7, 0, 0, 9, 16, 9);
     private static final VoxelShape TALL_SOUTH_SHAPE = createCuboidShape(7, 0, 7, 9, 16, 16);

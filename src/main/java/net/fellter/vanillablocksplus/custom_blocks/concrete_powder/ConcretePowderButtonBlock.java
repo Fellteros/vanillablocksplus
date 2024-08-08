@@ -1,5 +1,6 @@
 package net.fellter.vanillablocksplus.custom_blocks.concrete_powder;
 
+import net.fellter.vanillablocksplus.custom_blocks.falling.FallingButtonBlock;
 import net.minecraft.block.*;
 import net.minecraft.entity.FallingBlockEntity;
 import net.minecraft.item.ItemPlacementContext;
@@ -16,7 +17,7 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 
-public class ConcretePowderButtonBlock extends ButtonBlock implements LandingBlock {
+public class ConcretePowderButtonBlock extends FallingButtonBlock implements LandingBlock {
     private final BlockState hardenedState;
 
     public ConcretePowderButtonBlock(BlockSetType blockSetType, int pressTicks, Settings settings, Block hardened) {
