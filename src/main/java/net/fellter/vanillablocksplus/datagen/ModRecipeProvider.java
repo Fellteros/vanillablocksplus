@@ -37,6 +37,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.TrapdoorRecipe(ModBlocks.OAK_WOOD_TRAPDOOR, (Blocks.OAK_WOOD)).offerTo(exporter);
         ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.OAK_WOOD_BUTTON, Blocks.OAK_WOOD).offerTo(exporter);
         ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.OAK_WOOD_WALL, Blocks.OAK_WOOD).offerTo(exporter);
+        
+        //oak
+        ModRecipes.StairsRecipe(ModBlocks2.OAK_LOG_STAIRS, (Blocks.OAK_LOG)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks2.OAK_LOG_SLAB, (Blocks.OAK_LOG)).offerTo(exporter);
+        ModRecipes.DoorRecipe(ModBlocks2.OAK_LOG_DOOR, (Blocks.OAK_LOG)).offerTo(exporter);
+        ModRecipes.FenceRecipe(ModBlocks2.OAK_LOG_FENCE, (Blocks.OAK_LOG)).offerTo(exporter);
+        ModRecipes.FenceGateRecipe(ModBlocks2.OAK_LOG_FENCE_GATE, (Blocks.OAK_LOG)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.BUILDING_BLOCKS,
+                ModBlocks2.OAK_LOG_PRESSURE_PLATE, (Blocks.OAK_LOG)).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks2.OAK_LOG_TRAPDOOR, (Blocks.OAK_LOG)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks2.OAK_LOG_BUTTON, ModBlocks2.OAK_LOG_SLAB).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks2.OAK_LOG_WALL, Blocks.OAK_LOG).offerTo(exporter);
 
         //str oak
         ModRecipes.StairsRecipe(ModBlocks.STR_OAK_WOOD_STAIRS, (Blocks.STRIPPED_OAK_WOOD)).offerTo(exporter);
@@ -50,6 +62,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_OAK_WOOD_BUTTON, Blocks.STRIPPED_OAK_WOOD).offerTo(exporter);
         ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.STR_OAK_WOOD_WALL, Blocks.STRIPPED_OAK_WOOD).offerTo(exporter);
 
+        //oak
+        ModRecipes.StairsRecipe(ModBlocks2.STR_OAK_LOG_STAIRS, (Blocks.STRIPPED_OAK_LOG)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks2.STR_OAK_LOG_SLAB, (Blocks.STRIPPED_OAK_LOG)).offerTo(exporter);
+        ModRecipes.DoorRecipe(ModBlocks2.STR_OAK_LOG_DOOR, (Blocks.STRIPPED_OAK_LOG)).offerTo(exporter);
+        ModRecipes.FenceRecipe(ModBlocks2.STR_OAK_LOG_FENCE, (Blocks.STRIPPED_OAK_LOG)).offerTo(exporter);
+        ModRecipes.FenceGateRecipe(ModBlocks2.STR_OAK_LOG_FENCE_GATE, (Blocks.STRIPPED_OAK_LOG)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.BUILDING_BLOCKS,
+                ModBlocks2.STR_OAK_LOG_PRESSURE_PLATE, (Blocks.STRIPPED_OAK_LOG)).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks2.STR_OAK_LOG_TRAPDOOR, (Blocks.STRIPPED_OAK_LOG)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks2.STR_OAK_LOG_BUTTON, ModBlocks2.STR_OAK_LOG_SLAB).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks2.STR_OAK_LOG_WALL, Blocks.STRIPPED_OAK_LOG).offerTo(exporter);
+
         //spruce
         ModRecipes.StairsRecipe(ModBlocks.SPRUCE_WOOD_STAIRS, (Blocks.SPRUCE_WOOD)).offerTo(exporter);
         ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.SPRUCE_WOOD_SLAB, (Blocks.SPRUCE_WOOD)).offerTo(exporter);
@@ -61,6 +85,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.TrapdoorRecipe(ModBlocks.SPRUCE_WOOD_TRAPDOOR, (Blocks.SPRUCE_WOOD)).offerTo(exporter);
         ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.SPRUCE_WOOD_BUTTON, Blocks.SPRUCE_WOOD).offerTo(exporter);
         ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.SPRUCE_WOOD_WALL, Blocks.SPRUCE_WOOD).offerTo(exporter);
+
+        //spruce
+        ModRecipes.StairsRecipe(ModBlocks2.SPRUCE_LOG_STAIRS, (Blocks.SPRUCE_LOG)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks2.SPRUCE_LOG_SLAB, (Blocks.SPRUCE_LOG)).offerTo(exporter);
+        ModRecipes.DoorRecipe(ModBlocks2.SPRUCE_LOG_DOOR, (Blocks.SPRUCE_LOG)).offerTo(exporter);
+        ModRecipes.FenceRecipe(ModBlocks2.SPRUCE_LOG_FENCE, (Blocks.SPRUCE_LOG)).offerTo(exporter);
+        ModRecipes.FenceGateRecipe(ModBlocks2.SPRUCE_LOG_FENCE_GATE, (Blocks.SPRUCE_LOG)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.BUILDING_BLOCKS,
+                ModBlocks2.SPRUCE_LOG_PRESSURE_PLATE, (Blocks.SPRUCE_LOG)).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks2.SPRUCE_LOG_TRAPDOOR, (Blocks.SPRUCE_LOG)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks2.SPRUCE_LOG_BUTTON, ModBlocks2.SPRUCE_LOG_SLAB).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks2.SPRUCE_LOG_WALL, Blocks.SPRUCE_LOG).offerTo(exporter);
 
         //str spruce
         ModRecipes.StairsRecipe(ModBlocks.STR_SPRUCE_WOOD_STAIRS, (Blocks.STRIPPED_SPRUCE_WOOD)).offerTo(exporter);
@@ -74,6 +110,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_SPRUCE_WOOD_BUTTON, Blocks.STRIPPED_SPRUCE_WOOD).offerTo(exporter);
         ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.STR_SPRUCE_WOOD_WALL, Blocks.STRIPPED_SPRUCE_WOOD).offerTo(exporter);
 
+        //spruce
+        ModRecipes.StairsRecipe(ModBlocks2.STR_SPRUCE_LOG_STAIRS, (Blocks.STRIPPED_SPRUCE_LOG)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks2.STR_SPRUCE_LOG_SLAB, (Blocks.STRIPPED_SPRUCE_LOG)).offerTo(exporter);
+        ModRecipes.DoorRecipe(ModBlocks2.STR_SPRUCE_LOG_DOOR, (Blocks.STRIPPED_SPRUCE_LOG)).offerTo(exporter);
+        ModRecipes.FenceRecipe(ModBlocks2.STR_SPRUCE_LOG_FENCE, (Blocks.STRIPPED_SPRUCE_LOG)).offerTo(exporter);
+        ModRecipes.FenceGateRecipe(ModBlocks2.STR_SPRUCE_LOG_FENCE_GATE, (Blocks.STRIPPED_SPRUCE_LOG)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.BUILDING_BLOCKS,
+                ModBlocks2.STR_SPRUCE_LOG_PRESSURE_PLATE, (Blocks.STRIPPED_SPRUCE_LOG)).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks2.STR_SPRUCE_LOG_TRAPDOOR, (Blocks.STRIPPED_SPRUCE_LOG)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks2.STR_SPRUCE_LOG_BUTTON, ModBlocks2.STR_SPRUCE_LOG_SLAB).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks2.STR_SPRUCE_LOG_WALL, Blocks.STRIPPED_SPRUCE_LOG).offerTo(exporter);
+
         //birch
         ModRecipes.StairsRecipe(ModBlocks.BIRCH_WOOD_STAIRS, (Blocks.BIRCH_WOOD)).offerTo(exporter);
         ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.BIRCH_WOOD_SLAB, (Blocks.BIRCH_WOOD)).offerTo(exporter);
@@ -85,6 +133,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.TrapdoorRecipe(ModBlocks.BIRCH_WOOD_TRAPDOOR, (Blocks.BIRCH_WOOD)).offerTo(exporter);
         ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.BIRCH_WOOD_BUTTON, Blocks.BIRCH_WOOD).offerTo(exporter);
         ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.BIRCH_WOOD_WALL, Blocks.BIRCH_WOOD).offerTo(exporter);
+
+        //birch
+        ModRecipes.StairsRecipe(ModBlocks2.BIRCH_LOG_STAIRS, (Blocks.BIRCH_LOG)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks2.BIRCH_LOG_SLAB, (Blocks.BIRCH_LOG)).offerTo(exporter);
+        ModRecipes.DoorRecipe(ModBlocks2.BIRCH_LOG_DOOR, (Blocks.BIRCH_LOG)).offerTo(exporter);
+        ModRecipes.FenceRecipe(ModBlocks2.BIRCH_LOG_FENCE, (Blocks.BIRCH_LOG)).offerTo(exporter);
+        ModRecipes.FenceGateRecipe(ModBlocks2.BIRCH_LOG_FENCE_GATE, (Blocks.BIRCH_LOG)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.BUILDING_BLOCKS,
+                ModBlocks2.BIRCH_LOG_PRESSURE_PLATE, (Blocks.BIRCH_LOG)).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks2.BIRCH_LOG_TRAPDOOR, (Blocks.BIRCH_LOG)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks2.BIRCH_LOG_BUTTON, ModBlocks2.BIRCH_LOG_SLAB).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks2.BIRCH_LOG_WALL, Blocks.BIRCH_LOG).offerTo(exporter);
 
         //str birch
         ModRecipes.StairsRecipe(ModBlocks.STR_BIRCH_WOOD_STAIRS, (Blocks.STRIPPED_BIRCH_WOOD)).offerTo(exporter);
@@ -98,6 +158,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_BIRCH_WOOD_BUTTON, Blocks.STRIPPED_BIRCH_WOOD).offerTo(exporter);
         ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.STR_BIRCH_WOOD_WALL, Blocks.STRIPPED_BIRCH_WOOD).offerTo(exporter);
 
+        //birch
+        ModRecipes.StairsRecipe(ModBlocks2.STR_BIRCH_LOG_STAIRS, (Blocks.STRIPPED_BIRCH_LOG)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks2.STR_BIRCH_LOG_SLAB, (Blocks.STRIPPED_BIRCH_LOG)).offerTo(exporter);
+        ModRecipes.DoorRecipe(ModBlocks2.STR_BIRCH_LOG_DOOR, (Blocks.STRIPPED_BIRCH_LOG)).offerTo(exporter);
+        ModRecipes.FenceRecipe(ModBlocks2.STR_BIRCH_LOG_FENCE, (Blocks.STRIPPED_BIRCH_LOG)).offerTo(exporter);
+        ModRecipes.FenceGateRecipe(ModBlocks2.STR_BIRCH_LOG_FENCE_GATE, (Blocks.STRIPPED_BIRCH_LOG)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.BUILDING_BLOCKS,
+                ModBlocks2.STR_BIRCH_LOG_PRESSURE_PLATE, (Blocks.STRIPPED_BIRCH_LOG)).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks2.STR_BIRCH_LOG_TRAPDOOR, (Blocks.STRIPPED_BIRCH_LOG)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks2.STR_BIRCH_LOG_BUTTON, ModBlocks2.STR_BIRCH_LOG_SLAB).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks2.STR_BIRCH_LOG_WALL, Blocks.STRIPPED_BIRCH_LOG).offerTo(exporter);
+
         //jungle
         ModRecipes.StairsRecipe(ModBlocks.JUNGLE_WOOD_STAIRS, (Blocks.JUNGLE_WOOD)).offerTo(exporter);
         ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.JUNGLE_WOOD_SLAB, (Blocks.JUNGLE_WOOD)).offerTo(exporter);
@@ -109,6 +181,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.TrapdoorRecipe(ModBlocks.JUNGLE_WOOD_TRAPDOOR, (Blocks.JUNGLE_WOOD)).offerTo(exporter);
         ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.JUNGLE_WOOD_BUTTON, Blocks.JUNGLE_WOOD).offerTo(exporter);
         ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.JUNGLE_WOOD_WALL, Blocks.JUNGLE_WOOD).offerTo(exporter);
+
+        //jungle
+        ModRecipes.StairsRecipe(ModBlocks2.JUNGLE_LOG_STAIRS, (Blocks.JUNGLE_LOG)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks2.JUNGLE_LOG_SLAB, (Blocks.JUNGLE_LOG)).offerTo(exporter);
+        ModRecipes.DoorRecipe(ModBlocks2.JUNGLE_LOG_DOOR, (Blocks.JUNGLE_LOG)).offerTo(exporter);
+        ModRecipes.FenceRecipe(ModBlocks2.JUNGLE_LOG_FENCE, (Blocks.JUNGLE_LOG)).offerTo(exporter);
+        ModRecipes.FenceGateRecipe(ModBlocks2.JUNGLE_LOG_FENCE_GATE, (Blocks.JUNGLE_LOG)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.BUILDING_BLOCKS,
+                ModBlocks2.JUNGLE_LOG_PRESSURE_PLATE, (Blocks.JUNGLE_LOG)).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks2.JUNGLE_LOG_TRAPDOOR, (Blocks.JUNGLE_LOG)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks2.JUNGLE_LOG_BUTTON, ModBlocks2.JUNGLE_LOG_SLAB).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks2.JUNGLE_LOG_WALL, Blocks.JUNGLE_LOG).offerTo(exporter);
 
         //str jungle
         ModRecipes.StairsRecipe(ModBlocks.STR_JUNGLE_WOOD_STAIRS, (Blocks.STRIPPED_JUNGLE_WOOD)).offerTo(exporter);
@@ -122,6 +206,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_JUNGLE_WOOD_BUTTON, Blocks.STRIPPED_JUNGLE_WOOD).offerTo(exporter);
         ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.STR_JUNGLE_WOOD_WALL, Blocks.STRIPPED_JUNGLE_WOOD).offerTo(exporter);
 
+        //jungle
+        ModRecipes.StairsRecipe(ModBlocks2.STR_JUNGLE_LOG_STAIRS, (Blocks.STRIPPED_JUNGLE_LOG)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks2.STR_JUNGLE_LOG_SLAB, (Blocks.STRIPPED_JUNGLE_LOG)).offerTo(exporter);
+        ModRecipes.DoorRecipe(ModBlocks2.STR_JUNGLE_LOG_DOOR, (Blocks.STRIPPED_JUNGLE_LOG)).offerTo(exporter);
+        ModRecipes.FenceRecipe(ModBlocks2.STR_JUNGLE_LOG_FENCE, (Blocks.STRIPPED_JUNGLE_LOG)).offerTo(exporter);
+        ModRecipes.FenceGateRecipe(ModBlocks2.STR_JUNGLE_LOG_FENCE_GATE, (Blocks.STRIPPED_JUNGLE_LOG)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.BUILDING_BLOCKS,
+                ModBlocks2.STR_JUNGLE_LOG_PRESSURE_PLATE, (Blocks.STRIPPED_JUNGLE_LOG)).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks2.STR_JUNGLE_LOG_TRAPDOOR, (Blocks.STRIPPED_JUNGLE_LOG)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks2.STR_JUNGLE_LOG_BUTTON, ModBlocks2.STR_JUNGLE_LOG_SLAB).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks2.STR_JUNGLE_LOG_WALL, Blocks.STRIPPED_JUNGLE_LOG).offerTo(exporter);
+
         //acacia
         ModRecipes.StairsRecipe(ModBlocks.ACACIA_WOOD_STAIRS, (Blocks.ACACIA_WOOD)).offerTo(exporter);
         ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.ACACIA_WOOD_SLAB, (Blocks.ACACIA_WOOD)).offerTo(exporter);
@@ -133,6 +229,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.TrapdoorRecipe(ModBlocks.ACACIA_WOOD_TRAPDOOR, (Blocks.ACACIA_WOOD)).offerTo(exporter);
         ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.ACACIA_WOOD_BUTTON, Blocks.ACACIA_WOOD).offerTo(exporter);
         ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.ACACIA_WOOD_WALL, Blocks.ACACIA_WOOD).offerTo(exporter);
+
+        //acacia
+        ModRecipes.StairsRecipe(ModBlocks2.ACACIA_LOG_STAIRS, (Blocks.ACACIA_LOG)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks2.ACACIA_LOG_SLAB, (Blocks.ACACIA_LOG)).offerTo(exporter);
+        ModRecipes.DoorRecipe(ModBlocks2.ACACIA_LOG_DOOR, (Blocks.ACACIA_LOG)).offerTo(exporter);
+        ModRecipes.FenceRecipe(ModBlocks2.ACACIA_LOG_FENCE, (Blocks.ACACIA_LOG)).offerTo(exporter);
+        ModRecipes.FenceGateRecipe(ModBlocks2.ACACIA_LOG_FENCE_GATE, (Blocks.ACACIA_LOG)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.BUILDING_BLOCKS,
+                ModBlocks2.ACACIA_LOG_PRESSURE_PLATE, (Blocks.ACACIA_LOG)).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks2.ACACIA_LOG_TRAPDOOR, (Blocks.ACACIA_LOG)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks2.ACACIA_LOG_BUTTON, ModBlocks2.ACACIA_LOG_SLAB).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks2.ACACIA_LOG_WALL, Blocks.ACACIA_LOG).offerTo(exporter);
 
         //str acacia
         ModRecipes.StairsRecipe(ModBlocks.STR_ACACIA_WOOD_STAIRS, (Blocks.STRIPPED_ACACIA_WOOD)).offerTo(exporter);
@@ -146,6 +254,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_ACACIA_WOOD_BUTTON, Blocks.STRIPPED_ACACIA_WOOD).offerTo(exporter);
         ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.STR_ACACIA_WOOD_WALL, Blocks.STRIPPED_ACACIA_WOOD).offerTo(exporter);
 
+        //acacia
+        ModRecipes.StairsRecipe(ModBlocks2.STR_ACACIA_LOG_STAIRS, (Blocks.STRIPPED_ACACIA_LOG)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks2.STR_ACACIA_LOG_SLAB, (Blocks.STRIPPED_ACACIA_LOG)).offerTo(exporter);
+        ModRecipes.DoorRecipe(ModBlocks2.STR_ACACIA_LOG_DOOR, (Blocks.STRIPPED_ACACIA_LOG)).offerTo(exporter);
+        ModRecipes.FenceRecipe(ModBlocks2.STR_ACACIA_LOG_FENCE, (Blocks.STRIPPED_ACACIA_LOG)).offerTo(exporter);
+        ModRecipes.FenceGateRecipe(ModBlocks2.STR_ACACIA_LOG_FENCE_GATE, (Blocks.STRIPPED_ACACIA_LOG)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.BUILDING_BLOCKS,
+                ModBlocks2.STR_ACACIA_LOG_PRESSURE_PLATE, (Blocks.STRIPPED_ACACIA_LOG)).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks2.STR_ACACIA_LOG_TRAPDOOR, (Blocks.STRIPPED_ACACIA_LOG)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks2.STR_ACACIA_LOG_BUTTON, ModBlocks2.STR_ACACIA_LOG_SLAB).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks2.STR_ACACIA_LOG_WALL, Blocks.STRIPPED_ACACIA_LOG).offerTo(exporter);
+
         //dark oak
         ModRecipes.StairsRecipe(ModBlocks.DARK_OAK_WOOD_STAIRS, (Blocks.DARK_OAK_WOOD)).offerTo(exporter);
         ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DARK_OAK_WOOD_SLAB, (Blocks.DARK_OAK_WOOD)).offerTo(exporter);
@@ -158,6 +278,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.DARK_OAK_WOOD_BUTTON, Blocks.DARK_OAK_WOOD).offerTo(exporter);
         ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.DARK_OAK_WOOD_WALL, Blocks.DARK_OAK_WOOD).offerTo(exporter);
 
+        //dark_oak
+        ModRecipes.StairsRecipe(ModBlocks2.DARK_OAK_LOG_STAIRS, (Blocks.DARK_OAK_LOG)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks2.DARK_OAK_LOG_SLAB, (Blocks.DARK_OAK_LOG)).offerTo(exporter);
+        ModRecipes.DoorRecipe(ModBlocks2.DARK_OAK_LOG_DOOR, (Blocks.DARK_OAK_LOG)).offerTo(exporter);
+        ModRecipes.FenceRecipe(ModBlocks2.DARK_OAK_LOG_FENCE, (Blocks.DARK_OAK_LOG)).offerTo(exporter);
+        ModRecipes.FenceGateRecipe(ModBlocks2.DARK_OAK_LOG_FENCE_GATE, (Blocks.DARK_OAK_LOG)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.BUILDING_BLOCKS,
+                ModBlocks2.DARK_OAK_LOG_PRESSURE_PLATE, (Blocks.DARK_OAK_LOG)).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks2.DARK_OAK_LOG_TRAPDOOR, (Blocks.DARK_OAK_LOG)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks2.DARK_OAK_LOG_BUTTON, ModBlocks2.DARK_OAK_LOG_SLAB).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks2.DARK_OAK_LOG_WALL, Blocks.DARK_OAK_LOG).offerTo(exporter);
+
         //str dark oak
         ModRecipes.StairsRecipe(ModBlocks.STR_DARK_OAK_WOOD_STAIRS, (Blocks.STRIPPED_DARK_OAK_WOOD)).offerTo(exporter);
         ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_DARK_OAK_WOOD_SLAB, (Blocks.STRIPPED_DARK_OAK_WOOD)).offerTo(exporter);
@@ -169,6 +301,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.TrapdoorRecipe(ModBlocks.STR_DARK_OAK_WOOD_TRAPDOOR, (Blocks.STRIPPED_DARK_OAK_WOOD)).offerTo(exporter);
         ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.STR_DARK_OAK_WOOD_BUTTON, Blocks.STRIPPED_DARK_OAK_WOOD).offerTo(exporter);
         ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.STR_DARK_OAK_WOOD_WALL, Blocks.STRIPPED_DARK_OAK_WOOD).offerTo(exporter);
+
+        //dark_oak
+        ModRecipes.StairsRecipe(ModBlocks2.STR_DARK_OAK_LOG_STAIRS, (Blocks.STRIPPED_DARK_OAK_LOG)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks2.STR_DARK_OAK_LOG_SLAB, (Blocks.STRIPPED_DARK_OAK_LOG)).offerTo(exporter);
+        ModRecipes.DoorRecipe(ModBlocks2.STR_DARK_OAK_LOG_DOOR, (Blocks.STRIPPED_DARK_OAK_LOG)).offerTo(exporter);
+        ModRecipes.FenceRecipe(ModBlocks2.STR_DARK_OAK_LOG_FENCE, (Blocks.STRIPPED_DARK_OAK_LOG)).offerTo(exporter);
+        ModRecipes.FenceGateRecipe(ModBlocks2.STR_DARK_OAK_LOG_FENCE_GATE, (Blocks.STRIPPED_DARK_OAK_LOG)).offerTo(exporter);
+        ModRecipes.PressPlateRecipe(RecipeCategory.BUILDING_BLOCKS,
+                ModBlocks2.STR_DARK_OAK_LOG_PRESSURE_PLATE, (Blocks.STRIPPED_DARK_OAK_LOG)).offerTo(exporter);
+        ModRecipes.TrapdoorRecipe(ModBlocks2.STR_DARK_OAK_LOG_TRAPDOOR, (Blocks.STRIPPED_DARK_OAK_LOG)).offerTo(exporter);
+        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks2.STR_DARK_OAK_LOG_BUTTON, ModBlocks2.STR_DARK_OAK_LOG_SLAB).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks2.STR_DARK_OAK_LOG_WALL, Blocks.STRIPPED_DARK_OAK_LOG).offerTo(exporter);
 
         //mangrove
         ModRecipes.StairsRecipe(ModBlocks.MANGROVE_WOOD_STAIRS, (Blocks.MANGROVE_WOOD)).offerTo(exporter);
@@ -3278,17 +3422,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks2.TUFF_BRICKS_BUTTON, Blocks.TUFF_BRICKS, 1).offerTo(exporter);
 
         //plank_walls
-        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.OAK_WALL, Blocks.OAK_PLANKS).offerTo(exporter);
-        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.SPRUCE_WALL, Blocks.SPRUCE_PLANKS).offerTo(exporter);
-        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.BIRCH_WALL, Blocks.BIRCH_PLANKS).offerTo(exporter);
-        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.JUNGLE_WALL, Blocks.JUNGLE_PLANKS).offerTo(exporter);
-        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.ACACIA_WALL, Blocks.ACACIA_PLANKS).offerTo(exporter);
-        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.DARK_OAK_WALL, Blocks.DARK_OAK_PLANKS).offerTo(exporter);
-        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.MANGROVE_WALL, Blocks.MANGROVE_PLANKS).offerTo(exporter);
-        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.CHERRY_WALL, Blocks.CHERRY_PLANKS).offerTo(exporter);
-        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.BAMBOO_WALL, Blocks.BAMBOO_PLANKS).offerTo(exporter);
-        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.CRIMSON_WALL, Blocks.CRIMSON_PLANKS).offerTo(exporter);
-        ModRecipes.PlankWallRecipe(RecipeCategory.MISC, ModBlocks.WARPED_WALL, Blocks.WARPED_PLANKS).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.OAK_WALL, Blocks.OAK_PLANKS).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.SPRUCE_WALL, Blocks.SPRUCE_PLANKS).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.BIRCH_WALL, Blocks.BIRCH_PLANKS).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.JUNGLE_WALL, Blocks.JUNGLE_PLANKS).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.ACACIA_WALL, Blocks.ACACIA_PLANKS).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.DARK_OAK_WALL, Blocks.DARK_OAK_PLANKS).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.MANGROVE_WALL, Blocks.MANGROVE_PLANKS).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.CHERRY_WALL, Blocks.CHERRY_PLANKS).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.BAMBOO_WALL, Blocks.BAMBOO_PLANKS).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.CRIMSON_WALL, Blocks.CRIMSON_PLANKS).offerTo(exporter);
+        ModRecipes.PlankWallRecipe(RecipeCategory.DECORATIONS, ModBlocks.WARPED_WALL, Blocks.WARPED_PLANKS).offerTo(exporter);
 
         
         

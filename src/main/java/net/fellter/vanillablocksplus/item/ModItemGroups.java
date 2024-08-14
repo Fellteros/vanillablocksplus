@@ -6,7 +6,6 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.block.ModBlocks2;
-import net.fellter.vanillablocksplus.util.ModTags;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
@@ -19,11 +18,22 @@ import net.minecraft.util.Identifier;
 
 
 public class ModItemGroups {
+    @SuppressWarnings("unused")
     public static final ItemGroup VBP_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(VanillaBlocksPlus.MOD_ID, "vbp"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.vanillablocksplus"))
                     .icon(() -> new ItemStack(ModItems.VBP_TITLE)).entries((displayContext, entries) -> {
 
+                        //oak
+                        entries.add(ModBlocks2.OAK_LOG_STAIRS);
+                        entries.add(ModBlocks2.OAK_LOG_SLAB);
+                        entries.add(ModBlocks2.OAK_LOG_WALL);
+                        entries.add(ModBlocks2.OAK_LOG_FENCE);
+                        entries.add(ModBlocks2.OAK_LOG_FENCE_GATE);
+                        entries.add(ModBlocks2.OAK_LOG_DOOR);
+                        entries.add(ModBlocks2.OAK_LOG_TRAPDOOR);
+                        entries.add(ModBlocks2.OAK_LOG_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.OAK_LOG_BUTTON);
                         //oak
                         entries.add(ModBlocks.OAK_WOOD_STAIRS);
                         entries.add(ModBlocks.OAK_WOOD_SLAB);
@@ -34,6 +44,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.OAK_WOOD_TRAPDOOR);
                         entries.add(ModBlocks.OAK_WOOD_PRESSURE_PLATE);
                         entries.add(ModBlocks.OAK_WOOD_BUTTON);
+                        //oak
+                        entries.add(ModBlocks2.STR_OAK_LOG_STAIRS);
+                        entries.add(ModBlocks2.STR_OAK_LOG_SLAB);
+                        entries.add(ModBlocks2.STR_OAK_LOG_WALL);
+                        entries.add(ModBlocks2.STR_OAK_LOG_FENCE);
+                        entries.add(ModBlocks2.STR_OAK_LOG_FENCE_GATE);
+                        entries.add(ModBlocks2.STR_OAK_LOG_DOOR);
+                        entries.add(ModBlocks2.STR_OAK_LOG_TRAPDOOR);
+                        entries.add(ModBlocks2.STR_OAK_LOG_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.STR_OAK_LOG_BUTTON);
                         //str oak
                         entries.add(ModBlocks.STR_OAK_WOOD_STAIRS);
                         entries.add(ModBlocks.STR_OAK_WOOD_SLAB);
@@ -45,6 +65,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STR_OAK_WOOD_PRESSURE_PLATE);
                         entries.add(ModBlocks.STR_OAK_WOOD_BUTTON);
                         //spruce
+                        entries.add(ModBlocks2.SPRUCE_LOG_STAIRS);
+                        entries.add(ModBlocks2.SPRUCE_LOG_SLAB);
+                        entries.add(ModBlocks2.SPRUCE_LOG_WALL);
+                        entries.add(ModBlocks2.SPRUCE_LOG_FENCE);
+                        entries.add(ModBlocks2.SPRUCE_LOG_FENCE_GATE);
+                        entries.add(ModBlocks2.SPRUCE_LOG_DOOR);
+                        entries.add(ModBlocks2.SPRUCE_LOG_TRAPDOOR);
+                        entries.add(ModBlocks2.SPRUCE_LOG_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.SPRUCE_LOG_BUTTON);
+                        //spruce
                         entries.add(ModBlocks.SPRUCE_WOOD_STAIRS);
                         entries.add(ModBlocks.SPRUCE_WOOD_SLAB);
                         entries.add(ModBlocks.SPRUCE_WOOD_WALL);
@@ -54,6 +84,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SPRUCE_WOOD_TRAPDOOR);
                         entries.add(ModBlocks.SPRUCE_WOOD_PRESSURE_PLATE);
                         entries.add(ModBlocks.SPRUCE_WOOD_BUTTON);
+                        //spruce
+                        entries.add(ModBlocks2.STR_SPRUCE_LOG_STAIRS);
+                        entries.add(ModBlocks2.STR_SPRUCE_LOG_SLAB);
+                        entries.add(ModBlocks2.STR_SPRUCE_LOG_WALL);
+                        entries.add(ModBlocks2.STR_SPRUCE_LOG_FENCE);
+                        entries.add(ModBlocks2.STR_SPRUCE_LOG_FENCE_GATE);
+                        entries.add(ModBlocks2.STR_SPRUCE_LOG_DOOR);
+                        entries.add(ModBlocks2.STR_SPRUCE_LOG_TRAPDOOR);
+                        entries.add(ModBlocks2.STR_SPRUCE_LOG_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.STR_SPRUCE_LOG_BUTTON);
                         //str spruce
                         entries.add(ModBlocks.STR_SPRUCE_WOOD_STAIRS);
                         entries.add(ModBlocks.STR_SPRUCE_WOOD_SLAB);
@@ -65,6 +105,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STR_SPRUCE_WOOD_PRESSURE_PLATE);
                         entries.add(ModBlocks.STR_SPRUCE_WOOD_BUTTON);
                         //birch
+                        entries.add(ModBlocks2.BIRCH_LOG_STAIRS);
+                        entries.add(ModBlocks2.BIRCH_LOG_SLAB);
+                        entries.add(ModBlocks2.BIRCH_LOG_WALL);
+                        entries.add(ModBlocks2.BIRCH_LOG_FENCE);
+                        entries.add(ModBlocks2.BIRCH_LOG_FENCE_GATE);
+                        entries.add(ModBlocks2.BIRCH_LOG_DOOR);
+                        entries.add(ModBlocks2.BIRCH_LOG_TRAPDOOR);
+                        entries.add(ModBlocks2.BIRCH_LOG_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.BIRCH_LOG_BUTTON);
+                        //birch
                         entries.add(ModBlocks.BIRCH_WOOD_STAIRS);
                         entries.add(ModBlocks.BIRCH_WOOD_SLAB);
                         entries.add(ModBlocks.BIRCH_WOOD_WALL);
@@ -74,6 +124,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BIRCH_WOOD_TRAPDOOR);
                         entries.add(ModBlocks.BIRCH_WOOD_PRESSURE_PLATE);
                         entries.add(ModBlocks.BIRCH_WOOD_BUTTON);
+                        //birch
+                        entries.add(ModBlocks2.STR_BIRCH_LOG_STAIRS);
+                        entries.add(ModBlocks2.STR_BIRCH_LOG_SLAB);
+                        entries.add(ModBlocks2.STR_BIRCH_LOG_WALL);
+                        entries.add(ModBlocks2.STR_BIRCH_LOG_FENCE);
+                        entries.add(ModBlocks2.STR_BIRCH_LOG_FENCE_GATE);
+                        entries.add(ModBlocks2.STR_BIRCH_LOG_DOOR);
+                        entries.add(ModBlocks2.STR_BIRCH_LOG_TRAPDOOR);
+                        entries.add(ModBlocks2.STR_BIRCH_LOG_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.STR_BIRCH_LOG_BUTTON);
                         //str birch
                         entries.add(ModBlocks.STR_BIRCH_WOOD_STAIRS);
                         entries.add(ModBlocks.STR_BIRCH_WOOD_SLAB);
@@ -85,6 +145,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STR_BIRCH_WOOD_PRESSURE_PLATE);
                         entries.add(ModBlocks.STR_BIRCH_WOOD_BUTTON);
                         //jungle
+                        entries.add(ModBlocks2.JUNGLE_LOG_STAIRS);
+                        entries.add(ModBlocks2.JUNGLE_LOG_SLAB);
+                        entries.add(ModBlocks2.JUNGLE_LOG_WALL);
+                        entries.add(ModBlocks2.JUNGLE_LOG_FENCE);
+                        entries.add(ModBlocks2.JUNGLE_LOG_FENCE_GATE);
+                        entries.add(ModBlocks2.JUNGLE_LOG_DOOR);
+                        entries.add(ModBlocks2.JUNGLE_LOG_TRAPDOOR);
+                        entries.add(ModBlocks2.JUNGLE_LOG_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.JUNGLE_LOG_BUTTON);
+                        //jungle
                         entries.add(ModBlocks.JUNGLE_WOOD_STAIRS);
                         entries.add(ModBlocks.JUNGLE_WOOD_SLAB);
                         entries.add(ModBlocks.JUNGLE_WOOD_WALL);
@@ -94,6 +164,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.JUNGLE_WOOD_TRAPDOOR);
                         entries.add(ModBlocks.JUNGLE_WOOD_PRESSURE_PLATE);
                         entries.add(ModBlocks.JUNGLE_WOOD_BUTTON);
+                        //jungle
+                        entries.add(ModBlocks2.STR_JUNGLE_LOG_STAIRS);
+                        entries.add(ModBlocks2.STR_JUNGLE_LOG_SLAB);
+                        entries.add(ModBlocks2.STR_JUNGLE_LOG_WALL);
+                        entries.add(ModBlocks2.STR_JUNGLE_LOG_FENCE);
+                        entries.add(ModBlocks2.STR_JUNGLE_LOG_FENCE_GATE);
+                        entries.add(ModBlocks2.STR_JUNGLE_LOG_DOOR);
+                        entries.add(ModBlocks2.STR_JUNGLE_LOG_TRAPDOOR);
+                        entries.add(ModBlocks2.STR_JUNGLE_LOG_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.STR_JUNGLE_LOG_BUTTON);
                         //str jungle
                         entries.add(ModBlocks.STR_JUNGLE_WOOD_STAIRS);
                         entries.add(ModBlocks.STR_JUNGLE_WOOD_SLAB);
@@ -105,6 +185,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STR_JUNGLE_WOOD_PRESSURE_PLATE);
                         entries.add(ModBlocks.STR_JUNGLE_WOOD_BUTTON);
                         //acacia
+                        entries.add(ModBlocks2.ACACIA_LOG_STAIRS);
+                        entries.add(ModBlocks2.ACACIA_LOG_SLAB);
+                        entries.add(ModBlocks2.ACACIA_LOG_WALL);
+                        entries.add(ModBlocks2.ACACIA_LOG_FENCE);
+                        entries.add(ModBlocks2.ACACIA_LOG_FENCE_GATE);
+                        entries.add(ModBlocks2.ACACIA_LOG_DOOR);
+                        entries.add(ModBlocks2.ACACIA_LOG_TRAPDOOR);
+                        entries.add(ModBlocks2.ACACIA_LOG_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.ACACIA_LOG_BUTTON);
+                        //acacia
                         entries.add(ModBlocks.ACACIA_WOOD_STAIRS);
                         entries.add(ModBlocks.ACACIA_WOOD_SLAB);
                         entries.add(ModBlocks.ACACIA_WOOD_WALL);
@@ -114,6 +204,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ACACIA_WOOD_TRAPDOOR);
                         entries.add(ModBlocks.ACACIA_WOOD_PRESSURE_PLATE);
                         entries.add(ModBlocks.ACACIA_WOOD_BUTTON);
+                        //acacia
+                        entries.add(ModBlocks2.STR_ACACIA_LOG_STAIRS);
+                        entries.add(ModBlocks2.STR_ACACIA_LOG_SLAB);
+                        entries.add(ModBlocks2.STR_ACACIA_LOG_WALL);
+                        entries.add(ModBlocks2.STR_ACACIA_LOG_FENCE);
+                        entries.add(ModBlocks2.STR_ACACIA_LOG_FENCE_GATE);
+                        entries.add(ModBlocks2.STR_ACACIA_LOG_DOOR);
+                        entries.add(ModBlocks2.STR_ACACIA_LOG_TRAPDOOR);
+                        entries.add(ModBlocks2.STR_ACACIA_LOG_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.STR_ACACIA_LOG_BUTTON);
                         //str acacia
                         entries.add(ModBlocks.STR_ACACIA_WOOD_STAIRS);
                         entries.add(ModBlocks.STR_ACACIA_WOOD_SLAB);
@@ -124,6 +224,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STR_ACACIA_WOOD_TRAPDOOR);
                         entries.add(ModBlocks.STR_ACACIA_WOOD_PRESSURE_PLATE);
                         entries.add(ModBlocks.STR_ACACIA_WOOD_BUTTON);
+                        //dark_oak
+                        entries.add(ModBlocks2.DARK_OAK_LOG_STAIRS);
+                        entries.add(ModBlocks2.DARK_OAK_LOG_SLAB);
+                        entries.add(ModBlocks2.DARK_OAK_LOG_WALL);
+                        entries.add(ModBlocks2.DARK_OAK_LOG_FENCE);
+                        entries.add(ModBlocks2.DARK_OAK_LOG_FENCE_GATE);
+                        entries.add(ModBlocks2.DARK_OAK_LOG_DOOR);
+                        entries.add(ModBlocks2.DARK_OAK_LOG_TRAPDOOR);
+                        entries.add(ModBlocks2.DARK_OAK_LOG_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.DARK_OAK_LOG_BUTTON);
                         //dark oak
                         entries.add(ModBlocks.DARK_OAK_WOOD_STAIRS);
                         entries.add(ModBlocks.DARK_OAK_WOOD_SLAB);
@@ -134,6 +244,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DARK_OAK_WOOD_TRAPDOOR);
                         entries.add(ModBlocks.DARK_OAK_WOOD_PRESSURE_PLATE);
                         entries.add(ModBlocks.DARK_OAK_WOOD_BUTTON);
+                        //dark_oak
+                        entries.add(ModBlocks2.STR_DARK_OAK_LOG_STAIRS);
+                        entries.add(ModBlocks2.STR_DARK_OAK_LOG_SLAB);
+                        entries.add(ModBlocks2.STR_DARK_OAK_LOG_WALL);
+                        entries.add(ModBlocks2.STR_DARK_OAK_LOG_FENCE);
+                        entries.add(ModBlocks2.STR_DARK_OAK_LOG_FENCE_GATE);
+                        entries.add(ModBlocks2.STR_DARK_OAK_LOG_DOOR);
+                        entries.add(ModBlocks2.STR_DARK_OAK_LOG_TRAPDOOR);
+                        entries.add(ModBlocks2.STR_DARK_OAK_LOG_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.STR_DARK_OAK_LOG_BUTTON);
                         //str dark oak
                         entries.add(ModBlocks.STR_DARK_OAK_WOOD_STAIRS);
                         entries.add(ModBlocks.STR_DARK_OAK_WOOD_SLAB);
@@ -2993,7 +3113,6 @@ public class ModItemGroups {
     }
 
     public static void registerItemGroups() {
-        VanillaBlocksPlus.LOGGER.info("Registering Mod Item Groups for " + VanillaBlocksPlus.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItemGroups::addItemsToIngredientsTab);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModItemGroups::addWallsToBuildingBlocks);
     }

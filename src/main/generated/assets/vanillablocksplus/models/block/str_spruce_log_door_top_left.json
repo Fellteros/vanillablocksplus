@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/door_stb_top_left",
+  "textures": {
+    "bottom": "minecraft:block/stripped_spruce_log_top",
+    "side": "vanillablocksplus:block/str_spruce_log_door_top",
+    "top": "minecraft:block/stripped_spruce_log_top"
+  }
+}

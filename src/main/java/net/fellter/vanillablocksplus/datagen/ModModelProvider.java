@@ -369,6 +369,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.OAK_WOOD_SLAB)
                 .stairs(ModBlocks.OAK_WOOD_STAIRS)
                 .wall(ModBlocks.OAK_WOOD_WALL);
+        //oak
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.OAK_LOG), Blocks.OAK_LOG)
+                .button(ModBlocks2.OAK_LOG_BUTTON)
+                .fence(ModBlocks2.OAK_LOG_FENCE)
+                .fenceGate(ModBlocks2.OAK_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.OAK_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.OAK_LOG_SLAB)
+                .stairs(ModBlocks2.OAK_LOG_STAIRS)
+                .wall(ModBlocks2.OAK_LOG_WALL);
         //str oak
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_OAK_LOG), Blocks.STRIPPED_OAK_WOOD)
                 .button(ModBlocks.STR_OAK_WOOD_BUTTON)
@@ -378,6 +387,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.STR_OAK_WOOD_SLAB)
                 .stairs(ModBlocks.STR_OAK_WOOD_STAIRS)
                 .wall(ModBlocks.STR_OAK_WOOD_WALL);
+        //str_oak
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_OAK_LOG), Blocks.STRIPPED_OAK_LOG)
+                .button(ModBlocks2.STR_OAK_LOG_BUTTON)
+                .fence(ModBlocks2.STR_OAK_LOG_FENCE)
+                .fenceGate(ModBlocks2.STR_OAK_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.STR_OAK_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.STR_OAK_LOG_SLAB)
+                .stairs(ModBlocks2.STR_OAK_LOG_STAIRS)
+                .wall(ModBlocks2.STR_OAK_LOG_WALL);
         //spruce
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.SPRUCE_LOG), Blocks.SPRUCE_WOOD)
                 .button(ModBlocks.SPRUCE_WOOD_BUTTON)
@@ -387,6 +405,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.SPRUCE_WOOD_SLAB)
                 .stairs(ModBlocks.SPRUCE_WOOD_STAIRS)
                 .wall(ModBlocks.SPRUCE_WOOD_WALL);
+        //spruce
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.SPRUCE_LOG), Blocks.SPRUCE_LOG)
+                .button(ModBlocks2.SPRUCE_LOG_BUTTON)
+                .fence(ModBlocks2.SPRUCE_LOG_FENCE)
+                .fenceGate(ModBlocks2.SPRUCE_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.SPRUCE_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.SPRUCE_LOG_SLAB)
+                .stairs(ModBlocks2.SPRUCE_LOG_STAIRS)
+                .wall(ModBlocks2.SPRUCE_LOG_WALL);
         //str spruce
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_SPRUCE_LOG), Blocks.STRIPPED_SPRUCE_WOOD)
                 .button(ModBlocks.STR_SPRUCE_WOOD_BUTTON)
@@ -396,6 +423,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.STR_SPRUCE_WOOD_SLAB)
                 .stairs(ModBlocks.STR_SPRUCE_WOOD_STAIRS)
                 .wall(ModBlocks.STR_SPRUCE_WOOD_WALL);
+        //str_spruce
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_SPRUCE_LOG), Blocks.STRIPPED_SPRUCE_LOG)
+                .button(ModBlocks2.STR_SPRUCE_LOG_BUTTON)
+                .fence(ModBlocks2.STR_SPRUCE_LOG_FENCE)
+                .fenceGate(ModBlocks2.STR_SPRUCE_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.STR_SPRUCE_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.STR_SPRUCE_LOG_SLAB)
+                .stairs(ModBlocks2.STR_SPRUCE_LOG_STAIRS)
+                .wall(ModBlocks2.STR_SPRUCE_LOG_WALL);
         //birch
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.BIRCH_LOG), Blocks.BIRCH_WOOD)
                 .button(ModBlocks.BIRCH_WOOD_BUTTON)
@@ -405,6 +441,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.BIRCH_WOOD_SLAB)
                 .stairs(ModBlocks.BIRCH_WOOD_STAIRS)
                 .wall(ModBlocks.BIRCH_WOOD_WALL);
+        //birch
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.BIRCH_LOG), Blocks.BIRCH_LOG)
+                .button(ModBlocks2.BIRCH_LOG_BUTTON)
+                .fence(ModBlocks2.BIRCH_LOG_FENCE)
+                .fenceGate(ModBlocks2.BIRCH_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.BIRCH_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.BIRCH_LOG_SLAB)
+                .stairs(ModBlocks2.BIRCH_LOG_STAIRS)
+                .wall(ModBlocks2.BIRCH_LOG_WALL);
         //str birch
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_BIRCH_LOG), Blocks.STRIPPED_BIRCH_WOOD)
                 .button(ModBlocks.STR_BIRCH_WOOD_BUTTON)
@@ -414,6 +459,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.STR_BIRCH_WOOD_SLAB)
                 .stairs(ModBlocks.STR_BIRCH_WOOD_STAIRS)
                 .wall(ModBlocks.STR_BIRCH_WOOD_WALL);
+        //str_birch
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_BIRCH_LOG), Blocks.STRIPPED_BIRCH_LOG)
+                .button(ModBlocks2.STR_BIRCH_LOG_BUTTON)
+                .fence(ModBlocks2.STR_BIRCH_LOG_FENCE)
+                .fenceGate(ModBlocks2.STR_BIRCH_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.STR_BIRCH_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.STR_BIRCH_LOG_SLAB)
+                .stairs(ModBlocks2.STR_BIRCH_LOG_STAIRS)
+                .wall(ModBlocks2.STR_BIRCH_LOG_WALL);
         //jungle
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.JUNGLE_LOG), Blocks.JUNGLE_WOOD)
                 .button(ModBlocks.JUNGLE_WOOD_BUTTON)
@@ -423,6 +477,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.JUNGLE_WOOD_SLAB)
                 .stairs(ModBlocks.JUNGLE_WOOD_STAIRS)
                 .wall(ModBlocks.JUNGLE_WOOD_WALL);
+        //jungle
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.JUNGLE_LOG), Blocks.JUNGLE_LOG)
+                .button(ModBlocks2.JUNGLE_LOG_BUTTON)
+                .fence(ModBlocks2.JUNGLE_LOG_FENCE)
+                .fenceGate(ModBlocks2.JUNGLE_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.JUNGLE_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.JUNGLE_LOG_SLAB)
+                .stairs(ModBlocks2.JUNGLE_LOG_STAIRS)
+                .wall(ModBlocks2.JUNGLE_LOG_WALL);
         //str jungle
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_JUNGLE_LOG), Blocks.STRIPPED_JUNGLE_WOOD)
                 .button(ModBlocks.STR_JUNGLE_WOOD_BUTTON)
@@ -432,6 +495,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.STR_JUNGLE_WOOD_SLAB)
                 .stairs(ModBlocks.STR_JUNGLE_WOOD_STAIRS)
                 .wall(ModBlocks.STR_JUNGLE_WOOD_WALL);
+        //str_jungle
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_JUNGLE_LOG), Blocks.STRIPPED_JUNGLE_LOG)
+                .button(ModBlocks2.STR_JUNGLE_LOG_BUTTON)
+                .fence(ModBlocks2.STR_JUNGLE_LOG_FENCE)
+                .fenceGate(ModBlocks2.STR_JUNGLE_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.STR_JUNGLE_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.STR_JUNGLE_LOG_SLAB)
+                .stairs(ModBlocks2.STR_JUNGLE_LOG_STAIRS)
+                .wall(ModBlocks2.STR_JUNGLE_LOG_WALL);
         //acacia
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.ACACIA_LOG), Blocks.ACACIA_WOOD)
                 .button(ModBlocks.ACACIA_WOOD_BUTTON)
@@ -441,6 +513,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.ACACIA_WOOD_SLAB)
                 .stairs(ModBlocks.ACACIA_WOOD_STAIRS)
                 .wall(ModBlocks.ACACIA_WOOD_WALL);
+        //acacia
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.ACACIA_LOG), Blocks.ACACIA_LOG)
+                .button(ModBlocks2.ACACIA_LOG_BUTTON)
+                .fence(ModBlocks2.ACACIA_LOG_FENCE)
+                .fenceGate(ModBlocks2.ACACIA_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.ACACIA_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.ACACIA_LOG_SLAB)
+                .stairs(ModBlocks2.ACACIA_LOG_STAIRS)
+                .wall(ModBlocks2.ACACIA_LOG_WALL);
         //str acacia
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_ACACIA_LOG), Blocks.STRIPPED_ACACIA_WOOD)
                 .button(ModBlocks.STR_ACACIA_WOOD_BUTTON)
@@ -450,6 +531,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.STR_ACACIA_WOOD_SLAB)
                 .stairs(ModBlocks.STR_ACACIA_WOOD_STAIRS)
                 .wall(ModBlocks.STR_ACACIA_WOOD_WALL);
+        //str_acacia
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_ACACIA_LOG), Blocks.STRIPPED_ACACIA_LOG)
+                .button(ModBlocks2.STR_ACACIA_LOG_BUTTON)
+                .fence(ModBlocks2.STR_ACACIA_LOG_FENCE)
+                .fenceGate(ModBlocks2.STR_ACACIA_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.STR_ACACIA_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.STR_ACACIA_LOG_SLAB)
+                .stairs(ModBlocks2.STR_ACACIA_LOG_STAIRS)
+                .wall(ModBlocks2.STR_ACACIA_LOG_WALL);
         //dark oak
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.DARK_OAK_LOG), Blocks.DARK_OAK_WOOD)
                 .button(ModBlocks.DARK_OAK_WOOD_BUTTON)
@@ -459,6 +549,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.DARK_OAK_WOOD_SLAB)
                 .stairs(ModBlocks.DARK_OAK_WOOD_STAIRS)
                 .wall(ModBlocks.DARK_OAK_WOOD_WALL);
+        //dark_oak
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.DARK_OAK_LOG), Blocks.DARK_OAK_LOG)
+                .button(ModBlocks2.DARK_OAK_LOG_BUTTON)
+                .fence(ModBlocks2.DARK_OAK_LOG_FENCE)
+                .fenceGate(ModBlocks2.DARK_OAK_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.DARK_OAK_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.DARK_OAK_LOG_SLAB)
+                .stairs(ModBlocks2.DARK_OAK_LOG_STAIRS)
+                .wall(ModBlocks2.DARK_OAK_LOG_WALL);
         //str dark oak
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_DARK_OAK_LOG), Blocks.STRIPPED_DARK_OAK_WOOD)
                 .button(ModBlocks.STR_DARK_OAK_WOOD_BUTTON)
@@ -468,6 +567,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.STR_DARK_OAK_WOOD_SLAB)
                 .stairs(ModBlocks.STR_DARK_OAK_WOOD_STAIRS)
                 .wall(ModBlocks.STR_DARK_OAK_WOOD_WALL);
+        //str_dark_oak
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_DARK_OAK_LOG), Blocks.STRIPPED_DARK_OAK_LOG)
+                .button(ModBlocks2.STR_DARK_OAK_LOG_BUTTON)
+                .fence(ModBlocks2.STR_DARK_OAK_LOG_FENCE)
+                .fenceGate(ModBlocks2.STR_DARK_OAK_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.STR_DARK_OAK_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.STR_DARK_OAK_LOG_SLAB)
+                .stairs(ModBlocks2.STR_DARK_OAK_LOG_STAIRS)
+                .wall(ModBlocks2.STR_DARK_OAK_LOG_WALL);
         //mangrove
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.MANGROVE_LOG), Blocks.MANGROVE_WOOD)
                 .button(ModBlocks.MANGROVE_WOOD_BUTTON)
@@ -2799,39 +2907,75 @@ public class ModModelProvider extends FabricModelProvider {
         //oak
         bsmg.registerDoor(ModBlocks.OAK_WOOD_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.OAK_WOOD_TRAPDOOR);
+        //oak
+        registerCustomDoor(bsmg, ModBlocks2.OAK_LOG_DOOR, Blocks.OAK_LOG, Blocks.OAK_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.OAK_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.OAK_LOG, ModBlocks2.OAK_LOG_TRAPDOOR, ModBlocks2.OAK_LOG_TRAPDOOR, "", "", ""));
         //str oak
         bsmg.registerDoor(ModBlocks.STR_OAK_WOOD_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.STR_OAK_WOOD_TRAPDOOR);
+        //oak
+        registerCustomDoor(bsmg, ModBlocks2.STR_OAK_LOG_DOOR, Blocks.STRIPPED_OAK_LOG, Blocks.STRIPPED_OAK_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.STR_OAK_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.STRIPPED_OAK_LOG, ModBlocks2.STR_OAK_LOG_TRAPDOOR, ModBlocks2.STR_OAK_LOG_TRAPDOOR, "", "", ""));
         //spruce
         bsmg.registerDoor(ModBlocks.SPRUCE_WOOD_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.SPRUCE_WOOD_TRAPDOOR);
+        //spruce
+        registerCustomDoor(bsmg, ModBlocks2.SPRUCE_LOG_DOOR, Blocks.SPRUCE_LOG, Blocks.SPRUCE_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.SPRUCE_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.SPRUCE_LOG, ModBlocks2.SPRUCE_LOG_TRAPDOOR, ModBlocks2.SPRUCE_LOG_TRAPDOOR, "", "", ""));
         //str spruce
         bsmg.registerDoor(ModBlocks.STR_SPRUCE_WOOD_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.STR_SPRUCE_WOOD_TRAPDOOR);
+        //spruce
+        registerCustomDoor(bsmg, ModBlocks2.STR_SPRUCE_LOG_DOOR, Blocks.STRIPPED_SPRUCE_LOG, Blocks.STRIPPED_SPRUCE_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.STR_SPRUCE_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.STRIPPED_SPRUCE_LOG, ModBlocks2.STR_SPRUCE_LOG_TRAPDOOR, ModBlocks2.STR_SPRUCE_LOG_TRAPDOOR, "", "", ""));
         //birch
         bsmg.registerDoor(ModBlocks.BIRCH_WOOD_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.BIRCH_WOOD_TRAPDOOR);
+        //birch
+        registerCustomDoor(bsmg, ModBlocks2.BIRCH_LOG_DOOR, Blocks.BIRCH_LOG, Blocks.BIRCH_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.BIRCH_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.BIRCH_LOG, ModBlocks2.BIRCH_LOG_TRAPDOOR, ModBlocks2.BIRCH_LOG_TRAPDOOR, "", "", ""));
         //str birch
         bsmg.registerDoor(ModBlocks.STR_BIRCH_WOOD_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.STR_BIRCH_WOOD_TRAPDOOR);
+        //birch
+        registerCustomDoor(bsmg, ModBlocks2.STR_BIRCH_LOG_DOOR, Blocks.STRIPPED_BIRCH_LOG, Blocks.STRIPPED_BIRCH_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.STR_BIRCH_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.STRIPPED_BIRCH_LOG, ModBlocks2.STR_BIRCH_LOG_TRAPDOOR, ModBlocks2.STR_BIRCH_LOG_TRAPDOOR, "", "", ""));
         //jungle
         bsmg.registerDoor(ModBlocks.JUNGLE_WOOD_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.JUNGLE_WOOD_TRAPDOOR);
+        //jungle
+        registerCustomDoor(bsmg, ModBlocks2.JUNGLE_LOG_DOOR, Blocks.JUNGLE_LOG, Blocks.JUNGLE_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.JUNGLE_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.JUNGLE_LOG, ModBlocks2.JUNGLE_LOG_TRAPDOOR, ModBlocks2.JUNGLE_LOG_TRAPDOOR, "", "", ""));
         //str jungle
         bsmg.registerDoor(ModBlocks.STR_JUNGLE_WOOD_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.STR_JUNGLE_WOOD_TRAPDOOR);
+        //jungle
+        registerCustomDoor(bsmg, ModBlocks2.STR_JUNGLE_LOG_DOOR, Blocks.STRIPPED_JUNGLE_LOG, Blocks.STRIPPED_JUNGLE_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.STR_JUNGLE_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.STRIPPED_JUNGLE_LOG, ModBlocks2.STR_JUNGLE_LOG_TRAPDOOR, ModBlocks2.STR_JUNGLE_LOG_TRAPDOOR, "", "", ""));
         //acacia
         bsmg.registerDoor(ModBlocks.ACACIA_WOOD_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.ACACIA_WOOD_TRAPDOOR);
+        //acacia
+        registerCustomDoor(bsmg, ModBlocks2.ACACIA_LOG_DOOR, Blocks.ACACIA_LOG, Blocks.ACACIA_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.ACACIA_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.ACACIA_LOG, ModBlocks2.ACACIA_LOG_TRAPDOOR, ModBlocks2.ACACIA_LOG_TRAPDOOR, "", "", ""));
         //str acacia
         bsmg.registerDoor(ModBlocks.STR_ACACIA_WOOD_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.STR_ACACIA_WOOD_TRAPDOOR);
+        //acacia
+        registerCustomDoor(bsmg, ModBlocks2.STR_ACACIA_LOG_DOOR, Blocks.STRIPPED_ACACIA_LOG, Blocks.STRIPPED_ACACIA_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.STR_ACACIA_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.STRIPPED_ACACIA_LOG, ModBlocks2.STR_ACACIA_LOG_TRAPDOOR, ModBlocks2.STR_ACACIA_LOG_TRAPDOOR, "", "", ""));
         //dark oak
         bsmg.registerDoor(ModBlocks.DARK_OAK_WOOD_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.DARK_OAK_WOOD_TRAPDOOR);
+        //dark_oak
+        registerCustomDoor(bsmg, ModBlocks2.DARK_OAK_LOG_DOOR, Blocks.DARK_OAK_LOG, Blocks.DARK_OAK_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.DARK_OAK_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.DARK_OAK_LOG, ModBlocks2.DARK_OAK_LOG_TRAPDOOR, ModBlocks2.DARK_OAK_LOG_TRAPDOOR, "", "", ""));
         //str dark oak
         bsmg.registerDoor(ModBlocks.STR_DARK_OAK_WOOD_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.STR_DARK_OAK_WOOD_TRAPDOOR);
+        //dark_oak
+        registerCustomDoor(bsmg, ModBlocks2.STR_DARK_OAK_LOG_DOOR, Blocks.STRIPPED_DARK_OAK_LOG, Blocks.STRIPPED_DARK_OAK_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.STR_DARK_OAK_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.STRIPPED_DARK_OAK_LOG, ModBlocks2.STR_DARK_OAK_LOG_TRAPDOOR, ModBlocks2.STR_DARK_OAK_LOG_TRAPDOOR, "", "", ""));
         //mangrove
         bsmg.registerDoor(ModBlocks.MANGROVE_WOOD_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.MANGROVE_WOOD_TRAPDOOR);

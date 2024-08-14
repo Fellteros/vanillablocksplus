@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vanillablocksplus:block/spruce_log_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/spruce_log"
+    },
+    "type=top": {
+      "model": "vanillablocksplus:block/spruce_log_slab_top"
+    }
+  }
+}

@@ -5872,6 +5872,5 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        VanillaBlocksPlus.LOGGER.info("Registering Mod Blocks for " + VanillaBlocksPlus.MOD_ID);
     }
 }

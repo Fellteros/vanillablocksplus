@@ -1,6 +1,7 @@
 package net.fellter.vanillablocksplus.util;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.DoorBlock;
 import net.minecraft.block.enums.*;
 import net.minecraft.data.client.*;
 import net.minecraft.item.Item;
@@ -100,9 +101,8 @@ public class ModBlockStateModelGenerator {
             Identifier identifier4 = ModModels.STAIRS_STB_TOP.upload(stairBlock, textureMap, bsmg.modelCollector);
             Identifier identifier5 = ModModels.STAIRS_STB_INNER_TOP.upload(stairBlock, textureMap, bsmg.modelCollector);
             Identifier identifier6 = ModModels.STAIRS_STB_OUTER_TOP.upload(stairBlock, textureMap, bsmg.modelCollector);
-            Identifier identifier7 = ModModels.STAIRS_STB_INVENTORY.upload(stairBlock, textureMap, bsmg.modelCollector);
             bsmg.blockStateCollector.accept(ModBlockStateModelGenerator.createStairsBlockState(stairBlock, identifier2, identifier, identifier3, identifier5, identifier4, identifier6));
-            bsmg.registerParentedItemModel(stairBlock, identifier7);
+            bsmg.registerParentedItemModel(stairBlock, identifier);
             return this;
         }
     }
@@ -111,7 +111,7 @@ public class ModBlockStateModelGenerator {
 
 
     public static ModBlockTexturePool registerModModelTexturePool(BlockStateModelGenerator bsmg, TextureMap textureMap, Block block) {
-        TexturedModel texturedModel = TexturedModel.CUBE_ALL.get(block);
+        TexturedModel texturedModel = TexturedModel.CUBE_BOTTOM_TOP.get(block);
         return (new ModBlockStateModelGenerator.ModBlockTexturePool(textureMap, bsmg)).base(bsmg, block, texturedModel.getModel());
     }
     public static void registerItemModel(Item item, BlockStateModelGenerator blockStateModelGenerator) {
@@ -161,9 +161,8 @@ public class ModBlockStateModelGenerator {
         Identifier identifier4 = ModModels.STAIRS_STB_TOP.upload(stairBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier5 = ModModels.STAIRS_STB_INNER_TOP.upload(stairBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier6 = ModModels.STAIRS_STB_OUTER_TOP.upload(stairBlock, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier identifier7 = ModModels.STAIRS_STB_INVENTORY.upload(stairBlock, textureMap, blockStateModelGenerator.modelCollector);
         blockStateModelGenerator.blockStateCollector.accept(ModBlockStateModelGenerator.createStairsBlockState(stairBlock, identifier2, identifier, identifier3, identifier5, identifier4, identifier6));
-        blockStateModelGenerator.registerParentedItemModel(stairBlock, identifier7);
+        blockStateModelGenerator.registerParentedItemModel(stairBlock, identifier);
     }
     public static void registerCustomOrTrapdoor(BlockStateModelGenerator blockStateModelGenerator, Block trapdoorBlock, TextureMap textureMap) {
         Identifier identifier = ModModels.TRAPDOOR_STB_BOTTOM.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
@@ -182,6 +181,20 @@ public class ModBlockStateModelGenerator {
         blockStateModelGenerator.blockStateCollector.accept(ModBlockStateModelGenerator.createWallBlockState(wallBlock, identifier, identifier2, identifier3, identifier4, identifier5));
         Identifier identifier6 = ModModels.WALL_STB_INVENTORY.upload(wallBlock, textureMap, blockStateModelGenerator.modelCollector);
         blockStateModelGenerator.registerParentedItemModel(wallBlock, identifier6);
+    }
+    public static void registerCustomDoor(BlockStateModelGenerator blockStateModelGenerator, Block doorBlock, Block topBlock, Block bottomBlock, String topSuffix, String bottomSuffix) {
+        TextureMap textureMap = ModTextureMap.custom(doorBlock, topBlock, bottomBlock, "_top", topSuffix, bottomSuffix);
+        TextureMap textureMap2 = ModTextureMap.custom(doorBlock, topBlock, bottomBlock, "_bottom", topSuffix, bottomSuffix);
+        Identifier identifier = ModModels.DOOR_STB_BOTTOM_LEFT.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
+        Identifier identifier2 = ModModels.DOOR_STB_BOTTOM_LEFT_OPEN.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
+        Identifier identifier3 = ModModels.DOOR_STB_BOTTOM_RIGHT.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
+        Identifier identifier4 = ModModels.DOOR_STB_BOTTOM_RIGHT_OPEN.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
+        Identifier identifier5 = ModModels.DOOR_STB_TOP_LEFT.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier6 = ModModels.DOOR_STB_TOP_LEFT_OPEN.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier7 = ModModels.DOOR_STB_TOP_RIGHT.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier8 = ModModels.DOOR_STB_TOP_RIGHT_OPEN.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        ModBlockStateModelGenerator.registerItemModel(doorBlock.asItem(), blockStateModelGenerator);
+        blockStateModelGenerator.blockStateCollector.accept(createDoorBlockState(doorBlock, identifier, identifier2, identifier3, identifier4, identifier5, identifier6, identifier7, identifier8));
     }
     public static void registerTI0Door(BlockStateModelGenerator blockStateModelGenerator, Block doorBlock) {
         TextureMap textureMap = TextureMap.topBottom(doorBlock);

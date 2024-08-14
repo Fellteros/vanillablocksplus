@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/trapdoor_stb_bottom",
+  "textures": {
+    "bottom": "vanillablocksplus:block/str_birch_log_trapdoor",
+    "side": "minecraft:block/stripped_birch_log",
+    "top": "vanillablocksplus:block/str_birch_log_trapdoor"
+  }
+}

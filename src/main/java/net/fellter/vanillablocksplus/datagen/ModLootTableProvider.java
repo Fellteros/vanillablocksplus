@@ -26,6 +26,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.OAK_WOOD_FENCE_GATE);
         addDrop(ModBlocks.OAK_WOOD_DOOR, doorDrops(ModBlocks.OAK_WOOD_DOOR));
         addDrop(ModBlocks.OAK_WOOD_SLAB, slabDrops(ModBlocks.OAK_WOOD_SLAB));
+        //oak
+        addDrop(ModBlocks2.OAK_LOG_STAIRS);
+        addDrop(ModBlocks2.OAK_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.OAK_LOG_BUTTON);
+        addDrop(ModBlocks2.OAK_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.OAK_LOG_FENCE);
+        addDrop(ModBlocks2.OAK_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.OAK_LOG_DOOR, doorDrops(ModBlocks2.OAK_LOG_DOOR));
+        addDrop(ModBlocks2.OAK_LOG_SLAB, slabDrops(ModBlocks2.OAK_LOG_SLAB));
         //str oak
         addDrop(ModBlocks.STR_OAK_WOOD_STAIRS);
         addDrop(ModBlocks.STR_OAK_WOOD_TRAPDOOR);
@@ -35,6 +44,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STR_OAK_WOOD_FENCE_GATE);
         addDrop(ModBlocks.STR_OAK_WOOD_DOOR, doorDrops(ModBlocks.STR_OAK_WOOD_DOOR));
         addDrop(ModBlocks.STR_OAK_WOOD_SLAB, slabDrops(ModBlocks.STR_OAK_WOOD_SLAB));
+        //str_oak
+        addDrop(ModBlocks2.STR_OAK_LOG_STAIRS);
+        addDrop(ModBlocks2.STR_OAK_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.STR_OAK_LOG_BUTTON);
+        addDrop(ModBlocks2.STR_OAK_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.STR_OAK_LOG_FENCE);
+        addDrop(ModBlocks2.STR_OAK_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.STR_OAK_LOG_DOOR, doorDrops(ModBlocks2.STR_OAK_LOG_DOOR));
+        addDrop(ModBlocks2.STR_OAK_LOG_SLAB, slabDrops(ModBlocks2.STR_OAK_LOG_SLAB));
         //spruce
         addDrop(ModBlocks.SPRUCE_WOOD_STAIRS);
         addDrop(ModBlocks.SPRUCE_WOOD_TRAPDOOR);
@@ -44,6 +62,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SPRUCE_WOOD_FENCE_GATE);
         addDrop(ModBlocks.SPRUCE_WOOD_DOOR, doorDrops(ModBlocks.SPRUCE_WOOD_DOOR));
         addDrop(ModBlocks.SPRUCE_WOOD_SLAB, slabDrops(ModBlocks.SPRUCE_WOOD_SLAB));
+        //spruce
+        addDrop(ModBlocks2.SPRUCE_LOG_STAIRS);
+        addDrop(ModBlocks2.SPRUCE_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.SPRUCE_LOG_BUTTON);
+        addDrop(ModBlocks2.SPRUCE_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.SPRUCE_LOG_FENCE);
+        addDrop(ModBlocks2.SPRUCE_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.SPRUCE_LOG_DOOR, doorDrops(ModBlocks2.SPRUCE_LOG_DOOR));
+        addDrop(ModBlocks2.SPRUCE_LOG_SLAB, slabDrops(ModBlocks2.SPRUCE_LOG_SLAB));
         //str spruce
         addDrop(ModBlocks.STR_SPRUCE_WOOD_STAIRS);
         addDrop(ModBlocks.STR_SPRUCE_WOOD_TRAPDOOR);
@@ -53,6 +80,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STR_SPRUCE_WOOD_FENCE_GATE);
         addDrop(ModBlocks.STR_SPRUCE_WOOD_DOOR, doorDrops(ModBlocks.STR_SPRUCE_WOOD_DOOR));
         addDrop(ModBlocks.STR_SPRUCE_WOOD_SLAB, slabDrops(ModBlocks.STR_SPRUCE_WOOD_SLAB));
+        //str_spruce
+        addDrop(ModBlocks2.STR_SPRUCE_LOG_STAIRS);
+        addDrop(ModBlocks2.STR_SPRUCE_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.STR_SPRUCE_LOG_BUTTON);
+        addDrop(ModBlocks2.STR_SPRUCE_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.STR_SPRUCE_LOG_FENCE);
+        addDrop(ModBlocks2.STR_SPRUCE_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.STR_SPRUCE_LOG_DOOR, doorDrops(ModBlocks2.STR_SPRUCE_LOG_DOOR));
+        addDrop(ModBlocks2.STR_SPRUCE_LOG_SLAB, slabDrops(ModBlocks2.STR_SPRUCE_LOG_SLAB));
         //birch
         addDrop(ModBlocks.BIRCH_WOOD_STAIRS);
         addDrop(ModBlocks.BIRCH_WOOD_TRAPDOOR);
@@ -62,6 +98,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BIRCH_WOOD_FENCE_GATE);
         addDrop(ModBlocks.BIRCH_WOOD_DOOR, doorDrops(ModBlocks.BIRCH_WOOD_DOOR));
         addDrop(ModBlocks.BIRCH_WOOD_SLAB, slabDrops(ModBlocks.BIRCH_WOOD_SLAB));
+        //birch
+        addDrop(ModBlocks2.BIRCH_LOG_STAIRS);
+        addDrop(ModBlocks2.BIRCH_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.BIRCH_LOG_BUTTON);
+        addDrop(ModBlocks2.BIRCH_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.BIRCH_LOG_FENCE);
+        addDrop(ModBlocks2.BIRCH_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.BIRCH_LOG_DOOR, doorDrops(ModBlocks2.BIRCH_LOG_DOOR));
+        addDrop(ModBlocks2.BIRCH_LOG_SLAB, slabDrops(ModBlocks2.BIRCH_LOG_SLAB));
         //str birch
         addDrop(ModBlocks.STR_BIRCH_WOOD_STAIRS);
         addDrop(ModBlocks.STR_BIRCH_WOOD_TRAPDOOR);
@@ -71,6 +116,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STR_BIRCH_WOOD_FENCE_GATE);
         addDrop(ModBlocks.STR_BIRCH_WOOD_DOOR, doorDrops(ModBlocks.STR_BIRCH_WOOD_DOOR));
         addDrop(ModBlocks.STR_BIRCH_WOOD_SLAB, slabDrops(ModBlocks.STR_BIRCH_WOOD_SLAB));
+        //str_birch
+        addDrop(ModBlocks2.STR_BIRCH_LOG_STAIRS);
+        addDrop(ModBlocks2.STR_BIRCH_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.STR_BIRCH_LOG_BUTTON);
+        addDrop(ModBlocks2.STR_BIRCH_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.STR_BIRCH_LOG_FENCE);
+        addDrop(ModBlocks2.STR_BIRCH_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.STR_BIRCH_LOG_DOOR, doorDrops(ModBlocks2.STR_BIRCH_LOG_DOOR));
+        addDrop(ModBlocks2.STR_BIRCH_LOG_SLAB, slabDrops(ModBlocks2.STR_BIRCH_LOG_SLAB));
         //jungle
         addDrop(ModBlocks.JUNGLE_WOOD_STAIRS);
         addDrop(ModBlocks.JUNGLE_WOOD_TRAPDOOR);
@@ -80,6 +134,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.JUNGLE_WOOD_FENCE_GATE);
         addDrop(ModBlocks.JUNGLE_WOOD_DOOR, doorDrops(ModBlocks.JUNGLE_WOOD_DOOR));
         addDrop(ModBlocks.JUNGLE_WOOD_SLAB, slabDrops(ModBlocks.JUNGLE_WOOD_SLAB));
+        //jungle
+        addDrop(ModBlocks2.JUNGLE_LOG_STAIRS);
+        addDrop(ModBlocks2.JUNGLE_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.JUNGLE_LOG_BUTTON);
+        addDrop(ModBlocks2.JUNGLE_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.JUNGLE_LOG_FENCE);
+        addDrop(ModBlocks2.JUNGLE_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.JUNGLE_LOG_DOOR, doorDrops(ModBlocks2.JUNGLE_LOG_DOOR));
+        addDrop(ModBlocks2.JUNGLE_LOG_SLAB, slabDrops(ModBlocks2.JUNGLE_LOG_SLAB));
         //str jungle
         addDrop(ModBlocks.STR_JUNGLE_WOOD_STAIRS);
         addDrop(ModBlocks.STR_JUNGLE_WOOD_TRAPDOOR);
@@ -89,6 +152,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STR_JUNGLE_WOOD_FENCE_GATE);
         addDrop(ModBlocks.STR_JUNGLE_WOOD_DOOR, doorDrops(ModBlocks.STR_JUNGLE_WOOD_DOOR));
         addDrop(ModBlocks.STR_JUNGLE_WOOD_SLAB, slabDrops(ModBlocks.STR_JUNGLE_WOOD_SLAB));
+        //str_jungle
+        addDrop(ModBlocks2.STR_JUNGLE_LOG_STAIRS);
+        addDrop(ModBlocks2.STR_JUNGLE_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.STR_JUNGLE_LOG_BUTTON);
+        addDrop(ModBlocks2.STR_JUNGLE_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.STR_JUNGLE_LOG_FENCE);
+        addDrop(ModBlocks2.STR_JUNGLE_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.STR_JUNGLE_LOG_DOOR, doorDrops(ModBlocks2.STR_JUNGLE_LOG_DOOR));
+        addDrop(ModBlocks2.STR_JUNGLE_LOG_SLAB, slabDrops(ModBlocks2.STR_JUNGLE_LOG_SLAB));
         //acacia
         addDrop(ModBlocks.ACACIA_WOOD_STAIRS);
         addDrop(ModBlocks.ACACIA_WOOD_TRAPDOOR);
@@ -98,6 +170,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ACACIA_WOOD_FENCE_GATE);
         addDrop(ModBlocks.ACACIA_WOOD_DOOR, doorDrops(ModBlocks.ACACIA_WOOD_DOOR));
         addDrop(ModBlocks.ACACIA_WOOD_SLAB, slabDrops(ModBlocks.ACACIA_WOOD_SLAB));
+        //acacia
+        addDrop(ModBlocks2.ACACIA_LOG_STAIRS);
+        addDrop(ModBlocks2.ACACIA_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.ACACIA_LOG_BUTTON);
+        addDrop(ModBlocks2.ACACIA_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.ACACIA_LOG_FENCE);
+        addDrop(ModBlocks2.ACACIA_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.ACACIA_LOG_DOOR, doorDrops(ModBlocks2.ACACIA_LOG_DOOR));
+        addDrop(ModBlocks2.ACACIA_LOG_SLAB, slabDrops(ModBlocks2.ACACIA_LOG_SLAB));
         //str acacia
         addDrop(ModBlocks.STR_ACACIA_WOOD_STAIRS);
         addDrop(ModBlocks.STR_ACACIA_WOOD_TRAPDOOR);
@@ -107,6 +188,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STR_ACACIA_WOOD_FENCE_GATE);
         addDrop(ModBlocks.STR_ACACIA_WOOD_DOOR, doorDrops(ModBlocks.STR_ACACIA_WOOD_DOOR));
         addDrop(ModBlocks.STR_ACACIA_WOOD_SLAB, slabDrops(ModBlocks.STR_ACACIA_WOOD_SLAB));
+        //str_acacia
+        addDrop(ModBlocks2.STR_ACACIA_LOG_STAIRS);
+        addDrop(ModBlocks2.STR_ACACIA_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.STR_ACACIA_LOG_BUTTON);
+        addDrop(ModBlocks2.STR_ACACIA_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.STR_ACACIA_LOG_FENCE);
+        addDrop(ModBlocks2.STR_ACACIA_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.STR_ACACIA_LOG_DOOR, doorDrops(ModBlocks2.STR_ACACIA_LOG_DOOR));
+        addDrop(ModBlocks2.STR_ACACIA_LOG_SLAB, slabDrops(ModBlocks2.STR_ACACIA_LOG_SLAB));
         //dark oak
         addDrop(ModBlocks.DARK_OAK_WOOD_STAIRS);
         addDrop(ModBlocks.DARK_OAK_WOOD_TRAPDOOR);
@@ -116,6 +206,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DARK_OAK_WOOD_FENCE_GATE);
         addDrop(ModBlocks.DARK_OAK_WOOD_DOOR, doorDrops(ModBlocks.DARK_OAK_WOOD_DOOR));
         addDrop(ModBlocks.DARK_OAK_WOOD_SLAB, slabDrops(ModBlocks.DARK_OAK_WOOD_SLAB));
+        //dark_oak
+        addDrop(ModBlocks2.DARK_OAK_LOG_STAIRS);
+        addDrop(ModBlocks2.DARK_OAK_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.DARK_OAK_LOG_BUTTON);
+        addDrop(ModBlocks2.DARK_OAK_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.DARK_OAK_LOG_FENCE);
+        addDrop(ModBlocks2.DARK_OAK_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.DARK_OAK_LOG_DOOR, doorDrops(ModBlocks2.DARK_OAK_LOG_DOOR));
+        addDrop(ModBlocks2.DARK_OAK_LOG_SLAB, slabDrops(ModBlocks2.DARK_OAK_LOG_SLAB));
         //str dark oak
         addDrop(ModBlocks.STR_DARK_OAK_WOOD_STAIRS);
         addDrop(ModBlocks.STR_DARK_OAK_WOOD_TRAPDOOR);
@@ -125,6 +224,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STR_DARK_OAK_WOOD_FENCE_GATE);
         addDrop(ModBlocks.STR_DARK_OAK_WOOD_DOOR, doorDrops(ModBlocks.STR_DARK_OAK_WOOD_DOOR));
         addDrop(ModBlocks.STR_DARK_OAK_WOOD_SLAB, slabDrops(ModBlocks.STR_DARK_OAK_WOOD_SLAB));
+        //str_dark_oak
+        addDrop(ModBlocks2.STR_DARK_OAK_LOG_STAIRS);
+        addDrop(ModBlocks2.STR_DARK_OAK_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.STR_DARK_OAK_LOG_BUTTON);
+        addDrop(ModBlocks2.STR_DARK_OAK_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.STR_DARK_OAK_LOG_FENCE);
+        addDrop(ModBlocks2.STR_DARK_OAK_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.STR_DARK_OAK_LOG_DOOR, doorDrops(ModBlocks2.STR_DARK_OAK_LOG_DOOR));
+        addDrop(ModBlocks2.STR_DARK_OAK_LOG_SLAB, slabDrops(ModBlocks2.STR_DARK_OAK_LOG_SLAB));
         //mangrove
         addDrop(ModBlocks.MANGROVE_WOOD_STAIRS);
         addDrop(ModBlocks.MANGROVE_WOOD_TRAPDOOR);

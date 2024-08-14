@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/trapdoor_stb_open",
+  "textures": {
+    "bottom": "vanillablocksplus:block/jungle_log_trapdoor",
+    "side": "minecraft:block/jungle_log",
+    "top": "vanillablocksplus:block/jungle_log_trapdoor"
+  }
+}

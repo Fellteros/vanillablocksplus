@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/trapdoor_stb_bottom",
+  "textures": {
+    "bottom": "vanillablocksplus:block/spruce_log_trapdoor",
+    "side": "minecraft:block/spruce_log",
+    "top": "vanillablocksplus:block/spruce_log_trapdoor"
+  }
+}

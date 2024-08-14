@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/fence_stb_side",
+  "textures": {
+    "bottom": "minecraft:block/birch_log_top",
+    "side": "minecraft:block/birch_log",
+    "top": "minecraft:block/birch_log_top"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/wall_stb_side_tall_short",
+  "textures": {
+    "bottom": "minecraft:block/dark_oak_log_top",
+    "side": "minecraft:block/dark_oak_log",
+    "top": "minecraft:block/dark_oak_log_top"
+  }
+}

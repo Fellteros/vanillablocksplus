@@ -1,8 +1,0 @@
-{
-  "parent": "vanillablocksplus:blockmodels/stairs_stb_inventory",
-  "textures": {
-    "bottom": "minecraft:block/target_top",
-    "side": "minecraft:block/target_side",
-    "top": "minecraft:block/target_top"
-  }
-}

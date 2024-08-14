@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/trapdoor_stb_open",
+  "textures": {
+    "bottom": "vanillablocksplus:block/oak_log_trapdoor",
+    "side": "minecraft:block/oak_log",
+    "top": "vanillablocksplus:block/oak_log_trapdoor"
+  }
+}

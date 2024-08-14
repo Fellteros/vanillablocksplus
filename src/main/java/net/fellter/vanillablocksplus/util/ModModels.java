@@ -27,7 +27,6 @@ public class ModModels {
     public static final Model STAIRS_STB_OUTER = ModModels.block("stairs_stb_outer", "_outer", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
     public static final Model STAIRS_STB_OUTER_TOP = ModModels.block("stairs_stb_outer_top", "_outer_top", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
     public static final Model STAIRS_STB_TOP = ModModels.block("stairs_stb_top", "_top", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
-    public static final Model STAIRS_STB_INVENTORY = ModModels.block("stairs_stb_inventory", "_inventory", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
     public static final Model TRAPDOOR_STB_BOTTOM = ModModels.block("trapdoor_stb_bottom", "_bottom", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
     public static final Model TRAPDOOR_STB_OPEN = ModModels.block("trapdoor_stb_open", "_open", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
     public static final Model TRAPDOOR_STB_OPEN_TOP = ModModels.block("trapdoor_stb_open_top", "_open_top", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
@@ -46,19 +45,20 @@ public class ModModels {
     public static final Model DOOR_TI0_TOP_LEFT_OPEN = ModModels.block("door_ti0_top_left_open", "_top_left_open", TextureKey.TOP, TextureKey.BOTTOM);
     public static final Model DOOR_TI0_TOP_RIGHT = ModModels.block("door_ti0_top_right", "_top_right", TextureKey.TOP, TextureKey.BOTTOM);
     public static final Model DOOR_TI0_TOP_RIGHT_OPEN = ModModels.block("door_ti0_top_right_open", "_top_right_open", TextureKey.TOP, TextureKey.BOTTOM);
+    public static final Model DOOR_STB_BOTTOM_LEFT = ModModels.block("door_stb_bottom_left", "_bottom_left", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model DOOR_STB_BOTTOM_LEFT_OPEN = ModModels.block("door_stb_bottom_left_open", "_bottom_left_open", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model DOOR_STB_BOTTOM_RIGHT = ModModels.block("door_stb_bottom_right", "_bottom_right", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model DOOR_STB_BOTTOM_RIGHT_OPEN = ModModels.block("door_stb_bottom_right_open", "_bottom_right_open", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model DOOR_STB_TOP_LEFT = ModModels.block("door_stb_top_left", "_top_left", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model DOOR_STB_TOP_LEFT_OPEN = ModModels.block("door_stb_top_left_open", "_top_left_open", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model DOOR_STB_TOP_RIGHT = ModModels.block("door_stb_top_right", "_top_right", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
+    public static final Model DOOR_STB_TOP_RIGHT_OPEN = ModModels.block("door_stb_top_right_open", "_top_right_open", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.SIDE);
 
 
 
-    private static Model make(TextureKey... requiredTextureKeys) {
-        return new Model(Optional.empty(), Optional.empty(), requiredTextureKeys);
-    }
 
     private static Model block(String parent, TextureKey ... requiredTextureKeys) {
         return new Model(Optional.of(Identifier.of("vanillablocksplus", "blockmodels/" + parent)), Optional.empty(), requiredTextureKeys);
-    }
-
-    private static Model item(String parent, TextureKey ... requiredTextureKeys) {
-        return new Model(Optional.of(Identifier.of("vanillablocksplus", "item/" + parent)), Optional.empty(), requiredTextureKeys);
     }
 
     private static Model block(String parent, String variant, TextureKey ... requiredTextureKeys) {

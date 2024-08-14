@@ -3,6 +3,7 @@ package net.fellter.vanillablocksplus.util;
 import net.minecraft.block.Block;
 import net.minecraft.data.client.TextureKey;
 import net.minecraft.data.client.TextureMap;
+import net.minecraft.util.Identifier;
 
 public class ModTextureMap extends TextureMap {
     //STB = side, top, bottom

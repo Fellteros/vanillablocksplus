@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "all": "minecraft:block/gray_stained_glass"
+    "bottom": "minecraft:block/gray_stained_glass",
+    "side": "minecraft:block/gray_stained_glass",
+    "top": "minecraft:block/gray_stained_glass"
   }
 }
