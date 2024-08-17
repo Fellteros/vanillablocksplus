@@ -307,6 +307,169 @@ public class ModBlocks2 extends Block {
     public static final Block STR_DARK_OAK_LOG_WALL = registerBlock("str_dark_oak_log_wall",
             new WallBlock(AbstractBlock.Settings.copy(LOG_DEF)));
 
+    //mangrove_log_set
+    public static final Block MANGROVE_LOG_STAIRS = registerBlock("mangrove_log_stairs",
+            new StairsBlock(Blocks.MANGROVE_LOG.getDefaultState(), AbstractBlock.Settings.copy(LOG_DEF)));
+    public static final Block MANGROVE_LOG_SLAB = registerBlock("mangrove_log_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(LOG_DEF)));
+    public static final Block MANGROVE_LOG_BUTTON = registerBlock("mangrove_log_button",
+            new ButtonBlock(BlockSetType.MANGROVE, 10, AbstractBlock.Settings.copy(LOG_DEF)));
+    public static final Block MANGROVE_LOG_PRESSURE_PLATE = registerBlock("mangrove_log_pressure_plate",
+            new PressurePlateBlock(BlockSetType.MANGROVE, AbstractBlock.Settings.copy(LOG_DEF)));
+    public static final Block MANGROVE_LOG_FENCE = registerBlock("mangrove_log_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(LOG_DEF)));
+    public static final Block MANGROVE_LOG_FENCE_GATE = registerBlock("mangrove_log_fence_gate",
+            new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(LOG_DEF)));
+    public static final Block MANGROVE_LOG_DOOR = registerBlock("mangrove_log_door",
+            new DoorBlock(BlockSetType.MANGROVE, AbstractBlock.Settings.copy(LOG_DEF)));
+    public static final Block MANGROVE_LOG_TRAPDOOR = registerBlock("mangrove_log_trapdoor",
+            new TrapdoorBlock(BlockSetType.MANGROVE, AbstractBlock.Settings.copy(LOG_DEF)));
+    public static final Block MANGROVE_LOG_WALL = registerBlock("mangrove_log_wall",
+            new WallBlock(AbstractBlock.Settings.copy(LOG_DEF)));
+
+    //str_mangrove_log_set
+    public static final Block STR_MANGROVE_LOG_STAIRS = registerBlock("str_mangrove_log_stairs",
+            new StairsBlock(Blocks.STRIPPED_MANGROVE_LOG.getDefaultState(), AbstractBlock.Settings.copy(LOG_DEF)));
+    public static final Block STR_MANGROVE_LOG_SLAB = registerBlock("str_mangrove_log_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(LOG_DEF)));
+    public static final Block STR_MANGROVE_LOG_BUTTON = registerBlock("str_mangrove_log_button",
+            new ButtonBlock(BlockSetType.MANGROVE, 10, AbstractBlock.Settings.copy(LOG_DEF)));
+    public static final Block STR_MANGROVE_LOG_PRESSURE_PLATE = registerBlock("str_mangrove_log_pressure_plate",
+            new PressurePlateBlock(BlockSetType.MANGROVE, AbstractBlock.Settings.copy(LOG_DEF)));
+    public static final Block STR_MANGROVE_LOG_FENCE = registerBlock("str_mangrove_log_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(LOG_DEF)));
+    public static final Block STR_MANGROVE_LOG_FENCE_GATE = registerBlock("str_mangrove_log_fence_gate",
+            new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(LOG_DEF)));
+    public static final Block STR_MANGROVE_LOG_DOOR = registerBlock("str_mangrove_log_door",
+            new DoorBlock(BlockSetType.MANGROVE, AbstractBlock.Settings.copy(LOG_DEF)));
+    public static final Block STR_MANGROVE_LOG_TRAPDOOR = registerBlock("str_mangrove_log_trapdoor",
+            new TrapdoorBlock(BlockSetType.MANGROVE, AbstractBlock.Settings.copy(LOG_DEF)));
+    public static final Block STR_MANGROVE_LOG_WALL = registerBlock("str_mangrove_log_wall",
+            new WallBlock(AbstractBlock.Settings.copy(LOG_DEF)));
+
+    //cherry_log_set
+    public static final Block CHERRY_LOG_STAIRS = registerBlock("cherry_log_stairs",
+            new StairsBlock(Blocks.CHERRY_LOG.getDefaultState(), AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block CHERRY_LOG_SLAB = registerBlock("cherry_log_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block CHERRY_LOG_BUTTON = registerBlock("cherry_log_button",
+            new ButtonBlock(BlockSetType.CHERRY, 10, AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block CHERRY_LOG_PRESSURE_PLATE = registerBlock("cherry_log_pressure_plate",
+            new PressurePlateBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block CHERRY_LOG_FENCE = registerBlock("cherry_log_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block CHERRY_LOG_FENCE_GATE = registerBlock("cherry_log_fence_gate",
+            new FenceGateBlock(WoodType.CHERRY, AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block CHERRY_LOG_DOOR = registerBlock("cherry_log_door",
+            new DoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block CHERRY_LOG_TRAPDOOR = registerBlock("cherry_log_trapdoor",
+            new TrapdoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block CHERRY_LOG_WALL = registerBlock("cherry_log_wall",
+            new WallBlock(AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+
+    //str_cherry_log_set
+    public static final Block STR_CHERRY_LOG_STAIRS = registerBlock("str_cherry_log_stairs",
+            new StairsBlock(Blocks.STRIPPED_CHERRY_LOG.getDefaultState(), AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block STR_CHERRY_LOG_SLAB = registerBlock("str_cherry_log_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block STR_CHERRY_LOG_BUTTON = registerBlock("str_cherry_log_button",
+            new ButtonBlock(BlockSetType.CHERRY, 10, AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block STR_CHERRY_LOG_PRESSURE_PLATE = registerBlock("str_cherry_log_pressure_plate",
+            new PressurePlateBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block STR_CHERRY_LOG_FENCE = registerBlock("str_cherry_log_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block STR_CHERRY_LOG_FENCE_GATE = registerBlock("str_cherry_log_fence_gate",
+            new FenceGateBlock(WoodType.CHERRY, AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block STR_CHERRY_LOG_DOOR = registerBlock("str_cherry_log_door",
+            new DoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block STR_CHERRY_LOG_TRAPDOOR = registerBlock("str_cherry_log_trapdoor",
+            new TrapdoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block STR_CHERRY_LOG_WALL = registerBlock("str_cherry_log_wall",
+            new WallBlock(AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD)));
+
+    public static final Block NETHER_DEF = registerBlock("nether_def",
+            new Block(Settings.create().instrument(NoteBlockInstrument.BASS).strength(2.0F).sounds(BlockSoundGroup.NETHER_STEM)));
+
+    //crimson_stem_set
+    public static final Block CRIMSON_STEM_STAIRS = registerBlock("crimson_stem_stairs",
+            new StairsBlock(Blocks.CRIMSON_STEM.getDefaultState(), AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block CRIMSON_STEM_SLAB = registerBlock("crimson_stem_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block CRIMSON_STEM_BUTTON = registerBlock("crimson_stem_button",
+            new ButtonBlock(BlockSetType.CRIMSON, 10, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block CRIMSON_STEM_PRESSURE_PLATE = registerBlock("crimson_stem_pressure_plate",
+            new PressurePlateBlock(BlockSetType.CRIMSON, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block CRIMSON_STEM_FENCE = registerBlock("crimson_stem_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block CRIMSON_STEM_FENCE_GATE = registerBlock("crimson_stem_fence_gate",
+            new FenceGateBlock(WoodType.CRIMSON, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block CRIMSON_STEM_DOOR = registerBlock("crimson_stem_door",
+            new DoorBlock(BlockSetType.CRIMSON, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block CRIMSON_STEM_TRAPDOOR = registerBlock("crimson_stem_trapdoor",
+            new TrapdoorBlock(BlockSetType.CRIMSON, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block CRIMSON_STEM_WALL = registerBlock("crimson_stem_wall",
+            new WallBlock(AbstractBlock.Settings.copy(NETHER_DEF)));
+
+    //str_crimson_stem_set
+    public static final Block STR_CRIMSON_STEM_STAIRS = registerBlock("str_crimson_stem_stairs",
+            new StairsBlock(Blocks.STRIPPED_CRIMSON_STEM.getDefaultState(), AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block STR_CRIMSON_STEM_SLAB = registerBlock("str_crimson_stem_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block STR_CRIMSON_STEM_BUTTON = registerBlock("str_crimson_stem_button",
+            new ButtonBlock(BlockSetType.CRIMSON, 10, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block STR_CRIMSON_STEM_PRESSURE_PLATE = registerBlock("str_crimson_stem_pressure_plate",
+            new PressurePlateBlock(BlockSetType.CRIMSON, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block STR_CRIMSON_STEM_FENCE = registerBlock("str_crimson_stem_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block STR_CRIMSON_STEM_FENCE_GATE = registerBlock("str_crimson_stem_fence_gate",
+            new FenceGateBlock(WoodType.CRIMSON, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block STR_CRIMSON_STEM_DOOR = registerBlock("str_crimson_stem_door",
+            new DoorBlock(BlockSetType.CRIMSON, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block STR_CRIMSON_STEM_TRAPDOOR = registerBlock("str_crimson_stem_trapdoor",
+            new TrapdoorBlock(BlockSetType.CRIMSON, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block STR_CRIMSON_STEM_WALL = registerBlock("str_crimson_stem_wall",
+            new WallBlock(AbstractBlock.Settings.copy(NETHER_DEF)));
+
+    //warped_stem_set
+    public static final Block WARPED_STEM_STAIRS = registerBlock("warped_stem_stairs",
+            new StairsBlock(Blocks.WARPED_STEM.getDefaultState(), AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block WARPED_STEM_SLAB = registerBlock("warped_stem_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block WARPED_STEM_BUTTON = registerBlock("warped_stem_button",
+            new ButtonBlock(BlockSetType.WARPED, 10, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block WARPED_STEM_PRESSURE_PLATE = registerBlock("warped_stem_pressure_plate",
+            new PressurePlateBlock(BlockSetType.WARPED, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block WARPED_STEM_FENCE = registerBlock("warped_stem_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block WARPED_STEM_FENCE_GATE = registerBlock("warped_stem_fence_gate",
+            new FenceGateBlock(WoodType.WARPED, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block WARPED_STEM_DOOR = registerBlock("warped_stem_door",
+            new DoorBlock(BlockSetType.WARPED, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block WARPED_STEM_TRAPDOOR = registerBlock("warped_stem_trapdoor",
+            new TrapdoorBlock(BlockSetType.WARPED, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block WARPED_STEM_WALL = registerBlock("warped_stem_wall",
+            new WallBlock(AbstractBlock.Settings.copy(NETHER_DEF)));
+
+    //str_warped_stem_set
+    public static final Block STR_WARPED_STEM_STAIRS = registerBlock("str_warped_stem_stairs",
+            new StairsBlock(Blocks.STRIPPED_WARPED_STEM.getDefaultState(), AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block STR_WARPED_STEM_SLAB = registerBlock("str_warped_stem_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block STR_WARPED_STEM_BUTTON = registerBlock("str_warped_stem_button",
+            new ButtonBlock(BlockSetType.WARPED, 10, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block STR_WARPED_STEM_PRESSURE_PLATE = registerBlock("str_warped_stem_pressure_plate",
+            new PressurePlateBlock(BlockSetType.WARPED, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block STR_WARPED_STEM_FENCE = registerBlock("str_warped_stem_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block STR_WARPED_STEM_FENCE_GATE = registerBlock("str_warped_stem_fence_gate",
+            new FenceGateBlock(WoodType.WARPED, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block STR_WARPED_STEM_DOOR = registerBlock("str_warped_stem_door",
+            new DoorBlock(BlockSetType.WARPED, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block STR_WARPED_STEM_TRAPDOOR = registerBlock("str_warped_stem_trapdoor",
+            new TrapdoorBlock(BlockSetType.WARPED, AbstractBlock.Settings.copy(NETHER_DEF)));
+    public static final Block STR_WARPED_STEM_WALL = registerBlock("str_warped_stem_wall",
+            new WallBlock(AbstractBlock.Settings.copy(NETHER_DEF)));
+
 
 
     private static Block registerBlock(String name, Block block) {

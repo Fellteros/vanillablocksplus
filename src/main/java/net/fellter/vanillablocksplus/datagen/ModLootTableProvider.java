@@ -242,6 +242,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MANGROVE_WOOD_FENCE_GATE);
         addDrop(ModBlocks.MANGROVE_WOOD_DOOR, doorDrops(ModBlocks.MANGROVE_WOOD_DOOR));
         addDrop(ModBlocks.MANGROVE_WOOD_SLAB, slabDrops(ModBlocks.MANGROVE_WOOD_SLAB));
+        //mangrove
+        addDrop(ModBlocks2.MANGROVE_LOG_STAIRS);
+        addDrop(ModBlocks2.MANGROVE_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.MANGROVE_LOG_BUTTON);
+        addDrop(ModBlocks2.MANGROVE_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.MANGROVE_LOG_FENCE);
+        addDrop(ModBlocks2.MANGROVE_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.MANGROVE_LOG_DOOR, doorDrops(ModBlocks2.MANGROVE_LOG_DOOR));
+        addDrop(ModBlocks2.MANGROVE_LOG_SLAB, slabDrops(ModBlocks2.MANGROVE_LOG_SLAB));
         //str mangrove
         addDrop(ModBlocks.STR_MANGROVE_WOOD_STAIRS);
         addDrop(ModBlocks.STR_MANGROVE_WOOD_TRAPDOOR);
@@ -251,6 +260,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STR_MANGROVE_WOOD_FENCE_GATE);
         addDrop(ModBlocks.STR_MANGROVE_WOOD_DOOR, doorDrops(ModBlocks.STR_MANGROVE_WOOD_DOOR));
         addDrop(ModBlocks.STR_MANGROVE_WOOD_SLAB, slabDrops(ModBlocks.STR_MANGROVE_WOOD_SLAB));
+        //str_mangrove
+        addDrop(ModBlocks2.STR_MANGROVE_LOG_STAIRS);
+        addDrop(ModBlocks2.STR_MANGROVE_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.STR_MANGROVE_LOG_BUTTON);
+        addDrop(ModBlocks2.STR_MANGROVE_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.STR_MANGROVE_LOG_FENCE);
+        addDrop(ModBlocks2.STR_MANGROVE_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.STR_MANGROVE_LOG_DOOR, doorDrops(ModBlocks2.STR_MANGROVE_LOG_DOOR));
+        addDrop(ModBlocks2.STR_MANGROVE_LOG_SLAB, slabDrops(ModBlocks2.STR_MANGROVE_LOG_SLAB));
         //cherry
         addDrop(ModBlocks.CHERRY_WOOD_STAIRS);
         addDrop(ModBlocks.CHERRY_WOOD_TRAPDOOR);
@@ -261,6 +279,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CHERRY_WOOD_DOOR, doorDrops(ModBlocks.CHERRY_WOOD_DOOR));
         addDrop(ModBlocks.CHERRY_WOOD_SLAB, slabDrops(ModBlocks.CHERRY_WOOD_SLAB));
         //cherry
+        addDrop(ModBlocks2.CHERRY_LOG_STAIRS);
+        addDrop(ModBlocks2.CHERRY_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.CHERRY_LOG_BUTTON);
+        addDrop(ModBlocks2.CHERRY_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.CHERRY_LOG_FENCE);
+        addDrop(ModBlocks2.CHERRY_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.CHERRY_LOG_DOOR, doorDrops(ModBlocks2.CHERRY_LOG_DOOR));
+        addDrop(ModBlocks2.CHERRY_LOG_SLAB, slabDrops(ModBlocks2.CHERRY_LOG_SLAB));
+        //cherry
         addDrop(ModBlocks.STR_CHERRY_WOOD_STAIRS);
         addDrop(ModBlocks.STR_CHERRY_WOOD_TRAPDOOR);
         addDrop(ModBlocks.STR_CHERRY_WOOD_BUTTON);
@@ -269,6 +296,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STR_CHERRY_WOOD_FENCE_GATE);
         addDrop(ModBlocks.STR_CHERRY_WOOD_DOOR, doorDrops(ModBlocks.STR_CHERRY_WOOD_DOOR));
         addDrop(ModBlocks.STR_CHERRY_WOOD_SLAB, slabDrops(ModBlocks.STR_CHERRY_WOOD_SLAB));
+        //str_cherry
+        addDrop(ModBlocks2.STR_CHERRY_LOG_STAIRS);
+        addDrop(ModBlocks2.STR_CHERRY_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.STR_CHERRY_LOG_BUTTON);
+        addDrop(ModBlocks2.STR_CHERRY_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.STR_CHERRY_LOG_FENCE);
+        addDrop(ModBlocks2.STR_CHERRY_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.STR_CHERRY_LOG_DOOR, doorDrops(ModBlocks2.STR_CHERRY_LOG_DOOR));
+        addDrop(ModBlocks2.STR_CHERRY_LOG_SLAB, slabDrops(ModBlocks2.STR_CHERRY_LOG_SLAB));
         //bamboo
         addDrop(ModBlocks.BAMBOO_BLOCK_STAIRS);
         addDrop(ModBlocks.BAMBOO_BLOCK_TRAPDOOR);
@@ -296,6 +332,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CRIMSON_HYPHAE_FENCE_GATE);
         addDrop(ModBlocks.CRIMSON_HYPHAE_DOOR, doorDrops(ModBlocks.CRIMSON_HYPHAE_DOOR));
         addDrop(ModBlocks.CRIMSON_HYPHAE_SLAB, slabDrops(ModBlocks.CRIMSON_HYPHAE_SLAB));
+        //crimson
+        addDrop(ModBlocks2.CRIMSON_STEM_STAIRS);
+        addDrop(ModBlocks2.CRIMSON_STEM_TRAPDOOR);
+        addDrop(ModBlocks2.CRIMSON_STEM_BUTTON);
+        addDrop(ModBlocks2.CRIMSON_STEM_PRESSURE_PLATE);
+        addDrop(ModBlocks2.CRIMSON_STEM_FENCE);
+        addDrop(ModBlocks2.CRIMSON_STEM_FENCE_GATE);
+        addDrop(ModBlocks2.CRIMSON_STEM_DOOR, doorDrops(ModBlocks2.CRIMSON_STEM_DOOR));
+        addDrop(ModBlocks2.CRIMSON_STEM_SLAB, slabDrops(ModBlocks2.CRIMSON_STEM_SLAB));
         //str crimson hyphae
         addDrop(ModBlocks.STR_CRIMSON_HYPHAE_STAIRS);
         addDrop(ModBlocks.STR_CRIMSON_HYPHAE_TRAPDOOR);
@@ -305,6 +350,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STR_CRIMSON_HYPHAE_FENCE_GATE);
         addDrop(ModBlocks.STR_CRIMSON_HYPHAE_DOOR, doorDrops(ModBlocks.STR_CRIMSON_HYPHAE_DOOR));
         addDrop(ModBlocks.STR_CRIMSON_HYPHAE_SLAB, slabDrops(ModBlocks.STR_CRIMSON_HYPHAE_SLAB));
+        //str_crimson
+        addDrop(ModBlocks2.STR_CRIMSON_STEM_STAIRS);
+        addDrop(ModBlocks2.STR_CRIMSON_STEM_TRAPDOOR);
+        addDrop(ModBlocks2.STR_CRIMSON_STEM_BUTTON);
+        addDrop(ModBlocks2.STR_CRIMSON_STEM_PRESSURE_PLATE);
+        addDrop(ModBlocks2.STR_CRIMSON_STEM_FENCE);
+        addDrop(ModBlocks2.STR_CRIMSON_STEM_FENCE_GATE);
+        addDrop(ModBlocks2.STR_CRIMSON_STEM_DOOR, doorDrops(ModBlocks2.STR_CRIMSON_STEM_DOOR));
+        addDrop(ModBlocks2.STR_CRIMSON_STEM_SLAB, slabDrops(ModBlocks2.STR_CRIMSON_STEM_SLAB));
         //warped hyphae
         addDrop(ModBlocks.WARPED_HYPHAE_STAIRS);
         addDrop(ModBlocks.WARPED_HYPHAE_TRAPDOOR);
@@ -314,6 +368,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WARPED_HYPHAE_FENCE_GATE);
         addDrop(ModBlocks.WARPED_HYPHAE_DOOR, doorDrops(ModBlocks.WARPED_HYPHAE_DOOR));
         addDrop(ModBlocks.WARPED_HYPHAE_SLAB, slabDrops(ModBlocks.WARPED_HYPHAE_SLAB));
+        //warped
+        addDrop(ModBlocks2.WARPED_STEM_STAIRS);
+        addDrop(ModBlocks2.WARPED_STEM_TRAPDOOR);
+        addDrop(ModBlocks2.WARPED_STEM_BUTTON);
+        addDrop(ModBlocks2.WARPED_STEM_PRESSURE_PLATE);
+        addDrop(ModBlocks2.WARPED_STEM_FENCE);
+        addDrop(ModBlocks2.WARPED_STEM_FENCE_GATE);
+        addDrop(ModBlocks2.WARPED_STEM_DOOR, doorDrops(ModBlocks2.WARPED_STEM_DOOR));
+        addDrop(ModBlocks2.WARPED_STEM_SLAB, slabDrops(ModBlocks2.WARPED_STEM_SLAB));
         //str warped hyphae
         addDrop(ModBlocks.STR_WARPED_HYPHAE_STAIRS);
         addDrop(ModBlocks.STR_WARPED_HYPHAE_TRAPDOOR);
@@ -323,6 +386,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STR_WARPED_HYPHAE_FENCE_GATE);
         addDrop(ModBlocks.STR_WARPED_HYPHAE_DOOR, doorDrops(ModBlocks.STR_WARPED_HYPHAE_DOOR));
         addDrop(ModBlocks.STR_WARPED_HYPHAE_SLAB, slabDrops(ModBlocks.STR_WARPED_HYPHAE_SLAB));
+        //str_warped
+        addDrop(ModBlocks2.STR_WARPED_STEM_STAIRS);
+        addDrop(ModBlocks2.STR_WARPED_STEM_TRAPDOOR);
+        addDrop(ModBlocks2.STR_WARPED_STEM_BUTTON);
+        addDrop(ModBlocks2.STR_WARPED_STEM_PRESSURE_PLATE);
+        addDrop(ModBlocks2.STR_WARPED_STEM_FENCE);
+        addDrop(ModBlocks2.STR_WARPED_STEM_FENCE_GATE);
+        addDrop(ModBlocks2.STR_WARPED_STEM_DOOR, doorDrops(ModBlocks2.STR_WARPED_STEM_DOOR));
+        addDrop(ModBlocks2.STR_WARPED_STEM_SLAB, slabDrops(ModBlocks2.STR_WARPED_STEM_SLAB));
         //stone
         addDrop(ModBlocks.STONE_TRAPDOOR);
         addDrop(ModBlocks.STONE_FENCE);

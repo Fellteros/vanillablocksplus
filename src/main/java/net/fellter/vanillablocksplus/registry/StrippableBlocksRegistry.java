@@ -7,6 +7,7 @@ import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.minecraft.block.Block;
 import org.slf4j.LoggerFactory;
 
+import java.lang.annotation.Target;
 import java.util.Map;
 
 public class StrippableBlocksRegistry {
@@ -161,6 +162,16 @@ public class StrippableBlocksRegistry {
         register(ModBlocks.MANGROVE_WOOD_TRAPDOOR, ModBlocks.STR_MANGROVE_WOOD_TRAPDOOR);
         register(ModBlocks.MANGROVE_WOOD_PRESSURE_PLATE, ModBlocks.STR_MANGROVE_WOOD_PRESSURE_PLATE);
         register(ModBlocks.MANGROVE_WOOD_WALL, ModBlocks.STR_MANGROVE_WOOD_WALL);
+        //mangrove
+        register(ModBlocks2.MANGROVE_LOG_BUTTON, ModBlocks2.STR_MANGROVE_LOG_BUTTON);
+        register(ModBlocks2.MANGROVE_LOG_FENCE, ModBlocks2.STR_MANGROVE_LOG_FENCE);
+        register(ModBlocks2.MANGROVE_LOG_SLAB, ModBlocks2.STR_MANGROVE_LOG_SLAB);
+        register(ModBlocks2.MANGROVE_LOG_STAIRS, ModBlocks2.STR_MANGROVE_LOG_STAIRS);
+        register(ModBlocks2.MANGROVE_LOG_FENCE_GATE, ModBlocks2.STR_MANGROVE_LOG_FENCE_GATE);
+        register(ModBlocks2.MANGROVE_LOG_DOOR, ModBlocks2.STR_MANGROVE_LOG_DOOR);
+        register(ModBlocks2.MANGROVE_LOG_TRAPDOOR, ModBlocks2.STR_MANGROVE_LOG_TRAPDOOR);
+        register(ModBlocks2.MANGROVE_LOG_PRESSURE_PLATE, ModBlocks2.STR_MANGROVE_LOG_PRESSURE_PLATE);
+        register(ModBlocks2.MANGROVE_LOG_WALL, ModBlocks2.STR_MANGROVE_LOG_WALL);
         //cherry
         register(ModBlocks.CHERRY_WOOD_BUTTON, ModBlocks.STR_CHERRY_WOOD_BUTTON);
         register(ModBlocks.CHERRY_WOOD_FENCE, ModBlocks.STR_CHERRY_WOOD_FENCE);
@@ -171,6 +182,16 @@ public class StrippableBlocksRegistry {
         register(ModBlocks.CHERRY_WOOD_TRAPDOOR, ModBlocks.STR_CHERRY_WOOD_TRAPDOOR);
         register(ModBlocks.CHERRY_WOOD_PRESSURE_PLATE, ModBlocks.STR_CHERRY_WOOD_PRESSURE_PLATE);
         register(ModBlocks.CHERRY_WOOD_WALL, ModBlocks.STR_CHERRY_WOOD_WALL);
+        //cherry
+        register(ModBlocks2.CHERRY_LOG_BUTTON, ModBlocks2.STR_CHERRY_LOG_BUTTON);
+        register(ModBlocks2.CHERRY_LOG_FENCE, ModBlocks2.STR_CHERRY_LOG_FENCE);
+        register(ModBlocks2.CHERRY_LOG_SLAB, ModBlocks2.STR_CHERRY_LOG_SLAB);
+        register(ModBlocks2.CHERRY_LOG_STAIRS, ModBlocks2.STR_CHERRY_LOG_STAIRS);
+        register(ModBlocks2.CHERRY_LOG_FENCE_GATE, ModBlocks2.STR_CHERRY_LOG_FENCE_GATE);
+        register(ModBlocks2.CHERRY_LOG_DOOR, ModBlocks2.STR_CHERRY_LOG_DOOR);
+        register(ModBlocks2.CHERRY_LOG_TRAPDOOR, ModBlocks2.STR_CHERRY_LOG_TRAPDOOR);
+        register(ModBlocks2.CHERRY_LOG_PRESSURE_PLATE, ModBlocks2.STR_CHERRY_LOG_PRESSURE_PLATE);
+        register(ModBlocks2.CHERRY_LOG_WALL, ModBlocks2.STR_CHERRY_LOG_WALL);
         //cherry
         register(ModBlocks.BAMBOO_BLOCK_BUTTON, ModBlocks.STR_BAMBOO_BLOCK_BUTTON);
         register(ModBlocks.BAMBOO_BLOCK_FENCE, ModBlocks.STR_BAMBOO_BLOCK_FENCE);
@@ -192,6 +213,16 @@ public class StrippableBlocksRegistry {
         register(ModBlocks.CRIMSON_HYPHAE_PRESSURE_PLATE, ModBlocks.STR_CRIMSON_HYPHAE_PRESSURE_PLATE);
         register(ModBlocks.CRIMSON_HYPHAE_WALL, ModBlocks.STR_CRIMSON_HYPHAE_WALL);
         //cherry
+        register(ModBlocks2.CRIMSON_STEM_BUTTON, ModBlocks2.STR_CRIMSON_STEM_BUTTON);
+        register(ModBlocks2.CRIMSON_STEM_FENCE, ModBlocks2.STR_CRIMSON_STEM_FENCE);
+        register(ModBlocks2.CRIMSON_STEM_SLAB, ModBlocks2.STR_CRIMSON_STEM_SLAB);
+        register(ModBlocks2.CRIMSON_STEM_STAIRS, ModBlocks2.STR_CRIMSON_STEM_STAIRS);
+        register(ModBlocks2.CRIMSON_STEM_FENCE_GATE, ModBlocks2.STR_CRIMSON_STEM_FENCE_GATE);
+        register(ModBlocks2.CRIMSON_STEM_DOOR, ModBlocks2.STR_CRIMSON_STEM_DOOR);
+        register(ModBlocks2.CRIMSON_STEM_TRAPDOOR, ModBlocks2.STR_CRIMSON_STEM_TRAPDOOR);
+        register(ModBlocks2.CRIMSON_STEM_PRESSURE_PLATE, ModBlocks2.STR_CRIMSON_STEM_PRESSURE_PLATE);
+        register(ModBlocks2.CRIMSON_STEM_WALL, ModBlocks2.STR_CRIMSON_STEM_WALL);
+        //cherry
         register(ModBlocks.WARPED_HYPHAE_BUTTON, ModBlocks.STR_WARPED_HYPHAE_BUTTON);
         register(ModBlocks.WARPED_HYPHAE_FENCE, ModBlocks.STR_WARPED_HYPHAE_FENCE);
         register(ModBlocks.WARPED_HYPHAE_SLAB, ModBlocks.STR_WARPED_HYPHAE_SLAB);
@@ -201,5 +232,15 @@ public class StrippableBlocksRegistry {
         register(ModBlocks.WARPED_HYPHAE_TRAPDOOR, ModBlocks.STR_WARPED_HYPHAE_TRAPDOOR);
         register(ModBlocks.WARPED_HYPHAE_PRESSURE_PLATE, ModBlocks.STR_WARPED_HYPHAE_PRESSURE_PLATE);
         register(ModBlocks.WARPED_HYPHAE_WALL, ModBlocks.STR_WARPED_HYPHAE_WALL);
+        //cherry
+        register(ModBlocks2.WARPED_STEM_BUTTON, ModBlocks2.STR_WARPED_STEM_BUTTON);
+        register(ModBlocks2.WARPED_STEM_FENCE, ModBlocks2.STR_WARPED_STEM_FENCE);
+        register(ModBlocks2.WARPED_STEM_SLAB, ModBlocks2.STR_WARPED_STEM_SLAB);
+        register(ModBlocks2.WARPED_STEM_STAIRS, ModBlocks2.STR_WARPED_STEM_STAIRS);
+        register(ModBlocks2.WARPED_STEM_FENCE_GATE, ModBlocks2.STR_WARPED_STEM_FENCE_GATE);
+        register(ModBlocks2.WARPED_STEM_DOOR, ModBlocks2.STR_WARPED_STEM_DOOR);
+        register(ModBlocks2.WARPED_STEM_TRAPDOOR, ModBlocks2.STR_WARPED_STEM_TRAPDOOR);
+        register(ModBlocks2.WARPED_STEM_PRESSURE_PLATE, ModBlocks2.STR_WARPED_STEM_PRESSURE_PLATE);
+        register(ModBlocks2.WARPED_STEM_WALL, ModBlocks2.STR_WARPED_STEM_WALL);
     }
 }

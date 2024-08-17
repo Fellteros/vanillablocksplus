@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/trapdoor_stb_open",
+  "textures": {
+    "bottom": "vanillablocksplus:block/str_crimson_stem_trapdoor",
+    "side": "minecraft:block/stripped_crimson_stem",
+    "top": "vanillablocksplus:block/str_crimson_stem_trapdoor"
+  }
+}

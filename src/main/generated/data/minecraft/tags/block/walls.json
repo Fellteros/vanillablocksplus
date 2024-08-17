@@ -282,11 +282,15 @@
     "vanillablocksplus:acacia_wood_wall",
     "vanillablocksplus:dark_oak_log_wall",
     "vanillablocksplus:dark_oak_wood_wall",
+    "vanillablocksplus:mangrove_log_wall",
     "vanillablocksplus:mangrove_wood_wall",
+    "vanillablocksplus:cherry_log_wall",
     "vanillablocksplus:cherry_wood_wall",
     "vanillablocksplus:bamboo_block_wall",
     "vanillablocksplus:crimson_hyphae_wall",
+    "vanillablocksplus:crimson_stem_wall",
     "vanillablocksplus:warped_hyphae_wall",
+    "vanillablocksplus:warped_stem_wall",
     "vanillablocksplus:str_oak_log_wall",
     "vanillablocksplus:str_oak_wood_wall",
     "vanillablocksplus:str_spruce_log_wall",
@@ -299,10 +303,14 @@
     "vanillablocksplus:str_acacia_wood_wall",
     "vanillablocksplus:str_dark_oak_log_wall",
     "vanillablocksplus:str_dark_oak_wood_wall",
+    "vanillablocksplus:str_mangrove_log_wall",
     "vanillablocksplus:str_mangrove_wood_wall",
+    "vanillablocksplus:str_cherry_log_wall",
     "vanillablocksplus:str_cherry_wood_wall",
     "vanillablocksplus:str_bamboo_block_wall",
     "vanillablocksplus:str_crimson_hyphae_wall",
-    "vanillablocksplus:str_warped_hyphae_wall"
+    "vanillablocksplus:str_crimson_stem_wall",
+    "vanillablocksplus:str_warped_hyphae_wall",
+    "vanillablocksplus:str_warped_stem_wall"
   ]
 }

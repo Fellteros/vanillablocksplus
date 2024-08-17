@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/trapdoor_stb_open_top",
+  "textures": {
+    "bottom": "vanillablocksplus:block/str_cherry_log_trapdoor",
+    "side": "minecraft:block/stripped_cherry_log",
+    "top": "vanillablocksplus:block/str_cherry_log_trapdoor"
+  }
+}

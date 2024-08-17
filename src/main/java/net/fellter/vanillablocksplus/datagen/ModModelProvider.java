@@ -585,6 +585,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.MANGROVE_WOOD_SLAB)
                 .stairs(ModBlocks.MANGROVE_WOOD_STAIRS)
                 .wall(ModBlocks.MANGROVE_WOOD_WALL);
+        //mangrove
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.MANGROVE_LOG), Blocks.MANGROVE_LOG)
+                .button(ModBlocks2.MANGROVE_LOG_BUTTON)
+                .fence(ModBlocks2.MANGROVE_LOG_FENCE)
+                .fenceGate(ModBlocks2.MANGROVE_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.MANGROVE_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.MANGROVE_LOG_SLAB)
+                .stairs(ModBlocks2.MANGROVE_LOG_STAIRS)
+                .wall(ModBlocks2.MANGROVE_LOG_WALL);
         //str mangrove
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_MANGROVE_LOG), Blocks.STRIPPED_MANGROVE_WOOD)
                 .button(ModBlocks.STR_MANGROVE_WOOD_BUTTON)
@@ -594,6 +603,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.STR_MANGROVE_WOOD_SLAB)
                 .stairs(ModBlocks.STR_MANGROVE_WOOD_STAIRS)
                 .wall(ModBlocks.STR_MANGROVE_WOOD_WALL);
+        //str_mangrove
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_MANGROVE_LOG), Blocks.STRIPPED_MANGROVE_LOG)
+                .button(ModBlocks2.STR_MANGROVE_LOG_BUTTON)
+                .fence(ModBlocks2.STR_MANGROVE_LOG_FENCE)
+                .fenceGate(ModBlocks2.STR_MANGROVE_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.STR_MANGROVE_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.STR_MANGROVE_LOG_SLAB)
+                .stairs(ModBlocks2.STR_MANGROVE_LOG_STAIRS)
+                .wall(ModBlocks2.STR_MANGROVE_LOG_WALL);
         //cherry
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.CHERRY_LOG), Blocks.CHERRY_WOOD)
                 .button(ModBlocks.CHERRY_WOOD_BUTTON)
@@ -603,6 +621,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.CHERRY_WOOD_SLAB)
                 .stairs(ModBlocks.CHERRY_WOOD_STAIRS)
                 .wall(ModBlocks.CHERRY_WOOD_WALL);
+        //cherry
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.CHERRY_LOG), Blocks.CHERRY_LOG)
+                .button(ModBlocks2.CHERRY_LOG_BUTTON)
+                .fence(ModBlocks2.CHERRY_LOG_FENCE)
+                .fenceGate(ModBlocks2.CHERRY_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.CHERRY_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.CHERRY_LOG_SLAB)
+                .stairs(ModBlocks2.CHERRY_LOG_STAIRS)
+                .wall(ModBlocks2.CHERRY_LOG_WALL);
         //str cherry
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_CHERRY_LOG), Blocks.STRIPPED_CHERRY_WOOD)
                 .button(ModBlocks.STR_CHERRY_WOOD_BUTTON)
@@ -612,6 +639,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.STR_CHERRY_WOOD_SLAB)
                 .stairs(ModBlocks.STR_CHERRY_WOOD_STAIRS)
                 .wall(ModBlocks.STR_CHERRY_WOOD_WALL);
+        //str_cherry
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_CHERRY_LOG), Blocks.STRIPPED_CHERRY_LOG)
+                .button(ModBlocks2.STR_CHERRY_LOG_BUTTON)
+                .fence(ModBlocks2.STR_CHERRY_LOG_FENCE)
+                .fenceGate(ModBlocks2.STR_CHERRY_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.STR_CHERRY_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.STR_CHERRY_LOG_SLAB)
+                .stairs(ModBlocks2.STR_CHERRY_LOG_STAIRS)
+                .wall(ModBlocks2.STR_CHERRY_LOG_WALL);
         //bamboo
         registerCustomButton(bsmg, ModBlocks.BAMBOO_BLOCK_BUTTON, ModTextureMap.blockAndTopForEnds(Blocks.BAMBOO_BLOCK));
         registerCustomFence(bsmg, ModBlocks.BAMBOO_BLOCK_FENCE, ModTextureMap.blockAndTopForEnds(Blocks.BAMBOO_BLOCK));
@@ -637,6 +673,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.CRIMSON_HYPHAE_SLAB)
                 .stairs(ModBlocks.CRIMSON_HYPHAE_STAIRS)
                 .wall(ModBlocks.CRIMSON_HYPHAE_WALL);
+        //crimson
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.CRIMSON_STEM), Blocks.CRIMSON_STEM)
+                .button(ModBlocks2.CRIMSON_STEM_BUTTON)
+                .fence(ModBlocks2.CRIMSON_STEM_FENCE)
+                .fenceGate(ModBlocks2.CRIMSON_STEM_FENCE_GATE)
+                .pressurePlate(ModBlocks2.CRIMSON_STEM_PRESSURE_PLATE)
+                .slab(ModBlocks2.CRIMSON_STEM_SLAB)
+                .stairs(ModBlocks2.CRIMSON_STEM_STAIRS)
+                .wall(ModBlocks2.CRIMSON_STEM_WALL);
         //str crimson hyphae
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_CRIMSON_STEM), Blocks.STRIPPED_CRIMSON_HYPHAE)
                 .button(ModBlocks.STR_CRIMSON_HYPHAE_BUTTON)
@@ -646,6 +691,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.STR_CRIMSON_HYPHAE_SLAB)
                 .stairs(ModBlocks.STR_CRIMSON_HYPHAE_STAIRS)
                 .wall(ModBlocks.STR_CRIMSON_HYPHAE_WALL);
+        //str_crimson
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_CRIMSON_STEM), Blocks.STRIPPED_CRIMSON_STEM)
+                .button(ModBlocks2.STR_CRIMSON_STEM_BUTTON)
+                .fence(ModBlocks2.STR_CRIMSON_STEM_FENCE)
+                .fenceGate(ModBlocks2.STR_CRIMSON_STEM_FENCE_GATE)
+                .pressurePlate(ModBlocks2.STR_CRIMSON_STEM_PRESSURE_PLATE)
+                .slab(ModBlocks2.STR_CRIMSON_STEM_SLAB)
+                .stairs(ModBlocks2.STR_CRIMSON_STEM_STAIRS)
+                .wall(ModBlocks2.STR_CRIMSON_STEM_WALL);
         //warped hyphae
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.WARPED_STEM), Blocks.WARPED_HYPHAE)
                 .button(ModBlocks.WARPED_HYPHAE_BUTTON)
@@ -655,6 +709,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.WARPED_HYPHAE_SLAB)
                 .stairs(ModBlocks.WARPED_HYPHAE_STAIRS)
                 .wall(ModBlocks.WARPED_HYPHAE_WALL);
+        //warped
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.WARPED_STEM), Blocks.WARPED_STEM)
+                .button(ModBlocks2.WARPED_STEM_BUTTON)
+                .fence(ModBlocks2.WARPED_STEM_FENCE)
+                .fenceGate(ModBlocks2.WARPED_STEM_FENCE_GATE)
+                .pressurePlate(ModBlocks2.WARPED_STEM_PRESSURE_PLATE)
+                .slab(ModBlocks2.WARPED_STEM_SLAB)
+                .stairs(ModBlocks2.WARPED_STEM_STAIRS)
+                .wall(ModBlocks2.WARPED_STEM_WALL);
         //str warped hyphae
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_WARPED_STEM), Blocks.STRIPPED_WARPED_HYPHAE)
                 .button(ModBlocks.STR_WARPED_HYPHAE_BUTTON)
@@ -664,6 +727,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.STR_WARPED_HYPHAE_SLAB)
                 .stairs(ModBlocks.STR_WARPED_HYPHAE_STAIRS)
                 .wall(ModBlocks.STR_WARPED_HYPHAE_WALL);
+        //str_warped
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_WARPED_STEM), Blocks.STRIPPED_WARPED_STEM)
+                .button(ModBlocks2.STR_WARPED_STEM_BUTTON)
+                .fence(ModBlocks2.STR_WARPED_STEM_FENCE)
+                .fenceGate(ModBlocks2.STR_WARPED_STEM_FENCE_GATE)
+                .pressurePlate(ModBlocks2.STR_WARPED_STEM_PRESSURE_PLATE)
+                .slab(ModBlocks2.STR_WARPED_STEM_SLAB)
+                .stairs(ModBlocks2.STR_WARPED_STEM_STAIRS)
+                .wall(ModBlocks2.STR_WARPED_STEM_WALL);
         //stone
         bsmg.registerCubeAllModelTexturePool(Blocks.STONE)
             .fence(ModBlocks.STONE_FENCE)
@@ -2979,15 +3051,27 @@ public class ModModelProvider extends FabricModelProvider {
         //mangrove
         bsmg.registerDoor(ModBlocks.MANGROVE_WOOD_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.MANGROVE_WOOD_TRAPDOOR);
+        //mangrove
+        registerCustomDoor(bsmg, ModBlocks2.MANGROVE_LOG_DOOR, Blocks.MANGROVE_LOG, Blocks.MANGROVE_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.MANGROVE_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.MANGROVE_LOG, ModBlocks2.MANGROVE_LOG_TRAPDOOR, ModBlocks2.MANGROVE_LOG_TRAPDOOR, "", "", ""));
         //str mangrove
         bsmg.registerDoor(ModBlocks.STR_MANGROVE_WOOD_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.STR_MANGROVE_WOOD_TRAPDOOR);
+        //mangrove
+        registerCustomDoor(bsmg, ModBlocks2.STR_MANGROVE_LOG_DOOR, Blocks.STRIPPED_MANGROVE_LOG, Blocks.STRIPPED_MANGROVE_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.STR_MANGROVE_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.STRIPPED_MANGROVE_LOG, ModBlocks2.STR_MANGROVE_LOG_TRAPDOOR, ModBlocks2.STR_MANGROVE_LOG_TRAPDOOR, "", "", ""));
         //cherry
         bsmg.registerDoor(ModBlocks.CHERRY_WOOD_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.CHERRY_WOOD_TRAPDOOR);
+        //cherry
+        registerCustomDoor(bsmg, ModBlocks2.CHERRY_LOG_DOOR, Blocks.CHERRY_LOG, Blocks.CHERRY_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.CHERRY_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.CHERRY_LOG, ModBlocks2.CHERRY_LOG_TRAPDOOR, ModBlocks2.CHERRY_LOG_TRAPDOOR, "", "", ""));
         //str cherry
         bsmg.registerDoor(ModBlocks.STR_CHERRY_WOOD_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.STR_CHERRY_WOOD_TRAPDOOR);
+        //cherry
+        registerCustomDoor(bsmg, ModBlocks2.STR_CHERRY_LOG_DOOR, Blocks.STRIPPED_CHERRY_LOG, Blocks.STRIPPED_CHERRY_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.STR_CHERRY_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.STRIPPED_CHERRY_LOG, ModBlocks2.STR_CHERRY_LOG_TRAPDOOR, ModBlocks2.STR_CHERRY_LOG_TRAPDOOR, "", "", ""));
         //bamboo
         bsmg.registerDoor(ModBlocks.BAMBOO_BLOCK_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.BAMBOO_BLOCK_TRAPDOOR);
@@ -2997,15 +3081,27 @@ public class ModModelProvider extends FabricModelProvider {
         //crimson hyphae
         bsmg.registerDoor(ModBlocks.CRIMSON_HYPHAE_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.CRIMSON_HYPHAE_TRAPDOOR);
+        //crimson
+        registerCustomDoor(bsmg, ModBlocks2.CRIMSON_STEM_DOOR, Blocks.CRIMSON_STEM, Blocks.CRIMSON_STEM, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.CRIMSON_STEM_TRAPDOOR, ModTextureMap.custom(Blocks.CRIMSON_STEM, ModBlocks2.CRIMSON_STEM_TRAPDOOR, ModBlocks2.CRIMSON_STEM_TRAPDOOR, "", "", ""));
         //str crimson hyphae
         bsmg.registerDoor(ModBlocks.STR_CRIMSON_HYPHAE_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.STR_CRIMSON_HYPHAE_TRAPDOOR);
+        //crimson
+        registerCustomDoor(bsmg, ModBlocks2.STR_CRIMSON_STEM_DOOR, Blocks.STRIPPED_CRIMSON_STEM, Blocks.STRIPPED_CRIMSON_STEM, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.STR_CRIMSON_STEM_TRAPDOOR, ModTextureMap.custom(Blocks.STRIPPED_CRIMSON_STEM, ModBlocks2.STR_CRIMSON_STEM_TRAPDOOR, ModBlocks2.STR_CRIMSON_STEM_TRAPDOOR, "", "", ""));
         //warped hyphae
         bsmg.registerDoor(ModBlocks.WARPED_HYPHAE_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.WARPED_HYPHAE_TRAPDOOR);
+        //warped
+        registerCustomDoor(bsmg, ModBlocks2.WARPED_STEM_DOOR, Blocks.WARPED_STEM, Blocks.WARPED_STEM, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.WARPED_STEM_TRAPDOOR, ModTextureMap.custom(Blocks.WARPED_STEM, ModBlocks2.WARPED_STEM_TRAPDOOR, ModBlocks2.WARPED_STEM_TRAPDOOR, "", "", ""));
         //str warped hyphae
         bsmg.registerDoor(ModBlocks.STR_WARPED_HYPHAE_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.STR_WARPED_HYPHAE_TRAPDOOR);
+        //warped
+        registerCustomDoor(bsmg, ModBlocks2.STR_WARPED_STEM_DOOR, Blocks.STRIPPED_WARPED_STEM, Blocks.STRIPPED_WARPED_STEM, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.STR_WARPED_STEM_TRAPDOOR, ModTextureMap.custom(Blocks.STRIPPED_WARPED_STEM, ModBlocks2.STR_WARPED_STEM_TRAPDOOR, ModBlocks2.STR_WARPED_STEM_TRAPDOOR, "", "", ""));
         //stone
         bsmg.registerDoor(ModBlocks.STONE_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.STONE_TRAPDOOR);

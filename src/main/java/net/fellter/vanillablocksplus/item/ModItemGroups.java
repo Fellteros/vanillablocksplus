@@ -265,6 +265,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STR_DARK_OAK_WOOD_PRESSURE_PLATE);
                         entries.add(ModBlocks.STR_DARK_OAK_WOOD_BUTTON);
                         //mangrove
+                        entries.add(ModBlocks2.MANGROVE_LOG_STAIRS);
+                        entries.add(ModBlocks2.MANGROVE_LOG_SLAB);
+                        entries.add(ModBlocks2.MANGROVE_LOG_WALL);
+                        entries.add(ModBlocks2.MANGROVE_LOG_FENCE);
+                        entries.add(ModBlocks2.MANGROVE_LOG_FENCE_GATE);
+                        entries.add(ModBlocks2.MANGROVE_LOG_DOOR);
+                        entries.add(ModBlocks2.MANGROVE_LOG_TRAPDOOR);
+                        entries.add(ModBlocks2.MANGROVE_LOG_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.MANGROVE_LOG_BUTTON);
+                        //mangrove
                         entries.add(ModBlocks.MANGROVE_WOOD_STAIRS);
                         entries.add(ModBlocks.MANGROVE_WOOD_SLAB);
                         entries.add(ModBlocks.MANGROVE_WOOD_WALL);
@@ -274,6 +284,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MANGROVE_WOOD_TRAPDOOR);
                         entries.add(ModBlocks.MANGROVE_WOOD_PRESSURE_PLATE);
                         entries.add(ModBlocks.MANGROVE_WOOD_BUTTON);
+                        //mangrove
+                        entries.add(ModBlocks2.STR_MANGROVE_LOG_STAIRS);
+                        entries.add(ModBlocks2.STR_MANGROVE_LOG_SLAB);
+                        entries.add(ModBlocks2.STR_MANGROVE_LOG_WALL);
+                        entries.add(ModBlocks2.STR_MANGROVE_LOG_FENCE);
+                        entries.add(ModBlocks2.STR_MANGROVE_LOG_FENCE_GATE);
+                        entries.add(ModBlocks2.STR_MANGROVE_LOG_DOOR);
+                        entries.add(ModBlocks2.STR_MANGROVE_LOG_TRAPDOOR);
+                        entries.add(ModBlocks2.STR_MANGROVE_LOG_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.STR_MANGROVE_LOG_BUTTON);
                         //str mangrove
                         entries.add(ModBlocks.STR_MANGROVE_WOOD_STAIRS);
                         entries.add(ModBlocks.STR_MANGROVE_WOOD_SLAB);
@@ -285,6 +305,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STR_MANGROVE_WOOD_PRESSURE_PLATE);
                         entries.add(ModBlocks.STR_MANGROVE_WOOD_BUTTON);
                         //cherry
+                        entries.add(ModBlocks2.CHERRY_LOG_STAIRS);
+                        entries.add(ModBlocks2.CHERRY_LOG_SLAB);
+                        entries.add(ModBlocks2.CHERRY_LOG_WALL);
+                        entries.add(ModBlocks2.CHERRY_LOG_FENCE);
+                        entries.add(ModBlocks2.CHERRY_LOG_FENCE_GATE);
+                        entries.add(ModBlocks2.CHERRY_LOG_DOOR);
+                        entries.add(ModBlocks2.CHERRY_LOG_TRAPDOOR);
+                        entries.add(ModBlocks2.CHERRY_LOG_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.CHERRY_LOG_BUTTON);
+                        //cherry
                         entries.add(ModBlocks.CHERRY_WOOD_STAIRS);
                         entries.add(ModBlocks.CHERRY_WOOD_SLAB);
                         entries.add(ModBlocks.CHERRY_WOOD_WALL);
@@ -294,6 +324,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHERRY_WOOD_TRAPDOOR);
                         entries.add(ModBlocks.CHERRY_WOOD_PRESSURE_PLATE);
                         entries.add(ModBlocks.CHERRY_WOOD_BUTTON);
+                        //cherry
+                        entries.add(ModBlocks2.STR_CHERRY_LOG_STAIRS);
+                        entries.add(ModBlocks2.STR_CHERRY_LOG_SLAB);
+                        entries.add(ModBlocks2.STR_CHERRY_LOG_WALL);
+                        entries.add(ModBlocks2.STR_CHERRY_LOG_FENCE);
+                        entries.add(ModBlocks2.STR_CHERRY_LOG_FENCE_GATE);
+                        entries.add(ModBlocks2.STR_CHERRY_LOG_DOOR);
+                        entries.add(ModBlocks2.STR_CHERRY_LOG_TRAPDOOR);
+                        entries.add(ModBlocks2.STR_CHERRY_LOG_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.STR_CHERRY_LOG_BUTTON);
                         //str cherry
                         entries.add(ModBlocks.STR_CHERRY_WOOD_STAIRS);
                         entries.add(ModBlocks.STR_CHERRY_WOOD_SLAB);
@@ -324,6 +364,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STR_BAMBOO_BLOCK_TRAPDOOR);
                         entries.add(ModBlocks.STR_BAMBOO_BLOCK_PRESSURE_PLATE);
                         entries.add(ModBlocks.STR_BAMBOO_BLOCK_BUTTON);
+                        //cherry
+                        entries.add(ModBlocks2.CRIMSON_STEM_STAIRS);
+                        entries.add(ModBlocks2.CRIMSON_STEM_SLAB);
+                        entries.add(ModBlocks2.CRIMSON_STEM_WALL);
+                        entries.add(ModBlocks2.CRIMSON_STEM_FENCE);
+                        entries.add(ModBlocks2.CRIMSON_STEM_FENCE_GATE);
+                        entries.add(ModBlocks2.CRIMSON_STEM_DOOR);
+                        entries.add(ModBlocks2.CRIMSON_STEM_TRAPDOOR);
+                        entries.add(ModBlocks2.CRIMSON_STEM_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.CRIMSON_STEM_BUTTON);
                         //crimson hyphae
                         entries.add(ModBlocks.CRIMSON_HYPHAE_STAIRS);
                         entries.add(ModBlocks.CRIMSON_HYPHAE_SLAB);
@@ -334,6 +384,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CRIMSON_HYPHAE_TRAPDOOR);
                         entries.add(ModBlocks.CRIMSON_HYPHAE_PRESSURE_PLATE);
                         entries.add(ModBlocks.CRIMSON_HYPHAE_BUTTON);
+                        //cherry
+                        entries.add(ModBlocks2.STR_CRIMSON_STEM_STAIRS);
+                        entries.add(ModBlocks2.STR_CRIMSON_STEM_SLAB);
+                        entries.add(ModBlocks2.STR_CRIMSON_STEM_WALL);
+                        entries.add(ModBlocks2.STR_CRIMSON_STEM_FENCE);
+                        entries.add(ModBlocks2.STR_CRIMSON_STEM_FENCE_GATE);
+                        entries.add(ModBlocks2.STR_CRIMSON_STEM_DOOR);
+                        entries.add(ModBlocks2.STR_CRIMSON_STEM_TRAPDOOR);
+                        entries.add(ModBlocks2.STR_CRIMSON_STEM_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.STR_CRIMSON_STEM_BUTTON);
                         //str crimson hyphae
                         entries.add(ModBlocks.STR_CRIMSON_HYPHAE_STAIRS);
                         entries.add(ModBlocks.STR_CRIMSON_HYPHAE_SLAB);
@@ -344,6 +404,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STR_CRIMSON_HYPHAE_TRAPDOOR);
                         entries.add(ModBlocks.STR_CRIMSON_HYPHAE_PRESSURE_PLATE);
                         entries.add(ModBlocks.STR_CRIMSON_HYPHAE_BUTTON);
+                        //cherry
+                        entries.add(ModBlocks2.WARPED_STEM_STAIRS);
+                        entries.add(ModBlocks2.WARPED_STEM_SLAB);
+                        entries.add(ModBlocks2.WARPED_STEM_WALL);
+                        entries.add(ModBlocks2.WARPED_STEM_FENCE);
+                        entries.add(ModBlocks2.WARPED_STEM_FENCE_GATE);
+                        entries.add(ModBlocks2.WARPED_STEM_DOOR);
+                        entries.add(ModBlocks2.WARPED_STEM_TRAPDOOR);
+                        entries.add(ModBlocks2.WARPED_STEM_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.WARPED_STEM_BUTTON);
                         //warped hyphae
                         entries.add(ModBlocks.WARPED_HYPHAE_STAIRS);
                         entries.add(ModBlocks.WARPED_HYPHAE_SLAB);
@@ -354,6 +424,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WARPED_HYPHAE_TRAPDOOR);
                         entries.add(ModBlocks.WARPED_HYPHAE_PRESSURE_PLATE);
                         entries.add(ModBlocks.WARPED_HYPHAE_BUTTON);
+                        //cherry
+                        entries.add(ModBlocks2.STR_WARPED_STEM_STAIRS);
+                        entries.add(ModBlocks2.STR_WARPED_STEM_SLAB);
+                        entries.add(ModBlocks2.STR_WARPED_STEM_WALL);
+                        entries.add(ModBlocks2.STR_WARPED_STEM_FENCE);
+                        entries.add(ModBlocks2.STR_WARPED_STEM_FENCE_GATE);
+                        entries.add(ModBlocks2.STR_WARPED_STEM_DOOR);
+                        entries.add(ModBlocks2.STR_WARPED_STEM_TRAPDOOR);
+                        entries.add(ModBlocks2.STR_WARPED_STEM_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.STR_WARPED_STEM_BUTTON);
                         //str warped hyphae
                         entries.add(ModBlocks.STR_WARPED_HYPHAE_STAIRS);
                         entries.add(ModBlocks.STR_WARPED_HYPHAE_SLAB);

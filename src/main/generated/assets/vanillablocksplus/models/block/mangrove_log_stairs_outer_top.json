@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/stairs_stb_outer_top",
+  "textures": {
+    "bottom": "minecraft:block/mangrove_log_top",
+    "side": "minecraft:block/mangrove_log",
+    "top": "minecraft:block/mangrove_log_top"
+  }
+}
