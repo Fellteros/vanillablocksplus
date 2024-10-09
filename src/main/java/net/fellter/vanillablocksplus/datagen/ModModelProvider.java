@@ -3743,25 +3743,25 @@ public class ModModelProvider extends FabricModelProvider {
         bsmg.registerOrientableTrapdoor(ModBlocks.GLOWSTONE_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.GLOWSTONE_DOOR);
         //oak_leaves
-        registerTI0Door(bsmg, ModBlocks.OAK_LEAVES_DOOR);
+        registerCustomDoor(bsmg, ModBlocks.OAK_LEAVES_DOOR);
         registerTI0OrTrapdoor(bsmg, ModBlocks.OAK_LEAVES_TRAPDOOR);
         //spruce_leaves
-        registerTI0Door(bsmg, ModBlocks.SPRUCE_LEAVES_DOOR);
+        registerCustomDoor(bsmg, ModBlocks.SPRUCE_LEAVES_DOOR);
         registerTI0OrTrapdoor(bsmg, ModBlocks.SPRUCE_LEAVES_TRAPDOOR);
         //birch_leaves
-        registerTI0Door(bsmg, ModBlocks.BIRCH_LEAVES_DOOR);
+        registerCustomDoor(bsmg, ModBlocks.BIRCH_LEAVES_DOOR);
         registerTI0OrTrapdoor(bsmg, ModBlocks.BIRCH_LEAVES_TRAPDOOR);
         //jungle_leaves
-        registerTI0Door(bsmg, ModBlocks.JUNGLE_LEAVES_DOOR);
+        registerCustomDoor(bsmg, ModBlocks.JUNGLE_LEAVES_DOOR);
         registerTI0OrTrapdoor(bsmg, ModBlocks.JUNGLE_LEAVES_TRAPDOOR);
         //acacia_leaves
-        registerTI0Door(bsmg, ModBlocks.ACACIA_LEAVES_DOOR);
+        registerCustomDoor(bsmg, ModBlocks.ACACIA_LEAVES_DOOR);
         registerTI0OrTrapdoor(bsmg, ModBlocks.ACACIA_LEAVES_TRAPDOOR);
         //dark_oak_leaves
-        registerTI0Door(bsmg, ModBlocks.DARK_OAK_LEAVES_DOOR);
+        registerCustomDoor(bsmg, ModBlocks.DARK_OAK_LEAVES_DOOR);
         registerTI0OrTrapdoor(bsmg, ModBlocks.DARK_OAK_LEAVES_TRAPDOOR);
         //mangrove_leaves
-        registerTI0Door(bsmg, ModBlocks.MANGROVE_LEAVES_DOOR);
+        registerCustomDoor(bsmg, ModBlocks.MANGROVE_LEAVES_DOOR);
         registerTI0OrTrapdoor(bsmg, ModBlocks.MANGROVE_LEAVES_TRAPDOOR);
         //cherry_leaves
         bsmg.registerOrientableTrapdoor(ModBlocks.CHERRY_LEAVES_TRAPDOOR);

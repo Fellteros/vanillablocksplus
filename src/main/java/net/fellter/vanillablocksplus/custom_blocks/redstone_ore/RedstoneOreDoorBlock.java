@@ -1,11 +1,6 @@
-package net.fellter.vanillablocksplus.custom_blocks.redstone;
+package net.fellter.vanillablocksplus.custom_blocks.redstone_ore;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.RedstoneTorchBlock;
-import net.minecraft.block.WallBlock;
-import net.minecraft.enchantment.EnchantmentHelper;
-import net.minecraft.enchantment.Enchantments;
+import net.minecraft.block.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.BlockItem;
@@ -16,7 +11,6 @@ import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.Properties;
-import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.ItemActionResult;
 import net.minecraft.util.hit.BlockHitResult;
@@ -25,9 +19,9 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 
-public class RedstoneWallBlock extends WallBlock {
-    public RedstoneWallBlock(Settings settings) {
-        super(settings);
+public class RedstoneOreDoorBlock extends DoorBlock {
+    public RedstoneOreDoorBlock(BlockSetType blockSetType, AbstractBlock.Settings settings) {
+        super(blockSetType, settings);
     }
 
     public static final BooleanProperty LIT = Properties.LIT;
@@ -53,7 +47,7 @@ public class RedstoneWallBlock extends WallBlock {
             light(state, world, pos);
         }
 
-        return stack.getItem() instanceof BlockItem && (new ItemPlacementContext(player, hand, stack, hit)).canPlace() ? ItemActionResult.SKIP_DEFAULT_BLOCK_INTERACTION : ItemActionResult.SUCCESS;
+        return stack.getItem() instanceof BlockItem && (new ItemPlacementContext(player, hand, stack, hit)).canPlace() ? ItemActionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION : ItemActionResult.SUCCESS;
     }
 
     private static void light(BlockState state, World world, BlockPos pos) {
@@ -84,6 +78,7 @@ public class RedstoneWallBlock extends WallBlock {
     }
 
     private static void spawnParticles(World world, BlockPos pos) {
+        double d = 0.5625;
         Random random = world.random;
         for (Direction direction : Direction.values()) {
             BlockPos blockPos = pos.offset(direction);
@@ -98,6 +93,6 @@ public class RedstoneWallBlock extends WallBlock {
 
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-        builder.add(LIT, UP, NORTH_SHAPE, EAST_SHAPE, WEST_SHAPE, SOUTH_SHAPE, WATERLOGGED);
+        builder.add(LIT, HINGE, OPEN, FACING, POWERED, HALF);
     }
 }

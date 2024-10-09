@@ -6,7 +6,8 @@ import net.fellter.vanillablocksplus.custom_blocks.concrete_powder.*;
 import net.fellter.vanillablocksplus.custom_blocks.copper.*;
 import net.fellter.vanillablocksplus.custom_blocks.falling.*;
 import net.fellter.vanillablocksplus.custom_blocks.glass.*;
-import net.fellter.vanillablocksplus.custom_blocks.redstone.*;
+import net.fellter.vanillablocksplus.custom_blocks.redstone_block.*;
+import net.fellter.vanillablocksplus.custom_blocks.redstone_ore.*;
 import net.fellter.vanillablocksplus.custom_blocks.slime.*;
 import net.fellter.vanillablocksplus.custom_blocks.sponge.*;
 import net.fellter.vanillablocksplus.custom_blocks.wet_sponge.*;
@@ -1319,23 +1320,23 @@ public class ModBlocks {
 
     //redstone
     public static final Block REDSTONE_STAIRS = registerBlock("redstone_stairs",
-            new StairsBlock(Blocks.REDSTONE_BLOCK.getDefaultState(), AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
+            new RedstoneStairsBlock(Blocks.REDSTONE_BLOCK.getDefaultState(), AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
     public static final Block REDSTONE_SLAB = registerBlock("redstone_slab",
-            new SlabBlock(AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
+            new RedstoneSlabBlock(AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
     public static final Block REDSTONE_BUTTON = registerBlock("redstone_button",
-            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
+            new RedstoneButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
     public static final Block REDSTONE_PRESSURE_PLATE = registerBlock("redstone_pressure_plate",
-            new PressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
+            new RedstonePressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
     public static final Block REDSTONE_FENCE = registerBlock("redstone_fence",
-            new FenceBlock(AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
+            new RedstoneFenceBlock(AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
     public static final Block REDSTONE_FENCE_GATE = registerBlock("redstone_fence_gate",
-            new FenceGateBlock(ModWoodType.STONE, AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
+            new RedstoneFenceGateBlock(ModWoodType.STONE, AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
     public static final Block REDSTONE_DOOR = registerBlock("redstone_door",
-            new DoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
+            new RedstoneDoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
     public static final Block REDSTONE_TRAPDOOR = registerBlock("redstone_trapdoor",
-            new TrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
+            new RedstoneTrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
     public static final Block REDSTONE_WALL = registerBlock("redstone_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
+            new RedstoneWallBlock(AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK)));
 
     //emerald
     public static final Block EMERALD_STAIRS = registerBlock("emerald_stairs",
@@ -3504,203 +3505,203 @@ public class ModBlocks {
 
     //orange_stained_glass
     public static final Block ORANGE_STAINED_GLASS_STAIRS = registerBlock("orange_stained_glass_stairs",
-            new StairsBlock(Blocks.ORANGE_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
+            new GlassStairsBlock(Blocks.ORANGE_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
     public static final Block ORANGE_STAINED_GLASS_SLAB = registerBlock("orange_stained_glass_slab",
-            new SlabBlock(AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
+            new GlassSlabBlock(AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
     public static final Block ORANGE_STAINED_GLASS_BUTTON = registerBlock("orange_stained_glass_button",
-            new ButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
+            new GlassButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
     public static final Block ORANGE_STAINED_GLASS_PRESSURE_PLATE = registerBlock("orange_stained_glass_pressure_plate",
-            new PressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
+            new GlassPressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
     public static final Block ORANGE_STAINED_GLASS_FENCE = registerBlock("orange_stained_glass_fence",
-            new FenceBlock(AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
+            new GlassFenceBlock(AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
     public static final Block ORANGE_STAINED_GLASS_FENCE_GATE = registerBlock("orange_stained_glass_fence_gate",
-            new FenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
+            new GlassFenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
     public static final Block ORANGE_STAINED_GLASS_DOOR = registerBlock("orange_stained_glass_door",
-            new DoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
+            new GlassDoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
     public static final Block ORANGE_STAINED_GLASS_TRAPDOOR = registerBlock("orange_stained_glass_trapdoor",
-            new TrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
+            new GlassTrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
     public static final Block ORANGE_STAINED_GLASS_WALL = registerBlock("orange_stained_glass_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
+            new GlassWallBlock(AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
 
     //yellow_stained_glass
     public static final Block YELLOW_STAINED_GLASS_STAIRS = registerBlock("yellow_stained_glass_stairs",
-            new StairsBlock(Blocks.YELLOW_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
+            new GlassStairsBlock(Blocks.YELLOW_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
     public static final Block YELLOW_STAINED_GLASS_SLAB = registerBlock("yellow_stained_glass_slab",
-            new SlabBlock(AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
+            new GlassSlabBlock(AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
     public static final Block YELLOW_STAINED_GLASS_BUTTON = registerBlock("yellow_stained_glass_button",
-            new ButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
+            new GlassButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
     public static final Block YELLOW_STAINED_GLASS_PRESSURE_PLATE = registerBlock("yellow_stained_glass_pressure_plate",
-            new PressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
+            new GlassPressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
     public static final Block YELLOW_STAINED_GLASS_FENCE = registerBlock("yellow_stained_glass_fence",
-            new FenceBlock(AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
+            new GlassFenceBlock(AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
     public static final Block YELLOW_STAINED_GLASS_FENCE_GATE = registerBlock("yellow_stained_glass_fence_gate",
-            new FenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
+            new GlassFenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
     public static final Block YELLOW_STAINED_GLASS_DOOR = registerBlock("yellow_stained_glass_door",
-            new DoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
+            new GlassDoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
     public static final Block YELLOW_STAINED_GLASS_TRAPDOOR = registerBlock("yellow_stained_glass_trapdoor",
-            new TrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
+            new GlassTrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
     public static final Block YELLOW_STAINED_GLASS_WALL = registerBlock("yellow_stained_glass_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
+            new GlassWallBlock(AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
 
     //lime_stained_glass
     public static final Block LIME_STAINED_GLASS_STAIRS = registerBlock("lime_stained_glass_stairs",
-            new StairsBlock(Blocks.LIME_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
+            new GlassStairsBlock(Blocks.LIME_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
     public static final Block LIME_STAINED_GLASS_SLAB = registerBlock("lime_stained_glass_slab",
-            new SlabBlock(AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
+            new GlassSlabBlock(AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
     public static final Block LIME_STAINED_GLASS_BUTTON = registerBlock("lime_stained_glass_button",
-            new ButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
+            new GlassButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
     public static final Block LIME_STAINED_GLASS_PRESSURE_PLATE = registerBlock("lime_stained_glass_pressure_plate",
-            new PressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
+            new GlassPressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
     public static final Block LIME_STAINED_GLASS_FENCE = registerBlock("lime_stained_glass_fence",
-            new FenceBlock(AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
+            new GlassFenceBlock(AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
     public static final Block LIME_STAINED_GLASS_FENCE_GATE = registerBlock("lime_stained_glass_fence_gate",
-            new FenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
+            new GlassFenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
     public static final Block LIME_STAINED_GLASS_DOOR = registerBlock("lime_stained_glass_door",
-            new DoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
+            new GlassDoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
     public static final Block LIME_STAINED_GLASS_TRAPDOOR = registerBlock("lime_stained_glass_trapdoor",
-            new TrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
+            new GlassTrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
     public static final Block LIME_STAINED_GLASS_WALL = registerBlock("lime_stained_glass_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
+            new GlassWallBlock(AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
 
     //green_stained_glass
     public static final Block GREEN_STAINED_GLASS_STAIRS = registerBlock("green_stained_glass_stairs",
-            new StairsBlock(Blocks.GREEN_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
+            new GlassStairsBlock(Blocks.GREEN_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
     public static final Block GREEN_STAINED_GLASS_SLAB = registerBlock("green_stained_glass_slab",
-            new SlabBlock(AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
+            new GlassSlabBlock(AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
     public static final Block GREEN_STAINED_GLASS_BUTTON = registerBlock("green_stained_glass_button",
-            new ButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
+            new GlassButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
     public static final Block GREEN_STAINED_GLASS_PRESSURE_PLATE = registerBlock("green_stained_glass_pressure_plate",
-            new PressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
+            new GlassPressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
     public static final Block GREEN_STAINED_GLASS_FENCE = registerBlock("green_stained_glass_fence",
-            new FenceBlock(AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
+            new GlassFenceBlock(AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
     public static final Block GREEN_STAINED_GLASS_FENCE_GATE = registerBlock("green_stained_glass_fence_gate",
-            new FenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
+            new GlassFenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
     public static final Block GREEN_STAINED_GLASS_DOOR = registerBlock("green_stained_glass_door",
-            new DoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
+            new GlassDoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
     public static final Block GREEN_STAINED_GLASS_TRAPDOOR = registerBlock("green_stained_glass_trapdoor",
-            new TrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
+            new GlassTrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
     public static final Block GREEN_STAINED_GLASS_WALL = registerBlock("green_stained_glass_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
+            new GlassWallBlock(AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
 
     //cyan_stained_glass
     public static final Block CYAN_STAINED_GLASS_STAIRS = registerBlock("cyan_stained_glass_stairs",
-            new StairsBlock(Blocks.CYAN_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
+            new GlassStairsBlock(Blocks.CYAN_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
     public static final Block CYAN_STAINED_GLASS_SLAB = registerBlock("cyan_stained_glass_slab",
-            new SlabBlock(AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
+            new GlassSlabBlock(AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
     public static final Block CYAN_STAINED_GLASS_BUTTON = registerBlock("cyan_stained_glass_button",
-            new ButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
+            new GlassButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
     public static final Block CYAN_STAINED_GLASS_PRESSURE_PLATE = registerBlock("cyan_stained_glass_pressure_plate",
-            new PressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
+            new GlassPressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
     public static final Block CYAN_STAINED_GLASS_FENCE = registerBlock("cyan_stained_glass_fence",
-            new FenceBlock(AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
+            new GlassFenceBlock(AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
     public static final Block CYAN_STAINED_GLASS_FENCE_GATE = registerBlock("cyan_stained_glass_fence_gate",
-            new FenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
+            new GlassFenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
     public static final Block CYAN_STAINED_GLASS_DOOR = registerBlock("cyan_stained_glass_door",
-            new DoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
+            new GlassDoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
     public static final Block CYAN_STAINED_GLASS_TRAPDOOR = registerBlock("cyan_stained_glass_trapdoor",
-            new TrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
+            new GlassTrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
     public static final Block CYAN_STAINED_GLASS_WALL = registerBlock("cyan_stained_glass_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
+            new GlassWallBlock(AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
 
     //blue_stained_glass
     public static final Block BLUE_STAINED_GLASS_STAIRS = registerBlock("blue_stained_glass_stairs",
-            new StairsBlock(Blocks.BLUE_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
+            new GlassStairsBlock(Blocks.BLUE_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
     public static final Block BLUE_STAINED_GLASS_SLAB = registerBlock("blue_stained_glass_slab",
-            new SlabBlock(AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
+            new GlassSlabBlock(AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
     public static final Block BLUE_STAINED_GLASS_BUTTON = registerBlock("blue_stained_glass_button",
-            new ButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
+            new GlassButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
     public static final Block BLUE_STAINED_GLASS_PRESSURE_PLATE = registerBlock("blue_stained_glass_pressure_plate",
-            new PressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
+            new GlassPressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
     public static final Block BLUE_STAINED_GLASS_FENCE = registerBlock("blue_stained_glass_fence",
-            new FenceBlock(AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
+            new GlassFenceBlock(AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
     public static final Block BLUE_STAINED_GLASS_FENCE_GATE = registerBlock("blue_stained_glass_fence_gate",
-            new FenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
+            new GlassFenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
     public static final Block BLUE_STAINED_GLASS_DOOR = registerBlock("blue_stained_glass_door",
-            new DoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
+            new GlassDoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
     public static final Block BLUE_STAINED_GLASS_TRAPDOOR = registerBlock("blue_stained_glass_trapdoor",
-            new TrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
+            new GlassTrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
     public static final Block BLUE_STAINED_GLASS_WALL = registerBlock("blue_stained_glass_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
+            new GlassWallBlock(AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
 
     //light_blue_stained_glass
     public static final Block LIGHT_BLUE_STAINED_GLASS_STAIRS = registerBlock("light_blue_stained_glass_stairs",
-            new StairsBlock(Blocks.LIGHT_BLUE_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
+            new GlassStairsBlock(Blocks.LIGHT_BLUE_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
     public static final Block LIGHT_BLUE_STAINED_GLASS_SLAB = registerBlock("light_blue_stained_glass_slab",
-            new SlabBlock(AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
+            new GlassSlabBlock(AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
     public static final Block LIGHT_BLUE_STAINED_GLASS_BUTTON = registerBlock("light_blue_stained_glass_button",
-            new ButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
+            new GlassButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
     public static final Block LIGHT_BLUE_STAINED_GLASS_PRESSURE_PLATE = registerBlock("light_blue_stained_glass_pressure_plate",
-            new PressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
+            new GlassPressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
     public static final Block LIGHT_BLUE_STAINED_GLASS_FENCE = registerBlock("light_blue_stained_glass_fence",
-            new FenceBlock(AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
+            new GlassFenceBlock(AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
     public static final Block LIGHT_BLUE_STAINED_GLASS_FENCE_GATE = registerBlock("light_blue_stained_glass_fence_gate",
-            new FenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
+            new GlassFenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
     public static final Block LIGHT_BLUE_STAINED_GLASS_DOOR = registerBlock("light_blue_stained_glass_door",
-            new DoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
+            new GlassDoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
     public static final Block LIGHT_BLUE_STAINED_GLASS_TRAPDOOR = registerBlock("light_blue_stained_glass_trapdoor",
-            new TrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
+            new GlassTrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
     public static final Block LIGHT_BLUE_STAINED_GLASS_WALL = registerBlock("light_blue_stained_glass_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
+            new GlassWallBlock(AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
 
     //purple_stained_glass
     public static final Block PURPLE_STAINED_GLASS_STAIRS = registerBlock("purple_stained_glass_stairs",
-            new StairsBlock(Blocks.PURPLE_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
+            new GlassStairsBlock(Blocks.PURPLE_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
     public static final Block PURPLE_STAINED_GLASS_SLAB = registerBlock("purple_stained_glass_slab",
-            new SlabBlock(AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
+            new GlassSlabBlock(AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
     public static final Block PURPLE_STAINED_GLASS_BUTTON = registerBlock("purple_stained_glass_button",
-            new ButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
+            new GlassButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
     public static final Block PURPLE_STAINED_GLASS_PRESSURE_PLATE = registerBlock("purple_stained_glass_pressure_plate",
-            new PressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
+            new GlassPressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
     public static final Block PURPLE_STAINED_GLASS_FENCE = registerBlock("purple_stained_glass_fence",
-            new FenceBlock(AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
+            new GlassFenceBlock(AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
     public static final Block PURPLE_STAINED_GLASS_FENCE_GATE = registerBlock("purple_stained_glass_fence_gate",
-            new FenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
+            new GlassFenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
     public static final Block PURPLE_STAINED_GLASS_DOOR = registerBlock("purple_stained_glass_door",
-            new DoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
+            new GlassDoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
     public static final Block PURPLE_STAINED_GLASS_TRAPDOOR = registerBlock("purple_stained_glass_trapdoor",
-            new TrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
+            new GlassTrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
     public static final Block PURPLE_STAINED_GLASS_WALL = registerBlock("purple_stained_glass_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
+            new GlassWallBlock(AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
 
     //magenta_stained_glass
     public static final Block MAGENTA_STAINED_GLASS_STAIRS = registerBlock("magenta_stained_glass_stairs",
-            new StairsBlock(Blocks.MAGENTA_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
+            new GlassStairsBlock(Blocks.MAGENTA_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
     public static final Block MAGENTA_STAINED_GLASS_SLAB = registerBlock("magenta_stained_glass_slab",
-            new SlabBlock(AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
+            new GlassSlabBlock(AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
     public static final Block MAGENTA_STAINED_GLASS_BUTTON = registerBlock("magenta_stained_glass_button",
-            new ButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
+            new GlassButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
     public static final Block MAGENTA_STAINED_GLASS_PRESSURE_PLATE = registerBlock("magenta_stained_glass_pressure_plate",
-            new PressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
+            new GlassPressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
     public static final Block MAGENTA_STAINED_GLASS_FENCE = registerBlock("magenta_stained_glass_fence",
-            new FenceBlock(AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
+            new GlassFenceBlock(AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
     public static final Block MAGENTA_STAINED_GLASS_FENCE_GATE = registerBlock("magenta_stained_glass_fence_gate",
-            new FenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
+            new GlassFenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
     public static final Block MAGENTA_STAINED_GLASS_DOOR = registerBlock("magenta_stained_glass_door",
-            new DoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
+            new GlassDoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
     public static final Block MAGENTA_STAINED_GLASS_TRAPDOOR = registerBlock("magenta_stained_glass_trapdoor",
-            new TrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
+            new GlassTrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
     public static final Block MAGENTA_STAINED_GLASS_WALL = registerBlock("magenta_stained_glass_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
+            new GlassWallBlock(AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
 
     //pink_stained_glass
     public static final Block PINK_STAINED_GLASS_STAIRS = registerBlock("pink_stained_glass_stairs",
-            new StairsBlock(Blocks.PINK_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
+            new GlassStairsBlock(Blocks.PINK_STAINED_GLASS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
     public static final Block PINK_STAINED_GLASS_SLAB = registerBlock("pink_stained_glass_slab",
-            new SlabBlock(AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
+            new GlassSlabBlock(AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
     public static final Block PINK_STAINED_GLASS_BUTTON = registerBlock("pink_stained_glass_button",
-            new ButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
+            new GlassButtonBlock(ModBlockSetType.GLASS, 10, AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
     public static final Block PINK_STAINED_GLASS_PRESSURE_PLATE = registerBlock("pink_stained_glass_pressure_plate",
-            new PressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
+            new GlassPressurePlateBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
     public static final Block PINK_STAINED_GLASS_FENCE = registerBlock("pink_stained_glass_fence",
-            new FenceBlock(AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
+            new GlassFenceBlock(AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
     public static final Block PINK_STAINED_GLASS_FENCE_GATE = registerBlock("pink_stained_glass_fence_gate",
-            new FenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
+            new GlassFenceGateBlock(ModWoodType.GLASS, AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
     public static final Block PINK_STAINED_GLASS_DOOR = registerBlock("pink_stained_glass_door",
-            new DoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
+            new GlassDoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
     public static final Block PINK_STAINED_GLASS_TRAPDOOR = registerBlock("pink_stained_glass_trapdoor",
-            new TrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
+            new GlassTrapdoorBlock(ModBlockSetType.GLASS, AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
     public static final Block PINK_STAINED_GLASS_WALL = registerBlock("pink_stained_glass_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
+            new GlassWallBlock(AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
 
     //grass_block
     public static final Block GRASS_STAIRS = registerBlock("grass_stairs",
@@ -4437,41 +4438,41 @@ public class ModBlocks {
 
     //redstone_ore
     public static final Block REDSTONE_ORE_STAIRS = registerBlock("redstone_ore_stairs",
-            new RedstoneStairsBlock(Blocks.REDSTONE_ORE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE)));
+            new RedstoneOreStairsBlock(Blocks.REDSTONE_ORE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE)));
     public static final Block REDSTONE_ORE_SLAB = registerBlock("redstone_ore_slab",
-            new RedstoneSlabBlock(AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE)));
+            new RedstoneOreSlabBlock(AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE)));
     public static final Block REDSTONE_ORE_BUTTON = registerBlock("redstone_ore_button",
-            new RedstoneButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE)));
+            new RedstoneOreButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE)));
     public static final Block REDSTONE_ORE_PRESSURE_PLATE = registerBlock("redstone_ore_pressure_plate",
-            new RedstonePressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE)));
+            new RedstoneOrePressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE)));
     public static final Block REDSTONE_ORE_FENCE = registerBlock("redstone_ore_fence",
-            new RedstoneFenceBlock(AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE)));
+            new RedstoneOreFenceBlock(AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE)));
     public static final Block REDSTONE_ORE_FENCE_GATE = registerBlock("redstone_ore_fence_gate",
-            new RedstoneFenceGateBlock(ModWoodType.STONE, AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE)));
+            new RedstoneOreFenceGateBlock(ModWoodType.STONE, AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE)));
     public static final Block REDSTONE_ORE_DOOR = registerBlock("redstone_ore_door",
-            new RedstoneDoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE)));
+            new RedstoneOreDoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE)));
     public static final Block REDSTONE_ORE_TRAPDOOR = registerBlock("redstone_ore_trapdoor",
-            new RedstoneTrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE)));
+            new RedstoneOreTrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE)));
     public static final Block REDSTONE_ORE_WALL = registerBlock("redstone_ore_wall",
             new WallBlock(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
 
     //deepslate_redstone_ore
     public static final Block DEEPSLATE_REDSTONE_ORE_STAIRS = registerBlock("deepslate_redstone_ore_stairs",
-            new RedstoneStairsBlock(Blocks.DEEPSLATE_REDSTONE_ORE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
+            new RedstoneOreStairsBlock(Blocks.DEEPSLATE_REDSTONE_ORE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
     public static final Block DEEPSLATE_REDSTONE_ORE_SLAB = registerBlock("deepslate_redstone_ore_slab",
-            new RedstoneSlabBlock(AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
+            new RedstoneOreSlabBlock(AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
     public static final Block DEEPSLATE_REDSTONE_ORE_BUTTON = registerBlock("deepslate_redstone_ore_button",
-            new RedstoneButtonBlock(ModBlockSetType.DEEPSLATE, 10, AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
+            new RedstoneOreButtonBlock(ModBlockSetType.DEEPSLATE, 10, AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
     public static final Block DEEPSLATE_REDSTONE_ORE_PRESSURE_PLATE = registerBlock("deepslate_redstone_ore_pressure_plate",
-            new RedstonePressurePlateBlock(ModBlockSetType.DEEPSLATE, AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
+            new RedstoneOrePressurePlateBlock(ModBlockSetType.DEEPSLATE, AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
     public static final Block DEEPSLATE_REDSTONE_ORE_FENCE = registerBlock("deepslate_redstone_ore_fence",
-            new RedstoneFenceBlock(AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
+            new RedstoneOreFenceBlock(AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
     public static final Block DEEPSLATE_REDSTONE_ORE_FENCE_GATE = registerBlock("deepslate_redstone_ore_fence_gate",
-            new RedstoneFenceGateBlock(ModWoodType.DEEPSLATE, AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
+            new RedstoneOreFenceGateBlock(ModWoodType.DEEPSLATE, AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
     public static final Block DEEPSLATE_REDSTONE_ORE_DOOR = registerBlock("deepslate_redstone_ore_door",
-            new RedstoneDoorBlock(ModBlockSetType.DEEPSLATE, AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
+            new RedstoneOreDoorBlock(ModBlockSetType.DEEPSLATE, AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
     public static final Block DEEPSLATE_REDSTONE_ORE_TRAPDOOR = registerBlock("deepslate_redstone_ore_trapdoor",
-            new RedstoneTrapdoorBlock(ModBlockSetType.DEEPSLATE, AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
+            new RedstoneOreTrapdoorBlock(ModBlockSetType.DEEPSLATE, AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
     public static final Block DEEPSLATE_REDSTONE_ORE_WALL = registerBlock("deepslate_redstone_ore_wall",
             new WallBlock(AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f)));
 

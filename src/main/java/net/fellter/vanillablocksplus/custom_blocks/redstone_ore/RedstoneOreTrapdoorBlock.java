@@ -1,11 +1,6 @@
-package net.fellter.vanillablocksplus.custom_blocks.redstone;
+package net.fellter.vanillablocksplus.custom_blocks.redstone_ore;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.RedstoneTorchBlock;
-import net.minecraft.block.StairsBlock;
-import net.minecraft.enchantment.EnchantmentHelper;
-import net.minecraft.enchantment.Enchantments;
+import net.minecraft.block.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.BlockItem;
@@ -16,8 +11,6 @@ import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.Properties;
-import net.minecraft.state.property.Property;
-import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.ItemActionResult;
 import net.minecraft.util.hit.BlockHitResult;
@@ -26,9 +19,10 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 
-public class RedstoneStairsBlock extends StairsBlock {
-    public RedstoneStairsBlock(BlockState baseBlockState, Settings settings) {
-        super(baseBlockState, settings);
+
+public class RedstoneOreTrapdoorBlock extends TrapdoorBlock {
+    public RedstoneOreTrapdoorBlock(BlockSetType blockSetType, Settings settings) {
+        super(blockSetType, settings);
     }
 
     public static final BooleanProperty LIT = Properties.LIT;
@@ -60,7 +54,7 @@ public class RedstoneStairsBlock extends StairsBlock {
     private static void light(BlockState state, World world, BlockPos pos) {
         spawnParticles(world, pos);
         if (!state.get(LIT)) {
-            world.setBlockState(pos, (BlockState)state.with(LIT, true), Block.NOTIFY_ALL);
+            world.setBlockState(pos, state.with(LIT, true), Block.NOTIFY_ALL);
         }
     }
 
@@ -72,10 +66,9 @@ public class RedstoneStairsBlock extends StairsBlock {
     @Override
     public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
         if (state.get(LIT)) {
-            world.setBlockState(pos, (BlockState)state.with(LIT, false), Block.NOTIFY_ALL);
+            world.setBlockState(pos, state.with(LIT, false), Block.NOTIFY_ALL);
         }
     }
-
 
 
     @Override
@@ -100,6 +93,6 @@ public class RedstoneStairsBlock extends StairsBlock {
 
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-        builder.add(LIT, FACING, HALF, SHAPE, WATERLOGGED);
+        builder.add(LIT, FACING, OPEN, HALF, POWERED, WATERLOGGED);
     }
 }

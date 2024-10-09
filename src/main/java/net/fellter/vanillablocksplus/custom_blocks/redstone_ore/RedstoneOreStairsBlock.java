@@ -1,11 +1,8 @@
-package net.fellter.vanillablocksplus.custom_blocks.redstone;
+package net.fellter.vanillablocksplus.custom_blocks.redstone_ore;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.RedstoneTorchBlock;
-import net.minecraft.block.SlabBlock;
-import net.minecraft.enchantment.EnchantmentHelper;
-import net.minecraft.enchantment.Enchantments;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.BlockItem;
@@ -16,7 +13,6 @@ import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.Properties;
-import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.ItemActionResult;
 import net.minecraft.util.hit.BlockHitResult;
@@ -25,11 +21,10 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 
-public class RedstoneSlabBlock extends SlabBlock {
-    public RedstoneSlabBlock(Settings settings) {
-        super(settings);
+public class RedstoneOreStairsBlock extends StairsBlock {
+    public RedstoneOreStairsBlock(BlockState baseBlockState, Settings settings) {
+        super(baseBlockState, settings);
     }
-
 
     public static final BooleanProperty LIT = Properties.LIT;
 
@@ -76,6 +71,8 @@ public class RedstoneSlabBlock extends SlabBlock {
         }
     }
 
+
+
     @Override
     public void randomDisplayTick(BlockState state, World world, BlockPos pos, Random random) {
         if (state.get(LIT)) {
@@ -98,6 +95,6 @@ public class RedstoneSlabBlock extends SlabBlock {
 
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-        builder.add(LIT, TYPE, WATERLOGGED);
+        builder.add(LIT, FACING, HALF, SHAPE, WATERLOGGED);
     }
 }

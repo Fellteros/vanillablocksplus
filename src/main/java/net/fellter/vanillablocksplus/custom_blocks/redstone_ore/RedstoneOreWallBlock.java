@@ -1,8 +1,8 @@
-package net.fellter.vanillablocksplus.custom_blocks.redstone;
+package net.fellter.vanillablocksplus.custom_blocks.redstone_ore;
 
-import net.minecraft.block.*;
-import net.minecraft.enchantment.EnchantmentHelper;
-import net.minecraft.enchantment.Enchantments;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.WallBlock;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.BlockItem;
@@ -13,7 +13,6 @@ import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.Properties;
-import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.ItemActionResult;
 import net.minecraft.util.hit.BlockHitResult;
@@ -22,11 +21,10 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 
-public class RedstonePressurePlateBlock extends PressurePlateBlock {
-    public RedstonePressurePlateBlock(BlockSetType type, AbstractBlock.Settings settings) {
-        super(type, settings);
+public class RedstoneOreWallBlock extends WallBlock {
+    public RedstoneOreWallBlock(Settings settings) {
+        super(settings);
     }
-
 
     public static final BooleanProperty LIT = Properties.LIT;
 
@@ -82,7 +80,6 @@ public class RedstonePressurePlateBlock extends PressurePlateBlock {
     }
 
     private static void spawnParticles(World world, BlockPos pos) {
-        double d = 0.5625;
         Random random = world.random;
         for (Direction direction : Direction.values()) {
             BlockPos blockPos = pos.offset(direction);
@@ -97,6 +94,6 @@ public class RedstonePressurePlateBlock extends PressurePlateBlock {
 
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-        builder.add(LIT, POWERED);
+        builder.add(LIT, UP, NORTH_SHAPE, EAST_SHAPE, WEST_SHAPE, SOUTH_SHAPE, WATERLOGGED);
     }
 }

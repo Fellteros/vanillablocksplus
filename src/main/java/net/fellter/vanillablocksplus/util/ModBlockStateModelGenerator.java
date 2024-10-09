@@ -114,11 +114,10 @@ public class ModBlockStateModelGenerator {
         TexturedModel texturedModel = TexturedModel.CUBE_BOTTOM_TOP.get(block);
         return (new ModBlockStateModelGenerator.ModBlockTexturePool(textureMap, bsmg)).base(bsmg, block, texturedModel.getModel());
     }
+
     public static void registerItemModel(Item item, BlockStateModelGenerator blockStateModelGenerator) {
         Models.GENERATED.upload(ModelIds.getItemModelId(item), TextureMap.layer0(item), blockStateModelGenerator.modelCollector);
     }
-
-
 
 
     public static void registerCustomButton(BlockStateModelGenerator blockStateModelGenerator, Block buttonBlock, TextureMap textureMap) {
@@ -185,6 +184,26 @@ public class ModBlockStateModelGenerator {
     public static void registerCustomDoor(BlockStateModelGenerator blockStateModelGenerator, Block doorBlock, Block topBlock, Block bottomBlock, String topSuffix, String bottomSuffix) {
         TextureMap textureMap = ModTextureMap.custom(doorBlock, topBlock, bottomBlock, "_top", topSuffix, bottomSuffix);
         TextureMap textureMap2 = ModTextureMap.custom(doorBlock, topBlock, bottomBlock, "_bottom", topSuffix, bottomSuffix);
+        Identifier identifier = ModModels.DOOR_STB_BOTTOM_LEFT.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
+        Identifier identifier2 = ModModels.DOOR_STB_BOTTOM_LEFT_OPEN.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
+        Identifier identifier3 = ModModels.DOOR_STB_BOTTOM_RIGHT.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
+        Identifier identifier4 = ModModels.DOOR_STB_BOTTOM_RIGHT_OPEN.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
+        Identifier identifier5 = ModModels.DOOR_STB_TOP_LEFT.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier6 = ModModels.DOOR_STB_TOP_LEFT_OPEN.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier7 = ModModels.DOOR_STB_TOP_RIGHT.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier8 = ModModels.DOOR_STB_TOP_RIGHT_OPEN.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        ModBlockStateModelGenerator.registerItemModel(doorBlock.asItem(), blockStateModelGenerator);
+        blockStateModelGenerator.blockStateCollector.accept(createDoorBlockState(doorBlock, identifier, identifier2, identifier3, identifier4, identifier5, identifier6, identifier7, identifier8));
+    }
+    public static void registerCustomDoor(BlockStateModelGenerator blockStateModelGenerator, Block doorBlock) {
+        TextureMap textureMap = new TextureMap()
+                .put(TextureKey.TOP, TextureMap.getSubId(doorBlock, "_top"))
+                .put(TextureKey.SIDE, TextureMap.getSubId(doorBlock, "_top"))
+                .put(TextureKey.BOTTOM, TextureMap.getSubId(doorBlock, "_top"));
+        TextureMap textureMap2 = new TextureMap()
+                .put(TextureKey.TOP, TextureMap.getSubId(doorBlock, "_bottom"))
+                .put(TextureKey.SIDE, TextureMap.getSubId(doorBlock, "_bottom"))
+                .put(TextureKey.BOTTOM, TextureMap.getSubId(doorBlock, "_bottom"));
         Identifier identifier = ModModels.DOOR_STB_BOTTOM_LEFT.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
         Identifier identifier2 = ModModels.DOOR_STB_BOTTOM_LEFT_OPEN.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
         Identifier identifier3 = ModModels.DOOR_STB_BOTTOM_RIGHT.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);

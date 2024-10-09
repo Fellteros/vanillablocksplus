@@ -3964,4 +3964,3 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     }
 }
 
-//TODO pridat iron, diamond a stone block tagy

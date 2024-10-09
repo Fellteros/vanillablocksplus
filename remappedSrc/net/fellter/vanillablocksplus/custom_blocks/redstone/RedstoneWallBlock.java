@@ -1,4 +1,4 @@
-package net.fellter.vanillablocksplus.custom_blocks.redstone;
+package net.fellter.vanillablocksplus.custom_blocks.redstone_ore;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

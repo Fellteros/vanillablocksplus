@@ -7,7 +7,7 @@ import net.fellter.vanillablocksplus.VanillaBlocksPlus;
 import net.fellter.vanillablocksplus.custom_blocks.concrete_powder.*;
 import net.fellter.vanillablocksplus.custom_blocks.copper.*;
 import net.fellter.vanillablocksplus.custom_blocks.glass.*;
-import net.fellter.vanillablocksplus.custom_blocks.redstone.*;
+import net.fellter.vanillablocksplus.custom_blocks.redstone_ore.*;
 import net.fellter.vanillablocksplus.custom_blocks.falling.*;
 import net.fellter.vanillablocksplus.custom_blocks.slime.*;
 import net.fellter.vanillablocksplus.custom_blocks.sponge.*;
