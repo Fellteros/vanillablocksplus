@@ -46,7 +46,7 @@ public class SlimeTrapdoorBlock extends TrapdoorBlock {
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         double d = Math.abs(entity.getVelocity().y);
         if (d < 0.1 && !entity.bypassesSteppingEffects()) {
-            double e = 0.3 + d * 0.15;
+            double e = 0.4 + d * 0.2;
             entity.setVelocity(entity.getVelocity().multiply(e, 1.0, e));
         }
         super.onSteppedOn(world, pos, state, entity);

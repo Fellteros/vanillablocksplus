@@ -46,9 +46,10 @@ public class SlimePressurePlateBlock extends PressurePlateBlock {
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         double d = Math.abs(entity.getVelocity().y);
         if (d < 0.1 && !entity.bypassesSteppingEffects()) {
-            double e = 0.36 + d * 0.18;
+            double e = 0.4 + d * 0.2;
             entity.setVelocity(entity.getVelocity().multiply(e, 1.0, e));
+        } else {
+            super.onSteppedOn(world, pos, state, entity);
         }
-        super.onSteppedOn(world, pos, state, entity);
     }
 }
