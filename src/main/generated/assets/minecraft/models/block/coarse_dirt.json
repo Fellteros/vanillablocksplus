@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "all": "minecraft:block/coarse_dirt"
+    "bottom": "minecraft:block/coarse_dirt",
+    "side": "minecraft:block/coarse_dirt",
+    "top": "minecraft:block/coarse_dirt"
   }
 }

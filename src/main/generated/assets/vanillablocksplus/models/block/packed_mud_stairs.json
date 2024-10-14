@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/stairs",
+  "parent": "vanillablocksplus:blockmodels/stairs_stb",
   "textures": {
     "bottom": "minecraft:block/packed_mud",
     "side": "minecraft:block/packed_mud",

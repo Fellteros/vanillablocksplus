@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/button_pressed",
+  "parent": "vanillablocksplus:blockmodels/button_stb_pressed",
   "textures": {
-    "texture": "minecraft:block/deepslate_tiles"
+    "bottom": "minecraft:block/deepslate_tiles",
+    "side": "minecraft:block/deepslate_tiles",
+    "top": "minecraft:block/deepslate_tiles"
   }
 }
