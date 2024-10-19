@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "stairs",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_dye"
+    },
+    [
+      {
+        "item": "vanillablocksplus:black_wool_stairs"
+      },
+      {
+        "item": "vanillablocksplus:brown_wool_stairs"
+      },
+      {
+        "item": "vanillablocksplus:cyan_wool_stairs"
+      },
+      {
+        "item": "vanillablocksplus:gray_wool_stairs"
+      },
+      {
+        "item": "vanillablocksplus:green_wool_stairs"
+      },
+      {
+        "item": "vanillablocksplus:light_blue_wool_stairs"
+      },
+      {
+        "item": "vanillablocksplus:light_gray_wool_stairs"
+      },
+      {
+        "item": "vanillablocksplus:lime_wool_stairs"
+      },
+      {
+        "item": "vanillablocksplus:magenta_wool_stairs"
+      },
+      {
+        "item": "vanillablocksplus:orange_wool_stairs"
+      },
+      {
+        "item": "vanillablocksplus:pink_wool_stairs"
+      },
+      {
+        "item": "vanillablocksplus:purple_wool_stairs"
+      },
+      {
+        "item": "vanillablocksplus:red_wool_stairs"
+      },
+      {
+        "item": "vanillablocksplus:yellow_wool_stairs"
+      },
+      {
+        "item": "vanillablocksplus:white_wool_stairs"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:blue_wool_stairs"
+  }
+}

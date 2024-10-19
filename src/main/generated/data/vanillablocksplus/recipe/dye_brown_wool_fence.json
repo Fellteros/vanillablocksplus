@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "fence",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_dye"
+    },
+    [
+      {
+        "item": "vanillablocksplus:black_wool_fence"
+      },
+      {
+        "item": "vanillablocksplus:blue_wool_fence"
+      },
+      {
+        "item": "vanillablocksplus:cyan_wool_fence"
+      },
+      {
+        "item": "vanillablocksplus:gray_wool_fence"
+      },
+      {
+        "item": "vanillablocksplus:green_wool_fence"
+      },
+      {
+        "item": "vanillablocksplus:light_blue_wool_fence"
+      },
+      {
+        "item": "vanillablocksplus:light_gray_wool_fence"
+      },
+      {
+        "item": "vanillablocksplus:lime_wool_fence"
+      },
+      {
+        "item": "vanillablocksplus:magenta_wool_fence"
+      },
+      {
+        "item": "vanillablocksplus:orange_wool_fence"
+      },
+      {
+        "item": "vanillablocksplus:pink_wool_fence"
+      },
+      {
+        "item": "vanillablocksplus:purple_wool_fence"
+      },
+      {
+        "item": "vanillablocksplus:red_wool_fence"
+      },
+      {
+        "item": "vanillablocksplus:yellow_wool_fence"
+      },
+      {
+        "item": "vanillablocksplus:white_wool_fence"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:brown_wool_fence"
+  }
+}

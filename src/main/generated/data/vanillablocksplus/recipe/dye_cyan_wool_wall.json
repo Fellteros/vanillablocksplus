@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "wall",
+  "ingredients": [
+    {
+      "item": "minecraft:cyan_dye"
+    },
+    [
+      {
+        "item": "vanillablocksplus:black_wool_wall"
+      },
+      {
+        "item": "vanillablocksplus:blue_wool_wall"
+      },
+      {
+        "item": "vanillablocksplus:brown_wool_wall"
+      },
+      {
+        "item": "vanillablocksplus:gray_wool_wall"
+      },
+      {
+        "item": "vanillablocksplus:green_wool_wall"
+      },
+      {
+        "item": "vanillablocksplus:light_blue_wool_wall"
+      },
+      {
+        "item": "vanillablocksplus:light_gray_wool_wall"
+      },
+      {
+        "item": "vanillablocksplus:lime_wool_wall"
+      },
+      {
+        "item": "vanillablocksplus:magenta_wool_wall"
+      },
+      {
+        "item": "vanillablocksplus:orange_wool_wall"
+      },
+      {
+        "item": "vanillablocksplus:pink_wool_wall"
+      },
+      {
+        "item": "vanillablocksplus:purple_wool_wall"
+      },
+      {
+        "item": "vanillablocksplus:red_wool_wall"
+      },
+      {
+        "item": "vanillablocksplus:yellow_wool_wall"
+      },
+      {
+        "item": "vanillablocksplus:white_wool_wall"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:cyan_wool_wall"
+  }
+}

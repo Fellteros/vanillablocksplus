@@ -8,11 +8,15 @@ import net.fellter.vanillablocksplus.item.ModItems;
 import net.fellter.vanillablocksplus.util.ModRecipes;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.*;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 
 
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
@@ -25,6 +29,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter exporter) {
 
+
+        this.generateDyeables(exporter);
+        this.generateSmeltables(exporter);
+
+        //offerSmelting();
 
         //oak
         ModRecipes.StairsRecipe(ModBlocks.OAK_WOOD_STAIRS, (Blocks.OAK_WOOD)).offerTo(exporter);
@@ -970,37 +979,39 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //coal_block
         ModRecipes.DoorRecipe(ModBlocks.COAL_DOOR, (ModItems.COAL_BIT)).offerTo(exporter);
-        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_SLAB, (ModItems.COAL_BIT)).offerTo(exporter);
-        ModRecipes.StairsRecipe(ModBlocks.COAL_STAIRS, (ModItems.COAL_BIT)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_SLAB, (Items.COAL)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.COAL_STAIRS, (Items.COAL)).offerTo(exporter);
         ModRecipes.NWFenceRecipe(ModBlocks.COAL_FENCE, (ModItems.COAL_BIT), (Items.COAL), 3).offerTo(exporter);
         ModRecipes.NWFenceGateRecipe(ModBlocks.COAL_FENCE_GATE, (ModItems.COAL_BIT), (Items.COAL), 1).offerTo(exporter);
         ModRecipes.TrapdoorRecipe(ModBlocks.COAL_TRAPDOOR, (ModItems.COAL_BIT)).offerTo(exporter);
         ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_PRESSURE_PLATE, (ModItems.COAL_BIT)).offerTo(exporter);
-        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_BUTTON, ModItems.COAL_BIT).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_BUTTON, ModItems.COAL_BIT, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.COAL_WALL, (Items.COAL)).offerTo(exporter);
 
         //iron_block
-        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.IRON_SLAB, (ModItems.IRON_BIT)).offerTo(exporter);
-        ModRecipes.StairsRecipe(ModBlocks.IRON_STAIRS, (ModItems.IRON_BIT)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.IRON_SLAB, (Items.IRON_INGOT)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.IRON_STAIRS, (Items.IRON_INGOT)).offerTo(exporter);
         ModRecipes.NWFenceRecipe(ModBlocks.IRON_FENCE, (ModItems.IRON_BIT), (Items.IRON_INGOT), 3).offerTo(exporter);
         ModRecipes.NWFenceGateRecipe(ModBlocks.IRON_FENCE_GATE, (ModItems.IRON_BIT), (Items.IRON_INGOT), 1).offerTo(exporter);
         ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.IRON_BUTTON, ModItems.IRON_BIT, 1).offerTo(exporter);
-        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.IRON_WALL, (Items.COAL)).offerTo(exporter);
+        ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.IRON_WALL, (Items.IRON_INGOT)).offerTo(exporter);
 
         //gold_block
         ModRecipes.DoorRecipe(ModBlocks.GOLD_DOOR, (ModItems.GOLD_BIT)).offerTo(exporter);
-        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.GOLD_SLAB, (ModItems.GOLD_BIT)).offerTo(exporter);
-        ModRecipes.StairsRecipe(ModBlocks.GOLD_STAIRS, (ModItems.GOLD_BIT)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.GOLD_SLAB, (Items.GOLD_INGOT)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.GOLD_STAIRS, (Items.GOLD_INGOT)).offerTo(exporter);
         ModRecipes.NWFenceRecipe(ModBlocks.GOLD_FENCE, (ModItems.GOLD_BIT), (Items.GOLD_INGOT), 3).offerTo(exporter);
         ModRecipes.NWFenceGateRecipe(ModBlocks.GOLD_FENCE_GATE, (ModItems.GOLD_BIT), (Items.GOLD_INGOT), 1).offerTo(exporter);
         ModRecipes.TrapdoorRecipe(ModBlocks.GOLD_TRAPDOOR, (ModItems.GOLD_BIT)).offerTo(exporter);
-        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.GOLD_BUTTON, ModItems.GOLD_BIT).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.GOLD_BUTTON, ModItems.GOLD_BIT, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.GOLD_WALL, (Items.GOLD_INGOT)).offerTo(exporter);
+
+
 
         //redstone_block
         ModRecipes.DoorRecipe(ModBlocks.REDSTONE_DOOR, (ModItems.REDSTONE_SHARD)).offerTo(exporter);
-        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_SLAB, (ModItems.REDSTONE_SHARD)).offerTo(exporter);
-        ModRecipes.StairsRecipe(ModBlocks.REDSTONE_STAIRS, (ModItems.REDSTONE_SHARD)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.REDSTONE_SLAB, (Items.REDSTONE)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.REDSTONE_STAIRS, (Items.REDSTONE)).offerTo(exporter);
         ModRecipes.NWFenceRecipe(ModBlocks.REDSTONE_FENCE, (ModItems.REDSTONE_SHARD), (Items.REDSTONE), 3).offerTo(exporter);
         ModRecipes.NWFenceGateRecipe(ModBlocks.REDSTONE_FENCE_GATE, (ModItems.REDSTONE_SHARD), (Items.REDSTONE), 1).offerTo(exporter);
         ModRecipes.TrapdoorRecipe(ModBlocks.REDSTONE_TRAPDOOR, (ModItems.REDSTONE_SHARD)).offerTo(exporter);
@@ -1010,8 +1021,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //emerald_block
         ModRecipes.DoorRecipe(ModBlocks.EMERALD_DOOR, (ModItems.EMERALD_FRAGMENT)).offerTo(exporter);
-        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_SLAB, (ModItems.EMERALD_FRAGMENT)).offerTo(exporter);
-        ModRecipes.StairsRecipe(ModBlocks.EMERALD_STAIRS, (ModItems.EMERALD_FRAGMENT)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_SLAB, (Items.EMERALD)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.EMERALD_STAIRS, (Items.EMERALD)).offerTo(exporter);
         ModRecipes.NWFenceRecipe(ModBlocks.EMERALD_FENCE, (ModItems.EMERALD_FRAGMENT), (Items.EMERALD), 3).offerTo(exporter);
         ModRecipes.NWFenceGateRecipe(ModBlocks.EMERALD_FENCE_GATE, (ModItems.EMERALD_FRAGMENT), (Items.EMERALD), 1).offerTo(exporter);
         ModRecipes.TrapdoorRecipe(ModBlocks.EMERALD_TRAPDOOR, (ModItems.EMERALD_FRAGMENT)).offerTo(exporter);
@@ -1021,19 +1032,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //lapis_block
         ModRecipes.DoorRecipe(ModBlocks.LAPIS_DOOR, (ModItems.LAPIS_BIT)).offerTo(exporter);
-        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_SLAB, (ModItems.LAPIS_BIT)).offerTo(exporter);
-        ModRecipes.StairsRecipe(ModBlocks.LAPIS_STAIRS, (ModItems.LAPIS_BIT)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_SLAB, (Items.LAPIS_LAZULI)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.LAPIS_STAIRS, (Items.LAPIS_LAZULI)).offerTo(exporter);
         ModRecipes.NWFenceRecipe(ModBlocks.LAPIS_FENCE, (ModItems.LAPIS_BIT), (Items.LAPIS_LAZULI), 3).offerTo(exporter);
         ModRecipes.NWFenceGateRecipe(ModBlocks.LAPIS_FENCE_GATE, (ModItems.LAPIS_BIT), (Items.LAPIS_LAZULI), 1).offerTo(exporter);
         ModRecipes.TrapdoorRecipe(ModBlocks.LAPIS_TRAPDOOR, (ModItems.LAPIS_BIT)).offerTo(exporter);
         ModRecipes.PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_PRESSURE_PLATE, (ModItems.LAPIS_BIT)).offerTo(exporter);
-        ModRecipes.x2ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_BUTTON, ModItems.LAPIS_BIT).offerTo(exporter);
+        ModRecipes.ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_BUTTON, ModItems.LAPIS_BIT, 1).offerTo(exporter);
         ModRecipes.WallRecipe(RecipeCategory.DECORATIONS, ModBlocks.LAPIS_WALL, (Items.LAPIS_LAZULI)).offerTo(exporter);
 
         //diamond_block
         ModRecipes.DoorRecipe(ModBlocks.DIAMOND_DOOR, (ModItems.DIAMOND_DUST)).offerTo(exporter);
-        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_SLAB, (ModItems.DIAMOND_DUST)).offerTo(exporter);
-        ModRecipes.StairsRecipe(ModBlocks.DIAMOND_STAIRS, (ModItems.DIAMOND_DUST)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.DIAMOND_SLAB, (Items.DIAMOND)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.DIAMOND_STAIRS, (Items.DIAMOND)).offerTo(exporter);
         ModRecipes.NWFenceRecipe(ModBlocks.DIAMOND_FENCE, (ModItems.DIAMOND_DUST), (Items.DIAMOND), 3).offerTo(exporter);
         ModRecipes.NWFenceGateRecipe(ModBlocks.DIAMOND_FENCE_GATE, (ModItems.DIAMOND_DUST), (Items.DIAMOND), 1).offerTo(exporter);
         ModRecipes.TrapdoorRecipe(ModBlocks.DIAMOND_TRAPDOOR, (ModItems.DIAMOND_DUST)).offerTo(exporter);
@@ -1043,8 +1054,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //netherite_block
         ModRecipes.DoorRecipe(ModBlocks.NETHERITE_DOOR, (ModItems.NETHERITE_BIT)).offerTo(exporter);
-        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHERITE_SLAB, (ModItems.NETHERITE_BIT)).offerTo(exporter);
-        ModRecipes.StairsRecipe(ModBlocks.NETHERITE_STAIRS, (ModItems.NETHERITE_BIT)).offerTo(exporter);
+        ModRecipes.SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks.NETHERITE_SLAB, (Items.NETHERITE_INGOT)).offerTo(exporter);
+        ModRecipes.StairsRecipe(ModBlocks.NETHERITE_STAIRS, (Items.NETHERITE_INGOT)).offerTo(exporter);
         ModRecipes.NWFenceRecipe(ModBlocks.NETHERITE_FENCE, (ModItems.NETHERITE_BIT), (Items.NETHERITE_INGOT), 3).offerTo(exporter);
         ModRecipes.NWFenceGateRecipe(ModBlocks.NETHERITE_FENCE_GATE, (ModItems.NETHERITE_BIT), (Items.NETHERITE_INGOT), 1).offerTo(exporter);
         ModRecipes.TrapdoorRecipe(ModBlocks.NETHERITE_TRAPDOOR, (ModItems.NETHERITE_BIT)).offerTo(exporter);
@@ -3556,6 +3567,81 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT)).offerTo(exporter);
     }
 
+    public void generateDyeables(RecipeExporter exporter) {
+
+        //DYEING
+        List<Item> dyes = List.of(Items.BLACK_DYE, Items.BLUE_DYE, Items.BROWN_DYE, Items.CYAN_DYE,
+                Items.GRAY_DYE, Items.GREEN_DYE, Items.LIGHT_BLUE_DYE, Items.LIGHT_GRAY_DYE,
+                Items.LIME_DYE, Items.MAGENTA_DYE, Items.ORANGE_DYE, Items.PINK_DYE,
+                Items.PURPLE_DYE, Items.RED_DYE, Items.YELLOW_DYE, Items.WHITE_DYE);
+        List<Item> wool_stairs = List.of(ModBlocks.BLACK_WOOL_STAIRS.asItem(), ModBlocks.BLUE_WOOL_STAIRS.asItem(), ModBlocks.BROWN_WOOL_STAIRS.asItem(), ModBlocks.CYAN_WOOL_STAIRS.asItem(),
+                ModBlocks.GRAY_WOOL_STAIRS.asItem(), ModBlocks.GREEN_WOOL_STAIRS.asItem(), ModBlocks.LIGHT_BLUE_WOOL_STAIRS.asItem(), ModBlocks.LIGHT_GRAY_WOOL_STAIRS.asItem(),
+                ModBlocks.LIME_WOOL_STAIRS.asItem(), ModBlocks.MAGENTA_WOOL_STAIRS.asItem(), ModBlocks.ORANGE_WOOL_STAIRS.asItem(), ModBlocks.PINK_WOOL_STAIRS.asItem(),
+                ModBlocks.PURPLE_WOOL_STAIRS.asItem(), ModBlocks.RED_WOOL_STAIRS.asItem(), ModBlocks.YELLOW_WOOL_STAIRS.asItem(), ModBlocks.WHITE_WOOL_STAIRS.asItem());
+        List<Item> wool_walls = List.of(ModBlocks.BLACK_WOOL_WALL.asItem(), ModBlocks.BLUE_WOOL_WALL.asItem(), ModBlocks.BROWN_WOOL_WALL.asItem(), ModBlocks.CYAN_WOOL_WALL.asItem(),
+                ModBlocks.GRAY_WOOL_WALL.asItem(), ModBlocks.GREEN_WOOL_WALL.asItem(), ModBlocks.LIGHT_BLUE_WOOL_WALL.asItem(), ModBlocks.LIGHT_GRAY_WOOL_WALL.asItem(),
+                ModBlocks.LIME_WOOL_WALL.asItem(), ModBlocks.MAGENTA_WOOL_WALL.asItem(), ModBlocks.ORANGE_WOOL_WALL.asItem(), ModBlocks.PINK_WOOL_WALL.asItem(),
+                ModBlocks.PURPLE_WOOL_WALL.asItem(), ModBlocks.RED_WOOL_WALL.asItem(), ModBlocks.YELLOW_WOOL_WALL.asItem(), ModBlocks.WHITE_WOOL_WALL.asItem());
+        List<Item> wool_trapdoors = List.of(ModBlocks.BLACK_WOOL_TRAPDOOR.asItem(), ModBlocks.BLUE_WOOL_TRAPDOOR.asItem(), ModBlocks.BROWN_WOOL_TRAPDOOR.asItem(), ModBlocks.CYAN_WOOL_TRAPDOOR.asItem(),
+                ModBlocks.GRAY_WOOL_TRAPDOOR.asItem(), ModBlocks.GREEN_WOOL_TRAPDOOR.asItem(), ModBlocks.LIGHT_BLUE_WOOL_TRAPDOOR.asItem(), ModBlocks.LIGHT_GRAY_WOOL_TRAPDOOR.asItem(),
+                ModBlocks.LIME_WOOL_TRAPDOOR.asItem(), ModBlocks.MAGENTA_WOOL_TRAPDOOR.asItem(), ModBlocks.ORANGE_WOOL_TRAPDOOR.asItem(), ModBlocks.PINK_WOOL_TRAPDOOR.asItem(),
+                ModBlocks.PURPLE_WOOL_TRAPDOOR.asItem(), ModBlocks.RED_WOOL_TRAPDOOR.asItem(), ModBlocks.YELLOW_WOOL_TRAPDOOR.asItem(), ModBlocks.WHITE_WOOL_TRAPDOOR.asItem());
+        List<Item> wool_doors = List.of(ModBlocks.BLACK_WOOL_DOOR.asItem(), ModBlocks.BLUE_WOOL_DOOR.asItem(), ModBlocks.BROWN_WOOL_DOOR.asItem(), ModBlocks.CYAN_WOOL_DOOR.asItem(),
+                ModBlocks.GRAY_WOOL_DOOR.asItem(), ModBlocks.GREEN_WOOL_DOOR.asItem(), ModBlocks.LIGHT_BLUE_WOOL_DOOR.asItem(), ModBlocks.LIGHT_GRAY_WOOL_DOOR.asItem(),
+                ModBlocks.LIME_WOOL_DOOR.asItem(), ModBlocks.MAGENTA_WOOL_DOOR.asItem(), ModBlocks.ORANGE_WOOL_DOOR.asItem(), ModBlocks.PINK_WOOL_DOOR.asItem(),
+                ModBlocks.PURPLE_WOOL_DOOR.asItem(), ModBlocks.RED_WOOL_DOOR.asItem(), ModBlocks.YELLOW_WOOL_DOOR.asItem(), ModBlocks.WHITE_WOOL_DOOR.asItem());
+        List<Item> wool_fence_gates = List.of(ModBlocks.BLACK_WOOL_FENCE_GATE.asItem(), ModBlocks.BLUE_WOOL_FENCE_GATE.asItem(), ModBlocks.BROWN_WOOL_FENCE_GATE.asItem(), ModBlocks.CYAN_WOOL_FENCE_GATE.asItem(),
+                ModBlocks.GRAY_WOOL_FENCE_GATE.asItem(), ModBlocks.GREEN_WOOL_FENCE_GATE.asItem(), ModBlocks.LIGHT_BLUE_WOOL_FENCE_GATE.asItem(), ModBlocks.LIGHT_GRAY_WOOL_FENCE_GATE.asItem(),
+                ModBlocks.LIME_WOOL_FENCE_GATE.asItem(), ModBlocks.MAGENTA_WOOL_FENCE_GATE.asItem(), ModBlocks.ORANGE_WOOL_FENCE_GATE.asItem(), ModBlocks.PINK_WOOL_FENCE_GATE.asItem(),
+                ModBlocks.PURPLE_WOOL_FENCE_GATE.asItem(), ModBlocks.RED_WOOL_FENCE_GATE.asItem(), ModBlocks.YELLOW_WOOL_FENCE_GATE.asItem(), ModBlocks.WHITE_WOOL_FENCE_GATE.asItem());
+        List<Item> wool_fences = List.of(ModBlocks.BLACK_WOOL_FENCE.asItem(), ModBlocks.BLUE_WOOL_FENCE.asItem(), ModBlocks.BROWN_WOOL_FENCE.asItem(), ModBlocks.CYAN_WOOL_FENCE.asItem(),
+                ModBlocks.GRAY_WOOL_FENCE.asItem(), ModBlocks.GREEN_WOOL_FENCE.asItem(), ModBlocks.LIGHT_BLUE_WOOL_FENCE.asItem(), ModBlocks.LIGHT_GRAY_WOOL_FENCE.asItem(),
+                ModBlocks.LIME_WOOL_FENCE.asItem(), ModBlocks.MAGENTA_WOOL_FENCE.asItem(), ModBlocks.ORANGE_WOOL_FENCE.asItem(), ModBlocks.PINK_WOOL_FENCE.asItem(),
+                ModBlocks.PURPLE_WOOL_FENCE.asItem(), ModBlocks.RED_WOOL_FENCE.asItem(), ModBlocks.YELLOW_WOOL_FENCE.asItem(), ModBlocks.WHITE_WOOL_FENCE.asItem());
+        List<Item> wool_pressure_plates = List.of(ModBlocks.BLACK_WOOL_PRESSURE_PLATE.asItem(), ModBlocks.BLUE_WOOL_PRESSURE_PLATE.asItem(), ModBlocks.BROWN_WOOL_PRESSURE_PLATE.asItem(), ModBlocks.CYAN_WOOL_PRESSURE_PLATE.asItem(),
+                ModBlocks.GRAY_WOOL_PRESSURE_PLATE.asItem(), ModBlocks.GREEN_WOOL_PRESSURE_PLATE.asItem(), ModBlocks.LIGHT_BLUE_WOOL_PRESSURE_PLATE.asItem(), ModBlocks.LIGHT_GRAY_WOOL_PRESSURE_PLATE.asItem(),
+                ModBlocks.LIME_WOOL_PRESSURE_PLATE.asItem(), ModBlocks.MAGENTA_WOOL_PRESSURE_PLATE.asItem(), ModBlocks.ORANGE_WOOL_PRESSURE_PLATE.asItem(), ModBlocks.PINK_WOOL_PRESSURE_PLATE.asItem(),
+                ModBlocks.PURPLE_WOOL_PRESSURE_PLATE.asItem(), ModBlocks.RED_WOOL_PRESSURE_PLATE.asItem(), ModBlocks.YELLOW_WOOL_PRESSURE_PLATE.asItem(), ModBlocks.WHITE_WOOL_PRESSURE_PLATE.asItem());
+        List<Item> wool_slabs = List.of(ModBlocks.BLACK_WOOL_SLAB.asItem(), ModBlocks.BLUE_WOOL_SLAB.asItem(), ModBlocks.BROWN_WOOL_SLAB.asItem(), ModBlocks.CYAN_WOOL_SLAB.asItem(),
+                ModBlocks.GRAY_WOOL_SLAB.asItem(), ModBlocks.GREEN_WOOL_SLAB.asItem(), ModBlocks.LIGHT_BLUE_WOOL_SLAB.asItem(), ModBlocks.LIGHT_GRAY_WOOL_SLAB.asItem(),
+                ModBlocks.LIME_WOOL_SLAB.asItem(), ModBlocks.MAGENTA_WOOL_SLAB.asItem(), ModBlocks.ORANGE_WOOL_SLAB.asItem(), ModBlocks.PINK_WOOL_SLAB.asItem(),
+                ModBlocks.PURPLE_WOOL_SLAB.asItem(), ModBlocks.RED_WOOL_SLAB.asItem(), ModBlocks.YELLOW_WOOL_SLAB.asItem(), ModBlocks.WHITE_WOOL_SLAB.asItem());
+        List<Item> wool_buttons = List.of(ModBlocks.BLACK_WOOL_BUTTON.asItem(), ModBlocks.BLUE_WOOL_BUTTON.asItem(), ModBlocks.BROWN_WOOL_BUTTON.asItem(), ModBlocks.CYAN_WOOL_BUTTON.asItem(),
+                ModBlocks.GRAY_WOOL_BUTTON.asItem(), ModBlocks.GREEN_WOOL_BUTTON.asItem(), ModBlocks.LIGHT_BLUE_WOOL_BUTTON.asItem(), ModBlocks.LIGHT_GRAY_WOOL_BUTTON.asItem(),
+                ModBlocks.LIME_WOOL_BUTTON.asItem(), ModBlocks.MAGENTA_WOOL_BUTTON.asItem(), ModBlocks.ORANGE_WOOL_BUTTON.asItem(), ModBlocks.PINK_WOOL_BUTTON.asItem(),
+                ModBlocks.PURPLE_WOOL_BUTTON.asItem(), ModBlocks.RED_WOOL_BUTTON.asItem(), ModBlocks.YELLOW_WOOL_BUTTON.asItem(), ModBlocks.WHITE_WOOL_BUTTON.asItem());
+
+        offerDyeableRecipes(exporter, dyes, wool_stairs, "stairs");
+        offerDyeableRecipes(exporter, dyes, wool_slabs, "slab");
+        offerDyeableRecipes(exporter, dyes, wool_doors, "door");
+        offerDyeableRecipes(exporter, dyes, wool_fences, "fence");
+        offerDyeableRecipes(exporter, dyes, wool_fence_gates, "fence_gate");
+        offerDyeableRecipes(exporter, dyes, wool_pressure_plates, "pressure_plate");
+        offerDyeableRecipes(exporter, dyes, wool_trapdoors, "trapdoor");
+        offerDyeableRecipes(exporter, dyes, wool_buttons, "button");
+        offerDyeableRecipes(exporter, dyes, wool_walls, "wall");
+
+    }
+
+    public void generateSmeltables(RecipeExporter exporter) {
+        List<ItemConvertible> clay = List.of(ModBlocks.CLAY_SLAB, ModBlocks.CLAY_STAIRS, ModBlocks.CLAY_BUTTON, ModBlocks.CLAY_PRESSURE_PLATE,
+                ModBlocks.CLAY_DOOR, ModBlocks.CLAY_TRAPDOOR, ModBlocks.CLAY_FENCE, ModBlocks.CLAY_FENCE_GATE, ModBlocks.CLAY_WALL);
+        List<ItemConvertible> terracotta = List.of(ModBlocks.TERRACOTTA_SLAB, ModBlocks.TERRACOTTA_STAIRS, ModBlocks.TERRACOTTA_BUTTON, ModBlocks.TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.TERRACOTTA_DOOR, ModBlocks.TERRACOTTA_TRAPDOOR, ModBlocks.TERRACOTTA_FENCE, ModBlocks.TERRACOTTA_FENCE_GATE, ModBlocks.TERRACOTTA_WALL);
+        createSmeltingThroughLists(exporter, clay, terracotta, RecipeCategory.BUILDING_BLOCKS, 0.35f, 200);
+    }
+
+    private void createSmeltingThroughLists(RecipeExporter exporter, List<ItemConvertible> toBeSmelted, List<ItemConvertible> smelted, RecipeCategory category, float experience, int cookingTime) {
+        for(int i = 0; i < toBeSmelted.size(); ++i) {
+            if (toBeSmelted.size() != smelted.size()) {
+                throw new IllegalStateException("Lists " + toBeSmelted + " and " + smelted + " aren't the same size - cannot run datagen.");
+            }
+            Item item = toBeSmelted.get(i).asItem();
+            Item item2 = smelted.get(i).asItem();
+            CookingRecipeJsonBuilder.createSmelting(Ingredient.ofItems(item), category, item2, experience, cookingTime)
+                    .criterion("has" + CraftingRecipeJsonBuilder.getItemId(item), conditionsFromItem(item)).offerTo(exporter, "smelt_" + getItemPath(item));
+        }
+    }
 
 }
 

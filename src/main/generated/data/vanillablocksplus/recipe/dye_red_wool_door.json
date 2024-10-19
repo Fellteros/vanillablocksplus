@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "door",
+  "ingredients": [
+    {
+      "item": "minecraft:red_dye"
+    },
+    [
+      {
+        "item": "vanillablocksplus:black_wool_door"
+      },
+      {
+        "item": "vanillablocksplus:blue_wool_door"
+      },
+      {
+        "item": "vanillablocksplus:brown_wool_door"
+      },
+      {
+        "item": "vanillablocksplus:cyan_wool_door"
+      },
+      {
+        "item": "vanillablocksplus:gray_wool_door"
+      },
+      {
+        "item": "vanillablocksplus:green_wool_door"
+      },
+      {
+        "item": "vanillablocksplus:light_blue_wool_door"
+      },
+      {
+        "item": "vanillablocksplus:light_gray_wool_door"
+      },
+      {
+        "item": "vanillablocksplus:lime_wool_door"
+      },
+      {
+        "item": "vanillablocksplus:magenta_wool_door"
+      },
+      {
+        "item": "vanillablocksplus:orange_wool_door"
+      },
+      {
+        "item": "vanillablocksplus:pink_wool_door"
+      },
+      {
+        "item": "vanillablocksplus:purple_wool_door"
+      },
+      {
+        "item": "vanillablocksplus:yellow_wool_door"
+      },
+      {
+        "item": "vanillablocksplus:white_wool_door"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:red_wool_door"
+  }
+}
