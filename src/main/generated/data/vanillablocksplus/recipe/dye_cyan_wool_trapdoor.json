@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "trapdoor",
+  "ingredients": [
+    {
+      "item": "minecraft:cyan_dye"
+    },
+    [
+      {
+        "item": "vanillablocksplus:black_wool_trapdoor"
+      },
+      {
+        "item": "vanillablocksplus:blue_wool_trapdoor"
+      },
+      {
+        "item": "vanillablocksplus:brown_wool_trapdoor"
+      },
+      {
+        "item": "vanillablocksplus:gray_wool_trapdoor"
+      },
+      {
+        "item": "vanillablocksplus:green_wool_trapdoor"
+      },
+      {
+        "item": "vanillablocksplus:light_blue_wool_trapdoor"
+      },
+      {
+        "item": "vanillablocksplus:light_gray_wool_trapdoor"
+      },
+      {
+        "item": "vanillablocksplus:lime_wool_trapdoor"
+      },
+      {
+        "item": "vanillablocksplus:magenta_wool_trapdoor"
+      },
+      {
+        "item": "vanillablocksplus:orange_wool_trapdoor"
+      },
+      {
+        "item": "vanillablocksplus:pink_wool_trapdoor"
+      },
+      {
+        "item": "vanillablocksplus:purple_wool_trapdoor"
+      },
+      {
+        "item": "vanillablocksplus:red_wool_trapdoor"
+      },
+      {
+        "item": "vanillablocksplus:yellow_wool_trapdoor"
+      },
+      {
+        "item": "vanillablocksplus:white_wool_trapdoor"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:cyan_wool_trapdoor"
+  }
+}

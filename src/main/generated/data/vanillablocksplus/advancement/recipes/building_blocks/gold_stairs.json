@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_gold_bit": {
+    "has_gold_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "vanillablocksplus:gold_bit"
+            "items": "minecraft:gold_ingot"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_gold_bit"
+      "has_gold_ingot"
     ]
   ],
   "rewards": {

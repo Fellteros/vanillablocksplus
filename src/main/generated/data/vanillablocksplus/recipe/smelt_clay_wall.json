@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "vanillablocksplus:clay_wall"
+  },
+  "result": {
+    "id": "vanillablocksplus:terracotta_wall"
+  }
+}

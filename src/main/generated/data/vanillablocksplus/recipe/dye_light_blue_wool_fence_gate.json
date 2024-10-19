@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "fence_gate",
+  "ingredients": [
+    {
+      "item": "minecraft:light_blue_dye"
+    },
+    [
+      {
+        "item": "vanillablocksplus:black_wool_fence_gate"
+      },
+      {
+        "item": "vanillablocksplus:blue_wool_fence_gate"
+      },
+      {
+        "item": "vanillablocksplus:brown_wool_fence_gate"
+      },
+      {
+        "item": "vanillablocksplus:cyan_wool_fence_gate"
+      },
+      {
+        "item": "vanillablocksplus:gray_wool_fence_gate"
+      },
+      {
+        "item": "vanillablocksplus:green_wool_fence_gate"
+      },
+      {
+        "item": "vanillablocksplus:light_gray_wool_fence_gate"
+      },
+      {
+        "item": "vanillablocksplus:lime_wool_fence_gate"
+      },
+      {
+        "item": "vanillablocksplus:magenta_wool_fence_gate"
+      },
+      {
+        "item": "vanillablocksplus:orange_wool_fence_gate"
+      },
+      {
+        "item": "vanillablocksplus:pink_wool_fence_gate"
+      },
+      {
+        "item": "vanillablocksplus:purple_wool_fence_gate"
+      },
+      {
+        "item": "vanillablocksplus:red_wool_fence_gate"
+      },
+      {
+        "item": "vanillablocksplus:yellow_wool_fence_gate"
+      },
+      {
+        "item": "vanillablocksplus:white_wool_fence_gate"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:light_blue_wool_fence_gate"
+  }
+}

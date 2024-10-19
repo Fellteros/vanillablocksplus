@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_diamond_dust": {
+    "has_diamond": {
       "conditions": {
         "items": [
           {
-            "items": "vanillablocksplus:diamond_dust"
+            "items": "minecraft:diamond"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_diamond_dust"
+      "has_diamond"
     ]
   ],
   "rewards": {

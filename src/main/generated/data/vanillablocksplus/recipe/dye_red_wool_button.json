@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "button",
+  "ingredients": [
+    {
+      "item": "minecraft:red_dye"
+    },
+    [
+      {
+        "item": "vanillablocksplus:black_wool_button"
+      },
+      {
+        "item": "vanillablocksplus:blue_wool_button"
+      },
+      {
+        "item": "vanillablocksplus:brown_wool_button"
+      },
+      {
+        "item": "vanillablocksplus:cyan_wool_button"
+      },
+      {
+        "item": "vanillablocksplus:gray_wool_button"
+      },
+      {
+        "item": "vanillablocksplus:green_wool_button"
+      },
+      {
+        "item": "vanillablocksplus:light_blue_wool_button"
+      },
+      {
+        "item": "vanillablocksplus:light_gray_wool_button"
+      },
+      {
+        "item": "vanillablocksplus:lime_wool_button"
+      },
+      {
+        "item": "vanillablocksplus:magenta_wool_button"
+      },
+      {
+        "item": "vanillablocksplus:orange_wool_button"
+      },
+      {
+        "item": "vanillablocksplus:pink_wool_button"
+      },
+      {
+        "item": "vanillablocksplus:purple_wool_button"
+      },
+      {
+        "item": "vanillablocksplus:yellow_wool_button"
+      },
+      {
+        "item": "vanillablocksplus:white_wool_button"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:red_wool_button"
+  }
+}

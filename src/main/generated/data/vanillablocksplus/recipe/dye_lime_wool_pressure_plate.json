@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "pressure_plate",
+  "ingredients": [
+    {
+      "item": "minecraft:lime_dye"
+    },
+    [
+      {
+        "item": "vanillablocksplus:black_wool_pressure_plate"
+      },
+      {
+        "item": "vanillablocksplus:blue_wool_pressure_plate"
+      },
+      {
+        "item": "vanillablocksplus:brown_wool_pressure_plate"
+      },
+      {
+        "item": "vanillablocksplus:cyan_wool_pressure_plate"
+      },
+      {
+        "item": "vanillablocksplus:gray_wool_pressure_plate"
+      },
+      {
+        "item": "vanillablocksplus:green_wool_pressure_plate"
+      },
+      {
+        "item": "vanillablocksplus:light_blue_wool_pressure_plate"
+      },
+      {
+        "item": "vanillablocksplus:light_gray_wool_pressure_plate"
+      },
+      {
+        "item": "vanillablocksplus:magenta_wool_pressure_plate"
+      },
+      {
+        "item": "vanillablocksplus:orange_wool_pressure_plate"
+      },
+      {
+        "item": "vanillablocksplus:pink_wool_pressure_plate"
+      },
+      {
+        "item": "vanillablocksplus:purple_wool_pressure_plate"
+      },
+      {
+        "item": "vanillablocksplus:red_wool_pressure_plate"
+      },
+      {
+        "item": "vanillablocksplus:yellow_wool_pressure_plate"
+      },
+      {
+        "item": "vanillablocksplus:white_wool_pressure_plate"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:lime_wool_pressure_plate"
+  }
+}
