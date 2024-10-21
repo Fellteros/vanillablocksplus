@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "vanillablocksplus:nether_quartz_ore_fence_gate"
+  },
+  "result": {
+    "id": "minecraft:quartz"
+  }
+}

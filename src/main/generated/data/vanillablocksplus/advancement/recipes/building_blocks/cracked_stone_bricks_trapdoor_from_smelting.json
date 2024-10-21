@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stone_bricks_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:stone_bricks_trapdoor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cracked_stone_bricks_trapdoor_from_smelting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stone_bricks_trapdoor"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cracked_stone_bricks_trapdoor_from_smelting"
+    ]
+  }
+}

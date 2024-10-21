@@ -1,16 +1,69 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
+  "group": "stairs",
   "key": {
-    "#": {
-      "item": "minecraft:blue_stained_glass"
+    "#": [
+      {
+        "item": "vanillablocksplus:black_stained_glass_button"
+      },
+      {
+        "item": "vanillablocksplus:blue_stained_glass_button"
+      },
+      {
+        "item": "vanillablocksplus:brown_stained_glass_button"
+      },
+      {
+        "item": "vanillablocksplus:cyan_stained_glass_button"
+      },
+      {
+        "item": "vanillablocksplus:gray_stained_glass_button"
+      },
+      {
+        "item": "vanillablocksplus:green_stained_glass_button"
+      },
+      {
+        "item": "vanillablocksplus:light_blue_stained_glass_button"
+      },
+      {
+        "item": "vanillablocksplus:light_gray_stained_glass_button"
+      },
+      {
+        "item": "vanillablocksplus:lime_stained_glass_button"
+      },
+      {
+        "item": "vanillablocksplus:magenta_stained_glass_button"
+      },
+      {
+        "item": "vanillablocksplus:orange_stained_glass_button"
+      },
+      {
+        "item": "vanillablocksplus:pink_stained_glass_button"
+      },
+      {
+        "item": "vanillablocksplus:purple_stained_glass_button"
+      },
+      {
+        "item": "vanillablocksplus:red_stained_glass_button"
+      },
+      {
+        "item": "vanillablocksplus:yellow_stained_glass_button"
+      },
+      {
+        "item": "vanillablocksplus:white_stained_glass_button"
+      }
+    ],
+    "X": {
+      "item": "minecraft:blue_dye"
     }
   },
   "pattern": [
-    " # "
+    "###",
+    "#X#",
+    "###"
   ],
   "result": {
-    "count": 1,
+    "count": 8,
     "id": "vanillablocksplus:blue_stained_glass_button"
   }
 }

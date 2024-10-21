@@ -7,6 +7,7 @@ import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.fellter.vanillablocksplus.item.ModItemGroups;
 import net.fellter.vanillablocksplus.item.ModItems;
 import net.fellter.vanillablocksplus.registry.FlammableBlocksRegistry;
+import net.fellter.vanillablocksplus.registry.FuelRegistry;
 import net.fellter.vanillablocksplus.registry.OxidizableBlockRegistry;
 import net.fellter.vanillablocksplus.registry.StrippableBlocksRegistry;
 import net.minecraft.block.Block;
@@ -28,6 +29,7 @@ public class VanillaBlocksPlus implements ModInitializer {
 		FlammableBlocksRegistry.registerFlammables();
 		OxidizableBlockRegistry.registerOxidizables();
 		StrippableBlocksRegistry.registerStrippables();
+		FuelRegistry.registerFuel();
 
 
 

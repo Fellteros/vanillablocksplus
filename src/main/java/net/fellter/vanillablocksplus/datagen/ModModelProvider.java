@@ -660,7 +660,9 @@ public class ModModelProvider extends FabricModelProvider {
         //cobblestone
         bsmg.registerCubeAllModelTexturePool(Blocks.COBBLESTONE)
             .fence(ModBlocks.COBBLESTONE_FENCE)
-            .fenceGate(ModBlocks.COBBLESTONE_FENCE_GATE);
+            .fenceGate(ModBlocks.COBBLESTONE_FENCE_GATE)
+            .pressurePlate(ModBlocks.COBBLESTONE_PRESSURE_PLATE)
+            .button(ModBlocks.COBBLESTONE_BUTTON);
         //mossy cobblestone
         bsmg.registerCubeAllModelTexturePool(Blocks.MOSSY_COBBLESTONE)
             .fence(ModBlocks.MOSSY_COBBLESTONE_FENCE)

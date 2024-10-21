@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sponge_button_from_smelting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wet_sponge_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:wet_sponge_button"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_wet_sponge_button"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sponge_button_from_smelting"
+    ]
+  }
+}

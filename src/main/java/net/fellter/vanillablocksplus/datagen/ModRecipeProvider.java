@@ -7,14 +7,16 @@ import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.fellter.vanillablocksplus.item.ModItems;
 import net.fellter.vanillablocksplus.util.ModRecipes;
 import net.minecraft.block.Blocks;
-import net.minecraft.data.server.recipe.*;
+import net.minecraft.data.server.recipe.CookingRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.RecipeExporter;
+import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
-
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -3567,6 +3569,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT)).offerTo(exporter);
     }
 
+
+
     public void generateDyeables(RecipeExporter exporter) {
 
         //DYEING
@@ -3574,6 +3578,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 Items.GRAY_DYE, Items.GREEN_DYE, Items.LIGHT_BLUE_DYE, Items.LIGHT_GRAY_DYE,
                 Items.LIME_DYE, Items.MAGENTA_DYE, Items.ORANGE_DYE, Items.PINK_DYE,
                 Items.PURPLE_DYE, Items.RED_DYE, Items.YELLOW_DYE, Items.WHITE_DYE);
+        List<ItemConvertible> dyesIC = List.of(Items.BLACK_DYE, Items.BLUE_DYE, Items.BROWN_DYE, Items.CYAN_DYE,
+                Items.GRAY_DYE, Items.GREEN_DYE, Items.LIGHT_BLUE_DYE, Items.LIGHT_GRAY_DYE,
+                Items.LIME_DYE, Items.MAGENTA_DYE, Items.ORANGE_DYE, Items.PINK_DYE,
+                Items.PURPLE_DYE, Items.RED_DYE, Items.YELLOW_DYE, Items.WHITE_DYE);
+
         List<Item> wool_stairs = List.of(ModBlocks.BLACK_WOOL_STAIRS.asItem(), ModBlocks.BLUE_WOOL_STAIRS.asItem(), ModBlocks.BROWN_WOOL_STAIRS.asItem(), ModBlocks.CYAN_WOOL_STAIRS.asItem(),
                 ModBlocks.GRAY_WOOL_STAIRS.asItem(), ModBlocks.GREEN_WOOL_STAIRS.asItem(), ModBlocks.LIGHT_BLUE_WOOL_STAIRS.asItem(), ModBlocks.LIGHT_GRAY_WOOL_STAIRS.asItem(),
                 ModBlocks.LIME_WOOL_STAIRS.asItem(), ModBlocks.MAGENTA_WOOL_STAIRS.asItem(), ModBlocks.ORANGE_WOOL_STAIRS.asItem(), ModBlocks.PINK_WOOL_STAIRS.asItem(),
@@ -3610,6 +3619,43 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 ModBlocks.GRAY_WOOL_BUTTON.asItem(), ModBlocks.GREEN_WOOL_BUTTON.asItem(), ModBlocks.LIGHT_BLUE_WOOL_BUTTON.asItem(), ModBlocks.LIGHT_GRAY_WOOL_BUTTON.asItem(),
                 ModBlocks.LIME_WOOL_BUTTON.asItem(), ModBlocks.MAGENTA_WOOL_BUTTON.asItem(), ModBlocks.ORANGE_WOOL_BUTTON.asItem(), ModBlocks.PINK_WOOL_BUTTON.asItem(),
                 ModBlocks.PURPLE_WOOL_BUTTON.asItem(), ModBlocks.RED_WOOL_BUTTON.asItem(), ModBlocks.YELLOW_WOOL_BUTTON.asItem(), ModBlocks.WHITE_WOOL_BUTTON.asItem());
+        
+        List<ItemConvertible> stained_glass_stairs = List.of(ModBlocks.BLACK_STAINED_GLASS_STAIRS, ModBlocks.BLUE_STAINED_GLASS_STAIRS, ModBlocks.BROWN_STAINED_GLASS_STAIRS, ModBlocks.CYAN_STAINED_GLASS_STAIRS,
+                ModBlocks.GRAY_STAINED_GLASS_STAIRS, ModBlocks.GREEN_STAINED_GLASS_STAIRS, ModBlocks.LIGHT_BLUE_STAINED_GLASS_STAIRS, ModBlocks.LIGHT_GRAY_STAINED_GLASS_STAIRS,
+                ModBlocks.LIME_STAINED_GLASS_STAIRS, ModBlocks.MAGENTA_STAINED_GLASS_STAIRS, ModBlocks.ORANGE_STAINED_GLASS_STAIRS, ModBlocks.PINK_STAINED_GLASS_STAIRS,
+                ModBlocks.PURPLE_STAINED_GLASS_STAIRS, ModBlocks.RED_STAINED_GLASS_STAIRS, ModBlocks.YELLOW_STAINED_GLASS_STAIRS, ModBlocks.WHITE_STAINED_GLASS_STAIRS);
+        List<ItemConvertible> stained_glass_walls = List.of(ModBlocks.BLACK_STAINED_GLASS_WALL, ModBlocks.BLUE_STAINED_GLASS_WALL, ModBlocks.BROWN_STAINED_GLASS_WALL, ModBlocks.CYAN_STAINED_GLASS_WALL,
+                ModBlocks.GRAY_STAINED_GLASS_WALL, ModBlocks.GREEN_STAINED_GLASS_WALL, ModBlocks.LIGHT_BLUE_STAINED_GLASS_WALL, ModBlocks.LIGHT_GRAY_STAINED_GLASS_WALL,
+                ModBlocks.LIME_STAINED_GLASS_WALL, ModBlocks.MAGENTA_STAINED_GLASS_WALL, ModBlocks.ORANGE_STAINED_GLASS_WALL, ModBlocks.PINK_STAINED_GLASS_WALL,
+                ModBlocks.PURPLE_STAINED_GLASS_WALL, ModBlocks.RED_STAINED_GLASS_WALL, ModBlocks.YELLOW_STAINED_GLASS_WALL, ModBlocks.WHITE_STAINED_GLASS_WALL);
+        List<ItemConvertible> stained_glass_trapdoors = List.of(ModBlocks.BLACK_STAINED_GLASS_TRAPDOOR, ModBlocks.BLUE_STAINED_GLASS_TRAPDOOR, ModBlocks.BROWN_STAINED_GLASS_TRAPDOOR, ModBlocks.CYAN_STAINED_GLASS_TRAPDOOR,
+                ModBlocks.GRAY_STAINED_GLASS_TRAPDOOR, ModBlocks.GREEN_STAINED_GLASS_TRAPDOOR, ModBlocks.LIGHT_BLUE_STAINED_GLASS_TRAPDOOR, ModBlocks.LIGHT_GRAY_STAINED_GLASS_TRAPDOOR,
+                ModBlocks.LIME_STAINED_GLASS_TRAPDOOR, ModBlocks.MAGENTA_STAINED_GLASS_TRAPDOOR, ModBlocks.ORANGE_STAINED_GLASS_TRAPDOOR, ModBlocks.PINK_STAINED_GLASS_TRAPDOOR,
+                ModBlocks.PURPLE_STAINED_GLASS_TRAPDOOR, ModBlocks.RED_STAINED_GLASS_TRAPDOOR, ModBlocks.YELLOW_STAINED_GLASS_TRAPDOOR, ModBlocks.WHITE_STAINED_GLASS_TRAPDOOR);
+        List<ItemConvertible> stained_glass_doors = List.of(ModBlocks.BLACK_STAINED_GLASS_DOOR, ModBlocks.BLUE_STAINED_GLASS_DOOR, ModBlocks.BROWN_STAINED_GLASS_DOOR, ModBlocks.CYAN_STAINED_GLASS_DOOR,
+                ModBlocks.GRAY_STAINED_GLASS_DOOR, ModBlocks.GREEN_STAINED_GLASS_DOOR, ModBlocks.LIGHT_BLUE_STAINED_GLASS_DOOR, ModBlocks.LIGHT_GRAY_STAINED_GLASS_DOOR,
+                ModBlocks.LIME_STAINED_GLASS_DOOR, ModBlocks.MAGENTA_STAINED_GLASS_DOOR, ModBlocks.ORANGE_STAINED_GLASS_DOOR, ModBlocks.PINK_STAINED_GLASS_DOOR,
+                ModBlocks.PURPLE_STAINED_GLASS_DOOR, ModBlocks.RED_STAINED_GLASS_DOOR, ModBlocks.YELLOW_STAINED_GLASS_DOOR, ModBlocks.WHITE_STAINED_GLASS_DOOR);
+        List<ItemConvertible> stained_glass_fence_gates = List.of(ModBlocks.BLACK_STAINED_GLASS_FENCE_GATE, ModBlocks.BLUE_STAINED_GLASS_FENCE_GATE, ModBlocks.BROWN_STAINED_GLASS_FENCE_GATE, ModBlocks.CYAN_STAINED_GLASS_FENCE_GATE,
+                ModBlocks.GRAY_STAINED_GLASS_FENCE_GATE, ModBlocks.GREEN_STAINED_GLASS_FENCE_GATE, ModBlocks.LIGHT_BLUE_STAINED_GLASS_FENCE_GATE, ModBlocks.LIGHT_GRAY_STAINED_GLASS_FENCE_GATE,
+                ModBlocks.LIME_STAINED_GLASS_FENCE_GATE, ModBlocks.MAGENTA_STAINED_GLASS_FENCE_GATE, ModBlocks.ORANGE_STAINED_GLASS_FENCE_GATE, ModBlocks.PINK_STAINED_GLASS_FENCE_GATE,
+                ModBlocks.PURPLE_STAINED_GLASS_FENCE_GATE, ModBlocks.RED_STAINED_GLASS_FENCE_GATE, ModBlocks.YELLOW_STAINED_GLASS_FENCE_GATE, ModBlocks.WHITE_STAINED_GLASS_FENCE_GATE);
+        List<ItemConvertible> stained_glass_fences = List.of(ModBlocks.BLACK_STAINED_GLASS_FENCE, ModBlocks.BLUE_STAINED_GLASS_FENCE, ModBlocks.BROWN_STAINED_GLASS_FENCE, ModBlocks.CYAN_STAINED_GLASS_FENCE,
+                ModBlocks.GRAY_STAINED_GLASS_FENCE, ModBlocks.GREEN_STAINED_GLASS_FENCE, ModBlocks.LIGHT_BLUE_STAINED_GLASS_FENCE, ModBlocks.LIGHT_GRAY_STAINED_GLASS_FENCE,
+                ModBlocks.LIME_STAINED_GLASS_FENCE, ModBlocks.MAGENTA_STAINED_GLASS_FENCE, ModBlocks.ORANGE_STAINED_GLASS_FENCE, ModBlocks.PINK_STAINED_GLASS_FENCE,
+                ModBlocks.PURPLE_STAINED_GLASS_FENCE, ModBlocks.RED_STAINED_GLASS_FENCE, ModBlocks.YELLOW_STAINED_GLASS_FENCE, ModBlocks.WHITE_STAINED_GLASS_FENCE);
+        List<ItemConvertible> stained_glass_pressure_plates = List.of(ModBlocks.BLACK_STAINED_GLASS_PRESSURE_PLATE, ModBlocks.BLUE_STAINED_GLASS_PRESSURE_PLATE, ModBlocks.BROWN_STAINED_GLASS_PRESSURE_PLATE, ModBlocks.CYAN_STAINED_GLASS_PRESSURE_PLATE,
+                ModBlocks.GRAY_STAINED_GLASS_PRESSURE_PLATE, ModBlocks.GREEN_STAINED_GLASS_PRESSURE_PLATE, ModBlocks.LIGHT_BLUE_STAINED_GLASS_PRESSURE_PLATE, ModBlocks.LIGHT_GRAY_STAINED_GLASS_PRESSURE_PLATE,
+                ModBlocks.LIME_STAINED_GLASS_PRESSURE_PLATE, ModBlocks.MAGENTA_STAINED_GLASS_PRESSURE_PLATE, ModBlocks.ORANGE_STAINED_GLASS_PRESSURE_PLATE, ModBlocks.PINK_STAINED_GLASS_PRESSURE_PLATE,
+                ModBlocks.PURPLE_STAINED_GLASS_PRESSURE_PLATE, ModBlocks.RED_STAINED_GLASS_PRESSURE_PLATE, ModBlocks.YELLOW_STAINED_GLASS_PRESSURE_PLATE, ModBlocks.WHITE_STAINED_GLASS_PRESSURE_PLATE);
+        List<ItemConvertible> stained_glass_slabs = List.of(ModBlocks.BLACK_STAINED_GLASS_SLAB, ModBlocks.BLUE_STAINED_GLASS_SLAB, ModBlocks.BROWN_STAINED_GLASS_SLAB, ModBlocks.CYAN_STAINED_GLASS_SLAB,
+                ModBlocks.GRAY_STAINED_GLASS_SLAB, ModBlocks.GREEN_STAINED_GLASS_SLAB, ModBlocks.LIGHT_BLUE_STAINED_GLASS_SLAB, ModBlocks.LIGHT_GRAY_STAINED_GLASS_SLAB,
+                ModBlocks.LIME_STAINED_GLASS_SLAB, ModBlocks.MAGENTA_STAINED_GLASS_SLAB, ModBlocks.ORANGE_STAINED_GLASS_SLAB, ModBlocks.PINK_STAINED_GLASS_SLAB,
+                ModBlocks.PURPLE_STAINED_GLASS_SLAB, ModBlocks.RED_STAINED_GLASS_SLAB, ModBlocks.YELLOW_STAINED_GLASS_SLAB, ModBlocks.WHITE_STAINED_GLASS_SLAB);
+        List<ItemConvertible> stained_glass_buttons = List.of(ModBlocks.BLACK_STAINED_GLASS_BUTTON, ModBlocks.BLUE_STAINED_GLASS_BUTTON, ModBlocks.BROWN_STAINED_GLASS_BUTTON, ModBlocks.CYAN_STAINED_GLASS_BUTTON,
+                ModBlocks.GRAY_STAINED_GLASS_BUTTON, ModBlocks.GREEN_STAINED_GLASS_BUTTON, ModBlocks.LIGHT_BLUE_STAINED_GLASS_BUTTON, ModBlocks.LIGHT_GRAY_STAINED_GLASS_BUTTON,
+                ModBlocks.LIME_STAINED_GLASS_BUTTON, ModBlocks.MAGENTA_STAINED_GLASS_BUTTON, ModBlocks.ORANGE_STAINED_GLASS_BUTTON, ModBlocks.PINK_STAINED_GLASS_BUTTON,
+                ModBlocks.PURPLE_STAINED_GLASS_BUTTON, ModBlocks.RED_STAINED_GLASS_BUTTON, ModBlocks.YELLOW_STAINED_GLASS_BUTTON, ModBlocks.WHITE_STAINED_GLASS_BUTTON);
 
         offerDyeableRecipes(exporter, dyes, wool_stairs, "stairs");
         offerDyeableRecipes(exporter, dyes, wool_slabs, "slab");
@@ -3621,17 +3667,244 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerDyeableRecipes(exporter, dyes, wool_buttons, "button");
         offerDyeableRecipes(exporter, dyes, wool_walls, "wall");
 
+        offerStainedGlassDyeingRecipe(exporter, dyesIC, stained_glass_stairs, "stairs");
+        offerStainedGlassDyeingRecipe(exporter, dyesIC, stained_glass_slabs, "slab");
+        offerStainedGlassDyeingRecipe(exporter, dyesIC, stained_glass_doors, "door");
+        offerStainedGlassDyeingRecipe(exporter, dyesIC, stained_glass_fences, "fence");
+        offerStainedGlassDyeingRecipe(exporter, dyesIC, stained_glass_fence_gates, "fence_gate");
+        offerStainedGlassDyeingRecipe(exporter, dyesIC, stained_glass_pressure_plates, "pressure_plate");
+        offerStainedGlassDyeingRecipe(exporter, dyesIC, stained_glass_trapdoors, "trapdoor");
+        offerStainedGlassDyeingRecipe(exporter, dyesIC, stained_glass_buttons, "button");
+        offerStainedGlassDyeingRecipe(exporter, dyesIC, stained_glass_walls, "wall");
+
+
+
     }
 
     public void generateSmeltables(RecipeExporter exporter) {
+        
         List<ItemConvertible> clay = List.of(ModBlocks.CLAY_SLAB, ModBlocks.CLAY_STAIRS, ModBlocks.CLAY_BUTTON, ModBlocks.CLAY_PRESSURE_PLATE,
                 ModBlocks.CLAY_DOOR, ModBlocks.CLAY_TRAPDOOR, ModBlocks.CLAY_FENCE, ModBlocks.CLAY_FENCE_GATE, ModBlocks.CLAY_WALL);
+        
         List<ItemConvertible> terracotta = List.of(ModBlocks.TERRACOTTA_SLAB, ModBlocks.TERRACOTTA_STAIRS, ModBlocks.TERRACOTTA_BUTTON, ModBlocks.TERRACOTTA_PRESSURE_PLATE,
                 ModBlocks.TERRACOTTA_DOOR, ModBlocks.TERRACOTTA_TRAPDOOR, ModBlocks.TERRACOTTA_FENCE, ModBlocks.TERRACOTTA_FENCE_GATE, ModBlocks.TERRACOTTA_WALL);
-        createSmeltingThroughLists(exporter, clay, terracotta, RecipeCategory.BUILDING_BLOCKS, 0.35f, 200);
+        
+        List<ItemConvertible> cobbled_deepslate = List.of(Blocks.COBBLED_DEEPSLATE_SLAB, Blocks.COBBLED_DEEPSLATE_STAIRS, ModBlocks.COBBLED_DEEPSLATE_BUTTON, ModBlocks.COBBLED_DEEPSLATE_PRESSURE_PLATE,
+                ModBlocks.COBBLED_DEEPSLATE_DOOR, ModBlocks.COBBLED_DEEPSLATE_TRAPDOOR, ModBlocks.COBBLED_DEEPSLATE_FENCE, ModBlocks.COBBLED_DEEPSLATE_FENCE_GATE, Blocks.COBBLED_DEEPSLATE_WALL);
+        
+        List<ItemConvertible> deepslate = List.of(ModBlocks.DEEPSLATE_SLAB, ModBlocks.DEEPSLATE_STAIRS, ModBlocks.DEEPSLATE_BUTTON, ModBlocks.DEEPSLATE_PRESSURE_PLATE,
+                ModBlocks.DEEPSLATE_DOOR, ModBlocks.DEEPSLATE_TRAPDOOR, ModBlocks.DEEPSLATE_FENCE, ModBlocks.DEEPSLATE_FENCE_GATE, ModBlocks.DEEPSLATE_WALL);
+        
+        List<ItemConvertible> basalt = List.of(ModBlocks.BASALT_SLAB, ModBlocks.BASALT_STAIRS, ModBlocks.BASALT_BUTTON, ModBlocks.BASALT_PRESSURE_PLATE,
+                ModBlocks.BASALT_DOOR, ModBlocks.BASALT_TRAPDOOR, ModBlocks.BASALT_FENCE, ModBlocks.BASALT_FENCE_GATE, ModBlocks.BASALT_WALL);
+        
+        List<ItemConvertible> smooth_basalt = List.of(ModBlocks.SMOOTH_BASALT_SLAB, ModBlocks.SMOOTH_BASALT_STAIRS, ModBlocks.SMOOTH_BASALT_BUTTON, ModBlocks.SMOOTH_BASALT_PRESSURE_PLATE,
+                ModBlocks.SMOOTH_BASALT_DOOR, ModBlocks.SMOOTH_BASALT_TRAPDOOR, ModBlocks.SMOOTH_BASALT_FENCE, ModBlocks.SMOOTH_BASALT_FENCE_GATE, ModBlocks.SMOOTH_BASALT_WALL);
+        
+        List<ItemConvertible> ancient_debris = List.of(ModBlocks.ANCIENT_DEBRIS_SLAB, ModBlocks.ANCIENT_DEBRIS_STAIRS, ModBlocks.ANCIENT_DEBRIS_BUTTON, ModBlocks.ANCIENT_DEBRIS_PRESSURE_PLATE,
+                ModBlocks.ANCIENT_DEBRIS_DOOR, ModBlocks.ANCIENT_DEBRIS_TRAPDOOR, ModBlocks.ANCIENT_DEBRIS_FENCE, ModBlocks.ANCIENT_DEBRIS_FENCE_GATE, ModBlocks.ANCIENT_DEBRIS_WALL);
+        
+        
+        
+        List<ItemConvertible> black_terracotta = List.of(ModBlocks.BLACK_TERRACOTTA_SLAB, ModBlocks.BLACK_TERRACOTTA_STAIRS, ModBlocks.BLACK_TERRACOTTA_BUTTON, ModBlocks.BLACK_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.BLACK_TERRACOTTA_DOOR, ModBlocks.BLACK_TERRACOTTA_TRAPDOOR, ModBlocks.BLACK_TERRACOTTA_FENCE, ModBlocks.BLACK_TERRACOTTA_FENCE_GATE, ModBlocks.BLACK_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> black_glazed_terracotta = List.of(ModBlocks.BLACK_GLAZED_TERRACOTTA_SLAB, ModBlocks.BLACK_GLAZED_TERRACOTTA_STAIRS, ModBlocks.BLACK_GLAZED_TERRACOTTA_BUTTON, ModBlocks.BLACK_GLAZED_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.BLACK_GLAZED_TERRACOTTA_DOOR, ModBlocks.BLACK_GLAZED_TERRACOTTA_TRAPDOOR, ModBlocks.BLACK_GLAZED_TERRACOTTA_FENCE, ModBlocks.BLACK_GLAZED_TERRACOTTA_FENCE_GATE, ModBlocks.BLACK_GLAZED_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> yellow_terracotta = List.of(ModBlocks.YELLOW_TERRACOTTA_SLAB, ModBlocks.YELLOW_TERRACOTTA_STAIRS, ModBlocks.YELLOW_TERRACOTTA_BUTTON, ModBlocks.YELLOW_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.YELLOW_TERRACOTTA_DOOR, ModBlocks.YELLOW_TERRACOTTA_TRAPDOOR, ModBlocks.YELLOW_TERRACOTTA_FENCE, ModBlocks.YELLOW_TERRACOTTA_FENCE_GATE, ModBlocks.YELLOW_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> yellow_glazed_terracotta = List.of(ModBlocks.YELLOW_GLAZED_TERRACOTTA_SLAB, ModBlocks.YELLOW_GLAZED_TERRACOTTA_STAIRS, ModBlocks.YELLOW_GLAZED_TERRACOTTA_BUTTON, ModBlocks.YELLOW_GLAZED_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.YELLOW_GLAZED_TERRACOTTA_DOOR, ModBlocks.YELLOW_GLAZED_TERRACOTTA_TRAPDOOR, ModBlocks.YELLOW_GLAZED_TERRACOTTA_FENCE, ModBlocks.YELLOW_GLAZED_TERRACOTTA_FENCE_GATE, ModBlocks.YELLOW_GLAZED_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> white_terracotta = List.of(ModBlocks.WHITE_TERRACOTTA_SLAB, ModBlocks.WHITE_TERRACOTTA_STAIRS, ModBlocks.WHITE_TERRACOTTA_BUTTON, ModBlocks.WHITE_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.WHITE_TERRACOTTA_DOOR, ModBlocks.WHITE_TERRACOTTA_TRAPDOOR, ModBlocks.WHITE_TERRACOTTA_FENCE, ModBlocks.WHITE_TERRACOTTA_FENCE_GATE, ModBlocks.WHITE_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> white_glazed_terracotta = List.of(ModBlocks.WHITE_GLAZED_TERRACOTTA_SLAB, ModBlocks.WHITE_GLAZED_TERRACOTTA_STAIRS, ModBlocks.WHITE_GLAZED_TERRACOTTA_BUTTON, ModBlocks.WHITE_GLAZED_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.WHITE_GLAZED_TERRACOTTA_DOOR, ModBlocks.WHITE_GLAZED_TERRACOTTA_TRAPDOOR, ModBlocks.WHITE_GLAZED_TERRACOTTA_FENCE, ModBlocks.WHITE_GLAZED_TERRACOTTA_FENCE_GATE, ModBlocks.WHITE_GLAZED_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> red_terracotta = List.of(ModBlocks.RED_TERRACOTTA_SLAB, ModBlocks.RED_TERRACOTTA_STAIRS, ModBlocks.RED_TERRACOTTA_BUTTON, ModBlocks.RED_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.RED_TERRACOTTA_DOOR, ModBlocks.RED_TERRACOTTA_TRAPDOOR, ModBlocks.RED_TERRACOTTA_FENCE, ModBlocks.RED_TERRACOTTA_FENCE_GATE, ModBlocks.RED_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> red_glazed_terracotta = List.of(ModBlocks.RED_GLAZED_TERRACOTTA_SLAB, ModBlocks.RED_GLAZED_TERRACOTTA_STAIRS, ModBlocks.RED_GLAZED_TERRACOTTA_BUTTON, ModBlocks.RED_GLAZED_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.RED_GLAZED_TERRACOTTA_DOOR, ModBlocks.RED_GLAZED_TERRACOTTA_TRAPDOOR, ModBlocks.RED_GLAZED_TERRACOTTA_FENCE, ModBlocks.RED_GLAZED_TERRACOTTA_FENCE_GATE, ModBlocks.RED_GLAZED_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> purple_terracotta = List.of(ModBlocks.PURPLE_TERRACOTTA_SLAB, ModBlocks.PURPLE_TERRACOTTA_STAIRS, ModBlocks.PURPLE_TERRACOTTA_BUTTON, ModBlocks.PURPLE_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.PURPLE_TERRACOTTA_DOOR, ModBlocks.PURPLE_TERRACOTTA_TRAPDOOR, ModBlocks.PURPLE_TERRACOTTA_FENCE, ModBlocks.PURPLE_TERRACOTTA_FENCE_GATE, ModBlocks.PURPLE_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> purple_glazed_terracotta = List.of(ModBlocks.PURPLE_GLAZED_TERRACOTTA_SLAB, ModBlocks.PURPLE_GLAZED_TERRACOTTA_STAIRS, ModBlocks.PURPLE_GLAZED_TERRACOTTA_BUTTON, ModBlocks.PURPLE_GLAZED_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.PURPLE_GLAZED_TERRACOTTA_DOOR, ModBlocks.PURPLE_GLAZED_TERRACOTTA_TRAPDOOR, ModBlocks.PURPLE_GLAZED_TERRACOTTA_FENCE, ModBlocks.PURPLE_GLAZED_TERRACOTTA_FENCE_GATE, ModBlocks.PURPLE_GLAZED_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> pink_terracotta = List.of(ModBlocks.PINK_TERRACOTTA_SLAB, ModBlocks.PINK_TERRACOTTA_STAIRS, ModBlocks.PINK_TERRACOTTA_BUTTON, ModBlocks.PINK_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.PINK_TERRACOTTA_DOOR, ModBlocks.PINK_TERRACOTTA_TRAPDOOR, ModBlocks.PINK_TERRACOTTA_FENCE, ModBlocks.PINK_TERRACOTTA_FENCE_GATE, ModBlocks.PINK_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> pink_glazed_terracotta = List.of(ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB, ModBlocks.PINK_GLAZED_TERRACOTTA_STAIRS, ModBlocks.PINK_GLAZED_TERRACOTTA_BUTTON, ModBlocks.PINK_GLAZED_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.PINK_GLAZED_TERRACOTTA_DOOR, ModBlocks.PINK_GLAZED_TERRACOTTA_TRAPDOOR, ModBlocks.PINK_GLAZED_TERRACOTTA_FENCE, ModBlocks.PINK_GLAZED_TERRACOTTA_FENCE_GATE, ModBlocks.PINK_GLAZED_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> orange_terracotta = List.of(ModBlocks.ORANGE_TERRACOTTA_SLAB, ModBlocks.ORANGE_TERRACOTTA_STAIRS, ModBlocks.ORANGE_TERRACOTTA_BUTTON, ModBlocks.ORANGE_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.ORANGE_TERRACOTTA_DOOR, ModBlocks.ORANGE_TERRACOTTA_TRAPDOOR, ModBlocks.ORANGE_TERRACOTTA_FENCE, ModBlocks.ORANGE_TERRACOTTA_FENCE_GATE, ModBlocks.ORANGE_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> orange_glazed_terracotta = List.of(ModBlocks.ORANGE_GLAZED_TERRACOTTA_SLAB, ModBlocks.ORANGE_GLAZED_TERRACOTTA_STAIRS, ModBlocks.ORANGE_GLAZED_TERRACOTTA_BUTTON, ModBlocks.ORANGE_GLAZED_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.ORANGE_GLAZED_TERRACOTTA_DOOR, ModBlocks.ORANGE_GLAZED_TERRACOTTA_TRAPDOOR, ModBlocks.ORANGE_GLAZED_TERRACOTTA_FENCE, ModBlocks.ORANGE_GLAZED_TERRACOTTA_FENCE_GATE, ModBlocks.ORANGE_GLAZED_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> magenta_terracotta = List.of(ModBlocks.MAGENTA_TERRACOTTA_SLAB, ModBlocks.MAGENTA_TERRACOTTA_STAIRS, ModBlocks.MAGENTA_TERRACOTTA_BUTTON, ModBlocks.MAGENTA_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.MAGENTA_TERRACOTTA_DOOR, ModBlocks.MAGENTA_TERRACOTTA_TRAPDOOR, ModBlocks.MAGENTA_TERRACOTTA_FENCE, ModBlocks.MAGENTA_TERRACOTTA_FENCE_GATE, ModBlocks.MAGENTA_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> magenta_glazed_terracotta = List.of(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB, ModBlocks.MAGENTA_GLAZED_TERRACOTTA_STAIRS, ModBlocks.MAGENTA_GLAZED_TERRACOTTA_BUTTON, ModBlocks.MAGENTA_GLAZED_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.MAGENTA_GLAZED_TERRACOTTA_DOOR, ModBlocks.MAGENTA_GLAZED_TERRACOTTA_TRAPDOOR, ModBlocks.MAGENTA_GLAZED_TERRACOTTA_FENCE, ModBlocks.MAGENTA_GLAZED_TERRACOTTA_FENCE_GATE, ModBlocks.MAGENTA_GLAZED_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> lime_terracotta = List.of(ModBlocks.LIME_TERRACOTTA_SLAB, ModBlocks.LIME_TERRACOTTA_STAIRS, ModBlocks.LIME_TERRACOTTA_BUTTON, ModBlocks.LIME_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.LIME_TERRACOTTA_DOOR, ModBlocks.LIME_TERRACOTTA_TRAPDOOR, ModBlocks.LIME_TERRACOTTA_FENCE, ModBlocks.LIME_TERRACOTTA_FENCE_GATE, ModBlocks.LIME_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> lime_glazed_terracotta = List.of(ModBlocks.LIME_GLAZED_TERRACOTTA_SLAB, ModBlocks.LIME_GLAZED_TERRACOTTA_STAIRS, ModBlocks.LIME_GLAZED_TERRACOTTA_BUTTON, ModBlocks.LIME_GLAZED_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.LIME_GLAZED_TERRACOTTA_DOOR, ModBlocks.LIME_GLAZED_TERRACOTTA_TRAPDOOR, ModBlocks.LIME_GLAZED_TERRACOTTA_FENCE, ModBlocks.LIME_GLAZED_TERRACOTTA_FENCE_GATE, ModBlocks.LIME_GLAZED_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> light_gray_terracotta = List.of(ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB, ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS, ModBlocks.LIGHT_GRAY_TERRACOTTA_BUTTON, ModBlocks.LIGHT_GRAY_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.LIGHT_GRAY_TERRACOTTA_DOOR, ModBlocks.LIGHT_GRAY_TERRACOTTA_TRAPDOOR, ModBlocks.LIGHT_GRAY_TERRACOTTA_FENCE, ModBlocks.LIGHT_GRAY_TERRACOTTA_FENCE_GATE, ModBlocks.LIGHT_GRAY_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> light_gray_glazed_terracotta = List.of(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB, ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_STAIRS, ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_BUTTON, ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_DOOR, ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_TRAPDOOR, ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_FENCE, ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_FENCE_GATE, ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> light_blue_terracotta = List.of(ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB, ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS, ModBlocks.LIGHT_BLUE_TERRACOTTA_BUTTON, ModBlocks.LIGHT_BLUE_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.LIGHT_BLUE_TERRACOTTA_DOOR, ModBlocks.LIGHT_BLUE_TERRACOTTA_TRAPDOOR, ModBlocks.LIGHT_BLUE_TERRACOTTA_FENCE, ModBlocks.LIGHT_BLUE_TERRACOTTA_FENCE_GATE, ModBlocks.LIGHT_BLUE_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> light_blue_glazed_terracotta = List.of(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB, ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_STAIRS, ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_BUTTON, ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_DOOR, ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_TRAPDOOR, ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_FENCE, ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_FENCE_GATE, ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> green_terracotta = List.of(ModBlocks.GREEN_TERRACOTTA_SLAB, ModBlocks.GREEN_TERRACOTTA_STAIRS, ModBlocks.GREEN_TERRACOTTA_BUTTON, ModBlocks.GREEN_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.GREEN_TERRACOTTA_DOOR, ModBlocks.GREEN_TERRACOTTA_TRAPDOOR, ModBlocks.GREEN_TERRACOTTA_FENCE, ModBlocks.GREEN_TERRACOTTA_FENCE_GATE, ModBlocks.GREEN_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> green_glazed_terracotta = List.of(ModBlocks.GREEN_GLAZED_TERRACOTTA_SLAB, ModBlocks.GREEN_GLAZED_TERRACOTTA_STAIRS, ModBlocks.GREEN_GLAZED_TERRACOTTA_BUTTON, ModBlocks.GREEN_GLAZED_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.GREEN_GLAZED_TERRACOTTA_DOOR, ModBlocks.GREEN_GLAZED_TERRACOTTA_TRAPDOOR, ModBlocks.GREEN_GLAZED_TERRACOTTA_FENCE, ModBlocks.GREEN_GLAZED_TERRACOTTA_FENCE_GATE, ModBlocks.GREEN_GLAZED_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> gray_terracotta = List.of(ModBlocks.GRAY_TERRACOTTA_SLAB, ModBlocks.GRAY_TERRACOTTA_STAIRS, ModBlocks.GRAY_TERRACOTTA_BUTTON, ModBlocks.GRAY_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.GRAY_TERRACOTTA_DOOR, ModBlocks.GRAY_TERRACOTTA_TRAPDOOR, ModBlocks.GRAY_TERRACOTTA_FENCE, ModBlocks.GRAY_TERRACOTTA_FENCE_GATE, ModBlocks.GRAY_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> gray_glazed_terracotta = List.of(ModBlocks.GRAY_GLAZED_TERRACOTTA_SLAB, ModBlocks.GRAY_GLAZED_TERRACOTTA_STAIRS, ModBlocks.GRAY_GLAZED_TERRACOTTA_BUTTON, ModBlocks.GRAY_GLAZED_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.GRAY_GLAZED_TERRACOTTA_DOOR, ModBlocks.GRAY_GLAZED_TERRACOTTA_TRAPDOOR, ModBlocks.GRAY_GLAZED_TERRACOTTA_FENCE, ModBlocks.GRAY_GLAZED_TERRACOTTA_FENCE_GATE, ModBlocks.GRAY_GLAZED_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> cyan_terracotta = List.of(ModBlocks.CYAN_TERRACOTTA_SLAB, ModBlocks.CYAN_TERRACOTTA_STAIRS, ModBlocks.CYAN_TERRACOTTA_BUTTON, ModBlocks.CYAN_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.CYAN_TERRACOTTA_DOOR, ModBlocks.CYAN_TERRACOTTA_TRAPDOOR, ModBlocks.CYAN_TERRACOTTA_FENCE, ModBlocks.CYAN_TERRACOTTA_FENCE_GATE, ModBlocks.CYAN_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> cyan_glazed_terracotta = List.of(ModBlocks.CYAN_GLAZED_TERRACOTTA_SLAB, ModBlocks.CYAN_GLAZED_TERRACOTTA_STAIRS, ModBlocks.CYAN_GLAZED_TERRACOTTA_BUTTON, ModBlocks.CYAN_GLAZED_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.CYAN_GLAZED_TERRACOTTA_DOOR, ModBlocks.CYAN_GLAZED_TERRACOTTA_TRAPDOOR, ModBlocks.CYAN_GLAZED_TERRACOTTA_FENCE, ModBlocks.CYAN_GLAZED_TERRACOTTA_FENCE_GATE, ModBlocks.CYAN_GLAZED_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> brown_terracotta = List.of(ModBlocks.BROWN_TERRACOTTA_SLAB, ModBlocks.BROWN_TERRACOTTA_STAIRS, ModBlocks.BROWN_TERRACOTTA_BUTTON, ModBlocks.BROWN_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.BROWN_TERRACOTTA_DOOR, ModBlocks.BROWN_TERRACOTTA_TRAPDOOR, ModBlocks.BROWN_TERRACOTTA_FENCE, ModBlocks.BROWN_TERRACOTTA_FENCE_GATE, ModBlocks.BROWN_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> brown_glazed_terracotta = List.of(ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB, ModBlocks.BROWN_GLAZED_TERRACOTTA_STAIRS, ModBlocks.BROWN_GLAZED_TERRACOTTA_BUTTON, ModBlocks.BROWN_GLAZED_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.BROWN_GLAZED_TERRACOTTA_DOOR, ModBlocks.BROWN_GLAZED_TERRACOTTA_TRAPDOOR, ModBlocks.BROWN_GLAZED_TERRACOTTA_FENCE, ModBlocks.BROWN_GLAZED_TERRACOTTA_FENCE_GATE, ModBlocks.BROWN_GLAZED_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> blue_terracotta = List.of(ModBlocks.BLUE_TERRACOTTA_SLAB, ModBlocks.BLUE_TERRACOTTA_STAIRS, ModBlocks.BLUE_TERRACOTTA_BUTTON, ModBlocks.BLUE_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.BLUE_TERRACOTTA_DOOR, ModBlocks.BLUE_TERRACOTTA_TRAPDOOR, ModBlocks.BLUE_TERRACOTTA_FENCE, ModBlocks.BLUE_TERRACOTTA_FENCE_GATE, ModBlocks.BLUE_TERRACOTTA_WALL);
+        
+        List<ItemConvertible> blue_glazed_terracotta = List.of(ModBlocks.BLUE_GLAZED_TERRACOTTA_SLAB, ModBlocks.BLUE_GLAZED_TERRACOTTA_STAIRS, ModBlocks.BLUE_GLAZED_TERRACOTTA_BUTTON, ModBlocks.BLUE_GLAZED_TERRACOTTA_PRESSURE_PLATE,
+                ModBlocks.BLUE_GLAZED_TERRACOTTA_DOOR, ModBlocks.BLUE_GLAZED_TERRACOTTA_TRAPDOOR, ModBlocks.BLUE_GLAZED_TERRACOTTA_FENCE, ModBlocks.BLUE_GLAZED_TERRACOTTA_FENCE_GATE, ModBlocks.BLUE_GLAZED_TERRACOTTA_WALL);
+        
+        
+        
+        List<ItemConvertible> stone_bricks = List.of(Blocks.STONE_BRICK_SLAB, Blocks.STONE_BRICK_STAIRS, ModBlocks.STONE_BRICKS_BUTTON, ModBlocks.STONE_BRICKS_PRESSURE_PLATE,
+                ModBlocks.STONE_BRICKS_DOOR, ModBlocks.STONE_BRICKS_TRAPDOOR, ModBlocks.STONE_BRICKS_FENCE, ModBlocks.STONE_BRICKS_FENCE_GATE, Blocks.STONE_BRICK_WALL);
+        
+        List<ItemConvertible> cracked_stone_bricks = List.of(ModBlocks.CRACKED_STONE_BRICKS_SLAB, ModBlocks.CRACKED_STONE_BRICKS_STAIRS, ModBlocks.CRACKED_STONE_BRICKS_BUTTON, ModBlocks.CRACKED_STONE_BRICKS_PRESSURE_PLATE,
+                ModBlocks.CRACKED_STONE_BRICKS_DOOR, ModBlocks.CRACKED_STONE_BRICKS_TRAPDOOR, ModBlocks.CRACKED_STONE_BRICKS_FENCE, ModBlocks.CRACKED_STONE_BRICKS_FENCE_GATE, ModBlocks.CRACKED_STONE_BRICKS_WALL);
+        
+        List<ItemConvertible> sandstone = List.of(Blocks.SANDSTONE_SLAB, Blocks.SANDSTONE_STAIRS, ModBlocks.SANDSTONE_BUTTON, ModBlocks.SANDSTONE_PRESSURE_PLATE,
+                ModBlocks.SANDSTONE_DOOR, ModBlocks.SANDSTONE_TRAPDOOR, ModBlocks.SANDSTONE_FENCE, ModBlocks.SANDSTONE_FENCE_GATE, Blocks.SANDSTONE_WALL);
+        
+        List<ItemConvertible> smooth_sandstone = List.of(Blocks.SMOOTH_SANDSTONE_SLAB, Blocks.SMOOTH_SANDSTONE_STAIRS, ModBlocks.SMOOTH_SANDSTONE_BUTTON, ModBlocks.SMOOTH_SANDSTONE_PRESSURE_PLATE,
+                ModBlocks.SMOOTH_SANDSTONE_DOOR, ModBlocks.SMOOTH_SANDSTONE_TRAPDOOR, ModBlocks.SMOOTH_SANDSTONE_FENCE, ModBlocks.SMOOTH_SANDSTONE_FENCE_GATE, ModBlocks.SMOOTH_SANDSTONE_WALL);
+        
+        List<ItemConvertible> quartz = List.of(Blocks.QUARTZ_SLAB, Blocks.QUARTZ_STAIRS, ModBlocks.QUARTZ_BUTTON, ModBlocks.QUARTZ_PRESSURE_PLATE,
+                ModBlocks.QUARTZ_DOOR, ModBlocks.QUARTZ_TRAPDOOR, ModBlocks.QUARTZ_FENCE, ModBlocks.QUARTZ_FENCE_GATE, ModBlocks.QUARTZ_WALL);
+        
+        List<ItemConvertible> smooth_quartz = List.of(Blocks.SMOOTH_QUARTZ_SLAB, Blocks.SMOOTH_QUARTZ_STAIRS, ModBlocks.SMOOTH_QUARTZ_BUTTON, ModBlocks.SMOOTH_QUARTZ_PRESSURE_PLATE,
+                ModBlocks.SMOOTH_QUARTZ_DOOR, ModBlocks.SMOOTH_QUARTZ_TRAPDOOR, ModBlocks.SMOOTH_QUARTZ_FENCE, ModBlocks.SMOOTH_QUARTZ_FENCE_GATE, ModBlocks.SMOOTH_QUARTZ_WALL);
+        
+        List<ItemConvertible> red_sandstone = List.of(Blocks.RED_SANDSTONE_SLAB, Blocks.RED_SANDSTONE_STAIRS, ModBlocks.RED_SANDSTONE_BUTTON, ModBlocks.RED_SANDSTONE_PRESSURE_PLATE,
+                ModBlocks.RED_SANDSTONE_DOOR, ModBlocks.RED_SANDSTONE_TRAPDOOR, ModBlocks.RED_SANDSTONE_FENCE, ModBlocks.RED_SANDSTONE_FENCE_GATE, Blocks.RED_SANDSTONE_WALL);
+        
+        List<ItemConvertible> smooth_red_sandstone = List.of(Blocks.SMOOTH_RED_SANDSTONE_SLAB, Blocks.SMOOTH_RED_SANDSTONE_STAIRS, ModBlocks.SMOOTH_RED_SANDSTONE_BUTTON, ModBlocks.SMOOTH_RED_SANDSTONE_PRESSURE_PLATE,
+                ModBlocks.SMOOTH_RED_SANDSTONE_DOOR, ModBlocks.SMOOTH_RED_SANDSTONE_TRAPDOOR, ModBlocks.SMOOTH_RED_SANDSTONE_FENCE, ModBlocks.SMOOTH_RED_SANDSTONE_FENCE_GATE, ModBlocks.SMOOTH_RED_SANDSTONE_WALL);
+
+        List<ItemConvertible> smooth_stone = List.of(Blocks.SMOOTH_STONE_SLAB, ModBlocks.SMOOTH_STONE_STAIRS, ModBlocks.SMOOTH_STONE_BUTTON, ModBlocks.SMOOTH_STONE_PRESSURE_PLATE,
+                ModBlocks.SMOOTH_STONE_DOOR, ModBlocks.SMOOTH_STONE_TRAPDOOR, ModBlocks.SMOOTH_STONE_FENCE, ModBlocks.SMOOTH_STONE_FENCE_GATE, ModBlocks.SMOOTH_STONE_WALL);
+        
+        List<ItemConvertible> cobblestone = List.of(Blocks.COBBLESTONE_SLAB, Blocks.COBBLESTONE_STAIRS, ModBlocks.COBBLESTONE_BUTTON, ModBlocks.COBBLESTONE_PRESSURE_PLATE,
+                ModBlocks.COBBLESTONE_DOOR, ModBlocks.COBBLESTONE_TRAPDOOR, ModBlocks.COBBLESTONE_FENCE, ModBlocks.COBBLESTONE_FENCE_GATE, Blocks.COBBLESTONE_WALL);
+        
+        List<ItemConvertible> stone = List.of(Blocks.STONE_SLAB, Blocks.STONE_STAIRS, Blocks.STONE_BUTTON, Blocks.STONE_PRESSURE_PLATE,
+                ModBlocks.STONE_DOOR, ModBlocks.STONE_TRAPDOOR, ModBlocks.STONE_FENCE, ModBlocks.STONE_FENCE_GATE, ModBlocks.STONE_WALL);
+        
+        List<ItemConvertible> sponge = List.of(ModBlocks.SPONGE_SLAB, ModBlocks.SPONGE_STAIRS, ModBlocks.SPONGE_BUTTON, ModBlocks.SPONGE_PRESSURE_PLATE,
+                ModBlocks.SPONGE_DOOR, ModBlocks.SPONGE_TRAPDOOR, ModBlocks.SPONGE_FENCE, ModBlocks.SPONGE_FENCE_GATE, ModBlocks.SPONGE_WALL);
+        
+        List<ItemConvertible> wet_sponge = List.of(ModBlocks.WET_SPONGE_SLAB, ModBlocks.WET_SPONGE_STAIRS, ModBlocks.WET_SPONGE_BUTTON, ModBlocks.WET_SPONGE_PRESSURE_PLATE,
+                ModBlocks.WET_SPONGE_DOOR, ModBlocks.WET_SPONGE_TRAPDOOR, ModBlocks.WET_SPONGE_FENCE, ModBlocks.WET_SPONGE_FENCE_GATE, ModBlocks.WET_SPONGE_WALL);
+        
+        List<ItemConvertible> nether_quartz_ore = List.of(ModBlocks.NETHER_QUARTZ_ORE_SLAB, ModBlocks.NETHER_QUARTZ_ORE_STAIRS, ModBlocks.NETHER_QUARTZ_ORE_BUTTON, ModBlocks.NETHER_QUARTZ_ORE_PRESSURE_PLATE,
+                ModBlocks.NETHER_QUARTZ_ORE_DOOR, ModBlocks.NETHER_QUARTZ_ORE_TRAPDOOR, ModBlocks.NETHER_QUARTZ_ORE_FENCE, ModBlocks.NETHER_QUARTZ_ORE_FENCE_GATE, ModBlocks.NETHER_QUARTZ_ORE_WALL);
+        
+        List<ItemConvertible> netherrack = List.of(ModBlocks.NETHERRACK_SLAB, ModBlocks.NETHERRACK_STAIRS, ModBlocks.NETHERRACK_BUTTON, ModBlocks.NETHERRACK_PRESSURE_PLATE,
+                ModBlocks.NETHERRACK_DOOR, ModBlocks.NETHERRACK_TRAPDOOR, ModBlocks.NETHERRACK_FENCE, ModBlocks.NETHERRACK_FENCE_GATE, ModBlocks.NETHERRACK_WALL);
+        
+        List<ItemConvertible> nether_brick = List.of(Blocks.NETHER_BRICK_SLAB, Blocks.NETHER_BRICK_STAIRS, ModBlocks.NETHER_BRICK_BUTTON, ModBlocks.NETHER_BRICK_PRESSURE_PLATE,
+                ModBlocks.NETHER_BRICK_DOOR, ModBlocks.NETHER_BRICK_TRAPDOOR, Blocks.NETHER_BRICK_FENCE, ModBlocks.NETHER_BRICK_FENCE_GATE, Blocks.NETHER_BRICK_WALL);
+        
+        
+        createSmeltingWithLists(exporter, clay, terracotta, RecipeCategory.BUILDING_BLOCKS, 0.35f, 200);
+        createSmeltingWithLists(exporter, netherrack, nether_brick, RecipeCategory.MISC, 0.1f, 200);
+        createSmeltingWithLists(exporter, nether_quartz_ore, Items.QUARTZ, RecipeCategory.MISC, 0.1f, 200);
+        createBlastingWithLists(exporter, nether_quartz_ore, Items.QUARTZ, RecipeCategory.MISC, 0.1f, 100);
+        createSmeltingWithLists(exporter, wet_sponge, sponge, RecipeCategory.BUILDING_BLOCKS, 0.1f, 200);
+        createSmeltingWithLists(exporter, cobblestone, stone, RecipeCategory.BUILDING_BLOCKS, 0.1f, 200);
+        createSmeltingWithLists(exporter, stone, smooth_stone, RecipeCategory.BUILDING_BLOCKS, 0.1f, 200);
+        createSmeltingWithLists(exporter, sandstone, smooth_sandstone, RecipeCategory.BUILDING_BLOCKS, 0.1f, 200);
+        createSmeltingWithLists(exporter, red_sandstone, smooth_red_sandstone, RecipeCategory.BUILDING_BLOCKS, 0.1f, 200);
+        createSmeltingWithLists(exporter, quartz, smooth_quartz, RecipeCategory.BUILDING_BLOCKS, 0.1f, 200);
+        createSmeltingWithLists(exporter, stone_bricks, cracked_stone_bricks, RecipeCategory.BUILDING_BLOCKS, 0.1f, 200);
+        createSmeltingWithLists(exporter, black_terracotta, black_glazed_terracotta, RecipeCategory.DECORATIONS, 0.1f, 200);
+        createSmeltingWithLists(exporter, blue_terracotta, blue_glazed_terracotta, RecipeCategory.DECORATIONS, 0.1f, 200);
+        createSmeltingWithLists(exporter, brown_terracotta, brown_glazed_terracotta, RecipeCategory.DECORATIONS, 0.1f, 200);
+        createSmeltingWithLists(exporter, cyan_terracotta, cyan_glazed_terracotta, RecipeCategory.DECORATIONS, 0.1f, 200);
+        createSmeltingWithLists(exporter, gray_terracotta, gray_glazed_terracotta, RecipeCategory.DECORATIONS, 0.1f, 200);
+        createSmeltingWithLists(exporter, green_terracotta, green_glazed_terracotta, RecipeCategory.DECORATIONS, 0.1f, 200);
+        createSmeltingWithLists(exporter, light_blue_terracotta, light_blue_glazed_terracotta, RecipeCategory.DECORATIONS, 0.1f, 200);
+        createSmeltingWithLists(exporter, light_gray_terracotta, light_gray_glazed_terracotta, RecipeCategory.DECORATIONS, 0.1f, 200);
+        createSmeltingWithLists(exporter, lime_terracotta, lime_glazed_terracotta, RecipeCategory.DECORATIONS, 0.1f, 200);
+        createSmeltingWithLists(exporter, magenta_terracotta, magenta_glazed_terracotta, RecipeCategory.DECORATIONS, 0.1f, 200);
+        createSmeltingWithLists(exporter, orange_terracotta, orange_glazed_terracotta, RecipeCategory.DECORATIONS, 0.1f, 200);
+        createSmeltingWithLists(exporter, pink_terracotta, pink_glazed_terracotta, RecipeCategory.DECORATIONS, 0.1f, 200);
+        createSmeltingWithLists(exporter, purple_terracotta, purple_glazed_terracotta, RecipeCategory.DECORATIONS, 0.1f, 200);
+        createSmeltingWithLists(exporter, red_terracotta, red_glazed_terracotta, RecipeCategory.DECORATIONS, 0.1f, 200);
+        createSmeltingWithLists(exporter, white_terracotta, white_glazed_terracotta, RecipeCategory.DECORATIONS, 0.1f, 200);
+        createSmeltingWithLists(exporter, yellow_terracotta, yellow_glazed_terracotta, RecipeCategory.DECORATIONS, 0.1f, 200);
+        //ancient debris
+        createSmeltingWithLists(exporter, ancient_debris, Items.NETHERITE_SCRAP, RecipeCategory.MISC, 2.0f, 200);
+        createBlastingWithLists(exporter, ancient_debris, Items.NETHERITE_SCRAP, RecipeCategory.MISC, 2.0f, 100);
+        createSmeltingWithLists(exporter, basalt, smooth_basalt, RecipeCategory.BUILDING_BLOCKS, 0.1f, 200);
+        createSmeltingWithLists(exporter, cobbled_deepslate, deepslate, RecipeCategory.BUILDING_BLOCKS, 0.1f, 200);
     }
 
-    private void createSmeltingThroughLists(RecipeExporter exporter, List<ItemConvertible> toBeSmelted, List<ItemConvertible> smelted, RecipeCategory category, float experience, int cookingTime) {
+
+
+
+
+    public static void offerStainedGlassDyeingRecipe(RecipeExporter exporter, List<ItemConvertible> dyes, List<ItemConvertible> dyeables, String group) {
+        for (int i = 0; i < dyes.size(); i++) {
+            Item item = dyes.get(i).asItem();
+            Item item2 = dyeables.get(i).asItem();
+            ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, item2, 8)
+                    .input('X', Ingredient.ofItems(item)).input('#', Ingredient.ofStacks(dyeables.stream().filter((dyeable) -> !dyeable.equals(item2)).map(ItemStack::new)))
+                    .pattern("###")
+                    .pattern("#X#")
+                    .pattern("###")
+                    .group(group).criterion("has_needed_dye", conditionsFromItem(item))
+                    .offerTo(exporter, getItemPath(item2) + "_from_dyeing");
+        }
+    }
+    public static void createSmeltingWithLists(RecipeExporter exporter, List<ItemConvertible> toBeSmelted, List<ItemConvertible> smelted, RecipeCategory category, float experience, int cookingTime) {
         for(int i = 0; i < toBeSmelted.size(); ++i) {
             if (toBeSmelted.size() != smelted.size()) {
                 throw new IllegalStateException("Lists " + toBeSmelted + " and " + smelted + " aren't the same size - cannot run datagen.");
@@ -3639,7 +3912,21 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             Item item = toBeSmelted.get(i).asItem();
             Item item2 = smelted.get(i).asItem();
             CookingRecipeJsonBuilder.createSmelting(Ingredient.ofItems(item), category, item2, experience, cookingTime)
-                    .criterion("has" + CraftingRecipeJsonBuilder.getItemId(item), conditionsFromItem(item)).offerTo(exporter, "smelt_" + getItemPath(item));
+                    .criterion(hasItem(item), conditionsFromItem(item)).offerTo(exporter, getItemPath(item2) + "_from_smelting");
+        }
+    }
+    public static void createSmeltingWithLists(RecipeExporter exporter, List<ItemConvertible> toBeSmelted, ItemConvertible smelted, RecipeCategory category, float experience, int cookingTime) {
+        for (ItemConvertible itemConvertible : toBeSmelted) {
+            Item item = itemConvertible.asItem();
+            CookingRecipeJsonBuilder.createSmelting(Ingredient.ofItems(item), category, smelted, experience, cookingTime)
+                    .criterion(hasItem(item), conditionsFromItem(item)).offerTo(exporter, getItemPath(smelted) + "_from_smelting_" + getItemPath(item));
+        }
+    }
+    public static void createBlastingWithLists(RecipeExporter exporter, List<ItemConvertible> toBeSmelted, ItemConvertible smelted, RecipeCategory category, float experience, int cookingTime) {
+        for (ItemConvertible itemConvertible : toBeSmelted) {
+            Item item = itemConvertible.asItem();
+            CookingRecipeJsonBuilder.createBlasting(Ingredient.ofItems(item), category, smelted, experience, cookingTime)
+                    .criterion(hasItem(item), conditionsFromItem(item)).offerTo(exporter, getItemPath(smelted) + "_from_blasting_" + getItemPath(item));
         }
     }
 

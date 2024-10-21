@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_clay_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:clay_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:terracotta_slab_from_smelting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_clay_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:terracotta_slab_from_smelting"
+    ]
+  }
+}

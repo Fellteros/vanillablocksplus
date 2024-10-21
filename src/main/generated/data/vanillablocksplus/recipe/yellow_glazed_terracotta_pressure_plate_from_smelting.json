@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "vanillablocksplus:yellow_terracotta_pressure_plate"
+  },
+  "result": {
+    "id": "vanillablocksplus:yellow_glazed_terracotta_pressure_plate"
+  }
+}

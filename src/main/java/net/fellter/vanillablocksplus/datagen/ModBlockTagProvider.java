@@ -1168,6 +1168,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COBBLESTONE_TRAPDOOR)
                 .add(ModBlocks.COBBLESTONE_FENCE_GATE)
                 .add(ModBlocks.COBBLESTONE_FENCE)
+                .add(ModBlocks.COBBLESTONE_PRESSURE_PLATE)
+                .add(ModBlocks.COBBLESTONE_BUTTON)
                 //mossy cobblestone
                 .add(ModBlocks.MOSSY_COBBLESTONE_DOOR)
                 .add(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR)

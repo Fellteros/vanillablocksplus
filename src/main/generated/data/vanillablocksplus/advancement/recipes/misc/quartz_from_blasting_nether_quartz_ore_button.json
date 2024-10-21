@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nether_quartz_ore_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanillablocksplus:nether_quartz_ore_button"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:quartz_from_blasting_nether_quartz_ore_button"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nether_quartz_ore_button"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:quartz_from_blasting_nether_quartz_ore_button"
+    ]
+  }
+}

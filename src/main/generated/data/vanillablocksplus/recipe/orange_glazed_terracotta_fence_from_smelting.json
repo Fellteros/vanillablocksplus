@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "vanillablocksplus:orange_terracotta_fence"
+  },
+  "result": {
+    "id": "vanillablocksplus:orange_glazed_terracotta_fence"
+  }
+}

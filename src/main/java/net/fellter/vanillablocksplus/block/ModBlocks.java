@@ -503,12 +503,16 @@ public class ModBlocks {
     //cobblestone
     public static final Block COBBLESTONE_FENCE = registerBlock("cobblestone_fence",
             new FenceBlock(AbstractBlock.Settings.copy(Blocks.COBBLESTONE)));
+    public static final Block COBBLESTONE_BUTTON = registerBlock("cobblestone_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.COBBLESTONE)));
     public static final Block COBBLESTONE_FENCE_GATE = registerBlock("cobblestone_fence_gate",
             new FenceGateBlock(ModWoodType.STONE, AbstractBlock.Settings.copy(Blocks.COBBLESTONE).sounds(BlockSoundGroup.STONE)));
     public static final Block COBBLESTONE_DOOR = registerBlock("cobblestone_door",
             new DoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.COBBLESTONE)));
     public static final Block COBBLESTONE_TRAPDOOR = registerBlock("cobblestone_trapdoor",
             new TrapdoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.COBBLESTONE)));
+    public static final Block COBBLESTONE_PRESSURE_PLATE = registerBlock("cobblestone_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(Blocks.COBBLESTONE)));
 
     //mossy_cobblestone
     public static final Block MOSSY_COBBLESTONE_FENCE = registerBlock("mossy_cobblestone_fence",

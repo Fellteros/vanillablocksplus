@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "ingredient": {
+    "item": "vanillablocksplus:ancient_debris_slab"
+  },
+  "result": {
+    "id": "minecraft:netherite_scrap"
+  }
+}

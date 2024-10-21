@@ -455,6 +455,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.COBBLESTONE_FENCE_GATE);
                         entries.add(ModBlocks.COBBLESTONE_DOOR);
                         entries.add(ModBlocks.COBBLESTONE_TRAPDOOR);
+                        entries.add(ModBlocks.COBBLESTONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.COBBLESTONE_BUTTON);
                         //mossy cobblestone
                         entries.add(ModBlocks.MOSSY_COBBLESTONE_FENCE);
                         entries.add(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE);
