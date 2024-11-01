@@ -1,6 +1,6 @@
 package net.fellter.vanillablocksplus.custom_blocks.wet_sponge;
 
-import net.fellter.vanillablocksplus.block.ModBlocks;
+import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.StairsBlock;
@@ -21,7 +21,7 @@ public class WetSpongeStairsBlock extends StairsBlock {
     @Override
     public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify) {
         if (world.getDimension().ultrawarm()) {
-            world.setBlockState(pos, ModBlocks.SPONGE_STAIRS.getDefaultState()
+            world.setBlockState(pos, ModBlocks2.SPONGE_STAIRS.getDefaultState()
                             .with(FACING, world.getBlockState(pos).get(FACING))
                             .with(HALF, world.getBlockState(pos).get(HALF))
                             .with(SHAPE, world.getBlockState(pos).get(SHAPE)),

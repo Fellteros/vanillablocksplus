@@ -23,10 +23,15 @@ public class GlassFenceGateBlock extends FenceGateBlock {
         return 1.0f;
     }
 
+//
+//    @Override
+//    public boolean isTransparent() {
+//        return true;
+//    }
 
-    @Override
-    public boolean isTransparent(BlockState state, BlockView world, BlockPos pos) {
-        return true;
-    }
+//    @Override
+//    public boolean isTransparent() {
+//        return true;
+//    }
 
 }

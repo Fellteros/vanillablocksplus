@@ -1,6 +1,6 @@
 package net.fellter.vanillablocksplus.custom_blocks.wet_sponge;
 
-import net.fellter.vanillablocksplus.block.ModBlocks;
+import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.minecraft.block.*;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.sound.SoundCategory;
@@ -20,7 +20,7 @@ public class WetSpongeButtonBlock extends ButtonBlock {
     @Override
     public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify) {
         if (world.getDimension().ultrawarm()) {
-            world.setBlockState(pos, ModBlocks.SPONGE_BUTTON.getDefaultState()
+            world.setBlockState(pos, ModBlocks2.SPONGE_BUTTON.getDefaultState()
                     .with(FACING, world.getBlockState(pos).get(FACING))
                     .with(POWERED, world.getBlockState(pos).get(POWERED))
                     .with(FACE, world.getBlockState(pos).get(FACE)),

@@ -1,6 +1,6 @@
 package net.fellter.vanillablocksplus.custom_blocks.wet_sponge;
 
-import net.fellter.vanillablocksplus.block.ModBlocks;
+import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.minecraft.block.*;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.sound.SoundCategory;
@@ -19,7 +19,7 @@ public class WetSpongePressurePlateBlock extends PressurePlateBlock {
     @Override
     public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify) {
         if (world.getDimension().ultrawarm()) {
-            world.setBlockState(pos, ModBlocks.SPONGE_PRESSURE_PLATE.getDefaultState()
+            world.setBlockState(pos, ModBlocks2.SPONGE_PRESSURE_PLATE.getDefaultState()
                             .with(POWERED, world.getBlockState(pos).get(POWERED)),
                     Block.NOTIFY_ALL);
             world.syncWorldEvent(WorldEvents.WET_SPONGE_DRIES_OUT, pos, 0);

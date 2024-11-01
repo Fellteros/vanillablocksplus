@@ -29,7 +29,7 @@ public class GlassTrapdoorBlock extends TrapdoorBlock {
 
 
     @Override
-    public boolean isTransparent(BlockState state, BlockView world, BlockPos pos) {
+    public boolean isTransparent(BlockState state) {
         return true;
     }
 

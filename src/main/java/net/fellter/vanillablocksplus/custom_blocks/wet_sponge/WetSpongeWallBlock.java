@@ -1,6 +1,6 @@
 package net.fellter.vanillablocksplus.custom_blocks.wet_sponge;
 
-import net.fellter.vanillablocksplus.block.ModBlocks;
+import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.WallBlock;
@@ -21,7 +21,7 @@ public class WetSpongeWallBlock extends WallBlock {
     @Override
     public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify) {
         if (world.getDimension().ultrawarm()) {
-            world.setBlockState(pos, ModBlocks.SPONGE_WALL.getDefaultState()
+            world.setBlockState(pos, ModBlocks2.SPONGE_WALL.getDefaultState()
                             .with(EAST_SHAPE, world.getBlockState(pos).get(EAST_SHAPE))
                             .with(WEST_SHAPE, world.getBlockState(pos).get(WEST_SHAPE))
                             .with(NORTH_SHAPE, world.getBlockState(pos).get(NORTH_SHAPE))

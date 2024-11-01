@@ -1,6 +1,6 @@
 package net.fellter.vanillablocksplus.custom_blocks.sponge;
 
-import net.fellter.vanillablocksplus.block.ModBlocks;
+import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.fluid.FluidState;
@@ -9,6 +9,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldEvents;
+import net.minecraft.world.block.WireOrientation;
+import org.jetbrains.annotations.Nullable;
 
 public class SpongeStairsBlock extends StairsBlock {
     private static final Direction[] field_43257 = Direction.values();
@@ -26,14 +28,14 @@ public class SpongeStairsBlock extends StairsBlock {
     }
 
     @Override
-    public void neighborUpdate(BlockState state, World world, BlockPos pos, Block sourceBlock, BlockPos sourcePos, boolean notify) {
+    public void neighborUpdate(BlockState state, World world, BlockPos pos, Block sourceBlock, @Nullable WireOrientation wireOrientation, boolean notify) {
         this.update(world, pos);
-        super.neighborUpdate(state, world, pos, sourceBlock, sourcePos, notify);
+        super.neighborUpdate(state, world, pos, sourceBlock, wireOrientation, notify);
     }
 
     protected void update(World world, BlockPos pos) {
         if (this.absorbWater(world, pos)) {
-            world.setBlockState(pos, ModBlocks.WET_SPONGE_STAIRS.getDefaultState()
+            world.setBlockState(pos, ModBlocks2.WET_SPONGE_STAIRS.getDefaultState()
                     .with(FACING, world.getBlockState(pos).get(FACING))
                     .with(SHAPE, world.getBlockState(pos).get(SHAPE))
                     .with(HALF, world.getBlockState(pos).get(HALF)),

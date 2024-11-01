@@ -1,6 +1,6 @@
 package net.fellter.vanillablocksplus.custom_blocks.wet_sponge;
 
-import net.fellter.vanillablocksplus.block.ModBlocks;
+import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.FenceBlock;
@@ -21,7 +21,7 @@ public class WetSpongeFenceBlock extends FenceBlock {
     @Override
     public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify) {
         if (world.getDimension().ultrawarm()) {
-            world.setBlockState(pos, ModBlocks.SPONGE_FENCE.getDefaultState()
+            world.setBlockState(pos, ModBlocks2.SPONGE_FENCE.getDefaultState()
                             .with(NORTH, world.getBlockState(pos).get(NORTH))
                             .with(EAST, world.getBlockState(pos).get(EAST))
                             .with(WEST, world.getBlockState(pos).get(WEST))

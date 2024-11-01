@@ -15,6 +15,8 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
+import net.minecraft.world.WorldView;
+import net.minecraft.world.tick.ScheduledTickView;
 
 import java.util.Map;
 
@@ -29,18 +31,17 @@ public class FallingFenceBlock extends FenceBlock implements LandingBlock {
     }
 
     @Override
-    public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos) {
-        world.scheduleBlockTick(pos, this, this.getFallDelay());
+    public BlockState getStateForNeighborUpdate(BlockState state, WorldView world, ScheduledTickView tickView, BlockPos pos, Direction direction, BlockPos neighborPos, BlockState neighborState, Random random) {
+        tickView.scheduleBlockTick(pos, this, this.getFallDelay());
         if (pos != null) {
-            world.setBlockState(pos, this.getDefaultState()
-                            .with(WEST, world.getBlockState(pos).get(WEST))
-                            .with(EAST, world.getBlockState(pos).get(EAST))
-                            .with(SOUTH, world.getBlockState(pos).get(SOUTH))
-                            .with(NORTH, world.getBlockState(pos).get(NORTH))
-                            .with(WATERLOGGED, world.getBlockState(pos).get(WATERLOGGED)),
-                    FallingFenceBlock.NOTIFY_ALL);
+            return state.with(WEST, world.getBlockState(pos).get(WEST))
+                    .with(EAST, world.getBlockState(pos).get(EAST))
+                    .with(SOUTH, world.getBlockState(pos).get(SOUTH))
+                    .with(NORTH, world.getBlockState(pos).get(NORTH))
+                    .with(WATERLOGGED, world.getBlockState(pos).get(WATERLOGGED));
+        } else {
+            return super.getStateForNeighborUpdate(state, world, tickView, pos, direction, neighborPos, neighborState, random);
         }
-        return super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
     }
 
     @Override

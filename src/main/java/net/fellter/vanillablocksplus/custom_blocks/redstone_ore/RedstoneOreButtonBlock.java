@@ -64,7 +64,7 @@ public class RedstoneOreButtonBlock extends ButtonBlock {
         Random random = world.random;
         for (Direction direction : Direction.values()) {
             BlockPos blockPos = pos.offset(direction);
-            if (world.getBlockState(blockPos).isOpaqueFullCube(world, blockPos)) continue;
+            if (world.getBlockState(blockPos).isOpaqueFullCube()) continue;
             Direction.Axis axis = direction.getAxis();
             double e = axis == Direction.Axis.X ? 0.1 * (double)direction.getOffsetX() : (double)random.nextFloat();
             double f = axis == Direction.Axis.Y ? 0.1 * (double)direction.getOffsetY() : (double)random.nextFloat();

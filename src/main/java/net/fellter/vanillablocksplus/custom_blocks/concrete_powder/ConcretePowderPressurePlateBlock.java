@@ -16,6 +16,8 @@ import net.minecraft.util.math.random.Random;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
+import net.minecraft.world.WorldView;
+import net.minecraft.world.tick.ScheduledTickView;
 
 public class ConcretePowderPressurePlateBlock extends FallingPressurePlateBlock implements LandingBlock {
     private final BlockState hardenedState;
@@ -72,18 +74,13 @@ public class ConcretePowderPressurePlateBlock extends FallingPressurePlateBlock 
     }
 
     @Override
-    public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos) {
+    public BlockState getStateForNeighborUpdate(BlockState state, WorldView world, ScheduledTickView tickView, BlockPos pos, Direction direction, BlockPos neighborPos, BlockState neighborState, Random random) {
         if (hardensOnAnySide(world, pos)) {
             return this.hardenedState
                     .with(POWERED, world.getBlockState(pos).get(POWERED));
         }
-        world.scheduleBlockTick(pos, this, this.getFallDelay());
-        return super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
-    }
-
-    @Override
-    public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify) {
-        world.scheduleBlockTick(pos, this, this.getFallDelay());
+        tickView.scheduleBlockTick(pos, this, this.getFallDelay());
+        return super.getStateForNeighborUpdate(state, world, tickView, pos, direction, neighborPos, neighborState, random);
     }
 
     @Override
@@ -93,13 +90,6 @@ public class ConcretePowderPressurePlateBlock extends FallingPressurePlateBlock 
         }
         FallingBlockEntity fallingBlockEntity = FallingBlockEntity.spawnFromBlock(world, pos, state);
         this.configureFallingBlockEntity(fallingBlockEntity);
-    }
-
-    protected void configureFallingBlockEntity(FallingBlockEntity entity) {
-    }
-
-    protected int getFallDelay() {
-        return 2;
     }
 
     public static boolean canFallThrough(BlockState state) {

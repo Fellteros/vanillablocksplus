@@ -23,6 +23,7 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
+import net.minecraft.world.tick.ScheduledTickView;
 
 public class ConcretePowderWallBlock extends FallingWallBlock implements LandingBlock {
     private static final VoxelShape TALL_POST_SHAPE = createCuboidShape(7, 0, 7, 9, 16, 9);
@@ -172,7 +173,7 @@ public class ConcretePowderWallBlock extends FallingWallBlock implements Landing
     }
 
     @Override
-    public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos) {
+    public BlockState getStateForNeighborUpdate(BlockState state, WorldView world, ScheduledTickView tickView, BlockPos pos, Direction direction, BlockPos neighborPos, BlockState neighborState, Random random) {
         if (hardensOnAnySide(world, pos)) {
             return this.hardenedState
                     .with(WATERLOGGED, world.getBlockState(pos).get(WATERLOGGED))
@@ -182,13 +183,8 @@ public class ConcretePowderWallBlock extends FallingWallBlock implements Landing
                     .with(NORTH_SHAPE, world.getBlockState(pos).get(NORTH_SHAPE))
                     .with(UP, world.getBlockState(pos).get(UP));
         }
-        world.scheduleBlockTick(pos, this, this.getFallDelay());
-        return super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
-    }
-
-    @Override
-    public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify) {
-        world.scheduleBlockTick(pos, this, this.getFallDelay());
+        tickView.scheduleBlockTick(pos, this, this.getFallDelay());
+        return super.getStateForNeighborUpdate(state, world, tickView, pos, direction, neighborPos, neighborState, random);
     }
 
     @Override
@@ -200,12 +196,6 @@ public class ConcretePowderWallBlock extends FallingWallBlock implements Landing
         this.configureFallingBlockEntity(fallingBlockEntity);
     }
 
-    protected void configureFallingBlockEntity(FallingBlockEntity entity) {
-    }
-
-    protected int getFallDelay() {
-        return 2;
-    }
 
     public static boolean canFallThrough(BlockState state) {
         return state.isAir() || state.isIn(BlockTags.FIRE) || state.isLiquid() || state.isReplaceable();

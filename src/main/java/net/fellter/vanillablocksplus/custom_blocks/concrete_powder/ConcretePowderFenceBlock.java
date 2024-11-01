@@ -1,10 +1,11 @@
 package net.fellter.vanillablocksplus.custom_blocks.concrete_powder;
 
 import net.fellter.vanillablocksplus.custom_blocks.falling.FallingFenceBlock;
-import net.minecraft.block.*;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.HorizontalConnectingBlock;
+import net.minecraft.block.LandingBlock;
 import net.minecraft.entity.FallingBlockEntity;
-import net.minecraft.fluid.FluidState;
-import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.particle.BlockStateParticleEffect;
 import net.minecraft.particle.ParticleTypes;
@@ -18,7 +19,8 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
-import net.minecraft.world.WorldAccess;
+import net.minecraft.world.WorldView;
+import net.minecraft.world.tick.ScheduledTickView;
 
 import java.util.Map;
 
@@ -32,7 +34,6 @@ public class ConcretePowderFenceBlock extends FallingFenceBlock implements Landi
 
     @Override
     public void onLanding(World world, BlockPos pos, BlockState fallingBlockState, BlockState currentStateInPos, FallingBlockEntity fallingBlockEntity) {
-        FluidState fluidState = world.getFluidState(pos);
         BlockState state = fallingBlockState;
         for (Map.Entry<Direction, BooleanProperty> entry : HorizontalConnectingBlock.FACING_PROPERTIES.entrySet()) {
             Direction direction = entry.getKey();
@@ -101,7 +102,7 @@ public class ConcretePowderFenceBlock extends FallingFenceBlock implements Landi
     }
 
     @Override
-    public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos) {
+    public BlockState getStateForNeighborUpdate(BlockState state, WorldView world, ScheduledTickView tickView, BlockPos pos, Direction direction, BlockPos neighborPos, BlockState neighborState, Random random) {
         if (hardensOnAnySide(world, pos)) {
             return this.hardenedState
                     .with(EAST, world.getBlockState(pos).get(EAST))
@@ -110,13 +111,8 @@ public class ConcretePowderFenceBlock extends FallingFenceBlock implements Landi
                     .with(SOUTH, world.getBlockState(pos).get(SOUTH))
                     .with(WATERLOGGED, world.getBlockState(pos).get(WATERLOGGED));
         }
-        world.scheduleBlockTick(pos, this, this.getFallDelay());
-        return super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
-    }
-
-    @Override
-    public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify) {
-        world.scheduleBlockTick(pos, this, this.getFallDelay());
+        tickView.scheduleBlockTick(pos, this, this.getFallDelay());
+        return super.getStateForNeighborUpdate(state, world, tickView, pos, direction, neighborPos, neighborState, random);
     }
 
 
@@ -127,13 +123,6 @@ public class ConcretePowderFenceBlock extends FallingFenceBlock implements Landi
         }
         FallingBlockEntity fallingBlockEntity = FallingBlockEntity.spawnFromBlock(world, pos, state);
         this.configureFallingBlockEntity(fallingBlockEntity);
-    }
-
-    protected void configureFallingBlockEntity(FallingBlockEntity entity) {
-    }
-
-    protected int getFallDelay() {
-        return 2;
     }
 
     public static boolean canFallThrough(BlockState state) {
