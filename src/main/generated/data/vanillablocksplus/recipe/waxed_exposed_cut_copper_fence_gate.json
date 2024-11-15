@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:waxed_exposed_cut_copper_slab"
-    },
-    "W": {
-      "item": "minecraft:waxed_exposed_cut_copper"
-    }
+    "#": "minecraft:waxed_exposed_cut_copper_slab",
+    "W": "minecraft:waxed_exposed_cut_copper"
   },
   "pattern": [
     "#W#",

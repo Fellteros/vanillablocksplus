@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:brown_concrete_slab"
-    },
-    "W": {
-      "item": "minecraft:brown_concrete"
-    }
+    "#": "vanillablocksplus:brown_concrete_slab",
+    "W": "minecraft:brown_concrete"
   },
   "pattern": [
     "#W#",

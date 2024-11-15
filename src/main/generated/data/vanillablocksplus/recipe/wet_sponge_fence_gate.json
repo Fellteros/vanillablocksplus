@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:wet_sponge_slab"
-    },
-    "W": {
-      "item": "minecraft:wet_sponge"
-    }
+    "#": "vanillablocksplus:wet_sponge_slab",
+    "W": "minecraft:wet_sponge"
   },
   "pattern": [
     "#W#",

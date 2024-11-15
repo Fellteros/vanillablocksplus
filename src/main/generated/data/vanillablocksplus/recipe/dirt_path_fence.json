@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:dirt_path_slab"
-    },
-    "W": {
-      "item": "minecraft:dirt_path"
-    }
+    "#": "vanillablocksplus:dirt_path_slab",
+    "W": "minecraft:dirt_path"
   },
   "pattern": [
     "W#W",

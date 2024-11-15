@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:coal_ore_slab"
-    },
-    "W": {
-      "item": "minecraft:coal_ore"
-    }
+    "#": "vanillablocksplus:coal_ore_slab",
+    "W": "minecraft:coal_ore"
   },
   "pattern": [
     "#W#",

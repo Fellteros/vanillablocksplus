@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:copper_grate_slab"
-    },
-    "W": {
-      "item": "minecraft:copper_grate"
-    }
+    "#": "vanillablocksplus:copper_grate_slab",
+    "W": "minecraft:copper_grate"
   },
   "pattern": [
     "W#W",

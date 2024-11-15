@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:coarse_dirt_slab"
-    },
-    "W": {
-      "item": "minecraft:coarse_dirt"
-    }
+    "#": "vanillablocksplus:coarse_dirt_slab",
+    "W": "minecraft:coarse_dirt"
   },
   "pattern": [
     "#W#",

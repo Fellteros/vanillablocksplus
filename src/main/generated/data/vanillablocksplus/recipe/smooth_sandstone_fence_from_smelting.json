@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:sandstone_fence"
-  },
+  "ingredient": "vanillablocksplus:sandstone_fence",
   "result": {
     "id": "vanillablocksplus:smooth_sandstone_fence"
   }

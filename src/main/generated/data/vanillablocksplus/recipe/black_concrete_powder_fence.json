@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:black_concrete_powder_slab"
-    },
-    "W": {
-      "item": "minecraft:black_concrete_powder"
-    }
+    "#": "vanillablocksplus:black_concrete_powder_slab",
+    "W": "minecraft:black_concrete_powder"
   },
   "pattern": [
     "W#W",

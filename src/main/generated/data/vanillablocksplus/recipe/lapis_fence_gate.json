@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:lapis_lazuli"
-    },
-    "W": {
-      "item": "vanillablocksplus:lapis_bit"
-    }
+    "#": "minecraft:lapis_lazuli",
+    "W": "vanillablocksplus:lapis_bit"
   },
   "pattern": [
     "#W#",

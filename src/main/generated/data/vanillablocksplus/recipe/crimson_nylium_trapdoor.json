@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:crimson_nylium_slab"
-    }
+    "#": "vanillablocksplus:crimson_nylium_slab"
   },
   "pattern": [
     "###",

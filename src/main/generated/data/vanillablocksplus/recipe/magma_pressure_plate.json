@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:magma_slab"
-    }
+    "#": "vanillablocksplus:magma_slab"
   },
   "pattern": [
     "##"

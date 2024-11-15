@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:redstone_ore_slab"
-    },
-    "W": {
-      "item": "minecraft:redstone_ore"
-    }
+    "#": "vanillablocksplus:redstone_ore_slab",
+    "W": "minecraft:redstone_ore"
   },
   "pattern": [
     "W#W",

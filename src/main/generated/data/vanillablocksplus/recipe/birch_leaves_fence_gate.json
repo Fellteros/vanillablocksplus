@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:birch_leaves_slab"
-    },
-    "W": {
-      "item": "minecraft:birch_leaves"
-    }
+    "#": "vanillablocksplus:birch_leaves_slab",
+    "W": "minecraft:birch_leaves"
   },
   "pattern": [
     "#W#",

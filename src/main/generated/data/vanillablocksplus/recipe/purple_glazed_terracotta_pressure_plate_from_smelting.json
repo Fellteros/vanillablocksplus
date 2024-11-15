@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:purple_terracotta_pressure_plate"
-  },
+  "ingredient": "vanillablocksplus:purple_terracotta_pressure_plate",
   "result": {
     "id": "vanillablocksplus:purple_glazed_terracotta_pressure_plate"
   }

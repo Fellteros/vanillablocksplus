@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:nether_quartz_ore_slab"
-    },
-    "W": {
-      "item": "minecraft:nether_quartz_ore"
-    }
+    "#": "vanillablocksplus:nether_quartz_ore_slab",
+    "W": "minecraft:nether_quartz_ore"
   },
   "pattern": [
     "#W#",

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:lapis_bit"
-    }
+    "#": "vanillablocksplus:lapis_bit"
   },
   "pattern": [
     "###",

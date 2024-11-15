@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:stone_door"
-  },
+  "ingredient": "vanillablocksplus:stone_door",
   "result": {
     "id": "vanillablocksplus:smooth_stone_door"
   }

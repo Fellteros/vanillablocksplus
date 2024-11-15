@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:gold_ingot"
-    },
-    "W": {
-      "item": "vanillablocksplus:gold_bit"
-    }
+    "#": "minecraft:gold_ingot",
+    "W": "vanillablocksplus:gold_bit"
   },
   "pattern": [
     "W#W",

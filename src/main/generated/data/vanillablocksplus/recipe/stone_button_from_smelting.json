@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:cobblestone_button"
-  },
+  "ingredient": "vanillablocksplus:cobblestone_button",
   "result": {
     "id": "minecraft:stone_button"
   }

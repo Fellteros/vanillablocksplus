@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:cyan_wool_slab"
-    },
-    "W": {
-      "item": "minecraft:cyan_wool"
-    }
+    "#": "vanillablocksplus:cyan_wool_slab",
+    "W": "minecraft:cyan_wool"
   },
   "pattern": [
     "#W#",

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:lime_concrete_slab"
-    }
+    "#": "vanillablocksplus:lime_concrete_slab"
   },
   "pattern": [
     "##"

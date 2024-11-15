@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:netherrack_slab"
-    }
+    "#": "vanillablocksplus:netherrack_slab"
   },
   "pattern": [
     "###",

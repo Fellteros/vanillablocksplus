@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:cobblestone_pressure_plate"
-  },
+  "ingredient": "vanillablocksplus:cobblestone_pressure_plate",
   "result": {
     "id": "minecraft:stone_pressure_plate"
   }

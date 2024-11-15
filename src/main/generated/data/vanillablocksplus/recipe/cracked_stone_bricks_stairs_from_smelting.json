@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "minecraft:stone_brick_stairs"
-  },
+  "ingredient": "minecraft:stone_brick_stairs",
   "result": {
     "id": "vanillablocksplus:cracked_stone_bricks_stairs"
   }

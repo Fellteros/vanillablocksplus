@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:dead_brain_coral_slab"
-    },
-    "W": {
-      "item": "minecraft:dead_brain_coral_block"
-    }
+    "#": "vanillablocksplus:dead_brain_coral_slab",
+    "W": "minecraft:dead_brain_coral_block"
   },
   "pattern": [
     "W#W",

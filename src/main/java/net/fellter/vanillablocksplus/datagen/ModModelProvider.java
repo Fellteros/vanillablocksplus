@@ -24,7 +24,6 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator bsmg) {
 
-
         BlockStateModelGenerator.BlockTexturePool endStonePool =
                 bsmg.registerCubeAllModelTexturePool(Blocks.END_STONE);
         BlockStateModelGenerator.BlockTexturePool endStoneBrickPool =

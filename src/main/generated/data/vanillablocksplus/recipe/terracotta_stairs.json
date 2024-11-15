@@ -1,12 +1,16 @@
 {
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "cookingtime": 200,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "vanillablocksplus:clay_stairs"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "minecraft:terracotta"
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
+    "count": 4,
     "id": "vanillablocksplus:terracotta_stairs"
   }
 }

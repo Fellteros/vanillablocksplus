@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:exposed_copper_grate_slab"
-    }
+    "#": "vanillablocksplus:exposed_copper_grate_slab"
   },
   "pattern": [
     "##"

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:iron_ingot"
-    },
-    "W": {
-      "item": "vanillablocksplus:iron_bit"
-    }
+    "#": "minecraft:iron_ingot",
+    "W": "vanillablocksplus:iron_bit"
   },
   "pattern": [
     "W#W",

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:dripstone_slab"
-    },
-    "W": {
-      "item": "minecraft:dripstone_block"
-    }
+    "#": "vanillablocksplus:dripstone_slab",
+    "W": "minecraft:dripstone_block"
   },
   "pattern": [
     "#W#",

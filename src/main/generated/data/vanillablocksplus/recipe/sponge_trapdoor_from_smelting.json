@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:wet_sponge_trapdoor"
-  },
+  "ingredient": "vanillablocksplus:wet_sponge_trapdoor",
   "result": {
     "id": "vanillablocksplus:sponge_trapdoor"
   }

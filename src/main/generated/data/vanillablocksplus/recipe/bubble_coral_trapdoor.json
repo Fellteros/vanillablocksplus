@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:bubble_coral_slab"
-    }
+    "#": "vanillablocksplus:bubble_coral_slab"
   },
   "pattern": [
     "###",

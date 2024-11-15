@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:gilded_blackstone_slab"
-    }
+    "#": "vanillablocksplus:gilded_blackstone_slab"
   },
   "pattern": [
     "###",

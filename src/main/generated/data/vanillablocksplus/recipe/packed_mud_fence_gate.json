@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:packed_mud_slab"
-    },
-    "W": {
-      "item": "minecraft:packed_mud"
-    }
+    "#": "vanillablocksplus:packed_mud_slab",
+    "W": "minecraft:packed_mud"
   },
   "pattern": [
     "#W#",

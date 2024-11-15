@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:nether_wart_slab"
-    }
+    "#": "vanillablocksplus:nether_wart_slab"
   },
   "pattern": [
     "###",

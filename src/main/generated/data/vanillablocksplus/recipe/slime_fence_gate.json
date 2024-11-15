@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:slime_slab"
-    },
-    "W": {
-      "item": "minecraft:slime_block"
-    }
+    "#": "vanillablocksplus:slime_slab",
+    "W": "minecraft:slime_block"
   },
   "pattern": [
     "#W#",

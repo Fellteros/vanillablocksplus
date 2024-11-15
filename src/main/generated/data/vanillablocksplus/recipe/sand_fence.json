@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:sand_slab"
-    },
-    "W": {
-      "item": "minecraft:sand"
-    }
+    "#": "vanillablocksplus:sand_slab",
+    "W": "minecraft:sand"
   },
   "pattern": [
     "W#W",

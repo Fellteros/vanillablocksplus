@@ -3,9 +3,7 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:nether_quartz_ore_trapdoor"
-  },
+  "ingredient": "vanillablocksplus:nether_quartz_ore_trapdoor",
   "result": {
     "id": "minecraft:quartz"
   }

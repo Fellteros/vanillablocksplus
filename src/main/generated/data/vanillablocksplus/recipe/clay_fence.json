@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:clay_slab"
-    },
-    "W": {
-      "item": "minecraft:clay"
-    }
+    "#": "vanillablocksplus:clay_slab",
+    "W": "minecraft:clay"
   },
   "pattern": [
     "W#W",

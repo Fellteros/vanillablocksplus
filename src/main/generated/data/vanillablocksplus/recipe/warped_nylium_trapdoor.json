@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:warped_nylium_slab"
-    }
+    "#": "vanillablocksplus:warped_nylium_slab"
   },
   "pattern": [
     "###",

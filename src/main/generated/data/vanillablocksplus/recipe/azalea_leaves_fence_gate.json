@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:azalea_leaves_slab"
-    },
-    "W": {
-      "item": "minecraft:azalea_leaves"
-    }
+    "#": "vanillablocksplus:azalea_leaves_slab",
+    "W": "minecraft:azalea_leaves"
   },
   "pattern": [
     "#W#",

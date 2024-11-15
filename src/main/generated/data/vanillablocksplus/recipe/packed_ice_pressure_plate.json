@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:packed_ice_slab"
-    }
+    "#": "vanillablocksplus:packed_ice_slab"
   },
   "pattern": [
     "##"

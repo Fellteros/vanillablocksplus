@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": {
-      "item": "minecraft:diamond_ore"
-    }
+    "#": "minecraft:diamond_ore"
   },
   "pattern": [
     "#  ",

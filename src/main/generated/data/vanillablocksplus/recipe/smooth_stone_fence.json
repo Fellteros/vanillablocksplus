@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:smooth_stone_slab"
-    },
-    "W": {
-      "item": "minecraft:smooth_stone"
-    }
+    "#": "minecraft:smooth_stone_slab",
+    "W": "minecraft:smooth_stone"
   },
   "pattern": [
     "W#W",

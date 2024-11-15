@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:netherrack_button"
-  },
+  "ingredient": "vanillablocksplus:netherrack_button",
   "result": {
     "id": "vanillablocksplus:nether_brick_button"
   }

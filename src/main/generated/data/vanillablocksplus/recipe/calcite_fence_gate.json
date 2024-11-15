@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:calcite_slab"
-    },
-    "W": {
-      "item": "minecraft:calcite"
-    }
+    "#": "vanillablocksplus:calcite_slab",
+    "W": "minecraft:calcite"
   },
   "pattern": [
     "#W#",

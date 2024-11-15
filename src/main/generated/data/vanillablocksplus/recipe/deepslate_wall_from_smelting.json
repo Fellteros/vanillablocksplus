@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "minecraft:cobbled_deepslate_wall"
-  },
+  "ingredient": "minecraft:cobbled_deepslate_wall",
   "result": {
     "id": "vanillablocksplus:deepslate_wall"
   }

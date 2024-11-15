@@ -3,55 +3,23 @@
   "category": "building",
   "group": "fence",
   "ingredients": [
-    {
-      "item": "minecraft:light_gray_dye"
-    },
+    "minecraft:light_gray_dye",
     [
-      {
-        "item": "vanillablocksplus:black_wool_fence"
-      },
-      {
-        "item": "vanillablocksplus:blue_wool_fence"
-      },
-      {
-        "item": "vanillablocksplus:brown_wool_fence"
-      },
-      {
-        "item": "vanillablocksplus:cyan_wool_fence"
-      },
-      {
-        "item": "vanillablocksplus:gray_wool_fence"
-      },
-      {
-        "item": "vanillablocksplus:green_wool_fence"
-      },
-      {
-        "item": "vanillablocksplus:light_blue_wool_fence"
-      },
-      {
-        "item": "vanillablocksplus:lime_wool_fence"
-      },
-      {
-        "item": "vanillablocksplus:magenta_wool_fence"
-      },
-      {
-        "item": "vanillablocksplus:orange_wool_fence"
-      },
-      {
-        "item": "vanillablocksplus:pink_wool_fence"
-      },
-      {
-        "item": "vanillablocksplus:purple_wool_fence"
-      },
-      {
-        "item": "vanillablocksplus:red_wool_fence"
-      },
-      {
-        "item": "vanillablocksplus:yellow_wool_fence"
-      },
-      {
-        "item": "vanillablocksplus:white_wool_fence"
-      }
+      "vanillablocksplus:black_wool_fence",
+      "vanillablocksplus:blue_wool_fence",
+      "vanillablocksplus:brown_wool_fence",
+      "vanillablocksplus:cyan_wool_fence",
+      "vanillablocksplus:gray_wool_fence",
+      "vanillablocksplus:green_wool_fence",
+      "vanillablocksplus:light_blue_wool_fence",
+      "vanillablocksplus:lime_wool_fence",
+      "vanillablocksplus:magenta_wool_fence",
+      "vanillablocksplus:orange_wool_fence",
+      "vanillablocksplus:pink_wool_fence",
+      "vanillablocksplus:purple_wool_fence",
+      "vanillablocksplus:red_wool_fence",
+      "vanillablocksplus:yellow_wool_fence",
+      "vanillablocksplus:white_wool_fence"
     ]
   ],
   "result": {

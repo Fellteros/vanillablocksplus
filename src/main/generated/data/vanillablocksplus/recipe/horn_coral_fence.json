@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:horn_coral_slab"
-    },
-    "W": {
-      "item": "minecraft:horn_coral_block"
-    }
+    "#": "vanillablocksplus:horn_coral_slab",
+    "W": "minecraft:horn_coral_block"
   },
   "pattern": [
     "W#W",

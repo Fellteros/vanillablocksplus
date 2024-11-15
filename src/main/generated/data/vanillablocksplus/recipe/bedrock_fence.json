@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:bedrock_slab"
-    },
-    "W": {
-      "item": "minecraft:bedrock"
-    }
+    "#": "vanillablocksplus:bedrock_slab",
+    "W": "minecraft:bedrock"
   },
   "pattern": [
     "W#W",

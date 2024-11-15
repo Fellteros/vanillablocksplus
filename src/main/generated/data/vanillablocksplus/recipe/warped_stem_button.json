@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:warped_stem_slab"
-    }
+    "#": "vanillablocksplus:warped_stem_slab"
   },
   "pattern": [
     "##",

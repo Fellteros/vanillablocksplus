@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.35,
-  "ingredient": {
-    "item": "vanillablocksplus:clay_slab"
-  },
+  "ingredient": "vanillablocksplus:clay_slab",
   "result": {
     "id": "vanillablocksplus:terracotta_slab"
   }

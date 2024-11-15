@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:gravel_slab"
-    },
-    "W": {
-      "item": "minecraft:gravel"
-    }
+    "#": "vanillablocksplus:gravel_slab",
+    "W": "minecraft:gravel"
   },
   "pattern": [
     "W#W",

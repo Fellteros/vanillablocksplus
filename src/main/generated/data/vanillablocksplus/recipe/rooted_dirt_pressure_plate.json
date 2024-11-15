@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:rooted_dirt_slab"
-    }
+    "#": "vanillablocksplus:rooted_dirt_slab"
   },
   "pattern": [
     "##"

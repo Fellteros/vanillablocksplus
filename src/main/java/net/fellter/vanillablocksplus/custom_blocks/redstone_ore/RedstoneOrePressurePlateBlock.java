@@ -35,6 +35,7 @@ public class RedstoneOrePressurePlateBlock extends PressurePlateBlock {
 
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
+        super.onSteppedOn(world, pos, state, entity);
         if (!entity.bypassesSteppingEffects()) {
             light(state, world, pos);
         }
@@ -47,7 +48,7 @@ public class RedstoneOrePressurePlateBlock extends PressurePlateBlock {
             light(state, world, pos);
         }
 
-        return stack.getItem() instanceof BlockItem && (new ItemPlacementContext(player, hand, stack, hit)).canPlace() ? ActionResult.PASS : ActionResult.SUCCESS;
+        return (new ItemPlacementContext(player, hand, stack, hit)).canPlace() ? ActionResult.PASS_TO_DEFAULT_BLOCK_ACTION : ActionResult.SUCCESS;
     }
 
     private static void light(BlockState state, World world, BlockPos pos) {

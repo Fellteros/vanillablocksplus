@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:brain_coral_slab"
-    },
-    "W": {
-      "item": "minecraft:brain_coral_block"
-    }
+    "#": "vanillablocksplus:brain_coral_slab",
+    "W": "minecraft:brain_coral_block"
   },
   "pattern": [
     "#W#",

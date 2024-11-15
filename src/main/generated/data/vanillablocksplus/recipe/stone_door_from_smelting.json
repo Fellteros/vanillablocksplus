@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:cobblestone_door"
-  },
+  "ingredient": "vanillablocksplus:cobblestone_door",
   "result": {
     "id": "vanillablocksplus:stone_door"
   }

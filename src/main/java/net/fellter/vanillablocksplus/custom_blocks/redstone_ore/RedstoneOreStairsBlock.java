@@ -49,13 +49,13 @@ public class RedstoneOreStairsBlock extends StairsBlock {
             light(state, world, pos);
         }
 
-        return stack.getItem() instanceof BlockItem && (new ItemPlacementContext(player, hand, stack, hit)).canPlace() ? ActionResult.PASS : ActionResult.SUCCESS;
+        return (new ItemPlacementContext(player, hand, stack, hit)).canPlace() ? ActionResult.PASS_TO_DEFAULT_BLOCK_ACTION : ActionResult.SUCCESS;
     }
 
     private static void light(BlockState state, World world, BlockPos pos) {
         spawnParticles(world, pos);
         if (!state.get(LIT)) {
-            world.setBlockState(pos, (BlockState)state.with(LIT, true), Block.NOTIFY_ALL);
+            world.setBlockState(pos, state.with(LIT, true), Block.NOTIFY_ALL);
         }
     }
 
@@ -67,7 +67,7 @@ public class RedstoneOreStairsBlock extends StairsBlock {
     @Override
     public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
         if (state.get(LIT)) {
-            world.setBlockState(pos, (BlockState)state.with(LIT, false), Block.NOTIFY_ALL);
+            world.setBlockState(pos, state.with(LIT, false), Block.NOTIFY_ALL);
         }
     }
 

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:deepslate_tile_slab"
-    },
-    "W": {
-      "item": "minecraft:deepslate_tiles"
-    }
+    "#": "minecraft:deepslate_tile_slab",
+    "W": "minecraft:deepslate_tiles"
   },
   "pattern": [
     "W#W",

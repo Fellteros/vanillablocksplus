@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:pumpkin_slab"
-    }
+    "#": "vanillablocksplus:pumpkin_slab"
   },
   "pattern": [
     "##"

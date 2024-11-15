@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:emerald_ore"
-    }
+    "#": "minecraft:emerald_ore"
   },
   "pattern": [
     "###",

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:cracked_deepslate_tiles_slab"
-    },
-    "W": {
-      "item": "minecraft:cracked_deepslate_tiles"
-    }
+    "#": "vanillablocksplus:cracked_deepslate_tiles_slab",
+    "W": "minecraft:cracked_deepslate_tiles"
   },
   "pattern": [
     "#W#",

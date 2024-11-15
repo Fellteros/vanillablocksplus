@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:netherrack_door"
-  },
+  "ingredient": "vanillablocksplus:netherrack_door",
   "result": {
     "id": "vanillablocksplus:nether_brick_door"
   }

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:white_terracotta_slab"
-    },
-    "W": {
-      "item": "minecraft:white_terracotta"
-    }
+    "#": "vanillablocksplus:white_terracotta_slab",
+    "W": "minecraft:white_terracotta"
   },
   "pattern": [
     "#W#",

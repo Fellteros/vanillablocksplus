@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:chiseled_tuff_slab"
-    }
+    "#": "vanillablocksplus:chiseled_tuff_slab"
   },
   "pattern": [
     "###",

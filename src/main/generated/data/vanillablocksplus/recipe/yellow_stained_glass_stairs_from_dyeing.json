@@ -4,58 +4,24 @@
   "group": "stairs",
   "key": {
     "#": [
-      {
-        "item": "vanillablocksplus:black_stained_glass_stairs"
-      },
-      {
-        "item": "vanillablocksplus:blue_stained_glass_stairs"
-      },
-      {
-        "item": "vanillablocksplus:brown_stained_glass_stairs"
-      },
-      {
-        "item": "vanillablocksplus:cyan_stained_glass_stairs"
-      },
-      {
-        "item": "vanillablocksplus:gray_stained_glass_stairs"
-      },
-      {
-        "item": "vanillablocksplus:green_stained_glass_stairs"
-      },
-      {
-        "item": "vanillablocksplus:light_blue_stained_glass_stairs"
-      },
-      {
-        "item": "vanillablocksplus:light_gray_stained_glass_stairs"
-      },
-      {
-        "item": "vanillablocksplus:lime_stained_glass_stairs"
-      },
-      {
-        "item": "vanillablocksplus:magenta_stained_glass_stairs"
-      },
-      {
-        "item": "vanillablocksplus:orange_stained_glass_stairs"
-      },
-      {
-        "item": "vanillablocksplus:pink_stained_glass_stairs"
-      },
-      {
-        "item": "vanillablocksplus:purple_stained_glass_stairs"
-      },
-      {
-        "item": "vanillablocksplus:red_stained_glass_stairs"
-      },
-      {
-        "item": "vanillablocksplus:yellow_stained_glass_stairs"
-      },
-      {
-        "item": "vanillablocksplus:white_stained_glass_stairs"
-      }
+      "vanillablocksplus:black_stained_glass_stairs",
+      "vanillablocksplus:blue_stained_glass_stairs",
+      "vanillablocksplus:brown_stained_glass_stairs",
+      "vanillablocksplus:cyan_stained_glass_stairs",
+      "vanillablocksplus:gray_stained_glass_stairs",
+      "vanillablocksplus:green_stained_glass_stairs",
+      "vanillablocksplus:light_blue_stained_glass_stairs",
+      "vanillablocksplus:light_gray_stained_glass_stairs",
+      "vanillablocksplus:lime_stained_glass_stairs",
+      "vanillablocksplus:magenta_stained_glass_stairs",
+      "vanillablocksplus:orange_stained_glass_stairs",
+      "vanillablocksplus:pink_stained_glass_stairs",
+      "vanillablocksplus:purple_stained_glass_stairs",
+      "vanillablocksplus:red_stained_glass_stairs",
+      "vanillablocksplus:yellow_stained_glass_stairs",
+      "vanillablocksplus:white_stained_glass_stairs"
     ],
-    "X": {
-      "item": "minecraft:yellow_dye"
-    }
+    "X": "minecraft:yellow_dye"
   },
   "pattern": [
     "###",

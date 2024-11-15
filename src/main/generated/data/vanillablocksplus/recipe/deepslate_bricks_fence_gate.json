@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:deepslate_brick_slab"
-    },
-    "W": {
-      "item": "minecraft:deepslate_bricks"
-    }
+    "#": "minecraft:deepslate_brick_slab",
+    "W": "minecraft:deepslate_bricks"
   },
   "pattern": [
     "#W#",

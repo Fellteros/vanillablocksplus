@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:cracked_nether_brick_slab"
-    },
-    "W": {
-      "item": "minecraft:cracked_nether_bricks"
-    }
+    "#": "vanillablocksplus:cracked_nether_brick_slab",
+    "W": "minecraft:cracked_nether_bricks"
   },
   "pattern": [
     "#W#",

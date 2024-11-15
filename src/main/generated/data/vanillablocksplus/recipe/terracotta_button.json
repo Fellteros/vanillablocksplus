@@ -1,12 +1,14 @@
 {
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "cookingtime": 200,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "vanillablocksplus:clay_button"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:terracotta"
   },
+  "pattern": [
+    " # "
+  ],
   "result": {
+    "count": 1,
     "id": "vanillablocksplus:terracotta_button"
   }
 }

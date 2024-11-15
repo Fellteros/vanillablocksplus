@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:crying_obsidian_slab"
-    },
-    "W": {
-      "item": "minecraft:crying_obsidian"
-    }
+    "#": "vanillablocksplus:crying_obsidian_slab",
+    "W": "minecraft:crying_obsidian"
   },
   "pattern": [
     "#W#",

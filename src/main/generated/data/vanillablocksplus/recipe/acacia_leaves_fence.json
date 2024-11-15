@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:acacia_leaves_slab"
-    },
-    "W": {
-      "item": "minecraft:acacia_leaves"
-    }
+    "#": "vanillablocksplus:acacia_leaves_slab",
+    "W": "minecraft:acacia_leaves"
   },
   "pattern": [
     "W#W",

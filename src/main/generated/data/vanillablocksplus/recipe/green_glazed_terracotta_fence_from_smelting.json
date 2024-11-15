@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:green_terracotta_fence"
-  },
+  "ingredient": "vanillablocksplus:green_terracotta_fence",
   "result": {
     "id": "vanillablocksplus:green_glazed_terracotta_fence"
   }

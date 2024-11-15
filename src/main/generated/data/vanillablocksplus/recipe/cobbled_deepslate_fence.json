@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:cobbled_deepslate_slab"
-    },
-    "W": {
-      "item": "minecraft:cobbled_deepslate"
-    }
+    "#": "minecraft:cobbled_deepslate_slab",
+    "W": "minecraft:cobbled_deepslate"
   },
   "pattern": [
     "W#W",

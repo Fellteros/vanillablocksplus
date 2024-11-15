@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:bone_slab"
-    },
-    "W": {
-      "item": "minecraft:bone_block"
-    }
+    "#": "vanillablocksplus:bone_slab",
+    "W": "minecraft:bone_block"
   },
   "pattern": [
     "#W#",

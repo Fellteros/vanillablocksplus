@@ -20,6 +20,8 @@ import net.minecraft.util.Identifier;
 
 import java.util.function.Function;
 
+import static net.minecraft.block.Blocks.createLightLevelFromLitBlockState;
+
 public class ModBlocks2 {
 
     //melon
@@ -304,24 +306,24 @@ public class ModBlocks2 {
     public static final Block DEAD_HORN_CORAL_WALL = registerBlock("dead_horn_coral_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.DEAD_HORN_CORAL_BLOCK));
     //sponge
     public static final Block SPONGE_STAIRS = registerBlock("sponge_stairs", (settings) -> new SpongeStairsBlock(Blocks.SPONGE.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.SPONGE));
-    public static final Block SPONGE_SLAB = registerBlock("sponge_slab", (settings) -> new SpongeSlabBlock(settings), AbstractBlock.Settings.copy(Blocks.SPONGE));
+    public static final Block SPONGE_SLAB = registerBlock("sponge_slab", SpongeSlabBlock::new, AbstractBlock.Settings.copy(Blocks.SPONGE));
     public static final Block SPONGE_BUTTON = registerBlock("sponge_button", (settings) -> new SpongeButtonBlock(ModBlockSetType.SPONGE, 10, settings), AbstractBlock.Settings.copy(Blocks.SPONGE));
     public static final Block SPONGE_PRESSURE_PLATE = registerBlock("sponge_pressure_plate", (settings) -> new SpongePressurePlateBlock(ModBlockSetType.SPONGE, settings), AbstractBlock.Settings.copy(Blocks.SPONGE));
-    public static final Block SPONGE_FENCE = registerBlock("sponge_fence", (settings) -> new SpongeFenceBlock(settings), AbstractBlock.Settings.copy(Blocks.SPONGE));
+    public static final Block SPONGE_FENCE = registerBlock("sponge_fence", SpongeFenceBlock::new, AbstractBlock.Settings.copy(Blocks.SPONGE));
     public static final Block SPONGE_FENCE_GATE = registerBlock("sponge_fence_gate", (settings) -> new SpongeFenceGateBlock(ModWoodType.SPONGE, settings), AbstractBlock.Settings.copy(Blocks.SPONGE));
     public static final Block SPONGE_DOOR = registerBlock("sponge_door", (settings) -> new DoorBlock(ModBlockSetType.SPONGE, settings), AbstractBlock.Settings.copy(Blocks.SPONGE));
     public static final Block SPONGE_TRAPDOOR = registerBlock("sponge_trapdoor", (settings) -> new SpongeTrapdoorBlock(ModBlockSetType.SPONGE, settings), AbstractBlock.Settings.copy(Blocks.SPONGE));
-    public static final Block SPONGE_WALL = registerBlock("sponge_wall", (settings) -> new SpongeWallBlock(settings), AbstractBlock.Settings.copy(Blocks.SPONGE));
+    public static final Block SPONGE_WALL = registerBlock("sponge_wall", SpongeWallBlock::new, AbstractBlock.Settings.copy(Blocks.SPONGE));
     //wet_sponge
     public static final Block WET_SPONGE_STAIRS = registerBlock("wet_sponge_stairs", (settings) -> new WetSpongeStairsBlock(Blocks.WET_SPONGE.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.WET_SPONGE));
-    public static final Block WET_SPONGE_SLAB = registerBlock("wet_sponge_slab", (settings) -> new WetSpongeSlabBlock(settings), AbstractBlock.Settings.copy(Blocks.WET_SPONGE));
+    public static final Block WET_SPONGE_SLAB = registerBlock("wet_sponge_slab", WetSpongeSlabBlock::new, AbstractBlock.Settings.copy(Blocks.WET_SPONGE));
     public static final Block WET_SPONGE_BUTTON = registerBlock("wet_sponge_button", (settings) -> new WetSpongeButtonBlock(ModBlockSetType.WET_SPONGE, 10, settings), AbstractBlock.Settings.copy(Blocks.WET_SPONGE));
     public static final Block WET_SPONGE_PRESSURE_PLATE = registerBlock("wet_sponge_pressure_plate", (settings) -> new WetSpongePressurePlateBlock(ModBlockSetType.WET_SPONGE, settings), AbstractBlock.Settings.copy(Blocks.WET_SPONGE));
-    public static final Block WET_SPONGE_FENCE = registerBlock("wet_sponge_fence", (settings) -> new WetSpongeFenceBlock(settings), AbstractBlock.Settings.copy(Blocks.WET_SPONGE));
+    public static final Block WET_SPONGE_FENCE = registerBlock("wet_sponge_fence", WetSpongeFenceBlock::new, AbstractBlock.Settings.copy(Blocks.WET_SPONGE));
     public static final Block WET_SPONGE_FENCE_GATE = registerBlock("wet_sponge_fence_gate", (settings) -> new WetSpongeFenceGateBlock(ModWoodType.WET_SPONGE, settings), AbstractBlock.Settings.copy(Blocks.WET_SPONGE));
     public static final Block WET_SPONGE_DOOR = registerBlock("wet_sponge_door", (settings) -> new DoorBlock(ModBlockSetType.WET_SPONGE, settings), AbstractBlock.Settings.copy(Blocks.WET_SPONGE));
     public static final Block WET_SPONGE_TRAPDOOR = registerBlock("wet_sponge_trapdoor", (settings) -> new WetSpongeTrapdoorBlock(ModBlockSetType.WET_SPONGE, settings), AbstractBlock.Settings.copy(Blocks.WET_SPONGE));
-    public static final Block WET_SPONGE_WALL = registerBlock("wet_sponge_wall", (settings) -> new WetSpongeWallBlock(settings), AbstractBlock.Settings.copy(Blocks.WET_SPONGE));
+    public static final Block WET_SPONGE_WALL = registerBlock("wet_sponge_wall", WetSpongeWallBlock::new, AbstractBlock.Settings.copy(Blocks.WET_SPONGE));
     //coal_ore
     public static final Block COAL_ORE_STAIRS = registerBlock("coal_ore_stairs", (settings) -> new StairsBlock(Blocks.COAL_ORE.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.COAL_ORE));
     public static final Block COAL_ORE_SLAB = registerBlock("coal_ore_slab", SlabBlock::new, AbstractBlock.Settings.copy(Blocks.COAL_ORE));
@@ -404,24 +406,24 @@ public class ModBlocks2 {
     public static final Block DEEPSLATE_GOLD_ORE_WALL = registerBlock("deepslate_gold_ore_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.DEEPSLATE_GOLD_ORE));
     //redstone_ore
     public static final Block REDSTONE_ORE_STAIRS = registerBlock("redstone_ore_stairs", (settings) -> new RedstoneOreStairsBlock(Blocks.REDSTONE_ORE.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE));
-    public static final Block REDSTONE_ORE_SLAB = registerBlock("redstone_ore_slab", (settings) -> new RedstoneOreSlabBlock(settings), AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE));
+    public static final Block REDSTONE_ORE_SLAB = registerBlock("redstone_ore_slab", RedstoneOreSlabBlock::new, AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE));
     public static final Block REDSTONE_ORE_BUTTON = registerBlock("redstone_ore_button", (settings) -> new RedstoneOreButtonBlock(BlockSetType.STONE, 10, settings), AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE));
     public static final Block REDSTONE_ORE_PRESSURE_PLATE = registerBlock("redstone_ore_pressure_plate", (settings) -> new RedstoneOrePressurePlateBlock(BlockSetType.STONE, settings), AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE));
-    public static final Block REDSTONE_ORE_FENCE = registerBlock("redstone_ore_fence", (settings) -> new RedstoneOreFenceBlock(settings), AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE));
+    public static final Block REDSTONE_ORE_FENCE = registerBlock("redstone_ore_fence", RedstoneOreFenceBlock::new, AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE));
     public static final Block REDSTONE_ORE_FENCE_GATE = registerBlock("redstone_ore_fence_gate", (settings) -> new RedstoneOreFenceGateBlock(ModWoodType.STONE, settings), AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE));
     public static final Block REDSTONE_ORE_DOOR = registerBlock("redstone_ore_door", (settings) -> new RedstoneOreDoorBlock(BlockSetType.STONE, settings), AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE));
     public static final Block REDSTONE_ORE_TRAPDOOR = registerBlock("redstone_ore_trapdoor", (settings) -> new RedstoneOreTrapdoorBlock(BlockSetType.STONE, settings), AbstractBlock.Settings.copy(Blocks.REDSTONE_ORE));
-    public static final Block REDSTONE_ORE_WALL = registerBlock("redstone_ore_wall", WallBlock::new, AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f));
+    public static final Block REDSTONE_ORE_WALL = registerBlock("redstone_ore_wall", WallBlock::new, AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASEDRUM).ticksRandomly().strength(3.0f, 3.0f));
     //deepslate_redstone_ore
     public static final Block DEEPSLATE_REDSTONE_ORE_STAIRS = registerBlock("deepslate_redstone_ore_stairs", (settings) -> new RedstoneOreStairsBlock(Blocks.DEEPSLATE_REDSTONE_ORE.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE));
-    public static final Block DEEPSLATE_REDSTONE_ORE_SLAB = registerBlock("deepslate_redstone_ore_slab", (settings) -> new RedstoneOreSlabBlock(settings), AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE));
+    public static final Block DEEPSLATE_REDSTONE_ORE_SLAB = registerBlock("deepslate_redstone_ore_slab", RedstoneOreSlabBlock::new, AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE));
     public static final Block DEEPSLATE_REDSTONE_ORE_BUTTON = registerBlock("deepslate_redstone_ore_button", (settings) -> new RedstoneOreButtonBlock(ModBlockSetType.DEEPSLATE, 10, settings), AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE));
     public static final Block DEEPSLATE_REDSTONE_ORE_PRESSURE_PLATE = registerBlock("deepslate_redstone_ore_pressure_plate", (settings) -> new RedstoneOrePressurePlateBlock(ModBlockSetType.DEEPSLATE, settings), AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE));
-    public static final Block DEEPSLATE_REDSTONE_ORE_FENCE = registerBlock("deepslate_redstone_ore_fence", (settings) -> new RedstoneOreFenceBlock(settings), AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE));
+    public static final Block DEEPSLATE_REDSTONE_ORE_FENCE = registerBlock("deepslate_redstone_ore_fence", RedstoneOreFenceBlock::new, AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE));
     public static final Block DEEPSLATE_REDSTONE_ORE_FENCE_GATE = registerBlock("deepslate_redstone_ore_fence_gate", (settings) -> new RedstoneOreFenceGateBlock(ModWoodType.DEEPSLATE, settings), AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE));
     public static final Block DEEPSLATE_REDSTONE_ORE_DOOR = registerBlock("deepslate_redstone_ore_door", (settings) -> new RedstoneOreDoorBlock(ModBlockSetType.DEEPSLATE, settings), AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE));
     public static final Block DEEPSLATE_REDSTONE_ORE_TRAPDOOR = registerBlock("deepslate_redstone_ore_trapdoor", (settings) -> new RedstoneOreTrapdoorBlock(ModBlockSetType.DEEPSLATE, settings), AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE));
-    public static final Block DEEPSLATE_REDSTONE_ORE_WALL = registerBlock("deepslate_redstone_ore_wall", WallBlock::new, AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASEDRUM).requiresTool().ticksRandomly().strength(3.0f, 3.0f));
+    public static final Block DEEPSLATE_REDSTONE_ORE_WALL = registerBlock("deepslate_redstone_ore_wall", WallBlock::new, AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASEDRUM).ticksRandomly().strength(3.0f, 3.0f));
     //emerald_ore
     public static final Block EMERALD_ORE_STAIRS = registerBlock("emerald_ore_stairs", (settings) -> new StairsBlock(Blocks.EMERALD_ORE.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.EMERALD_ORE));
     public static final Block EMERALD_ORE_SLAB = registerBlock("emerald_ore_slab", SlabBlock::new, AbstractBlock.Settings.copy(Blocks.EMERALD_ORE));
@@ -554,7 +556,7 @@ public class ModBlocks2 {
     public static final Block GLOWSTONE_WALL = registerBlock("glowstone_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.GLOWSTONE));
 
     //leaves_def
-    static final Block LEAVES_DEF = registerBlock("leaves_def", (settings) -> new Block(settings), AbstractBlock.Settings.create().strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque() .allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never)
+    static final Block LEAVES_DEF = registerBlock("leaves_def", Block::new, AbstractBlock.Settings.create().strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque() .allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never)
             .blockVision(Blocks::never).burnable().pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never));
 
 
@@ -686,7 +688,7 @@ public class ModBlocks2 {
     public static final Block TUFF_BRICKS_DOOR = registerBlock("tuff_bricks_door", (settings) -> new DoorBlock(BlockSetType.STONE, settings), AbstractBlock.Settings.copy(Blocks.TUFF_BRICKS));
     public static final Block TUFF_BRICKS_TRAPDOOR = registerBlock("tuff_bricks_trapdoor", (settings) -> new TrapdoorBlock(BlockSetType.STONE, settings), AbstractBlock.Settings.copy(Blocks.TUFF_BRICKS));
 
-    public static final Block LOG_DEF = registerBlock("log_def", (settings) -> new Block(settings), AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2.0F).sounds(BlockSoundGroup.WOOD).burnable());
+    public static final Block LOG_DEF = registerBlock("log_def", Block::new, AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2.0F).sounds(BlockSoundGroup.WOOD).burnable());
 
     //oak_log_set
     public static final Block OAK_LOG_STAIRS = registerBlock("oak_log_stairs", (settings) -> new StairsBlock(Blocks.OAK_LOG.getDefaultState(), settings), AbstractBlock.Settings.copy(LOG_DEF));

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:oak_leaves_slab"
-    },
-    "W": {
-      "item": "minecraft:oak_leaves"
-    }
+    "#": "vanillablocksplus:oak_leaves_slab",
+    "W": "minecraft:oak_leaves"
   },
   "pattern": [
     "#W#",

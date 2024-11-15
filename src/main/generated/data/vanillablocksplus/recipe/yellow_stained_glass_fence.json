@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:yellow_stained_glass_slab"
-    },
-    "W": {
-      "item": "minecraft:yellow_stained_glass"
-    }
+    "#": "vanillablocksplus:yellow_stained_glass_slab",
+    "W": "minecraft:yellow_stained_glass"
   },
   "pattern": [
     "W#W",

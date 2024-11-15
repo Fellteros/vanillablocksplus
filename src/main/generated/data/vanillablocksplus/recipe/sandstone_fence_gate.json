@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:sandstone_slab"
-    },
-    "W": {
-      "item": "minecraft:sandstone"
-    }
+    "#": "minecraft:sandstone_slab",
+    "W": "minecraft:sandstone"
   },
   "pattern": [
     "#W#",

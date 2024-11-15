@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:mycelium_slab"
-    },
-    "W": {
-      "item": "minecraft:mycelium"
-    }
+    "#": "vanillablocksplus:mycelium_slab",
+    "W": "minecraft:mycelium"
   },
   "pattern": [
     "#W#",

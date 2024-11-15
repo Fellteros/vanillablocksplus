@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:snow_slab"
-    },
-    "W": {
-      "item": "minecraft:snow_block"
-    }
+    "#": "vanillablocksplus:snow_slab",
+    "W": "minecraft:snow_block"
   },
   "pattern": [
     "W#W",

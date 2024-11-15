@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:verdant_froglight_slab"
-    },
-    "W": {
-      "item": "minecraft:verdant_froglight"
-    }
+    "#": "vanillablocksplus:verdant_froglight_slab",
+    "W": "minecraft:verdant_froglight"
   },
   "pattern": [
     "#W#",

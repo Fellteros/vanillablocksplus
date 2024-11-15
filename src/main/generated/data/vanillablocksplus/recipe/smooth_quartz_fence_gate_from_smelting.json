@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:quartz_fence_gate"
-  },
+  "ingredient": "vanillablocksplus:quartz_fence_gate",
   "result": {
     "id": "vanillablocksplus:smooth_quartz_fence_gate"
   }

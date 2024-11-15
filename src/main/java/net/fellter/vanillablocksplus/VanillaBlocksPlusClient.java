@@ -8,8 +8,8 @@ public class VanillaBlocksPlusClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
-        TransparentBlocksRegistry.translucentBlocksMethod();
-        FoliageBlocksRegistry.foliageBlocksMethod();
+        TransparentBlocksRegistry.registerTransparentBlocks();
+        FoliageBlocksRegistry.registerFoliage();
 
     }
 }

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:tuff_slab"
-    },
-    "W": {
-      "item": "minecraft:tuff"
-    }
+    "#": "minecraft:tuff_slab",
+    "W": "minecraft:tuff"
   },
   "pattern": [
     "#W#",

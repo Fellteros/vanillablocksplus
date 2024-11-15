@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:soul_sand_slab"
-    },
-    "W": {
-      "item": "minecraft:soul_sand"
-    }
+    "#": "vanillablocksplus:soul_sand_slab",
+    "W": "minecraft:soul_sand"
   },
   "pattern": [
     "#W#",

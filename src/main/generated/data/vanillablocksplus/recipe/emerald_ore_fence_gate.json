@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:emerald_ore_slab"
-    },
-    "W": {
-      "item": "minecraft:emerald_ore"
-    }
+    "#": "vanillablocksplus:emerald_ore_slab",
+    "W": "minecraft:emerald_ore"
   },
   "pattern": [
     "#W#",

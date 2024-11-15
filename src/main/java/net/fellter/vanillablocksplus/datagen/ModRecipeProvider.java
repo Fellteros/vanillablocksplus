@@ -4058,7 +4058,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public String getName() {
-        return null;
+        return this.toString();
     }
 }
 

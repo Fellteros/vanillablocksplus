@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:orange_glazed_terracotta_slab"
-    }
+    "#": "vanillablocksplus:orange_glazed_terracotta_slab"
   },
   "pattern": [
     "###",

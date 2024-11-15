@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.35,
-  "ingredient": {
-    "item": "vanillablocksplus:clay_trapdoor"
-  },
+  "ingredient": "vanillablocksplus:clay_trapdoor",
   "result": {
     "id": "vanillablocksplus:terracotta_trapdoor"
   }

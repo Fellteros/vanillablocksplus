@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:honeycomb_slab"
-    }
+    "#": "vanillablocksplus:honeycomb_slab"
   },
   "pattern": [
     "##"

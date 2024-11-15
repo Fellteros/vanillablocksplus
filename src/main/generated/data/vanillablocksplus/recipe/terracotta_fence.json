@@ -1,12 +1,16 @@
 {
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "cookingtime": 200,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "vanillablocksplus:clay_fence"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "vanillablocksplus:terracotta_slab",
+    "W": "minecraft:terracotta"
   },
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
   "result": {
+    "count": 3,
     "id": "vanillablocksplus:terracotta_fence"
   }
 }

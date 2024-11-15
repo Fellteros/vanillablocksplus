@@ -48,7 +48,7 @@ public class RedstoneOreTrapdoorBlock extends TrapdoorBlock {
             light(state, world, pos);
         }
 
-        return stack.getItem() instanceof BlockItem && (new ItemPlacementContext(player, hand, stack, hit)).canPlace() ? ActionResult.PASS : ActionResult.SUCCESS;
+        return new ItemPlacementContext(player, hand, stack, hit).canPlace() ? ActionResult.PASS_TO_DEFAULT_BLOCK_ACTION : ActionResult.SUCCESS;
     }
 
     private static void light(BlockState state, World world, BlockPos pos) {

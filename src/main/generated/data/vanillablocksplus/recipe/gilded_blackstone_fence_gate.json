@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:gilded_blackstone_slab"
-    },
-    "W": {
-      "item": "minecraft:gilded_blackstone"
-    }
+    "#": "vanillablocksplus:gilded_blackstone_slab",
+    "W": "minecraft:gilded_blackstone"
   },
   "pattern": [
     "#W#",

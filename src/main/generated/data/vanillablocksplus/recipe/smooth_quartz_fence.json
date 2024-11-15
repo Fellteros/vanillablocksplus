@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:smooth_quartz_slab"
-    },
-    "W": {
-      "item": "minecraft:smooth_quartz"
-    }
+    "#": "minecraft:smooth_quartz_slab",
+    "W": "minecraft:smooth_quartz"
   },
   "pattern": [
     "W#W",

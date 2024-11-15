@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:deepslate_diamond_ore_slab"
-    }
+    "#": "vanillablocksplus:deepslate_diamond_ore_slab"
   },
   "pattern": [
     "##"

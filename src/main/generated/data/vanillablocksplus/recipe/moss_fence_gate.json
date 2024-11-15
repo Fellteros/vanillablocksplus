@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:moss_slab"
-    },
-    "W": {
-      "item": "minecraft:moss_block"
-    }
+    "#": "vanillablocksplus:moss_slab",
+    "W": "minecraft:moss_block"
   },
   "pattern": [
     "#W#",

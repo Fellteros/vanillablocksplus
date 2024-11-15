@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:deepslate_iron_ore_slab"
-    },
-    "W": {
-      "item": "minecraft:deepslate_iron_ore"
-    }
+    "#": "vanillablocksplus:deepslate_iron_ore_slab",
+    "W": "minecraft:deepslate_iron_ore"
   },
   "pattern": [
     "W#W",

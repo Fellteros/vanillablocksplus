@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:cherry_leaves_slab"
-    }
+    "#": "vanillablocksplus:cherry_leaves_slab"
   },
   "pattern": [
     "###",

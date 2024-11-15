@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:exposed_chiseled_copper_slab"
-    }
+    "#": "vanillablocksplus:exposed_chiseled_copper_slab"
   },
   "pattern": [
     "###",

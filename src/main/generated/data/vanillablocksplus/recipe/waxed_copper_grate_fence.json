@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:waxed_copper_grate_slab"
-    },
-    "W": {
-      "item": "minecraft:waxed_copper_grate"
-    }
+    "#": "vanillablocksplus:waxed_copper_grate_slab",
+    "W": "minecraft:waxed_copper_grate"
   },
   "pattern": [
     "W#W",

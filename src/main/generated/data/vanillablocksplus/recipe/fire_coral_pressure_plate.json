@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:fire_coral_slab"
-    }
+    "#": "vanillablocksplus:fire_coral_slab"
   },
   "pattern": [
     "##"

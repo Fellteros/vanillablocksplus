@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:deepslate_slab"
-    },
-    "W": {
-      "item": "minecraft:deepslate"
-    }
+    "#": "vanillablocksplus:deepslate_slab",
+    "W": "minecraft:deepslate"
   },
   "pattern": [
     "W#W",

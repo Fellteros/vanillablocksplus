@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:weathered_chiseled_copper_slab"
-    },
-    "W": {
-      "item": "minecraft:weathered_chiseled_copper"
-    }
+    "#": "vanillablocksplus:weathered_chiseled_copper_slab",
+    "W": "minecraft:weathered_chiseled_copper"
   },
   "pattern": [
     "W#W",

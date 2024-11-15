@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:magenta_terracotta_slab"
-  },
+  "ingredient": "vanillablocksplus:magenta_terracotta_slab",
   "result": {
     "id": "vanillablocksplus:magenta_glazed_terracotta_slab"
   }

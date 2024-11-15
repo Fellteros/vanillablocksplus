@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:prismarine_slab"
-    },
-    "W": {
-      "item": "minecraft:prismarine"
-    }
+    "#": "minecraft:prismarine_slab",
+    "W": "minecraft:prismarine"
   },
   "pattern": [
     "W#W",

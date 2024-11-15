@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:mud_slab"
-    }
+    "#": "vanillablocksplus:mud_slab"
   },
   "pattern": [
     "###",

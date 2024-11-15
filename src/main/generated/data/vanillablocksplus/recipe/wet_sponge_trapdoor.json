@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:wet_sponge_slab"
-    }
+    "#": "vanillablocksplus:wet_sponge_slab"
   },
   "pattern": [
     "###",

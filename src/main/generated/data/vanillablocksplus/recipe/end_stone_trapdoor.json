@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:end_stone_slab"
-    }
+    "#": "vanillablocksplus:end_stone_slab"
   },
   "pattern": [
     "###",

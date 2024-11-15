@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:basalt_slab"
-  },
+  "ingredient": "vanillablocksplus:basalt_slab",
   "result": {
     "id": "vanillablocksplus:smooth_basalt_slab"
   }

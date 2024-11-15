@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:smooth_basalt_slab"
-    },
-    "W": {
-      "item": "minecraft:smooth_basalt"
-    }
+    "#": "vanillablocksplus:smooth_basalt_slab",
+    "W": "minecraft:smooth_basalt"
   },
   "pattern": [
     "#W#",

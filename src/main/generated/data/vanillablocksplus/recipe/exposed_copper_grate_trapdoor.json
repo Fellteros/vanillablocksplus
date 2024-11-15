@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:exposed_copper_grate_slab"
-    }
+    "#": "vanillablocksplus:exposed_copper_grate_slab"
   },
   "pattern": [
     "###",

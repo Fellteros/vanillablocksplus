@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:crimson_stem_slab"
-    }
+    "#": "vanillablocksplus:crimson_stem_slab"
   },
   "pattern": [
     "##",

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:green_stained_glass"
-    }
+    "#": "minecraft:green_stained_glass"
   },
   "pattern": [
     "###",

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:hay_block_slab"
-    },
-    "W": {
-      "item": "minecraft:hay_block"
-    }
+    "#": "vanillablocksplus:hay_block_slab",
+    "W": "minecraft:hay_block"
   },
   "pattern": [
     "#W#",

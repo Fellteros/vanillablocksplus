@@ -7,7 +7,7 @@ import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.world.biome.FoliageColors;
 
 public class FoliageBlocksRegistry {
-    public static void foliageBlocksMethod() {
+    public static void registerFoliage() {
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
                     if (world == null || pos == null) {
                         return FoliageColors.getDefaultColor();

@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:lime_terracotta_button"
-  },
+  "ingredient": "vanillablocksplus:lime_terracotta_button",
   "result": {
     "id": "vanillablocksplus:lime_glazed_terracotta_button"
   }

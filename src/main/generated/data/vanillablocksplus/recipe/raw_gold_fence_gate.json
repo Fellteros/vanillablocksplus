@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:raw_gold_slab"
-    },
-    "W": {
-      "item": "minecraft:raw_gold_block"
-    }
+    "#": "vanillablocksplus:raw_gold_slab",
+    "W": "minecraft:raw_gold_block"
   },
   "pattern": [
     "#W#",

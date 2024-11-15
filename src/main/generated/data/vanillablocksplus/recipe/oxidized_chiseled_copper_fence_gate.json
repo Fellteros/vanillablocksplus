@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:oxidized_chiseled_copper_slab"
-    },
-    "W": {
-      "item": "minecraft:oxidized_chiseled_copper"
-    }
+    "#": "vanillablocksplus:oxidized_chiseled_copper_slab",
+    "W": "minecraft:oxidized_chiseled_copper"
   },
   "pattern": [
     "#W#",

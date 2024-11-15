@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:cobbled_deepslate_trapdoor"
-  },
+  "ingredient": "vanillablocksplus:cobbled_deepslate_trapdoor",
   "result": {
     "id": "vanillablocksplus:deepslate_trapdoor"
   }

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:waxed_oxidized_copper_slab"
-    },
-    "W": {
-      "item": "minecraft:waxed_oxidized_copper"
-    }
+    "#": "vanillablocksplus:waxed_oxidized_copper_slab",
+    "W": "minecraft:waxed_oxidized_copper"
   },
   "pattern": [
     "W#W",

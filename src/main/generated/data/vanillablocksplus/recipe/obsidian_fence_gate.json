@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:obsidian_slab"
-    },
-    "W": {
-      "item": "minecraft:obsidian"
-    }
+    "#": "vanillablocksplus:obsidian_slab",
+    "W": "minecraft:obsidian"
   },
   "pattern": [
     "#W#",

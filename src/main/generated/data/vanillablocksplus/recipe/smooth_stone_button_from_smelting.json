@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "minecraft:stone_button"
-  },
+  "ingredient": "minecraft:stone_button",
   "result": {
     "id": "vanillablocksplus:smooth_stone_button"
   }

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:deepslate_coal_ore_slab"
-    },
-    "W": {
-      "item": "minecraft:deepslate_coal_ore"
-    }
+    "#": "vanillablocksplus:deepslate_coal_ore_slab",
+    "W": "minecraft:deepslate_coal_ore"
   },
   "pattern": [
     "#W#",

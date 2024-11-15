@@ -7,15 +7,14 @@ import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.minecraft.block.Block;
 import org.slf4j.LoggerFactory;
 
-import java.lang.annotation.Target;
 import java.util.Map;
 
-public class StrippableBlocksRegistry {
+public class VBPStrippableBlocksRegistry {
 
 
-    private static final org.slf4j.Logger LOGGER = LoggerFactory.getLogger(StrippableBlocksRegistry.class);
+    private static final org.slf4j.Logger LOGGER = LoggerFactory.getLogger(VBPStrippableBlocksRegistry.class);
 
-    private StrippableBlocksRegistry() {
+    private VBPStrippableBlocksRegistry() {
     }
 
     public static void register(Block input, Block stripped) {

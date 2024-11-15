@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:magenta_concrete_slab"
-    }
+    "#": "vanillablocksplus:magenta_concrete_slab"
   },
   "pattern": [
     "##"

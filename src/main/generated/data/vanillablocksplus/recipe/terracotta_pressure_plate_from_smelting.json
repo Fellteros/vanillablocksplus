@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.35,
-  "ingredient": {
-    "item": "vanillablocksplus:clay_pressure_plate"
-  },
+  "ingredient": "vanillablocksplus:clay_pressure_plate",
   "result": {
     "id": "vanillablocksplus:terracotta_pressure_plate"
   }

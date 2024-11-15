@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:white_concrete_powder_slab"
-    }
+    "#": "vanillablocksplus:white_concrete_powder_slab"
   },
   "pattern": [
     "###",

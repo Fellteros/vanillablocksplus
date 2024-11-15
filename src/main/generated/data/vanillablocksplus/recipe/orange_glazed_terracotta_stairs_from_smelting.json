@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:orange_terracotta_stairs"
-  },
+  "ingredient": "vanillablocksplus:orange_terracotta_stairs",
   "result": {
     "id": "vanillablocksplus:orange_glazed_terracotta_stairs"
   }

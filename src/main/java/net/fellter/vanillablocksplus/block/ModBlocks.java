@@ -18,10 +18,10 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
+import java.lang.reflect.Method;
 import java.util.function.Function;
 
 public class ModBlocks {
-    
 
     private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> function, AbstractBlock.Settings settings) {
         Block block = function.apply(settings.registryKey(keyOfBlock(name)));
@@ -38,7 +38,6 @@ public class ModBlocks {
     }
 
 
-
     
     //plank walls
     public static final Block OAK_WALL = registerBlock("oak_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.OAK_PLANKS));
@@ -52,7 +51,6 @@ public class ModBlocks {
     public static final Block BAMBOO_WALL = registerBlock("bamboo_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.BAMBOO_PLANKS));
     public static final Block CRIMSON_WALL = registerBlock("crimson_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.CRIMSON_PLANKS));
     public static final Block WARPED_WALL = registerBlock("warped_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.WARPED_PLANKS));
-
 
     //oak_wood_set
     public static final Block OAK_WOOD_STAIRS = registerBlock("oak_wood_stairs", (settings) -> new StairsBlock(Blocks.OAK_WOOD.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.OAK_WOOD));
@@ -2385,6 +2383,7 @@ public class ModBlocks {
     public static final Block BONE_DOOR = registerBlock("bone_door", (settings) -> new DoorBlock(ModBlockSetType.BONE, settings), AbstractBlock.Settings.copy(Blocks.BONE_BLOCK));
     public static final Block BONE_TRAPDOOR = registerBlock("bone_trapdoor", (settings) -> new TrapdoorBlock(ModBlockSetType.BONE, settings), AbstractBlock.Settings.copy(Blocks.BONE_BLOCK));
     public static final Block BONE_WALL = registerBlock("bone_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.BONE_BLOCK));
+
 
 
 

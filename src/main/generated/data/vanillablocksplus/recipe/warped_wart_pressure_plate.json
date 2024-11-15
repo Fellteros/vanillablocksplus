@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:warped_wart_slab"
-    }
+    "#": "vanillablocksplus:warped_wart_slab"
   },
   "pattern": [
     "##"

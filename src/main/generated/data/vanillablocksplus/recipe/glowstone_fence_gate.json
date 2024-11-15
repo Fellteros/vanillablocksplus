@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:glowstone_slab"
-    },
-    "W": {
-      "item": "minecraft:glowstone"
-    }
+    "#": "vanillablocksplus:glowstone_slab",
+    "W": "minecraft:glowstone"
   },
   "pattern": [
     "#W#",

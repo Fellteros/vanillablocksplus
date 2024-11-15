@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:red_glazed_terracotta_slab"
-    },
-    "W": {
-      "item": "minecraft:red_glazed_terracotta"
-    }
+    "#": "vanillablocksplus:red_glazed_terracotta_slab",
+    "W": "minecraft:red_glazed_terracotta"
   },
   "pattern": [
     "#W#",

@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:netherrack_fence"
-  },
+  "ingredient": "vanillablocksplus:netherrack_fence",
   "result": {
     "id": "minecraft:nether_brick_fence"
   }

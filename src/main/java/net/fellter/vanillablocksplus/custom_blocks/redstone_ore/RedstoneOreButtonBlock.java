@@ -3,11 +3,16 @@ package net.fellter.vanillablocksplus.custom_blocks.redstone_ore;
 import net.minecraft.block.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.item.ItemStack;
 import net.minecraft.particle.DustParticleEffect;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.Properties;
+import net.minecraft.util.ActionResult;
+import net.minecraft.util.Hand;
+import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
@@ -39,6 +44,16 @@ public class RedstoneOreButtonBlock extends ButtonBlock {
         if (!state.get(LIT)) {
             world.setBlockState(pos, state.with(LIT, true), Block.NOTIFY_ALL);
         }
+    }
+
+    protected ActionResult onUseWithItem(ItemStack stack, BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
+        if (world.isClient) {
+            spawnParticles(world, pos);
+        } else {
+            light(state, world, pos);
+        }
+
+        return new ItemPlacementContext(player, hand, stack, hit).canPlace() ? ActionResult.PASS_TO_DEFAULT_BLOCK_ACTION : ActionResult.SUCCESS;
     }
 
     @Override

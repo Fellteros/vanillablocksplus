@@ -7,7 +7,7 @@ import net.minecraft.client.render.RenderLayer;
 
 public class TransparentBlocksRegistry {
 
-   public static void translucentBlocksMethod() {
+   public static void registerTransparentBlocks() {
        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(),
                ModBlocks.GRASS_BUTTON,
                ModBlocks.GRASS_FENCE,

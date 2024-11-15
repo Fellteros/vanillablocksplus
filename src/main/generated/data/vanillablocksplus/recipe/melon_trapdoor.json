@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:melon_slab"
-    }
+    "#": "vanillablocksplus:melon_slab"
   },
   "pattern": [
     "###",

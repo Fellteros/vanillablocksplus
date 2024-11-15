@@ -1,12 +1,14 @@
 {
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "cookingtime": 200,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "vanillablocksplus:clay_slab"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:terracotta"
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
+    "count": 6,
     "id": "vanillablocksplus:terracotta_slab"
   }
 }

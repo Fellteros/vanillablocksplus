@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:stone_bricks_pressure_plate"
-  },
+  "ingredient": "vanillablocksplus:stone_bricks_pressure_plate",
   "result": {
     "id": "vanillablocksplus:cracked_stone_bricks_pressure_plate"
   }

@@ -4,58 +4,24 @@
   "group": "pressure_plate",
   "key": {
     "#": [
-      {
-        "item": "vanillablocksplus:black_stained_glass_pressure_plate"
-      },
-      {
-        "item": "vanillablocksplus:blue_stained_glass_pressure_plate"
-      },
-      {
-        "item": "vanillablocksplus:brown_stained_glass_pressure_plate"
-      },
-      {
-        "item": "vanillablocksplus:cyan_stained_glass_pressure_plate"
-      },
-      {
-        "item": "vanillablocksplus:gray_stained_glass_pressure_plate"
-      },
-      {
-        "item": "vanillablocksplus:green_stained_glass_pressure_plate"
-      },
-      {
-        "item": "vanillablocksplus:light_blue_stained_glass_pressure_plate"
-      },
-      {
-        "item": "vanillablocksplus:light_gray_stained_glass_pressure_plate"
-      },
-      {
-        "item": "vanillablocksplus:lime_stained_glass_pressure_plate"
-      },
-      {
-        "item": "vanillablocksplus:magenta_stained_glass_pressure_plate"
-      },
-      {
-        "item": "vanillablocksplus:orange_stained_glass_pressure_plate"
-      },
-      {
-        "item": "vanillablocksplus:pink_stained_glass_pressure_plate"
-      },
-      {
-        "item": "vanillablocksplus:purple_stained_glass_pressure_plate"
-      },
-      {
-        "item": "vanillablocksplus:red_stained_glass_pressure_plate"
-      },
-      {
-        "item": "vanillablocksplus:yellow_stained_glass_pressure_plate"
-      },
-      {
-        "item": "vanillablocksplus:white_stained_glass_pressure_plate"
-      }
+      "vanillablocksplus:black_stained_glass_pressure_plate",
+      "vanillablocksplus:blue_stained_glass_pressure_plate",
+      "vanillablocksplus:brown_stained_glass_pressure_plate",
+      "vanillablocksplus:cyan_stained_glass_pressure_plate",
+      "vanillablocksplus:gray_stained_glass_pressure_plate",
+      "vanillablocksplus:green_stained_glass_pressure_plate",
+      "vanillablocksplus:light_blue_stained_glass_pressure_plate",
+      "vanillablocksplus:light_gray_stained_glass_pressure_plate",
+      "vanillablocksplus:lime_stained_glass_pressure_plate",
+      "vanillablocksplus:magenta_stained_glass_pressure_plate",
+      "vanillablocksplus:orange_stained_glass_pressure_plate",
+      "vanillablocksplus:pink_stained_glass_pressure_plate",
+      "vanillablocksplus:purple_stained_glass_pressure_plate",
+      "vanillablocksplus:red_stained_glass_pressure_plate",
+      "vanillablocksplus:yellow_stained_glass_pressure_plate",
+      "vanillablocksplus:white_stained_glass_pressure_plate"
     ],
-    "X": {
-      "item": "minecraft:pink_dye"
-    }
+    "X": "minecraft:pink_dye"
   },
   "pattern": [
     "###",

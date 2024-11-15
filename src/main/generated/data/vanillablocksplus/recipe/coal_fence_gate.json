@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:coal"
-    },
-    "W": {
-      "item": "vanillablocksplus:coal_bit"
-    }
+    "#": "minecraft:coal",
+    "W": "vanillablocksplus:coal_bit"
   },
   "pattern": [
     "#W#",

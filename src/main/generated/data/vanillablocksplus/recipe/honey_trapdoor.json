@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:honey_slab"
-    }
+    "#": "vanillablocksplus:honey_slab"
   },
   "pattern": [
     "###",

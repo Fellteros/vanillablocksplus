@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:target_slab"
-    },
-    "W": {
-      "item": "minecraft:target"
-    }
+    "#": "vanillablocksplus:target_slab",
+    "W": "minecraft:target"
   },
   "pattern": [
     "W#W",

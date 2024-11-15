@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:crimson_nylium_slab"
-    },
-    "W": {
-      "item": "minecraft:crimson_nylium"
-    }
+    "#": "vanillablocksplus:crimson_nylium_slab",
+    "W": "minecraft:crimson_nylium"
   },
   "pattern": [
     "#W#",

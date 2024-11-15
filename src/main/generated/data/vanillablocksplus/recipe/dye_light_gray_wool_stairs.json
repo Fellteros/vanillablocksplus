@@ -3,55 +3,23 @@
   "category": "building",
   "group": "stairs",
   "ingredients": [
-    {
-      "item": "minecraft:light_gray_dye"
-    },
+    "minecraft:light_gray_dye",
     [
-      {
-        "item": "vanillablocksplus:black_wool_stairs"
-      },
-      {
-        "item": "vanillablocksplus:blue_wool_stairs"
-      },
-      {
-        "item": "vanillablocksplus:brown_wool_stairs"
-      },
-      {
-        "item": "vanillablocksplus:cyan_wool_stairs"
-      },
-      {
-        "item": "vanillablocksplus:gray_wool_stairs"
-      },
-      {
-        "item": "vanillablocksplus:green_wool_stairs"
-      },
-      {
-        "item": "vanillablocksplus:light_blue_wool_stairs"
-      },
-      {
-        "item": "vanillablocksplus:lime_wool_stairs"
-      },
-      {
-        "item": "vanillablocksplus:magenta_wool_stairs"
-      },
-      {
-        "item": "vanillablocksplus:orange_wool_stairs"
-      },
-      {
-        "item": "vanillablocksplus:pink_wool_stairs"
-      },
-      {
-        "item": "vanillablocksplus:purple_wool_stairs"
-      },
-      {
-        "item": "vanillablocksplus:red_wool_stairs"
-      },
-      {
-        "item": "vanillablocksplus:yellow_wool_stairs"
-      },
-      {
-        "item": "vanillablocksplus:white_wool_stairs"
-      }
+      "vanillablocksplus:black_wool_stairs",
+      "vanillablocksplus:blue_wool_stairs",
+      "vanillablocksplus:brown_wool_stairs",
+      "vanillablocksplus:cyan_wool_stairs",
+      "vanillablocksplus:gray_wool_stairs",
+      "vanillablocksplus:green_wool_stairs",
+      "vanillablocksplus:light_blue_wool_stairs",
+      "vanillablocksplus:lime_wool_stairs",
+      "vanillablocksplus:magenta_wool_stairs",
+      "vanillablocksplus:orange_wool_stairs",
+      "vanillablocksplus:pink_wool_stairs",
+      "vanillablocksplus:purple_wool_stairs",
+      "vanillablocksplus:red_wool_stairs",
+      "vanillablocksplus:yellow_wool_stairs",
+      "vanillablocksplus:white_wool_stairs"
     ]
   ],
   "result": {

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:white_stained_glass_slab"
-    }
+    "#": "vanillablocksplus:white_stained_glass_slab"
   },
   "pattern": [
     "###",

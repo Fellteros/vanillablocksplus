@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:netherrack_pressure_plate"
-  },
+  "ingredient": "vanillablocksplus:netherrack_pressure_plate",
   "result": {
     "id": "vanillablocksplus:nether_brick_pressure_plate"
   }

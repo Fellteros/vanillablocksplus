@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:orange_concrete_slab"
-    },
-    "W": {
-      "item": "minecraft:orange_concrete"
-    }
+    "#": "vanillablocksplus:orange_concrete_slab",
+    "W": "minecraft:orange_concrete"
   },
   "pattern": [
     "W#W",

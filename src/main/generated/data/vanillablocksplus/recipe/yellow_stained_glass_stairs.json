@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": {
-      "item": "minecraft:yellow_stained_glass"
-    }
+    "#": "minecraft:yellow_stained_glass"
   },
   "pattern": [
     "#  ",

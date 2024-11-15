@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:azalea_leaves_slab"
-    }
+    "#": "vanillablocksplus:azalea_leaves_slab"
   },
   "pattern": [
     "###",

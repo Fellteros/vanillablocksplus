@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.35,
-  "ingredient": {
-    "item": "vanillablocksplus:clay_fence_gate"
-  },
+  "ingredient": "vanillablocksplus:clay_fence_gate",
   "result": {
     "id": "vanillablocksplus:terracotta_fence_gate"
   }

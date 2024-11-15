@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:brown_wool_slab"
-    }
+    "#": "vanillablocksplus:brown_wool_slab"
   },
   "pattern": [
     "###",

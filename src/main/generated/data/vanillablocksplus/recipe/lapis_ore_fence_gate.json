@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:lapis_ore_slab"
-    },
-    "W": {
-      "item": "minecraft:lapis_ore"
-    }
+    "#": "vanillablocksplus:lapis_ore_slab",
+    "W": "minecraft:lapis_ore"
   },
   "pattern": [
     "#W#",

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:waxed_copper_grate_slab"
-    }
+    "#": "vanillablocksplus:waxed_copper_grate_slab"
   },
   "pattern": [
     "###",

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:mangrove_log_slab"
-    }
+    "#": "vanillablocksplus:mangrove_log_slab"
   },
   "pattern": [
     "##",

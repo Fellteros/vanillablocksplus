@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:mud_brick_slab"
-    },
-    "W": {
-      "item": "minecraft:mud_bricks"
-    }
+    "#": "minecraft:mud_brick_slab",
+    "W": "minecraft:mud_bricks"
   },
   "pattern": [
     "W#W",

@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:stone_trapdoor"
-  },
+  "ingredient": "vanillablocksplus:stone_trapdoor",
   "result": {
     "id": "vanillablocksplus:smooth_stone_trapdoor"
   }

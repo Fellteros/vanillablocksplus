@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:crying_obsidian_slab"
-    }
+    "#": "vanillablocksplus:crying_obsidian_slab"
   },
   "pattern": [
     "###",

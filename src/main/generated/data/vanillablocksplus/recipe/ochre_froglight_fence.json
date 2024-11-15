@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:ochre_froglight_slab"
-    },
-    "W": {
-      "item": "minecraft:ochre_froglight"
-    }
+    "#": "vanillablocksplus:ochre_froglight_slab",
+    "W": "minecraft:ochre_froglight"
   },
   "pattern": [
     "W#W",

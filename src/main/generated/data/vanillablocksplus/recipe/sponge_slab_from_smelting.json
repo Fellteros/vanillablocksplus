@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:wet_sponge_slab"
-  },
+  "ingredient": "vanillablocksplus:wet_sponge_slab",
   "result": {
     "id": "vanillablocksplus:sponge_slab"
   }

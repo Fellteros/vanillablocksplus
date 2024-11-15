@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:melon_slab"
-    },
-    "W": {
-      "item": "minecraft:melon"
-    }
+    "#": "vanillablocksplus:melon_slab",
+    "W": "minecraft:melon"
   },
   "pattern": [
     "W#W",

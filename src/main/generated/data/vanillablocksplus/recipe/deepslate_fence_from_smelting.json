@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:cobbled_deepslate_fence"
-  },
+  "ingredient": "vanillablocksplus:cobbled_deepslate_fence",
   "result": {
     "id": "vanillablocksplus:deepslate_fence"
   }

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:polished_diorite_slab"
-    },
-    "W": {
-      "item": "minecraft:polished_diorite"
-    }
+    "#": "minecraft:polished_diorite_slab",
+    "W": "minecraft:polished_diorite"
   },
   "pattern": [
     "W#W",

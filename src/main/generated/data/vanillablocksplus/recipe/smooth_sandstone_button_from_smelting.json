@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:sandstone_button"
-  },
+  "ingredient": "vanillablocksplus:sandstone_button",
   "result": {
     "id": "vanillablocksplus:smooth_sandstone_button"
   }

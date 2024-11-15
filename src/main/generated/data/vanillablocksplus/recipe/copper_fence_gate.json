@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:copper_bit"
-    },
-    "W": {
-      "item": "minecraft:copper_ingot"
-    }
+    "#": "vanillablocksplus:copper_bit",
+    "W": "minecraft:copper_ingot"
   },
   "pattern": [
     "#W#",

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:red_concrete"
-    }
+    "#": "minecraft:red_concrete"
   },
   "pattern": [
     " # "

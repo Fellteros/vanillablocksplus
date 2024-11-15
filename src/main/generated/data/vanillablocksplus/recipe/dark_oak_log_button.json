@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:dark_oak_log_slab"
-    }
+    "#": "vanillablocksplus:dark_oak_log_slab"
   },
   "pattern": [
     "##",

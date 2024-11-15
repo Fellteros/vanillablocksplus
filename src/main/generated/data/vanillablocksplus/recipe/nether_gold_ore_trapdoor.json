@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:nether_gold_ore_slab"
-    }
+    "#": "vanillablocksplus:nether_gold_ore_slab"
   },
   "pattern": [
     "###",

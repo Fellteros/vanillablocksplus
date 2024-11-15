@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:end_stone_slab"
-    },
-    "W": {
-      "item": "minecraft:end_stone"
-    }
+    "#": "vanillablocksplus:end_stone_slab",
+    "W": "minecraft:end_stone"
   },
   "pattern": [
     "W#W",

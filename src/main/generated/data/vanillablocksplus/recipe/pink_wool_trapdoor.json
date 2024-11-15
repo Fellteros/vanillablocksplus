@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:pink_wool_slab"
-    }
+    "#": "vanillablocksplus:pink_wool_slab"
   },
   "pattern": [
     "###",

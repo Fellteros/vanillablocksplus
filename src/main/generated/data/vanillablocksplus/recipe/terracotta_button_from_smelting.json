@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.35,
-  "ingredient": {
-    "item": "vanillablocksplus:clay_button"
-  },
+  "ingredient": "vanillablocksplus:clay_button",
   "result": {
     "id": "vanillablocksplus:terracotta_button"
   }

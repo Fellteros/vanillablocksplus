@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:emerald_fragment"
-    }
+    "#": "vanillablocksplus:emerald_fragment"
   },
   "pattern": [
     " # "

@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:netherrack_wall"
-  },
+  "ingredient": "vanillablocksplus:netherrack_wall",
   "result": {
     "id": "minecraft:nether_brick_wall"
   }

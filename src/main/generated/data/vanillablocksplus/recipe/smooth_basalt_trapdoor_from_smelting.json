@@ -3,9 +3,7 @@
   "category": "blocks",
   "cookingtime": 200,
   "experience": 0.1,
-  "ingredient": {
-    "item": "vanillablocksplus:basalt_trapdoor"
-  },
+  "ingredient": "vanillablocksplus:basalt_trapdoor",
   "result": {
     "id": "vanillablocksplus:smooth_basalt_trapdoor"
   }

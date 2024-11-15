@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:mangrove_leaves_slab"
-    },
-    "W": {
-      "item": "minecraft:mangrove_leaves"
-    }
+    "#": "vanillablocksplus:mangrove_leaves_slab",
+    "W": "minecraft:mangrove_leaves"
   },
   "pattern": [
     "W#W",

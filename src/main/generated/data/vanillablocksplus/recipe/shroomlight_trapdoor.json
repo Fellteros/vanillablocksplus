@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:shroomlight_slab"
-    }
+    "#": "vanillablocksplus:shroomlight_slab"
   },
   "pattern": [
     "###",

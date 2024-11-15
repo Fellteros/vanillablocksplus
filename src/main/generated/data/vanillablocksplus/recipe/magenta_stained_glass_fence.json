@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:magenta_stained_glass_slab"
-    },
-    "W": {
-      "item": "minecraft:magenta_stained_glass"
-    }
+    "#": "vanillablocksplus:magenta_stained_glass_slab",
+    "W": "minecraft:magenta_stained_glass"
   },
   "pattern": [
     "W#W",

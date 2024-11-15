@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "vanillablocksplus:pumpkin_slab"
-    },
-    "W": {
-      "item": "minecraft:pumpkin"
-    }
+    "#": "vanillablocksplus:pumpkin_slab",
+    "W": "minecraft:pumpkin"
   },
   "pattern": [
     "#W#",

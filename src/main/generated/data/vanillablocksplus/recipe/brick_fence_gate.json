@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:brick_slab"
-    },
-    "W": {
-      "item": "minecraft:bricks"
-    }
+    "#": "minecraft:brick_slab",
+    "W": "minecraft:bricks"
   },
   "pattern": [
     "#W#",
