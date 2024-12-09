@@ -1,16 +1,19 @@
 package net.fellter.vanillablocksplus.datagen;
 
+import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.fellter.vanillablocksplus.item.ModItems;
 import net.fellter.vanillablocksplus.util.ModTextureMap;
 import net.minecraft.block.Blocks;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
-import net.minecraft.data.client.TextureMap;
+import net.minecraft.client.data.BlockStateModelGenerator;
+import net.minecraft.client.data.ItemModelGenerator;
+import net.minecraft.client.data.Models;
+import net.minecraft.client.data.TextureMap;
+import net.minecraft.client.render.item.tint.GrassTintSource;
+import net.minecraft.client.render.item.tint.TintSourceTypes;
+import net.minecraft.util.Identifier;
 
 import static net.fellter.vanillablocksplus.util.ModBlockStateModelGenerator.*;
 
@@ -563,6 +566,42 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks2.STR_CHERRY_LOG_SLAB)
                 .stairs(ModBlocks2.STR_CHERRY_LOG_STAIRS)
                 .wall(ModBlocks2.STR_CHERRY_LOG_WALL);
+        //pale_oak
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.PALE_OAK_LOG), Blocks.PALE_OAK_WOOD)
+                .button(ModBlocks.PALE_OAK_WOOD_BUTTON)
+                .fence(ModBlocks.PALE_OAK_WOOD_FENCE)
+                .fenceGate(ModBlocks.PALE_OAK_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.PALE_OAK_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.PALE_OAK_WOOD_SLAB)
+                .stairs(ModBlocks.PALE_OAK_WOOD_STAIRS)
+                .wall(ModBlocks.PALE_OAK_WOOD_WALL);
+        //pale_oak
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.PALE_OAK_LOG), Blocks.PALE_OAK_LOG)
+                .button(ModBlocks2.PALE_OAK_LOG_BUTTON)
+                .fence(ModBlocks2.PALE_OAK_LOG_FENCE)
+                .fenceGate(ModBlocks2.PALE_OAK_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.PALE_OAK_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.PALE_OAK_LOG_SLAB)
+                .stairs(ModBlocks2.PALE_OAK_LOG_STAIRS)
+                .wall(ModBlocks2.PALE_OAK_LOG_WALL);
+        //str_pale_oak
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.STRIPPED_PALE_OAK_LOG), Blocks.STRIPPED_PALE_OAK_WOOD)
+                .button(ModBlocks.STR_PALE_OAK_WOOD_BUTTON)
+                .fence(ModBlocks.STR_PALE_OAK_WOOD_FENCE)
+                .fenceGate(ModBlocks.STR_PALE_OAK_WOOD_FENCE_GATE)
+                .pressurePlate(ModBlocks.STR_PALE_OAK_WOOD_PRESSURE_PLATE)
+                .slab(ModBlocks.STR_PALE_OAK_WOOD_SLAB)
+                .stairs(ModBlocks.STR_PALE_OAK_WOOD_STAIRS)
+                .wall(ModBlocks.STR_PALE_OAK_WOOD_WALL);
+        //str_pale_oak
+        registerModModelTexturePool(bsmg, ModTextureMap.blockAndTopForEnds(Blocks.STRIPPED_PALE_OAK_LOG), Blocks.STRIPPED_PALE_OAK_LOG)
+                .button(ModBlocks2.STR_PALE_OAK_LOG_BUTTON)
+                .fence(ModBlocks2.STR_PALE_OAK_LOG_FENCE)
+                .fenceGate(ModBlocks2.STR_PALE_OAK_LOG_FENCE_GATE)
+                .pressurePlate(ModBlocks2.STR_PALE_OAK_LOG_PRESSURE_PLATE)
+                .slab(ModBlocks2.STR_PALE_OAK_LOG_SLAB)
+                .stairs(ModBlocks2.STR_PALE_OAK_LOG_STAIRS)
+                .wall(ModBlocks2.STR_PALE_OAK_LOG_WALL);
         //bamboo
         registerCustomButton(bsmg, ModBlocks.BAMBOO_BLOCK_BUTTON, ModTextureMap.blockAndTopForEnds(Blocks.BAMBOO_BLOCK));
         registerCustomFence(bsmg, ModBlocks.BAMBOO_BLOCK_FENCE, ModTextureMap.blockAndTopForEnds(Blocks.BAMBOO_BLOCK));
@@ -2422,85 +2461,95 @@ public class ModModelProvider extends FabricModelProvider {
                 .fenceGate(ModBlocks2.GLOWSTONE_FENCE_GATE)
                 .pressurePlate(ModBlocks2.GLOWSTONE_PRESSURE_PLATE);
         //oak_leaves
-        registerCustomButton(bsmg, ModBlocks2.OAK_LEAVES_BUTTON, ModTextureMap.customAll(Blocks.OAK_LEAVES, ""));
-        registerCustomWall(bsmg, ModBlocks2.OAK_LEAVES_WALL, ModTextureMap.customAll(Blocks.OAK_LEAVES, ""));
-        registerCustomSlab(bsmg, ModBlocks2.OAK_LEAVES_SLAB, Blocks.OAK_LEAVES, ModTextureMap.customAll(Blocks.OAK_LEAVES, ""));
-        registerCustomStairs(bsmg, ModBlocks2.OAK_LEAVES_STAIRS, ModTextureMap.customAll(Blocks.OAK_LEAVES, ""));
-        registerCustomFence(bsmg, ModBlocks2.OAK_LEAVES_FENCE, ModTextureMap.customAll(Blocks.OAK_LEAVES, ""));
-        registerCustomFenceGate(bsmg, ModBlocks2.OAK_LEAVES_FENCE_GATE, ModTextureMap.customAll(Blocks.OAK_LEAVES, ""));
-        registerCustomPressurePlate(bsmg, ModBlocks2.OAK_LEAVES_PRESSURE_PLATE, ModTextureMap.customAll(Blocks.OAK_LEAVES, ""));
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.OAK_LEAVES), Blocks.OAK_LEAVES).tintSource(new GrassTintSource())
+                .button(ModBlocks2.OAK_LEAVES_BUTTON)
+                .wall(ModBlocks2.OAK_LEAVES_WALL)
+                .slab(ModBlocks2.OAK_LEAVES_SLAB)
+                .stairs(ModBlocks2.OAK_LEAVES_STAIRS)
+                .fence(ModBlocks2.OAK_LEAVES_FENCE)
+                .fenceGate(ModBlocks2.OAK_LEAVES_FENCE_GATE)
+                .pressurePlate(ModBlocks2.OAK_LEAVES_PRESSURE_PLATE);
         //spruce_leaves
-        registerCustomButton(bsmg, ModBlocks2.SPRUCE_LEAVES_BUTTON, ModTextureMap.customAll(Blocks.SPRUCE_LEAVES, ""));
-        registerCustomWall(bsmg, ModBlocks2.SPRUCE_LEAVES_WALL, ModTextureMap.customAll(Blocks.SPRUCE_LEAVES, ""));
-        registerCustomSlab(bsmg, ModBlocks2.SPRUCE_LEAVES_SLAB, Blocks.SPRUCE_LEAVES, ModTextureMap.customAll(Blocks.SPRUCE_LEAVES, ""));
-        registerCustomStairs(bsmg, ModBlocks2.SPRUCE_LEAVES_STAIRS, ModTextureMap.customAll(Blocks.SPRUCE_LEAVES, ""));
-        registerCustomFence(bsmg, ModBlocks2.SPRUCE_LEAVES_FENCE, ModTextureMap.customAll(Blocks.SPRUCE_LEAVES, ""));
-        registerCustomFenceGate(bsmg, ModBlocks2.SPRUCE_LEAVES_FENCE_GATE, ModTextureMap.customAll(Blocks.SPRUCE_LEAVES, ""));
-        registerCustomPressurePlate(bsmg, ModBlocks2.SPRUCE_LEAVES_PRESSURE_PLATE, ModTextureMap.customAll(Blocks.SPRUCE_LEAVES, ""));
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.SPRUCE_LEAVES), Blocks.SPRUCE_LEAVES).tintSource(new GrassTintSource())
+                .button(ModBlocks2.SPRUCE_LEAVES_BUTTON)
+                .wall(ModBlocks2.SPRUCE_LEAVES_WALL)
+                .slab(ModBlocks2.SPRUCE_LEAVES_SLAB)
+                .stairs(ModBlocks2.SPRUCE_LEAVES_STAIRS)
+                .fence(ModBlocks2.SPRUCE_LEAVES_FENCE)
+                .fenceGate(ModBlocks2.SPRUCE_LEAVES_FENCE_GATE)
+                .pressurePlate(ModBlocks2.SPRUCE_LEAVES_PRESSURE_PLATE);
         //birch_leaves
-        registerCustomButton(bsmg, ModBlocks2.BIRCH_LEAVES_BUTTON, ModTextureMap.customAll(Blocks.BIRCH_LEAVES, ""));
-        registerCustomWall(bsmg, ModBlocks2.BIRCH_LEAVES_WALL, ModTextureMap.customAll(Blocks.BIRCH_LEAVES, ""));
-        registerCustomSlab(bsmg, ModBlocks2.BIRCH_LEAVES_SLAB, Blocks.BIRCH_LEAVES, ModTextureMap.customAll(Blocks.BIRCH_LEAVES, ""));
-        registerCustomStairs(bsmg, ModBlocks2.BIRCH_LEAVES_STAIRS, ModTextureMap.customAll(Blocks.BIRCH_LEAVES, ""));
-        registerCustomFence(bsmg, ModBlocks2.BIRCH_LEAVES_FENCE, ModTextureMap.customAll(Blocks.BIRCH_LEAVES, ""));
-        registerCustomFenceGate(bsmg, ModBlocks2.BIRCH_LEAVES_FENCE_GATE, ModTextureMap.customAll(Blocks.BIRCH_LEAVES, ""));
-        registerCustomPressurePlate(bsmg, ModBlocks2.BIRCH_LEAVES_PRESSURE_PLATE, ModTextureMap.customAll(Blocks.BIRCH_LEAVES, ""));
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.BIRCH_LEAVES), Blocks.BIRCH_LEAVES).tintSource(new GrassTintSource())
+                .button(ModBlocks2.BIRCH_LEAVES_BUTTON)
+                .wall(ModBlocks2.BIRCH_LEAVES_WALL)
+                .slab(ModBlocks2.BIRCH_LEAVES_SLAB)
+                .stairs(ModBlocks2.BIRCH_LEAVES_STAIRS)
+                .fence(ModBlocks2.BIRCH_LEAVES_FENCE)
+                .fenceGate(ModBlocks2.BIRCH_LEAVES_FENCE_GATE)
+                .pressurePlate(ModBlocks2.BIRCH_LEAVES_PRESSURE_PLATE);
         //jungle_leaves
-        registerCustomButton(bsmg, ModBlocks2.JUNGLE_LEAVES_BUTTON, ModTextureMap.customAll(Blocks.JUNGLE_LEAVES, ""));
-        registerCustomWall(bsmg, ModBlocks2.JUNGLE_LEAVES_WALL, ModTextureMap.customAll(Blocks.JUNGLE_LEAVES, ""));
-        registerCustomSlab(bsmg, ModBlocks2.JUNGLE_LEAVES_SLAB, Blocks.JUNGLE_LEAVES, ModTextureMap.customAll(Blocks.JUNGLE_LEAVES, ""));
-        registerCustomStairs(bsmg, ModBlocks2.JUNGLE_LEAVES_STAIRS, ModTextureMap.customAll(Blocks.JUNGLE_LEAVES, ""));
-        registerCustomFence(bsmg, ModBlocks2.JUNGLE_LEAVES_FENCE, ModTextureMap.customAll(Blocks.JUNGLE_LEAVES, ""));
-        registerCustomFenceGate(bsmg, ModBlocks2.JUNGLE_LEAVES_FENCE_GATE, ModTextureMap.customAll(Blocks.JUNGLE_LEAVES, ""));
-        registerCustomPressurePlate(bsmg, ModBlocks2.JUNGLE_LEAVES_PRESSURE_PLATE, ModTextureMap.customAll(Blocks.JUNGLE_LEAVES, ""));
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.JUNGLE_LEAVES), Blocks.JUNGLE_LEAVES).tintSource(new GrassTintSource())
+                .button(ModBlocks2.JUNGLE_LEAVES_BUTTON)
+                .wall(ModBlocks2.JUNGLE_LEAVES_WALL)
+                .slab(ModBlocks2.JUNGLE_LEAVES_SLAB)
+                .stairs(ModBlocks2.JUNGLE_LEAVES_STAIRS)
+                .fence(ModBlocks2.JUNGLE_LEAVES_FENCE)
+                .fenceGate(ModBlocks2.JUNGLE_LEAVES_FENCE_GATE)
+                .pressurePlate(ModBlocks2.JUNGLE_LEAVES_PRESSURE_PLATE);
         //acacia_leaves
-        registerCustomButton(bsmg, ModBlocks2.ACACIA_LEAVES_BUTTON, ModTextureMap.customAll(Blocks.ACACIA_LEAVES, ""));
-        registerCustomWall(bsmg, ModBlocks2.ACACIA_LEAVES_WALL, ModTextureMap.customAll(Blocks.ACACIA_LEAVES, ""));
-        registerCustomSlab(bsmg, ModBlocks2.ACACIA_LEAVES_SLAB, Blocks.ACACIA_LEAVES, ModTextureMap.customAll(Blocks.ACACIA_LEAVES, ""));
-        registerCustomStairs(bsmg, ModBlocks2.ACACIA_LEAVES_STAIRS, ModTextureMap.customAll(Blocks.ACACIA_LEAVES, ""));
-        registerCustomFence(bsmg, ModBlocks2.ACACIA_LEAVES_FENCE, ModTextureMap.customAll(Blocks.ACACIA_LEAVES, ""));
-        registerCustomFenceGate(bsmg, ModBlocks2.ACACIA_LEAVES_FENCE_GATE, ModTextureMap.customAll(Blocks.ACACIA_LEAVES, ""));
-        registerCustomPressurePlate(bsmg, ModBlocks2.ACACIA_LEAVES_PRESSURE_PLATE, ModTextureMap.customAll(Blocks.ACACIA_LEAVES, ""));
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.ACACIA_LEAVES), Blocks.ACACIA_LEAVES).tintSource(new GrassTintSource())
+                .button(ModBlocks2.ACACIA_LEAVES_BUTTON)
+                .wall(ModBlocks2.ACACIA_LEAVES_WALL)
+                .slab(ModBlocks2.ACACIA_LEAVES_SLAB)
+                .stairs(ModBlocks2.ACACIA_LEAVES_STAIRS)
+                .fence(ModBlocks2.ACACIA_LEAVES_FENCE)
+                .fenceGate(ModBlocks2.ACACIA_LEAVES_FENCE_GATE)
+                .pressurePlate(ModBlocks2.ACACIA_LEAVES_PRESSURE_PLATE);
         //dark_oak_leaves
-        registerCustomButton(bsmg, ModBlocks2.DARK_OAK_LEAVES_BUTTON, ModTextureMap.customAll(Blocks.DARK_OAK_LEAVES, ""));
-        registerCustomWall(bsmg, ModBlocks2.DARK_OAK_LEAVES_WALL, ModTextureMap.customAll(Blocks.DARK_OAK_LEAVES, ""));
-        registerCustomSlab(bsmg, ModBlocks2.DARK_OAK_LEAVES_SLAB, Blocks.DARK_OAK_LEAVES, ModTextureMap.customAll(Blocks.DARK_OAK_LEAVES, ""));
-        registerCustomStairs(bsmg, ModBlocks2.DARK_OAK_LEAVES_STAIRS, ModTextureMap.customAll(Blocks.DARK_OAK_LEAVES, ""));
-        registerCustomFence(bsmg, ModBlocks2.DARK_OAK_LEAVES_FENCE, ModTextureMap.customAll(Blocks.DARK_OAK_LEAVES, ""));
-        registerCustomFenceGate(bsmg, ModBlocks2.DARK_OAK_LEAVES_FENCE_GATE, ModTextureMap.customAll(Blocks.DARK_OAK_LEAVES, ""));
-        registerCustomPressurePlate(bsmg, ModBlocks2.DARK_OAK_LEAVES_PRESSURE_PLATE, ModTextureMap.customAll(Blocks.DARK_OAK_LEAVES, ""));
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.DARK_OAK_LEAVES), Blocks.DARK_OAK_LEAVES).tintSource(new GrassTintSource())
+                .button(ModBlocks2.DARK_OAK_LEAVES_BUTTON)
+                .wall(ModBlocks2.DARK_OAK_LEAVES_WALL)
+                .slab(ModBlocks2.DARK_OAK_LEAVES_SLAB)
+                .stairs(ModBlocks2.DARK_OAK_LEAVES_STAIRS)
+                .fence(ModBlocks2.DARK_OAK_LEAVES_FENCE)
+                .fenceGate(ModBlocks2.DARK_OAK_LEAVES_FENCE_GATE)
+                .pressurePlate(ModBlocks2.DARK_OAK_LEAVES_PRESSURE_PLATE);
         //mangrove_leaves
-        registerCustomButton(bsmg, ModBlocks2.MANGROVE_LEAVES_BUTTON, ModTextureMap.customAll(Blocks.MANGROVE_LEAVES, ""));
-        registerCustomWall(bsmg, ModBlocks2.MANGROVE_LEAVES_WALL, ModTextureMap.customAll(Blocks.MANGROVE_LEAVES, ""));
-        registerCustomSlab(bsmg, ModBlocks2.MANGROVE_LEAVES_SLAB, Blocks.MANGROVE_LEAVES, ModTextureMap.customAll(Blocks.MANGROVE_LEAVES, ""));
-        registerCustomStairs(bsmg, ModBlocks2.MANGROVE_LEAVES_STAIRS, ModTextureMap.customAll(Blocks.MANGROVE_LEAVES, ""));
-        registerCustomFence(bsmg, ModBlocks2.MANGROVE_LEAVES_FENCE, ModTextureMap.customAll(Blocks.MANGROVE_LEAVES, ""));
-        registerCustomFenceGate(bsmg, ModBlocks2.MANGROVE_LEAVES_FENCE_GATE, ModTextureMap.customAll(Blocks.MANGROVE_LEAVES, ""));
-        registerCustomPressurePlate(bsmg, ModBlocks2.MANGROVE_LEAVES_PRESSURE_PLATE, ModTextureMap.customAll(Blocks.MANGROVE_LEAVES, ""));
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.MANGROVE_LEAVES), Blocks.MANGROVE_LEAVES).tintSource(new GrassTintSource())
+                .button(ModBlocks2.MANGROVE_LEAVES_BUTTON)
+                .wall(ModBlocks2.MANGROVE_LEAVES_WALL)
+                .slab(ModBlocks2.MANGROVE_LEAVES_SLAB)
+                .stairs(ModBlocks2.MANGROVE_LEAVES_STAIRS)
+                .fence(ModBlocks2.MANGROVE_LEAVES_FENCE)
+                .fenceGate(ModBlocks2.MANGROVE_LEAVES_FENCE_GATE)
+                .pressurePlate(ModBlocks2.MANGROVE_LEAVES_PRESSURE_PLATE);
         //cherry_leaves
-        registerCustomButton(bsmg, ModBlocks2.CHERRY_LEAVES_BUTTON, ModTextureMap.customAll(Blocks.CHERRY_LEAVES, ""));
-        registerCustomWall(bsmg, ModBlocks2.CHERRY_LEAVES_WALL, ModTextureMap.customAll(Blocks.CHERRY_LEAVES, ""));
-        registerCustomSlab(bsmg, ModBlocks2.CHERRY_LEAVES_SLAB, Blocks.CHERRY_LEAVES, ModTextureMap.customAll(Blocks.CHERRY_LEAVES, ""));
-        registerCustomStairs(bsmg, ModBlocks2.CHERRY_LEAVES_STAIRS, ModTextureMap.customAll(Blocks.CHERRY_LEAVES, ""));
-        registerCustomFence(bsmg, ModBlocks2.CHERRY_LEAVES_FENCE, ModTextureMap.customAll(Blocks.CHERRY_LEAVES, ""));
-        registerCustomFenceGate(bsmg, ModBlocks2.CHERRY_LEAVES_FENCE_GATE, ModTextureMap.customAll(Blocks.CHERRY_LEAVES, ""));
-        registerCustomPressurePlate(bsmg, ModBlocks2.CHERRY_LEAVES_PRESSURE_PLATE, ModTextureMap.customAll(Blocks.CHERRY_LEAVES, ""));
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.CHERRY_LEAVES), Blocks.CHERRY_LEAVES).tintSource(new GrassTintSource())
+                .button(ModBlocks2.CHERRY_LEAVES_BUTTON)
+                .wall(ModBlocks2.CHERRY_LEAVES_WALL)
+                .slab(ModBlocks2.CHERRY_LEAVES_SLAB)
+                .stairs(ModBlocks2.CHERRY_LEAVES_STAIRS)
+                .fence(ModBlocks2.CHERRY_LEAVES_FENCE)
+                .fenceGate(ModBlocks2.CHERRY_LEAVES_FENCE_GATE)
+                .pressurePlate(ModBlocks2.CHERRY_LEAVES_PRESSURE_PLATE);
         //azalea_leaves
-        registerCustomButton(bsmg, ModBlocks2.AZALEA_LEAVES_BUTTON, ModTextureMap.customAll(Blocks.AZALEA_LEAVES, ""));
-        registerCustomWall(bsmg, ModBlocks2.AZALEA_LEAVES_WALL, ModTextureMap.customAll(Blocks.AZALEA_LEAVES, ""));
-        registerCustomSlab(bsmg, ModBlocks2.AZALEA_LEAVES_SLAB, Blocks.AZALEA_LEAVES, ModTextureMap.customAll(Blocks.AZALEA_LEAVES, ""));
-        registerCustomStairs(bsmg, ModBlocks2.AZALEA_LEAVES_STAIRS, ModTextureMap.customAll(Blocks.AZALEA_LEAVES, ""));
-        registerCustomFence(bsmg, ModBlocks2.AZALEA_LEAVES_FENCE, ModTextureMap.customAll(Blocks.AZALEA_LEAVES, ""));
-        registerCustomFenceGate(bsmg, ModBlocks2.AZALEA_LEAVES_FENCE_GATE, ModTextureMap.customAll(Blocks.AZALEA_LEAVES, ""));
-        registerCustomPressurePlate(bsmg, ModBlocks2.AZALEA_LEAVES_PRESSURE_PLATE, ModTextureMap.customAll(Blocks.AZALEA_LEAVES, ""));
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.AZALEA_LEAVES), Blocks.AZALEA_LEAVES)
+                .button(ModBlocks2.AZALEA_LEAVES_BUTTON)
+                .wall(ModBlocks2.AZALEA_LEAVES_WALL)
+                .slab(ModBlocks2.AZALEA_LEAVES_SLAB)
+                .stairs(ModBlocks2.AZALEA_LEAVES_STAIRS)
+                .fence(ModBlocks2.AZALEA_LEAVES_FENCE)
+                .fenceGate(ModBlocks2.AZALEA_LEAVES_FENCE_GATE)
+                .pressurePlate(ModBlocks2.AZALEA_LEAVES_PRESSURE_PLATE);
         //flowering_azalea_leaves
-        registerCustomButton(bsmg, ModBlocks2.FLOWERING_AZALEA_LEAVES_BUTTON, ModTextureMap.customAll(Blocks.FLOWERING_AZALEA_LEAVES, ""));
-        registerCustomWall(bsmg, ModBlocks2.FLOWERING_AZALEA_LEAVES_WALL, ModTextureMap.customAll(Blocks.FLOWERING_AZALEA_LEAVES, ""));
-        registerCustomSlab(bsmg, ModBlocks2.FLOWERING_AZALEA_LEAVES_SLAB, Blocks.FLOWERING_AZALEA_LEAVES, ModTextureMap.customAll(Blocks.FLOWERING_AZALEA_LEAVES, ""));
-        registerCustomStairs(bsmg, ModBlocks2.FLOWERING_AZALEA_LEAVES_STAIRS, ModTextureMap.customAll(Blocks.FLOWERING_AZALEA_LEAVES, ""));
-        registerCustomFence(bsmg, ModBlocks2.FLOWERING_AZALEA_LEAVES_FENCE, ModTextureMap.customAll(Blocks.FLOWERING_AZALEA_LEAVES, ""));
-        registerCustomFenceGate(bsmg, ModBlocks2.FLOWERING_AZALEA_LEAVES_FENCE_GATE, ModTextureMap.customAll(Blocks.FLOWERING_AZALEA_LEAVES, ""));
-        registerCustomPressurePlate(bsmg, ModBlocks2.FLOWERING_AZALEA_LEAVES_PRESSURE_PLATE, ModTextureMap.customAll(Blocks.FLOWERING_AZALEA_LEAVES, ""));
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.FLOWERING_AZALEA_LEAVES), Blocks.FLOWERING_AZALEA_LEAVES)
+                .button(ModBlocks2.FLOWERING_AZALEA_LEAVES_BUTTON)
+                .wall(ModBlocks2.FLOWERING_AZALEA_LEAVES_WALL)
+                .slab(ModBlocks2.FLOWERING_AZALEA_LEAVES_SLAB)
+                .stairs(ModBlocks2.FLOWERING_AZALEA_LEAVES_STAIRS)
+                .fence(ModBlocks2.FLOWERING_AZALEA_LEAVES_FENCE)
+                .fenceGate(ModBlocks2.FLOWERING_AZALEA_LEAVES_FENCE_GATE)
+                .pressurePlate(ModBlocks2.FLOWERING_AZALEA_LEAVES_PRESSURE_PLATE);
         //brown_mushroom
         bsmg.registerCubeAllModelTexturePool(Blocks.BROWN_MUSHROOM_BLOCK)
                 .button(ModBlocks2.BROWN_MUSHROOM_BUTTON)
@@ -2547,13 +2596,14 @@ public class ModModelProvider extends FabricModelProvider {
                 .fenceGate(ModBlocks2.SHROOMLIGHT_FENCE_GATE)
                 .pressurePlate(ModBlocks2.SHROOMLIGHT_PRESSURE_PLATE);
         //dried_kelp
-        registerCustomButton(bsmg, ModBlocks2.DRIED_KELP_BUTTON, ModTextureMap.custom(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
-        registerCustomWall(bsmg, ModBlocks2.DRIED_KELP_WALL, ModTextureMap.custom(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
-        registerCustomSlab(bsmg, ModBlocks2.DRIED_KELP_SLAB, Blocks.DRIED_KELP_BLOCK, ModTextureMap.custom(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
-        registerCustomStairs(bsmg, ModBlocks2.DRIED_KELP_STAIRS, ModTextureMap.custom(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
-        registerCustomFence(bsmg, ModBlocks2.DRIED_KELP_FENCE, ModTextureMap.custom(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
-        registerCustomFenceGate(bsmg, ModBlocks2.DRIED_KELP_FENCE_GATE, ModTextureMap.custom(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
-        registerCustomPressurePlate(bsmg, ModBlocks2.DRIED_KELP_PRESSURE_PLATE, ModTextureMap.custom(Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, Blocks.DRIED_KELP_BLOCK, "_side", "_top", "_bottom"));
+        registerModModelTexturePool(bsmg, ModTextureMap.blockSTB(Identifier.ofVanilla("block/dried_kelp")), Blocks.DRIED_KELP_BLOCK)
+                .button(ModBlocks2.DRIED_KELP_BUTTON)
+                .wall(ModBlocks2.DRIED_KELP_WALL)
+                .slab(ModBlocks2.DRIED_KELP_SLAB)
+                .stairs(ModBlocks2.DRIED_KELP_STAIRS)
+                .fence(ModBlocks2.DRIED_KELP_FENCE)
+                .fenceGate(ModBlocks2.DRIED_KELP_FENCE_GATE)
+                .pressurePlate(ModBlocks2.DRIED_KELP_PRESSURE_PLATE);
         //tube_coral_block
         bsmg.registerCubeAllModelTexturePool(Blocks.TUBE_CORAL_BLOCK)
                 .button(ModBlocks2.TUBE_CORAL_BUTTON)
@@ -3039,6 +3089,18 @@ public class ModModelProvider extends FabricModelProvider {
         //cherry
         registerCustomDoor(bsmg, ModBlocks2.STR_CHERRY_LOG_DOOR, Blocks.STRIPPED_CHERRY_LOG, Blocks.STRIPPED_CHERRY_LOG, "_top", "_top");
         registerCustomOrTrapdoor(bsmg, ModBlocks2.STR_CHERRY_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.STRIPPED_CHERRY_LOG, ModBlocks2.STR_CHERRY_LOG_TRAPDOOR, ModBlocks2.STR_CHERRY_LOG_TRAPDOOR, "", "", ""));
+        //pale_oak
+        bsmg.registerDoor(ModBlocks.PALE_OAK_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.PALE_OAK_WOOD_TRAPDOOR);
+        //pale_oak
+        registerCustomDoor(bsmg, ModBlocks2.PALE_OAK_LOG_DOOR, Blocks.PALE_OAK_LOG, Blocks.PALE_OAK_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.PALE_OAK_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.PALE_OAK_LOG, ModBlocks2.PALE_OAK_LOG_TRAPDOOR, ModBlocks2.PALE_OAK_LOG_TRAPDOOR, "", "", ""));
+        //str pale_oak
+        bsmg.registerDoor(ModBlocks.STR_PALE_OAK_WOOD_DOOR);
+        bsmg.registerOrientableTrapdoor(ModBlocks.STR_PALE_OAK_WOOD_TRAPDOOR);
+        //pale_oak
+        registerCustomDoor(bsmg, ModBlocks2.STR_PALE_OAK_LOG_DOOR, Blocks.STRIPPED_PALE_OAK_LOG, Blocks.STRIPPED_PALE_OAK_LOG, "_top", "_top");
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.STR_PALE_OAK_LOG_TRAPDOOR, ModTextureMap.custom(Blocks.STRIPPED_PALE_OAK_LOG, ModBlocks2.STR_PALE_OAK_LOG_TRAPDOOR, ModBlocks2.STR_PALE_OAK_LOG_TRAPDOOR, "", "", ""));
         //bamboo
         bsmg.registerDoor(ModBlocks.BAMBOO_BLOCK_DOOR);
         bsmg.registerOrientableTrapdoor(ModBlocks.BAMBOO_BLOCK_TRAPDOOR);
@@ -3710,26 +3772,26 @@ public class ModModelProvider extends FabricModelProvider {
         bsmg.registerOrientableTrapdoor(ModBlocks2.GLOWSTONE_TRAPDOOR);
         bsmg.registerDoor(ModBlocks2.GLOWSTONE_DOOR);
         //oak_leaves
-        registerCustomDoor(bsmg, ModBlocks2.OAK_LEAVES_DOOR);
-        registerTI0OrTrapdoor(bsmg, ModBlocks2.OAK_LEAVES_TRAPDOOR);
+        registerCustomDoor(bsmg, ModBlocks2.OAK_LEAVES_DOOR, new GrassTintSource());
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.OAK_LEAVES_TRAPDOOR, new GrassTintSource());
         //spruce_leaves
-        registerCustomDoor(bsmg, ModBlocks2.SPRUCE_LEAVES_DOOR);
-        registerTI0OrTrapdoor(bsmg, ModBlocks2.SPRUCE_LEAVES_TRAPDOOR);
+        registerCustomDoor(bsmg, ModBlocks2.SPRUCE_LEAVES_DOOR, new GrassTintSource());
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.SPRUCE_LEAVES_TRAPDOOR, new GrassTintSource());
         //birch_leaves
-        registerCustomDoor(bsmg, ModBlocks2.BIRCH_LEAVES_DOOR);
-        registerTI0OrTrapdoor(bsmg, ModBlocks2.BIRCH_LEAVES_TRAPDOOR);
+        registerCustomDoor(bsmg, ModBlocks2.BIRCH_LEAVES_DOOR, new GrassTintSource());
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.BIRCH_LEAVES_TRAPDOOR, new GrassTintSource());
         //jungle_leaves
-        registerCustomDoor(bsmg, ModBlocks2.JUNGLE_LEAVES_DOOR);
-        registerTI0OrTrapdoor(bsmg, ModBlocks2.JUNGLE_LEAVES_TRAPDOOR);
+        registerCustomDoor(bsmg, ModBlocks2.JUNGLE_LEAVES_DOOR, new GrassTintSource());
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.JUNGLE_LEAVES_TRAPDOOR, new GrassTintSource());
         //acacia_leaves
-        registerCustomDoor(bsmg, ModBlocks2.ACACIA_LEAVES_DOOR);
-        registerTI0OrTrapdoor(bsmg, ModBlocks2.ACACIA_LEAVES_TRAPDOOR);
+        registerCustomDoor(bsmg, ModBlocks2.ACACIA_LEAVES_DOOR, new GrassTintSource());
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.ACACIA_LEAVES_TRAPDOOR, new GrassTintSource());
         //dark_oak_leaves
-        registerCustomDoor(bsmg, ModBlocks2.DARK_OAK_LEAVES_DOOR);
-        registerTI0OrTrapdoor(bsmg, ModBlocks2.DARK_OAK_LEAVES_TRAPDOOR);
+        registerCustomDoor(bsmg, ModBlocks2.DARK_OAK_LEAVES_DOOR, new GrassTintSource());
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.DARK_OAK_LEAVES_TRAPDOOR, new GrassTintSource());
         //mangrove_leaves
-        registerCustomDoor(bsmg, ModBlocks2.MANGROVE_LEAVES_DOOR);
-        registerTI0OrTrapdoor(bsmg, ModBlocks2.MANGROVE_LEAVES_TRAPDOOR);
+        registerCustomDoor(bsmg, ModBlocks2.MANGROVE_LEAVES_DOOR, new GrassTintSource());
+        registerCustomOrTrapdoor(bsmg, ModBlocks2.MANGROVE_LEAVES_TRAPDOOR, new GrassTintSource());
         //cherry_leaves
         bsmg.registerOrientableTrapdoor(ModBlocks2.CHERRY_LEAVES_TRAPDOOR);
         bsmg.registerDoor(ModBlocks2.CHERRY_LEAVES_DOOR);

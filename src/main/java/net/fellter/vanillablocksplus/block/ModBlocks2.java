@@ -866,6 +866,28 @@ public class ModBlocks2 {
     public static final Block STR_CHERRY_LOG_TRAPDOOR = registerBlock("str_cherry_log_trapdoor", (settings) -> new TrapdoorBlock(BlockSetType.CHERRY, settings), AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD));
     public static final Block STR_CHERRY_LOG_WALL = registerBlock("str_cherry_log_wall", WallBlock::new, AbstractBlock.Settings.copy(LOG_DEF).sounds(BlockSoundGroup.CHERRY_WOOD));
 
+    //pale_oak_log_set
+    public static final Block PALE_OAK_LOG_STAIRS = registerBlock("pale_oak_log_stairs", (settings) -> new StairsBlock(Blocks.PALE_OAK_LOG.getDefaultState(), settings), AbstractBlock.Settings.copy(LOG_DEF));
+    public static final Block PALE_OAK_LOG_SLAB = registerBlock("pale_oak_log_slab", SlabBlock::new, AbstractBlock.Settings.copy(LOG_DEF));
+    public static final Block PALE_OAK_LOG_BUTTON = registerBlock("pale_oak_log_button", (settings) -> new ButtonBlock(BlockSetType.PALE_OAK, 10, settings), AbstractBlock.Settings.copy(LOG_DEF));
+    public static final Block PALE_OAK_LOG_PRESSURE_PLATE = registerBlock("pale_oak_log_pressure_plate", (settings) -> new PressurePlateBlock(BlockSetType.PALE_OAK, settings), AbstractBlock.Settings.copy(LOG_DEF));
+    public static final Block PALE_OAK_LOG_FENCE = registerBlock("pale_oak_log_fence", FenceBlock::new, AbstractBlock.Settings.copy(LOG_DEF));
+    public static final Block PALE_OAK_LOG_FENCE_GATE = registerBlock("pale_oak_log_fence_gate", (settings) -> new FenceGateBlock(WoodType.PALE_OAK, settings), AbstractBlock.Settings.copy(LOG_DEF));
+    public static final Block PALE_OAK_LOG_DOOR = registerBlock("pale_oak_log_door", (settings) -> new DoorBlock(BlockSetType.PALE_OAK, settings), AbstractBlock.Settings.copy(LOG_DEF));
+    public static final Block PALE_OAK_LOG_TRAPDOOR = registerBlock("pale_oak_log_trapdoor", (settings) -> new TrapdoorBlock(BlockSetType.PALE_OAK, settings), AbstractBlock.Settings.copy(LOG_DEF));
+    public static final Block PALE_OAK_LOG_WALL = registerBlock("pale_oak_log_wall", WallBlock::new, AbstractBlock.Settings.copy(LOG_DEF));
+
+    //str_pale_oak_log_set
+    public static final Block STR_PALE_OAK_LOG_STAIRS = registerBlock("str_pale_oak_log_stairs", (settings) -> new StairsBlock(Blocks.STRIPPED_PALE_OAK_LOG.getDefaultState(), settings), AbstractBlock.Settings.copy(LOG_DEF));
+    public static final Block STR_PALE_OAK_LOG_SLAB = registerBlock("str_pale_oak_log_slab", SlabBlock::new, AbstractBlock.Settings.copy(LOG_DEF));
+    public static final Block STR_PALE_OAK_LOG_BUTTON = registerBlock("str_pale_oak_log_button", (settings) -> new ButtonBlock(BlockSetType.PALE_OAK, 10, settings), AbstractBlock.Settings.copy(LOG_DEF));
+    public static final Block STR_PALE_OAK_LOG_PRESSURE_PLATE = registerBlock("str_pale_oak_log_pressure_plate", (settings) -> new PressurePlateBlock(BlockSetType.PALE_OAK, settings), AbstractBlock.Settings.copy(LOG_DEF));
+    public static final Block STR_PALE_OAK_LOG_FENCE = registerBlock("str_pale_oak_log_fence", FenceBlock::new, AbstractBlock.Settings.copy(LOG_DEF));
+    public static final Block STR_PALE_OAK_LOG_FENCE_GATE = registerBlock("str_pale_oak_log_fence_gate", (settings) -> new FenceGateBlock(WoodType.PALE_OAK, settings), AbstractBlock.Settings.copy(LOG_DEF));
+    public static final Block STR_PALE_OAK_LOG_DOOR = registerBlock("str_pale_oak_log_door", (settings) -> new DoorBlock(BlockSetType.PALE_OAK, settings), AbstractBlock.Settings.copy(LOG_DEF));
+    public static final Block STR_PALE_OAK_LOG_TRAPDOOR = registerBlock("str_pale_oak_log_trapdoor", (settings) -> new TrapdoorBlock(BlockSetType.PALE_OAK, settings), AbstractBlock.Settings.copy(LOG_DEF));
+    public static final Block STR_PALE_OAK_LOG_WALL = registerBlock("str_pale_oak_log_wall", WallBlock::new, AbstractBlock.Settings.copy(LOG_DEF));
+
     public static final Block NETHER_DEF = registerBlock("nether_def", Block::new, AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2.0F).sounds(BlockSoundGroup.NETHER_STEM));
 
     //crimson_stem_set

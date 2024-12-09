@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "vanillablocksplus:block/redstone_wall_inventory"
+  }
+}

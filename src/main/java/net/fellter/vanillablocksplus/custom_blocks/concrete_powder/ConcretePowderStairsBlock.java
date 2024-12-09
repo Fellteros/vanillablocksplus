@@ -44,7 +44,6 @@ public class ConcretePowderStairsBlock extends FallingStairsBlock implements Lan
 
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx) {
-        Direction direction = ctx.getSide();
         BlockPos blockPos = ctx.getBlockPos();
         World blockView = ctx.getWorld();
         BlockState placementState = super.getPlacementState(ctx);

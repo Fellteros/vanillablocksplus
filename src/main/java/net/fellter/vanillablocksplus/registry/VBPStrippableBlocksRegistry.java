@@ -191,6 +191,26 @@ public class VBPStrippableBlocksRegistry {
         register(ModBlocks2.CHERRY_LOG_TRAPDOOR, ModBlocks2.STR_CHERRY_LOG_TRAPDOOR);
         register(ModBlocks2.CHERRY_LOG_PRESSURE_PLATE, ModBlocks2.STR_CHERRY_LOG_PRESSURE_PLATE);
         register(ModBlocks2.CHERRY_LOG_WALL, ModBlocks2.STR_CHERRY_LOG_WALL);
+        //pale_oak
+        register(ModBlocks.PALE_OAK_WOOD_BUTTON, ModBlocks.STR_PALE_OAK_WOOD_BUTTON);
+        register(ModBlocks.PALE_OAK_WOOD_FENCE, ModBlocks.STR_PALE_OAK_WOOD_FENCE);
+        register(ModBlocks.PALE_OAK_WOOD_SLAB, ModBlocks.STR_PALE_OAK_WOOD_SLAB);
+        register(ModBlocks.PALE_OAK_WOOD_STAIRS, ModBlocks.STR_PALE_OAK_WOOD_STAIRS);
+        register(ModBlocks.PALE_OAK_WOOD_FENCE_GATE, ModBlocks.STR_PALE_OAK_WOOD_FENCE_GATE);
+        register(ModBlocks.PALE_OAK_WOOD_DOOR, ModBlocks.STR_PALE_OAK_WOOD_DOOR);
+        register(ModBlocks.PALE_OAK_WOOD_TRAPDOOR, ModBlocks.STR_PALE_OAK_WOOD_TRAPDOOR);
+        register(ModBlocks.PALE_OAK_WOOD_PRESSURE_PLATE, ModBlocks.STR_PALE_OAK_WOOD_PRESSURE_PLATE);
+        register(ModBlocks.PALE_OAK_WOOD_WALL, ModBlocks.STR_PALE_OAK_WOOD_WALL);
+        //pale_oak
+        register(ModBlocks2.PALE_OAK_LOG_BUTTON, ModBlocks2.STR_PALE_OAK_LOG_BUTTON);
+        register(ModBlocks2.PALE_OAK_LOG_FENCE, ModBlocks2.STR_PALE_OAK_LOG_FENCE);
+        register(ModBlocks2.PALE_OAK_LOG_SLAB, ModBlocks2.STR_PALE_OAK_LOG_SLAB);
+        register(ModBlocks2.PALE_OAK_LOG_STAIRS, ModBlocks2.STR_PALE_OAK_LOG_STAIRS);
+        register(ModBlocks2.PALE_OAK_LOG_FENCE_GATE, ModBlocks2.STR_PALE_OAK_LOG_FENCE_GATE);
+        register(ModBlocks2.PALE_OAK_LOG_DOOR, ModBlocks2.STR_PALE_OAK_LOG_DOOR);
+        register(ModBlocks2.PALE_OAK_LOG_TRAPDOOR, ModBlocks2.STR_PALE_OAK_LOG_TRAPDOOR);
+        register(ModBlocks2.PALE_OAK_LOG_PRESSURE_PLATE, ModBlocks2.STR_PALE_OAK_LOG_PRESSURE_PLATE);
+        register(ModBlocks2.PALE_OAK_LOG_WALL, ModBlocks2.STR_PALE_OAK_LOG_WALL);
         //cherry
         register(ModBlocks.BAMBOO_BLOCK_BUTTON, ModBlocks.STR_BAMBOO_BLOCK_BUTTON);
         register(ModBlocks.BAMBOO_BLOCK_FENCE, ModBlocks.STR_BAMBOO_BLOCK_FENCE);

@@ -304,6 +304,42 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks2.STR_CHERRY_LOG_FENCE_GATE);
         addDrop(ModBlocks2.STR_CHERRY_LOG_DOOR, doorDrops(ModBlocks2.STR_CHERRY_LOG_DOOR));
         addDrop(ModBlocks2.STR_CHERRY_LOG_SLAB, slabDrops(ModBlocks2.STR_CHERRY_LOG_SLAB));
+        //pale_oak
+        addDrop(ModBlocks.PALE_OAK_WOOD_STAIRS);
+        addDrop(ModBlocks.PALE_OAK_WOOD_TRAPDOOR);
+        addDrop(ModBlocks.PALE_OAK_WOOD_BUTTON);
+        addDrop(ModBlocks.PALE_OAK_WOOD_PRESSURE_PLATE);
+        addDrop(ModBlocks.PALE_OAK_WOOD_FENCE);
+        addDrop(ModBlocks.PALE_OAK_WOOD_FENCE_GATE);
+        addDrop(ModBlocks.PALE_OAK_WOOD_DOOR, doorDrops(ModBlocks.PALE_OAK_WOOD_DOOR));
+        addDrop(ModBlocks.PALE_OAK_WOOD_SLAB, slabDrops(ModBlocks.PALE_OAK_WOOD_SLAB));
+        //pale_oak
+        addDrop(ModBlocks2.PALE_OAK_LOG_STAIRS);
+        addDrop(ModBlocks2.PALE_OAK_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.PALE_OAK_LOG_BUTTON);
+        addDrop(ModBlocks2.PALE_OAK_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.PALE_OAK_LOG_FENCE);
+        addDrop(ModBlocks2.PALE_OAK_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.PALE_OAK_LOG_DOOR, doorDrops(ModBlocks2.PALE_OAK_LOG_DOOR));
+        addDrop(ModBlocks2.PALE_OAK_LOG_SLAB, slabDrops(ModBlocks2.PALE_OAK_LOG_SLAB));
+        //pale_oak
+        addDrop(ModBlocks.STR_PALE_OAK_WOOD_STAIRS);
+        addDrop(ModBlocks.STR_PALE_OAK_WOOD_TRAPDOOR);
+        addDrop(ModBlocks.STR_PALE_OAK_WOOD_BUTTON);
+        addDrop(ModBlocks.STR_PALE_OAK_WOOD_PRESSURE_PLATE);
+        addDrop(ModBlocks.STR_PALE_OAK_WOOD_FENCE);
+        addDrop(ModBlocks.STR_PALE_OAK_WOOD_FENCE_GATE);
+        addDrop(ModBlocks.STR_PALE_OAK_WOOD_DOOR, doorDrops(ModBlocks.STR_PALE_OAK_WOOD_DOOR));
+        addDrop(ModBlocks.STR_PALE_OAK_WOOD_SLAB, slabDrops(ModBlocks.STR_PALE_OAK_WOOD_SLAB));
+        //str_pale_oak
+        addDrop(ModBlocks2.STR_PALE_OAK_LOG_STAIRS);
+        addDrop(ModBlocks2.STR_PALE_OAK_LOG_TRAPDOOR);
+        addDrop(ModBlocks2.STR_PALE_OAK_LOG_BUTTON);
+        addDrop(ModBlocks2.STR_PALE_OAK_LOG_PRESSURE_PLATE);
+        addDrop(ModBlocks2.STR_PALE_OAK_LOG_FENCE);
+        addDrop(ModBlocks2.STR_PALE_OAK_LOG_FENCE_GATE);
+        addDrop(ModBlocks2.STR_PALE_OAK_LOG_DOOR, doorDrops(ModBlocks2.STR_PALE_OAK_LOG_DOOR));
+        addDrop(ModBlocks2.STR_PALE_OAK_LOG_SLAB, slabDrops(ModBlocks2.STR_PALE_OAK_LOG_SLAB));
         //bamboo
         addDrop(ModBlocks.BAMBOO_BLOCK_STAIRS);
         addDrop(ModBlocks.BAMBOO_BLOCK_TRAPDOOR);

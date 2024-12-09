@@ -319,6 +319,46 @@
   "block.vanillablocksplus.str_cherry_log_button": "Stripped Cherry Log Button",
   "block.vanillablocksplus.str_cherry_log_wall": "Stripped Cherry Log Wall",
 
+  "block.vanillablocksplus.pale_oak_wood_stairs": "Pale Oak Wood Stairs",
+  "block.vanillablocksplus.pale_oak_wood_slab": "Pale Oak Wood Slab",
+  "block.vanillablocksplus.pale_oak_wood_door": "Pale Oak Wood Door",
+  "block.vanillablocksplus.pale_oak_wood_trapdoor": "Pale Oak Wood Trapdoor",
+  "block.vanillablocksplus.pale_oak_wood_fence": "Pale Oak Wood Fence",
+  "block.vanillablocksplus.pale_oak_wood_fence_gate": "Pale Oak Wood Fence Gate",
+  "block.vanillablocksplus.pale_oak_wood_pressure_plate": "Pale Oak Wood Pressure Plate",
+  "block.vanillablocksplus.pale_oak_wood_button": "Pale Oak Wood Button",
+  "block.vanillablocksplus.pale_oak_wood_wall": "Pale Oak Wood Wall",
+
+  "block.vanillablocksplus.pale_oak_log_stairs": "Pale Oak Log Stairs",
+  "block.vanillablocksplus.pale_oak_log_slab": "Pale Oak Log Slab",
+  "block.vanillablocksplus.pale_oak_log_door": "Pale Oak Log Door",
+  "block.vanillablocksplus.pale_oak_log_trapdoor": "Pale Oak Log Trapdoor",
+  "block.vanillablocksplus.pale_oak_log_fence": "Pale Oak Log Fence",
+  "block.vanillablocksplus.pale_oak_log_fence_gate": "Pale Oak Log Fence Gate",
+  "block.vanillablocksplus.pale_oak_log_pressure_plate": "Pale Oak Log Pressure Plate",
+  "block.vanillablocksplus.pale_oak_log_button": "Pale Oak Log Button",
+  "block.vanillablocksplus.pale_oak_log_wall": "Pale Oak Log Wall",
+
+  "block.vanillablocksplus.str_pale_oak_wood_stairs": "Stripped Pale Oak Wood Stairs",
+  "block.vanillablocksplus.str_pale_oak_wood_slab": "Stripped Pale Oak Wood Slab",
+  "block.vanillablocksplus.str_pale_oak_wood_door": "Stripped Pale Oak Wood Door",
+  "block.vanillablocksplus.str_pale_oak_wood_trapdoor": "Stripped Pale Oak Wood Trapdoor",
+  "block.vanillablocksplus.str_pale_oak_wood_fence": "Stripped Pale Oak Wood Fence",
+  "block.vanillablocksplus.str_pale_oak_wood_fence_gate": "Stripped Pale Oak Wood Fence Gate",
+  "block.vanillablocksplus.str_pale_oak_wood_pressure_plate": "Stripped Pale Oak Wood Pressure Plate",
+  "block.vanillablocksplus.str_pale_oak_wood_button": "Stripped Pale Oak Wood Button",
+  "block.vanillablocksplus.str_pale_oak_wood_wall": "Stripped Pale Oak Wood Wall",
+
+  "block.vanillablocksplus.str_pale_oak_log_stairs": "Stripped Pale Oak Log Stairs",
+  "block.vanillablocksplus.str_pale_oak_log_slab": "Stripped Pale Oak Log Slab",
+  "block.vanillablocksplus.str_pale_oak_log_door": "Stripped Pale Oak Log Door",
+  "block.vanillablocksplus.str_pale_oak_log_trapdoor": "Stripped Pale Oak Log Trapdoor",
+  "block.vanillablocksplus.str_pale_oak_log_fence": "Stripped Pale Oak Log Fence",
+  "block.vanillablocksplus.str_pale_oak_log_fence_gate": "Stripped Pale Oak Log Fence Gate",
+  "block.vanillablocksplus.str_pale_oak_log_pressure_plate": "Stripped Pale Oak Log Pressure Plate",
+  "block.vanillablocksplus.str_pale_oak_log_button": "Stripped Pale Oak Log Button",
+  "block.vanillablocksplus.str_pale_oak_log_wall": "Stripped Pale Oak Log Wall",
+
   "block.vanillablocksplus.bamboo_block_stairs": "Bamboo Block Stairs",
   "block.vanillablocksplus.bamboo_block_slab": "Bamboo Block Slab",
   "block.vanillablocksplus.bamboo_block_door": "Bamboo Block Door",
@@ -3150,6 +3190,9 @@
   "item.vanillablocksplus.emerald_fragment": "Emerald Fragment",
   "item.vanillablocksplus.netherite_bit": "Netherite Bit",
   "item.vanillablocksplus.copper_bit": "Copper Bit",
+
+  "text.autoconfig.vanillablocksplus.option.commonBlocksOnly": "Only \"Common\" Blocks in Creative Menu",
+  "text.autoconfig.vanillablocksplus.title": "Vanilla+ Blocks Config",
 
   "itemgroup.vanillablocksplus": "Vanilla+ Blocks"
 }

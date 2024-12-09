@@ -21,14 +21,17 @@ public abstract class MixinAxeItem {
 
     @Shadow @Final protected static Map<Block, Block> STRIPPED_BLOCKS;
 
+    @Inject(method = "tryStrip", at = @At(value = "HEAD"), cancellable = true)
+    private void fellter$tryStrip(World world, BlockPos pos, PlayerEntity player, BlockState state, CallbackInfoReturnable<Optional<BlockState>> cir) {
+        Optional<BlockState> optional = this.fellter$getStrippedState(state);
+        if (optional.isPresent()) {
+            world.playSound(player, pos, SoundEvents.ITEM_AXE_STRIP, SoundCategory.BLOCKS, 1.0f, 1.0f);
+            cir.setReturnValue(optional);
+        }
+    }
 
-
-    /**
-     * @author Fellter
-     * @reason Cannot add blocks without the Axis property
-     */
-    @Overwrite
-    private Optional<BlockState> getStrippedState(BlockState blockState) {
+    @Unique
+    private Optional<BlockState> fellter$getStrippedState(BlockState blockState) {
         return Optional.ofNullable(STRIPPED_BLOCKS.get(blockState.getBlock())).map(block ->
                 block.getStateWithProperties(blockState));
     }

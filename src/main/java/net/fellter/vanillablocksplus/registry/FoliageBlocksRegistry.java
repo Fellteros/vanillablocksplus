@@ -1,16 +1,19 @@
 package net.fellter.vanillablocksplus.registry;
 
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.world.biome.FoliageColors;
 
+@Environment(EnvType.CLIENT)
 public class FoliageBlocksRegistry {
     public static void registerFoliage() {
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
                     if (world == null || pos == null) {
-                        return FoliageColors.getDefaultColor();
+                        return FoliageColors.DEFAULT;
                     }
                     return BiomeColors.getGrassColor(world, pos);
                 },
@@ -26,7 +29,7 @@ public class FoliageBlocksRegistry {
 
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
                     if (world == null || pos == null) {
-                        return FoliageColors.getDefaultColor();
+                        return FoliageColors.DEFAULT;
                     }
                     return BiomeColors.getFoliageColor(world, pos);
                 },
@@ -94,78 +97,80 @@ public class FoliageBlocksRegistry {
                 ModBlocks2.MANGROVE_LEAVES_TRAPDOOR,
                 ModBlocks2.MANGROVE_LEAVES_PRESSURE_PLATE);
 
-        ColorProviderRegistry.ITEM.register(((stack, tintIndex) -> FoliageColors.getDefaultColor()),
-                ModBlocks.GRASS_SLAB,
-                ModBlocks.GRASS_BUTTON,
-                ModBlocks.GRASS_FENCE,
-                ModBlocks.GRASS_STAIRS,
-                ModBlocks.GRASS_WALL,
-                ModBlocks.GRASS_FENCE_GATE,
-                ModBlocks.GRASS_TRAPDOOR,
-                ModBlocks.GRASS_PRESSURE_PLATE,
-                ModBlocks2.OAK_LEAVES_SLAB,
-                ModBlocks2.OAK_LEAVES_BUTTON,
-                ModBlocks2.OAK_LEAVES_FENCE,
-                ModBlocks2.OAK_LEAVES_STAIRS,
-                ModBlocks2.OAK_LEAVES_WALL,
-                ModBlocks2.OAK_LEAVES_FENCE_GATE,
-                ModBlocks2.OAK_LEAVES_TRAPDOOR,
-                ModBlocks2.OAK_LEAVES_PRESSURE_PLATE,
-                ModBlocks2.OAK_LEAVES_DOOR,
-                ModBlocks2.SPRUCE_LEAVES_SLAB,
-                ModBlocks2.SPRUCE_LEAVES_BUTTON,
-                ModBlocks2.SPRUCE_LEAVES_FENCE,
-                ModBlocks2.SPRUCE_LEAVES_STAIRS,
-                ModBlocks2.SPRUCE_LEAVES_WALL,
-                ModBlocks2.SPRUCE_LEAVES_FENCE_GATE,
-                ModBlocks2.SPRUCE_LEAVES_TRAPDOOR,
-                ModBlocks2.SPRUCE_LEAVES_PRESSURE_PLATE,
-                ModBlocks2.SPRUCE_LEAVES_DOOR,
-                ModBlocks2.BIRCH_LEAVES_SLAB,
-                ModBlocks2.BIRCH_LEAVES_BUTTON,
-                ModBlocks2.BIRCH_LEAVES_FENCE,
-                ModBlocks2.BIRCH_LEAVES_STAIRS,
-                ModBlocks2.BIRCH_LEAVES_WALL,
-                ModBlocks2.BIRCH_LEAVES_FENCE_GATE,
-                ModBlocks2.BIRCH_LEAVES_TRAPDOOR,
-                ModBlocks2.BIRCH_LEAVES_PRESSURE_PLATE,
-                ModBlocks2.BIRCH_LEAVES_DOOR,
-                ModBlocks2.JUNGLE_LEAVES_SLAB,
-                ModBlocks2.JUNGLE_LEAVES_BUTTON,
-                ModBlocks2.JUNGLE_LEAVES_FENCE,
-                ModBlocks2.JUNGLE_LEAVES_STAIRS,
-                ModBlocks2.JUNGLE_LEAVES_WALL,
-                ModBlocks2.JUNGLE_LEAVES_FENCE_GATE,
-                ModBlocks2.JUNGLE_LEAVES_TRAPDOOR,
-                ModBlocks2.JUNGLE_LEAVES_PRESSURE_PLATE,
-                ModBlocks2.JUNGLE_LEAVES_DOOR,
-                ModBlocks2.ACACIA_LEAVES_SLAB,
-                ModBlocks2.ACACIA_LEAVES_BUTTON,
-                ModBlocks2.ACACIA_LEAVES_FENCE,
-                ModBlocks2.ACACIA_LEAVES_STAIRS,
-                ModBlocks2.ACACIA_LEAVES_WALL,
-                ModBlocks2.ACACIA_LEAVES_FENCE_GATE,
-                ModBlocks2.ACACIA_LEAVES_TRAPDOOR,
-                ModBlocks2.ACACIA_LEAVES_PRESSURE_PLATE,
-                ModBlocks2.ACACIA_LEAVES_DOOR,
-                ModBlocks2.DARK_OAK_LEAVES_SLAB,
-                ModBlocks2.DARK_OAK_LEAVES_BUTTON,
-                ModBlocks2.DARK_OAK_LEAVES_FENCE,
-                ModBlocks2.DARK_OAK_LEAVES_STAIRS,
-                ModBlocks2.DARK_OAK_LEAVES_WALL,
-                ModBlocks2.DARK_OAK_LEAVES_FENCE_GATE,
-                ModBlocks2.DARK_OAK_LEAVES_TRAPDOOR,
-                ModBlocks2.DARK_OAK_LEAVES_PRESSURE_PLATE,
-                ModBlocks2.DARK_OAK_LEAVES_DOOR,
-                ModBlocks2.MANGROVE_LEAVES_SLAB,
-                ModBlocks2.MANGROVE_LEAVES_BUTTON,
-                ModBlocks2.MANGROVE_LEAVES_FENCE,
-                ModBlocks2.MANGROVE_LEAVES_STAIRS,
-                ModBlocks2.MANGROVE_LEAVES_WALL,
-                ModBlocks2.MANGROVE_LEAVES_FENCE_GATE,
-                ModBlocks2.MANGROVE_LEAVES_TRAPDOOR,
-                ModBlocks2.MANGROVE_LEAVES_PRESSURE_PLATE,
-                ModBlocks2.MANGROVE_LEAVES_DOOR);
+
+
+//        ColorProviderRegistry.ITEM.register(((stack, tintIndex) -> FoliageColors.getDefaultColor()),
+//                ModBlocks.GRASS_SLAB,
+//                ModBlocks.GRASS_BUTTON,
+//                ModBlocks.GRASS_FENCE,
+//                ModBlocks.GRASS_STAIRS,
+//                ModBlocks.GRASS_WALL,
+//                ModBlocks.GRASS_FENCE_GATE,
+//                ModBlocks.GRASS_TRAPDOOR,
+//                ModBlocks.GRASS_PRESSURE_PLATE,
+//                ModBlocks2.OAK_LEAVES_SLAB,
+//                ModBlocks2.OAK_LEAVES_BUTTON,
+//                ModBlocks2.OAK_LEAVES_FENCE,
+//                ModBlocks2.OAK_LEAVES_STAIRS,
+//                ModBlocks2.OAK_LEAVES_WALL,
+//                ModBlocks2.OAK_LEAVES_FENCE_GATE,
+//                ModBlocks2.OAK_LEAVES_TRAPDOOR,
+//                ModBlocks2.OAK_LEAVES_PRESSURE_PLATE,
+//                ModBlocks2.OAK_LEAVES_DOOR,
+//                ModBlocks2.SPRUCE_LEAVES_SLAB,
+//                ModBlocks2.SPRUCE_LEAVES_BUTTON,
+//                ModBlocks2.SPRUCE_LEAVES_FENCE,
+//                ModBlocks2.SPRUCE_LEAVES_STAIRS,
+//                ModBlocks2.SPRUCE_LEAVES_WALL,
+//                ModBlocks2.SPRUCE_LEAVES_FENCE_GATE,
+//                ModBlocks2.SPRUCE_LEAVES_TRAPDOOR,
+//                ModBlocks2.SPRUCE_LEAVES_PRESSURE_PLATE,
+//                ModBlocks2.SPRUCE_LEAVES_DOOR,
+//                ModBlocks2.BIRCH_LEAVES_SLAB,
+//                ModBlocks2.BIRCH_LEAVES_BUTTON,
+//                ModBlocks2.BIRCH_LEAVES_FENCE,
+//                ModBlocks2.BIRCH_LEAVES_STAIRS,
+//                ModBlocks2.BIRCH_LEAVES_WALL,
+//                ModBlocks2.BIRCH_LEAVES_FENCE_GATE,
+//                ModBlocks2.BIRCH_LEAVES_TRAPDOOR,
+//                ModBlocks2.BIRCH_LEAVES_PRESSURE_PLATE,
+//                ModBlocks2.BIRCH_LEAVES_DOOR,
+//                ModBlocks2.JUNGLE_LEAVES_SLAB,
+//                ModBlocks2.JUNGLE_LEAVES_BUTTON,
+//                ModBlocks2.JUNGLE_LEAVES_FENCE,
+//                ModBlocks2.JUNGLE_LEAVES_STAIRS,
+//                ModBlocks2.JUNGLE_LEAVES_WALL,
+//                ModBlocks2.JUNGLE_LEAVES_FENCE_GATE,
+//                ModBlocks2.JUNGLE_LEAVES_TRAPDOOR,
+//                ModBlocks2.JUNGLE_LEAVES_PRESSURE_PLATE,
+//                ModBlocks2.JUNGLE_LEAVES_DOOR,
+//                ModBlocks2.ACACIA_LEAVES_SLAB,
+//                ModBlocks2.ACACIA_LEAVES_BUTTON,
+//                ModBlocks2.ACACIA_LEAVES_FENCE,
+//                ModBlocks2.ACACIA_LEAVES_STAIRS,
+//                ModBlocks2.ACACIA_LEAVES_WALL,
+//                ModBlocks2.ACACIA_LEAVES_FENCE_GATE,
+//                ModBlocks2.ACACIA_LEAVES_TRAPDOOR,
+//                ModBlocks2.ACACIA_LEAVES_PRESSURE_PLATE,
+//                ModBlocks2.ACACIA_LEAVES_DOOR,
+//                ModBlocks2.DARK_OAK_LEAVES_SLAB,
+//                ModBlocks2.DARK_OAK_LEAVES_BUTTON,
+//                ModBlocks2.DARK_OAK_LEAVES_FENCE,
+//                ModBlocks2.DARK_OAK_LEAVES_STAIRS,
+//                ModBlocks2.DARK_OAK_LEAVES_WALL,
+//                ModBlocks2.DARK_OAK_LEAVES_FENCE_GATE,
+//                ModBlocks2.DARK_OAK_LEAVES_TRAPDOOR,
+//                ModBlocks2.DARK_OAK_LEAVES_PRESSURE_PLATE,
+//                ModBlocks2.DARK_OAK_LEAVES_DOOR,
+//                ModBlocks2.MANGROVE_LEAVES_SLAB,
+//                ModBlocks2.MANGROVE_LEAVES_BUTTON,
+//                ModBlocks2.MANGROVE_LEAVES_FENCE,
+//                ModBlocks2.MANGROVE_LEAVES_STAIRS,
+//                ModBlocks2.MANGROVE_LEAVES_WALL,
+//                ModBlocks2.MANGROVE_LEAVES_FENCE_GATE,
+//                ModBlocks2.MANGROVE_LEAVES_TRAPDOOR,
+//                ModBlocks2.MANGROVE_LEAVES_PRESSURE_PLATE,
+//                ModBlocks2.MANGROVE_LEAVES_DOOR);
 
     }
 }

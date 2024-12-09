@@ -9,6 +9,7 @@ import net.fellter.vanillablocksplus.registry.FlammableBlocksRegistry;
 import net.fellter.vanillablocksplus.registry.FuelRegistry;
 import net.fellter.vanillablocksplus.registry.OxidizableBlockRegistry;
 import net.fellter.vanillablocksplus.registry.VBPStrippableBlocksRegistry;
+import net.minecraft.registry.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +20,7 @@ public class VanillaBlocksPlus implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
 		ModBlocks.registerModBlocks();
 		ModBlocks2.registerModBlocks2();
 		ModItems.registerModItems();
@@ -28,8 +30,6 @@ public class VanillaBlocksPlus implements ModInitializer {
 		OxidizableBlockRegistry.registerOxidizables();
 		VBPStrippableBlocksRegistry.registerStrippables();
 		FuelRegistry.registerFuels();
-
-
 
 
 	}

@@ -2,30 +2,41 @@ package net.fellter.vanillablocksplus.util;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.enums.*;
-import net.minecraft.client.color.block.BlockColors;
-import net.minecraft.data.client.*;
+import net.minecraft.client.data.*;
+import net.minecraft.client.render.item.tint.TintSource;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.Direction;
-import org.jetbrains.annotations.Nullable;
 
 public class ModBlockStateModelGenerator {
 
-
-    public ModBlockStateModelGenerator() {
-    }
 
     public static class ModBlockTexturePool {
         private final TextureMap textureMap;
         private final BlockStateModelGenerator bsmg;
         private final Identifier baseModelId;
+        private TintSource tintSource;
 
         public ModBlockTexturePool(TextureMap textureMap, BlockStateModelGenerator bsmg, Block block) {
             this.textureMap = textureMap;
             this.bsmg = bsmg;
              this.baseModelId = TextureMap.getId(block);
+             this.tintSource = null;
+        }
+
+        private void registerItemModel(Block block, Identifier model) {
+            if (tintSource == null) {
+                bsmg.registerParentedItemModel(block, model);
+            } else {
+                bsmg.registerTintedItemModel(block, model, tintSource);
+            }
+        }
+
+        public ModBlockTexturePool tintSource(TintSource tintSource) {
+            this.tintSource = tintSource;
+            return this;
         }
 
         public ModBlockTexturePool button(Block buttonBlock) {
@@ -33,7 +44,7 @@ public class ModBlockStateModelGenerator {
             Identifier identifier2 = ModModels.BUTTON_STB_PRESSED.upload(buttonBlock, this.textureMap, bsmg.modelCollector);
             bsmg.blockStateCollector.accept(createButtonBlockState(buttonBlock, identifier, identifier2));
             Identifier identifier3 = ModModels.BUTTON_STB_INVENTORY.upload(buttonBlock, this.textureMap, bsmg.modelCollector);
-            bsmg.registerParentedItemModel(buttonBlock, identifier3);
+            registerItemModel(buttonBlock, identifier3);
             return this;
         }
         public ModBlockTexturePool wall(Block wallBlock) {
@@ -44,7 +55,7 @@ public class ModBlockStateModelGenerator {
             Identifier identifier5 = ModModels.WALL_STB_SIDE_TALL_SHORT.upload(wallBlock, textureMap, bsmg.modelCollector);
             bsmg.blockStateCollector.accept(createWallBlockState(wallBlock, identifier, identifier2, identifier3, identifier4, identifier5));
             Identifier identifier6 = ModModels.WALL_STB_INVENTORY.upload(wallBlock, textureMap, bsmg.modelCollector);
-            bsmg.registerParentedItemModel(wallBlock, identifier6);
+            registerItemModel(wallBlock, identifier6);
             return this;
         }
         public ModBlockTexturePool fence(Block fenceBlock) {
@@ -52,7 +63,7 @@ public class ModBlockStateModelGenerator {
             Identifier identifier2 = ModModels.FENCE_STB_SIDE.upload(fenceBlock, this.textureMap, bsmg.modelCollector);
             bsmg.blockStateCollector.accept(BlockStateModelGenerator.createFenceBlockState(fenceBlock, identifier, identifier2));
             Identifier identifier3 = ModModels.FENCE_STB_INVENTORY.upload(fenceBlock, this.textureMap, bsmg.modelCollector);
-            bsmg.registerParentedItemModel(fenceBlock, identifier3);
+            registerItemModel(fenceBlock, identifier3);
             return this;
         }
         public ModBlockTexturePool fenceGate(Block fenceGateBlock) {
@@ -61,12 +72,14 @@ public class ModBlockStateModelGenerator {
             Identifier identifier3 = ModModels.FENCE_GATE_STB_WALL_OPEN.upload(fenceGateBlock, this.textureMap, bsmg.modelCollector);
             Identifier identifier4 = ModModels.FENCE_GATE_STB_WALL.upload(fenceGateBlock, this.textureMap, bsmg.modelCollector);
             bsmg.blockStateCollector.accept(BlockStateModelGenerator.createFenceGateBlockState(fenceGateBlock, identifier, identifier2, identifier3, identifier4, true));
+            registerItemModel(fenceGateBlock, identifier2);
             return this;
         }
         public ModBlockTexturePool pressurePlate(Block pressurePlateBlock) {
             Identifier identifier = ModModels.PRESSURE_PLATE_STB.upload(pressurePlateBlock, this.textureMap, bsmg.modelCollector);
             Identifier identifier2 = ModModels.PRESSURE_PLATE_STB_DOWN.upload(pressurePlateBlock, this.textureMap, bsmg.modelCollector);
             bsmg.blockStateCollector.accept(BlockStateModelGenerator.createPressurePlateBlockState(pressurePlateBlock, identifier, identifier2));
+            registerItemModel(pressurePlateBlock, identifier);
             return this;
         }
         public ModBlockTexturePool slab(Block slabBlock) {
@@ -76,7 +89,7 @@ public class ModBlockStateModelGenerator {
                 Identifier identifier = ModModels.SLAB_STB.upload(slabBlock, this.textureMap, bsmg.modelCollector);
                 Identifier identifier2 = ModModels.SLAB_STB_TOP.upload(slabBlock, textureMap, bsmg.modelCollector);
                 bsmg.blockStateCollector.accept(BlockStateModelGenerator.createSlabBlockState(slabBlock, identifier, identifier2, this.baseModelId));
-                bsmg.registerParentedItemModel(slabBlock, identifier);
+                registerItemModel(slabBlock, identifier);
                 return this;
             }
         }
@@ -88,7 +101,7 @@ public class ModBlockStateModelGenerator {
             Identifier identifier5 = ModModels.STAIRS_STB_INNER_TOP.upload(stairBlock, textureMap, bsmg.modelCollector);
             Identifier identifier6 = ModModels.STAIRS_STB_OUTER_TOP.upload(stairBlock, textureMap, bsmg.modelCollector);
             bsmg.blockStateCollector.accept(ModBlockStateModelGenerator.createStairsBlockState(stairBlock, identifier2, identifier, identifier3, identifier5, identifier4, identifier6));
-            bsmg.registerParentedItemModel(stairBlock, identifier);
+            registerItemModel(stairBlock, identifier);
             return this;
         }
         public ModBlockTexturePool buttonAll(Block buttonBlock) {
@@ -96,7 +109,7 @@ public class ModBlockStateModelGenerator {
             Identifier identifier2 = Models.BUTTON_PRESSED.upload(buttonBlock, this.textureMap, bsmg.modelCollector);
             bsmg.blockStateCollector.accept(BlockStateModelGenerator.createButtonBlockState(buttonBlock, identifier, identifier2));
             Identifier identifier3 = Models.BUTTON_INVENTORY.upload(buttonBlock, this.textureMap, bsmg.modelCollector);
-            bsmg.registerParentedItemModel(buttonBlock, identifier3);
+            registerItemModel(buttonBlock, identifier3);
             return this;
         }
         public ModBlockTexturePool wallAll(Block wallBlock) {
@@ -104,8 +117,8 @@ public class ModBlockStateModelGenerator {
             Identifier identifier2 = Models.TEMPLATE_WALL_SIDE.upload(wallBlock, textureMap, bsmg.modelCollector);
             Identifier identifier3 = Models.TEMPLATE_WALL_SIDE_TALL.upload(wallBlock, textureMap, bsmg.modelCollector);
             bsmg.blockStateCollector.accept(BlockStateModelGenerator.createWallBlockState(wallBlock, identifier, identifier2, identifier3));
-            Identifier identifier6 = Models.WALL_INVENTORY.upload(wallBlock, textureMap, bsmg.modelCollector);
-            bsmg.registerParentedItemModel(wallBlock, identifier6);
+            Identifier identifier4 = Models.WALL_INVENTORY.upload(wallBlock, textureMap, bsmg.modelCollector);
+            registerItemModel(wallBlock, identifier4);
             return this;
         }
         public ModBlockTexturePool fenceAll(Block fenceBlock) {
@@ -113,7 +126,7 @@ public class ModBlockStateModelGenerator {
             Identifier identifier2 = Models.FENCE_SIDE.upload(fenceBlock, this.textureMap, bsmg.modelCollector);
             bsmg.blockStateCollector.accept(BlockStateModelGenerator.createFenceBlockState(fenceBlock, identifier, identifier2));
             Identifier identifier3 = Models.FENCE_INVENTORY.upload(fenceBlock, this.textureMap, bsmg.modelCollector);
-            bsmg.registerParentedItemModel(fenceBlock, identifier3);
+            registerItemModel(fenceBlock, identifier3);
             return this;
         }
         public ModBlockTexturePool fenceGateAll(Block fenceGateBlock) {
@@ -122,12 +135,14 @@ public class ModBlockStateModelGenerator {
             Identifier identifier3 = Models.TEMPLATE_FENCE_GATE_WALL_OPEN.upload(fenceGateBlock, this.textureMap, bsmg.modelCollector);
             Identifier identifier4 = Models.TEMPLATE_FENCE_GATE_WALL.upload(fenceGateBlock, this.textureMap, bsmg.modelCollector);
             bsmg.blockStateCollector.accept(BlockStateModelGenerator.createFenceGateBlockState(fenceGateBlock, identifier, identifier2, identifier3, identifier4, true));
+            registerItemModel(fenceGateBlock, identifier2);
             return this;
         }
         public ModBlockTexturePool pressurePlateAll(Block pressurePlateBlock) {
             Identifier identifier = Models.PRESSURE_PLATE_UP.upload(pressurePlateBlock, this.textureMap, bsmg.modelCollector);
             Identifier identifier2 = Models.PRESSURE_PLATE_DOWN.upload(pressurePlateBlock, this.textureMap, bsmg.modelCollector);
             bsmg.blockStateCollector.accept(BlockStateModelGenerator.createPressurePlateBlockState(pressurePlateBlock, identifier, identifier2));
+            registerItemModel(pressurePlateBlock, identifier);
             return this;
         }
         public ModBlockTexturePool slabAll(Block slabBlock) {
@@ -137,7 +152,7 @@ public class ModBlockStateModelGenerator {
                 Identifier identifier = Models.SLAB.upload(slabBlock, this.textureMap, bsmg.modelCollector);
                 Identifier identifier2 = Models.SLAB_TOP.upload(slabBlock, textureMap, bsmg.modelCollector);
                 bsmg.blockStateCollector.accept(BlockStateModelGenerator.createSlabBlockState(slabBlock, identifier, identifier2, this.baseModelId));
-                bsmg.registerParentedItemModel(slabBlock, identifier);
+                registerItemModel(slabBlock, identifier);
                 return this;
             }
         }
@@ -146,7 +161,7 @@ public class ModBlockStateModelGenerator {
             Identifier identifier2 = Models.INNER_STAIRS.upload(stairBlock, textureMap, bsmg.modelCollector);
             Identifier identifier3 = Models.OUTER_STAIRS.upload(stairBlock, textureMap, bsmg.modelCollector);
             bsmg.blockStateCollector.accept(BlockStateModelGenerator.createStairsBlockState(stairBlock, identifier2, identifier, identifier3));
-            bsmg.registerParentedItemModel(stairBlock, identifier);
+            registerItemModel(stairBlock, identifier);
             return this;
         }
     }
@@ -158,14 +173,12 @@ public class ModBlockStateModelGenerator {
         return (new ModBlockTexturePool(textureMap, bsmg, block));
     }
 
-    public static ModBlockTexturePool registerModModelTexturePool(BlockStateModelGenerator bsmg, Block block) {
-        return (new ModBlockTexturePool(TextureMap.all(block), bsmg, block));
+    public static ModBlockTexturePool registerModModelTexturePool(BlockStateModelGenerator bsmg, Block textureBlock) {
+        return (new ModBlockTexturePool(TextureMap.all(textureBlock), bsmg, textureBlock));
     }
 
 
-    public static void registerItemModel(Item item, BlockStateModelGenerator blockStateModelGenerator) {
-        Models.GENERATED.upload(ModelIds.getItemModelId(item), TextureMap.layer0(item), blockStateModelGenerator.modelCollector);
-    }
+
 
 
     public static void registerCustomButton(BlockStateModelGenerator blockStateModelGenerator, Block buttonBlock, TextureMap textureMap) {
@@ -211,14 +224,6 @@ public class ModBlockStateModelGenerator {
         blockStateModelGenerator.blockStateCollector.accept(ModBlockStateModelGenerator.createStairsBlockState(stairBlock, identifier2, identifier, identifier3, identifier5, identifier4, identifier6));
         blockStateModelGenerator.registerParentedItemModel(stairBlock, identifier);
     }
-    public static void registerCustomOrTrapdoor(BlockStateModelGenerator blockStateModelGenerator, Block trapdoorBlock, TextureMap textureMap) {
-        Identifier identifier = ModModels.TRAPDOOR_STB_BOTTOM.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier identifier2 = ModModels.TRAPDOOR_STB_OPEN.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier identifier3 = ModModels.TRAPDOOR_STB_TOP.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier identifier4 = ModModels.TRAPDOOR_STB_OPEN_TOP.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
-        blockStateModelGenerator.blockStateCollector.accept(ModBlockStateModelGenerator.createOrientableTrapdoorBlockState(trapdoorBlock, identifier3, identifier, identifier2, identifier4));
-        blockStateModelGenerator.registerParentedItemModel(trapdoorBlock, identifier);
-    }
     public static void registerCustomWall(BlockStateModelGenerator blockStateModelGenerator, Block wallBlock, TextureMap textureMap) {
         Identifier identifier = ModModels.WALL_STB_POST.upload(wallBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier2 = ModModels.WALL_STB_SIDE.upload(wallBlock, textureMap, blockStateModelGenerator.modelCollector);
@@ -229,20 +234,50 @@ public class ModBlockStateModelGenerator {
         Identifier identifier6 = ModModels.WALL_STB_INVENTORY.upload(wallBlock, textureMap, blockStateModelGenerator.modelCollector);
         blockStateModelGenerator.registerParentedItemModel(wallBlock, identifier6);
     }
-    public static void registerCustomDoor(BlockStateModelGenerator blockStateModelGenerator, Block doorBlock, Block topBlock, Block bottomBlock, String topSuffix, String bottomSuffix) {
+    public static void registerCustomDoor(BlockStateModelGenerator bsmg, Block doorBlock, Block topBlock, Block bottomBlock, String topSuffix, String bottomSuffix) {
         TextureMap textureMap = ModTextureMap.custom(doorBlock, topBlock, bottomBlock, "_top", topSuffix, bottomSuffix);
         TextureMap textureMap2 = ModTextureMap.custom(doorBlock, topBlock, bottomBlock, "_bottom", topSuffix, bottomSuffix);
-        Identifier identifier = ModModels.DOOR_STB_BOTTOM_LEFT.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
-        Identifier identifier2 = ModModels.DOOR_STB_BOTTOM_LEFT_OPEN.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
-        Identifier identifier3 = ModModels.DOOR_STB_BOTTOM_RIGHT.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
-        Identifier identifier4 = ModModels.DOOR_STB_BOTTOM_RIGHT_OPEN.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
-        Identifier identifier5 = ModModels.DOOR_STB_TOP_LEFT.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier identifier6 = ModModels.DOOR_STB_TOP_LEFT_OPEN.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier identifier7 = ModModels.DOOR_STB_TOP_RIGHT.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier identifier8 = ModModels.DOOR_STB_TOP_RIGHT_OPEN.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
-        ModBlockStateModelGenerator.registerItemModel(doorBlock.asItem(), blockStateModelGenerator);
-        blockStateModelGenerator.blockStateCollector.accept(createDoorBlockState(doorBlock, identifier, identifier2, identifier3, identifier4, identifier5, identifier6, identifier7, identifier8));
+        Identifier identifier = ModModels.DOOR_STB_BOTTOM_LEFT.upload(doorBlock, textureMap2, bsmg.modelCollector);
+        Identifier identifier2 = ModModels.DOOR_STB_BOTTOM_LEFT_OPEN.upload(doorBlock, textureMap2, bsmg.modelCollector);
+        Identifier identifier3 = ModModels.DOOR_STB_BOTTOM_RIGHT.upload(doorBlock, textureMap2, bsmg.modelCollector);
+        Identifier identifier4 = ModModels.DOOR_STB_BOTTOM_RIGHT_OPEN.upload(doorBlock, textureMap2, bsmg.modelCollector);
+        Identifier identifier5 = ModModels.DOOR_STB_TOP_LEFT.upload(doorBlock, textureMap, bsmg.modelCollector);
+        Identifier identifier6 = ModModels.DOOR_STB_TOP_LEFT_OPEN.upload(doorBlock, textureMap, bsmg.modelCollector);
+        Identifier identifier7 = ModModels.DOOR_STB_TOP_RIGHT.upload(doorBlock, textureMap, bsmg.modelCollector);
+        Identifier identifier8 = ModModels.DOOR_STB_TOP_RIGHT_OPEN.upload(doorBlock, textureMap, bsmg.modelCollector);
+        ModBlockStateModelGenerator.registerItemModel(doorBlock.asItem(), bsmg);
+        bsmg.blockStateCollector.accept(createDoorBlockState(doorBlock, identifier, identifier2, identifier3, identifier4, identifier5, identifier6, identifier7, identifier8));
     }
+    public static void registerCustomOrTrapdoor(BlockStateModelGenerator blockStateModelGenerator, Block trapdoorBlock, TintSource tintSource) {
+        TextureMap textureMap = TextureMap.all(trapdoorBlock);
+        Identifier identifier = ModModels.TRAPDOOR_STB_BOTTOM.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier2 = ModModels.TRAPDOOR_STB_OPEN.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier3 = ModModels.TRAPDOOR_STB_TOP.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier4 = ModModels.TRAPDOOR_STB_OPEN_TOP.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        blockStateModelGenerator.blockStateCollector.accept(ModBlockStateModelGenerator.createOrientableTrapdoorBlockState(trapdoorBlock, identifier3, identifier, identifier2, identifier4));
+        blockStateModelGenerator.registerTintedItemModel(trapdoorBlock, identifier, tintSource);
+    }
+    public static void registerCustomOrTrapdoor(BlockStateModelGenerator blockStateModelGenerator, Block trapdoorBlock, TextureMap textureMap) {
+        Identifier identifier = ModModels.TRAPDOOR_STB_BOTTOM.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier2 = ModModels.TRAPDOOR_STB_OPEN.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier3 = ModModels.TRAPDOOR_STB_TOP.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier4 = ModModels.TRAPDOOR_STB_OPEN_TOP.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        blockStateModelGenerator.blockStateCollector.accept(ModBlockStateModelGenerator.createOrientableTrapdoorBlockState(trapdoorBlock, identifier3, identifier, identifier2, identifier4));
+        blockStateModelGenerator.registerParentedItemModel(trapdoorBlock, identifier);
+    }
+
+    public static void registerItemModel(Item item, BlockStateModelGenerator bsmg) {
+        bsmg.itemModelOutput.accept(item, ItemModels.basic(uploadItemModel(item, bsmg)));
+    }
+
+    public static void registerTintedItemModel(Item item, TintSource tintSource, BlockStateModelGenerator bsmg) {
+        bsmg.itemModelOutput.accept(item, ItemModels.tinted(uploadItemModel(item, bsmg), tintSource));
+    }
+
+    public static Identifier uploadItemModel(Item item, BlockStateModelGenerator bsmg) {
+        return Models.GENERATED.upload(ModelIds.getItemModelId(item), TextureMap.layer0(item), bsmg.modelCollector);
+    }
+
     public static void registerCustomDoor(BlockStateModelGenerator blockStateModelGenerator, Block doorBlock) {
         TextureMap textureMap = new TextureMap()
                 .put(TextureKey.TOP, TextureMap.getSubId(doorBlock, "_top"))
@@ -263,14 +298,26 @@ public class ModBlockStateModelGenerator {
         ModBlockStateModelGenerator.registerItemModel(doorBlock.asItem(), blockStateModelGenerator);
         blockStateModelGenerator.blockStateCollector.accept(createDoorBlockState(doorBlock, identifier, identifier2, identifier3, identifier4, identifier5, identifier6, identifier7, identifier8));
     }
-    public static void registerTI0OrTrapdoor(BlockStateModelGenerator blockStateModelGenerator, Block trapdoorBlock) {
-        TextureMap textureMap = TextureMap.all(trapdoorBlock);
-        Identifier identifier = ModModels.TRAPDOOR_STB_TOP.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier identifier2 = ModModels.TRAPDOOR_STB_BOTTOM.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier identifier3 = ModModels.TRAPDOOR_STB_OPEN.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier identifier4 = ModModels.TRAPDOOR_STB_OPEN_TOP.upload(trapdoorBlock, textureMap, blockStateModelGenerator.modelCollector);
-        blockStateModelGenerator.blockStateCollector.accept(ModBlockStateModelGenerator.createOrientableTrapdoorBlockState(trapdoorBlock, identifier, identifier2, identifier3, identifier4));
-        blockStateModelGenerator.registerParentedItemModel(trapdoorBlock, identifier2);
+
+    public static void registerCustomDoor(BlockStateModelGenerator blockStateModelGenerator, Block doorBlock, TintSource tintSource) {
+        TextureMap textureMap = new TextureMap()
+                .put(TextureKey.TOP, TextureMap.getSubId(doorBlock, "_top"))
+                .put(TextureKey.SIDE, TextureMap.getSubId(doorBlock, "_top"))
+                .put(TextureKey.BOTTOM, TextureMap.getSubId(doorBlock, "_top"));
+        TextureMap textureMap2 = new TextureMap()
+                .put(TextureKey.TOP, TextureMap.getSubId(doorBlock, "_bottom"))
+                .put(TextureKey.SIDE, TextureMap.getSubId(doorBlock, "_bottom"))
+                .put(TextureKey.BOTTOM, TextureMap.getSubId(doorBlock, "_bottom"));
+        Identifier identifier = ModModels.DOOR_STB_BOTTOM_LEFT.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
+        Identifier identifier2 = ModModels.DOOR_STB_BOTTOM_LEFT_OPEN.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
+        Identifier identifier3 = ModModels.DOOR_STB_BOTTOM_RIGHT.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
+        Identifier identifier4 = ModModels.DOOR_STB_BOTTOM_RIGHT_OPEN.upload(doorBlock, textureMap2, blockStateModelGenerator.modelCollector);
+        Identifier identifier5 = ModModels.DOOR_STB_TOP_LEFT.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier6 = ModModels.DOOR_STB_TOP_LEFT_OPEN.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier7 = ModModels.DOOR_STB_TOP_RIGHT.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier identifier8 = ModModels.DOOR_STB_TOP_RIGHT_OPEN.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
+        ModBlockStateModelGenerator.registerTintedItemModel(doorBlock.asItem(), tintSource, blockStateModelGenerator);
+        blockStateModelGenerator.blockStateCollector.accept(createDoorBlockState(doorBlock, identifier, identifier2, identifier3, identifier4, identifier5, identifier6, identifier7, identifier8));
     }
 
 

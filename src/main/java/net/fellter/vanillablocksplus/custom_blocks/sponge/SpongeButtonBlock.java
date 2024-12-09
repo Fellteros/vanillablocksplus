@@ -3,6 +3,7 @@ package net.fellter.vanillablocksplus.custom_blocks.sponge;
 import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.registry.tag.FluidTags;
 import net.minecraft.util.math.BlockPos;
@@ -46,33 +47,42 @@ public class SpongeButtonBlock extends ButtonBlock {
 
     private boolean absorbWater(World world, BlockPos pos) {
         return BlockPos.iterateRecursively(pos, 6, 65, (currentPos, queuer) -> {
-            for (Direction direction : field_43257) {
+
+            for (Direction direction : DIRECTIONS) {
                 queuer.accept(currentPos.offset(direction));
             }
-        }, currentPos -> {
-            if (currentPos.equals(pos)) {
-                return true;
-            }
-            BlockState blockState = world.getBlockState(currentPos);
-            FluidState fluidState = world.getFluidState(currentPos);
-            if (!fluidState.isIn(FluidTags.WATER)) {
-                return false;
-            }
-            Block block = blockState.getBlock();
 
-            if (block instanceof FluidDrainable && !((FluidDrainable) block).tryDrainFluid(null, world, currentPos, blockState).isEmpty()) {
-                return true;
-            }
-            if (blockState.getBlock() instanceof FluidBlock) {
-                world.setBlockState(currentPos, Blocks.AIR.getDefaultState(), Block.NOTIFY_ALL);
-            } else if (blockState.isOf(Blocks.KELP) || blockState.isOf(Blocks.KELP_PLANT) || blockState.isOf(Blocks.SEAGRASS) || blockState.isOf(Blocks.TALL_SEAGRASS)) {
-                BlockEntity blockEntity = blockState.hasBlockEntity() ? world.getBlockEntity(currentPos) : null;
-                SpongeBlock.dropStacks(blockState, world, currentPos, blockEntity);
-                world.setBlockState(currentPos, Blocks.AIR.getDefaultState(), Block.NOTIFY_ALL);
+        }, (currentPos) -> {
+            if (currentPos.equals(pos)) {
+                return BlockPos.IterationState.ACCEPT;
             } else {
-                return false;
+                BlockState blockState = world.getBlockState(currentPos);
+                FluidState fluidState = world.getFluidState(currentPos);
+                if (!fluidState.isIn(FluidTags.WATER)) {
+                    return BlockPos.IterationState.SKIP;
+                } else {
+                    Block block = blockState.getBlock();
+                    if (block instanceof FluidDrainable fluidDrainable) {
+                        if (!fluidDrainable.tryDrainFluid(null, world, currentPos, blockState).isEmpty()) {
+                            return BlockPos.IterationState.ACCEPT;
+                        }
+                    }
+
+                    if (blockState.getBlock() instanceof FluidBlock) {
+                        world.setBlockState(currentPos, Blocks.AIR.getDefaultState(), 3);
+                    } else {
+                        if (!blockState.isOf(Blocks.KELP) && !blockState.isOf(Blocks.KELP_PLANT) && !blockState.isOf(Blocks.SEAGRASS) && !blockState.isOf(Blocks.TALL_SEAGRASS)) {
+                            return BlockPos.IterationState.SKIP;
+                        }
+
+                        BlockEntity blockEntity = blockState.hasBlockEntity() ? world.getBlockEntity(currentPos) : null;
+                        dropStacks(blockState, world, currentPos, blockEntity);
+                        world.setBlockState(currentPos, Blocks.AIR.getDefaultState(), 3);
+                    }
+
+                    return BlockPos.IterationState.ACCEPT;
+                }
             }
-            return true;
         }) > 1;
     }
 }

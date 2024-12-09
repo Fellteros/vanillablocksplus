@@ -1,8 +1,8 @@
 package net.fellter.vanillablocksplus.util;
 
 import net.minecraft.block.Block;
-import net.minecraft.data.client.TextureKey;
-import net.minecraft.data.client.TextureMap;
+import net.minecraft.client.data.TextureKey;
+import net.minecraft.client.data.TextureMap;
 import net.minecraft.util.Identifier;
 
 public class ModTextureMap extends TextureMap {
@@ -15,6 +15,20 @@ public class ModTextureMap extends TextureMap {
     //all
     public static TextureMap customAll(Block block, String suffix) {
         return new TextureMap().put(TextureKey.ALL, TextureMap.getSubId(block, suffix));
+    }
+
+    public static TextureMap blockSTB(Block block) {
+        return new TextureMap()
+                .put(TextureKey.SIDE, getSubId(block, "_side"))
+                .put(TextureKey.TOP, getSubId(block, "_top"))
+                .put(TextureKey.BOTTOM, getSubId(block, "_bottom"));
+    }
+
+    public static TextureMap blockSTB(Identifier identifier) {
+        return new TextureMap()
+                .put(TextureKey.SIDE, identifier.withSuffixedPath("_side"))
+                .put(TextureKey.TOP, identifier.withSuffixedPath("_top"))
+                .put(TextureKey.BOTTOM, identifier.withSuffixedPath("_bottom"));
     }
 
     //sideAndTopForEnd

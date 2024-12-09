@@ -11,14 +11,17 @@ import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-import java.lang.reflect.Method;
+import java.util.List;
 import java.util.function.Function;
 
 public class ModBlocks {
@@ -36,6 +39,7 @@ public class ModBlocks {
     private static RegistryKey<Item> keyOfItem(String name) {
         return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(VanillaBlocksPlus.MOD_ID, name));
     }
+
 
 
     
@@ -227,6 +231,28 @@ public class ModBlocks {
     public static final Block STR_CHERRY_WOOD_DOOR = registerBlock("str_cherry_wood_door", (settings) -> new DoorBlock(BlockSetType.CHERRY, settings), AbstractBlock.Settings.copy(Blocks.STRIPPED_CHERRY_WOOD));
     public static final Block STR_CHERRY_WOOD_TRAPDOOR = registerBlock("str_cherry_wood_trapdoor", (settings) -> new TrapdoorBlock(BlockSetType.CHERRY, settings), AbstractBlock.Settings.copy(Blocks.STRIPPED_CHERRY_WOOD));
     public static final Block STR_CHERRY_WOOD_WALL = registerBlock("str_cherry_wood_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.STRIPPED_CHERRY_WOOD));
+
+    //pale_oak_wood_set
+    public static final Block PALE_OAK_WOOD_STAIRS = registerBlock("pale_oak_wood_stairs", (settings) -> new StairsBlock(Blocks.PALE_OAK_WOOD.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.PALE_OAK_WOOD));
+    public static final Block PALE_OAK_WOOD_SLAB = registerBlock("pale_oak_wood_slab", SlabBlock::new, AbstractBlock.Settings.copy(Blocks.PALE_OAK_WOOD));
+    public static final Block PALE_OAK_WOOD_BUTTON = registerBlock("pale_oak_wood_button", (settings) -> new ButtonBlock(BlockSetType.PALE_OAK, 10, settings), AbstractBlock.Settings.copy(Blocks.PALE_OAK_WOOD));
+    public static final Block PALE_OAK_WOOD_PRESSURE_PLATE = registerBlock("pale_oak_wood_pressure_plate", (settings) -> new PressurePlateBlock(BlockSetType.PALE_OAK, settings), AbstractBlock.Settings.copy(Blocks.PALE_OAK_WOOD));
+    public static final Block PALE_OAK_WOOD_FENCE = registerBlock("pale_oak_wood_fence", FenceBlock::new, AbstractBlock.Settings.copy(Blocks.PALE_OAK_WOOD));
+    public static final Block PALE_OAK_WOOD_FENCE_GATE = registerBlock("pale_oak_wood_fence_gate", (settings) -> new FenceGateBlock(WoodType.PALE_OAK, settings), AbstractBlock.Settings.copy(Blocks.PALE_OAK_WOOD));
+    public static final Block PALE_OAK_WOOD_DOOR = registerBlock("pale_oak_wood_door", (settings) -> new DoorBlock(BlockSetType.PALE_OAK, settings), AbstractBlock.Settings.copy(Blocks.PALE_OAK_WOOD));
+    public static final Block PALE_OAK_WOOD_TRAPDOOR = registerBlock("pale_oak_wood_trapdoor", (settings) -> new TrapdoorBlock(BlockSetType.PALE_OAK, settings), AbstractBlock.Settings.copy(Blocks.PALE_OAK_WOOD));
+    public static final Block PALE_OAK_WOOD_WALL = registerBlock("pale_oak_wood_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.PALE_OAK_WOOD));
+
+    //str_pale_oak_wood_set
+    public static final Block STR_PALE_OAK_WOOD_STAIRS = registerBlock("str_pale_oak_wood_stairs", (settings) -> new StairsBlock(Blocks.STRIPPED_PALE_OAK_WOOD.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.STRIPPED_PALE_OAK_WOOD));
+    public static final Block STR_PALE_OAK_WOOD_SLAB = registerBlock("str_pale_oak_wood_slab", SlabBlock::new, AbstractBlock.Settings.copy(Blocks.STRIPPED_PALE_OAK_WOOD));
+    public static final Block STR_PALE_OAK_WOOD_BUTTON = registerBlock("str_pale_oak_wood_button", (settings) -> new ButtonBlock(BlockSetType.PALE_OAK, 10, settings), AbstractBlock.Settings.copy(Blocks.STRIPPED_PALE_OAK_WOOD));
+    public static final Block STR_PALE_OAK_WOOD_PRESSURE_PLATE = registerBlock("str_pale_oak_wood_pressure_plate", (settings) -> new PressurePlateBlock(BlockSetType.PALE_OAK, settings), AbstractBlock.Settings.copy(Blocks.STRIPPED_PALE_OAK_WOOD));
+    public static final Block STR_PALE_OAK_WOOD_FENCE = registerBlock("str_pale_oak_wood_fence", FenceBlock::new, AbstractBlock.Settings.copy(Blocks.STRIPPED_PALE_OAK_WOOD));
+    public static final Block STR_PALE_OAK_WOOD_FENCE_GATE = registerBlock("str_pale_oak_wood_fence_gate", (settings) -> new FenceGateBlock(WoodType.PALE_OAK, settings), AbstractBlock.Settings.copy(Blocks.STRIPPED_PALE_OAK_WOOD));
+    public static final Block STR_PALE_OAK_WOOD_DOOR = registerBlock("str_pale_oak_wood_door", (settings) -> new DoorBlock(BlockSetType.PALE_OAK, settings), AbstractBlock.Settings.copy(Blocks.STRIPPED_PALE_OAK_WOOD));
+    public static final Block STR_PALE_OAK_WOOD_TRAPDOOR = registerBlock("str_pale_oak_wood_trapdoor", (settings) -> new TrapdoorBlock(BlockSetType.PALE_OAK, settings), AbstractBlock.Settings.copy(Blocks.STRIPPED_PALE_OAK_WOOD));
+    public static final Block STR_PALE_OAK_WOOD_WALL = registerBlock("str_pale_oak_wood_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.STRIPPED_PALE_OAK_WOOD));
 
     //bamboo_wood_set
     public static final Block BAMBOO_BLOCK_STAIRS = registerBlock("bamboo_block_stairs", (settings) -> new StairsBlock(Blocks.OAK_WOOD.getDefaultState(), settings), AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2.0f).sounds(BlockSoundGroup.BAMBOO_WOOD).burnable());

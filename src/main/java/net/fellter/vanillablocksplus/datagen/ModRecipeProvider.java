@@ -6,7 +6,7 @@ import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.fellter.vanillablocksplus.item.ModItems;
 import net.minecraft.block.Blocks;
-import net.minecraft.data.server.recipe.*;
+import net.minecraft.data.recipe.*;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
@@ -464,6 +464,54 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 TrapdoorRecipe(itemLookup, ModBlocks2.STR_CHERRY_LOG_TRAPDOOR, (Blocks.STRIPPED_CHERRY_LOG)).offerTo(exporter);
                 x2ButtonRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks2.STR_CHERRY_LOG_BUTTON, ModBlocks2.STR_CHERRY_LOG_SLAB).offerTo(exporter);
                 PlankWallRecipe(itemLookup, RecipeCategory.MISC, ModBlocks2.STR_CHERRY_LOG_WALL, Blocks.STRIPPED_CHERRY_LOG).offerTo(exporter);
+
+                //pale_oak
+                StairsRecipe(itemLookup, ModBlocks.PALE_OAK_WOOD_STAIRS, (Blocks.PALE_OAK_WOOD)).offerTo(exporter);
+                SlabRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.PALE_OAK_WOOD_SLAB, (Blocks.PALE_OAK_WOOD)).offerTo(exporter);
+                DoorRecipe(itemLookup, ModBlocks.PALE_OAK_WOOD_DOOR, (Blocks.PALE_OAK_WOOD)).offerTo(exporter);
+                FenceRecipe(itemLookup, ModBlocks.PALE_OAK_WOOD_FENCE, (Blocks.PALE_OAK_WOOD)).offerTo(exporter);
+                FenceGateRecipe(itemLookup, ModBlocks.PALE_OAK_WOOD_FENCE_GATE, (Blocks.PALE_OAK_WOOD)).offerTo(exporter);
+                PressPlateRecipe(itemLookup, RecipeCategory.DECORATIONS,
+                        ModBlocks.PALE_OAK_WOOD_PRESSURE_PLATE, (Blocks.PALE_OAK_WOOD)).offerTo(exporter);
+                TrapdoorRecipe(itemLookup, ModBlocks.PALE_OAK_WOOD_TRAPDOOR, (Blocks.PALE_OAK_WOOD)).offerTo(exporter);
+                x2ButtonRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.PALE_OAK_WOOD_BUTTON, Blocks.PALE_OAK_WOOD).offerTo(exporter);
+                PlankWallRecipe(itemLookup, RecipeCategory.MISC, ModBlocks.PALE_OAK_WOOD_WALL, Blocks.PALE_OAK_WOOD).offerTo(exporter);
+
+                //pale_oak
+                StairsRecipe(itemLookup, ModBlocks2.PALE_OAK_LOG_STAIRS, (Blocks.PALE_OAK_LOG)).offerTo(exporter);
+                SlabRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks2.PALE_OAK_LOG_SLAB, (Blocks.PALE_OAK_LOG)).offerTo(exporter);
+                DoorRecipe(itemLookup, ModBlocks2.PALE_OAK_LOG_DOOR, (Blocks.PALE_OAK_LOG)).offerTo(exporter);
+                FenceRecipe(itemLookup, ModBlocks2.PALE_OAK_LOG_FENCE, (Blocks.PALE_OAK_LOG)).offerTo(exporter);
+                FenceGateRecipe(itemLookup, ModBlocks2.PALE_OAK_LOG_FENCE_GATE, (Blocks.PALE_OAK_LOG)).offerTo(exporter);
+                PressPlateRecipe(itemLookup, RecipeCategory.BUILDING_BLOCKS,
+                        ModBlocks2.PALE_OAK_LOG_PRESSURE_PLATE, (Blocks.PALE_OAK_LOG)).offerTo(exporter);
+                TrapdoorRecipe(itemLookup, ModBlocks2.PALE_OAK_LOG_TRAPDOOR, (Blocks.PALE_OAK_LOG)).offerTo(exporter);
+                x2ButtonRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks2.PALE_OAK_LOG_BUTTON, ModBlocks2.PALE_OAK_LOG_SLAB).offerTo(exporter);
+                PlankWallRecipe(itemLookup, RecipeCategory.MISC, ModBlocks2.PALE_OAK_LOG_WALL, Blocks.PALE_OAK_LOG).offerTo(exporter);
+
+                //str pale_oak
+                StairsRecipe(itemLookup, ModBlocks.STR_PALE_OAK_WOOD_STAIRS, (Blocks.STRIPPED_PALE_OAK_WOOD)).offerTo(exporter);
+                SlabRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.STR_PALE_OAK_WOOD_SLAB, (Blocks.STRIPPED_PALE_OAK_WOOD)).offerTo(exporter);
+                DoorRecipe(itemLookup, ModBlocks.STR_PALE_OAK_WOOD_DOOR, (Blocks.STRIPPED_PALE_OAK_WOOD)).offerTo(exporter);
+                FenceRecipe(itemLookup, ModBlocks.STR_PALE_OAK_WOOD_FENCE, (Blocks.STRIPPED_PALE_OAK_WOOD)).offerTo(exporter);
+                FenceGateRecipe(itemLookup, ModBlocks.STR_PALE_OAK_WOOD_FENCE_GATE, (Blocks.STRIPPED_PALE_OAK_WOOD)).offerTo(exporter);
+                PressPlateRecipe(itemLookup, RecipeCategory.DECORATIONS,
+                        ModBlocks.STR_PALE_OAK_WOOD_PRESSURE_PLATE, (Blocks.STRIPPED_PALE_OAK_WOOD)).offerTo(exporter);
+                TrapdoorRecipe(itemLookup, ModBlocks.STR_PALE_OAK_WOOD_TRAPDOOR, (Blocks.STRIPPED_PALE_OAK_WOOD)).offerTo(exporter);
+                x2ButtonRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.STR_PALE_OAK_WOOD_BUTTON, Blocks.STRIPPED_PALE_OAK_WOOD).offerTo(exporter);
+                PlankWallRecipe(itemLookup, RecipeCategory.MISC, ModBlocks.STR_PALE_OAK_WOOD_WALL, Blocks.STRIPPED_PALE_OAK_WOOD).offerTo(exporter);
+
+                //pale_oak
+                StairsRecipe(itemLookup, ModBlocks2.STR_PALE_OAK_LOG_STAIRS, (Blocks.STRIPPED_PALE_OAK_LOG)).offerTo(exporter);
+                SlabRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks2.STR_PALE_OAK_LOG_SLAB, (Blocks.STRIPPED_PALE_OAK_LOG)).offerTo(exporter);
+                DoorRecipe(itemLookup, ModBlocks2.STR_PALE_OAK_LOG_DOOR, (Blocks.STRIPPED_PALE_OAK_LOG)).offerTo(exporter);
+                FenceRecipe(itemLookup, ModBlocks2.STR_PALE_OAK_LOG_FENCE, (Blocks.STRIPPED_PALE_OAK_LOG)).offerTo(exporter);
+                FenceGateRecipe(itemLookup, ModBlocks2.STR_PALE_OAK_LOG_FENCE_GATE, (Blocks.STRIPPED_PALE_OAK_LOG)).offerTo(exporter);
+                PressPlateRecipe(itemLookup, RecipeCategory.BUILDING_BLOCKS,
+                        ModBlocks2.STR_PALE_OAK_LOG_PRESSURE_PLATE, (Blocks.STRIPPED_PALE_OAK_LOG)).offerTo(exporter);
+                TrapdoorRecipe(itemLookup, ModBlocks2.STR_PALE_OAK_LOG_TRAPDOOR, (Blocks.STRIPPED_PALE_OAK_LOG)).offerTo(exporter);
+                x2ButtonRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks2.STR_PALE_OAK_LOG_BUTTON, ModBlocks2.STR_PALE_OAK_LOG_SLAB).offerTo(exporter);
+                PlankWallRecipe(itemLookup, RecipeCategory.MISC, ModBlocks2.STR_PALE_OAK_LOG_WALL, Blocks.STRIPPED_PALE_OAK_LOG).offerTo(exporter);
 
                 //bamboo
                 StairsRecipe(itemLookup, ModBlocks.BAMBOO_BLOCK_STAIRS, (Blocks.BAMBOO_BLOCK)).offerTo(exporter);
@@ -4058,7 +4106,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public String getName() {
-        return this.toString();
+        return "Recipes";
     }
 }
 
