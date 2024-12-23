@@ -668,6 +668,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MUD_BRICK_TRAPDOOR);
                         entries.add(ModBlocks.MUD_BRICK_PRESSURE_PLATE);
                         entries.add(ModBlocks.MUD_BRICK_BUTTON);
+                        //resin bricks
+                        entries.add(ModBlocks.RESIN_BRICK_FENCE);
+                        entries.add(ModBlocks.RESIN_BRICK_FENCE_GATE);
+                        entries.add(ModBlocks.RESIN_BRICK_DOOR);
+                        entries.add(ModBlocks.RESIN_BRICK_TRAPDOOR);
+                        entries.add(ModBlocks.RESIN_BRICK_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RESIN_BRICK_BUTTON);
+                        //packed mud
+                        entries.add(ModBlocks.CHISELED_RESIN_BRICK_STAIRS);
+                        entries.add(ModBlocks.CHISELED_RESIN_BRICK_SLAB);
+                        entries.add(ModBlocks.CHISELED_RESIN_BRICK_WALL);
+                        entries.add(ModBlocks.CHISELED_RESIN_BRICK_FENCE);
+                        entries.add(ModBlocks.CHISELED_RESIN_BRICK_FENCE_GATE);
+                        entries.add(ModBlocks.CHISELED_RESIN_BRICK_DOOR);
+                        entries.add(ModBlocks.CHISELED_RESIN_BRICK_TRAPDOOR);
+                        entries.add(ModBlocks.CHISELED_RESIN_BRICK_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CHISELED_RESIN_BRICK_BUTTON);
                         //sandstone
                         entries.add(ModBlocks.SANDSTONE_FENCE);
                         entries.add(ModBlocks.SANDSTONE_FENCE_GATE);
@@ -3127,6 +3144,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks2.HONEY_TRAPDOOR);
                         entries.add(ModBlocks2.HONEY_PRESSURE_PLATE);
                         entries.add(ModBlocks2.HONEY_BUTTON);
+                        //RESIN
+                        entries.add(ModBlocks2.RESIN_STAIRS);
+                        entries.add(ModBlocks2.RESIN_SLAB);
+                        entries.add(ModBlocks2.RESIN_WALL);
+                        entries.add(ModBlocks2.RESIN_FENCE);
+                        entries.add(ModBlocks2.RESIN_FENCE_GATE);
+                        entries.add(ModBlocks2.RESIN_DOOR);
+                        entries.add(ModBlocks2.RESIN_TRAPDOOR);
+                        entries.add(ModBlocks2.RESIN_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.RESIN_BUTTON);
                         //ochre_froglight
                         entries.add(ModBlocks2.OCHRE_FROGLIGHT_STAIRS);
                         entries.add(ModBlocks2.OCHRE_FROGLIGHT_SLAB);

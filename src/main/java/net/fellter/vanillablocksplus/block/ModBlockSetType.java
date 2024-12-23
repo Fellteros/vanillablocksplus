@@ -24,7 +24,6 @@ public class ModBlockSetType {
     public static final BlockSetType HONEY = registerModBlockSetType("honey", true, BlockSoundGroup.HONEY);
     public static final BlockSetType CORAL = registerModBlockSetType("coral", true, BlockSoundGroup.CORAL);
     public static final BlockSetType NYLIUM = registerModBlockSetType("nylium", true, BlockSoundGroup.NYLIUM);
-    public static final BlockSetType FUNGUS = registerModBlockSetType("fungus", true, BlockSoundGroup.FUNGUS);
     public static final BlockSetType SHROOMLIGHT = registerModBlockSetType("shroomlight", true, BlockSoundGroup.SHROOMLIGHT);
     public static final BlockSetType SOUL_SAND = registerModBlockSetType("soul_sand", true, BlockSoundGroup.SOUL_SAND);
     public static final BlockSetType SOUL_SOIL = registerModBlockSetType("soul_soil", true, BlockSoundGroup.SOUL_SOIL);
@@ -45,15 +44,12 @@ public class ModBlockSetType {
     public static final BlockSetType MOSS_BLOCK = registerModBlockSetType("moss_block", true, BlockSoundGroup.MOSS_BLOCK);
     public static final BlockSetType ROOTED_DIRT = registerModBlockSetType("rooted_dirt", true, BlockSoundGroup.ROOTED_DIRT);
     public static final BlockSetType AZALEA_LEAVES = registerModBlockSetType("azalea_leaves", true, BlockSoundGroup.AZALEA_LEAVES);
-    public static final BlockSetType SCULK_CATALYST = registerModBlockSetType("sculk_catalyst", true, BlockSoundGroup.SCULK_CATALYST);
     public static final BlockSetType SCULK = registerModBlockSetType("sculk", true, BlockSoundGroup.SCULK);
     public static final BlockSetType DEEPSLATE = registerModBlockSetType("deepslate", true, BlockSoundGroup.DEEPSLATE);
     public static final BlockSetType DEEPSLATE_BRICKS = registerModBlockSetType("deepslate_bricks", true, BlockSoundGroup.DEEPSLATE_BRICKS);
     public static final BlockSetType DEEPSLATE_TILES = registerModBlockSetType("deepslate_tiles", true, BlockSoundGroup.DEEPSLATE_TILES);
     public static final BlockSetType POLISHED_DEEPSLATE = registerModBlockSetType("polished_deepslate", true, BlockSoundGroup.POLISHED_DEEPSLATE);
     public static final BlockSetType FROGLIGHT = registerModBlockSetType("froglight", true, BlockSoundGroup.FROGLIGHT);
-    public static final BlockSetType MANGROVE_ROOTS = registerModBlockSetType("mangrove_roots", true, BlockSoundGroup.MANGROVE_ROOTS);
-    public static final BlockSetType MUDDY_MANGROVE_ROOTS = registerModBlockSetType("muddy_mangrove_roots", true, BlockSoundGroup.MUDDY_MANGROVE_ROOTS);
     public static final BlockSetType MUD = registerModBlockSetType("mud", true, BlockSoundGroup.MUD);
     public static final BlockSetType MUD_BRICKS = registerModBlockSetType("mud_bricks", true, BlockSoundGroup.MUD_BRICKS);
     public static final BlockSetType PACKED_MUD = registerModBlockSetType("packed_mud", true, BlockSoundGroup.PACKED_MUD);
@@ -65,5 +61,7 @@ public class ModBlockSetType {
     public static final BlockSetType WOOD = registerModBlockSetType("wood", true, BlockSoundGroup.WOOD);
     public static final BlockSetType SPONGE = registerModBlockSetType("sponge", true, BlockSoundGroup.SPONGE);
     public static final BlockSetType WET_SPONGE = registerModBlockSetType("wet_sponge", true, BlockSoundGroup.WET_SPONGE);
+    public static final BlockSetType RESIN = registerModBlockSetType("resin", true, BlockSoundGroup.RESIN);
+    public static final BlockSetType RESIN_BRICKS = registerModBlockSetType("resin_bricks", true, BlockSoundGroup.RESIN_BRICKS);
 
 }

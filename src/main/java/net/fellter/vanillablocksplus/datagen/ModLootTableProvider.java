@@ -612,6 +612,23 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MUD_BRICK_FENCE);
         addDrop(ModBlocks.MUD_BRICK_FENCE_GATE);
         addDrop(ModBlocks.MUD_BRICK_DOOR, doorDrops(ModBlocks.MUD_BRICK_DOOR));
+        //resin bricks
+        addDrop(ModBlocks.RESIN_BRICK_TRAPDOOR);
+        addDrop(ModBlocks.RESIN_BRICK_BUTTON);
+        addDrop(ModBlocks.RESIN_BRICK_PRESSURE_PLATE);
+        addDrop(ModBlocks.RESIN_BRICK_FENCE);
+        addDrop(ModBlocks.RESIN_BRICK_FENCE_GATE);
+        addDrop(ModBlocks.RESIN_BRICK_DOOR, doorDrops(ModBlocks.RESIN_BRICK_DOOR));
+        //packed mud
+        addDrop(ModBlocks.CHISELED_RESIN_BRICK_STAIRS);
+        addDrop(ModBlocks.CHISELED_RESIN_BRICK_TRAPDOOR);
+        addDrop(ModBlocks.CHISELED_RESIN_BRICK_BUTTON);
+        addDrop(ModBlocks.CHISELED_RESIN_BRICK_PRESSURE_PLATE);
+        addDrop(ModBlocks.CHISELED_RESIN_BRICK_FENCE);
+        addDrop(ModBlocks.CHISELED_RESIN_BRICK_FENCE_GATE);
+        addDrop(ModBlocks.CHISELED_RESIN_BRICK_DOOR, doorDrops(ModBlocks.CHISELED_RESIN_BRICK_DOOR));
+        addDrop(ModBlocks.CHISELED_RESIN_BRICK_SLAB, slabDrops(ModBlocks.CHISELED_RESIN_BRICK_SLAB));
+        addDrop(ModBlocks.CHISELED_RESIN_BRICK_WALL);
         //sandstone
         addDrop(ModBlocks.SANDSTONE_TRAPDOOR);
         addDrop(ModBlocks.SANDSTONE_BUTTON);
@@ -2925,6 +2942,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks2.HONEY_DOOR, doorDrops(ModBlocks2.HONEY_DOOR));
         addDrop(ModBlocks2.HONEY_SLAB, slabDrops(ModBlocks2.HONEY_SLAB));
         addDrop(ModBlocks2.HONEY_WALL);
+
+        //RESIN_block
+        addDrop(ModBlocks2.RESIN_STAIRS);
+        addDrop(ModBlocks2.RESIN_TRAPDOOR);
+        addDrop(ModBlocks2.RESIN_BUTTON);
+        addDrop(ModBlocks2.RESIN_PRESSURE_PLATE);
+        addDrop(ModBlocks2.RESIN_FENCE);
+        addDrop(ModBlocks2.RESIN_FENCE_GATE);
+        addDrop(ModBlocks2.RESIN_DOOR, doorDrops(ModBlocks2.RESIN_DOOR));
+        addDrop(ModBlocks2.RESIN_SLAB, slabDrops(ModBlocks2.RESIN_SLAB));
+        addDrop(ModBlocks2.RESIN_WALL);
 
         //OCHRE_FROGLIGHT_block
         addDrop(ModBlocks2.OCHRE_FROGLIGHT_STAIRS);

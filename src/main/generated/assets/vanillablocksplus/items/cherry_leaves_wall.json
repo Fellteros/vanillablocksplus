@@ -1,13 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "vanillablocksplus:block/cherry_leaves_wall_inventory",
-    "tints": [
-      {
-        "type": "minecraft:grass",
-        "downfall": 1.0,
-        "temperature": 0.5
-      }
-    ]
+    "model": "vanillablocksplus:block/cherry_leaves_wall_inventory"
   }
 }

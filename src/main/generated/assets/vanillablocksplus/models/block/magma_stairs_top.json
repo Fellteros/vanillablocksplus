@@ -1,0 +1,8 @@
+{
+  "parent": "vanillablocksplus:blockmodels/stairs_stb_top",
+  "textures": {
+    "bottom": "minecraft:block/magma",
+    "side": "minecraft:block/magma",
+    "top": "minecraft:block/magma"
+  }
+}
