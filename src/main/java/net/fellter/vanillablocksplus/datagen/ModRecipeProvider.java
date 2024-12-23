@@ -838,6 +838,25 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 PressPlateRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.MUD_BRICK_PRESSURE_PLATE, (Blocks.MUD_BRICKS)).offerTo(exporter);
                 ButtonRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.MUD_BRICK_BUTTON, Blocks.MUD_BRICKS, 1).offerTo(exporter);
 
+                //resin bricks
+                DoorRecipe(itemLookup, ModBlocks.RESIN_BRICK_DOOR, (Blocks.RESIN_BRICKS)).offerTo(exporter);
+                NWFenceRecipe(itemLookup, ModBlocks.RESIN_BRICK_FENCE, (Blocks.RESIN_BRICKS), (Blocks.RESIN_BRICK_SLAB), 3).offerTo(exporter);
+                NWFenceGateRecipe(itemLookup, ModBlocks.RESIN_BRICK_FENCE_GATE, (Blocks.RESIN_BRICKS), (Blocks.RESIN_BRICK_SLAB), 1).offerTo(exporter);
+                TrapdoorRecipe(itemLookup, ModBlocks.RESIN_BRICK_TRAPDOOR, (Blocks.RESIN_BRICK_SLAB)).offerTo(exporter);
+                PressPlateRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.RESIN_BRICK_PRESSURE_PLATE, (Blocks.RESIN_BRICKS)).offerTo(exporter);
+                ButtonRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.RESIN_BRICK_BUTTON, Blocks.RESIN_BRICKS, 1).offerTo(exporter);
+
+                //packed mud
+                DoorRecipe(itemLookup, ModBlocks.CHISELED_RESIN_BRICK_DOOR, (Blocks.CHISELED_RESIN_BRICKS)).offerTo(exporter);
+                SlabRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.CHISELED_RESIN_BRICK_SLAB, (Blocks.CHISELED_RESIN_BRICKS)).offerTo(exporter);
+                StairsRecipe(itemLookup, ModBlocks.CHISELED_RESIN_BRICK_STAIRS, (Blocks.CHISELED_RESIN_BRICKS)).offerTo(exporter);
+                NWFenceRecipe(itemLookup, ModBlocks.CHISELED_RESIN_BRICK_FENCE, (Blocks.CHISELED_RESIN_BRICKS), (ModBlocks.CHISELED_RESIN_BRICK_SLAB), 3).offerTo(exporter);
+                NWFenceGateRecipe(itemLookup, ModBlocks.CHISELED_RESIN_BRICK_FENCE_GATE, (Blocks.CHISELED_RESIN_BRICKS), (ModBlocks.CHISELED_RESIN_BRICK_SLAB), 1).offerTo(exporter);
+                TrapdoorRecipe(itemLookup, ModBlocks.CHISELED_RESIN_BRICK_TRAPDOOR, (ModBlocks.CHISELED_RESIN_BRICK_SLAB)).offerTo(exporter);
+                PressPlateRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.CHISELED_RESIN_BRICK_PRESSURE_PLATE, (Blocks.CHISELED_RESIN_BRICKS)).offerTo(exporter);
+                ButtonRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.CHISELED_RESIN_BRICK_BUTTON, Blocks.CHISELED_RESIN_BRICKS, 1).offerTo(exporter);
+                WallRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.CHISELED_RESIN_BRICK_WALL, (Blocks.CHISELED_RESIN_BRICKS)).offerTo(exporter);
+
                 //sandstone
                 DoorRecipe(itemLookup, ModBlocks.SANDSTONE_DOOR, (Blocks.SANDSTONE)).offerTo(exporter);
                 NWFenceRecipe(itemLookup, ModBlocks.SANDSTONE_FENCE, (Blocks.SANDSTONE), (Blocks.SANDSTONE_SLAB), 3).offerTo(exporter);
@@ -3353,6 +3372,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 ButtonRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks2.HONEY_BUTTON, Blocks.HONEY_BLOCK, 1).offerTo(exporter);
                 WallRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks2.HONEY_WALL, (Blocks.HONEY_BLOCK)).offerTo(exporter);
 
+                //RESIN
+                DoorRecipe(itemLookup, ModBlocks2.RESIN_DOOR, (Blocks.RESIN_BLOCK)).offerTo(exporter);
+                SlabRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks2.RESIN_SLAB, (Blocks.RESIN_BLOCK)).offerTo(exporter);
+                StairsRecipe(itemLookup, ModBlocks2.RESIN_STAIRS, (Blocks.RESIN_BLOCK)).offerTo(exporter);
+                NWFenceRecipe(itemLookup, ModBlocks2.RESIN_FENCE, (Blocks.RESIN_BLOCK), (ModBlocks2.RESIN_SLAB), 3).offerTo(exporter);
+                NWFenceGateRecipe(itemLookup, ModBlocks2.RESIN_FENCE_GATE, (Blocks.RESIN_BLOCK), (ModBlocks2.RESIN_SLAB), 1).offerTo(exporter);
+                TrapdoorRecipe(itemLookup, ModBlocks2.RESIN_TRAPDOOR, (ModBlocks2.RESIN_SLAB)).offerTo(exporter);
+                PressPlateRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks2.RESIN_PRESSURE_PLATE, (ModBlocks2.RESIN_SLAB)).offerTo(exporter);
+                ButtonRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks2.RESIN_BUTTON, Blocks.RESIN_BLOCK, 1).offerTo(exporter);
+                WallRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks2.RESIN_WALL, (Blocks.RESIN_BLOCK)).offerTo(exporter);
+
                 //OCHRE_FROGLIGHT
                 DoorRecipe(itemLookup, ModBlocks2.OCHRE_FROGLIGHT_DOOR, (Blocks.OCHRE_FROGLIGHT)).offerTo(exporter);
                 SlabRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks2.OCHRE_FROGLIGHT_SLAB, (Blocks.OCHRE_FROGLIGHT)).offerTo(exporter);
@@ -3631,6 +3661,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 PlankWallRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.DARK_OAK_WALL, Blocks.DARK_OAK_PLANKS).offerTo(exporter);
                 PlankWallRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.MANGROVE_WALL, Blocks.MANGROVE_PLANKS).offerTo(exporter);
                 PlankWallRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.CHERRY_WALL, Blocks.CHERRY_PLANKS).offerTo(exporter);
+                PlankWallRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.PALE_OAK_WALL, Blocks.PALE_OAK_PLANKS).offerTo(exporter);
                 PlankWallRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.BAMBOO_WALL, Blocks.BAMBOO_PLANKS).offerTo(exporter);
                 PlankWallRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.CRIMSON_WALL, Blocks.CRIMSON_PLANKS).offerTo(exporter);
                 PlankWallRecipe(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.WARPED_WALL, Blocks.WARPED_PLANKS).offerTo(exporter);
@@ -4100,6 +4131,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .criterion(hasItem(input), conditionsFromItem(input))
                         .showNotification(true);
             }
+
+
         };
     }
 

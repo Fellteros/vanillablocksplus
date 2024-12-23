@@ -3,6 +3,6 @@
   "textures": {
     "bottom": "minecraft:block/netherrack",
     "side": "minecraft:block/crimson_nylium_side",
-    "top": "vanillablocksplus:block/crimson_nylium_trapdoor"
+    "top": "minecraft:block/crimson_nylium"
   }
 }

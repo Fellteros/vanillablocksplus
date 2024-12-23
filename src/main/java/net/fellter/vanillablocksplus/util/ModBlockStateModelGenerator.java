@@ -10,8 +10,14 @@ import net.minecraft.state.property.Properties;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.Direction;
 
-public class ModBlockStateModelGenerator {
+import java.util.function.BiConsumer;
+import java.util.function.Consumer;
 
+public class ModBlockStateModelGenerator extends BlockStateModelGenerator {
+
+    public ModBlockStateModelGenerator(Consumer<BlockStateSupplier> blockStateCollector, ItemModelOutput itemModelOutput, BiConsumer<Identifier, ModelSupplier> modelCollector) {
+        super(blockStateCollector, itemModelOutput, modelCollector);
+    }
 
     public static class ModBlockTexturePool {
         private final TextureMap textureMap;
@@ -22,8 +28,8 @@ public class ModBlockStateModelGenerator {
         public ModBlockTexturePool(TextureMap textureMap, BlockStateModelGenerator bsmg, Block block) {
             this.textureMap = textureMap;
             this.bsmg = bsmg;
-             this.baseModelId = TextureMap.getId(block);
-             this.tintSource = null;
+            this.baseModelId = TextureMap.getId(block);
+            this.tintSource = null;
         }
 
         private void registerItemModel(Block block, Identifier model) {
@@ -177,6 +183,10 @@ public class ModBlockStateModelGenerator {
         return (new ModBlockTexturePool(TextureMap.all(textureBlock), bsmg, textureBlock));
     }
 
+    public static ModBlockTexturePool registerModModelTexturePool(BlockStateModelGenerator bsmg, Identifier textureMapID, Block textureBlock) {
+        return (new ModBlockTexturePool(TextureMap.all(textureMapID), bsmg, textureBlock));
+    }
+
 
 
 
@@ -245,7 +255,7 @@ public class ModBlockStateModelGenerator {
         Identifier identifier6 = ModModels.DOOR_STB_TOP_LEFT_OPEN.upload(doorBlock, textureMap, bsmg.modelCollector);
         Identifier identifier7 = ModModels.DOOR_STB_TOP_RIGHT.upload(doorBlock, textureMap, bsmg.modelCollector);
         Identifier identifier8 = ModModels.DOOR_STB_TOP_RIGHT_OPEN.upload(doorBlock, textureMap, bsmg.modelCollector);
-        ModBlockStateModelGenerator.registerItemModel(doorBlock.asItem(), bsmg);
+        bsmg.registerItemModel(doorBlock.asItem());
         bsmg.blockStateCollector.accept(createDoorBlockState(doorBlock, identifier, identifier2, identifier3, identifier4, identifier5, identifier6, identifier7, identifier8));
     }
     public static void registerCustomOrTrapdoor(BlockStateModelGenerator blockStateModelGenerator, Block trapdoorBlock, TintSource tintSource) {
@@ -295,7 +305,7 @@ public class ModBlockStateModelGenerator {
         Identifier identifier6 = ModModels.DOOR_STB_TOP_LEFT_OPEN.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier7 = ModModels.DOOR_STB_TOP_RIGHT.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier8 = ModModels.DOOR_STB_TOP_RIGHT_OPEN.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
-        ModBlockStateModelGenerator.registerItemModel(doorBlock.asItem(), blockStateModelGenerator);
+        blockStateModelGenerator.registerItemModel(doorBlock.asItem());
         blockStateModelGenerator.blockStateCollector.accept(createDoorBlockState(doorBlock, identifier, identifier2, identifier3, identifier4, identifier5, identifier6, identifier7, identifier8));
     }
 
@@ -316,7 +326,8 @@ public class ModBlockStateModelGenerator {
         Identifier identifier6 = ModModels.DOOR_STB_TOP_LEFT_OPEN.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier7 = ModModels.DOOR_STB_TOP_RIGHT.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
         Identifier identifier8 = ModModels.DOOR_STB_TOP_RIGHT_OPEN.upload(doorBlock, textureMap, blockStateModelGenerator.modelCollector);
-        ModBlockStateModelGenerator.registerTintedItemModel(doorBlock.asItem(), tintSource, blockStateModelGenerator);
+        Identifier itemID = blockStateModelGenerator.uploadItemModel(doorBlock.asItem());
+        blockStateModelGenerator.registerTintedItemModel(doorBlock, itemID, tintSource);
         blockStateModelGenerator.blockStateCollector.accept(createDoorBlockState(doorBlock, identifier, identifier2, identifier3, identifier4, identifier5, identifier6, identifier7, identifier8));
     }
 

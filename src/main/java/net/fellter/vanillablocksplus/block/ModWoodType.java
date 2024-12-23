@@ -23,7 +23,6 @@ public class ModWoodType {
     public static final WoodType HONEY = registerModWoodTypes("honey", ModBlockSetType.HONEY, BlockSoundGroup.HONEY);
     public static final WoodType CORAL = registerModWoodTypes("coral", ModBlockSetType.CORAL, BlockSoundGroup.CORAL);
     public static final WoodType NYLIUM = registerModWoodTypes("nylium", ModBlockSetType.NYLIUM, BlockSoundGroup.NYLIUM);
-    public static final WoodType FUNGUS = registerModWoodTypes("fungus", ModBlockSetType.FUNGUS, BlockSoundGroup.FUNGUS);
     public static final WoodType SHROOMLIGHT = registerModWoodTypes("shroomlight", ModBlockSetType.SHROOMLIGHT, BlockSoundGroup.SHROOMLIGHT);
     public static final WoodType SOUL_SAND = registerModWoodTypes("soul_sand", ModBlockSetType.SOUL_SAND, BlockSoundGroup.SOUL_SAND);
     public static final WoodType SOUL_SOIL = registerModWoodTypes("soul_soil", ModBlockSetType.SOUL_SOIL, BlockSoundGroup.SOUL_SOIL);
@@ -44,15 +43,12 @@ public class ModWoodType {
     public static final WoodType MOSS_BLOCK = registerModWoodTypes("moss", ModBlockSetType.MOSS_BLOCK, BlockSoundGroup.MOSS_BLOCK);
     public static final WoodType ROOTED_DIRT = registerModWoodTypes("rooted_dirt", ModBlockSetType.ROOTED_DIRT, BlockSoundGroup.ROOTED_DIRT);
     public static final WoodType AZALEA_LEAVES = registerModWoodTypes("azalea_leaves", ModBlockSetType.AZALEA_LEAVES, BlockSoundGroup.AZALEA_LEAVES);
-    public static final WoodType SCULK_CATALYST = registerModWoodTypes("sculk_catalyst", ModBlockSetType.SCULK_CATALYST, BlockSoundGroup.SCULK_CATALYST);
     public static final WoodType SCULK = registerModWoodTypes("sculk", ModBlockSetType.SCULK, BlockSoundGroup.SCULK);
     public static final WoodType DEEPSLATE = registerModWoodTypes("deepslate", ModBlockSetType.DEEPSLATE, BlockSoundGroup.DEEPSLATE);
     public static final WoodType DEEPSLATE_BRICKS = registerModWoodTypes("deepslate_bricks", ModBlockSetType.DEEPSLATE_BRICKS, BlockSoundGroup.DEEPSLATE_BRICKS);
     public static final WoodType DEEPSLATE_TILES = registerModWoodTypes("deepslate_tiles", ModBlockSetType.DEEPSLATE_TILES, BlockSoundGroup.DEEPSLATE_TILES);
     public static final WoodType POLISHED_DEEPSLATE = registerModWoodTypes("polished_deepslate", ModBlockSetType.POLISHED_DEEPSLATE, BlockSoundGroup.POLISHED_DEEPSLATE);
     public static final WoodType FROGLIGHT = registerModWoodTypes("froglight", ModBlockSetType.FROGLIGHT, BlockSoundGroup.FROGLIGHT);
-    public static final WoodType MANGROVE_ROOTS = registerModWoodTypes("mangrove_roots", ModBlockSetType.MANGROVE_ROOTS, BlockSoundGroup.MANGROVE_ROOTS);
-    public static final WoodType MUDDY_MANGROVE_ROOTS = registerModWoodTypes("muddy_mangrove_roots", ModBlockSetType.MUDDY_MANGROVE_ROOTS, BlockSoundGroup.MUDDY_MANGROVE_ROOTS);
     public static final WoodType MUD = registerModWoodTypes("mud", ModBlockSetType.MUD, BlockSoundGroup.MUD);
     public static final WoodType MUD_BRICKS = registerModWoodTypes("mud_bricks", ModBlockSetType.MUD_BRICKS, BlockSoundGroup.MUD_BRICKS);
     public static final WoodType PACKED_MUD = registerModWoodTypes("packed_mud", ModBlockSetType.PACKED_MUD, BlockSoundGroup.PACKED_MUD);
@@ -64,4 +60,6 @@ public class ModWoodType {
     public static final WoodType WOOD = registerModWoodTypes("wood", ModBlockSetType.WOOD, BlockSoundGroup.WOOD);
     public static final WoodType SPONGE = registerModWoodTypes("sponge", ModBlockSetType.SPONGE, BlockSoundGroup.SPONGE);
     public static final WoodType WET_SPONGE = registerModWoodTypes("wet_sponge", ModBlockSetType.WET_SPONGE, BlockSoundGroup.WET_SPONGE);
+    public static final WoodType RESIN = registerModWoodTypes("resin", ModBlockSetType.RESIN, BlockSoundGroup.RESIN);
+    public static final WoodType RESIN_BRICKS = registerModWoodTypes("resin_bricks", ModBlockSetType.RESIN_BRICKS, BlockSoundGroup.RESIN_BRICKS);
 }

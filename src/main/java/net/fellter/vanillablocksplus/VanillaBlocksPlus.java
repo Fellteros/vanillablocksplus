@@ -31,6 +31,8 @@ public class VanillaBlocksPlus implements ModInitializer {
 		VBPStrippableBlocksRegistry.registerStrippables();
 		FuelRegistry.registerFuels();
 
+		LOGGER.info("Initialized Vanilla+ Blocks");
+
 
 	}
 }

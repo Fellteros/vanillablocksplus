@@ -18,6 +18,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
+import java.lang.invoke.TypeDescriptor;
 import java.util.function.Function;
 
 import static net.minecraft.block.Blocks.createLightLevelFromLitBlockState;
@@ -57,12 +58,12 @@ public class ModBlocks2 {
     //honeycomb_block
     public static final Block HONEYCOMB_STAIRS = registerBlock("honeycomb_stairs", (settings) -> new StairsBlock(Blocks.HONEYCOMB_BLOCK.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK));
     public static final Block HONEYCOMB_SLAB = registerBlock("honeycomb_slab", SlabBlock::new, AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK));
-    public static final Block HONEYCOMB_BUTTON = registerBlock("honeycomb_button", (settings) -> new ButtonBlock(ModBlockSetType.CORAL, 10, settings), AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK));
-    public static final Block HONEYCOMB_PRESSURE_PLATE = registerBlock("honeycomb_pressure_plate", (settings) -> new PressurePlateBlock(ModBlockSetType.CORAL, settings), AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK));
+    public static final Block HONEYCOMB_BUTTON = registerBlock("honeycomb_button", (settings) -> new ButtonBlock(ModBlockSetType.HONEY, 10, settings), AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK));
+    public static final Block HONEYCOMB_PRESSURE_PLATE = registerBlock("honeycomb_pressure_plate", (settings) -> new PressurePlateBlock(ModBlockSetType.HONEY, settings), AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK));
     public static final Block HONEYCOMB_FENCE = registerBlock("honeycomb_fence", FenceBlock::new, AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK));
-    public static final Block HONEYCOMB_FENCE_GATE = registerBlock("honeycomb_fence_gate", (settings) -> new FenceGateBlock(ModWoodType.CORAL, settings), AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK));
-    public static final Block HONEYCOMB_DOOR = registerBlock("honeycomb_door", (settings) -> new DoorBlock(ModBlockSetType.CORAL, settings), AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK));
-    public static final Block HONEYCOMB_TRAPDOOR = registerBlock("honeycomb_trapdoor", (settings) -> new TrapdoorBlock(ModBlockSetType.CORAL, settings), AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK));
+    public static final Block HONEYCOMB_FENCE_GATE = registerBlock("honeycomb_fence_gate", (settings) -> new FenceGateBlock(ModWoodType.HONEY, settings), AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK));
+    public static final Block HONEYCOMB_DOOR = registerBlock("honeycomb_door", (settings) -> new DoorBlock(ModBlockSetType.HONEY, settings), AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK));
+    public static final Block HONEYCOMB_TRAPDOOR = registerBlock("honeycomb_trapdoor", (settings) -> new TrapdoorBlock(ModBlockSetType.HONEY, settings), AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK));
     public static final Block HONEYCOMB_WALL = registerBlock("honeycomb_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK));
     //slime_block
     public static final Block SLIME_STAIRS = registerBlock("slime_stairs", (settings) -> new SlimeStairsBlock(Blocks.SLIME_BLOCK.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.SLIME_BLOCK));
@@ -84,6 +85,16 @@ public class ModBlocks2 {
     public static final Block HONEY_DOOR = registerBlock("honey_door", (settings) -> new DoorBlock(ModBlockSetType.HONEY, settings), AbstractBlock.Settings.copy(Blocks.HONEY_BLOCK));
     public static final Block HONEY_TRAPDOOR = registerBlock("honey_trapdoor", (settings) -> new TrapdoorBlock(ModBlockSetType.HONEY, settings), AbstractBlock.Settings.copy(Blocks.HONEY_BLOCK));
     public static final Block HONEY_WALL = registerBlock("honey_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.HONEY_BLOCK));
+    //resin_block
+    public static final Block RESIN_STAIRS = registerBlock("resin_stairs", (settings) -> new StairsBlock(Blocks.RESIN_BLOCK.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.RESIN_BLOCK));
+    public static final Block RESIN_SLAB = registerBlock("resin_slab", SlabBlock::new, AbstractBlock.Settings.copy(Blocks.RESIN_BLOCK));
+    public static final Block RESIN_BUTTON = registerBlock("resin_button", (settings) -> new ButtonBlock(ModBlockSetType.RESIN, 10, settings), AbstractBlock.Settings.copy(Blocks.RESIN_BLOCK));
+    public static final Block RESIN_PRESSURE_PLATE = registerBlock("resin_pressure_plate", (settings) -> new PressurePlateBlock(ModBlockSetType.RESIN, settings), AbstractBlock.Settings.copy(Blocks.RESIN_BLOCK));
+    public static final Block RESIN_FENCE = registerBlock("resin_fence", FenceBlock::new, AbstractBlock.Settings.copy(Blocks.RESIN_BLOCK));
+    public static final Block RESIN_FENCE_GATE = registerBlock("resin_fence_gate", (settings) -> new FenceGateBlock(ModWoodType.RESIN, settings), AbstractBlock.Settings.copy(Blocks.RESIN_BLOCK));
+    public static final Block RESIN_DOOR = registerBlock("resin_door", (settings) -> new DoorBlock(ModBlockSetType.RESIN, settings), AbstractBlock.Settings.copy(Blocks.RESIN_BLOCK));
+    public static final Block RESIN_TRAPDOOR = registerBlock("resin_trapdoor", (settings) -> new TrapdoorBlock(ModBlockSetType.RESIN, settings), AbstractBlock.Settings.copy(Blocks.RESIN_BLOCK));
+    public static final Block RESIN_WALL = registerBlock("resin_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.RESIN_BLOCK));
     //ochre_froglight
     public static final Block OCHRE_FROGLIGHT_STAIRS = registerBlock("ochre_froglight_stairs", (settings) -> new StairsBlock(Blocks.OCHRE_FROGLIGHT.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.OCHRE_FROGLIGHT));
     public static final Block OCHRE_FROGLIGHT_SLAB = registerBlock("ochre_froglight_slab", SlabBlock::new, AbstractBlock.Settings.copy(Blocks.OCHRE_FROGLIGHT));
