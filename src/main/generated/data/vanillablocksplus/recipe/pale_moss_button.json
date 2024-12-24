@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:pale_moss_block"
+  },
+  "pattern": [
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:pale_moss_button"
+  }
+}

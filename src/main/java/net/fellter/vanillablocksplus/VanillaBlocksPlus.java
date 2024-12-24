@@ -9,7 +9,6 @@ import net.fellter.vanillablocksplus.registry.FlammableBlocksRegistry;
 import net.fellter.vanillablocksplus.registry.FuelRegistry;
 import net.fellter.vanillablocksplus.registry.OxidizableBlockRegistry;
 import net.fellter.vanillablocksplus.registry.VBPStrippableBlocksRegistry;
-import net.minecraft.registry.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -2196,6 +2196,15 @@ public class ModModelProvider extends FabricModelProvider {
         mossPool.fence(ModBlocks.MOSS_FENCE);
         mossPool.fenceGate(ModBlocks.MOSS_FENCE_GATE);
         mossPool.pressurePlate(ModBlocks.MOSS_PRESSURE_PLATE);
+        //pale_moss
+        registerModModelTexturePool(bsmg, Blocks.PALE_MOSS_BLOCK)
+                .button(ModBlocks.PALE_MOSS_BUTTON)
+                .wall(ModBlocks.PALE_MOSS_WALL)
+                .slab(ModBlocks.PALE_MOSS_SLAB)
+                .stairs(ModBlocks.PALE_MOSS_STAIRS)
+                .fence(ModBlocks.PALE_MOSS_FENCE)
+                .fenceGate(ModBlocks.PALE_MOSS_FENCE_GATE)
+                .pressurePlate(ModBlocks.PALE_MOSS_PRESSURE_PLATE);
         //calcite
         calcitePool.button(ModBlocks.CALCITE_BUTTON);
         calcitePool.wall(ModBlocks.CALCITE_WALL);
@@ -3705,6 +3714,9 @@ public class ModModelProvider extends FabricModelProvider {
         //moss
         bsmg.registerOrientableTrapdoor(ModBlocks.MOSS_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.MOSS_DOOR);
+        //pale_moss
+        bsmg.registerOrientableTrapdoor(ModBlocks.PALE_MOSS_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks.PALE_MOSS_DOOR);
         //calcite
         bsmg.registerOrientableTrapdoor(ModBlocks.CALCITE_TRAPDOOR);
         bsmg.registerDoor(ModBlocks.CALCITE_DOOR);

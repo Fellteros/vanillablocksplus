@@ -13,14 +13,14 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "vanillablocksplus:waxed_cut_copper_door",
+              "block": "vanillablocksplus:cut_copper_door",
               "condition": "minecraft:block_state_property",
               "properties": {
                 "half": "lower"
               }
             }
           ],
-          "name": "vanillablocksplus:waxed_cut_copper_door"
+          "name": "vanillablocksplus:cut_copper_door"
         }
       ],
       "rolls": 1.0

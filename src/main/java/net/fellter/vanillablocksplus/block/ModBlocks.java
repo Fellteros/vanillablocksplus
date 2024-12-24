@@ -2309,6 +2309,17 @@ public class ModBlocks {
     public static final Block MOSS_TRAPDOOR = registerBlock("moss_trapdoor", settings -> new TrapdoorBlock(ModBlockSetType.MOSS_BLOCK, settings), AbstractBlock.Settings.copy(Blocks.MOSS_BLOCK));
     public static final Block MOSS_WALL = registerBlock("moss_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.MOSS_BLOCK));
 
+    //pale_moss
+    public static final Block PALE_MOSS_STAIRS = registerBlock("pale_moss_stairs", settings -> new StairsBlock(Blocks.PALE_MOSS_BLOCK.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.PALE_MOSS_BLOCK));
+    public static final Block PALE_MOSS_SLAB = registerBlock("pale_moss_slab", SlabBlock::new, AbstractBlock.Settings.copy(Blocks.PALE_MOSS_BLOCK));
+    public static final Block PALE_MOSS_BUTTON = registerBlock("pale_moss_button", settings -> new ButtonBlock(ModBlockSetType.MOSS_BLOCK, 10, settings), AbstractBlock.Settings.copy(Blocks.PALE_MOSS_BLOCK));
+    public static final Block PALE_MOSS_PRESSURE_PLATE = registerBlock("pale_moss_pressure_plate", settings -> new PressurePlateBlock(ModBlockSetType.MOSS_BLOCK, settings), AbstractBlock.Settings.copy(Blocks.PALE_MOSS_BLOCK));
+    public static final Block PALE_MOSS_FENCE = registerBlock("pale_moss_fence", FenceBlock::new, AbstractBlock.Settings.copy(Blocks.PALE_MOSS_BLOCK));
+    public static final Block PALE_MOSS_FENCE_GATE = registerBlock("pale_moss_fence_gate", settings -> new FenceGateBlock(ModWoodType.MOSS_BLOCK, settings), AbstractBlock.Settings.copy(Blocks.PALE_MOSS_BLOCK));
+    public static final Block PALE_MOSS_DOOR = registerBlock("pale_moss_door", settings -> new DoorBlock(ModBlockSetType.MOSS_BLOCK, settings), AbstractBlock.Settings.copy(Blocks.PALE_MOSS_BLOCK));
+    public static final Block PALE_MOSS_TRAPDOOR = registerBlock("pale_moss_trapdoor", settings -> new TrapdoorBlock(ModBlockSetType.MOSS_BLOCK, settings), AbstractBlock.Settings.copy(Blocks.PALE_MOSS_BLOCK));
+    public static final Block PALE_MOSS_WALL = registerBlock("pale_moss_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.PALE_MOSS_BLOCK));
+
     //calcite
     public static final Block CALCITE_STAIRS = registerBlock("calcite_stairs", settings -> new StairsBlock(Blocks.CALCITE.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.CALCITE));
     public static final Block CALCITE_SLAB = registerBlock("calcite_slab", SlabBlock::new, AbstractBlock.Settings.copy(Blocks.CALCITE));

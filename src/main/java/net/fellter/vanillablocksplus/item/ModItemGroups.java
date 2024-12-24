@@ -2443,6 +2443,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MOSS_TRAPDOOR);
                         entries.add(ModBlocks.MOSS_PRESSURE_PLATE);
                         entries.add(ModBlocks.MOSS_BUTTON);
+                        //pale_moss
+                        entries.add(ModBlocks.PALE_MOSS_STAIRS);
+                        entries.add(ModBlocks.PALE_MOSS_SLAB);
+                        entries.add(ModBlocks.PALE_MOSS_WALL);
+                        entries.add(ModBlocks.PALE_MOSS_FENCE);
+                        entries.add(ModBlocks.PALE_MOSS_FENCE_GATE);
+                        entries.add(ModBlocks.PALE_MOSS_DOOR);
+                        entries.add(ModBlocks.PALE_MOSS_TRAPDOOR);
+                        entries.add(ModBlocks.PALE_MOSS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.PALE_MOSS_BUTTON);
                         //calcite
                         entries.add(ModBlocks.CALCITE_STAIRS);
                         entries.add(ModBlocks.CALCITE_SLAB);
