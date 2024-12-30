@@ -2,15 +2,13 @@ package net.fellter.vanillablocksplus.datagen;
 
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fellter.vanillablocksplus.VanillaBlocksPlus;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.fellter.vanillablocksplus.item.ModItems;
 import net.fellter.vanillablocksplus.util.ModTextureMap;
 import net.minecraft.block.Blocks;
-import net.minecraft.client.data.BlockStateModelGenerator;
-import net.minecraft.client.data.ItemModelGenerator;
-import net.minecraft.client.data.Models;
-import net.minecraft.client.data.TextureMap;
+import net.minecraft.client.data.*;
 import net.minecraft.client.render.item.tint.GrassTintSource;
 import net.minecraft.util.Identifier;
 
@@ -3991,6 +3989,8 @@ public class ModModelProvider extends FabricModelProvider {
         bsmg.registerOrientableTrapdoor(ModBlocks2.TUFF_BRICKS_TRAPDOOR);
         bsmg.registerDoor(ModBlocks2.TUFF_BRICKS_DOOR);
 
+
+//        bsmg.itemModelOutput.accept(ModBlocks.GRASS_BUTTON.asItem(), ItemModels.basic(Identifier.of(VanillaBlocksPlus.MOD_ID, "grass_button")));
 
 
     }

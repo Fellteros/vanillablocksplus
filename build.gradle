@@ -40,7 +40,12 @@ repositories {
 fabricApi {
 	configureDataGeneration {
 		client = true
+		strictValidation = true
 	}
+}
+
+loom {
+	accessWidenerPath = file("src/main/resources/vanillablocksplus.accesswidener")
 }
 
 dependencies {

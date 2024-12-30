@@ -13,6 +13,7 @@
 	"license": "CC0-1.0",
 	"environment": "*",
 	"icon": "assets/vanillablocksplus/icon.png",
+	"accessWidener": "vanillablocksplus.accesswidener",
 	"entrypoints": {
 		"main": [
 			"net.fellter.vanillablocksplus.VanillaBlocksPlus"

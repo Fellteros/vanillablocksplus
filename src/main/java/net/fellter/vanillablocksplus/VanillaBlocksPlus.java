@@ -5,10 +5,8 @@ import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.fellter.vanillablocksplus.item.ModItemGroups;
 import net.fellter.vanillablocksplus.item.ModItems;
-import net.fellter.vanillablocksplus.registry.FlammableBlocksRegistry;
-import net.fellter.vanillablocksplus.registry.FuelRegistry;
-import net.fellter.vanillablocksplus.registry.OxidizableBlockRegistry;
-import net.fellter.vanillablocksplus.registry.VBPStrippableBlocksRegistry;
+import net.fellter.vanillablocksplus.registry.*;
+import net.minecraft.registry.Registries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,10 +23,10 @@ public class VanillaBlocksPlus implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 
-		FlammableBlocksRegistry.registerFlammables();
-		OxidizableBlockRegistry.registerOxidizables();
-		VBPStrippableBlocksRegistry.registerStrippables();
-		FuelRegistry.registerFuels();
+		ModRegistries.FlammableBlocksRegistry.registerFlammables();
+		ModRegistries.OxidizableBlockRegistry.registerOxidizables();
+		ModRegistries.VBPStrippableBlocksRegistry.registerStrippables();
+		ModRegistries.FuelRegistry.registerFuels();
 
 		LOGGER.info("Initialized Vanilla+ Blocks");
 
