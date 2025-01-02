@@ -2553,6 +2553,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .fence(ModBlocks2.CHERRY_LEAVES_FENCE)
                 .fenceGate(ModBlocks2.CHERRY_LEAVES_FENCE_GATE)
                 .pressurePlate(ModBlocks2.CHERRY_LEAVES_PRESSURE_PLATE);
+        //pale_oak_leaves
+        registerModModelTexturePool(bsmg, TextureMap.all(Blocks.PALE_OAK_LEAVES), Blocks.PALE_OAK_LEAVES)
+                .button(ModBlocks2.PALE_OAK_LEAVES_BUTTON)
+                .wall(ModBlocks2.PALE_OAK_LEAVES_WALL)
+                .slab(ModBlocks2.PALE_OAK_LEAVES_SLAB)
+                .stairs(ModBlocks2.PALE_OAK_LEAVES_STAIRS)
+                .fence(ModBlocks2.PALE_OAK_LEAVES_FENCE)
+                .fenceGate(ModBlocks2.PALE_OAK_LEAVES_FENCE_GATE)
+                .pressurePlate(ModBlocks2.PALE_OAK_LEAVES_PRESSURE_PLATE);
         //azalea_leaves
         registerModModelTexturePool(bsmg, TextureMap.all(Blocks.AZALEA_LEAVES), Blocks.AZALEA_LEAVES)
                 .button(ModBlocks2.AZALEA_LEAVES_BUTTON)
@@ -3839,6 +3848,9 @@ public class ModModelProvider extends FabricModelProvider {
         //cherry_leaves
         bsmg.registerOrientableTrapdoor(ModBlocks2.CHERRY_LEAVES_TRAPDOOR);
         bsmg.registerDoor(ModBlocks2.CHERRY_LEAVES_DOOR);
+        //pale_oak_leaves
+        bsmg.registerOrientableTrapdoor(ModBlocks2.PALE_OAK_LEAVES_TRAPDOOR);
+        bsmg.registerDoor(ModBlocks2.PALE_OAK_LEAVES_DOOR);
         //azalea_leaves
         bsmg.registerOrientableTrapdoor(ModBlocks2.AZALEA_LEAVES_TRAPDOOR);
         bsmg.registerDoor(ModBlocks2.AZALEA_LEAVES_DOOR);

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "vanillablocksplus:pale_oak_leaves_slab"
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillablocksplus:pale_oak_leaves_pressure_plate"
+  }
+}

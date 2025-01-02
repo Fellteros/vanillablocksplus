@@ -74,8 +74,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
-                RegistryEntryLookup<Item> itemLookup = registries.getOrThrow(RegistryKeys.ITEM);
-
                 generateDyeables(exporter);
                 generateSmeltables(exporter);
 
@@ -3097,6 +3095,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks2.CHERRY_LEAVES_PRESSURE_PLATE, (ModBlocks2.CHERRY_LEAVES_SLAB)).offerTo(exporter);
                 ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks2.CHERRY_LEAVES_BUTTON, Blocks.CHERRY_LEAVES, 1).offerTo(exporter);
                 WallRecipe(RecipeCategory.DECORATIONS, ModBlocks2.CHERRY_LEAVES_WALL, (Blocks.CHERRY_LEAVES)).offerTo(exporter);
+
+                //pale_oak_leaves
+                DoorRecipe(ModBlocks2.PALE_OAK_LEAVES_DOOR, (Blocks.PALE_OAK_LEAVES)).offerTo(exporter);
+                SlabRecipe(RecipeCategory.DECORATIONS, ModBlocks2.PALE_OAK_LEAVES_SLAB, (Blocks.PALE_OAK_LEAVES)).offerTo(exporter);
+                StairsRecipe(ModBlocks2.PALE_OAK_LEAVES_STAIRS, (Blocks.PALE_OAK_LEAVES)).offerTo(exporter);
+                NWFenceRecipe(ModBlocks2.PALE_OAK_LEAVES_FENCE, (Blocks.PALE_OAK_LEAVES), (ModBlocks2.PALE_OAK_LEAVES_SLAB), 3).offerTo(exporter);
+                NWFenceGateRecipe(ModBlocks2.PALE_OAK_LEAVES_FENCE_GATE, (Blocks.PALE_OAK_LEAVES), (ModBlocks2.PALE_OAK_LEAVES_SLAB), 1).offerTo(exporter);
+                TrapdoorRecipe(ModBlocks2.PALE_OAK_LEAVES_TRAPDOOR, (ModBlocks2.PALE_OAK_LEAVES_SLAB)).offerTo(exporter);
+                PressPlateRecipe(RecipeCategory.DECORATIONS, ModBlocks2.PALE_OAK_LEAVES_PRESSURE_PLATE, (ModBlocks2.PALE_OAK_LEAVES_SLAB)).offerTo(exporter);
+                ButtonRecipe(RecipeCategory.DECORATIONS, ModBlocks2.PALE_OAK_LEAVES_BUTTON, Blocks.PALE_OAK_LEAVES, 1).offerTo(exporter);
+                WallRecipe(RecipeCategory.DECORATIONS, ModBlocks2.PALE_OAK_LEAVES_WALL, (Blocks.PALE_OAK_LEAVES)).offerTo(exporter);
 
                 //azalea_leaves
                 DoorRecipe(ModBlocks2.AZALEA_LEAVES_DOOR, (Blocks.AZALEA_LEAVES)).offerTo(exporter);

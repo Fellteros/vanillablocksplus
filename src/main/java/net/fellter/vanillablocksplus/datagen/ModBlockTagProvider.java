@@ -3183,6 +3183,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks2.CHERRY_LEAVES_FENCE)
                 .add(ModBlocks2.CHERRY_LEAVES_BUTTON)
                 .add(ModBlocks2.CHERRY_LEAVES_PRESSURE_PLATE)
+                //pale_oak_leaves
+                .add(ModBlocks2.PALE_OAK_LEAVES_STAIRS)
+                .add(ModBlocks2.PALE_OAK_LEAVES_SLAB)
+                .add(ModBlocks2.PALE_OAK_LEAVES_WALL)
+                .add(ModBlocks2.PALE_OAK_LEAVES_DOOR)
+                .add(ModBlocks2.PALE_OAK_LEAVES_TRAPDOOR)
+                .add(ModBlocks2.PALE_OAK_LEAVES_FENCE_GATE)
+                .add(ModBlocks2.PALE_OAK_LEAVES_FENCE)
+                .add(ModBlocks2.PALE_OAK_LEAVES_BUTTON)
+                .add(ModBlocks2.PALE_OAK_LEAVES_PRESSURE_PLATE)
                 //azalea_leaves
                 .add(ModBlocks2.AZALEA_LEAVES_STAIRS)
                 .add(ModBlocks2.AZALEA_LEAVES_SLAB)

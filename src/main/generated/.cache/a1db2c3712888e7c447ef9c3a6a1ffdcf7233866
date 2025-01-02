@@ -1,9 +1,9 @@
 // 1.21.4	-999999999-01-01T00:00:00	Vanilla+ Blocks/Tags for minecraft:block
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/fabric/tags/block/needs_tool_level_4.json
-b407e402d3acc96ae1b016c20f6b3452845bbe07 data/minecraft/tags/block/fence_gates.json
-877b24061078358b9db7c18e59c339d79d3f8957 data/minecraft/tags/block/fences.json
+ac247de69d2434cdee7611fcd469ff776407d74f data/minecraft/tags/block/fence_gates.json
+6d431b4a349b1a0d9993e7cb9e0ff5fdc1cc3821 data/minecraft/tags/block/fences.json
 470650484d80325315e62fe6d35c6b1274908128 data/minecraft/tags/block/mineable/axe.json
-ce15d1e76f736cd3a7d7263361bc259fc265dba9 data/minecraft/tags/block/mineable/hoe.json
+95ff22881566acb4f381a5e6ea8f3f6c64b4573c data/minecraft/tags/block/mineable/hoe.json
 89096cd4f913b16b9b6cea062d19ae3cea416e13 data/minecraft/tags/block/mineable/pickaxe.json
 13dd57c8d544c87f97cf6bdb533ff77428bc73fa data/minecraft/tags/block/mineable/shovel.json
 671acbd8392a040e449deb6e19413db1da818732 data/minecraft/tags/block/needs_diamond_tool.json
@@ -11,6 +11,6 @@ b101b762a008570c3444c565ef1b574a2ae7b394 data/minecraft/tags/block/needs_iron_to
 7045b5b48fd03d0d6971c2077635c222e53c5bb6 data/minecraft/tags/block/needs_stone_tool.json
 88e1786c2483a7c1ebbc7248add855231dccbeac data/minecraft/tags/block/sand.json
 e3cd87d8dafe7a7f55217d6cbc91d9edfa922c1f data/minecraft/tags/block/terracotta.json
-41ca7b898c0041167c7ed94bf207c6c7128fe6af data/minecraft/tags/block/walls.json
-877b24061078358b9db7c18e59c339d79d3f8957 data/minecraft/tags/block/wooden_fences.json
+5666a94f43f5796707d9da0dd3df1cb39cd933f8 data/minecraft/tags/block/walls.json
+6d431b4a349b1a0d9993e7cb9e0ff5fdc1cc3821 data/minecraft/tags/block/wooden_fences.json
 0a278b5bed0280c6b4d92a01959b979ad97a273e data/minecraft/tags/block/wool.json

@@ -567,7 +567,7 @@ public class ModBlocks2 {
     public static final Block GLOWSTONE_WALL = registerBlock("glowstone_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.GLOWSTONE));
 
     //leaves_def
-    static final Block LEAVES_DEF = registerBlock("leaves_def", Block::new, AbstractBlock.Settings.create().strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque() .allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never)
+    static final Block LEAVES_DEF = registerBlock("leaves_def", Block::new, AbstractBlock.Settings.create().strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque().allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never)
             .blockVision(Blocks::never).burnable().pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never));
 
 
@@ -579,8 +579,8 @@ public class ModBlocks2 {
     public static final Block FLOWERING_AZALEA_LEAVES_PRESSURE_PLATE = registerBlock("flowering_azalea_leaves_pressure_plate", (settings) -> new PressurePlateBlock(ModBlockSetType.AZALEA_LEAVES, settings), AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES));
     public static final Block FLOWERING_AZALEA_LEAVES_BUTTON = registerBlock("flowering_azalea_leaves_button", (settings) -> new ButtonBlock(ModBlockSetType.AZALEA_LEAVES, 10, settings), AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES));
     public static final Block FLOWERING_AZALEA_LEAVES_SLAB = registerBlock("flowering_azalea_leaves_slab", SlabBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES));
-    //flowering_azalea_leaves
     public static final Block FLOWERING_AZALEA_LEAVES_STAIRS = registerBlock("flowering_azalea_leaves_stairs", (settings) -> new StairsBlock(Blocks.AIR.getDefaultState(), settings), AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES));
+    //flowering_azalea_leaves
     public static final Block AZALEA_LEAVES_WALL = registerBlock("azalea_leaves_wall", WallBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES));
     public static final Block AZALEA_LEAVES_TRAPDOOR = registerBlock("azalea_leaves_trapdoor", (settings) -> new TrapdoorBlock(ModBlockSetType.AZALEA_LEAVES, settings), AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES));
     public static final Block AZALEA_LEAVES_DOOR = registerBlock("azalea_leaves_door", (settings) -> new DoorBlock(ModBlockSetType.AZALEA_LEAVES, settings), AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES));
@@ -589,8 +589,18 @@ public class ModBlocks2 {
     public static final Block AZALEA_LEAVES_PRESSURE_PLATE = registerBlock("azalea_leaves_pressure_plate", (settings) -> new PressurePlateBlock(ModBlockSetType.AZALEA_LEAVES, settings), AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES));
     public static final Block AZALEA_LEAVES_BUTTON = registerBlock("azalea_leaves_button", (settings) -> new ButtonBlock(ModBlockSetType.AZALEA_LEAVES, 10, settings), AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES));
     public static final Block AZALEA_LEAVES_SLAB = registerBlock("azalea_leaves_slab", SlabBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES));
-    //azalea_leaves
     public static final Block AZALEA_LEAVES_STAIRS = registerBlock("azalea_leaves_stairs", (settings) -> new StairsBlock(Blocks.AIR.getDefaultState(), settings), AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.AZALEA_LEAVES));
+    //azalea_leaves
+    public static final Block PALE_OAK_LEAVES_WALL = registerBlock("pale_oak_leaves_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.PALE_OAK_LEAVES));
+    public static final Block PALE_OAK_LEAVES_TRAPDOOR = registerBlock("pale_oak_leaves_trapdoor", (settings) -> new TrapdoorBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(Blocks.PALE_OAK_LEAVES));
+    public static final Block PALE_OAK_LEAVES_DOOR = registerBlock("pale_oak_leaves_door", (settings) -> new DoorBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(Blocks.PALE_OAK_LEAVES));
+    public static final Block PALE_OAK_LEAVES_FENCE_GATE = registerBlock("pale_oak_leaves_fence_gate", (settings) -> new FenceGateBlock(ModWoodType.GRASS, settings), AbstractBlock.Settings.copy(Blocks.PALE_OAK_LEAVES));
+    public static final Block PALE_OAK_LEAVES_FENCE = registerBlock("pale_oak_leaves_fence", FenceBlock::new, AbstractBlock.Settings.copy(Blocks.PALE_OAK_LEAVES));
+    public static final Block PALE_OAK_LEAVES_PRESSURE_PLATE = registerBlock("pale_oak_leaves_pressure_plate", (settings) -> new PressurePlateBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(Blocks.PALE_OAK_LEAVES));
+    public static final Block PALE_OAK_LEAVES_BUTTON = registerBlock("pale_oak_leaves_button", (settings) -> new ButtonBlock(ModBlockSetType.GRASS, 10, settings), AbstractBlock.Settings.copy(Blocks.PALE_OAK_LEAVES));
+    public static final Block PALE_OAK_LEAVES_SLAB = registerBlock("pale_oak_leaves_slab", SlabBlock::new, AbstractBlock.Settings.copy(Blocks.PALE_OAK_LEAVES));
+    public static final Block PALE_OAK_LEAVES_STAIRS = registerBlock("pale_oak_leaves_stairs", (settings) -> new StairsBlock(Blocks.AIR.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.PALE_OAK_LEAVES));
+    //azalea_leaves
     public static final Block CHERRY_LEAVES_WALL = registerBlock("cherry_leaves_wall", WallBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES));
     public static final Block CHERRY_LEAVES_TRAPDOOR = registerBlock("cherry_leaves_trapdoor", (settings) -> new TrapdoorBlock(ModBlockSetType.CHERRY_LEAVES, settings), AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES));
     public static final Block CHERRY_LEAVES_DOOR = registerBlock("cherry_leaves_door", (settings) -> new DoorBlock(ModBlockSetType.CHERRY_LEAVES, settings), AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES));
@@ -599,8 +609,8 @@ public class ModBlocks2 {
     public static final Block CHERRY_LEAVES_PRESSURE_PLATE = registerBlock("cherry_leaves_pressure_plate", (settings) -> new PressurePlateBlock(ModBlockSetType.CHERRY_LEAVES, settings), AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES));
     public static final Block CHERRY_LEAVES_BUTTON = registerBlock("cherry_leaves_button", (settings) -> new ButtonBlock(ModBlockSetType.CHERRY_LEAVES, 10, settings), AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES));
     public static final Block CHERRY_LEAVES_SLAB = registerBlock("cherry_leaves_slab", SlabBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES));
-    //cherry_leaves
     public static final Block CHERRY_LEAVES_STAIRS = registerBlock("cherry_leaves_stairs", (settings) -> new StairsBlock(Blocks.AIR.getDefaultState(), settings), AbstractBlock.Settings.copy(LEAVES_DEF).sounds(BlockSoundGroup.CHERRY_LEAVES));
+    //cherry_leaves
     public static final Block MANGROVE_LEAVES_WALL = registerBlock("mangrove_leaves_wall", WallBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block MANGROVE_LEAVES_TRAPDOOR = registerBlock("mangrove_leaves_trapdoor", (settings) -> new TrapdoorBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block MANGROVE_LEAVES_DOOR = registerBlock("mangrove_leaves_door", (settings) -> new DoorBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
@@ -609,8 +619,8 @@ public class ModBlocks2 {
     public static final Block MANGROVE_LEAVES_PRESSURE_PLATE = registerBlock("mangrove_leaves_pressure_plate", (settings) -> new PressurePlateBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block MANGROVE_LEAVES_BUTTON = registerBlock("mangrove_leaves_button", (settings) -> new ButtonBlock(ModBlockSetType.GRASS, 10, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block MANGROVE_LEAVES_SLAB = registerBlock("mangrove_leaves_slab", SlabBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF));
-    //mangrove_leaves
     public static final Block MANGROVE_LEAVES_STAIRS = registerBlock("mangrove_leaves_stairs", (settings) -> new StairsBlock(Blocks.AIR.getDefaultState(), settings), AbstractBlock.Settings.copy(LEAVES_DEF));
+    //mangrove_leaves
     public static final Block DARK_OAK_LEAVES_WALL = registerBlock("dark_oak_leaves_wall", WallBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block DARK_OAK_LEAVES_TRAPDOOR = registerBlock("dark_oak_leaves_trapdoor", (settings) -> new TrapdoorBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block DARK_OAK_LEAVES_DOOR = registerBlock("dark_oak_leaves_door", (settings) -> new DoorBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
@@ -619,8 +629,8 @@ public class ModBlocks2 {
     public static final Block DARK_OAK_LEAVES_PRESSURE_PLATE = registerBlock("dark_oak_leaves_pressure_plate", (settings) -> new PressurePlateBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block DARK_OAK_LEAVES_BUTTON = registerBlock("dark_oak_leaves_button", (settings) -> new ButtonBlock(ModBlockSetType.GRASS, 10, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block DARK_OAK_LEAVES_SLAB = registerBlock("dark_oak_leaves_slab", SlabBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF));
-    //dark_oak_leaves
     public static final Block DARK_OAK_LEAVES_STAIRS = registerBlock("dark_oak_leaves_stairs", (settings) -> new StairsBlock(Blocks.AIR.getDefaultState(), settings), AbstractBlock.Settings.copy(LEAVES_DEF));
+    //dark_oak_leaves
     public static final Block ACACIA_LEAVES_WALL = registerBlock("acacia_leaves_wall", WallBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block ACACIA_LEAVES_TRAPDOOR = registerBlock("acacia_leaves_trapdoor", (settings) -> new TrapdoorBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block ACACIA_LEAVES_DOOR = registerBlock("acacia_leaves_door", (settings) -> new DoorBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
@@ -629,8 +639,8 @@ public class ModBlocks2 {
     public static final Block ACACIA_LEAVES_PRESSURE_PLATE = registerBlock("acacia_leaves_pressure_plate", (settings) -> new PressurePlateBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block ACACIA_LEAVES_BUTTON = registerBlock("acacia_leaves_button", (settings) -> new ButtonBlock(ModBlockSetType.GRASS, 10, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block ACACIA_LEAVES_SLAB = registerBlock("acacia_leaves_slab", SlabBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF));
-    //acacia_leaves
     public static final Block ACACIA_LEAVES_STAIRS = registerBlock("acacia_leaves_stairs", (settings) -> new StairsBlock(Blocks.AIR.getDefaultState(), settings), AbstractBlock.Settings.copy(LEAVES_DEF));
+    //acacia_leaves
     public static final Block JUNGLE_LEAVES_WALL = registerBlock("jungle_leaves_wall", WallBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block JUNGLE_LEAVES_TRAPDOOR = registerBlock("jungle_leaves_trapdoor", (settings) -> new TrapdoorBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block JUNGLE_LEAVES_DOOR = registerBlock("jungle_leaves_door", (settings) -> new DoorBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
@@ -639,8 +649,8 @@ public class ModBlocks2 {
     public static final Block JUNGLE_LEAVES_PRESSURE_PLATE = registerBlock("jungle_leaves_pressure_plate", (settings) -> new PressurePlateBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block JUNGLE_LEAVES_BUTTON = registerBlock("jungle_leaves_button", (settings) -> new ButtonBlock(ModBlockSetType.GRASS, 10, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block JUNGLE_LEAVES_SLAB = registerBlock("jungle_leaves_slab", SlabBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF));
-    //jungle_leaves
     public static final Block JUNGLE_LEAVES_STAIRS = registerBlock("jungle_leaves_stairs", (settings) -> new StairsBlock(Blocks.AIR.getDefaultState(), settings), AbstractBlock.Settings.copy(LEAVES_DEF));
+    //jungle_leaves
     public static final Block BIRCH_LEAVES_WALL = registerBlock("birch_leaves_wall", WallBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block BIRCH_LEAVES_TRAPDOOR = registerBlock("birch_leaves_trapdoor", (settings) -> new TrapdoorBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block BIRCH_LEAVES_DOOR = registerBlock("birch_leaves_door", (settings) -> new DoorBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
@@ -649,8 +659,8 @@ public class ModBlocks2 {
     public static final Block BIRCH_LEAVES_PRESSURE_PLATE = registerBlock("birch_leaves_pressure_plate", (settings) -> new PressurePlateBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block BIRCH_LEAVES_BUTTON = registerBlock("birch_leaves_button", (settings) -> new ButtonBlock(ModBlockSetType.GRASS, 10, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block BIRCH_LEAVES_SLAB = registerBlock("birch_leaves_slab", SlabBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF));
-    //birch_leaves
     public static final Block BIRCH_LEAVES_STAIRS = registerBlock("birch_leaves_stairs", (settings) -> new StairsBlock(Blocks.AIR.getDefaultState(), settings), AbstractBlock.Settings.copy(LEAVES_DEF));
+    //birch_leaves
     public static final Block SPRUCE_LEAVES_WALL = registerBlock("spruce_leaves_wall", WallBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block SPRUCE_LEAVES_TRAPDOOR = registerBlock("spruce_leaves_trapdoor", (settings) -> new TrapdoorBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block SPRUCE_LEAVES_DOOR = registerBlock("spruce_leaves_door", (settings) -> new DoorBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
@@ -659,8 +669,8 @@ public class ModBlocks2 {
     public static final Block SPRUCE_LEAVES_PRESSURE_PLATE = registerBlock("spruce_leaves_pressure_plate", (settings) -> new PressurePlateBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block SPRUCE_LEAVES_BUTTON = registerBlock("spruce_leaves_button", (settings) -> new ButtonBlock(ModBlockSetType.GRASS, 10, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block SPRUCE_LEAVES_SLAB = registerBlock("spruce_leaves_slab", SlabBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF));
-    //spruce_leaves
     public static final Block SPRUCE_LEAVES_STAIRS = registerBlock("spruce_leaves_stairs", (settings) -> new StairsBlock(Blocks.AIR.getDefaultState(), settings), AbstractBlock.Settings.copy(LEAVES_DEF));
+    //spruce_leaves
     public static final Block OAK_LEAVES_WALL = registerBlock("oak_leaves_wall", WallBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block OAK_LEAVES_TRAPDOOR = registerBlock("oak_leaves_trapdoor", (settings) -> new TrapdoorBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block OAK_LEAVES_DOOR = registerBlock("oak_leaves_door", (settings) -> new DoorBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
@@ -669,8 +679,8 @@ public class ModBlocks2 {
     public static final Block OAK_LEAVES_PRESSURE_PLATE = registerBlock("oak_leaves_pressure_plate", (settings) -> new PressurePlateBlock(ModBlockSetType.GRASS, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block OAK_LEAVES_BUTTON = registerBlock("oak_leaves_button", (settings) -> new ButtonBlock(ModBlockSetType.GRASS, 10, settings), AbstractBlock.Settings.copy(LEAVES_DEF));
     public static final Block OAK_LEAVES_SLAB = registerBlock("oak_leaves_slab", SlabBlock::new, AbstractBlock.Settings.copy(LEAVES_DEF));
+    public static final Block OAK_LEAVES_STAIRS = registerBlock("oak_leaves_stairs", (settings) -> new StairsBlock(Blocks.AIR.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.OAK_LEAVES));
     //oak_leaves
-    public static final Block OAK_LEAVES_STAIRS = registerBlock("oak_leaves_stairs", (settings) -> new StairsBlock(Blocks.AIR.getDefaultState(), settings), AbstractBlock.Settings.copy(LEAVES_DEF));
 
     //chiseled_tuff
     public static final Block CHISELED_TUFF_STAIRS = registerBlock("chiseled_tuff_stairs", (settings) -> new StairsBlock(Blocks.CHISELED_TUFF.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.CHISELED_TUFF));

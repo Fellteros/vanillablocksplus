@@ -2894,6 +2894,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks2.CHERRY_LEAVES_TRAPDOOR);
                         entries.add(ModBlocks2.CHERRY_LEAVES_PRESSURE_PLATE);
                         entries.add(ModBlocks2.CHERRY_LEAVES_BUTTON);
+                        //pale_oak_leaves_block
+                        entries.add(ModBlocks2.PALE_OAK_LEAVES_STAIRS);
+                        entries.add(ModBlocks2.PALE_OAK_LEAVES_SLAB);
+                        entries.add(ModBlocks2.PALE_OAK_LEAVES_WALL);
+                        entries.add(ModBlocks2.PALE_OAK_LEAVES_FENCE);
+                        entries.add(ModBlocks2.PALE_OAK_LEAVES_FENCE_GATE);
+                        entries.add(ModBlocks2.PALE_OAK_LEAVES_DOOR);
+                        entries.add(ModBlocks2.PALE_OAK_LEAVES_TRAPDOOR);
+                        entries.add(ModBlocks2.PALE_OAK_LEAVES_PRESSURE_PLATE);
+                        entries.add(ModBlocks2.PALE_OAK_LEAVES_BUTTON);
                         //azalea_leaves_block
                         entries.add(ModBlocks2.AZALEA_LEAVES_STAIRS);
                         entries.add(ModBlocks2.AZALEA_LEAVES_SLAB);
