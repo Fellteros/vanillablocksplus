@@ -5,7 +5,6 @@ import net.minecraft.block.enums.BlockHalf;
 import net.minecraft.block.enums.DoorHinge;
 import net.minecraft.block.enums.SlabType;
 import net.minecraft.block.enums.StairShape;
-import net.minecraft.structure.StrongholdGenerator;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;

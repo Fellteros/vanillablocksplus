@@ -1,6 +1,11 @@
 package net.fellter.vanillablocksplus.custom_blocks.falling;
 
-import net.minecraft.block.*;
+import java.util.Map;
+
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Falling;
+import net.minecraft.block.FenceBlock;
+import net.minecraft.block.HorizontalConnectingBlock;
 import net.minecraft.entity.FallingBlockEntity;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
@@ -14,13 +19,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
-import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
 import net.minecraft.world.tick.ScheduledTickView;
 
-import java.util.Map;
-
-public class FallingFenceBlock extends FenceBlock implements LandingBlock {
+public class FallingFenceBlock extends FenceBlock implements Falling {
     public FallingFenceBlock(Settings settings) {
         super(settings);
     }

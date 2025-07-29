@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
+  "category": "misc",
   "group": "fence_gate",
   "ingredients": [
     "minecraft:blue_dye",

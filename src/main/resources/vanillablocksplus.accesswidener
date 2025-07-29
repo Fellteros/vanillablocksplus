@@ -1,5 +1,0 @@
-accessWidener   v2	named
-accessible class net/minecraft/client/data/ModelProvider$ModelSuppliers
-accessible class net/minecraft/client/data/ModelProvider$ItemAssets
-accessible class net/minecraft/client/data/ModelProvider$BlockStateSuppliers
-accessible method net/minecraft/client/data/ModelProvider writeAllToPath (Lnet/minecraft/data/DataWriter;Ljava/util/function/Function;Ljava/util/Map;)Ljava/util/concurrent/CompletableFuture;

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:cracked_stone_bricks_fence_gate_from_smelting"
+        "recipe": "vanillablocksplus:cracked_stone_bricks_fence_gate_from_smelting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:cracked_stone_bricks_fence_gate_from_smelting"
+      "vanillablocksplus:cracked_stone_bricks_fence_gate_from_smelting"
     ]
   }
 }

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:terracotta_trapdoor_from_smelting"
+        "recipe": "vanillablocksplus:terracotta_trapdoor_from_smelting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:terracotta_trapdoor_from_smelting"
+      "vanillablocksplus:terracotta_trapdoor_from_smelting"
     ]
   }
 }

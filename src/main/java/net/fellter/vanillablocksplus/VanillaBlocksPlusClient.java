@@ -1,7 +1,8 @@
 package net.fellter.vanillablocksplus;
 
-import net.fabricmc.api.ClientModInitializer;
 import net.fellter.vanillablocksplus.registry.ModRegistries;
+
+import net.fabricmc.api.ClientModInitializer;
 
 public class VanillaBlocksPlusClient implements ClientModInitializer {
     @Override

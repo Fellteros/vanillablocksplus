@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:nether_brick_slab_from_smelting"
+        "recipe": "vanillablocksplus:nether_brick_slab_from_smelting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:nether_brick_slab_from_smelting"
+      "vanillablocksplus:nether_brick_slab_from_smelting"
     ]
   }
 }

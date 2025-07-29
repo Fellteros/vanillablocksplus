@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:quartz_from_smelting_nether_quartz_ore_door"
+        "recipe": "vanillablocksplus:quartz_from_smelting_nether_quartz_ore_door"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:quartz_from_smelting_nether_quartz_ore_door"
+      "vanillablocksplus:quartz_from_smelting_nether_quartz_ore_door"
     ]
   }
 }

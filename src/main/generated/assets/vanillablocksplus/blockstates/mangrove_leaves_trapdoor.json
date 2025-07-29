@@ -45,8 +45,7 @@
     },
     "facing=south,half=top,open=true": {
       "model": "vanillablocksplus:block/mangrove_leaves_trapdoor_open_top",
-      "x": 180,
-      "y": 0
+      "x": 180
     },
     "facing=west,half=bottom,open=false": {
       "model": "vanillablocksplus:block/mangrove_leaves_trapdoor_bottom",

@@ -1,11 +1,12 @@
 package net.fellter.vanillablocksplus.util;
 
+import java.util.Optional;
+
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
+
 import net.minecraft.client.data.Model;
 import net.minecraft.client.data.TextureKey;
 import net.minecraft.util.Identifier;
-
-import java.util.Optional;
 
 public class ModModels {
     public static final Model BUTTON_STB = ModModels.block("button_stb", TextureKey.SIDE, TextureKey.BOTTOM, TextureKey.TOP);

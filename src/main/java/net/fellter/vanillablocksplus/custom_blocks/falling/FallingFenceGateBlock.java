@@ -11,11 +11,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
-import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
 import net.minecraft.world.tick.ScheduledTickView;
 
-public class FallingFenceGateBlock extends FenceGateBlock implements LandingBlock {
+public class FallingFenceGateBlock extends FenceGateBlock implements Falling {
     public FallingFenceGateBlock(WoodType type, AbstractBlock.Settings settings) {
         super(type, settings);
     }

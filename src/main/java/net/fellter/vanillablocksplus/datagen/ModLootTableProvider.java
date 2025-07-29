@@ -1,17 +1,16 @@
 package net.fellter.vanillablocksplus.datagen;
 
-import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import java.util.concurrent.CompletableFuture;
+
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
-import net.fellter.vanillablocksplus.block.ModBlocks;
-import net.fellter.vanillablocksplus.block.ModBlocks2;
-import net.minecraft.block.Block;
+
 import net.minecraft.block.DoorBlock;
 import net.minecraft.block.SlabBlock;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.RegistryWrapper;
 
-import java.util.concurrent.CompletableFuture;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
 

@@ -1,10 +1,12 @@
 package net.fellter.vanillablocksplus.datagen;
 
-import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import java.util.List;
+import java.util.concurrent.CompletableFuture;
+
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.fellter.vanillablocksplus.item.ModItems;
+
 import net.minecraft.block.Blocks;
 import net.minecraft.data.recipe.*;
 import net.minecraft.item.Item;
@@ -16,8 +18,8 @@ import net.minecraft.registry.RegistryEntryLookup;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 
-import java.util.List;
-import java.util.concurrent.CompletableFuture;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
 
@@ -3802,15 +3804,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
-                offerDyeableRecipes(dyes, wool_stairs, "stairs");
-                offerDyeableRecipes(dyes, wool_slabs, "slab");
-                offerDyeableRecipes(dyes, wool_doors, "door");
-                offerDyeableRecipes(dyes, wool_fences, "fence");
-                offerDyeableRecipes(dyes, wool_fence_gates, "fence_gate");
-                offerDyeableRecipes(dyes, wool_pressure_plates, "pressure_plate");
-                offerDyeableRecipes(dyes, wool_trapdoors, "trapdoor");
-                offerDyeableRecipes(dyes, wool_buttons, "button");
-                offerDyeableRecipes(dyes, wool_walls, "wall");
+                offerDyeableRecipes(dyes, wool_stairs, "stairs", RecipeCategory.DECORATIONS);
+                offerDyeableRecipes(dyes, wool_slabs, "slab", RecipeCategory.DECORATIONS);
+                offerDyeableRecipes(dyes, wool_doors, "door", RecipeCategory.DECORATIONS);
+                offerDyeableRecipes(dyes, wool_fences, "fence", RecipeCategory.DECORATIONS);
+                offerDyeableRecipes(dyes, wool_fence_gates, "fence_gate", RecipeCategory.DECORATIONS);
+                offerDyeableRecipes(dyes, wool_pressure_plates, "pressure_plate", RecipeCategory.DECORATIONS);
+                offerDyeableRecipes(dyes, wool_trapdoors, "trapdoor", RecipeCategory.DECORATIONS);
+                offerDyeableRecipes(dyes, wool_buttons, "button", RecipeCategory.DECORATIONS);
+                offerDyeableRecipes(dyes, wool_walls, "wall", RecipeCategory.DECORATIONS);
 
                 offerStainedGlassDyeingRecipe(exporter, dyesIC, stained_glass_stairs, "stairs");
                 offerStainedGlassDyeingRecipe(exporter, dyesIC, stained_glass_slabs, "slab");

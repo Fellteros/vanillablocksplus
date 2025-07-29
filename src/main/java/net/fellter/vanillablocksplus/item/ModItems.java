@@ -1,15 +1,15 @@
 package net.fellter.vanillablocksplus.item;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import java.util.function.Function;
+
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
+
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
-
-import java.util.function.Function;
 
 public class ModItems {
 

@@ -1,11 +1,14 @@
 package net.fellter.vanillablocksplus.block;
 
+import java.util.function.Function;
+
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
 import net.fellter.vanillablocksplus.custom_blocks.copper.*;
 import net.fellter.vanillablocksplus.custom_blocks.redstone_ore.*;
 import net.fellter.vanillablocksplus.custom_blocks.slime.*;
 import net.fellter.vanillablocksplus.custom_blocks.sponge.*;
 import net.fellter.vanillablocksplus.custom_blocks.wet_sponge.*;
+
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.block.piston.PistonBehavior;
@@ -17,11 +20,6 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-
-import java.lang.invoke.TypeDescriptor;
-import java.util.function.Function;
-
-import static net.minecraft.block.Blocks.createLightLevelFromLitBlockState;
 
 public class ModBlocks2 {
 

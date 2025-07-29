@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.9-SNAPSHOT'
+	id 'fabric-loom' version '1.11-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -42,10 +42,6 @@ fabricApi {
 		client = true
 		strictValidation = true
 	}
-}
-
-loom {
-	accessWidenerPath = file("src/main/resources/vanillablocksplus.accesswidener")
 }
 
 dependencies {

@@ -1,9 +1,7 @@
 package net.fellter.vanillablocksplus.custom_blocks.glass;
 
 import net.minecraft.block.*;
-import net.minecraft.block.enums.SlabType;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;

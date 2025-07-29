@@ -1,16 +1,20 @@
 package net.fellter.vanillablocksplus.datagen;
 
-import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.fellter.vanillablocksplus.VanillaBlocksPlus;
 import net.fellter.vanillablocksplus.block.ModBlocks;
 import net.fellter.vanillablocksplus.block.ModBlocks2;
 import net.fellter.vanillablocksplus.item.ModItems;
 import net.fellter.vanillablocksplus.util.ModTextureMap;
+
 import net.minecraft.block.Blocks;
-import net.minecraft.client.data.*;
+import net.minecraft.client.data.BlockStateModelGenerator;
+import net.minecraft.client.data.ItemModelGenerator;
+import net.minecraft.client.data.Models;
+import net.minecraft.client.data.TextureMap;
 import net.minecraft.client.render.item.tint.GrassTintSource;
 import net.minecraft.util.Identifier;
+
+import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 
 import static net.fellter.vanillablocksplus.util.ModBlockStateModelGenerator.*;
 
@@ -1761,144 +1765,144 @@ public class ModModelProvider extends FabricModelProvider {
         .buttonAll(ModBlocks.WHITE_GLAZED_TERRACOTTA_BUTTON)
         .wallAll(ModBlocks.WHITE_GLAZED_TERRACOTTA_WALL)
         .slabAll(ModBlocks.WHITE_GLAZED_TERRACOTTA_SLAB)
-        .stairsAll(ModBlocks.WHITE_GLAZED_TERRACOTTA_STAIRS)
+        .stairsAll(ModBlocks.WHITE_GLAZED_TERRACOTTA_STAIRS, false)
         .fenceAll(ModBlocks.WHITE_GLAZED_TERRACOTTA_FENCE)
-        .fenceGateAll(ModBlocks.WHITE_GLAZED_TERRACOTTA_FENCE_GATE)
+        .fenceGateAll(ModBlocks.WHITE_GLAZED_TERRACOTTA_FENCE_GATE, false)
         .pressurePlateAll(ModBlocks.WHITE_GLAZED_TERRACOTTA_PRESSURE_PLATE);
         //light_gray_terracotta
         registerModModelTexturePool(bsmg, Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA)
         .buttonAll(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_BUTTON)
         .wallAll(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_WALL)
         .slabAll(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB)
-        .stairsAll(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_STAIRS)
+        .stairsAll(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_STAIRS, false)
         .fenceAll(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_FENCE)
-        .fenceGateAll(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_FENCE_GATE)
+        .fenceGateAll(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_FENCE_GATE, false)
         .pressurePlateAll(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_PRESSURE_PLATE);
         //gray_terracotta
         registerModModelTexturePool(bsmg, Blocks.GRAY_GLAZED_TERRACOTTA)
         .buttonAll(ModBlocks.GRAY_GLAZED_TERRACOTTA_BUTTON)
         .wallAll(ModBlocks.GRAY_GLAZED_TERRACOTTA_WALL)
         .slabAll(ModBlocks.GRAY_GLAZED_TERRACOTTA_SLAB)
-        .stairsAll(ModBlocks.GRAY_GLAZED_TERRACOTTA_STAIRS)
+        .stairsAll(ModBlocks.GRAY_GLAZED_TERRACOTTA_STAIRS, false)
         .fenceAll(ModBlocks.GRAY_GLAZED_TERRACOTTA_FENCE)
-        .fenceGateAll(ModBlocks.GRAY_GLAZED_TERRACOTTA_FENCE_GATE)
+        .fenceGateAll(ModBlocks.GRAY_GLAZED_TERRACOTTA_FENCE_GATE, false)
         .pressurePlateAll(ModBlocks.GRAY_GLAZED_TERRACOTTA_PRESSURE_PLATE);
         //black_terracotta
         registerModModelTexturePool(bsmg, Blocks.BLACK_GLAZED_TERRACOTTA)
         .buttonAll(ModBlocks.BLACK_GLAZED_TERRACOTTA_BUTTON)
         .wallAll(ModBlocks.BLACK_GLAZED_TERRACOTTA_WALL)
         .slabAll(ModBlocks.BLACK_GLAZED_TERRACOTTA_SLAB)
-        .stairsAll(ModBlocks.BLACK_GLAZED_TERRACOTTA_STAIRS)
+        .stairsAll(ModBlocks.BLACK_GLAZED_TERRACOTTA_STAIRS, false)
         .fenceAll(ModBlocks.BLACK_GLAZED_TERRACOTTA_FENCE)
-        .fenceGateAll(ModBlocks.BLACK_GLAZED_TERRACOTTA_FENCE_GATE)
+        .fenceGateAll(ModBlocks.BLACK_GLAZED_TERRACOTTA_FENCE_GATE, false)
         .pressurePlateAll(ModBlocks.BLACK_GLAZED_TERRACOTTA_PRESSURE_PLATE);
         //brown_terracotta
         registerModModelTexturePool(bsmg, Blocks.BROWN_GLAZED_TERRACOTTA)
         .buttonAll(ModBlocks.BROWN_GLAZED_TERRACOTTA_BUTTON)
         .wallAll(ModBlocks.BROWN_GLAZED_TERRACOTTA_WALL)
         .slabAll(ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB)
-        .stairsAll(ModBlocks.BROWN_GLAZED_TERRACOTTA_STAIRS)
+        .stairsAll(ModBlocks.BROWN_GLAZED_TERRACOTTA_STAIRS, false)
         .fenceAll(ModBlocks.BROWN_GLAZED_TERRACOTTA_FENCE)
-        .fenceGateAll(ModBlocks.BROWN_GLAZED_TERRACOTTA_FENCE_GATE)
+        .fenceGateAll(ModBlocks.BROWN_GLAZED_TERRACOTTA_FENCE_GATE, false)
         .pressurePlateAll(ModBlocks.BROWN_GLAZED_TERRACOTTA_PRESSURE_PLATE);
         //red_terracotta
         registerModModelTexturePool(bsmg, Blocks.RED_GLAZED_TERRACOTTA)
         .buttonAll(ModBlocks.RED_GLAZED_TERRACOTTA_BUTTON)
         .wallAll(ModBlocks.RED_GLAZED_TERRACOTTA_WALL)
         .slabAll(ModBlocks.RED_GLAZED_TERRACOTTA_SLAB)
-        .stairsAll(ModBlocks.RED_GLAZED_TERRACOTTA_STAIRS)
+        .stairsAll(ModBlocks.RED_GLAZED_TERRACOTTA_STAIRS, false)
         .fenceAll(ModBlocks.RED_GLAZED_TERRACOTTA_FENCE)
-        .fenceGateAll(ModBlocks.RED_GLAZED_TERRACOTTA_FENCE_GATE)
+        .fenceGateAll(ModBlocks.RED_GLAZED_TERRACOTTA_FENCE_GATE, false)
         .pressurePlateAll(ModBlocks.RED_GLAZED_TERRACOTTA_PRESSURE_PLATE);
         //orange_terracotta
         registerModModelTexturePool(bsmg, Blocks.ORANGE_GLAZED_TERRACOTTA)
         .buttonAll(ModBlocks.ORANGE_GLAZED_TERRACOTTA_BUTTON)
         .wallAll(ModBlocks.ORANGE_GLAZED_TERRACOTTA_WALL)
         .slabAll(ModBlocks.ORANGE_GLAZED_TERRACOTTA_SLAB)
-        .stairsAll(ModBlocks.ORANGE_GLAZED_TERRACOTTA_STAIRS)
+        .stairsAll(ModBlocks.ORANGE_GLAZED_TERRACOTTA_STAIRS, false)
         .fenceAll(ModBlocks.ORANGE_GLAZED_TERRACOTTA_FENCE)
-        .fenceGateAll(ModBlocks.ORANGE_GLAZED_TERRACOTTA_FENCE_GATE)
+        .fenceGateAll(ModBlocks.ORANGE_GLAZED_TERRACOTTA_FENCE_GATE, false)
         .pressurePlateAll(ModBlocks.ORANGE_GLAZED_TERRACOTTA_PRESSURE_PLATE);
         //yellow_terracotta
         registerModModelTexturePool(bsmg, Blocks.YELLOW_GLAZED_TERRACOTTA)
         .buttonAll(ModBlocks.YELLOW_GLAZED_TERRACOTTA_BUTTON)
         .wallAll(ModBlocks.YELLOW_GLAZED_TERRACOTTA_WALL)
         .slabAll(ModBlocks.YELLOW_GLAZED_TERRACOTTA_SLAB)
-        .stairsAll(ModBlocks.YELLOW_GLAZED_TERRACOTTA_STAIRS)
+        .stairsAll(ModBlocks.YELLOW_GLAZED_TERRACOTTA_STAIRS, false)
         .fenceAll(ModBlocks.YELLOW_GLAZED_TERRACOTTA_FENCE)
-        .fenceGateAll(ModBlocks.YELLOW_GLAZED_TERRACOTTA_FENCE_GATE)
+        .fenceGateAll(ModBlocks.YELLOW_GLAZED_TERRACOTTA_FENCE_GATE, false)
         .pressurePlateAll(ModBlocks.YELLOW_GLAZED_TERRACOTTA_PRESSURE_PLATE);
         //lime_terracotta
         registerModModelTexturePool(bsmg, Blocks.LIME_GLAZED_TERRACOTTA)
         .buttonAll(ModBlocks.LIME_GLAZED_TERRACOTTA_BUTTON)
         .wallAll(ModBlocks.LIME_GLAZED_TERRACOTTA_WALL)
         .slabAll(ModBlocks.LIME_GLAZED_TERRACOTTA_SLAB)
-        .stairsAll(ModBlocks.LIME_GLAZED_TERRACOTTA_STAIRS)
+        .stairsAll(ModBlocks.LIME_GLAZED_TERRACOTTA_STAIRS, false)
         .fenceAll(ModBlocks.LIME_GLAZED_TERRACOTTA_FENCE)
-        .fenceGateAll(ModBlocks.LIME_GLAZED_TERRACOTTA_FENCE_GATE)
+        .fenceGateAll(ModBlocks.LIME_GLAZED_TERRACOTTA_FENCE_GATE, false)
         .pressurePlateAll(ModBlocks.LIME_GLAZED_TERRACOTTA_PRESSURE_PLATE);
         //green_terracotta
         registerModModelTexturePool(bsmg, Blocks.GREEN_GLAZED_TERRACOTTA)
         .buttonAll(ModBlocks.GREEN_GLAZED_TERRACOTTA_BUTTON)
         .wallAll(ModBlocks.GREEN_GLAZED_TERRACOTTA_WALL)
         .slabAll(ModBlocks.GREEN_GLAZED_TERRACOTTA_SLAB)
-        .stairsAll(ModBlocks.GREEN_GLAZED_TERRACOTTA_STAIRS)
+        .stairsAll(ModBlocks.GREEN_GLAZED_TERRACOTTA_STAIRS, false)
         .fenceAll(ModBlocks.GREEN_GLAZED_TERRACOTTA_FENCE)
-        .fenceGateAll(ModBlocks.GREEN_GLAZED_TERRACOTTA_FENCE_GATE)
+        .fenceGateAll(ModBlocks.GREEN_GLAZED_TERRACOTTA_FENCE_GATE, false)
         .pressurePlateAll(ModBlocks.GREEN_GLAZED_TERRACOTTA_PRESSURE_PLATE);
         //cyan_terracotta
         registerModModelTexturePool(bsmg, Blocks.CYAN_GLAZED_TERRACOTTA)
         .buttonAll(ModBlocks.CYAN_GLAZED_TERRACOTTA_BUTTON)
         .wallAll(ModBlocks.CYAN_GLAZED_TERRACOTTA_WALL)
         .slabAll(ModBlocks.CYAN_GLAZED_TERRACOTTA_SLAB)
-        .stairsAll(ModBlocks.CYAN_GLAZED_TERRACOTTA_STAIRS)
+        .stairsAll(ModBlocks.CYAN_GLAZED_TERRACOTTA_STAIRS, false)
         .fenceAll(ModBlocks.CYAN_GLAZED_TERRACOTTA_FENCE)
-        .fenceGateAll(ModBlocks.CYAN_GLAZED_TERRACOTTA_FENCE_GATE)
+        .fenceGateAll(ModBlocks.CYAN_GLAZED_TERRACOTTA_FENCE_GATE, false)
         .pressurePlateAll(ModBlocks.CYAN_GLAZED_TERRACOTTA_PRESSURE_PLATE);
         //blue_terracotta
         registerModModelTexturePool(bsmg, Blocks.BLUE_GLAZED_TERRACOTTA)
         .buttonAll(ModBlocks.BLUE_GLAZED_TERRACOTTA_BUTTON)
         .wallAll(ModBlocks.BLUE_GLAZED_TERRACOTTA_WALL)
         .slabAll(ModBlocks.BLUE_GLAZED_TERRACOTTA_SLAB)
-        .stairsAll(ModBlocks.BLUE_GLAZED_TERRACOTTA_STAIRS)
+        .stairsAll(ModBlocks.BLUE_GLAZED_TERRACOTTA_STAIRS, false)
         .fenceAll(ModBlocks.BLUE_GLAZED_TERRACOTTA_FENCE)
-        .fenceGateAll(ModBlocks.BLUE_GLAZED_TERRACOTTA_FENCE_GATE)
+        .fenceGateAll(ModBlocks.BLUE_GLAZED_TERRACOTTA_FENCE_GATE, false)
         .pressurePlateAll(ModBlocks.BLUE_GLAZED_TERRACOTTA_PRESSURE_PLATE);
         //light_blue_terracotta
         registerModModelTexturePool(bsmg, Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA)
         .buttonAll(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_BUTTON)
         .wallAll(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_WALL)
         .slabAll(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB)
-        .stairsAll(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_STAIRS)
+        .stairsAll(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_STAIRS, false)
         .fenceAll(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_FENCE)
-        .fenceGateAll(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_FENCE_GATE)
+        .fenceGateAll(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_FENCE_GATE, false)
         .pressurePlateAll(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_PRESSURE_PLATE);
         //purple_terracotta
         registerModModelTexturePool(bsmg, Blocks.PURPLE_GLAZED_TERRACOTTA)
         .buttonAll(ModBlocks.PURPLE_GLAZED_TERRACOTTA_BUTTON)
         .wallAll(ModBlocks.PURPLE_GLAZED_TERRACOTTA_WALL)
         .slabAll(ModBlocks.PURPLE_GLAZED_TERRACOTTA_SLAB)
-        .stairsAll(ModBlocks.PURPLE_GLAZED_TERRACOTTA_STAIRS)
+        .stairsAll(ModBlocks.PURPLE_GLAZED_TERRACOTTA_STAIRS, false)
         .fenceAll(ModBlocks.PURPLE_GLAZED_TERRACOTTA_FENCE)
-        .fenceGateAll(ModBlocks.PURPLE_GLAZED_TERRACOTTA_FENCE_GATE)
+        .fenceGateAll(ModBlocks.PURPLE_GLAZED_TERRACOTTA_FENCE_GATE, false)
         .pressurePlateAll(ModBlocks.PURPLE_GLAZED_TERRACOTTA_PRESSURE_PLATE);
         //magenta_terracotta
         registerModModelTexturePool(bsmg, Blocks.MAGENTA_GLAZED_TERRACOTTA)
         .buttonAll(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_BUTTON)
         .wallAll(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_WALL)
         .slabAll(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB)
-        .stairsAll(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_STAIRS)
+        .stairsAll(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_STAIRS, false)
         .fenceAll(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_FENCE)
-        .fenceGateAll(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_FENCE_GATE)
+        .fenceGateAll(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_FENCE_GATE, false)
         .pressurePlateAll(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_PRESSURE_PLATE);
         //pink_terracotta
         registerModModelTexturePool(bsmg, Blocks.PINK_GLAZED_TERRACOTTA)
         .buttonAll(ModBlocks.PINK_GLAZED_TERRACOTTA_BUTTON)
         .wallAll(ModBlocks.PINK_GLAZED_TERRACOTTA_WALL)
         .slabAll(ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB)
-        .stairsAll(ModBlocks.PINK_GLAZED_TERRACOTTA_STAIRS)
+        .stairsAll(ModBlocks.PINK_GLAZED_TERRACOTTA_STAIRS, false)
         .fenceAll(ModBlocks.PINK_GLAZED_TERRACOTTA_FENCE)
-        .fenceGateAll(ModBlocks.PINK_GLAZED_TERRACOTTA_FENCE_GATE)
+        .fenceGateAll(ModBlocks.PINK_GLAZED_TERRACOTTA_FENCE_GATE, false)
         .pressurePlateAll(ModBlocks.PINK_GLAZED_TERRACOTTA_PRESSURE_PLATE);
         //white_stained_glass
         registerModModelTexturePool(bsmg, Blocks.WHITE_STAINED_GLASS)

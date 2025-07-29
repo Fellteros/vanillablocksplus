@@ -1,10 +1,13 @@
 package net.fellter.vanillablocksplus.custom_blocks.concrete_powder;
 
+import java.util.Map;
+
 import net.fellter.vanillablocksplus.custom_blocks.falling.FallingFenceBlock;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Falling;
 import net.minecraft.block.HorizontalConnectingBlock;
-import net.minecraft.block.LandingBlock;
 import net.minecraft.entity.FallingBlockEntity;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.particle.BlockStateParticleEffect;
@@ -22,9 +25,7 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
 import net.minecraft.world.tick.ScheduledTickView;
 
-import java.util.Map;
-
-public class ConcretePowderFenceBlock extends FallingFenceBlock implements LandingBlock {
+public class ConcretePowderFenceBlock extends FallingFenceBlock implements Falling {
     private final BlockState hardenedState;
 
     public ConcretePowderFenceBlock(Settings settings, Block hardened) {

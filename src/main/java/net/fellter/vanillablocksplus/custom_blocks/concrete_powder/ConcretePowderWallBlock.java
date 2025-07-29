@@ -1,6 +1,7 @@
 package net.fellter.vanillablocksplus.custom_blocks.concrete_powder;
 
 import net.fellter.vanillablocksplus.custom_blocks.falling.FallingWallBlock;
+
 import net.minecraft.block.*;
 import net.minecraft.block.enums.WallShape;
 import net.minecraft.entity.FallingBlockEntity;
@@ -21,11 +22,10 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
-import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
 import net.minecraft.world.tick.ScheduledTickView;
 
-public class ConcretePowderWallBlock extends FallingWallBlock implements LandingBlock {
+public class ConcretePowderWallBlock extends FallingWallBlock implements Falling {
     private static final VoxelShape TALL_POST_SHAPE = createCuboidShape(7, 0, 7, 9, 16, 9);
     private static final VoxelShape TALL_NORTH_SHAPE = createCuboidShape(7, 0, 0, 9, 16, 9);
     private static final VoxelShape TALL_SOUTH_SHAPE = createCuboidShape(7, 0, 7, 9, 16, 16);
@@ -62,10 +62,10 @@ public class ConcretePowderWallBlock extends FallingWallBlock implements Landing
 
         if (shouldHarden(world, pos, newState)) {
             world.setBlockState(pos, this.hardenedState
-                    .with(NORTH_SHAPE, world.getBlockState(pos).get(NORTH_SHAPE))
-                    .with(SOUTH_SHAPE, world.getBlockState(pos).get(SOUTH_SHAPE))
-                    .with(EAST_SHAPE, world.getBlockState(pos).get(EAST_SHAPE))
-                    .with(WEST_SHAPE, world.getBlockState(pos).get(WEST_SHAPE))
+                    .with(NORTH_WALL_SHAPE, world.getBlockState(pos).get(NORTH_WALL_SHAPE))
+                    .with(SOUTH_WALL_SHAPE, world.getBlockState(pos).get(SOUTH_WALL_SHAPE))
+                    .with(EAST_WALL_SHAPE, world.getBlockState(pos).get(EAST_WALL_SHAPE))
+                    .with(WEST_WALL_SHAPE, world.getBlockState(pos).get(WEST_WALL_SHAPE))
                     .with(WATERLOGGED, world.getBlockState(pos).get(WATERLOGGED)));
         }
 
@@ -85,10 +85,10 @@ public class ConcretePowderWallBlock extends FallingWallBlock implements Landing
     }
 
     private BlockState getStateWith(BlockState state, boolean north, boolean east, boolean south, boolean west, VoxelShape aboveShape) {
-        return state.with(NORTH_SHAPE, this.getWallShape(north, aboveShape, TALL_NORTH_SHAPE))
-                .with(EAST_SHAPE, this.getWallShape(east, aboveShape, TALL_EAST_SHAPE))
-                .with(SOUTH_SHAPE, this.getWallShape(south, aboveShape, TALL_SOUTH_SHAPE))
-                .with(WEST_SHAPE, this.getWallShape(west, aboveShape, TALL_WEST_SHAPE));
+        return state.with(NORTH_WALL_SHAPE, this.getWallShape(north, aboveShape, TALL_NORTH_SHAPE))
+                .with(EAST_WALL_SHAPE, this.getWallShape(east, aboveShape, TALL_EAST_SHAPE))
+                .with(SOUTH_WALL_SHAPE, this.getWallShape(south, aboveShape, TALL_SOUTH_SHAPE))
+                .with(WEST_WALL_SHAPE, this.getWallShape(west, aboveShape, TALL_WEST_SHAPE));
     }
 
     private WallShape getWallShape(boolean connected, VoxelShape aboveShape, VoxelShape tallShape) {
@@ -106,10 +106,10 @@ public class ConcretePowderWallBlock extends FallingWallBlock implements Landing
         if (bl) {
             return true;
         }
-        WallShape northShape = state.get(NORTH_SHAPE);
-        WallShape southShape = state.get(SOUTH_SHAPE);
-        WallShape eastShape = state.get(EAST_SHAPE);
-        WallShape westShape = state.get(WEST_SHAPE);
+        WallShape northShape = state.get(NORTH_WALL_SHAPE);
+        WallShape southShape = state.get(SOUTH_WALL_SHAPE);
+        WallShape eastShape = state.get(EAST_WALL_SHAPE);
+        WallShape westShape = state.get(WEST_WALL_SHAPE);
         boolean southDisconnected = southShape == WallShape.NONE;
         boolean westDisconnected = westShape == WallShape.NONE;
         boolean eastDisconnected = eastShape == WallShape.NONE;
@@ -138,10 +138,10 @@ public class ConcretePowderWallBlock extends FallingWallBlock implements Landing
             if (placementState != null) {
                 return this.hardenedState
                         .with(WATERLOGGED, placementState.get(WATERLOGGED))
-                        .with(NORTH_SHAPE, placementState.get(NORTH_SHAPE))
-                        .with(EAST_SHAPE, placementState.get(EAST_SHAPE))
-                        .with(SOUTH_SHAPE, placementState.get(SOUTH_SHAPE))
-                        .with(WEST_SHAPE, placementState.get(WEST_SHAPE))
+                        .with(NORTH_WALL_SHAPE, placementState.get(NORTH_WALL_SHAPE))
+                        .with(EAST_WALL_SHAPE, placementState.get(EAST_WALL_SHAPE))
+                        .with(SOUTH_WALL_SHAPE, placementState.get(SOUTH_WALL_SHAPE))
+                        .with(WEST_WALL_SHAPE, placementState.get(WEST_WALL_SHAPE))
                         .with(UP, placementState.get(UP));
             }
         }
@@ -177,10 +177,10 @@ public class ConcretePowderWallBlock extends FallingWallBlock implements Landing
         if (hardensOnAnySide(world, pos)) {
             return this.hardenedState
                     .with(WATERLOGGED, world.getBlockState(pos).get(WATERLOGGED))
-                    .with(EAST_SHAPE, world.getBlockState(pos).get(EAST_SHAPE))
-                    .with(WEST_SHAPE, world.getBlockState(pos).get(WEST_SHAPE))
-                    .with(SOUTH_SHAPE, world.getBlockState(pos).get(SOUTH_SHAPE))
-                    .with(NORTH_SHAPE, world.getBlockState(pos).get(NORTH_SHAPE))
+                    .with(EAST_WALL_SHAPE, world.getBlockState(pos).get(EAST_WALL_SHAPE))
+                    .with(WEST_WALL_SHAPE, world.getBlockState(pos).get(WEST_WALL_SHAPE))
+                    .with(SOUTH_WALL_SHAPE, world.getBlockState(pos).get(SOUTH_WALL_SHAPE))
+                    .with(NORTH_WALL_SHAPE, world.getBlockState(pos).get(NORTH_WALL_SHAPE))
                     .with(UP, world.getBlockState(pos).get(UP));
         }
         tickView.scheduleBlockTick(pos, this, this.getFallDelay());

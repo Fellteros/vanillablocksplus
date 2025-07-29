@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:white_glazed_terracotta_door_from_smelting"
+        "recipe": "vanillablocksplus:white_glazed_terracotta_door_from_smelting"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:white_glazed_terracotta_door_from_smelting"
+      "vanillablocksplus:white_glazed_terracotta_door_from_smelting"
     ]
   }
 }

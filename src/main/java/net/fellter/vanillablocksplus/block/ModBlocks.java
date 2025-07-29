@@ -1,11 +1,14 @@
 package net.fellter.vanillablocksplus.block;
 
+import java.util.function.Function;
+
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
 import net.fellter.vanillablocksplus.custom_blocks.concrete_powder.*;
 import net.fellter.vanillablocksplus.custom_blocks.copper.*;
 import net.fellter.vanillablocksplus.custom_blocks.falling.*;
 import net.fellter.vanillablocksplus.custom_blocks.glass.*;
 import net.fellter.vanillablocksplus.custom_blocks.redstone_block.*;
+
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
@@ -16,8 +19,6 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-
-import java.util.function.Function;
 
 public class ModBlocks {
 

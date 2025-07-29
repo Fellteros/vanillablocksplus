@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
+  "category": "misc",
   "group": "stairs",
   "ingredients": [
     "minecraft:magenta_dye",

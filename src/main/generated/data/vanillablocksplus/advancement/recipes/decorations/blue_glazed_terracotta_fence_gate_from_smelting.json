@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:blue_glazed_terracotta_fence_gate_from_smelting"
+        "recipe": "vanillablocksplus:blue_glazed_terracotta_fence_gate_from_smelting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:blue_glazed_terracotta_fence_gate_from_smelting"
+      "vanillablocksplus:blue_glazed_terracotta_fence_gate_from_smelting"
     ]
   }
 }

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:netherite_scrap_from_blasting_ancient_debris_wall"
+        "recipe": "vanillablocksplus:netherite_scrap_from_blasting_ancient_debris_wall"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:netherite_scrap_from_blasting_ancient_debris_wall"
+      "vanillablocksplus:netherite_scrap_from_blasting_ancient_debris_wall"
     ]
   }
 }

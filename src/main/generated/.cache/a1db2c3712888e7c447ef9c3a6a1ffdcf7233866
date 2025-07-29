@@ -1,5 +1,4 @@
-// 1.21.4	-999999999-01-01T00:00:00	Vanilla+ Blocks/Tags for minecraft:block
-35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/fabric/tags/block/needs_tool_level_4.json
+// 1.21.8	-999999999-01-01T00:00:00	Vanilla+ Blocks/Tags for minecraft:block
 ac247de69d2434cdee7611fcd469ff776407d74f data/minecraft/tags/block/fence_gates.json
 6d431b4a349b1a0d9993e7cb9e0ff5fdc1cc3821 data/minecraft/tags/block/fences.json
 470650484d80325315e62fe6d35c6b1274908128 data/minecraft/tags/block/mineable/axe.json

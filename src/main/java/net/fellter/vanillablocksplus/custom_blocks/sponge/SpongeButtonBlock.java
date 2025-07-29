@@ -1,9 +1,11 @@
 package net.fellter.vanillablocksplus.custom_blocks.sponge;
 
+import org.jetbrains.annotations.Nullable;
+
 import net.fellter.vanillablocksplus.block.ModBlocks2;
+
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.registry.tag.FluidTags;
 import net.minecraft.util.math.BlockPos;
@@ -11,7 +13,6 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldEvents;
 import net.minecraft.world.block.WireOrientation;
-import org.jetbrains.annotations.Nullable;
 
 public class SpongeButtonBlock extends ButtonBlock {
     private static final Direction[] field_43257 = Direction.values();

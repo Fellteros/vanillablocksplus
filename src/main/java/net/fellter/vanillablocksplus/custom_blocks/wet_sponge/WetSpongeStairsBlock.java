@@ -1,6 +1,8 @@
 package net.fellter.vanillablocksplus.custom_blocks.wet_sponge;
 
 import net.fellter.vanillablocksplus.block.ModBlocks2;
+import net.fellter.vanillablocksplus.util.Util;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.StairsBlock;
@@ -42,23 +44,6 @@ public class WetSpongeStairsBlock extends StairsBlock {
         if (state.isOpaque() && blockState.isSideSolidFullSquare(world, blockPos, direction.getOpposite())) {
             return;
         }
-        double d = pos.getX();
-        double e = pos.getY();
-        double f = pos.getZ();
-        if (direction == Direction.DOWN) {
-            e -= 0.05;
-            d += random.nextDouble();
-            f += random.nextDouble();
-        } else {
-            e += random.nextDouble() * 0.8;
-            if (direction.getAxis() == Direction.Axis.X) {
-                f += random.nextDouble();
-                d = direction == Direction.EAST ? (d += 1.1) : (d += 0.05);
-            } else {
-                d += random.nextDouble();
-                f = direction == Direction.SOUTH ? (f += 1.1) : (f += 0.05);
-            }
-        }
-        world.addParticle(ParticleTypes.DRIPPING_WATER, d, e, f, 0.0, 0.0, 0.0);
+        Util.addParticleClient(state.getOutlineShape(world, pos).getBoundingBoxes(), world, pos, ParticleTypes.DRIPPING_WATER, 0, 0, 0, 0.05);
     }
 }

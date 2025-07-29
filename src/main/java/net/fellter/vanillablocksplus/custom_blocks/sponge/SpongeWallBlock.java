@@ -1,6 +1,9 @@
 package net.fellter.vanillablocksplus.custom_blocks.sponge;
 
+import org.jetbrains.annotations.Nullable;
+
 import net.fellter.vanillablocksplus.block.ModBlocks2;
+
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.fluid.FluidState;
@@ -10,7 +13,6 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldEvents;
 import net.minecraft.world.block.WireOrientation;
-import org.jetbrains.annotations.Nullable;
 
 public class SpongeWallBlock extends WallBlock {
     private static final Direction[] field_43257 = Direction.values();
@@ -37,11 +39,10 @@ public class SpongeWallBlock extends WallBlock {
         if (this.absorbWater(world, pos)) {
             world.setBlockState(pos, ModBlocks2.WET_SPONGE_WALL.getDefaultState()
                             .with(UP, world.getBlockState(pos).get(UP))
-                            .with(NORTH_SHAPE, world.getBlockState(pos).get(NORTH_SHAPE))
-                            .with(EAST_SHAPE, world.getBlockState(pos).get(EAST_SHAPE))
-                            .with(WEST_SHAPE, world.getBlockState(pos).get(WEST_SHAPE))
-                            .with(NORTH_SHAPE, world.getBlockState(pos).get(NORTH_SHAPE))
-                            .with(SOUTH_SHAPE, world.getBlockState(pos).get(SOUTH_SHAPE)),
+                            .with(NORTH_WALL_SHAPE, world.getBlockState(pos).get(NORTH_WALL_SHAPE))
+                            .with(EAST_WALL_SHAPE, world.getBlockState(pos).get(EAST_WALL_SHAPE))
+                            .with(WEST_WALL_SHAPE, world.getBlockState(pos).get(WEST_WALL_SHAPE))
+                            .with(SOUTH_WALL_SHAPE, world.getBlockState(pos).get(SOUTH_WALL_SHAPE)),
                     Block.NOTIFY_LISTENERS);
             world.syncWorldEvent(WorldEvents.BLOCK_BROKEN, pos, Block.getRawIdFromState(Blocks.WATER.getDefaultState()));
         }

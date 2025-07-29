@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:sponge_wall_from_smelting"
+        "recipe": "vanillablocksplus:sponge_wall_from_smelting"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:sponge_wall_from_smelting"
+      "vanillablocksplus:sponge_wall_from_smelting"
     ]
   }
 }

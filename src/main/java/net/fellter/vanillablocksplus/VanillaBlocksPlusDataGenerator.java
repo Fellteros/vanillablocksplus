@@ -1,10 +1,11 @@
 package net.fellter.vanillablocksplus;
 
+import net.fellter.vanillablocksplus.datagen.*;
+
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.fellter.vanillablocksplus.datagen.*;
 
 @Environment(EnvType.CLIENT)
 public class VanillaBlocksPlusDataGenerator implements DataGeneratorEntrypoint {

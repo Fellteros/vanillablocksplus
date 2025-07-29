@@ -1,10 +1,10 @@
 package net.fellter.vanillablocksplus.custom_blocks.concrete_powder;
 
 import net.fellter.vanillablocksplus.custom_blocks.falling.FallingSlabBlock;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.LandingBlock;
-import net.minecraft.block.SlabBlock;
+import net.minecraft.block.Falling;
 import net.minecraft.entity.FallingBlockEntity;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.particle.BlockStateParticleEffect;
@@ -18,11 +18,10 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
-import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
 import net.minecraft.world.tick.ScheduledTickView;
 
-public class ConcretePowderSlabBlock extends FallingSlabBlock implements LandingBlock {
+public class ConcretePowderSlabBlock extends FallingSlabBlock implements Falling {
     private final BlockState hardenedState;
 
     public ConcretePowderSlabBlock(Settings settings, Block hardened) {

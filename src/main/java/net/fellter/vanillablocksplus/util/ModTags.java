@@ -1,7 +1,7 @@
 package net.fellter.vanillablocksplus.util;
 
 import net.fellter.vanillablocksplus.VanillaBlocksPlus;
-import net.minecraft.block.Block;
+
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;

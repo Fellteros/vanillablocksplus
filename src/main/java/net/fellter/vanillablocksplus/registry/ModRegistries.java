@@ -1,24 +1,27 @@
 package net.fellter.vanillablocksplus.registry;
 
+import java.util.Map;
+
+import org.slf4j.LoggerFactory;
+
+import net.fellter.vanillablocksplus.block.ModBlocks;
+import net.fellter.vanillablocksplus.block.ModBlocks2;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.Oxidizable;
+import net.minecraft.client.color.world.BiomeColors;
+import net.minecraft.client.render.BlockRenderLayer;
+import net.minecraft.world.biome.FoliageColors;
+
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.rendering.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
 import net.fabricmc.fabric.api.registry.OxidizableBlocksRegistry;
 import net.fabricmc.fabric.impl.content.registry.util.ImmutableCollectionUtils;
 import net.fabricmc.fabric.mixin.content.registry.AxeItemAccessor;
-import net.fellter.vanillablocksplus.block.ModBlocks;
-import net.fellter.vanillablocksplus.block.ModBlocks2;
-import net.minecraft.block.Block;
-import net.minecraft.block.Oxidizable;
-import net.minecraft.client.color.world.BiomeColors;
-import net.minecraft.client.render.RenderLayer;
-import net.minecraft.world.biome.FoliageColors;
-import org.slf4j.LoggerFactory;
-
-import java.util.Map;
 
 public class ModRegistries {
     public static class FlammableBlocksRegistry {
@@ -598,7 +601,7 @@ public class ModRegistries {
     public static class TransparentBlocksRegistry {
 
        public static void registerTransparentBlocks() {
-           BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(),
+           BlockRenderLayerMap.putBlocks(BlockRenderLayer.CUTOUT,
                    ModBlocks.GRASS_BUTTON,
                    ModBlocks.GRASS_FENCE,
                    ModBlocks.GRASS_SLAB,
@@ -781,7 +784,7 @@ public class ModRegistries {
                    ModBlocks2.WAXED_OXIDIZED_COPPER_GRATE_TRAPDOOR,
                    ModBlocks2.WAXED_OXIDIZED_COPPER_GRATE_PRESSURE_PLATE);
 
-           BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getTranslucent(),
+           BlockRenderLayerMap.putBlocks(BlockRenderLayer.TRANSLUCENT,
                    ModBlocks.ICE_BUTTON,
                    ModBlocks.ICE_FENCE,
                    ModBlocks.ICE_FENCE_GATE,

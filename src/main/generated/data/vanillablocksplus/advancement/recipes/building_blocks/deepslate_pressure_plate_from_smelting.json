@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:deepslate_pressure_plate_from_smelting"
+        "recipe": "vanillablocksplus:deepslate_pressure_plate_from_smelting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:deepslate_pressure_plate_from_smelting"
+      "vanillablocksplus:deepslate_pressure_plate_from_smelting"
     ]
   }
 }

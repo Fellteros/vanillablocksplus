@@ -20,7 +20,7 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
 import net.minecraft.world.tick.ScheduledTickView;
 
-public class FallingWallBlock extends WallBlock implements LandingBlock {
+public class FallingWallBlock extends WallBlock implements Falling {
 
     private static final VoxelShape TALL_POST_SHAPE = createCuboidShape(7, 0, 7, 9, 16, 9);
     private static final VoxelShape TALL_NORTH_SHAPE = createCuboidShape(7, 0, 0, 9, 16, 9);
@@ -64,10 +64,10 @@ public class FallingWallBlock extends WallBlock implements LandingBlock {
     }
 
     private BlockState getStateWith(BlockState state, boolean north, boolean east, boolean south, boolean west, VoxelShape aboveShape) {
-        return state.with(NORTH_SHAPE, this.getWallShape(north, aboveShape, TALL_NORTH_SHAPE))
-                .with(EAST_SHAPE, this.getWallShape(east, aboveShape, TALL_EAST_SHAPE))
-                .with(SOUTH_SHAPE, this.getWallShape(south, aboveShape, TALL_SOUTH_SHAPE))
-                .with(WEST_SHAPE, this.getWallShape(west, aboveShape, TALL_WEST_SHAPE));
+        return state.with(NORTH_WALL_SHAPE, this.getWallShape(north, aboveShape, TALL_NORTH_SHAPE))
+                .with(EAST_WALL_SHAPE, this.getWallShape(east, aboveShape, TALL_EAST_SHAPE))
+                .with(SOUTH_WALL_SHAPE, this.getWallShape(south, aboveShape, TALL_SOUTH_SHAPE))
+                .with(WEST_WALL_SHAPE, this.getWallShape(west, aboveShape, TALL_WEST_SHAPE));
     }
 
     private WallShape getWallShape(boolean connected, VoxelShape aboveShape, VoxelShape tallShape) {
@@ -85,10 +85,10 @@ public class FallingWallBlock extends WallBlock implements LandingBlock {
         if (bl) {
             return true;
         }
-        WallShape northShape = state.get(NORTH_SHAPE);
-        WallShape southShape = state.get(SOUTH_SHAPE);
-        WallShape eastShape = state.get(EAST_SHAPE);
-        WallShape westShape = state.get(WEST_SHAPE);
+        WallShape northShape = state.get(NORTH_WALL_SHAPE);
+        WallShape southShape = state.get(SOUTH_WALL_SHAPE);
+        WallShape eastShape = state.get(EAST_WALL_SHAPE);
+        WallShape westShape = state.get(WEST_WALL_SHAPE);
         boolean southDisconnected = southShape == WallShape.NONE;
         boolean westDisconnected = westShape == WallShape.NONE;
         boolean eastDisconnected = eastShape == WallShape.NONE;
