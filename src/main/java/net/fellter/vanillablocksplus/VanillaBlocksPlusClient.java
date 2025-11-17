@@ -7,10 +7,8 @@ import net.fabricmc.api.ClientModInitializer;
 public class VanillaBlocksPlusClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-
-        ModRegistries.TransparentBlocksRegistry.registerTransparentBlocks();
-        ModRegistries.FoliageBlocksRegistry.registerFoliage();
-
+        ModRegistries.registerTransparentBlocks();
+        ModRegistries.registerFoliage();
     }
 }
 

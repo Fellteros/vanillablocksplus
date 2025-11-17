@@ -1,8 +1,7 @@
 package net.fellter.vanillablocksplus.custom_blocks.sponge;
 
-import org.jetbrains.annotations.Nullable;
-
 import net.fellter.vanillablocksplus.block.ModBlocks2;
+import org.jetbrains.annotations.Nullable;
 
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;

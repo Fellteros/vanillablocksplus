@@ -47,7 +47,7 @@ public class RedstoneOreButtonBlock extends ButtonBlock {
     }
 
     protected ActionResult onUseWithItem(ItemStack stack, BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-        if (world.isClient) {
+        if (world.isClient()) {
             spawnParticles(world, pos);
         } else {
             light(state, world, pos);
