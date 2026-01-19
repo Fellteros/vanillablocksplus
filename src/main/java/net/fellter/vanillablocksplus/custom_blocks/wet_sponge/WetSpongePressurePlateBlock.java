@@ -12,6 +12,7 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldEvents;
+import net.minecraft.world.attribute.EnvironmentAttributes;
 
 public class WetSpongePressurePlateBlock extends PressurePlateBlock {
     public WetSpongePressurePlateBlock(BlockSetType type, AbstractBlock.Settings settings) {
@@ -20,7 +21,7 @@ public class WetSpongePressurePlateBlock extends PressurePlateBlock {
 
     @Override
     public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify) {
-        if (world.getDimension().ultrawarm()) {
+        if (world.getEnvironmentAttributes().getAttributeValue(EnvironmentAttributes.WATER_EVAPORATES_GAMEPLAY, pos)) {
             world.setBlockState(pos, ModBlocks2.SPONGE_PRESSURE_PLATE.getDefaultState()
                             .with(POWERED, world.getBlockState(pos).get(POWERED)),
                     Block.NOTIFY_ALL);
