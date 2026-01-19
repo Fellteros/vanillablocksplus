@@ -14,6 +14,7 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldEvents;
+import net.minecraft.world.attribute.EnvironmentAttributes;
 
 public class WetSpongeSlabBlock extends SlabBlock {
     public WetSpongeSlabBlock(Settings settings) {
@@ -22,7 +23,7 @@ public class WetSpongeSlabBlock extends SlabBlock {
 
     @Override
     public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify) {
-        if (world.getDimension().ultrawarm()) {
+        if (world.getEnvironmentAttributes().getAttributeValue(EnvironmentAttributes.WATER_EVAPORATES_GAMEPLAY, pos)) {
             world.setBlockState(pos, ModBlocks2.SPONGE_SLAB.getDefaultState()
                             .with(TYPE, world.getBlockState(pos).get(TYPE)),
                     Block.NOTIFY_ALL);
